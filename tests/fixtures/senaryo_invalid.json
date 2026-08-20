@@ -1,0 +1,41 @@
+{
+  "project_id": "Invalid Project ID!",
+  "video": {
+    "orientation": "portrait",
+    "resolution": [1920, 1080],
+    "fps": 120,
+    "video_bitrate_crf": 99,
+    "preset": "turbo",
+    "unknown_video_key": true
+  },
+  "tts": {
+    "voice": "tr-TR-AhmetNeural",
+    "rate": "8 percent",
+    "pitch": "0"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": false,
+    "max_lines": 9,
+    "color": "white"
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "",
+    "category_id": "not-a-number",
+    "privacy_status": "secret"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "   ",
+      "search_terms": [],
+      "clips_per_scene": 9
+    },
+    {
+      "id": 1,
+      "narration": "Duplicate scene id.",
+      "search_terms": ["something"]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "project_id": "test-project-01",
+  "video": {
+    "orientation": "portrait",
+    "resolution": [1080, 1920],
+    "fps": 30,
+    "max_duration_seconds": 175,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.4,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    }
+  },
+  "tts": {
+    "voice": "tr-TR-AhmetNeural",
+    "rate": "+8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": false,
+    "max_chars_per_line": 30,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 62,
+    "color": "#FFFFFF",
+    "stroke_color": "#000000",
+    "stroke_width": 3,
+    "position_ratio": 0.72,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Test Video Title",
+    "description": "A description for the test scenario.",
+    "tags": ["test", "pipeline"],
+    "category_id": "27",
+    "privacy_status": "private",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "tr",
+    "thumbnail_enabled": true
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Birinci sahnenin anlatim metni burada yer aliyor.",
+      "search_terms": ["vintage computer machine", "old typewriter close up"],
+      "clips_per_scene": 1,
+      "min_clip_duration": 4.0,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Ikinci sahne, iki ayri klip kullaniyor.",
+      "search_terms": ["smartphone in hand city"],
+      "clips_per_scene": 2,
+      "min_clip_duration": 3.0,
+      "zoom_effect": false
+    }
+  ]
+}

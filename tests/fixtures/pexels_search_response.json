@@ -1,0 +1,89 @@
+{
+  "page": 1,
+  "per_page": 15,
+  "total_results": 3,
+  "url": "https://www.pexels.com/videos/search/vintage%20computer/",
+  "videos": [
+    {
+      "id": 101,
+      "width": 1080,
+      "height": 1920,
+      "duration": 15,
+      "url": "https://www.pexels.com/video/portrait-clip-101/",
+      "image": "https://images.pexels.com/videos/101/thumb.jpg",
+      "user": {
+        "id": 9001,
+        "name": "Ada Lovelace",
+        "url": "https://www.pexels.com/@ada-lovelace"
+      },
+      "video_files": [
+        {
+          "id": 1011,
+          "quality": "hd",
+          "file_type": "video/mp4",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30.0,
+          "link": "https://player.vimeo.com/external/101-portrait-hd.mp4"
+        },
+        {
+          "id": 1012,
+          "quality": "sd",
+          "file_type": "video/mp4",
+          "width": 540,
+          "height": 960,
+          "fps": 30.0,
+          "link": "https://player.vimeo.com/external/101-portrait-sd.mp4"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "width": 3840,
+      "height": 2160,
+      "duration": 22,
+      "url": "https://www.pexels.com/video/landscape-clip-202/",
+      "image": "https://images.pexels.com/videos/202/thumb.jpg",
+      "user": {
+        "id": 9002,
+        "name": "Grace Hopper",
+        "url": "https://www.pexels.com/@grace-hopper"
+      },
+      "video_files": [
+        {
+          "id": 2021,
+          "quality": "uhd",
+          "file_type": "video/mp4",
+          "width": 3840,
+          "height": 2160,
+          "fps": 25.0,
+          "link": "https://player.vimeo.com/external/202-landscape-uhd.mp4"
+        }
+      ]
+    },
+    {
+      "id": 303,
+      "width": 1080,
+      "height": 1920,
+      "duration": 2,
+      "url": "https://www.pexels.com/video/short-clip-303/",
+      "image": "https://images.pexels.com/videos/303/thumb.jpg",
+      "user": {
+        "id": 9003,
+        "name": "Alan Turing",
+        "url": "https://www.pexels.com/@alan-turing"
+      },
+      "video_files": [
+        {
+          "id": 3031,
+          "quality": "hd",
+          "file_type": "video/mp4",
+          "width": 1080,
+          "height": 1920,
+          "fps": 30.0,
+          "link": "https://player.vimeo.com/external/303-portrait-short.mp4"
+        }
+      ]
+    }
+  ]
+}
