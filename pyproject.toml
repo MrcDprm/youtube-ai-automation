@@ -25,7 +25,7 @@ ignore = [
 "tests/*" = ["B011"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["config", "models", "modules", "utils"]
+known-first-party = ["config", "models", "modules", "utils", "zenn"]
 
 [tool.ruff.format]
 quote-style = "double"

@@ -7,13 +7,29 @@ anything that slips into a log record.
 
 from __future__ import annotations
 
+import re
 from functools import lru_cache
 from pathlib import Path
 
 from pydantic import Field, ValidationError, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from config.constants import CACHE_SUBDIRECTORIES, OUTPUT_SUBDIRECTORIES, PROJECT_ROOT
+from config.constants import (
+    CACHE_SUBDIRECTORIES,
+    DEFAULT_SCENARIOS_DIR,
+    DEFAULT_TOPICS_FILE,
+    OLLAMA_DEFAULT_HOST,
+    OLLAMA_DEFAULT_MODEL,
+    OUTPUT_SUBDIRECTORIES,
+    PROJECT_ROOT,
+    SCHEDULER_STATE_FILENAME,
+    SCRIPT_DEFAULT_SCENES,
+    SCRIPT_MAX_SCENES,
+    SCRIPT_MIN_SCENES,
+    VALID_ORIENTATIONS,
+    VALID_VIDEO_FORMATS,
+    VIDEO_FORMAT_SHORTS,
+)
 from utils.exceptions import ConfigurationError
 
 __all__ = ["PROJECT_ROOT", "Settings", "get_settings"]
@@ -42,6 +58,22 @@ class Settings(BaseSettings):
     YOUTUBE_CLIENT_SECRETS_FILE: Path = Field(default=Path("secrets/client_secrets.json"))
     YOUTUBE_TOKEN_FILE: Path = Field(default=Path("secrets/token.json"))
 
+    # --- Local script generation ----------------------------------------------------
+    OLLAMA_HOST: str = Field(default=OLLAMA_DEFAULT_HOST)
+    OLLAMA_MODEL: str = Field(default=OLLAMA_DEFAULT_MODEL)
+    OLLAMA_TIMEOUT: float = Field(default=180.0, gt=0, le=3600)
+
+    # --- Daily automation -----------------------------------------------------------
+    DAILY_UPLOAD: bool = Field(default=False)
+    DAILY_SCENES: int = Field(
+        default=SCRIPT_DEFAULT_SCENES, ge=SCRIPT_MIN_SCENES, le=SCRIPT_MAX_SCENES
+    )
+    DAILY_LANGUAGE: str = Field(default="tr")
+    DAILY_ORIENTATION: str = Field(default="portrait")
+    VIDEO_FORMAT: str = Field(default=VIDEO_FORMAT_SHORTS)
+    DAILY_TIME: str = Field(default="09:00")
+    SCENARIOS_DIR: Path = Field(default=DEFAULT_SCENARIOS_DIR)
+
     # --- Runtime -------------------------------------------------------------------
     LOG_LEVEL: str = Field(default="INFO")
     OUTPUT_DIR: Path = Field(default=Path("output"))
@@ -60,6 +92,59 @@ class Settings(BaseSettings):
         if normalized not in allowed:
             raise ValueError(f"LOG_LEVEL must be one of {sorted(allowed)}, got {value!r}")
         return normalized
+
+    @field_validator("OLLAMA_HOST")
+    @classmethod
+    def _validate_ollama_host(cls, value: str) -> str:
+        """Require a scheme and drop any trailing slash so path joining stays predictable."""
+        cleaned = value.strip().rstrip("/")
+        if not cleaned:
+            raise ValueError("OLLAMA_HOST cannot be empty")
+        if not cleaned.startswith(("http://", "https://")):
+            raise ValueError(f"OLLAMA_HOST must start with http:// or https://, got {value!r}")
+        return cleaned
+
+    @field_validator("DAILY_ORIENTATION")
+    @classmethod
+    def _validate_daily_orientation(cls, value: str) -> str:
+        """Accept only the three orientations the rest of the pipeline understands."""
+        cleaned = value.strip().lower()
+        if cleaned not in VALID_ORIENTATIONS:
+            raise ValueError(
+                f"DAILY_ORIENTATION must be one of {sorted(VALID_ORIENTATIONS)}, got {value!r}"
+            )
+        return cleaned
+
+    @field_validator("VIDEO_FORMAT")
+    @classmethod
+    def _validate_video_format(cls, value: str) -> str:
+        """Accept only the formats the pipeline knows how to render."""
+        cleaned = value.strip().lower()
+        if cleaned not in VALID_VIDEO_FORMATS:
+            raise ValueError(
+                f"VIDEO_FORMAT must be one of {sorted(VALID_VIDEO_FORMATS)}, got {value!r}"
+            )
+        return cleaned
+
+    @field_validator("DAILY_TIME")
+    @classmethod
+    def _validate_daily_time(cls, value: str) -> str:
+        """Require a 24-hour ``HH:MM`` clock time for the scheduled task."""
+        cleaned = value.strip()
+        if not re.fullmatch(r"(?:[01]\d|2[0-3]):[0-5]\d", cleaned):
+            raise ValueError(f"DAILY_TIME must look like '09:00', got {value!r}")
+        return cleaned
+
+    def ollama_url(self, path: str) -> str:
+        """Build a full Ollama endpoint URL.
+
+        Args:
+            path: An endpoint path beginning with a slash, such as ``"/api/chat"``.
+
+        Returns:
+            The absolute URL.
+        """
+        return f"{self.OLLAMA_HOST}{path}"
 
     # --- Derived paths --------------------------------------------------------------
 
@@ -129,6 +214,14 @@ class Settings(BaseSettings):
         """Directory for generated thumbnails."""
         return self.output_dir / "thumbnails"
 
+    def storyboard_dir(self) -> Path:
+        """Directory for Badly Drawn Why stills dropped by the image agent."""
+        return self.output_dir / "storyboard"
+
+    def studio_dir(self) -> Path:
+        """Directory for YouTube Studio copy-paste packs."""
+        return self.output_dir / "studio"
+
     def logs_dir(self) -> Path:
         """Directory for per-run log files."""
         return self.output_dir / "logs"
@@ -148,6 +241,18 @@ class Settings(BaseSettings):
     def scene_cache_dir(self) -> Path:
         """Cache index for rendered scenes, keyed by their full input fingerprint."""
         return self.cache_dir / "scenes"
+
+    def scenarios_dir(self) -> Path:
+        """Directory holding the inbox/done/failed queue and ``topics.json``."""
+        return self._absolute(self.SCENARIOS_DIR)
+
+    def topics_path(self) -> Path:
+        """Path to the topic list the daily command consumes."""
+        return self.scenarios_dir() / DEFAULT_TOPICS_FILE
+
+    def scheduler_state_path(self) -> Path:
+        """Path to the daily-run state file (last success date and used topics)."""
+        return self.cache_dir / "scheduler" / SCHEDULER_STATE_FILENAME
 
     # --- Helpers ---------------------------------------------------------------------
 

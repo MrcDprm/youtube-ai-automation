@@ -1,0 +1,18 @@
+{
+  "palette": {
+    "background": "#000000",
+    "line": "#FFFFFF",
+    "accent": "#FFD600",
+    "alert": "#FF3B30"
+  },
+  "beat": {
+    "min_seconds": 1.0,
+    "target_seconds": 2.2,
+    "max_seconds": 4.0
+  },
+  "caption": {
+    "weight": "bold",
+    "region": "lower_third",
+    "highlight_active_word": true
+  }
+}

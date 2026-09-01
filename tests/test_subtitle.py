@@ -7,10 +7,18 @@ from pathlib import Path
 
 import pytest
 
-from config.constants import MAX_CUE_DURATION, MIN_CUE_DURATION
+from config.constants import CUE_GAP_SECONDS, MAX_CUE_DURATION, MIN_CUE_DURATION, STORY_SUBTITLE_MAX_CHARS
 from models.scenario import SubtitleSettings
 from modules.interfaces import WordCue
-from modules.subtitle import SrtSubtitleBuilder, format_timestamp, wrap_words
+from modules.subtitle import (
+    SrtSubtitleBuilder,
+    ass_colour,
+    cues_to_ass,
+    format_ass_timestamp,
+    format_timestamp,
+    wrap_words,
+)
+from modules.tts import attach_punctuation
 
 
 def _settings(**overrides: object) -> SubtitleSettings:
@@ -171,6 +179,35 @@ def test_long_cues_are_capped_at_the_maximum() -> None:
     assert cues[0].duration <= MAX_CUE_DURATION + 1e-6
 
 
+def test_max_cue_duration_is_two_and_a_half_seconds() -> None:
+    """Captions refresh about twice as often as a 5-second still cut."""
+    assert MAX_CUE_DURATION == 2.5
+    assert STORY_SUBTITLE_MAX_CHARS == 32
+    assert CUE_GAP_SECONDS == 0.0
+
+
+def test_cues_split_before_they_exceed_two_and_a_half_seconds() -> None:
+    """A run of words that would linger past the ceiling becomes two cues."""
+    words = _words(("one", 0.0, 1.0), ("two", 1.0, 2.0), ("three", 2.0, 3.0))
+    cues = SrtSubtitleBuilder().build(words, _settings(max_chars_per_line=40, max_lines=2))
+
+    assert len(cues) >= 2
+    assert all(cue.duration <= MAX_CUE_DURATION + 1e-6 for cue in cues)
+
+
+def test_attached_punctuation_closes_the_cue_at_the_period() -> None:
+    """Restored periods let grouping break on the sentence, not the character budget."""
+    words = attach_punctuation(
+        "Soup. Beans.",
+        _words(("Soup", 0.0, 0.4), ("Beans", 0.4, 0.8)),
+    )
+    cues = SrtSubtitleBuilder().build(words, _settings(max_chars_per_line=40, max_lines=2))
+
+    assert len(cues) == 2
+    assert cues[0].text.replace("\n", " ") == "Soup."
+    assert cues[1].text.replace("\n", " ") == "Beans."
+
+
 def test_offset_shifts_every_timestamp() -> None:
     """A scene's cues can be placed onto the whole-video timeline."""
     words = _evenly_spaced("bir iki uc")
@@ -270,3 +307,35 @@ def test_merge_renumbers_across_scenes() -> None:
 
     assert [cue.index for cue in merged] == list(range(1, len(merged) + 1))
     assert merged[-1].start >= 20.0
+
+
+def test_ass_colour_is_bgr() -> None:
+    """ASS stores colours as AABBGGRR, so gold #FFD34F becomes blue-led."""
+    assert ass_colour("#FFD34F") == "&H004FD3FF"
+    assert ass_colour("#FFFFFF") == "&H00FFFFFF"
+
+
+def test_cues_to_ass_is_bottom_aligned() -> None:
+    """Story burn-in uses Alignment 2 and a bottom margin so lines are not clipped."""
+    from modules.interfaces import SubtitleCue
+
+    cues = [
+        SubtitleCue(
+            index=1, start=0.0, end=1.5, text="birinci satır\nikinci satır", color="#FFFFFF"
+        ),
+        SubtitleCue(index=2, start=1.5, end=3.0, text="altın", color="#FFD34F"),
+    ]
+    body = cues_to_ass(
+        cues,
+        play_res_x=1920,
+        play_res_y=1080,
+        font_name="Inter",
+        font_size=48,
+        primary="#FFFFFF",
+        margin_v=80,
+    )
+    assert "Alignment, MarginL, MarginR, MarginV" in body
+    assert ",2,40,40,80,1" in body
+    assert format_ass_timestamp(1.5) in body
+    assert r"\c&H004FD3FF&" in body
+    assert r"\N" in body

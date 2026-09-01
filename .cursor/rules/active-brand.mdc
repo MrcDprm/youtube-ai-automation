@@ -1,0 +1,36 @@
+---
+description: Dispatch production to the active YouTube brand. Do not mix brands.
+alwaysApply: true
+---
+
+# Active brand
+
+Read `brands/active.json` before any video, episode, still, or Studio work. Follow **only** that brand's skill.
+
+«yeni video» (or an equivalent produce request) follows the **active** brand. Until the operator changes `brands/active.json`, that is Badly Drawn Why. Do not produce Drawn Anyway or After Hours File while this id is `badly-drawn-why`.
+
+## `badly-drawn-why`
+
+Follow `.cursor/skills/badly-drawn-why/SKILL.md`.
+English 11-minute MS Paint stickman "why" essay. Voice `en-US-GuyNeural`. Scenario `senaryo-paint.json`. About 132 stills. Next unshipped topic in `scenarios/topics-paint.json`.
+
+## `after-hours-file`
+
+Follow `.cursor/skills/after-hours-file/SKILL.md`.
+English 9–11 minute **one closed file** (researched mystery). Illustrated night stills, not stickman. Voice `en-GB-RyanNeural` at `-12%`. Scenario `senaryo-file.json`. About 60 stills.
+
+## `drawn-anyway`
+
+Follow `.cursor/skills/drawn-anyway/SKILL.md`.
+English **8–11 minute** **one true story**, cartoon mascot, punchline, comment hook. Higgsfield explainer only if paid credits exist and are requested; otherwise cartoon stills + Edge TTS (default `en-AU-WilliamNeural` at `+4%`; voice and captions may vary). Scenario `senaryo-drawn.json`. About 48–66 stills/blocks.
+
+## Never
+
+- Mixing the three brands in one episode
+- YouTube API upload
+- Pexels on paint/file/drawn stills
+- Asking the operator to draw, narrate, or write title/description/thumbnail
+
+Chat with the operator in Turkish. They only upload: MP4, thumbnail JPEG, Studio paste text.
+
+To switch brands, change `brands/active.json` only. Do not delete the other skills.

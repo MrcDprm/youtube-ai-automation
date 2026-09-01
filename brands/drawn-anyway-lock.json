@@ -1,0 +1,23 @@
+{
+  "mascot_name": "Ink",
+  "style_descriptor": "bold cartoon storytime, thick ink outlines, flat candy fills (mustard, ink-blue, cream paper, tomato red), slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism",
+  "higgsfield_style_job_id": "89253f44-83c5-47c9-9dbe-4c43a478d002",
+  "style_key_local": "brands/drawn-anyway-mascot.png",
+  "higgsfield_voice": {
+    "name": "Fraser",
+    "voice_id": "6705e465-7b52-5915-a1d8-b1222885e01d",
+    "voice_type": "preset"
+  },
+  "edge_tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "fallback": "en-US-GuyNeural"
+  },
+  "explainer": {
+    "default_minutes": 8,
+    "block_seconds": 10,
+    "blocks": 48,
+    "gemini_omni_credits_per_10s_approx": 30,
+    "note": "Full Omni explainer needs ~1200+ credits. Use cartoon stills + Edge TTS when below that floor."
+  }
+}

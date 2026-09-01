@@ -24,13 +24,14 @@ from edge_tts.exceptions import EdgeTTSException
 from config.constants import SYMBOL_EXPANSIONS, TURKISH_ABBREVIATIONS
 from models.scenario import TTSSettings
 from modules.interfaces import ITTSEngine, TTSResult, WordCue
+from modules.language import apply_pronunciations, get_language_pack
 from utils.exceptions import TTSError
 from utils.fs import atomic_write_bytes, ensure_parent, hash_payload, read_json, write_json
 from utils.logger import get_logger
 from utils.media import probe_duration
 from utils.retry import make_async_retrying
 
-__all__ = ["EdgeTTSEngine", "normalize_narration"]
+__all__ = ["EdgeTTSEngine", "attach_punctuation", "normalize_narration", "year_to_turkish"]
 
 logger = get_logger(__name__)
 
@@ -62,19 +63,85 @@ _MARKDOWN_LINK = re.compile(r"\[([^\]]+)\]\([^)]*\)")
 _MARKDOWN_EMPHASIS = re.compile(r"(\*{1,3}|_{1,3}|`{1,3}|~{2})")
 _MARKDOWN_HEADING = re.compile(r"^\s{0,3}#{1,6}\s*", flags=re.MULTILINE)
 _WHITESPACE = re.compile(r"\s+")
+_EDGE_PUNCT = re.compile(r"^[^\w]+|[^\w]+$", flags=re.UNICODE)
+_LEADING_PUNCT = re.compile(r"^[^\w]+", flags=re.UNICODE)
+_TRAILING_PUNCT = re.compile(r"[^\w]+$", flags=re.UNICODE)
 _SENTENCE_TERMINATORS = ".!?…:;"
+_YEAR = re.compile(r"\b((?:1[0-9]{3})|(?:20[0-9]{2}))\b")
+
+_TURKISH_ONES = (
+    "",
+    "bir",
+    "iki",
+    "üç",
+    "dört",
+    "beş",
+    "altı",
+    "yedi",
+    "sekiz",
+    "dokuz",
+)
+_TURKISH_TENS = (
+    "",
+    "on",
+    "yirmi",
+    "otuz",
+    "kırk",
+    "elli",
+    "altmış",
+    "yetmiş",
+    "seksen",
+    "doksan",
+)
 
 
-def normalize_narration(text: str, *, expand_abbreviations: bool = True) -> str:
+def year_to_turkish(year: int) -> str:
+    """Spell a four-digit year as Turkish words for Neural TTS.
+
+    Args:
+        year: A year in 1000–2099.
+
+    Returns:
+        Spoken Turkish, for example ``1956`` → ``bin dokuz yüz elli altı``.
+    """
+    if year < 1000 or year > 2099:
+        return str(year)
+    thousands, rest = divmod(year, 1000)
+    parts: list[str] = ["bin"] if thousands == 1 else [f"{_TURKISH_ONES[thousands]} bin"]
+    hundreds, tens_ones = divmod(rest, 100)
+    if hundreds == 1:
+        parts.append("yüz")
+    elif hundreds:
+        parts.append(f"{_TURKISH_ONES[hundreds]} yüz")
+    tens, ones = divmod(tens_ones, 10)
+    if tens:
+        parts.append(_TURKISH_TENS[tens])
+    if ones:
+        parts.append(_TURKISH_ONES[ones])
+    return " ".join(parts)
+
+
+def _expand_years(text: str, language: str) -> str:
+    """Replace four-digit years with spoken words when the language pack is Turkish."""
+    if get_language_pack(language).code != "tr":
+        return text
+    return _YEAR.sub(lambda match: year_to_turkish(int(match.group(1))), text)
+
+
+def normalize_narration(
+    text: str, *, expand_abbreviations: bool = True, language: str = "tr"
+) -> str:
     """Clean narration text so the voice reads it naturally.
 
     Collapses whitespace, removes markdown and emoji that would otherwise be spelled out,
-    expands common Turkish abbreviations and symbols, and guarantees terminal punctuation so
-    the engine does not clip the final word.
+    expands common Turkish abbreviations, years and symbols, applies the language pack's
+    pronunciation map, and guarantees terminal punctuation so the engine does not clip the
+    final word.
 
     Args:
         text: Raw narration from the scenario.
-        expand_abbreviations: Whether to expand abbreviations and symbols.
+        expand_abbreviations: Whether to expand abbreviations, years, names and symbols.
+        language: Narration language code, used for years and pronunciation.
 
     Returns:
         Normalized text, ready to speak.
@@ -90,6 +157,8 @@ def normalize_narration(text: str, *, expand_abbreviations: bool = True) -> str:
     if expand_abbreviations:
         for abbreviation, expansion in TURKISH_ABBREVIATIONS.items():
             cleaned = cleaned.replace(abbreviation, expansion)
+        cleaned = apply_pronunciations(cleaned, language)
+        cleaned = _expand_years(cleaned, language)
         for symbol, expansion in SYMBOL_EXPANSIONS.items():
             cleaned = cleaned.replace(symbol, expansion)
 
@@ -104,6 +173,67 @@ def normalize_narration(text: str, *, expand_abbreviations: bool = True) -> str:
     if cleaned[-1] not in _SENTENCE_TERMINATORS:
         cleaned += "."
     return cleaned
+
+
+def _word_core(text: str) -> str:
+    """Return the alphanumeric body of a token, for matching TTS words to narration."""
+    return _EDGE_PUNCT.sub("", text).casefold()
+
+
+def _graft_punctuation(cue_text: str, token: str) -> str:
+    """Copy a narration token's leading and trailing punctuation onto a TTS word."""
+    body = _EDGE_PUNCT.sub("", cue_text)
+    if not body:
+        return cue_text
+    leading = _LEADING_PUNCT.match(token)
+    trailing = _TRAILING_PUNCT.search(token)
+    prefix = leading.group(0) if leading else ""
+    suffix = trailing.group(0) if trailing else ""
+    return f"{prefix}{body}{suffix}"
+
+
+def attach_punctuation(spoken: str, cues: list[WordCue]) -> list[WordCue]:
+    """Restore sentence and clause punctuation that edge-tts strips from word boundaries.
+
+    Edge TTS ``WordBoundary`` events are typically bare words (``can``), so subtitle grouping
+    never sees periods or commas. This walks the already-normalized narration in order and
+    grafts each matching token's edge punctuation back onto the cue (``can`` + ``.`` →
+    ``can.``). A cue whose core does not appear in the remaining narration is left unchanged.
+
+    Args:
+        spoken: Narration after :func:`normalize_narration`.
+        cues: Word timings from the engine or the cache.
+
+    Returns:
+        A new list of cues; timings are never altered.
+    """
+    tokens = spoken.split()
+    if not cues or not tokens:
+        return list(cues)
+
+    token_i = 0
+    attached: list[WordCue] = []
+    for cue in cues:
+        core = _word_core(cue.text)
+        if not core:
+            attached.append(cue)
+            continue
+
+        matched: str | None = None
+        search = token_i
+        while search < len(tokens):
+            if _word_core(tokens[search]) == core:
+                matched = tokens[search]
+                token_i = search + 1
+                break
+            search += 1
+
+        if matched is None:
+            attached.append(cue)
+            continue
+        grafted = _graft_punctuation(cue.text, matched)
+        attached.append(WordCue(text=grafted, start=cue.start, end=cue.end))
+    return attached
 
 
 def _is_retryable_tts_error(exc: BaseException) -> bool:
@@ -173,17 +303,28 @@ class EdgeTTSEngine(ITTSEngine):
         Raises:
             TTSError: If synthesis fails, or produces empty or implausibly small audio.
         """
-        spoken = normalize_narration(text, expand_abbreviations=tts.normalize_text)
-        cache_key = hash_payload("edge-tts-v1", spoken, tts.voice, tts.rate, tts.volume, tts.pitch)
+        spoken = normalize_narration(
+            text, expand_abbreviations=tts.normalize_text, language=tts.language
+        )
+        cache_key = hash_payload(
+            "edge-tts-v2", spoken, tts.voice, tts.rate, tts.volume, tts.pitch, tts.language
+        )
 
         cached = self._load_from_cache(cache_key, out_path, tts.voice)
         if cached is not None:
             logger.debug("TTS cache hit %s for %s", cache_key[:12], out_path.name)
-            return cached
+            return TTSResult(
+                audio_path=cached.audio_path,
+                duration=cached.duration,
+                word_cues=attach_punctuation(spoken, cached.word_cues),
+                voice=cached.voice,
+                cached=True,
+            )
 
         async with self._semaphore:
             audio, word_cues = await self._synthesize_with_retry(spoken, tts)
 
+        word_cues = attach_punctuation(spoken, word_cues)
         self._validate_audio(audio, out_path)
         ensure_parent(out_path)
         atomic_write_bytes(out_path, audio)

@@ -15,7 +15,11 @@ from typing import Any
 from models.scenario import Scenario, Scene, SubtitleSettings, TTSSettings, YouTubeSettings
 
 __all__ = [
+    "DraftScene",
+    "DraftScript",
+    "DraftVisualBeat",
     "IMediaProvider",
+    "IScriptGenerator",
     "ISubtitleBuilder",
     "ITTSEngine",
     "IThumbnailBuilder",
@@ -76,12 +80,14 @@ class SubtitleCue:
         start: Display start time in seconds.
         end: Display end time in seconds.
         text: Cue text, with ``\\n`` separating lines.
+        color: Optional burn-in fill colour (``#RRGGBB``). ``None`` uses subtitle settings.
     """
 
     index: int
     start: float
     end: float
     text: str
+    color: str | None = None
 
     @property
     def duration(self) -> float:
@@ -107,6 +113,7 @@ class SubtitleCue:
             start=self.start + offset,
             end=self.end + offset,
             text=self.text,
+            color=self.color,
         )
 
     def renumbered(self, index: int) -> SubtitleCue:
@@ -118,7 +125,13 @@ class SubtitleCue:
         Returns:
             A new :class:`SubtitleCue`.
         """
-        return SubtitleCue(index=index, start=self.start, end=self.end, text=self.text)
+        return SubtitleCue(
+            index=index,
+            start=self.start,
+            end=self.end,
+            text=self.text,
+            color=self.color,
+        )
 
 
 @dataclass(frozen=True, slots=True)
@@ -324,9 +337,104 @@ class UploadResult:
     caption_uploaded: bool = False
 
 
+@dataclass(frozen=True, slots=True)
+class DraftScene:
+    """One scene's creative content, before it is fitted to the scenario schema.
+
+    Attributes:
+        narration: Spoken text, in the requested narration language.
+        search_terms: English stock-footage queries, ordered most to least specific.
+    """
+
+    narration: str
+    search_terms: tuple[str, ...]
+
+
+@dataclass(frozen=True, slots=True)
+class DraftVisualBeat:
+    """One drawing instruction produced with a spoken essay.
+
+    Attributes:
+        slug: Filename-safe id such as ``01-light-switch``.
+        prompt: MS Paint scene description for the image agent.
+        covers: Short transcript excerpt this still should match.
+    """
+
+    slug: str
+    prompt: str
+    covers: str = ""
+
+
+@dataclass(frozen=True, slots=True)
+class DraftScript:
+    """A generated script: only the parts a language model is actually good at.
+
+    Everything structural — resolution, codec settings, voice, subtitle styling — is filled in
+    deterministically by :mod:`modules.scenario_builder`, so a weak model cannot corrupt it.
+
+    Attributes:
+        title: Proposed video title.
+        description: Proposed video description.
+        tags: Proposed tags, already deduplicated.
+        scenes: The scenes in playback order.
+        visual_beats: Paint-format drawing list; empty for Shorts and photo stories.
+        thumbnail_hook: Two-to-four-word yellow cover line; empty when unused.
+    """
+
+    title: str
+    description: str
+    tags: tuple[str, ...]
+    scenes: tuple[DraftScene, ...]
+    visual_beats: tuple[DraftVisualBeat, ...] = ()
+    thumbnail_hook: str = ""
+
+
 # --------------------------------------------------------------------------------------
 # Interfaces
 # --------------------------------------------------------------------------------------
+
+
+class IScriptGenerator(ABC):
+    """Turns a topic into a draft script.
+
+    Implementations are authoring-time tools. The render pipeline never depends on this
+    interface, which is what keeps ``run`` free of language-model calls.
+    """
+
+    @abstractmethod
+    def generate(
+        self,
+        topic: str,
+        *,
+        scene_count: int,
+        language: str = "tr",
+        extra_guidance: str | None = None,
+    ) -> DraftScript:
+        """Draft a script for a topic.
+
+        Args:
+            topic: What the video should be about.
+            scene_count: How many scenes to produce.
+            language: Narration language as a short code such as ``"tr"``.
+            extra_guidance: Optional free-text steering, for example a desired tone.
+
+        Returns:
+            A validated draft script.
+
+        Raises:
+            ScriptGenerationError: If the model is unreachable or never returns usable output.
+        """
+
+    @abstractmethod
+    def available_models(self) -> list[str]:
+        """List the models the backend currently has installed.
+
+        Returns:
+            Model names, empty when the backend is reachable but has none.
+
+        Raises:
+            ScriptGenerationError: If the backend cannot be reached.
+        """
 
 
 class ITTSEngine(ABC):
@@ -448,6 +556,21 @@ class ISubtitleBuilder(ABC):
             SubtitleError: If the file cannot be written.
         """
 
+    def finish(self, cues: list[SubtitleCue], settings: SubtitleSettings) -> list[SubtitleCue]:
+        """Optional post-pass on the merged timeline (colour, restyle).
+
+        The default implementation returns ``cues`` unchanged so Shorts builders need no
+        override.
+
+        Args:
+            cues: Whole-video cues, already merged and numbered.
+            settings: Appearance settings.
+
+        Returns:
+            The cues to write and burn in.
+        """
+        return cues
+
 
 class IVideoEditor(ABC):
     """Composes scenes and assembles the finished video."""
@@ -484,6 +607,72 @@ class IVideoEditor(ABC):
         Raises:
             RenderError: If assembly or encoding fails, or the result exceeds
                 ``video.max_duration_seconds``.
+        """
+
+    @abstractmethod
+    def build_photo_story(
+        self,
+        photo_paths: list[Path],
+        audio_paths: list[Path],
+        audio_durations: list[float],
+        subtitle_cues: list[SubtitleCue],
+        scenario: Scenario,
+        font_path: Path | None,
+        out_path: Path,
+    ) -> Path:
+        """Render a longform stills track under concatenated narration.
+
+        Used only when ``video.format`` is ``story``. Shorts continues to call
+        :meth:`build_scene` and :meth:`assemble`.
+
+        Args:
+            photo_paths: Unique stills, already downloaded, in display order.
+            audio_paths: Per-scene narration files in playback order.
+            audio_durations: Measured lengths matching ``audio_paths``.
+            subtitle_cues: Cues already placed on the whole-video timeline.
+            scenario: The project, for visual settings, gaps and encoder options.
+            font_path: Resolved font for burn-in, or ``None`` to skip captions.
+            out_path: Destination MP4 path.
+
+        Returns:
+            The written path.
+
+        Raises:
+            RenderError: If composition or encoding fails, or the result exceeds
+                ``video.max_duration_seconds``.
+        """
+
+    @abstractmethod
+    def build_zenn_story(
+        self,
+        beats: list[Any],
+        frame_paths: list[Path],
+        audio_paths: list[Path],
+        audio_durations: list[float],
+        word_cues: list[WordCue],
+        scenario: Scenario,
+        font_path: Path | None,
+        out_path: Path,
+    ) -> Path:
+        """Render Zenn stick-cut beats under concatenated narration.
+
+        Used when ``video.story_visual.zenn_enabled`` is true on a paint project.
+
+        Args:
+            beats: Timeline-ordered visual holds.
+            frame_paths: One PNG per beat.
+            audio_paths: Per-scene narration files in playback order.
+            audio_durations: Measured lengths matching ``audio_paths``.
+            word_cues: Whole-video word timings for karaoke burn-in.
+            scenario: The project, for visual settings, gaps and encoder options.
+            font_path: Resolved font for burn-in, or ``None`` to skip captions.
+            out_path: Destination MP4 path.
+
+        Returns:
+            The written path.
+
+        Raises:
+            RenderError: If composition or encoding fails.
         """
 
 

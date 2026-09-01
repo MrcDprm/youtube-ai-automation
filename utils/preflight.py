@@ -17,9 +17,12 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+import requests
+
 from config.constants import (
     MIN_FREE_DISK_BYTES,
     MIN_PYTHON_VERSION,
+    OLLAMA_TAGS_PATH,
     OUTPUT_SUBDIRECTORIES,
     PROJECT_ROOT,
 )
@@ -283,6 +286,74 @@ def _check_ffmpeg_threads(settings: Settings) -> CheckResult:
     )
 
 
+def _check_ollama(settings: Settings) -> CheckResult:
+    """Report whether the local model server is reachable and has the configured model.
+
+    Never fatal: script generation is optional, and a hand-written scenario needs no model.
+    The timeout is deliberately short because this only ever contacts localhost.
+    """
+    name = "Script model (Ollama)"
+    url = settings.ollama_url(OLLAMA_TAGS_PATH)
+    try:
+        response = requests.get(url, timeout=3.0)
+        response.raise_for_status()
+        payload = response.json()
+    except requests.RequestException:
+        return CheckResult(
+            name=name,
+            passed=False,
+            detail=f"not reachable at {settings.OLLAMA_HOST}",
+            hint=(
+                "Only needed for 'generate'. Install from https://ollama.com, then run "
+                f"'ollama pull {settings.OLLAMA_MODEL}'."
+            ),
+            fatal=False,
+        )
+    except ValueError:
+        return CheckResult(
+            name=name,
+            passed=False,
+            detail=f"{settings.OLLAMA_HOST} replied with malformed JSON",
+            hint="Confirm OLLAMA_HOST points at an Ollama server and not another service.",
+            fatal=False,
+        )
+
+    installed: list[str] = []
+    if isinstance(payload, dict) and isinstance(payload.get("models"), list):
+        installed = [
+            str(entry["name"])
+            for entry in payload["models"]
+            if isinstance(entry, dict) and entry.get("name")
+        ]
+
+    wanted = settings.OLLAMA_MODEL
+    # Ollama reports tags as "name:tag", so a bare model name should still count as present.
+    if any(tag == wanted or tag.split(":")[0] == wanted.split(":")[0] for tag in installed):
+        return CheckResult(name=name, passed=True, detail=f"{wanted} available")
+
+    return CheckResult(
+        name=name,
+        passed=False,
+        detail=f"server up, but '{wanted}' is not installed",
+        hint=f"Pull it with: ollama pull {wanted}",
+        fatal=False,
+    )
+
+
+def _check_topics(settings: Settings) -> CheckResult:
+    """Report whether a daily topic list exists. Never fatal: daily is optional."""
+    path = settings.topics_path()
+    if path.is_file():
+        return CheckResult(name="Daily topics", passed=True, detail=str(path))
+    return CheckResult(
+        name="Daily topics",
+        passed=False,
+        detail=f"{path} not found",
+        hint="Copy scenarios/topics.example.json to scenarios/topics.json.",
+        fatal=False,
+    )
+
+
 def run_all_checks(settings: Settings) -> list[CheckResult]:
     """Run every preflight check.
 
@@ -303,6 +374,8 @@ def run_all_checks(settings: Settings) -> list[CheckResult]:
         _check_cache_dir(settings),
         _check_disk_space(settings),
         _check_ffmpeg_threads(settings),
+        _check_ollama(settings),
+        _check_topics(settings),
         _check_youtube_credentials(settings),
     ]
 

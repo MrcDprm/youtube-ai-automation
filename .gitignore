@@ -17,3 +17,6 @@ Thumbs.db
 *.egg-info/
 build/
 dist/
+scenarios/processing/
+scenarios/done/
+scenarios/failed/

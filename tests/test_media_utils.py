@@ -21,10 +21,12 @@ from utils.media import (
     aspect_ratio,
     classify_orientation,
     distribute_duration,
+    ken_burns_zoompan_filter,
     make_even,
     matches_orientation,
     plan_scale_and_crop,
     resolution_for_orientation,
+    subtitle_top_y,
     zoom_scale_at,
 )
 
@@ -361,3 +363,19 @@ def test_redaction_covers_log_arguments() -> None:
 def test_filter_never_drops_records() -> None:
     """The filter censors rather than suppresses."""
     assert SecretRedactingFilter().filter(_record("harmless")) is True
+
+
+def test_subtitle_top_y_keeps_the_box_inside_the_frame() -> None:
+    """A two-line caption box is placed from the bottom, not by a ratio of the top."""
+    y = subtitle_top_y(1080, 140)
+    assert y + 140 <= 1080
+    assert y > 800
+
+
+def test_ken_burns_filter_upscales_before_zoompan() -> None:
+    """Zooming a 1920 frame directly is what made the previous stills shake."""
+    vf = ken_burns_zoompan_filter(1920, 1080, 30, 900, 1.0, 1.08)
+    assert "scale=7680:4320" in vf
+    assert "s=1920x1080" in vf
+    assert "zoompan=" in vf
+    assert ":y='0'" in vf

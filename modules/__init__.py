@@ -7,7 +7,10 @@ depends on the abstractions in ``modules.interfaces`` alone, and the composition
 
 from modules.editor import MoviePyEditor
 from modules.interfaces import (
+    DraftScene,
+    DraftScript,
     IMediaProvider,
+    IScriptGenerator,
     ISubtitleBuilder,
     IThumbnailBuilder,
     ITTSEngine,
@@ -23,7 +26,9 @@ from modules.interfaces import (
 )
 from modules.media_cache import MediaCache
 from modules.pipeline import PipelineOptions, RunManifest, VideoPipeline
+from modules.scenario_builder import build_scenario, make_project_id, write_scenario
 from modules.scenario_loader import ScenarioLoader, load_scenario
+from modules.script_generator import OllamaScriptGenerator
 from modules.subtitle import SrtSubtitleBuilder, format_timestamp, wrap_words
 from modules.thumbnail import PillowThumbnailBuilder
 from modules.tts import EdgeTTSEngine, normalize_narration
@@ -38,8 +43,11 @@ from modules.video_fetcher import (
 
 __all__ = [
     "CompositeMediaProvider",
+    "DraftScene",
+    "DraftScript",
     "EdgeTTSEngine",
     "IMediaProvider",
+    "IScriptGenerator",
     "ISubtitleBuilder",
     "ITTSEngine",
     "IThumbnailBuilder",
@@ -49,6 +57,7 @@ __all__ = [
     "MediaCandidate",
     "MediaCredit",
     "MoviePyEditor",
+    "OllamaScriptGenerator",
     "PexelsVideoProvider",
     "PillowThumbnailBuilder",
     "PipelineOptions",
@@ -65,9 +74,12 @@ __all__ = [
     "YouTubeUploader",
     "build_description",
     "build_query_ladder",
+    "build_scenario",
     "format_timestamp",
     "load_scenario",
+    "make_project_id",
     "normalize_narration",
     "score_candidate",
     "wrap_words",
+    "write_scenario",
 ]

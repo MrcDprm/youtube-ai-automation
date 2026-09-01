@@ -20,7 +20,12 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from config.constants import PROVIDER_LOCAL
+from config.constants import (
+    PHOTO_FALLBACK_QUERIES,
+    PROJECT_ROOT,
+    PROVIDER_LOCAL,
+    STORY_DURATION_TOLERANCE_SECONDS,
+)
 from config.settings import Settings
 from models.scenario import Scenario, Scene, resolve_project_path
 from modules.interfaces import (
@@ -36,6 +41,13 @@ from modules.interfaces import (
     SubtitleCue,
     TTSResult,
     UploadResult,
+)
+from modules.paint_stills import copy_paint_stills, resolve_paint_stills
+from modules.story_duration import keep_leading_scenes, spoken_length
+from modules.studio_pack import (
+    find_paint_thumbnail,
+    prepare_youtube_thumbnail,
+    write_studio_pack,
 )
 from utils.exceptions import MediaNotFoundError, PipelineError, RenderError
 from utils.fs import (
@@ -56,6 +68,9 @@ from utils.logger import (
     make_step_progress,
     summary_table,
 )
+from zenn.render.frames import render_beat_frames
+from zenn.render.thumbnail import build_zenn_thumbnail
+from zenn.render.timeline import collect_word_cues, story_beats
 
 __all__ = ["PipelineOptions", "RunManifest", "VideoPipeline"]
 
@@ -232,10 +247,13 @@ class VideoPipeline:
         self._credits: list[MediaCredit] = []
         self._tts_results: dict[int, TTSResult] = {}
         self._scene_cues: dict[int, list[SubtitleCue]] = {}
+        self._timeline_cues: list[SubtitleCue] = []
         self._scene_media: dict[int, list[Path]] = {}
+        self._story_photos: list[Path] = []
         self._scene_paths: list[Path] = []
         self._font_path: Path | None = None
         self._srt_path: Path | None = None
+        self._scene_keep: int | None = None
 
     # ----------------------------------------------------------------------------------
     # Entry point
@@ -259,11 +277,26 @@ class VideoPipeline:
                 return self._manifest
 
             self._stage_narration()
+            self._fit_story_duration()
             self._stage_subtitles()
-            self._stage_footage()
-            self._stage_scenes()
-            final_video = self._stage_assemble()
+            if self._scenario.video.is_longform:
+                if self._scenario.video.is_zenn:
+                    log_info("Zenn stick-cut path: skipping MS Paint still fetch.")
+                elif self._scenario.video.is_paint:
+                    self._stage_paint_stills()
+                else:
+                    self._stage_story_photos()
+                if self._scenario.video.is_zenn:
+                    final_video = self._stage_zenn_assemble()
+                else:
+                    final_video = self._stage_story_assemble()
+            else:
+                self._stage_footage()
+                self._stage_scenes()
+                final_video = self._stage_assemble()
             thumbnail = self._stage_thumbnail(final_video)
+            if self._scenario.video.is_paint:
+                self._stage_studio_pack(final_video, thumbnail)
             self._stage_upload(final_video, thumbnail)
 
             self._manifest.status = "success"
@@ -306,6 +339,7 @@ class VideoPipeline:
         width, height = self._scenario.video.resolution
         rows = [
             ("Project", self._scenario.project_id),
+            ("Format", self._scenario.video.format),
             ("Scenes", str(len(scenes))),
             ("Resolution", f"{width}x{height} @ {self._scenario.video.fps}fps"),
             ("Estimated length", human_duration(self._scenario.estimated_narration_seconds())),
@@ -351,6 +385,27 @@ class VideoPipeline:
             + (f", {cached} from cache" if cached else "")
         )
 
+    def _fit_story_duration(self) -> None:
+        """Drop trailing story chapters when measured speech overshoots ``--minutes``."""
+        target = self._scenario.video.target_duration_seconds
+        if not self._scenario.video.is_longform or target is None:
+            return
+        scenes = list(self._scenario.scenes)
+        if self._options.scene_limit is not None:
+            scenes = scenes[: max(1, self._options.scene_limit)]
+        durations = [self._tts_results[scene.id].duration for scene in scenes]
+        gap = self._scenario.video.scene_gap_seconds
+        keep = keep_leading_scenes(durations, target, gap=gap)
+        total = spoken_length(durations[:keep], gap)
+        self._scene_keep = keep
+        if keep < len(scenes):
+            log_warn(
+                f"Dropping {len(scenes) - keep} trailing chapter(s) so speech lands near "
+                f"{human_duration(target)} (now {human_duration(total)})."
+            )
+        elif total + STORY_DURATION_TOLERANCE_SECONDS < target:
+            log_warn(f"Narration is {human_duration(total)}; target was {human_duration(target)}.")
+
     async def _synthesize_all(self, scenes: list[Scene]) -> list[TTSResult]:
         """Synthesize every scene concurrently.
 
@@ -394,6 +449,8 @@ class VideoPipeline:
                 offset += result.duration + self._scenario.video.scene_gap_seconds
 
             merged = self._merge_cues(timeline)
+            merged = self._subtitles.finish(merged, self._scenario.subtitles)
+            self._timeline_cues = merged
             self._subtitles.write_srt(merged, srt_path)
             self._srt_path = srt_path
             self._manifest.artifacts["subtitles"] = str(srt_path)
@@ -523,6 +580,187 @@ class VideoPipeline:
             )
         return candidates[: scene.clips_per_scene]
 
+    def _stage_story_photos(self) -> None:
+        """Download the unique stills that make up the story visual track."""
+        log_step(3, TOTAL_STAGES, "Stock stills")
+        visual = self._scenario.video.story_visual
+        queries: list[str] = []
+        for scene in self._selected_scenes():
+            queries.extend(scene.search_terms)
+
+        with _StageTimer(self._manifest, "footage"):
+            candidates = self._collect_story_stills(queries, visual.photo_count)
+            paths: list[Path] = []
+            for index, candidate in enumerate(candidates, start=1):
+                destination = self._settings.clips_dir() / f"photo_{index:03d}.jpg"
+                paths.append(self._media.download(candidate, destination))
+                self._credits.append(candidate.credit())
+            self._story_photos = paths
+
+        log_success(f"{len(self._story_photos)} still(s) ready for the story visual track")
+
+    def _stage_paint_stills(self) -> None:
+        """Load agent-drawn MS Paint stills; never search Pexels."""
+        log_step(3, TOTAL_STAGES, "Paint stills")
+        beats = list(self._scenario.video.visual_beats)
+        roots = self._paint_search_roots()
+        with _StageTimer(self._manifest, "footage"):
+            sources = resolve_paint_stills(
+                beats,
+                project_id=self._scenario.project_id,
+                search_roots=roots,
+            )
+            self._story_photos = copy_paint_stills(sources, self._settings.clips_dir())
+        log_success(f"{len(self._story_photos)} paint still(s) ready (no stock search)")
+
+    def _paint_search_roots(self) -> list[Path]:
+        """Folders the image agent may drop stills into."""
+        storyboard = self._settings.storyboard_dir()
+        project = self._scenario.project_id
+        return [
+            storyboard / project,
+            storyboard,
+            PROJECT_ROOT / "output" / "storyboard" / project,
+            PROJECT_ROOT / "output" / "storyboard",
+        ]
+
+    def _collect_story_stills(self, queries: list[str], needed: int) -> list[MediaCandidate]:
+        """Search the injected provider for ``needed`` distinct photographs.
+
+        Args:
+            queries: English search phrases from the chapters, early ones first.
+            needed: How many unique stills to return.
+
+        Returns:
+            Candidates in selection order.
+
+        Raises:
+            MediaNotFoundError: If fewer than ``needed`` unique stills could be found.
+        """
+        orientation = self._scenario.video.orientation
+        used: set[str] = set()
+        chosen: list[MediaCandidate] = []
+        ladder = [term.strip() for term in queries if term.strip()]
+        for fallback in PHOTO_FALLBACK_QUERIES:
+            if fallback not in ladder:
+                ladder.append(fallback)
+
+        for query in ladder:
+            if len(chosen) >= needed:
+                break
+            found = self._media.search(query, orientation, 0.0, max(needed * 2, 15))
+            for candidate in found:
+                if candidate.dedup_key in used:
+                    continue
+                used.add(candidate.dedup_key)
+                chosen.append(candidate)
+                if len(chosen) >= needed:
+                    break
+
+        if len(chosen) < needed:
+            raise MediaNotFoundError(
+                f"Needed {needed} unique stills but only found {len(chosen)}.",
+                hint="Broaden search_terms, or add PIXABAY_API_KEY as a photo fallback.",
+            )
+        return chosen[:needed]
+
+    def _stage_story_assemble(self) -> Path:
+        """Render the two-act stills track under concatenated narration."""
+        log_step(5, TOTAL_STAGES, "Story render")
+        scenes = self._selected_scenes()
+        audio_paths = [self._tts_results[scene.id].audio_path for scene in scenes]
+        audio_durations = [self._tts_results[scene.id].duration for scene in scenes]
+        out_path = self._final_video_path()
+
+        with _StageTimer(self._manifest, "assemble"):
+            final = self._editor.build_photo_story(
+                self._story_photos,
+                audio_paths,
+                audio_durations,
+                self._timeline_cues,
+                self._scenario,
+                self._font_path,
+                out_path,
+            )
+
+        size = final.stat().st_size if final.is_file() else 0
+        self._manifest.artifacts["video"] = str(final)
+        self._manifest.video_size_bytes = size
+        self._manifest.video_duration_seconds = sum(
+            self._tts_results[scene.id].duration + self._scenario.video.scene_gap_seconds
+            for scene in scenes
+        )
+        for scene in scenes:
+            result = self._tts_results[scene.id]
+            self._manifest.scenes.append(
+                {
+                    "id": scene.id,
+                    "narration_chars": len(scene.narration),
+                    "audio_path": str(result.audio_path),
+                    "audio_duration": round(result.duration, 2),
+                    "total_duration": round(
+                        result.duration + self._scenario.video.scene_gap_seconds, 2
+                    ),
+                    "clips": [str(path) for path in self._story_photos],
+                    "subtitle_cues": len(self._scene_cues.get(scene.id, [])),
+                    "scene_path": "",
+                    "zoom_effect": True,
+                }
+            )
+        log_success(f"Final video: {final.name} ({format_bytes(size)})")
+        return final
+
+    def _stage_zenn_assemble(self) -> Path:
+        """Render programmatic stick-cut beats under concatenated narration."""
+        log_step(5, TOTAL_STAGES, "Zenn render")
+        scenes = self._selected_scenes()
+        gap = self._scenario.video.scene_gap_seconds
+        beats = story_beats(scenes, self._tts_results, gap)
+        word_cues = collect_word_cues(scenes, self._tts_results, gap)
+        width, height = self._scenario.video.resolution
+        frames_dir = self._settings.clips_dir() / "zenn"
+        frame_paths = render_beat_frames(beats, frames_dir, width=width, height=height)
+        audio_paths = [self._tts_results[scene.id].audio_path for scene in scenes]
+        audio_durations = [self._tts_results[scene.id].duration for scene in scenes]
+        out_path = self._final_video_path()
+
+        with _StageTimer(self._manifest, "assemble"):
+            final = self._editor.build_zenn_story(
+                beats,
+                frame_paths,
+                audio_paths,
+                audio_durations,
+                word_cues,
+                self._scenario,
+                self._font_path,
+                out_path,
+            )
+
+        size = final.stat().st_size if final.is_file() else 0
+        self._manifest.artifacts["video"] = str(final)
+        self._manifest.video_size_bytes = size
+        self._manifest.video_duration_seconds = sum(
+            self._tts_results[scene.id].duration + gap for scene in scenes
+        )
+        self._manifest.artifacts["zenn_beats"] = str(len(beats))
+        for scene in scenes:
+            result = self._tts_results[scene.id]
+            self._manifest.scenes.append(
+                {
+                    "id": scene.id,
+                    "narration_chars": len(scene.narration),
+                    "audio_path": str(result.audio_path),
+                    "audio_duration": round(result.duration, 2),
+                    "total_duration": round(result.duration + gap, 2),
+                    "clips": [str(path) for path in frame_paths],
+                    "subtitle_cues": len(self._scene_cues.get(scene.id, [])),
+                    "scene_path": "",
+                    "zoom_effect": False,
+                }
+            )
+        log_success(f"Final video: {final.name} ({format_bytes(size)}, {len(beats)} beats)")
+        return final
+
     def _stage_scenes(self) -> None:
         """Render each scene to its own file."""
         log_step(4, TOTAL_STAGES, "Scene rendering")
@@ -621,9 +859,35 @@ class VideoPipeline:
         out_path = self._settings.thumbnails_dir() / f"{self._scenario.project_id}.jpg"
         try:
             with _StageTimer(self._manifest, "thumbnail"):
-                thumbnail = self._thumbnails.build(
-                    video_path, self._scenario.youtube.title, out_path
-                )
+                thumbnail = None
+                if self._scenario.video.is_zenn:
+                    hook = self._scenario.youtube.thumbnail_hook.strip()
+                    if hook:
+                        try:
+                            thumbnail = build_zenn_thumbnail(
+                                hook,
+                                out_path,
+                                font_path=self._font_path,
+                            )
+                        except RenderError as exc:
+                            log_warn(
+                                f"Zenn thumbnail template failed ({exc.message}); "
+                                "falling back to a video frame."
+                            )
+                elif self._scenario.video.is_paint:
+                    source = find_paint_thumbnail(self._paint_search_roots())
+                    if source is not None:
+                        try:
+                            thumbnail = prepare_youtube_thumbnail(source, out_path)
+                        except RenderError as exc:
+                            log_warn(
+                                f"Paint cover {source.name} could not be used ({exc.message}); "
+                                "falling back to a video frame."
+                            )
+                if thumbnail is None:
+                    thumbnail = self._thumbnails.build(
+                        video_path, self._scenario.youtube.title, out_path
+                    )
         except RenderError as exc:
             log_warn(f"Thumbnail generation failed, continuing without one: {exc.message}")
             return None
@@ -631,6 +895,26 @@ class VideoPipeline:
         self._manifest.artifacts["thumbnail"] = str(thumbnail)
         log_success(f"Thumbnail: {thumbnail.name}")
         return thumbnail
+
+    def _stage_studio_pack(self, video_path: Path, thumbnail: Path | None) -> None:
+        """Write a copy-paste YouTube Studio file for manual upload."""
+        scenes = self._selected_scenes()
+        durations = [self._tts_results[scene.id].duration for scene in scenes]
+        out_dir = self._settings.studio_dir() / self._scenario.project_id
+        try:
+            path = write_studio_pack(
+                self._scenario.model_copy(update={"scenes": scenes}),
+                video_path=video_path,
+                thumbnail_path=thumbnail,
+                srt_path=self._srt_path,
+                durations=durations,
+                out_dir=out_dir,
+            )
+        except (OSError, ValueError) as exc:
+            log_warn(f"Could not write the Studio pack: {exc}")
+            return
+        self._manifest.artifacts["studio"] = str(path)
+        log_success(f"Studio pack: {path}")
 
     def _stage_upload(self, video_path: Path, thumbnail: Path | None) -> None:
         """Publish the video when uploading is enabled and permitted.
@@ -777,9 +1061,12 @@ class VideoPipeline:
         Returns:
             All scenes, or the first ``scene_limit`` when one was set.
         """
+        scenes = list(self._scenario.scenes)
+        if self._scene_keep is not None:
+            scenes = scenes[: max(1, self._scene_keep)]
         if self._options.scene_limit is None:
-            return list(self._scenario.scenes)
-        return list(self._scenario.scenes[: max(1, self._options.scene_limit)])
+            return scenes
+        return scenes[: max(1, self._options.scene_limit)]
 
     def _final_video_path(self) -> Path:
         """Return the destination path for the finished video."""

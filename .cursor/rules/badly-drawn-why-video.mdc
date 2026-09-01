@@ -1,0 +1,28 @@
+---
+description: Badly Drawn Why video production — agent does script, stills, TTS, thumbnail, Studio pack; user only uploads.
+alwaysApply: false
+---
+
+# Badly Drawn Why videos
+
+When the user wants a video, a next episode, or paint/storyboard work, finish the package. Do not wait to be asked separately for frames, voice, title, description, or thumbnail.
+
+The user only uploads: the MP4, the thumbnail, and the Studio text.
+
+Active brand must be `badly-drawn-why`. «yeni video» means **one** episode from the next unshipped topic in `scenarios/topics-paint.json` (skip `guidance` that starts with `SHIPPED`). Then stop.
+
+## Always do
+
+1. Research from named sources. Do not invent quotes or dates. Humor at systems/objects, never at people, groups, or the injured. No gore, crash closeups, flags as the joke, medical advice.
+2. Write the English spoken essay yourself (11 minutes unless they say otherwise). Do not ship a thin Ollama draft. Cold open in "you", open loop, named facts, rehook, modern "this is you", callback. No "welcome back" / "in this video". Cars and historical objects/systems are in-niche as why essays. Not a Drawn Anyway event recap.
+3. Invent timestamps and unique visual beats at one still every 5 seconds of the target runtime (about 132 for 11 minutes).
+4. Draw 16:9 MS Paint stickman stills (ChatGPT Image 2) plus one yellow-hook thumbnail. Save under `output/storyboard/<project_id>/` as `NN-slug.png` and `thumbnail.png`.
+5. Build a `paint` scenario and run `python main.py run --scenario senaryo-paint.json --no-upload`.
+6. Hand over `output/final/*.mp4`, `output/thumbnails/*.jpg`, `output/studio/*/STUDIO.txt`. Mark the topic `SHIPPED YYYYMMDD`. Do not chain to the next topic.
+
+## Never
+
+- YouTube API upload
+- Pexels on paint videos
+- Asking the user to draw, narrate, or write title/description/thumbnail
+- Ink mascot, candy cartoon, or `senaryo-drawn.json` on this brand

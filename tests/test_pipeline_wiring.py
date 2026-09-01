@@ -34,7 +34,7 @@ from modules.interfaces import (
     WordCue,
 )
 from modules.pipeline import PipelineOptions, RunManifest, VideoPipeline
-from modules.tts import EdgeTTSEngine, normalize_narration
+from modules.tts import EdgeTTSEngine, attach_punctuation, normalize_narration, year_to_turkish
 from modules.uploader import build_description
 from utils.exceptions import TTSError
 
@@ -43,7 +43,9 @@ PIPELINE_SOURCE = PROJECT_ROOT / "modules" / "pipeline.py"
 FORBIDDEN_CONCRETE_NAMES = {
     "EdgeTTSEngine",
     "PexelsVideoProvider",
+    "PexelsPhotoProvider",
     "PixabayVideoProvider",
+    "PixabayPhotoProvider",
     "CompositeMediaProvider",
     "MoviePyEditor",
     "PillowThumbnailBuilder",
@@ -55,11 +57,13 @@ FORBIDDEN_CONCRETE_NAMES = {
 FORBIDDEN_CONCRETE_MODULES = {
     "modules.tts",
     "modules.video_fetcher",
+    "modules.photo_fetcher",
     "modules.editor",
     "modules.thumbnail",
     "modules.uploader",
     "modules.subtitle",
     "modules.media_cache",
+    "modules.story_generator",
 }
 
 
@@ -203,21 +207,24 @@ class FakeProvider(IMediaProvider):
         self, query: str, orientation: str, min_duration: float, limit: int
     ) -> list[MediaCandidate]:
         self.searches.append(query)
-        self._counter += 1
-        return [
-            MediaCandidate(
-                provider="fake",
-                media_id=str(self._counter),
-                width=1080,
-                height=1920,
-                fps=30.0,
-                duration=12.0,
-                download_url=f"https://fake.invalid/{self._counter}.mp4",
-                author_name=f"Author {self._counter}",
-                author_url="https://fake.invalid/author",
-                page_url=f"https://fake.invalid/video/{self._counter}",
+        batch: list[MediaCandidate] = []
+        for _ in range(max(1, limit)):
+            self._counter += 1
+            batch.append(
+                MediaCandidate(
+                    provider="fake",
+                    media_id=str(self._counter),
+                    width=1080,
+                    height=1920,
+                    fps=30.0,
+                    duration=12.0,
+                    download_url=f"https://fake.invalid/{self._counter}.mp4",
+                    author_name=f"Author {self._counter}",
+                    author_url="https://fake.invalid/author",
+                    page_url=f"https://fake.invalid/video/{self._counter}",
+                )
             )
-        ]
+        return batch
 
     def download(self, candidate: MediaCandidate, dest: Path) -> Path:
         dest.parent.mkdir(parents=True, exist_ok=True)
@@ -243,6 +250,22 @@ class FakeEditor(IVideoEditor):
         self.assembled = list(scene_paths)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_bytes(b"final video")
+        return out_path
+
+    def build_photo_story(
+        self,
+        photo_paths: list[Path],
+        audio_paths: list[Path],
+        audio_durations: list[float],
+        subtitle_cues: object,
+        scenario: Scenario,
+        font_path: Path | None,
+        out_path: Path,
+    ) -> Path:
+        del audio_paths, audio_durations, subtitle_cues, scenario, font_path
+        self.assembled = list(photo_paths)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_bytes(b"story video")
         return out_path
 
 
@@ -344,6 +367,69 @@ def test_full_run_uses_only_injected_collaborators(settings: Settings) -> None:
     assert len(fakes["editor"].assembled) == 2
     assert manifest.artifacts["video"].endswith("wiring-test.mp4")
     assert manifest.artifacts["thumbnail"].endswith("wiring-test.jpg")
+
+
+def test_story_run_skips_per_scene_render(settings: Settings) -> None:
+    """A story scenario downloads stills and calls build_photo_story, not build_scene."""
+    scenario = _scenario(
+        video={
+            "format": "story",
+            "orientation": "landscape",
+            "crossfade_seconds": 0.0,
+            "max_duration_seconds": 1500,
+        },
+        subtitles={"enabled": True, "burn_in": False, "accent_color": "#FFD34F"},
+    )
+    pipeline, fakes = _pipeline(settings, scenario=scenario)
+    manifest = pipeline.run()
+
+    assert manifest.status == "success"
+    assert fakes["editor"].plans == []
+    assert len(fakes["editor"].assembled) == 20
+    assert manifest.artifacts["video"].endswith("wiring-test.mp4")
+
+
+def test_paint_run_skips_stock_search(settings: Settings) -> None:
+    """Paint stills come from the storyboard folder; Pexels is never queried."""
+    board = settings.storyboard_dir() / "wiring-test"
+    board.mkdir(parents=True, exist_ok=True)
+    (board / "01-light-switch.png").write_bytes(b"png-bytes")
+    (board / "02-dark-sky.png").write_bytes(b"png-bytes")
+    scenario = _scenario(
+        video={
+            "format": "paint",
+            "orientation": "landscape",
+            "crossfade_seconds": 0.0,
+            "max_duration_seconds": 1500,
+            "story_visual": {"photo_count": 2, "opening_photo_count": 1},
+            "visual_beats": [
+                {
+                    "slug": "light-switch",
+                    "prompt": "Stickman flips a yellow light switch on a white page.",
+                    "covers": "You flip a switch.",
+                },
+                {
+                    "slug": "dark-sky",
+                    "prompt": "Stickman stands under a black sky with three stars.",
+                    "covers": "The world goes dark.",
+                },
+            ],
+        },
+        subtitles={"enabled": True, "burn_in": False, "accent_color": "#FFD34F"},
+    )
+    pipeline, fakes = _pipeline(settings, scenario=scenario)
+    manifest = pipeline.run()
+
+    assert manifest.status == "success"
+    assert fakes["media"].searches == []
+    assert fakes["editor"].plans == []
+    assert len(fakes["editor"].assembled) == 2
+    studio = Path(manifest.artifacts["studio"])
+    assert studio.is_file()
+    text = studio.read_text(encoding="utf-8")
+    assert "Badly Drawn Why" in text
+    assert "Chapters:" in text
+    assert "0:00" in text
 
 
 def test_manifest_is_written_to_disk(settings: Settings) -> None:
@@ -565,6 +651,11 @@ def test_normalize_expands_symbols_and_abbreviations() -> None:
     """Symbols and Turkish abbreviations are spoken as words."""
     assert "yüzde" in normalize_narration("Oran %50 arttı")
     assert "ve benzeri" in normalize_narration("elmalar, armutlar vb.")
+    assert year_to_turkish(1956) == "bin dokuz yüz elli altı"
+    spoken = normalize_narration("1956 yılında McCarthy Dartmouth'ta konuştu")
+    assert "bin dokuz yüz elli altı" in spoken
+    assert "Mekarti" in spoken
+    assert "Dartmut" in spoken
 
 
 def test_normalize_strips_markdown_and_emoji() -> None:
@@ -618,6 +709,63 @@ def test_malformed_word_boundary_is_ignored() -> None:
     """A boundary event with no text or timing is dropped rather than crashing."""
     assert EdgeTTSEngine._parse_word_boundary({"type": "WordBoundary", "text": ""}) is None
     assert EdgeTTSEngine._parse_word_boundary({"type": "WordBoundary", "text": "x"}) is None
+
+
+def test_attach_punctuation_restores_a_period() -> None:
+    """Edge TTS strips the stop; grouping needs it back on the cue."""
+    spoken = normalize_narration("Hello.", language="en")
+    cues = attach_punctuation(spoken, [WordCue(text="Hello", start=0.0, end=0.4)])
+
+    assert spoken == "Hello."
+    assert cues[0].text == "Hello."
+    assert cues[0].start == pytest.approx(0.0)
+    assert cues[0].end == pytest.approx(0.4)
+
+
+def test_attach_punctuation_restores_two_sentence_stops() -> None:
+    """Each spoken token keeps the punctuation that followed it in the essay."""
+    spoken = normalize_narration("Soup. Beans.", language="en")
+    cues = attach_punctuation(
+        spoken,
+        [
+            WordCue(text="Soup", start=0.0, end=0.3),
+            WordCue(text="Beans", start=0.3, end=0.6),
+        ],
+    )
+
+    assert [cue.text for cue in cues] == ["Soup.", "Beans."]
+
+
+def test_attach_punctuation_leaves_cues_unchanged_on_mismatch() -> None:
+    """A word the narration does not contain is not rewritten."""
+    cues = attach_punctuation("Hello world.", [WordCue(text="zzz", start=0.0, end=0.2)])
+
+    assert cues[0].text == "zzz"
+
+
+def test_synthesize_attaches_narration_punctuation(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Fresh synthesis and a cache hit both restore periods onto word cues."""
+    engine = EdgeTTSEngine(tmp_path / "tts")
+    settings = TTSSettings(language="en")
+    calls = {"count": 0}
+
+    async def fake_stream(text: str, tts: TTSSettings) -> tuple[bytes, list[WordCue]]:
+        calls["count"] += 1
+        return b"\x00" * 4096, [WordCue(text="Hello", start=0.0, end=0.4)]
+
+    monkeypatch.setattr(engine, "_synthesize_with_retry", fake_stream)
+    monkeypatch.setattr("modules.tts.probe_duration", lambda _path: 0.5)
+
+    out_path = tmp_path / "scene_001.mp3"
+    first = asyncio.run(engine.synthesize("Hello.", out_path, settings))
+    second = asyncio.run(engine.synthesize("Hello.", out_path, settings))
+
+    assert calls["count"] == 1
+    assert first.word_cues[0].text == "Hello."
+    assert second.cached is True
+    assert second.word_cues[0].text == "Hello."
 
 
 def test_tts_cache_round_trip(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:

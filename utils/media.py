@@ -11,8 +11,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from config.constants import (
+    KEN_BURNS_UPSCALE,
     ORIENTATION_RESOLUTIONS,
     ORIENTATION_TOLERANCE,
+    SUBTITLE_BOTTOM_MARGIN_RATIO,
     VALID_ORIENTATIONS,
 )
 from utils.exceptions import RenderError
@@ -23,11 +25,13 @@ __all__ = [
     "classify_orientation",
     "distribute_duration",
     "ffmpeg_executable",
+    "ken_burns_zoompan_filter",
     "make_even",
     "matches_orientation",
     "plan_scale_and_crop",
     "probe_duration",
     "resolution_for_orientation",
+    "subtitle_top_y",
     "zoom_scale_at",
 ]
 
@@ -220,6 +224,76 @@ def plan_scale_and_crop(
         scaled_height=scaled_height,
         crop_x=crop_x,
         crop_y=crop_y,
+    )
+
+
+def subtitle_top_y(
+    frame_height: int,
+    box_height: int,
+    *,
+    margin_ratio: float = SUBTITLE_BOTTOM_MARGIN_RATIO,
+) -> int:
+    """Place a caption box so its bottom edge sits above the frame bottom.
+
+    MoviePy ``with_position(("center", y))`` uses ``y`` as the top of the clip. Using a
+    ratio of the frame as that top edge lets a two-line box overflow the frame.
+
+    Args:
+        frame_height: Output frame height in pixels.
+        box_height: Rendered caption clip height in pixels.
+        margin_ratio: Fraction of the frame to keep clear below the text.
+
+    Returns:
+        Y coordinate of the top of the caption box, never negative.
+    """
+    margin = max(0, int(round(frame_height * margin_ratio)))
+    return max(0, int(frame_height) - max(0, int(box_height)) - margin)
+
+
+def ken_burns_zoompan_filter(
+    width: int,
+    height: int,
+    fps: int,
+    frames: int,
+    start_scale: float,
+    end_scale: float,
+    *,
+    upscale: int = KEN_BURNS_UPSCALE,
+) -> str:
+    """Build an ffmpeg filter that zooms a still without 1-pixel jitter.
+
+    The photograph is cover-cropped to the output frame, scaled up by ``upscale``, then
+    zoompan'd back to ``width``×``height``. The large intermediate buffer makes each zoom
+    increment a fraction of an output pixel.
+
+    Args:
+        width: Output width.
+        height: Output height.
+        fps: Output frame rate.
+        frames: Number of output frames.
+        start_scale: Zoom at frame 0 (typically 1.0).
+        end_scale: Zoom at the last frame (typically 1.08).
+        upscale: Integer scale of the fitted frame before zoompan.
+
+    Returns:
+        An ffmpeg ``-vf`` filter graph.
+    """
+    count = max(1, int(frames))
+    denom = max(count - 1, 1)
+    zoom_expr = (
+        f"min({start_scale:.6f}+({end_scale:.6f}-{start_scale:.6f})*on/{denom},"
+        f"{end_scale:.6f})"
+    )
+    factor = max(2, int(upscale))
+    wide = width * factor
+    high = height * factor
+    # Top-anchored zoom keeps titles and labels visible; center crop was clipping MS Paint text.
+    return (
+        f"scale={width}:{height}:force_original_aspect_ratio=increase,"
+        f"crop={width}:{height},"
+        f"scale={wide}:{high},"
+        f"zoompan=z='{zoom_expr}':x='iw/2-(iw/zoom/2)':y='0'"
+        f":d=1:s={width}x{height}:fps={fps}"
     )
 
 

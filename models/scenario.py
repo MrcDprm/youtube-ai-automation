@@ -27,6 +27,13 @@ from config.constants import (
     MIN_FPS,
     ORIENTATION_RESOLUTIONS,
     ORIENTATION_TOLERANCE,
+    PAINT_MAX_BEATS,
+    STORY_DEFAULT_OPENING_HOLD_SECONDS,
+    STORY_DEFAULT_OPENING_PHOTO_COUNT,
+    STORY_DEFAULT_OPENING_SECONDS,
+    STORY_DEFAULT_PHOTO_COUNT,
+    STORY_ZOOM_BODY_END,
+    STORY_ZOOM_OPENING_END,
     YOUTUBE_DESCRIPTION_MAX_CHARS,
     YOUTUBE_TAGS_MAX_TOTAL_CHARS,
     YOUTUBE_TITLE_MAX_CHARS,
@@ -39,14 +46,18 @@ __all__ = [
     "Orientation",
     "Scenario",
     "Scene",
+    "StoryVisualSettings",
     "SubtitleSettings",
     "TTSSettings",
+    "VideoFormat",
     "VideoSettings",
+    "VisualBeat",
     "YouTubeSettings",
     "resolve_project_path",
 ]
 
 Orientation = Literal["portrait", "landscape", "square"]
+VideoFormat = Literal["shorts", "story", "paint"]
 PrivacyStatus = Literal["private", "unlisted", "public"]
 FfmpegPreset = Literal["ultrafast", "veryfast", "faster", "fast", "medium", "slow"]
 
@@ -115,6 +126,72 @@ class BackgroundMusic(StrictModel):
         return resolve_project_path(self.file) if self.file is not None else None
 
 
+class StoryVisualSettings(StrictModel):
+    """Equal-time stills track used when ``video.format`` is ``story``.
+
+    Ignored for Shorts. Opening-cycle fields stay on the schema so older JSON still loads;
+    the editor ignores them and gives every photo the same slow zoom.
+    """
+
+    photo_count: int = Field(default=STORY_DEFAULT_PHOTO_COUNT, ge=2, le=PAINT_MAX_BEATS)
+    opening_seconds: float = Field(default=STORY_DEFAULT_OPENING_SECONDS, gt=0.0, le=1_200.0)
+    opening_photo_count: int = Field(default=STORY_DEFAULT_OPENING_PHOTO_COUNT, ge=1, le=40)
+    opening_hold_seconds: float = Field(default=STORY_DEFAULT_OPENING_HOLD_SECONDS, gt=0.2, le=30.0)
+    zoom_opening_end: float = Field(default=STORY_ZOOM_OPENING_END, ge=1.0, le=1.4)
+    zoom_body_end: float = Field(default=STORY_ZOOM_BODY_END, ge=1.0, le=1.5)
+    zenn_enabled: bool = False
+
+    @model_validator(mode="after")
+    def _check_opening_fits_photos(self) -> StoryVisualSettings:
+        """Require at least one body photo after the opening set."""
+        if self.opening_photo_count >= self.photo_count:
+            raise ValueError(
+                "story_visual.opening_photo_count must be smaller than story_visual.photo_count "
+                "so the body band has photos left."
+            )
+        return self
+
+
+class VisualBeat(StrictModel):
+    """One MS Paint still timed against the spoken essay.
+
+    ``image`` is optional at generate time. ``run`` resolves files from the storyboard
+    folder when the path is omitted. Existence is checked only when a path is set.
+    """
+
+    slug: str = Field(pattern=r"^[a-z0-9]+(?:-[a-z0-9]+){0,8}$", min_length=2, max_length=48)
+    prompt: str = Field(min_length=8, max_length=1600)
+    covers: str = Field(default="", max_length=500)
+    image: Path | None = None
+
+    @field_validator("covers")
+    @classmethod
+    def _strip_covers(cls, value: str) -> str:
+        """Allow a blank covers line; strip accidental whitespace."""
+        return value.strip()
+
+    @field_validator("image")
+    @classmethod
+    def _check_image_exists(cls, value: Path | None) -> Path | None:
+        """Require a beat image to exist only when the scenario points at one."""
+        if value is None:
+            return None
+        resolved = resolve_project_path(value)
+        if not resolved.is_file():
+            raise ValueError(f"visual_beats.image does not exist: {resolved}")
+        return value
+
+    @property
+    def resolved_image(self) -> Path | None:
+        """Absolute path to a declared beat image, or ``None``."""
+        return resolve_project_path(self.image) if self.image is not None else None
+
+    @property
+    def weight(self) -> float:
+        """Relative hold length; falls back to 1 when ``covers`` is empty."""
+        return float(max(1, len(self.covers)))
+
+
 class VideoSettings(StrictModel):
     """Geometry, pacing and encoder settings for the finished video."""
 
@@ -127,6 +204,10 @@ class VideoSettings(StrictModel):
     video_bitrate_crf: int = Field(default=20, ge=MIN_CRF, le=MAX_CRF)
     preset: FfmpegPreset = "medium"
     background_music: BackgroundMusic = Field(default_factory=BackgroundMusic)
+    format: VideoFormat = "shorts"
+    story_visual: StoryVisualSettings = Field(default_factory=StoryVisualSettings)
+    visual_beats: list[VisualBeat] = Field(default_factory=list)
+    target_duration_seconds: float | None = Field(default=None, ge=60.0, le=43_200.0)
 
     @model_validator(mode="before")
     @classmethod
@@ -191,6 +272,26 @@ class VideoSettings(StrictModel):
         """Target frame height in pixels."""
         return self.resolution[1]
 
+    @property
+    def is_story(self) -> bool:
+        """Whether this project uses the longform photo-story (Pexels stills) path."""
+        return self.format == "story"
+
+    @property
+    def is_paint(self) -> bool:
+        """Whether this project uses agent-drawn MS Paint stills."""
+        return self.format == "paint"
+
+    @property
+    def is_zenn(self) -> bool:
+        """Whether this paint project uses programmatic stick-cut beats."""
+        return self.is_paint and self.story_visual.zenn_enabled
+
+    @property
+    def is_longform(self) -> bool:
+        """Whether this project is a landscape stills essay (story or paint)."""
+        return self.format in {"story", "paint"}
+
 
 class TTSSettings(StrictModel):
     """Voice selection and prosody for edge-tts."""
@@ -200,6 +301,7 @@ class TTSSettings(StrictModel):
     volume: PercentString = "+0%"
     pitch: HertzString = "+0Hz"
     normalize_text: bool = True
+    language: str = Field(default="tr", min_length=2, max_length=16)
 
 
 def _default_font() -> Path:
@@ -221,10 +323,12 @@ class SubtitleSettings(StrictModel):
     font: Path = Field(default_factory=_default_font)
     font_size: int = Field(default=60, ge=8, le=400)
     color: HexColor = "#FFFFFF"
+    accent_color: HexColor | None = None
     stroke_color: HexColor = "#000000"
     stroke_width: int = Field(default=3, ge=0, le=40)
     position_ratio: float = Field(default=0.72, ge=0.0, le=1.0)
     uppercase: bool = False
+    numeral_display: bool = False
 
     @model_validator(mode="after")
     def _check_font_available_for_burn_in(self) -> SubtitleSettings:
@@ -269,6 +373,8 @@ class YouTubeSettings(StrictModel):
     playlist_id: str | None = None
     default_language: str = Field(default="tr", pattern=r"^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$")
     thumbnail_enabled: bool = True
+    thumbnail_hook: str = Field(default="", max_length=40)
+    brand_id: str = Field(default="", max_length=64)
 
     @field_validator("title")
     @classmethod

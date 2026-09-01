@@ -1,0 +1,86 @@
+{
+  "defaults": {
+    "pose": "standing",
+    "bg": "road"
+  },
+  "poses": [
+    {
+      "tag": "running",
+      "keywords": ["ran", "run", "running", "sprint", "koştu", "koşmak", "koşarak", "spread", "multiplied"]
+    },
+    {
+      "tag": "scared",
+      "keywords": ["scared", "afraid", "fear", "korktu", "korkmak", "dehşet", "danger", "burst"]
+    },
+    {
+      "tag": "shocked",
+      "keywords": ["shocked", "gasp", "şaşırdı", "şaşkın", "wow", "bother", "absurdity"]
+    },
+    {
+      "tag": "thinking",
+      "keywords": ["think", "thought", "wonder", "düşün", "acaba", "notice", "point", "argument", "error"]
+    },
+    {
+      "tag": "pointing",
+      "keywords": ["point", "look", "there", "işaret", "bak", "watch", "see", "named"]
+    },
+    {
+      "tag": "sitting",
+      "keywords": ["sit", "sat", "sitting", "otur", "oturdu", "wait", "waiting"]
+    },
+    {
+      "tag": "driving",
+      "keywords": ["drive", "drove", "steering", "wheel", "sürdü", "direksiyon", "car", "automobile", "vehicle", "truck"]
+    },
+    {
+      "tag": "working",
+      "keywords": ["factory", "build", "built", "wrench", "fabrika", "üretti", "refinery", "refiner", "distill", "drilled", "engineer"]
+    },
+    {
+      "tag": "reading",
+      "keywords": ["read", "book", "page", "okudu", "kitap", "patent", "records", "chronicles"]
+    },
+    {
+      "tag": "waiting",
+      "keywords": ["wait", "waiting", "bekledi", "bekliyor", "pump", "meter", "climb"]
+    },
+    {
+      "tag": "falling",
+      "keywords": ["fell", "fall", "drop", "düştü", "yıkıldı", "dumped", "floating"]
+    },
+    {
+      "tag": "standing",
+      "keywords": ["stand", "stood", "durdu", "tonight", "start"]
+    }
+  ],
+  "backgrounds": [
+    {
+      "tag": "garage",
+      "keywords": ["car", "garage", "motor", "engine", "gasoline", "gas", "fuel", "tank", "pump", "hose", "automobile", "ford", "benz", "otto", "octane", "gallon", "araba", "garaj", "1908", "vehicle", "petroleum", "crude"]
+    },
+    {
+      "tag": "road",
+      "keywords": ["road", "highway", "street", "drive", "drove", "paved", "pipeline", "continent", "map", "yol", "otoyol", "service", "stations"]
+    },
+    {
+      "tag": "factory",
+      "keywords": ["factory", "assembly", "plant", "refinery", "refiner", "distill", "still", "barrels", "industry", "fabrika", "bant", "product", "fraction"]
+    },
+    {
+      "tag": "office",
+      "keywords": ["office", "desk", "paper", "patent", "lamp", "lamps", "wick", "receipt", "ofis", "masa", "edison", "lighting"]
+    },
+    {
+      "tag": "old_city",
+      "keywords": ["city", "cities", "london", "cleveland", "detroit", "pennsylvania", "streetlamp", "town", "grid", "şehir", "eski", "westminster"]
+    },
+    {
+      "tag": "cave",
+      "keywords": ["cave", "campfire", "mağara", "wonderwerk", "south", "africa"]
+    },
+    {
+      "tag": "night",
+      "keywords": ["night", "dark", "darkness", "gece", "karanlık", "sunset", "evening", "illumination"]
+    }
+  ]
+}

@@ -16,14 +16,27 @@ from config.constants import (
     MAX_CUE_DURATION,
     MIN_CUE_DURATION,
     SENTENCE_END_CHARS,
+    STORY_SUBTITLE_ACCENT,
+    STORY_SUBTITLE_MARGIN_V,
+    STORY_SUBTITLE_PRIMARY,
 )
 from models.scenario import SubtitleSettings
+from modules.caption_numbers import display_caption_numbers
 from modules.interfaces import ISubtitleBuilder, SubtitleCue, WordCue
 from utils.exceptions import SubtitleError
 from utils.fs import atomic_write_text
 from utils.logger import get_logger
 
-__all__ = ["SrtSubtitleBuilder", "format_timestamp", "wrap_words"]
+__all__ = [
+    "SrtSubtitleBuilder",
+    "ass_colour",
+    "colorize_cues",
+    "cues_to_ass",
+    "format_ass_timestamp",
+    "format_timestamp",
+    "wrap_words",
+    "write_ass",
+]
 
 logger = get_logger(__name__)
 
@@ -81,6 +94,37 @@ def wrap_words(words: list[str], max_chars_per_line: int, max_lines: int) -> str
         lines = [*head, tail]
 
     return "\n".join(lines)
+
+
+def colorize_cues(
+    cues: list[SubtitleCue],
+    *,
+    primary: str = STORY_SUBTITLE_PRIMARY,
+    accent: str = STORY_SUBTITLE_ACCENT,
+) -> list[SubtitleCue]:
+    """Alternate fill colours across cues for the story burn-in look.
+
+    Shorts leaves ``SubtitleCue.color`` empty so the editor uses subtitle settings (white).
+
+    Args:
+        cues: Timeline-ordered cues.
+        primary: Colour for even indices (0, 2, ...).
+        accent: Colour for odd indices.
+
+    Returns:
+        New cues with ``color`` set, other fields copied.
+    """
+    colors = (primary, accent)
+    return [
+        SubtitleCue(
+            index=cue.index,
+            start=cue.start,
+            end=cue.end,
+            text=cue.text,
+            color=colors[index % 2],
+        )
+        for index, cue in enumerate(cues)
+    ]
 
 
 class SrtSubtitleBuilder(ISubtitleBuilder):
@@ -199,6 +243,28 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
             ) from exc
         logger.debug("Wrote %d cue(s) to %s", len(cues), out_path.name)
         return out_path
+
+    def finish(self, cues: list[SubtitleCue], settings: SubtitleSettings) -> list[SubtitleCue]:
+        """Apply display rewrites, then optional accent colours.
+
+        Drawn Anyway sets ``numeral_display`` so years and large counts show as digits.
+        Accent colour is skipped unless the scenario asks for it; flipping every cue
+        is hard to read.
+        """
+        if settings.numeral_display and cues:
+            cues = [
+                SubtitleCue(
+                    index=cue.index,
+                    start=cue.start,
+                    end=cue.end,
+                    text=display_caption_numbers(cue.text),
+                    color=cue.color,
+                )
+                for cue in cues
+            ]
+        if not settings.accent_color or not cues:
+            return cues
+        return colorize_cues(cues, primary=settings.color, accent=settings.accent_color)
 
     def merge(self, groups: list[list[SubtitleCue]]) -> list[SubtitleCue]:
         """Flatten per-scene cue lists into one renumbered timeline.
@@ -331,8 +397,130 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
                 end = max(start + 0.05, next_start - self._gap)
 
             adjusted.append(
-                SubtitleCue(index=len(adjusted) + 1, start=start, end=end, text=cue.text)
+                SubtitleCue(
+                    index=len(adjusted) + 1,
+                    start=start,
+                    end=end,
+                    text=cue.text,
+                    color=cue.color,
+                )
             )
             previous_end = end
 
         return adjusted
+
+
+def format_ass_timestamp(seconds: float) -> str:
+    """Format a time offset as an ASS timestamp (``H:MM:SS.cc``).
+
+    Args:
+        seconds: Offset from the start of the media. Negative values clamp to zero.
+
+    Returns:
+        A timestamp with centisecond precision.
+    """
+    total_cs = int(round(max(0.0, seconds) * 100))
+    hours, remainder = divmod(total_cs, 360_000)
+    minutes, remainder = divmod(remainder, 6_000)
+    secs, centis = divmod(remainder, 100)
+    return f"{hours}:{minutes:02d}:{secs:02d}.{centis:02d}"
+
+
+def ass_colour(hex_color: str) -> str:
+    """Convert ``#RRGGBB`` to an ASS ``&HAABBGGRR`` colour (opaque).
+
+    Args:
+        hex_color: CSS hex colour.
+
+    Returns:
+        ASS colour token without the trailing ``&`` used inside ``\\c`` tags.
+    """
+    cleaned = hex_color.strip().lstrip("#")
+    if len(cleaned) != 6:
+        cleaned = "FFFFFF"
+    red, green, blue = cleaned[0:2], cleaned[2:4], cleaned[4:6]
+    return f"&H00{blue}{green}{red}"
+
+
+def cues_to_ass(
+    cues: list[SubtitleCue],
+    *,
+    play_res_x: int,
+    play_res_y: int,
+    font_name: str,
+    font_size: int,
+    primary: str,
+    margin_v: int = STORY_SUBTITLE_MARGIN_V,
+    outline: int = 3,
+) -> str:
+    """Serialise cues as a bottom-centered ASS script with per-cue fill colours.
+
+    Args:
+        cues: Timeline-ordered captions.
+        play_res_x: Script play-res width (output width).
+        play_res_y: Script play-res height (output height).
+        font_name: Installed font family name.
+        font_size: ASS font size.
+        primary: Default fill colour.
+        margin_v: Pixels from the bottom edge to the text baseline box.
+        outline: Black outline width.
+
+    Returns:
+        The full ASS file contents.
+    """
+    default = ass_colour(primary)
+    header = (
+        "[Script Info]\n"
+        "ScriptType: v4.00+\n"
+        f"PlayResX: {play_res_x}\n"
+        f"PlayResY: {play_res_y}\n"
+        "WrapStyle: 0\n"
+        "ScaledBorderAndShadow: yes\n"
+        "\n"
+        "[V4+ Styles]\n"
+        "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, "
+        "BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, "
+        "BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\n"
+        f"Style: Default,{font_name},{font_size},{default},&H000000FF,&H00000000,&H00000000,"
+        f"-1,0,0,0,100,100,0,0,1,{outline},0,2,40,40,{margin_v},1\n"
+        "\n"
+        "[Events]\n"
+        "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n"
+    )
+    lines = [header]
+    for cue in cues:
+        text = cue.text.replace("\n", r"\N").replace("{", r"\{").replace("}", r"\}")
+        if cue.color:
+            text = r"{\c" + ass_colour(cue.color) + "&}" + text
+        lines.append(
+            "Dialogue: 0,"
+            f"{format_ass_timestamp(cue.start)},{format_ass_timestamp(cue.end)},"
+            f"Default,,0,0,0,,{text}\n"
+        )
+    return "".join(lines)
+
+
+def write_ass(cues: list[SubtitleCue], out_path: Path, body: str) -> Path:
+    """Write an ASS script to disk.
+
+    Args:
+        cues: Used only for the log line.
+        out_path: Destination ``.ass`` path.
+        body: Contents from :func:`cues_to_ass`.
+
+    Returns:
+        The written path.
+
+    Raises:
+        SubtitleError: If the file cannot be written.
+    """
+    try:
+        atomic_write_text(out_path, body, encoding="utf-8")
+    except OSError as exc:
+        raise SubtitleError(
+            f"Could not write subtitles to {out_path}: {exc}",
+            hint="Check that the output directory exists and is writable.",
+        ) from exc
+    logger.debug("Wrote %d ASS cue(s) to %s", len(cues), out_path.name)
+    return out_path
+

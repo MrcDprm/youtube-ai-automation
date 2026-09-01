@@ -1,0 +1,74 @@
+{
+  "topics": [
+    {
+      "topic": "The Night the Lightship Stopped Answering",
+      "language": "en",
+      "guidance": "After Hours File. One case: South Goodwin lightship, nineteen fifty four. Empty radio watch. No gore. Do not title it like Bedtime Stories."
+    },
+    {
+      "topic": "The Reservoir That Logged Visitors After Closing",
+      "language": "en",
+      "guidance": "Wanaque Reservoir lights, nineteen sixty six. Police log vs sky. Separate claim from evidence."
+    },
+    {
+      "topic": "The Pilot Who Named a Machine Then Went Quiet",
+      "language": "en",
+      "guidance": "Frederick Valentich, Bass Strait, nineteen seventy eight. Radio transcript. Do not declare a craft. Do not clone famous clickbait titles."
+    },
+    {
+      "topic": "The Hangar That Filed a Light and Nothing Else",
+      "language": "en",
+      "guidance": "A small USAF or RAF duty log of an unidentified light with no wreckage. Named base, named year. Balanced."
+    },
+    {
+      "topic": "Twenty Minutes at a Closed Halt",
+      "language": "en",
+      "guidance": "A railway halt that recorded a stop when no train was scheduled. Fog, timetable, one witness. No crash gore."
+    },
+    {
+      "topic": "The Cable Station That Answered With Silence",
+      "language": "en",
+      "guidance": "A shore station expected a routine cable and received none; later traffic resumed. Named place. No sinking montage."
+    },
+    {
+      "topic": "The Watchman Who Reported a Second Moon",
+      "language": "en",
+      "guidance": "Night watch, industrial site, a second pale disk. Weather balloon / moon dogs as the open alternatives. Do not mock him."
+    },
+    {
+      "topic": "The Folder Stamped Weather and Left Open",
+      "language": "en",
+      "guidance": "Lights misfiled as weather in a civil aviation folder. Show the stamp. Show what the stamp does not explain."
+    },
+    {
+      "topic": "The Ferry That Radioed Fog Inside Clear Air",
+      "language": "en",
+      "guidance": "One crossing, one radio call, visibility disagreement between bridge and shore. Named ferry, named year."
+    },
+    {
+      "topic": "The Archive Print With a Date That Did Not Exist",
+      "language": "en",
+      "guidance": "A photograph in a municipal archive whose stamped date is impossible (calendar error vs swapped plate). No haunted-photo jump scare."
+    },
+    {
+      "topic": "The Beacon That Lit a Hill With No Power Line",
+      "language": "en",
+      "guidance": "A reported ground light on a hill with no recorded supply. Survey map, later explanation candidates. Balanced."
+    },
+    {
+      "topic": "The Shift Report That Named a Color Nobody Else Saw",
+      "language": "en",
+      "guidance": "Two night-shift workers; one names a color in the sky the other does not. Logbook vs memory. No abduction plot."
+    },
+    {
+      "topic": "The Town That Logged One Hour Twice",
+      "language": "en",
+      "guidance": "A municipal night log with a duplicated hour during a clock change or blackout. Paper trail, not time-travel fiction."
+    },
+    {
+      "topic": "The Photograph That Arrived After the Ship",
+      "language": "en",
+      "guidance": "A print mailed to a port office after the vessel had already left. Named port. No child victims. Close on the unclosed folder."
+    }
+  ]
+}

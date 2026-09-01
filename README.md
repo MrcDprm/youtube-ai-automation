@@ -16,6 +16,8 @@ is the YouTube Data API, which is free but quota-limited, and it is opt-in.
 - [How it works](#how-it-works)
 - [Requirements](#requirements)
 - [Quick start](#quick-start)
+- [Generating scripts locally](#generating-scripts-locally)
+- [Daily automation](#daily-automation)
 - [Getting a Pexels API key](#getting-a-pexels-api-key)
 - [Setting up YouTube uploads](#setting-up-youtube-uploads)
 - [Scenario reference](#scenario-reference)
@@ -35,6 +37,7 @@ numbers you have to guess and keep in sync by hand.
 
 ```mermaid
 flowchart TD
+    T([topic]) -.->|generate: optional, local Ollama| A
     A[senaryo.json] --> B[ScenarioLoader<br/>pydantic v2, extra=forbid]
     B --> C[EdgeTTSEngine<br/>MP3 + WordBoundary events]
     C --> D[SrtSubtitleBuilder<br/>word cues to timed cues]
@@ -50,6 +53,9 @@ flowchart TD
     I --> K
     J --> K
 ```
+
+The dashed edge is the only optional stage and the only one that touches a language model. It
+runs as a separate command, writes a file, and stops; `run` never calls a model itself.
 
 Two details are worth calling out because they drive most of the design:
 
@@ -96,6 +102,136 @@ python main.py run
 Before your first real render, try `python main.py run --dry-run`. It resolves the whole plan and
 prints what would happen without making a single network call, which is the fastest way to catch
 a scenario mistake.
+
+## Generating scripts locally
+
+Writing `senaryo.json` by hand is the one genuinely manual step. If you would rather have a
+first draft written for you, `generate` does that with a language model running on your own
+machine through [Ollama](https://ollama.com) — free, offline after the initial download, and no
+account or API key.
+
+```powershell
+# One-time setup
+winget install Ollama.Ollama      # or download the installer from ollama.com
+ollama pull qwen2.5:7b-instruct
+
+python main.py generate "Yapay zekanın kısa tarihi" --scenes 12
+```
+
+That writes `senaryo.json`, which you then review and render with `run` as usual. Pass `--out` to
+write somewhere else and `--overwrite` to replace an existing file.
+
+### Why generation is a separate command
+
+`generate` and `run` are deliberately not fused. The render path makes no language-model calls at
+all, which means a bad or hallucinated draft can never reach the encoder: it lands in a JSON file
+you can read, edit and validate first. It also means the guarantee that `run` is reproducible and
+model-free still holds.
+
+The division of labour matters too. The model is asked only for prose — narration, search terms,
+title, tags. Every structural field is filled in by `modules/scenario_builder.py`: the project
+slug, resolution, frame rate, codec settings, voice and subtitle styling are computed, not
+generated. A small quantised model cannot corrupt them, and the assembled scenario is validated
+against the real schema before it is written, so `generate` can never produce a file that `run`
+would reject.
+
+### What the generator cleans up
+
+Local models are messy in predictable ways, so the output is sanitised rather than trusted.
+Markdown, emoji, `Sahne 3:` prefixes and list bullets are stripped from narration; code fences
+and chatty preambles are peeled off the JSON; search terms and tags are deduplicated and capped
+to YouTube's limits; and an over-long title is truncated. If a reply is still unusable, the
+generator re-prompts with the specific validation error, up to three attempts.
+
+It also sets `max_duration_seconds` from the estimated narration length, so a generated scenario
+never caps itself below its own runtime — a mistake that is easy to make by hand and only shows
+up minutes into a render.
+
+### Useful options
+
+```powershell
+python main.py generate "konu" -n 20                       # longer video
+python main.py generate "konu" --orientation landscape     # 1920x1080 instead of Shorts
+python main.py generate "konu" --language en               # narrate in English
+python main.py generate "konu" --voice tr-TR-EmelNeural    # different voice
+python main.py generate "konu" --model llama3.1:8b         # override OLLAMA_MODEL once
+python main.py generate "konu" --guidance "skeptical tone, no hype"
+python main.py generate "konu" --format story --language tr   # 15–20 min photo narrative
+```
+
+`--format story` writes a landscape scenario: twelve spoken chapters, twenty still photographs,
+yellow/white captions. It does **not** render. Review the JSON, then `python main.py run`.
+English and Spanish use the same flag: `--language en` or `--language es`. Shorts (`--format shorts`,
+the default) is unchanged.
+
+Story generation talks to Ollama once per chapter, so a first draft takes several minutes. The
+render is longer than a Short: twenty Ken Burns stills under 15–20 minutes of narration. Daily
+automation stays on Shorts until you set `VIDEO_FORMAT=story` in `.env`.
+
+### Model choice
+
+`qwen2.5:7b-instruct` is the default because it handles Turkish noticeably better than similarly
+sized alternatives and reliably holds a JSON shape. A 7B model needs roughly 6 GB of RAM and runs
+on CPU, just slowly — expect a minute or two for a dozen scenes. If generation is unreliable, a
+larger instruct-tuned model helps far more than prompt tweaking; very small quantised models tend
+to lose the JSON structure. `python main.py doctor` reports whether the server is up and the
+configured model is actually pulled.
+
+Uploading stays disabled in every generated file, and privacy stays `private`. Nothing publishes
+until you read the narration and turn it on yourself.
+
+## Daily automation
+
+`generate` writes a file and stops. `daily` is the unattended loop: at most one video per
+calendar day, inbox first, otherwise the next unused topic in `scenarios/topics.json`.
+
+```powershell
+# See what today would produce, without calling Ollama or rendering.
+python main.py daily --dry-run
+
+# Produce today's video. Upload stays off unless you opt in.
+python main.py daily --yes
+
+# Register a Windows task for 09:00. Missed days run when the PC is next on.
+python main.py schedule --at 09:00
+python main.py schedule --status
+python main.py schedule --remove
+```
+
+`schedule` writes a Task Scheduler XML with **StartWhenAvailable**. If the machine was off at
+09:00, Windows fires the task once when it comes back — and `daily` still produces only one
+video, not one per missed day. That is deliberate: YouTube's default quota is about six uploads
+per day, and rushing five scripts overnight is how you publish nonsense.
+
+Priority on each invocation:
+
+1. Already succeeded today → exit. `--force` overrides.
+2. Oldest `scenarios/inbox/*.json` → render that, skip the model.
+3. Next unused topic in `topics.json` → generate, then render.
+4. Nothing left → idle, with a hint to add topics.
+
+Failed generations do **not** consume the topic, so tomorrow retries the same subject. Used
+topics are stored in `.cache/scheduler/state.json`, not in `topics.json`, so you can edit the
+list without losing history.
+
+Uploading is a separate opt-in. Generated files stay `private`. Either:
+
+```powershell
+python main.py daily --upload --yes
+python main.py schedule --upload --at 09:00
+```
+
+or set `DAILY_UPLOAD=true` in `.env`. Before you turn that on, publish the Google Cloud OAuth
+consent screen (Testing-mode refresh tokens die after seven days, which would silently stop
+unattended uploads).
+
+The PC must be on — or asleep with wake timers — at the scheduled time. Two overlapping runs
+are refused by a lock file; a leftover lock older than six hours is treated as a crash and
+stolen.
+
+Edit `scenarios/topics.json` (copy from `topics.example.json`) before the first real `daily`.
+Drop a hand-written `senaryo.json` into `scenarios/inbox/` whenever you want to skip the model
+for a day.
 
 ## Getting a Pexels API key
 
@@ -267,6 +403,9 @@ fails loudly instead of silently doing nothing. Start from `senaryo.example.json
 python main.py doctor [--fix]     # environment preflight; --fix downloads the default font
 python main.py voices [--locale tr-TR] [--gender Male]
 python main.py auth               # one-time YouTube OAuth consent
+python main.py generate "topic"   # draft a scenario with a local Ollama model
+python main.py daily [--dry-run] [--upload] [--force]
+python main.py schedule [--at 09:00] [--upload] [--status] [--remove]
 python main.py validate [-s path] # parse and validate a scenario, print the resolved plan
 python main.py run [options]
 python main.py clean [--cache] [--output] [--all]
@@ -360,15 +499,16 @@ swapping Pexels for another footage source touches exactly one line of `main.py`
 ```bash
 pip install -r requirements-dev.txt
 
-pytest -q            # 184 tests, fully offline
+pytest -q            # 277 tests, fully offline
 ruff check .         # lint
 ruff format .        # format
 mypy .               # type check
 make check           # all of the above
 ```
 
-The test suite makes no network calls and needs no API keys. HTTP is stubbed with
-`requests-mock`, and TTS, rendering and uploading are exercised through fakes.
+The test suite makes no network calls and needs no API keys, and no model needs to be installed:
+HTTP is stubbed with `requests-mock`, and TTS, rendering, uploading and script generation are
+exercised through fakes and canned responses.
 
 ## Troubleshooting
 
@@ -387,6 +527,32 @@ far more than a Turkish phrase would. Lowering `min_clip_duration` also widens t
 **Subtitles do not appear even though `burn_in` is true.** The font could not be resolved. Run
 `python main.py doctor --fix` to download Inter-Bold, or point `subtitles.font` at any TTF on
 your system.
+
+**`generate` says Ollama is not reachable.** The service is not running. Start it (on Windows it
+runs as a background service after install; otherwise `ollama serve`) and confirm with
+`ollama list`. If Ollama listens somewhere unusual, set `OLLAMA_HOST` in `.env`.
+
+**`generate` says the model is not installed.** Pull it once: `ollama pull qwen2.5:7b-instruct`.
+The name in `.env` must match a tag `ollama list` prints.
+
+**`generate` fails after three attempts.** The model could not hold the JSON shape. Try a larger
+instruct-tuned model, or lower `--scenes`; asking for twenty scenes at once is much harder than
+asking for eight. Very small quantised models often cannot do it at all.
+
+**`daily` says a run is already in progress.** Another invocation holds `.cache/scheduler/daily.lock`.
+Wait for it to finish, or delete the file if you are sure nothing is running. Locks older than
+six hours are stolen automatically.
+
+**`daily` idles with every topic used.** Add more entries to `scenarios/topics.json`. Used topics
+live in `.cache/scheduler/state.json`; deleting that file makes the list start over.
+
+**Scheduled task never fires.** `python main.py schedule --status`. The task uses
+`InteractiveToken`, so the same Windows user should be logged in (or the PC asleep with wake
+timers). Network is required. Check `output/logs/` for a `daily_*.log`.
+
+**Generated narration is in the wrong language or drifts into English.** Smaller models leak
+their dominant training language. `--guidance "write only in Turkish"` sometimes helps, but a
+larger model is the reliable fix.
 
 **`AttributeError` from Pillow inside MoviePy's `TextClip`.** MoviePy 2.1 reaches into Pillow's
 text-measurement internals, which change between Pillow majors. This project is verified against
@@ -442,6 +608,11 @@ verification for that.
 
 **`made_for_kids` is a legal declaration.** It carries COPPA obligations in the United States.
 Set it truthfully.
+
+**Generated scripts are drafts, not facts.** A 7B model running on your laptop will state wrong
+dates, invent names and blur details with complete confidence. If you use `generate`, read the
+narration and check anything factual before you publish. This is the single most important habit
+when running the pipeline unattended, and it is why `generate` never enables uploading.
 
 **You are responsible for what you publish.** This tool automates assembly, not judgment. Check
 that your narration is accurate and that your footage suits your subject before making anything

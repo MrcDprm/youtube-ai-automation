@@ -19,6 +19,8 @@ __all__ = [
     "PreflightError",
     "RenderError",
     "ScenarioValidationError",
+    "SchedulerError",
+    "ScriptGenerationError",
     "SubtitleError",
     "TTSError",
     "UploadAuthError",
@@ -86,6 +88,22 @@ class ScenarioValidationError(PipelineError):
     """``senaryo.json`` is missing, is not valid JSON, or violates the schema."""
 
     exit_code = ExitCode.VALIDATION
+
+
+class ScriptGenerationError(PipelineError):
+    """The local language model could not produce a usable scenario.
+
+    Shares the validation exit code because the failed artifact is a scenario; callers that
+    branch on exit codes do not need to learn a new one.
+    """
+
+    exit_code = ExitCode.VALIDATION
+
+
+class SchedulerError(PipelineError):
+    """The OS task scheduler could not be queried or updated."""
+
+    exit_code = ExitCode.CONFIG
 
 
 # --------------------------------------------------------------------------------------
