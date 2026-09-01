@@ -168,6 +168,23 @@ Story generation talks to Ollama once per chapter, so a first draft takes severa
 render is longer than a Short: twenty Ken Burns stills under 15–20 minutes of narration. Daily
 automation stays on Shorts until you set `VIDEO_FORMAT=story` in `.env`.
 
+### Multi-brand agent packages
+
+`brands/active.json` selects which YouTube channel skill the agent follows. Four brands ship in
+this repo:
+
+| Brand id | Channel | Scenario file | Topics queue |
+|----------|---------|---------------|--------------|
+| `badly-drawn-why` | Badly Drawn Why | `senaryo-paint.json` | `scenarios/topics-paint.json` |
+| `after-hours-file` | After Hours File | `senaryo-file.json` | `scenarios/topics-file.json` |
+| `drawn-anyway` | Drawn Anyway | `senaryo-drawn.json` | `scenarios/topics-drawn.json` |
+| `every-level-pov` | Every Level POV | `senaryo-pov.json` | `scenarios/topics-pov.json` |
+
+Paint-format brands (all except legacy Shorts) use agent-drawn stills in
+`output/storyboard/<project_id>/`, then `python main.py run --scenario <file> --no-upload`.
+Author scripts under `scripts/author_*.py` write the scenario JSON and a `beats.tsv` storyboard
+manifest. Channel setup assets for Every Level POV live in `brands/assets/every-level-pov/`.
+
 ### Model choice
 
 `qwen2.5:7b-instruct` is the default because it handles Turkish noticeably better than similarly

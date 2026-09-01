@@ -7,7 +7,7 @@ alwaysApply: true
 
 Read `brands/active.json` before any video, episode, still, or Studio work. Follow **only** that brand's skill.
 
-«yeni video» (or an equivalent produce request) follows the **active** brand. Until the operator changes `brands/active.json`, that is Badly Drawn Why. Do not produce Drawn Anyway or After Hours File while this id is `badly-drawn-why`.
+«yeni video» (or an equivalent produce request) follows the **active** brand. Until the operator changes `brands/active.json`, that is Every Level POV. Do not produce other brands while this id is `every-level-pov`.
 
 ## `badly-drawn-why`
 
@@ -24,9 +24,14 @@ English 9–11 minute **one closed file** (researched mystery). Illustrated nigh
 Follow `.cursor/skills/drawn-anyway/SKILL.md`.
 English **8–11 minute** **one true story**, cartoon mascot, punchline, comment hook. Higgsfield explainer only if paid credits exist and are requested; otherwise cartoon stills + Edge TTS (default `en-AU-WilliamNeural` at `+4%`; voice and captions may vary). Scenario `senaryo-drawn.json`. About 48–66 stills/blocks.
 
+## `every-level-pov`
+
+Follow `.cursor/skills/every-level-pov/SKILL.md`.
+English **12–26 minute** **rank progression POV** (evergreen football/sport), cartoon protagonist Kit, red-hook thumbnail. Voice `en-US-GuyNeural` at `+2%`. Scenario `senaryo-pov.json`. About 72–156 stills at 10-second cadence (pilot ~84 at 14 minutes). Next unshipped topic in `scenarios/topics-pov.json`.
+
 ## Never
 
-- Mixing the three brands in one episode
+- Mixing the four brands in one episode
 - YouTube API upload
 - Pexels on paint/file/drawn stills
 - Asking the operator to draw, narrate, or write title/description/thumbnail

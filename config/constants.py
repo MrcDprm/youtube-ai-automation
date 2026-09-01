@@ -337,6 +337,31 @@ DRAWN_PLACEHOLDER_SEARCH_TERMS: Final[tuple[str, ...]] = (
     "cartoon illustration",
     "storytime cartoon",
 )
+
+EVERY_LEVEL_POV_BRAND_ID: Final[str] = "every-level-pov"
+POV_CHANNEL_NAME: Final[str] = "Every Level POV"
+POV_PLAYLIST: Final[str] = "Every Level"
+POV_TTS_VOICE: Final[str] = "en-US-GuyNeural"
+POV_TTS_VOICE_FALLBACK: Final[str] = "en-US-ChristopherNeural"
+POV_TTS_RATE: Final[str] = "+2%"
+POV_CATEGORY_ID: Final[str] = "24"
+POV_DEFAULT_MINUTES: Final[int] = 14
+POV_MIN_MINUTES: Final[int] = 12
+POV_MAX_MINUTES: Final[int] = 26
+POV_BLOCK_SECONDS: Final[float] = 10.0
+POV_MIN_BEATS: Final[int] = 72
+POV_MAX_BEATS: Final[int] = 156
+POV_SUBTITLE_FONT_SIZE: Final[int] = 48
+POV_SUBTITLE_POSITION_RATIO: Final[float] = 0.84
+POV_SUBTITLE_COLOR: Final[str] = "#FFFFFF"
+POV_SUBTITLE_STROKE: Final[str] = "#1A1A1A"
+POV_ZOOM_END: Final[float] = 1.16
+DEFAULT_POV_TOPICS_FILE: Final[str] = "topics-pov.json"
+POV_PLACEHOLDER_SEARCH_TERMS: Final[tuple[str, ...]] = (
+    "cartoon pov illustration",
+    "football rank cartoon",
+)
+
 YOUTUBE_CATEGORY_LABELS: Final[dict[str, str]] = {
     "24": "Entertainment (24)",
     "27": "Education (27)",
@@ -371,6 +396,22 @@ def drawn_beat_count(target_seconds: float) -> int:
         return DRAWN_MIN_BEATS
     raw = int(round(float(target_seconds) / DRAWN_BLOCK_SECONDS))
     return max(DRAWN_MIN_BEATS, min(DRAWN_MAX_BEATS, raw))
+
+
+def pov_beat_count(target_seconds: float) -> int:
+    """How many 10-second POV beats an Every Level POV episode needs.
+
+    Args:
+        target_seconds: Desired spoken length, usually ``POV_DEFAULT_MINUTES * 60``.
+
+    Returns:
+        A count between ``POV_MIN_BEATS`` and ``POV_MAX_BEATS`` (72 at 12:00, 156 at 26:00).
+    """
+    if target_seconds <= 0:
+        return POV_MIN_BEATS
+    raw = int(round(float(target_seconds) / POV_BLOCK_SECONDS))
+    return max(POV_MIN_BEATS, min(POV_MAX_BEATS, raw))
+
 
 STORY_MIN_MINUTES: Final[int] = 5
 STORY_MAX_MINUTES: Final[int] = 40

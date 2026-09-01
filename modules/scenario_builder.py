@@ -28,6 +28,7 @@ from config.constants import (
     DRAWN_TTS_VOICE,
     DRAWN_ZOOM_END,
     DURATION_ESTIMATE_HEADROOM,
+    EVERY_LEVEL_POV_BRAND_ID,
     FILE_BRAND_ID,
     FILE_CATEGORY_ID,
     FILE_DEFAULT_MINUTES,
@@ -37,6 +38,16 @@ from config.constants import (
     FILE_TTS_VOICE,
     NARRATION_CHARS_PER_SECOND,
     PAINT_PLACEHOLDER_SEARCH_TERMS,
+    POV_CATEGORY_ID,
+    POV_DEFAULT_MINUTES,
+    POV_PLACEHOLDER_SEARCH_TERMS,
+    POV_SUBTITLE_COLOR,
+    POV_SUBTITLE_FONT_SIZE,
+    POV_SUBTITLE_POSITION_RATIO,
+    POV_SUBTITLE_STROKE,
+    POV_TTS_RATE,
+    POV_TTS_VOICE,
+    POV_ZOOM_END,
     STORY_DEFAULT_MAX_DURATION,
     STORY_SUBTITLE_FONT_SIZE,
     STORY_SUBTITLE_MAX_CHARS,
@@ -56,6 +67,7 @@ __all__ = [
     "build_drawn_scenario",
     "build_file_scenario",
     "build_paint_scenario",
+    "build_pov_scenario",
     "build_scenario",
     "build_story_scenario",
     "estimate_total_seconds",
@@ -756,6 +768,71 @@ def build_drawn_scenario(
         subtitle_color=subtitle_color,
         subtitle_accent=None if subtitle_accent is None else subtitle_accent,
         subtitle_stroke=subtitle_stroke,
+        numeral_display=True,
+    )
+
+
+def build_pov_scenario(
+    draft: DraftScript,
+    *,
+    topic: str,
+    project_id: str | None = None,
+    voice: str | None = None,
+    language: str = "en",
+    upload_enabled: bool = False,
+    now: datetime | None = None,
+    target_seconds: float | None = None,
+    minutes: int | None = None,
+    tts_rate: str | None = None,
+    subtitle_font_size: int | None = None,
+    subtitle_position_ratio: float | None = None,
+    subtitle_color: str | None = None,
+    subtitle_stroke: str | None = None,
+) -> Scenario:
+    """Assemble an Every Level POV scenario: rank progression, cartoon beats, no Pexels.
+
+    Same paint render path as Drawn Anyway with POV-specific voice, captions, and brand id.
+
+    Args:
+        draft: Rank chapters plus ``visual_beats``.
+        topic: Original subject, used in the project id.
+        project_id: Explicit id; derived when omitted.
+        voice: edge-tts voice; ``POV_TTS_VOICE`` when omitted.
+        language: Narration language code.
+        upload_enabled: Whether ``run`` should upload.
+        now: Timestamp for the project id suffix.
+        target_seconds: Desired spoken length, stored for ``run`` trimming.
+        minutes: When set, the project id includes ``{minutes}dk``.
+        tts_rate: Edge TTS rate; ``POV_TTS_RATE`` when omitted.
+        subtitle_font_size: Burn-in size; POV default when omitted.
+        subtitle_position_ratio: Caption vertical ratio.
+        subtitle_color: Burn-in fill colour.
+        subtitle_stroke: Outline colour.
+
+    Returns:
+        A validated paint-format scenario with Every Level POV defaults.
+    """
+    return build_paint_scenario(
+        draft,
+        topic=topic,
+        project_id=project_id,
+        voice=voice or POV_TTS_VOICE,
+        language=language,
+        upload_enabled=upload_enabled,
+        now=now,
+        target_seconds=target_seconds,
+        minutes=POV_DEFAULT_MINUTES if minutes is None else minutes,
+        tts_rate=tts_rate or POV_TTS_RATE,
+        category_id=POV_CATEGORY_ID,
+        subtitle_font_size=subtitle_font_size or POV_SUBTITLE_FONT_SIZE,
+        subtitle_position_ratio=subtitle_position_ratio or POV_SUBTITLE_POSITION_RATIO,
+        placeholder_search_terms=POV_PLACEHOLDER_SEARCH_TERMS,
+        zoom_opening_end=POV_ZOOM_END,
+        zoom_body_end=POV_ZOOM_END,
+        brand_id=EVERY_LEVEL_POV_BRAND_ID,
+        subtitle_color=subtitle_color or POV_SUBTITLE_COLOR,
+        subtitle_accent=None,
+        subtitle_stroke=subtitle_stroke or POV_SUBTITLE_STROKE,
         numeral_display=True,
     )
 

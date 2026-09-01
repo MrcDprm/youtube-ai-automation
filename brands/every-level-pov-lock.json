@@ -1,0 +1,19 @@
+{
+  "mascot_name": "Kit",
+  "style_descriptor": "bold cartoon POV, thick ink outlines, flat fills (pitch green, stadium amber, cream paper, tomato red accents), slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism",
+  "style_key_local": "brands/every-level-pov-kit.png",
+  "edge_tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "fallback": "en-US-ChristopherNeural"
+  },
+  "pov": {
+    "default_minutes": 14,
+    "min_minutes": 12,
+    "max_minutes": 26,
+    "block_seconds": 10,
+    "min_beats": 72,
+    "max_beats": 156,
+    "note": "Cartoon stills + Edge TTS. One unique still per 10-second beat."
+  }
+}

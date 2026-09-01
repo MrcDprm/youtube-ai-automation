@@ -1,4 +1,4 @@
-"""Active YouTube brand profile (Badly Drawn Why, After Hours File, Drawn Anyway)."""
+"""Active YouTube brand profile (Badly Drawn Why, After Hours File, Drawn Anyway, Every Level POV)."""
 
 from __future__ import annotations
 
@@ -13,12 +13,15 @@ from config.constants import (
     DRAWN_CHANNEL_NAME,
     DRAWN_PLAYLIST,
     DRAWN_TTS_VOICE,
+    EVERY_LEVEL_POV_BRAND_ID,
     FILE_BRAND_ID,
     FILE_CATEGORY_ID,
     FILE_CHANNEL_NAME,
     FILE_PLAYLIST,
     FILE_TTS_VOICE,
     PAINT_CHANNEL_NAME,
+    POV_CHANNEL_NAME,
+    POV_PLAYLIST,
     PROJECT_ROOT,
     YOUTUBE_CATEGORY_LABELS,
 )
@@ -97,10 +100,22 @@ DRAWN_ANYWAY: BrandProfile = BrandProfile(
     description_art_line="Cartoons: original character animation. Narration: synthesized.",
 )
 
+EVERY_LEVEL_POV: BrandProfile = BrandProfile(
+    id=EVERY_LEVEL_POV_BRAND_ID,
+    channel_name=POV_CHANNEL_NAME,
+    category_id="24",
+    default_playlist=POV_PLAYLIST,
+    illustration_line="cartoon POV illustrations + TTS",
+    thumbnail_hook_heading="Thumbnail hook (red 3-4 words, POV character)",
+    uses_paint_playlists=False,
+    description_art_line="Illustrations: original cartoon POV art. Narration: synthesized.",
+)
+
 _BRANDS: dict[str, BrandProfile] = {
     BADLY_DRAWN_WHY.id: BADLY_DRAWN_WHY,
     AFTER_HOURS_FILE.id: AFTER_HOURS_FILE,
     DRAWN_ANYWAY.id: DRAWN_ANYWAY,
+    EVERY_LEVEL_POV.id: EVERY_LEVEL_POV,
 }
 
 

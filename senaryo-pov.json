@@ -1,0 +1,788 @@
+{
+  "project_id": "your-life-at-every-level-of-football-14dk-20260901",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 84,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "r01-hook-counting",
+        "prompt": "Kit in bed staring at ceiling, LEVEL counter floating, hook energy. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "You wake counting levels, not cards.",
+        "image": null
+      },
+      {
+        "slug": "r01-not-fifa",
+        "prompt": "Red X over a video game rank screen, Kit unimpressed, mouth closed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Not FIFA. Not a game ladder.",
+        "image": null
+      },
+      {
+        "slug": "r01-real-mud",
+        "prompt": "Kit boots with mud, rent bill icon, scout silhouette with clipboard. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Real mud, real rent, real scouts.",
+        "image": null
+      },
+      {
+        "slug": "r01-sixty-thousand",
+        "prompt": "Tiny park pitch morphing into huge stadium crowd, POV from Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Sixty thousand strangers later.",
+        "image": null
+      },
+      {
+        "slug": "r01-backpack-goals",
+        "prompt": "Two hoodies as goalposts, backpacks, evening park. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Park goals made of backpacks.",
+        "image": null
+      },
+      {
+        "slug": "r01-stay-hook",
+        "prompt": "Kit pointing forward on pitch, STAY text, cream paper. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Stay for every level.",
+        "image": null
+      },
+      {
+        "slug": "r02-level-one",
+        "prompt": "Title card LEVEL 1, Kit dribbling in park. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level one: park kickabout.",
+        "image": null
+      },
+      {
+        "slug": "r02-jumper-nets",
+        "prompt": "Jumpers on grass, no net, dog nearby. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Jumpers for goalposts, no nets.",
+        "image": null
+      },
+      {
+        "slug": "r02-wet-ball",
+        "prompt": "Kit kicking heavy wet ball, scuffed boots. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Heavy wet ball, cheap boots.",
+        "image": null
+      },
+      {
+        "slug": "r02-show-up",
+        "prompt": "Calendar with tomorrow circled, Kit tying boots. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Currency: show up tomorrow.",
+        "image": null
+      },
+      {
+        "slug": "r02-scout-myth",
+        "prompt": "Empty park bench with MYTH stamp, no scouts. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "The scout myth starts here.",
+        "image": null
+      },
+      {
+        "slug": "r02-not-yet",
+        "prompt": "Kit alone practicing, empty sidelines. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "They are not watching. Not yet.",
+        "image": null
+      },
+      {
+        "slug": "r03-level-two",
+        "prompt": "Title LEVEL 2, muddy pitch, Kit in mixed kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level two: Sunday league.",
+        "image": null
+      },
+      {
+        "slug": "r03-subs-bag",
+        "prompt": "Freezer bag with coins, volunteer collecting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Subs collected in a freezer bag.",
+        "image": null
+      },
+      {
+        "slug": "r03-deep-heat",
+        "prompt": "Tiny changing room, Deep Heat tin, Kit sitting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Dressing room: paint and Deep Heat.",
+        "image": null
+      },
+      {
+        "slug": "r03-thirty-minutes",
+        "prompt": "Sub board showing 30 MIN, Kit waiting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Thirty minutes if you are lucky.",
+        "image": null
+      },
+      {
+        "slug": "r03-cracked-mug",
+        "prompt": "Winners tea mug cracked handle, steam. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Tea in a cracked mug.",
+        "image": null
+      },
+      {
+        "slug": "r03-bus-schedule",
+        "prompt": "Minibus timetable, Kit checking phone. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Commitment has a bus schedule.",
+        "image": null
+      },
+      {
+        "slug": "r04-level-three",
+        "prompt": "Title LEVEL 3, regional badge generic, Kit on coach. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level three: county step.",
+        "image": null
+      },
+      {
+        "slug": "r04-minibus",
+        "prompt": "Kit on minibus back seat, kit bag. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Travel on a minibus.",
+        "image": null
+      },
+      {
+        "slug": "r04-almost-kit",
+        "prompt": "Two similar but mismatched shirts side by side. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Kit that almost matches.",
+        "image": null
+      },
+      {
+        "slug": "r04-vertical-film",
+        "prompt": "Phone vertical filming match, Kit playing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Parent films vertically.",
+        "image": null
+      },
+      {
+        "slug": "r04-pathway-word",
+        "prompt": "PATHWAY stamp on clipboard, petrol receipt. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "The word pathway appears.",
+        "image": null
+      },
+      {
+        "slug": "r04-excuses-stop",
+        "prompt": "Kit running in rain, NO EXCUSES text. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Excuses stop working.",
+        "image": null
+      },
+      {
+        "slug": "r05-level-four",
+        "prompt": "Title LEVEL 4, semi-pro contract paper. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level four: semi-pro.",
+        "image": null
+      },
+      {
+        "slug": "r05-not-quite-contract",
+        "prompt": "Thin contract page, Kit signing cautiously. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "A contract that is not quite.",
+        "image": null
+      },
+      {
+        "slug": "r05-warehouse-job",
+        "prompt": "Kit in warehouse vest next to boots. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Not enough to quit the warehouse.",
+        "image": null
+      },
+      {
+        "slug": "r05-floodlights",
+        "prompt": "Pitch under flickering floodlight, Kit training. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Training if floodlights work.",
+        "image": null
+      },
+      {
+        "slug": "r05-six-years",
+        "prompt": "Calendar six years crossed, same semi-pro badge. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Pretending for six years.",
+        "image": null
+      },
+      {
+        "slug": "r05-gaffer-stops",
+        "prompt": "Phone with missed calls fading, Kit worried. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "One bad month, gaffer stops calling.",
+        "image": null
+      },
+      {
+        "slug": "r06-level-five",
+        "prompt": "Title LEVEL 5, academy building generic. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level five: academy invite.",
+        "image": null
+      },
+      {
+        "slug": "r06-shared-digs",
+        "prompt": "Kit in dorm room, cafeteria tray rules sign. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Shared digs, cafeteria rules.",
+        "image": null
+      },
+      {
+        "slug": "r06-gps-vest",
+        "prompt": "Kit wearing GPS vest, heart graph overlay. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "GPS vests graph your lungs.",
+        "image": null
+      },
+      {
+        "slug": "r06-one-of-thirty",
+        "prompt": "Thirty silhouettes, one highlighted Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "One of thirty who believe.",
+        "image": null
+      },
+      {
+        "slug": "r06-release-pdf",
+        "prompt": "Laptop PDF RELEASE DAY, Kit stiff expression. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Release day is a PDF.",
+        "image": null
+      },
+      {
+        "slug": "r06-entry-ticket",
+        "prompt": "Ticket stub labeled TALENT, not PRIZE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Talent is the entry ticket.",
+        "image": null
+      },
+      {
+        "slug": "r07-level-six",
+        "prompt": "Title LEVEL 6, empty stand stadium. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level six: reserves.",
+        "image": null
+      },
+      {
+        "slug": "r07-empty-stands",
+        "prompt": "Kit playing in empty stand, echo lines. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Echo for applause.",
+        "image": null
+      },
+      {
+        "slug": "r07-match-ball",
+        "prompt": "Kit holding match ball carefully. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Match ball like borrowed jewellery.",
+        "image": null
+      },
+      {
+        "slug": "r07-behind-bench",
+        "prompt": "Kit seated behind first-team bench. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Behind the bench, not there yet.",
+        "image": null
+      },
+      {
+        "slug": "r07-shop-window",
+        "prompt": "Shop window mannequin with kit, metaphor. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "In the shop window.",
+        "image": null
+      },
+      {
+        "slug": "r07-audition",
+        "prompt": "Spotlight on Kit on pitch, AUDITION stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Every game an audition.",
+        "image": null
+      },
+      {
+        "slug": "r08-level-seven",
+        "prompt": "Title LEVEL 7, contract handshake. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level seven: lower league pro.",
+        "image": null
+      },
+      {
+        "slug": "r08-family-contract",
+        "prompt": "Kit showing contract to family silhouettes. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Contract you can show family.",
+        "image": null
+      },
+      {
+        "slug": "r08-rent-math",
+        "prompt": "Rent bill balanced on wages slip. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Wages cover rent if careful.",
+        "image": null
+      },
+      {
+        "slug": "r08-local-forum",
+        "prompt": "Laptop forum posts, Kit ignoring. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Local forum hates creatively.",
+        "image": null
+      },
+      {
+        "slug": "r08-body-score",
+        "prompt": "Kit ice bath, body map aches. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Your body keeps score.",
+        "image": null
+      },
+      {
+        "slug": "r08-accountable",
+        "prompt": "Kit facing media mic silhouette, accountable. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Professional means accountable.",
+        "image": null
+      },
+      {
+        "slug": "r09-level-eight",
+        "prompt": "Title LEVEL 8, big stadium exterior. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level eight: Championship grind.",
+        "image": null
+      },
+      {
+        "slug": "r09-swallow-pitch",
+        "prompt": "Size comparison Sunday pitch inside stadium. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Stadium swallows Sunday pitch.",
+        "image": null
+      },
+      {
+        "slug": "r09-named-seat",
+        "prompt": "Bus seat NAME TAG Kit, night travel. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Coach with your name on seat.",
+        "image": null
+      },
+      {
+        "slug": "r09-table-home",
+        "prompt": "League table on kitchen wall at home. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Table follows you home.",
+        "image": null
+      },
+      {
+        "slug": "r09-loan-threat",
+        "prompt": "LOAN arrow pointing away from Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Ordinary gets loaned out.",
+        "image": null
+      },
+      {
+        "slug": "r09-not-allowed-ordinary",
+        "prompt": "Kit under spotlight Saturday, no ordinary. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Not allowed to be ordinary.",
+        "image": null
+      },
+      {
+        "slug": "r10-level-nine",
+        "prompt": "Title LEVEL 9, tunnel suits. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level nine: top-flight bench.",
+        "image": null
+      },
+      {
+        "slug": "r10-unknown-cameras",
+        "prompt": "Cameras pointed past Kit in tunnel. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Cameras do not know your name.",
+        "image": null
+      },
+      {
+        "slug": "r10-two-pm-suit",
+        "prompt": "Clock 2 PM, Kit in suit with kit bag. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Suit up at two p.m.",
+        "image": null
+      },
+      {
+        "slug": "r10-hidden-warmup",
+        "prompt": "Kit warming up off-camera zone. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Warm up where broadcast never shows.",
+        "image": null
+      },
+      {
+        "slug": "r10-inches-space",
+        "prompt": "Top-down pitch inches between defenders. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Calculate inches of space.",
+        "image": null
+      },
+      {
+        "slug": "r10-minutes-rationed",
+        "prompt": "Stopwatch MINUTES RATIONED, Kit waiting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Minutes are rationed.",
+        "image": null
+      },
+      {
+        "slug": "r11-level-ten",
+        "prompt": "Title LEVEL 10, stadium roar. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level ten: top-league starter.",
+        "image": null
+      },
+      {
+        "slug": "r11-noise-chest",
+        "prompt": "Kit hand on chest, sound waves, crowd. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Noise hits your chest.",
+        "image": null
+      },
+      {
+        "slug": "r11-millions-review",
+        "prompt": "Tablet replay with view count, Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Millions review every pass.",
+        "image": null
+      },
+      {
+        "slug": "r11-sponsor-sleeves",
+        "prompt": "Kit shirt sleeve logos generic. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Sponsors own your sleeves.",
+        "image": null
+      },
+      {
+        "slug": "r11-loud-room-work",
+        "prompt": "Kit exhausted in loud stadium tunnel. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Dream feels like work in loud room.",
+        "image": null
+      },
+      {
+        "slug": "r11-loneliness-money",
+        "prompt": "Kit alone in luxury apartment, city lights. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Money real, loneliness real.",
+        "image": null
+      },
+      {
+        "slug": "r12-level-eleven",
+        "prompt": "Title LEVEL 11, UCL-style tunnel generic no logos. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level eleven: European nights.",
+        "image": null
+      },
+      {
+        "slug": "r12-pitch-walk",
+        "prompt": "Kit walking pitch at night, bright lights. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Pitch walk under fake-looking lights.",
+        "image": null
+      },
+      {
+        "slug": "r12-childhood-screen",
+        "prompt": "Kid Kit watching TV, now facing opponent silhouette. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Opponents you watched on screen.",
+        "image": null
+      },
+      {
+        "slug": "r12-anthem-tunnel",
+        "prompt": "Kit in tunnel, anthem moment, no flags. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Anthem in the tunnel.",
+        "image": null
+      },
+      {
+        "slug": "r12-seventy-minutes",
+        "prompt": "Board 70 MIN, Kit ready to enter. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Subbed on at seventy minutes.",
+        "image": null
+      },
+      {
+        "slug": "r12-choose-courage",
+        "prompt": "Kit small in huge stadium, stepping forward. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Choose courage in giant stadium.",
+        "image": null
+      },
+      {
+        "slug": "r13-level-twelve",
+        "prompt": "Title LEVEL 12, training camp badge generic. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Level twelve: national camp.",
+        "image": null
+      },
+      {
+        "slug": "r13-badge-changes-talk",
+        "prompt": "Kit with national training top, staff formal. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Badge changes how staff speak.",
+        "image": null
+      },
+      {
+        "slug": "r13-media-training",
+        "prompt": "Kit at media training desk, microphones. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Media training before ball.",
+        "image": null
+      },
+      {
+        "slug": "r13-economy-flight",
+        "prompt": "Kit on plane economy, headline on seat screen. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Miss cut, fly home economy.",
+        "image": null
+      },
+      {
+        "slug": "r13-nation-argument",
+        "prompt": "Social chatter cloud over Kit head. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Nation argument louder than away end.",
+        "image": null
+      },
+      {
+        "slug": "r13-every-level-climbed",
+        "prompt": "Kit shadow showing ladder of levels behind. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Represent every level you climbed.",
+        "image": null
+      },
+      {
+        "slug": "r14-where-stuck",
+        "prompt": "Kit facing ladder of levels, WHERE ARE YOU stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Where are you stuck.",
+        "image": null
+      },
+      {
+        "slug": "r14-fall-restart",
+        "prompt": "Kit helping teammate up, restart arrow. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "People fall, restart, change.",
+        "image": null
+      },
+      {
+        "slug": "r14-paid-stories",
+        "prompt": "Split path MONEY vs STORIES, Kit between. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Football pays in money or stories.",
+        "image": null
+      },
+      {
+        "slug": "r14-comment-which",
+        "prompt": "Comment bubble WHICH LEVEL, Kit to camera POV. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Which level are you on.",
+        "image": null
+      },
+      {
+        "slug": "r14-thought-different",
+        "prompt": "Kit at top looking back at park level. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Thought it would feel different.",
+        "image": null
+      },
+      {
+        "slug": "r14-every-level-receipt",
+        "prompt": "Title card EVERY LEVEL POV, Kit thumbs up, mouth closed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football rank story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie, short dark hair, mouth closed, readable silhouette.",
+        "covers": "Every level POV receipt.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 840.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#1A1A1A",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Your Life at Every Level of Football",
+    "description": "From park kickabout to European nights — your life at every rank of football, cartoon POV, one level at a time.",
+    "tags": [
+      "football",
+      "soccer",
+      "pov",
+      "every level",
+      "cartoon",
+      "rank",
+      "sunday league",
+      "champions league",
+      "story"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "YOU START HERE",
+    "brand_id": "every-level-pov"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "You wake up already counting levels. Not FIFA cards. Not a video game ladder. Real mud on your boots, real rent due, real scouts with clipboards who forget your name before the handshake dries. This is your life at every level of football, and the game does not care which screen you watched last night. By the end you will know what changes when the crowd stops being your mates and starts being sixty thousand strangers who paid to judge your first touch. Stay. The first level is not glamorous. The first level is a park goal made of backpacks. The ladder in your head has no save button. You can delete the game app and still feel the levels when you walk past a park and hear a ball thump a fence. That sound is level one calling. This video is the map. Not to fame. To the texture of each step: what your week looks like, what your body feels like, what your phone says about you at night.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Level one. Park kickabout. Two jumpers on the ground, no nets, a dog that owns the right wing. You play until your mum texts or the streetlights win. Boots are whatever survived last season. The ball is heavy because it is wet. Nobody tracks stats. Nobody cares about your weak foot. You learn the only currency that matters here: show up again tomorrow. If you do not come back, you were never serious. The scout myth starts here, in the lie that someone is always watching. They are not. Not yet. You know the kid who only shoots from halfway because the clip would look good. Park level punishes that. Here the keeper is someone's older brother and he will remember. You learn shape without a whiteboard. You learn hunger without a nutritionist. You learn that the best player on the pitch might work a shift tomorrow morning and still be the fastest because life made him economical with effort.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Level two. Sunday league. Someone collects subs in a freezer bag. The pitch is bumpy enough to punish vanity. You share a dressing room that smells like paint and deep heat. The manager is also the driver, also the physio, also the guy who argues about the fifty-fifty that decided nothing. You get thirty minutes if you are lucky. Win and you drink tea from a mug with a cracked handle. Lose and you fix the net for free. Pay is zero. Pride is optional. Injuries are real. This is where you learn that commitment has a bus schedule. Sunday league has politics that would embarrass a parliament. Who starts is who drove. Who plays striker is who brought the balls. You will play in rain that cancels everything else in town except this fixture because pride is stupid and beautiful. You tape ankles with tape that lost its glue in someone's bag. You celebrate a goal like it mattered because for one afternoon it genuinely does.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Level three. County or regional step. Travel on a minibus where the back seat is a negotiation. You wear a kit that almost matches. Opponents know your patterns because you played them twice already this season. A parent films vertically for the group chat. You start hearing the word pathway, which means someone might pay your petrol if you are good on a wet Tuesday. Still no salary. Still a day job waiting on Monday. The level is not higher because the football is pretty. It is higher because the excuses stop working. Regional football teaches geography. You learn towns you never visited except to lose in. You learn that a two-hour drive each way is normal if you still believe. The stands are mostly family and one person with a horn. You start checking weather apps like a farmer. You start knowing which pitches tilt and which ones swallow the ball in mud. The game gets faster and the mistakes get punished by strangers who will forget you by Monday.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Level four. Semi-pro. You sign something that is not quite a contract. You get paid enough to notice, not enough to quit the warehouse. Training is twice a week if the floodlights work. The physio is a student with tape and optimism. You meet players who were academy kids and fell through the floor. You meet players who never went and built thighs like tree trunks. Everyone pretends this is temporary. Some have been pretending for six years. You learn the cruel math: one bad month and the gaffer stops calling. Semi-pro is where dreams learn paperwork. You sign forms that mention insurance. You meet a kit man who cares more about sock tape than you do. You play in front of three hundred people and it feels like three thousand because you can hear individuals. The gaffer shouts instructions you already know. You nod anyway. Respect is currency when the wage is small. You tell coworkers you have a match Saturday and they say cool without understanding that cool is your second job.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Level five. Academy invite. Not the cinematic version. Shared digs, cafeteria rules, school in the morning, drills in the afternoon. You wear GPS vests that turn your lungs into graphs. Coaches speak in percentages. You are one of thirty boys who all believe they are the one. Release day is a PDF and a handshake that hurts more than any tackle. You learn that talent is the entry ticket, not the prize. Sleep matters. Attitude matters. The kid who stays late is not always loved. Sometimes he is warned. Academy life is a clock in every room. Curfew. Meal time. Video time. Bed time. You share a room with someone who snores and someone who cries quietly after a bad session. Coaches praise with adjectives that mean nothing until they stop using them on you. You learn that being good at school keeps you on the pitch. You learn that being bad at school gets you sent home even if you scored in a friendly. The building smells like disinfectant and ambition.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Level six. Reserves or development squad. You train with the first team sometimes. Mostly you play in empty stands with echo for applause. You touch the match ball like it is borrowed jewellery. Travel with the senior squad once and sit in a row behind the bench, close enough to smell the liniment, far enough to know you are not there yet. Pay is better. Pressure is worse. Every performance is an audition with no script. The gaffer says you are in the shop window. You hope the glass is not locked. Reserves is the hallway between worlds. You eat with seniors and sit with kids. You train hard enough to impress and careful enough not to injure a star. Match day you watch the stadium fill from a window that does not appear on television. You get twenty minutes in a cup tie and your legs feel like they belong to someone else. The crowd roar leaks through concrete. You understand that proximity is not arrival. You go home and replay one pass that worked.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Level seven. Lower league professional. A contract you can show your family. Wages that cover rent if you are careful. Fans who know your name and your miss from last week. Media is a local paper and a forum that hates you creatively. You play twice a week and your body keeps score. Pre-season is punishment designed as bonding. You move house for minutes on the pitch. Agents appear like weather. Some help. Some sell stories. You learn that professional does not mean safe. It means accountable. Lower-league professional is the first time football pays rent and also takes your weekends forever. You meet fans who know your birthday. You meet fans who know your miss from October. Local radio calls you by nickname without asking. You learn recovery is not optional. Ice becomes furniture. You sign autographs for kids and remember being that kid. You fear a knock that lasts three weeks because three weeks is a career at this wage. You still would not trade the shirt.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Level eight. Championship grind. Stadiums big enough to swallow your old Sunday league pitch whole. Travel on coaches with your name on the seat. Opponents are faster, nastier, smarter. The table is a spreadsheet that follows you home. Sell a bad game and social media does not sleep. Medical staff are real. Recovery is scheduled. You earn more than your parents did at your age and that creates a new kind of pressure. You are not allowed to be ordinary on Saturday. Ordinary gets loaned out. Championship football is a season that never stops talking. Promotion money haunts every match. Relegation fear sits in the seat next to you on the bus. Stadiums hold noise like weather. You play twice in four days and your hamstrings file complaints. The gaffer rotates and you learn new instructions like new passwords. Journalists ask questions that sound simple and are traps. You answer carefully. You sleep with the table open on your phone. You tell yourself you love the grind. Sometimes that is true.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Level nine. Top flight bench. You walk past cameras that do not know your name yet. Training ground coffee tastes the same as everywhere else. Match day you suit up at two in the afternoon and wait. Warm up in a zone the broadcast never shows. The whistle blows and you calculate inches of space. One touch can be a headline. One mistake can be a meme by half time. Pay is life-changing. Minutes are rationed. You learn patience is a skill with teeth. The bench in the top flight is a job with a view. You watch the game you would change if you could. You count warm-up minutes like money. The substitute board is a guillotine and a lottery. You clap when required. You stretch when required. You pray the gaffer looks at you and not the other sub. Your family watches on television and texts love you cannot answer until full time. You learn that ready is not a feeling. Ready is a decision you make in thirty seconds.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Level ten. Starter in the top league. Noise hits you in the chest before the ball moves. Every pass is reviewed by millions who never miss a meal for sport. Sponsors own your sleeves. Your calendar is not yours. Performance data lands on a tablet before you shower. Win and you are a product. Lose and you are a problem. The money is real. So is the loneliness. Friends treat you like a bank with jokes. You are living the dream people shout about. Sometimes it feels like work in a loud room. Starting in the top league turns your name into a search term. Every touch is a sentence. Every run is evidence. You meet players you once had on a poster. You discover they are human and tired. Sponsors want smiles. Fans want miracles. Managers want consistency. Your body wants sleep. You rent a quiet house and still hear whistles in the walls. You earn more than you imagined and spend it on normal things that feel unreal. You win and strangers claim they always believed. You lose and strangers claim they knew.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Level eleven. European nights. Travel that eats days. Security lines, hotel lobbies, pitch walk the night before under lights that make the grass look fake. Opponents you grew up watching on a screen. Anthem in a tunnel you once drew in school. Subbed on at seventy minutes with the score tight and the whole continent listening without knowing your postcode. This level is not only skill. It is sleep, discipline, and the ability to look small in a giant stadium and still choose courage. European nights rewrite your calendar. You fly back at dawn and train at noon. You play a match where one mistake is a highlight reel for the wrong reasons. The tunnel smells like grass and nerves. You line up near someone you watched on a laptop. The anthem is not background music. It is a weight. Subbed on, you touch the ball once and the stadium reacts like you moved a planet. You sleep on the plane and dream of level one mud. You wake and the schedule says again.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "Level twelve. National camp call-up. Not a tournament montage. A badge on a training top that changes how staff speak to you. Media training before you touch a ball. Teammates you fought all season now share a cafeteria. You compete for a squad number with friends. Miss the cut and fly home economy with strangers reading the headline over your shoulder. Make it and discover the nation argument is louder than any away end. Pride and pressure share a room. You represent more than your club now. You represent every level you climbed past. National camp is identity with paperwork. You sing anthems in a room before you earn the right on grass. Media training teaches you how to say nothing kindly. Teammates become rivals for a shirt number. You share a table with a player who broke your leg two seasons ago. You nod. Professional. Cut from the squad and you ride home reading comments from people who never kicked a ball in rain. Selected and you discover the nation watches differently than your club. Pride is heavy. You carry it anyway.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "So where are you stuck. Park myth. Sunday mud. Semi-pro limbo. Academy PDF. Bench sweat. Championship spreadsheet. Top-league minutes. European tunnel. National camp nerves. The levels are not a ladder you climb once. People fall, restart, change position, change country, change mind. Football pays some people in money and everyone else in stories. Tell me which level you are on right now, and which one you thought would feel different when you got there. That is the receipt. Every level POV. Levels are not medals. They are weeks. Mud weeks. Bus weeks. Contract weeks. Bench weeks. Night-flight weeks. You can be on two levels at once in your head while your feet are only on one. That is why the ladder lies. Tell me the level you are actually living, not the one you post. Tell me which step surprised you with how ordinary it felt once you arrived.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}
