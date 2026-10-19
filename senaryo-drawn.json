@@ -1,0 +1,537 @@
+{
+  "project_id": "the-warship-that-sank-in-harbor-9dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-1300-metres",
+        "prompt": "A candy warship 1300 M from a dock, then a harbour-floor tag. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sweden's new warship sailed about 1,300 metres, then sat on the harbour floor.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at an EXTRA DECK stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a last-minute extra-deck trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-aug-10",
+        "prompt": "A date 10 AUG 1628, nameplate HANSSON. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "10 August 1628, Captain Söfring Hansson, toward Älvsnabben.",
+        "image": null
+      },
+      {
+        "slug": "0030-four-sails",
+        "prompt": "Four candy sails, open ports, tag SALUTE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Light southwest breeze. Four sails. Gunports open for a salute.",
+        "image": null
+      },
+      {
+        "slug": "0040-tegelviken",
+        "prompt": "A gust arrow TEGELVIKEN, water at lower ports. Not drowning. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A gust at Tegelviken put the lower ports under.",
+        "image": null
+      },
+      {
+        "slug": "0050-32-metres",
+        "prompt": "A depth ruler 32 M, shore 120 M. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "32 metres down, about 120 metres from shore.",
+        "image": null
+      },
+      {
+        "slug": "0100-x-extra-deck",
+        "prompt": "A LAST-MINUTE DECK stamp with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the joke that the king bolted on a second deck at the last minute.",
+        "image": null
+      },
+      {
+        "slug": "0110-lurch-leftover",
+        "prompt": "Thirty tiny candy figures mid-run, STOP stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover: a lurch test they stopped because she might capsize at the quay.",
+        "image": null
+      },
+      {
+        "slug": "0120-contract-1625",
+        "prompt": "A contract 1625, two nameplates. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "January 1625: Hybertsson and de Groote, four ships.",
+        "image": null
+      },
+      {
+        "slug": "0130-keel-1626",
+        "prompt": "A keel tag 1626, yard SKEPPSGARDEN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Keel late winter 1626, Skeppsgården, Stockholm.",
+        "image": null
+      },
+      {
+        "slug": "0140-72-guns",
+        "prompt": "A gun-order card 72 x 24 LB, date 5 AUG 1626. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "5 August 1626: king ordered 72 twenty-four-pounders, too many for one deck.",
+        "image": null
+      },
+      {
+        "slug": "0150-early-enough",
+        "prompt": "A calendar UNDER 5 MONTHS, TWO DECKS IN DESIGN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "That order came under five months after the keel. Two decks could be in the design.",
+        "image": null
+      },
+      {
+        "slug": "0200-no-splice",
+        "prompt": "A laser ruler NO SPLICE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Laser surveys 2007-11: no mid-build stretch, no spliced extra length.",
+        "image": null
+      },
+      {
+        "slug": "0210-henrik-dies",
+        "prompt": "A handoff tag HENRIK to HEIN, date 1627. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hybertsson ill, Jacobsson by summer 1626, dead spring 1627 around launch.",
+        "image": null
+      },
+      {
+        "slug": "0220-43-cm",
+        "prompt": "A width arrow +43 CM, STOP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Jacobsson widened her about 1 ft 5 in, 43 cm. Could not go further.",
+        "image": null
+      },
+      {
+        "slug": "0230-official-sail",
+        "prompt": "A letter SAIL NOW, a high candy stern. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: more guns, a high stern, letters that say sail now.",
+        "image": null
+      },
+      {
+        "slug": "0240-thirty-run",
+        "prompt": "A deck with running arrows, ROLL tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Thirty men ran across the upper deck. She rolled alarmingly.",
+        "image": null
+      },
+      {
+        "slug": "0250-three-trips",
+        "prompt": "A stop-hand 3 TRIPS, tag QUAY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Fleming stopped them after three trips, afraid she would sink at the quay.",
+        "image": null
+      },
+      {
+        "slug": "0300-wished-king",
+        "prompt": "A letter from POLAND, empty chair KING. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mattson: Fleming wished the king were home. King was in Poland, writing sail.",
+        "image": null
+      },
+      {
+        "slug": "0310-museum-spec",
+        "prompt": "A spec card 69 M / 64 GUNS / 120 T BALLAST. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "69 m long, 50 m+ tall, 1,200+ tonnes, 64 cannons, 120 tonnes ballast.",
+        "image": null
+      },
+      {
+        "slug": "0320-top-heavy",
+        "prompt": "A top-heavy candy ship, ballast too low. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Too much weight high. More ballast could not fix it without a redesign.",
+        "image": null
+      },
+      {
+        "slug": "0330-ports-12",
+        "prompt": "Two port sizes 12 vs 24. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Upper ports sized for 12-pounders, then 24-pounders on both decks.",
+        "image": null
+      },
+      {
+        "slug": "0340-eight-missing",
+        "prompt": "An empty carriage 8 MISSING. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Eight of 72 guns still undelivered when she sailed.",
+        "image": null
+      },
+      {
+        "slug": "0350-righted-once",
+        "prompt": "A heel then a RIGHTING arrow. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "First gust: sheets off, she slowly righted.",
+        "image": null
+      },
+      {
+        "slug": "0400-second-gust",
+        "prompt": "Ports under a wave line, tag GONE. Not drowning people. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Second gust: lower ports under, water in, hold, gone.",
+        "image": null
+      },
+      {
+        "slug": "0410-in-sight",
+        "prompt": "A yard still visible, a crowd of tiny silhouettes. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "In sight of the yard that built her. Hundreds on the shore.",
+        "image": null
+      },
+      {
+        "slug": "0420-king-letter",
+        "prompt": "A delayed letter PUNISH. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Council wrote next day. Two weeks to Poland. King: punish the guilty.",
+        "image": null
+      },
+      {
+        "slug": "0430-sept-5",
+        "prompt": "A folder INQUEST 5 SEP, nameplate GYLLENHIELM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Inquest 5 September 1628, Royal Palace. Gyllenhielm in the room.",
+        "image": null
+      },
+      {
+        "slug": "0440-sober-guns",
+        "prompt": "Two stamps SOBER and GUNS FAST. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Crew: guns secured, crew sober. Nobody took the blame.",
+        "image": null
+      },
+      {
+        "slug": "0450-god-knows",
+        "prompt": "A quote ONLY GOD KNOWS, a closed file. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Arendt: Only God knows. No one punished. Blame on a dead designer.",
+        "image": null
+      },
+      {
+        "slug": "0500-applet-metre",
+        "prompt": "Two hulls VASA vs APPLET +1 M. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sister Äpplet: about a metre more beam, completed 1629, actually worked.",
+        "image": null
+      },
+      {
+        "slug": "0510-found-2021",
+        "prompt": "A find tag APPLET 2021. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Äpplet's wreck found December 2021.",
+        "image": null
+      },
+      {
+        "slug": "0520-three-days",
+        "prompt": "A raise-contract, stamp FAILED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Within three days a contract to raise her. It failed.",
+        "image": null
+      },
+      {
+        "slug": "0530-bulmer-mud",
+        "prompt": "A ship more stuck, tag BULMER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ian Bulmer righted her and stuck her harder in the mud.",
+        "image": null
+      },
+      {
+        "slug": "0540-diving-bell",
+        "prompt": "A diving bell, bronze guns up. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1663-65: Treileben and Peckell, diving bell, almost all the bronze guns.",
+        "image": null
+      },
+      {
+        "slug": "0550-x-clowns",
+        "prompt": "Ink peeling an EXTRA DECK KING sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: red X on the clown-king extra-deck sermon.",
+        "image": null
+      },
+      {
+        "slug": "0600-no-furniture",
+        "prompt": "A furniture chair with a red X, date 1920. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1920: brothers asked to blast wrecks for furniture. Authorities said no.",
+        "image": null
+      },
+      {
+        "slug": "0610-franzen-1956",
+        "prompt": "A core of oak, date 25 AUG 1956. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "25 August 1956: Franzén's corer, oak off Beckholmen.",
+        "image": null
+      },
+      {
+        "slug": "0620-24-apr-61",
+        "prompt": "A calendar 24 APR 1961, tag 333 YEARS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "24 April 1961: timbers broke the surface. 333 years.",
+        "image": null
+      },
+      {
+        "slug": "0630-peg-spray",
+        "prompt": "Spray nozzles PEG, museum tag 1990. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "PEG spray 1962 to 1979. New museum 15 June 1990.",
+        "image": null
+      },
+      {
+        "slug": "0640-45-million",
+        "prompt": "A tally 45M VISITORS, 98 PERCENT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "More than 45 million visitors by early 2025. About 98% original.",
+        "image": null
+      },
+      {
+        "slug": "0650-too-little-belly",
+        "prompt": "A hull cross-section LITTLE BELLY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Inquest experts: too little belly, not enough hull for the upper works.",
+        "image": null
+      },
+      {
+        "slug": "0700-four-after",
+        "prompt": "Four ship tags, two stamped FLAGSHIP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "After Vasa: Äpplet, Kronan, Scepter, Göta Ark. Two served as flagships.",
+        "image": null
+      },
+      {
+        "slug": "0710-bolts-2018",
+        "prompt": "A bolt tally 4000, minus 8 T. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "By 2018: 4,000 bolts swapped, eight tonnes lighter.",
+        "image": null
+      },
+      {
+        "slug": "0720-humidity",
+        "prompt": "A humidity gauge HONEST. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A museum still has to keep the humidity honest.",
+        "image": null
+      },
+      {
+        "slug": "0730-who-won-test",
+        "prompt": "A warning bell vs a SAIL stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the 1,300 metres. The three-trip test won a warning they filed as sail anyway.",
+        "image": null
+      },
+      {
+        "slug": "0740-wider-won",
+        "prompt": "A metre trophy and an oak core trophy. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Äpplet won a metre. Franzén won a core of oak.",
+        "image": null
+      },
+      {
+        "slug": "0750-furniture-no",
+        "prompt": "A no-permit vs a museum ticket. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The furniture brothers won a no. Stockholm won a museum.",
+        "image": null
+      },
+      {
+        "slug": "0800-ask-the-order",
+        "prompt": "A question mark over 5 AUG 1626. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask when the 72 twenty-four-pounders were ordered.",
+        "image": null
+      },
+      {
+        "slug": "0810-ask-the-run",
+        "prompt": "A question mark over 30 runners. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask whether thirty men had already run.",
+        "image": null
+      },
+      {
+        "slug": "0820-wait-or-ports",
+        "prompt": "Split: a wait chair vs shut ports, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have waited for the king, or sailed with the ports shut.",
+        "image": null
+      },
+      {
+        "slug": "0830-lurch-honest",
+        "prompt": "A fake extra deck vs a running test. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A last-minute deck is a terrible whole story. A three-trip lurch is a terrible honest one.",
+        "image": null
+      },
+      {
+        "slug": "0840-centre-g",
+        "prompt": "A CG dot and a gust in a cliff gap. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The leftover: a centre of gravity and a gust in a gap.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card TEST vs SALUTE, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no cruelty, not mud-green archive night, not After Hours File dark. Vasa shown as a candy warship, a harbour stick, a running-test, open gunports, a museum hall, not photoreal royal portraits, not a battle gore board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Thirty men had already shown the roll. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Warship That Sank in Harbor",
+    "description": "Sixteen twenty eight. Thirteen hundred metres, a three-trip lurch test, and a salute fired through ports they should have shut.",
+    "tags": [
+      "history",
+      "1628",
+      "vasa",
+      "sweden",
+      "ship",
+      "cartoon",
+      "true story",
+      "logistics",
+      "museum"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "1300 METRES",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Sweden's most expensive new warship sailed about thirteen hundred metres and then parked itself on the harbour floor. That is not a metaphor, and it is not a cartoon you invented after a trivia night about a king who bolted on an extra deck at the last minute. On the tenth of August sixteen twenty eight, Captain Söfring Hansson took Vasa out of Stockholm toward the naval station at Älvsnabben. A light southwest breeze. Four sails. Gunports open to fire a salute. She heeled, righted, then a stronger gust at Tegelviken put the lower ports under. Water on the lower gundeck. Thirty two metres down, about one hundred twenty metres from shore. Upper masts still stuck out of the water. Nearby boats pulled people off while hundreds watched from the shore, including foreign ambassadors. Wikipedia files about thirty people lost. File that once. Do not draw it. Keep that split: they already knew she rolled, and they sailed her anyway. Then put a red X on the joke that Gustavus Adolphus snuck a second deck onto a finished hull. The leftover is not a cartoon king. The leftover is a lurch test they stopped because they were afraid she would capsize at the quay.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a two-deck gun platform was supposed to be the truth. January sixteen twenty five: Henrik Hybertsson, called Master Henrik, and Arendt de Groote signed to build four ships. Keel in late February or early March sixteen twenty six at Skeppsgården, the navy yard in Stockholm. The king wanted heavier ships as gun platforms, not just boarding barges, because the war with Poland-Lithuania needed broadsides. On the fifth of August sixteen twenty six he ordered seventy two twenty-four-pounders, too many for one deck. That order came less than five months after the keel, early enough for two decks to be in the design. The French Galion du Guise, the model Arendt named, already had two. Laser surveys in two thousand seven to eleven found no mid-build stretch, no spliced extra length. Wikipedia: no evidence she was substantially modified after the keel. Hybertsson was already ill, handed the yard to Hein Jacobsson by summer sixteen twenty six, dead in spring sixteen twenty seven around launch. The king visited the yard in January sixteen twenty eight and was not in Stockholm for the maiden voyage. Jacobsson later said he widened her about one foot five inches, forty three centimetres, and could not go further because the hull was too far along. The official idea was: more guns, a high stern, and a letter from Poland that says sail now.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "File the summer test, because thirty men running is not a vibe. Captain Söfring Hansson called Vice Admiral Klas Fleming to the ship at the royal palace quay. Thirty men ran back and forth across the upper deck. She rolled alarmingly. Fleming stopped them after three trips, afraid she would sink at the quay. Ship's master Göran Mattson later testified Fleming wished the king were home. Gustavus Adolphus was in Poland, sending impatient letters to get her to sea. Vasa Museum: sixty nine metres long, more than fifty from keel to mast truck, over twelve hundred tonnes, ten sails, sixty four cannons, one hundred twenty tonnes of ballast, hundreds of sculptures. Wikipedia files a beam of eleven point seven metres, a draft of four point eight, a displacement of about twelve hundred ten tonnes, forty eight of those guns as twenty-four-pounders, a broadside of about five hundred eighty eight pounds. Complement on paper: about one hundred forty five sailors and three hundred soldiers. Not all were aboard for the maiden trip. She carried too much weight high. Ballast could not fix it without a redesign. Upper gunports were even sized for smaller twelve-pounders, then they loaded twenty-four-pounders on both decks anyway, fifty six of them planned, eight of seventy two guns still undelivered when she sailed. Founder Medardus Gessus cast a lot of that bronze. A top-heavy stick with the windows open.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover the internet files as a last-minute extra floor. Tenth of August, warped along the eastern waterfront past the palace, then four sails east. First gust off Södermalm: sheets cast off, she slowly righted. Second gust at Tegelviken: lower ports under, water in, hold, gone in minutes. In sight of the yard that built her. Hundreds, maybe thousands, on the shore, including ambassadors. The Council wrote the king the next day. It took over two weeks to reach him. He answered: imprudence and negligence, punish the guilty. Inquest at the Royal Palace, fifth of September, Privy Council and Admiralty, Admiral of the Realm Carl Carlsson Gyllenhielm in the room. Crew swore the guns were secured and they were sober. Jacobsson: built as Henrik directed, as the king approved, and he had already asked to widen her more. Arendt when asked why she sank: only God knows. No one punished. Blame parked on a dead designer. Äpplet, the sister, got about a metre more beam, completed sixteen twenty nine, and actually worked. That is the leftover of a hull that was already a letter: the next one was wider.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "The prescription took three hundred thirty three years. Within three days someone signed a contract to raise her. It failed. English engineer Ian Bulmer righted her and stuck her harder in the mud. Sixteen sixty three to sixty five, Albrecht von Treileben and Andreas Peckell took almost all the bronze guns with a diving bell, ripped deck planks, sold guns abroad. Nineteen twenty: the Olschanski brothers asked to blow wrecks for black-oak furniture. Authorities said no. Twenty fifth of August nineteen fifty six, Anders Franzén's coring probe brought up a waterlogged oak plug off Beckholmen. Divers Per Edvin Fälting and Sven Persson went down. Navy in. Tunnels under the hull, cables, Neptune pontoons. Twentieth of August nineteen fifty nine, first move in three hundred thirty one years, then eighteen underwater lifts toward Kastellholmen. Twenty fourth of April nineteen sixty one, in front of the world, the timbers broke the surface. PEG spray from sixty two to seventy nine. New museum, fifteenth of June nineteen ninety. Wikipedia: more than forty five million visitors by early twenty twenty five. About ninety eight percent of the original structure. Four thousand bolts swapped by twenty eighteen. The leftover of a thirteen hundred metre voyage is a building that still has to keep the humidity honest.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a story that a king is a clown who bolted on a party deck. Put a red X on that sermon. A two-deck order in August sixteen twenty six is not a personality. Ignoring a quay that almost capsized is logistics, not a sitcom. Fleming had the political problem: the king was not home and the letters said sail. Hansson had the sailing problem: ports open for a salute on a ship that already failed a running test. Hybertsson had the dead problem: he could not answer a court. File all three. Do not invent a secret extra deck the lasers would have seen. Do not invent sabotage. Do not invent a last-minute personality who ruined a perfect one-deck ship. The leftover is uglier and smaller: a centre of gravity too high, a gust in a gap in the bluffs, open ports on purpose, and a meeting that blamed a man who had been dead a year.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "File what the next hull actually did. Four more two-deck ships after Vasa: Äpplet, Kronan, Scepter, Göta Ark. Privy Council cancelled later orders after the king died at Lützen in sixteen thirty two. Kronan and Scepter served as flagships into the sixteen sixties. Äpplet, completed sixteen twenty nine, about a metre wider, found in December twenty twenty one off Vaxholm. Same idea, more belly. Vasa Museum: experts at the inquest already said too little belly, not enough hull for the upper works. They named the proportion in sixteen twenty eight. They built the proportion into the sister in sixteen twenty nine. That is not time travel. That is a yard that could add forty three centimetres once and a metre the next time. Conservation is still a hold temperature: PEG, a climate plant after the two thousand yellow spots on the oak, four thousand iron bolts swapped for stainless by twenty eighteen, eight tonnes lighter. A museum is a costume for a test they ran and then scheduled a salute.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a perfect navy, and none of it is a cartoon of thirty running men as clowns. They had a war in the Baltic. They had ten ships lost in a storm off Riga in sixteen twenty five, which is why the four-ship contract existed. They had a king who understood guns and sent measurements from camp. You are allowed to laugh at a flagship that needed a museum more than a battle, and at a diving bell that harvested the bronze, and at a furniture permit that almost turned her into chairs. You are not required to laugh at thirty names on a harbour floor, or at divers cutting clay tunnels in the dark, or at a widow of a designer who became the file's leftover villain. The official idea was: sail her to Älvsnabben and join the fleet. The street idea was: they added a deck and God shrugged. The leftover idea is: thirty men had already shown the roll, the ports were open on purpose, and the next ship was simply wider.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the thirteen hundred metres. Not the extra-deck meme. Fleming won a stopped test and a sailing order. Hansson won an inquest and no sentence. Hybertsson won the blame by being dead. Äpplet won a metre. Franzén won a core of oak. Fälting won a dive. The furniture brothers won a no. Treileben won bronze. Stockholm won a museum that outdrew the voyage. If you need a moral, skip kings are dumb. Take this: a last-minute deck is a terrible whole story, and a three-trip lurch test is a terrible honest one. The next time someone tells you Vasa sank because a king bolted on extra guns at the dock, ask when the seventy two twenty-four-pounders were ordered, and whether thirty men had already run across that deck. Would you have waited for the king, or sailed with the ports shut. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

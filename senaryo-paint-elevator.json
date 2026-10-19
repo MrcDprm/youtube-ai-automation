@@ -1,0 +1,1018 @@
+{
+  "project_id": "why-you-trust-a-box-on-a-rope-11dk-20260824",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-jab-button",
+        "prompt": "Stickman jabbing CLOSE DOOR button in an elevator, MS Paint, white background.",
+        "covers": "You jab the close-door button as if the elevator were stubborn.",
+        "image": null
+      },
+      {
+        "slug": "0005-own-schedule",
+        "prompt": "Elevator doors ignoring a finger, second jab, MS Paint.",
+        "covers": "The doors close on their own schedule. You jab again.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-political",
+        "prompt": "Elevator labeled NOT POLITICS, shrugging stickman, MS Paint.",
+        "covers": "You will not think of it as a political act.",
+        "image": null
+      },
+      {
+        "slug": "0015-box-job",
+        "prompt": "Smiling elevator box, stickman inside, MS Paint.",
+        "covers": "It feels like a box doing its job.",
+        "image": null
+      },
+      {
+        "slug": "0020-closet-rope",
+        "prompt": "Closet-car on a rope over a building hole, MS Paint.",
+        "covers": "You are in a closet hanging from a rope over a hole.",
+        "image": null
+      },
+      {
+        "slug": "0025-trust-unseen",
+        "prompt": "Stickman trusting a hidden gear behind a wall, MS Paint.",
+        "covers": "Trusting a machine you cannot see.",
+        "image": null
+      },
+      {
+        "slug": "0030-freight-snap",
+        "prompt": "Barrel hoist snapping, falling platform, MS Paint.",
+        "covers": "The closet was a freight accident waiting for a snap.",
+        "image": null
+      },
+      {
+        "slug": "0035-gravity-contract",
+        "prompt": "Gravity signing a contract, elevator waiting, MS Paint.",
+        "covers": "Why step in as if gravity had signed a contract?",
+        "image": null
+      },
+      {
+        "slug": "0040-vermont-cut",
+        "prompt": "Stick mechanic, axe on a rope, NY 1854, MS Paint.",
+        "covers": "A mechanic from Vermont cut the rope on purpose in New York.",
+        "image": null
+      },
+      {
+        "slug": "0045-all-safe",
+        "prompt": "Crowd, safe platform, city growing upward, MS Paint.",
+        "covers": "He shouted that everyone was safe. Cities learned to grow up.",
+        "image": null
+      },
+      {
+        "slug": "0050-not-remote",
+        "prompt": "Button as a lullaby note, remote with red X, MS Paint.",
+        "covers": "Your button is not a remote control. It is a lullaby for a fear.",
+        "image": null
+      },
+      {
+        "slug": "0055-press-flattered",
+        "prompt": "Smiling elevator button being pressed, MS Paint.",
+        "covers": "You still press. The press is flattered.",
+        "image": null
+      },
+      {
+        "slug": "0100-stunt-voted",
+        "prompt": "Fair stunt trophy beating a rope, MS Paint.",
+        "covers": "The rope did not vote. A fairground stunt did.",
+        "image": null
+      },
+      {
+        "slug": "0105-thumb-hurry",
+        "prompt": "Skyline, poking thumb labeled HURRY, MS Paint.",
+        "covers": "A skyline taught your thumb the poke until the poke called itself hurry.",
+        "image": null
+      },
+      {
+        "slug": "0110-older-lift",
+        "prompt": "Old warehouse hoist, no passenger car, MS Paint.",
+        "covers": "Start with the older lift.",
+        "image": null
+      },
+      {
+        "slug": "0115-warehouse-hook",
+        "prompt": "Hook becoming a tiny room, MS Paint.",
+        "covers": "The passenger car stole a warehouse hook and sold it as a room.",
+        "image": null
+      },
+      {
+        "slug": "0120-barrels-bricks",
+        "prompt": "Barrels and bricks, broken rope, MS Paint.",
+        "covers": "Hoists hauled barrels and bricks. A rope broke.",
+        "image": null
+      },
+      {
+        "slug": "0125-worker-rumor",
+        "prompt": "Fallen platform, rumor cloud, MS Paint.",
+        "covers": "A platform fell. A worker became a rumor.",
+        "image": null
+      },
+      {
+        "slug": "0130-steam-hope",
+        "prompt": "Steam hoist, word HOPE with red X spec, MS Paint.",
+        "covers": "Hotels used steam and belts and hope. Hope is not a spec.",
+        "image": null
+      },
+      {
+        "slug": "0135-stairs-no-cable",
+        "prompt": "Stairs vs a arguing cable, MS Paint.",
+        "covers": "People walked stairs because stairs do not negotiate with a cable.",
+        "image": null
+      },
+      {
+        "slug": "0140-five-story-mountain",
+        "prompt": "Five floors as a mountain, buckets, knees, MS Paint.",
+        "covers": "A five-story building was a mountain for knees and buckets.",
+        "image": null
+      },
+      {
+        "slug": "0145-two-floors-class",
+        "prompt": "Rich on floor 1, poor climbing, MS Paint.",
+        "covers": "Two floors used to be a class. The rich lived low.",
+        "image": null
+      },
+      {
+        "slug": "0150-attic-hike",
+        "prompt": "Cheap attic, hiking stickman, MS Paint.",
+        "covers": "The attic was cheap because the attic was a hike.",
+        "image": null
+      },
+      {
+        "slug": "0155-gravity-rent",
+        "prompt": "Gravity as a landlord, elevator reversing rent, MS Paint.",
+        "covers": "Gravity was rent. The box reversed the rent.",
+        "image": null
+      },
+      {
+        "slug": "0200-harder-fear",
+        "prompt": "Fear vs a pulley, arm wrestle, MS Paint.",
+        "covers": "Reversing the fear is harder than reversing a pulley.",
+        "image": null
+      },
+      {
+        "slug": "0205-otis-vermont",
+        "prompt": "Stick mechanic OTIS, Vermont hills, MS Paint.",
+        "covers": "Elisha Graves Otis, mechanic from Vermont.",
+        "image": null
+      },
+      {
+        "slug": "0210-failed-lives",
+        "prompt": "Three hats: farmer millwright inventor, MS Paint.",
+        "covers": "He had failed at a few lives: farmer, millwright.",
+        "image": null
+      },
+      {
+        "slug": "0215-brake-bite",
+        "prompt": "Toothed brake biting a rail, slack rope, MS Paint.",
+        "covers": "A brake that would bite if the rope went slack.",
+        "image": null
+      },
+      {
+        "slug": "0220-yonkers-1852",
+        "prompt": "Yonkers hoist 1852, brake, MS Paint.",
+        "covers": "Eighteen fifty two: the brake on a hoist in Yonkers.",
+        "image": null
+      },
+      {
+        "slug": "0225-crystal-palace",
+        "prompt": "Crystal Palace doodle, platform, axe, 1854, MS Paint.",
+        "covers": "Eighteen fifty four, New York Crystal Palace, a public cut.",
+        "image": null
+      },
+      {
+        "slug": "0230-axeman-cut",
+        "prompt": "Axe cutting rope, platform catching, MS Paint.",
+        "covers": "An axeman cut the rope. The platform jerked, caught, stayed.",
+        "image": null
+      },
+      {
+        "slug": "0235-all-safe-gentlemen",
+        "prompt": "Banner ALL SAFE, crowd exhaling, MS Paint.",
+        "covers": "All safe, gentlemen. Stunt as product.",
+        "image": null
+      },
+      {
+        "slug": "0240-lacquer-or-fact",
+        "prompt": "Quote in lacquer vs the catching platform, MS Paint.",
+        "covers": "Whether the quote is lacquer or fact, the stunt is the product.",
+        "image": null
+      },
+      {
+        "slug": "0245-safety-theater",
+        "prompt": "Theater stage of a safe hoist, audience, MS Paint.",
+        "covers": "Safety as a theater you could watch without dying.",
+        "image": null
+      },
+      {
+        "slug": "0250-more-floors",
+        "prompt": "Tall building vs tired staircase, MS Paint.",
+        "covers": "Buildings wanted more floors than a staircase would forgive.",
+        "image": null
+      },
+      {
+        "slug": "0255-haughwout-1857",
+        "prompt": "Cast-iron store BROADWAY 1857, elevator, MS Paint.",
+        "covers": "Eighteen fifty seven: passenger elevator, Haughwout Building, Broadway.",
+        "image": null
+      },
+      {
+        "slug": "0300-height-inventory",
+        "prompt": "Floors as inventory boxes, MS Paint.",
+        "covers": "Height stopped being a dare. Height became inventory.",
+        "image": null
+      },
+      {
+        "slug": "0305-city-vertical",
+        "prompt": "City stacking floors labeled TRUST, MS Paint.",
+        "covers": "Watch the city turn vertical. A stack of trust.",
+        "image": null
+      },
+      {
+        "slug": "0310-car-not-hobby",
+        "prompt": "Stacked office dishes, MS Paint.",
+        "covers": "Once the car did not fall as a hobby, architects stacked offices.",
+        "image": null
+      },
+      {
+        "slug": "0315-steel-box",
+        "prompt": "Steel frame hugging an elevator, MS Paint.",
+        "covers": "Steel frames and the box discovered each other.",
+        "image": null
+      },
+      {
+        "slug": "0320-ny-chicago",
+        "prompt": "Two skylines arguing, MS Paint.",
+        "covers": "New York and Chicago arguing in the sky.",
+        "image": null
+      },
+      {
+        "slug": "0325-not-a-list",
+        "prompt": "FIRSTS list with red X, SWAP arrow, MS Paint.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0330-freight-death",
+        "prompt": "Freight warning sign, then mirror and brass button, MS Paint.",
+        "covers": "A death that belonged to freight got a mirror and a brass button.",
+        "image": null
+      },
+      {
+        "slug": "0335-called-civ",
+        "prompt": "Elevator labeled CIVILIZATION, MS Paint.",
+        "covers": "And called the result civilization.",
+        "image": null
+      },
+      {
+        "slug": "0340-operator-job",
+        "prompt": "Stick operator on a stool, feeling floors, MS Paint.",
+        "covers": "The operator was a job: floors by feel.",
+        "image": null
+      },
+      {
+        "slug": "0345-operator-vanished",
+        "prompt": "Operator fading into a button panel, MS Paint.",
+        "covers": "Then the operator vanished into a panel you mash.",
+        "image": null
+      },
+      {
+        "slug": "0350-human-fossil",
+        "prompt": "Operator as a fossil, MS Paint.",
+        "covers": "A human in the car is a fossil of courtesy.",
+        "image": null
+      },
+      {
+        "slug": "0355-panel-cheap",
+        "prompt": "Price tags: operator vs panel, MS Paint.",
+        "covers": "Courtesy is expensive. A panel is cheap.",
+        "image": null
+      },
+      {
+        "slug": "0400-no-choir",
+        "prompt": "Skyline, empty operator hats, MS Paint.",
+        "covers": "A skyline without a choir of elevator men.",
+        "image": null
+      },
+      {
+        "slug": "0405-rehook-tool",
+        "prompt": "Close-door button vs light switch, stickman, MS Paint.",
+        "covers": "Rehook: you think close-door is a tool like a light switch.",
+        "image": null
+      },
+      {
+        "slug": "0410-placebo",
+        "prompt": "Button labeled PLACEBO, MS Paint.",
+        "covers": "Often it is a placebo.",
+        "image": null
+      },
+      {
+        "slug": "0415-does-nothing",
+        "prompt": "Finger press, doors ignoring, ordinary sticker, MS Paint.",
+        "covers": "In many cars the button does nothing for ordinary passengers.",
+        "image": null
+      },
+      {
+        "slug": "0420-impatience-land",
+        "prompt": "Impatience landing on a square button, MS Paint.",
+        "covers": "It is there so your impatience has a place to land.",
+        "image": null
+      },
+      {
+        "slug": "0425-key-real",
+        "prompt": "Key making the button light up REAL, MS Paint.",
+        "covers": "Firefighters and staff may have a key that makes it real.",
+        "image": null
+      },
+      {
+        "slug": "0430-walker-wait",
+        "prompt": "Walker stickman, slow doors, MS Paint.",
+        "covers": "Doors delayed so a walker is not eaten by a schedule.",
+        "image": null
+      },
+      {
+        "slug": "0435-un-nature-poke",
+        "prompt": "Nature sticker peeling off a poke, MS Paint.",
+        "covers": "Not calling you a fool. Un-naturing the poke.",
+        "image": null
+      },
+      {
+        "slug": "0440-demo-square",
+        "prompt": "1854 demo inside a plastic button, MS Paint.",
+        "covers": "The poke is Otis's demo wearing a plastic square.",
+        "image": null
+      },
+      {
+        "slug": "0445-box-will-catch",
+        "prompt": "Safety brake catching a car, MS Paint.",
+        "covers": "The demo said the box will catch you.",
+        "image": null
+      },
+      {
+        "slug": "0450-boss-the-box",
+        "prompt": "Stickman bossing an elevator, MS Paint.",
+        "covers": "The square says you can boss the box.",
+        "image": null
+      },
+      {
+        "slug": "0455-bossing-feeling",
+        "prompt": "Feeling cloud vs a ratchet, MS Paint.",
+        "covers": "Bossing is a feeling. Catching is a ratchet.",
+        "image": null
+      },
+      {
+        "slug": "0500-hurry-with-key",
+        "prompt": "Key hurry vs jab hurry, MS Paint.",
+        "covers": "The only hurry that counts is the one with a key.",
+        "image": null
+      },
+      {
+        "slug": "0505-lock-travel",
+        "prompt": "Elevator lock walking into a store, MS Paint.",
+        "covers": "Watch the lock travel.",
+        "image": null
+      },
+      {
+        "slug": "0510-store-fountain",
+        "prompt": "Store fountain of elevator floors, MS Paint.",
+        "covers": "Department stores put the box in the middle like a fountain of floors.",
+        "image": null
+      },
+      {
+        "slug": "0515-view-product",
+        "prompt": "Window view vs tired stairs, MS Paint.",
+        "covers": "Towers sold a view the stairs could not deliver.",
+        "image": null
+      },
+      {
+        "slug": "0520-hospital-beds",
+        "prompt": "Hospital bed in a wide elevator, MS Paint.",
+        "covers": "Hospitals rolled beds into cars wide enough for a life.",
+        "image": null
+      },
+      {
+        "slug": "0525-mall-parking",
+        "prompt": "Parking stack, forgotten machine, MS Paint.",
+        "covers": "Malls stacked parking so you forget you are in a machine.",
+        "image": null
+      },
+      {
+        "slug": "0530-rituals",
+        "prompt": "Three ritual panels, stick people, MS Paint.",
+        "covers": "Stand back, face the door, apologize when you hold it.",
+        "image": null
+      },
+      {
+        "slug": "0535-polite-fear",
+        "prompt": "Fear in a polite hat, MS Paint.",
+        "covers": "Rituals are how a fear stays polite.",
+        "image": null
+      },
+      {
+        "slug": "0540-express-skip",
+        "prompt": "Express car skipping floors, MS Paint.",
+        "covers": "Express elevators skip kitchen floors like first class skips the wing.",
+        "image": null
+      },
+      {
+        "slug": "0545-skybridge",
+        "prompt": "Skybridge with ground red X, MS Paint.",
+        "covers": "A skybridge is a corridor that refused the ground.",
+        "image": null
+      },
+      {
+        "slug": "0550-ground-optional",
+        "prompt": "Optional ground switch, MS Paint.",
+        "covers": "The ground is optional now.",
+        "image": null
+      },
+      {
+        "slug": "0555-unread-inspection",
+        "prompt": "Unread inspection clipboard, cable, MS Paint.",
+        "covers": "A city that bet your life on a cable inspection you never read.",
+        "image": null
+      },
+      {
+        "slug": "0600-this-is-you",
+        "prompt": "Stickman Tuesday lobby, glowing floor number, MS Paint.",
+        "covers": "This is you. A Tuesday lobby. A number lighting up.",
+        "image": null
+      },
+      {
+        "slug": "0605-strangers-digits",
+        "prompt": "Strangers in a car staring at numbers, MS Paint.",
+        "covers": "You stare at glowing digits because eye contact is too much truth.",
+        "image": null
+      },
+      {
+        "slug": "0610-not-brave",
+        "prompt": "Not-brave sticker, cut rope, modern lobby, MS Paint.",
+        "covers": "None of this makes you brave. Born after a public rope-cut.",
+        "image": null
+      },
+      {
+        "slug": "0615-broadway-tall",
+        "prompt": "Broadway getting tall, MS Paint.",
+        "covers": "After Broadway learned to be tall.",
+        "image": null
+      },
+      {
+        "slug": "0620-good-morning-gone",
+        "prompt": "Good morning fading, button panel, MS Paint.",
+        "covers": "A panel replaced a human who used to say good morning.",
+        "image": null
+      },
+      {
+        "slug": "0625-knees-off",
+        "prompt": "Knees in a hammock, elevator, MS Paint.",
+        "covers": "Relief that your knees are off duty.",
+        "image": null
+      },
+      {
+        "slug": "0630-button-ghosts",
+        "prompt": "Ghost button, insulted stickman, MS Paint.",
+        "covers": "A tiny insult when the close-door button ghosts you.",
+        "image": null
+      },
+      {
+        "slug": "0635-lullaby-fail",
+        "prompt": "Broken lullaby note, MS Paint.",
+        "covers": "The insult is the lullaby failing for a second.",
+        "image": null
+      },
+      {
+        "slug": "0640-trust-inspect",
+        "prompt": "Sky for sale, unopened trust box, MS Paint.",
+        "covers": "You paid for the sky with a trust you cannot inspect.",
+        "image": null
+      },
+      {
+        "slug": "0645-cheerful-hole",
+        "prompt": "Building hole in a cheerful costume, MS Paint.",
+        "covers": "Cheerful is how a hole stays without looking like a hole.",
+        "image": null
+      },
+      {
+        "slug": "0650-towers-are-elevators",
+        "prompt": "Tower that is mostly elevator shaft, tiny offices, MS Paint.",
+        "covers": "Skyscrapers are elevators with offices attached.",
+        "image": null
+      },
+      {
+        "slug": "0655-rude-fair",
+        "prompt": "Rude stamp on a fair sentence, MS Paint.",
+        "covers": "That sentence is rude and almost fair.",
+        "image": null
+      },
+      {
+        "slug": "0700-stair-argument",
+        "prompt": "Tower of arguing stairs, no elevator, MS Paint.",
+        "covers": "Take the box away and the tower is a stair argument nobody wins.",
+        "image": null
+      },
+      {
+        "slug": "0705-sky-lobbies",
+        "prompt": "Diagram of skippers vs climbers, MS Paint.",
+        "covers": "Fire codes, express shafts, sky lobbies: who is allowed to skip.",
+        "image": null
+      },
+      {
+        "slug": "0710-jab-vote",
+        "prompt": "Jab voting HURRY, safety poster, MS Paint.",
+        "covers": "The jab is a vote for hurry in a machine sold as safety.",
+        "image": null
+      },
+      {
+        "slug": "0715-not-stairs-personality",
+        "prompt": "Stairs personality hat with red X, MS Paint.",
+        "covers": "Not telling you to take the stairs as a personality.",
+        "image": null
+      },
+      {
+        "slug": "0720-demo-man",
+        "prompt": "Demo trio: man platform rope, MS Paint.",
+        "covers": "The personality was the demo: a man, a platform, a rope cut.",
+        "image": null
+      },
+      {
+        "slug": "0725-crowd-exhale",
+        "prompt": "Crowd in an elevator exhaling, MS Paint.",
+        "covers": "A crowd exhaling. The crowd is still in the car.",
+        "image": null
+      },
+      {
+        "slug": "0730-phones-cannot",
+        "prompt": "Phone with red X, brake catching, MS Paint.",
+        "covers": "Phones cannot catch a fall. The brake can.",
+        "image": null
+      },
+      {
+        "slug": "0735-inspection-fiction",
+        "prompt": "Inspection log NOT FICTION, MS Paint.",
+        "covers": "If the inspection was not a fiction.",
+        "image": null
+      },
+      {
+        "slug": "0740-trade-walkable",
+        "prompt": "Walkable short city vs stacked city, MS Paint.",
+        "covers": "We traded a walkable height for a stacked hurried city.",
+        "image": null
+      },
+      {
+        "slug": "0745-stack-helps",
+        "prompt": "Hospital, view, floor 40, MS Paint.",
+        "covers": "A hospital floor, a cheap view, a job on the fortieth story.",
+        "image": null
+      },
+      {
+        "slug": "0750-miracle-cable",
+        "prompt": "Halo on a cable, MS Paint.",
+        "covers": "Help can be a miracle and still be a cable.",
+        "image": null
+      },
+      {
+        "slug": "0755-button-is-power",
+        "prompt": "Button POWER myth, car as fake living room, MS Paint.",
+        "covers": "A myth that the button is power, that the car is a room.",
+        "image": null
+      },
+      {
+        "slug": "0800-falling-movie",
+        "prompt": "Movie clapper, falling car with red X, MS Paint.",
+        "covers": "A myth that falling is a movie problem.",
+        "image": null
+      },
+      {
+        "slug": "0805-lobby-word",
+        "prompt": "Lobby holding the word MOVIES, MS Paint.",
+        "covers": "Movies are a word the lobby uses.",
+        "image": null
+      },
+      {
+        "slug": "0810-rope-called-ride",
+        "prompt": "Rope renamed RIDE, MS Paint.",
+        "covers": "We kept the rope and called it a ride.",
+        "image": null
+      },
+      {
+        "slug": "0815-fear-called-button",
+        "prompt": "Fear renamed BUTTON, MS Paint.",
+        "covers": "We kept the fear and called it a button.",
+        "image": null
+      },
+      {
+        "slug": "0820-hoist-manners",
+        "prompt": "Hoist in a tuxedo, MS Paint.",
+        "covers": "The box is a hoist that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0825-walker-key-honest",
+        "prompt": "Walker plus key lighting CLOSE, MS Paint.",
+        "covers": "Doors wait for a walker. A key makes close honest.",
+        "image": null
+      },
+      {
+        "slug": "0830-jab-truce",
+        "prompt": "Poke truce vs short building, MS Paint.",
+        "covers": "A jab is a truce you poke. Not a building that learned to be short.",
+        "image": null
+      },
+      {
+        "slug": "0835-pick-up-finger",
+        "prompt": "Callback: stickman finger over CLOSE DOOR, MS Paint.",
+        "covers": "You pick up your finger. The square will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0840-feel-nothing",
+        "prompt": "Blank calm face, elevator buttons, MS Paint.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0845-thumb-close",
+        "prompt": "Giant thumb on CLOSE DOOR, MS Paint.",
+        "covers": "Put your thumb on close door.",
+        "image": null
+      },
+      {
+        "slug": "0850-not-stairs",
+        "prompt": "Button between red-X sky and red-X stairs, MS Paint.",
+        "covers": "Not the sky and not a staircase.",
+        "image": null
+      },
+      {
+        "slug": "0855-vermont-mechanic",
+        "prompt": "Otis, cut rope, 1854, MS Paint.",
+        "covers": "A Vermont mechanic. A cut rope in eighteen fifty four.",
+        "image": null
+      },
+      {
+        "slug": "0900-shout-safety",
+        "prompt": "Shout SAFE, Broadway store growing, MS Paint.",
+        "covers": "A shout about safety. A Broadway store that wanted height.",
+        "image": null
+      },
+      {
+        "slug": "0905-stacked-trust",
+        "prompt": "Stacked trust, fading operator, plastic panel, MS Paint.",
+        "covers": "A skyline of stacked trust. An operator vanished into plastic.",
+        "image": null
+      },
+      {
+        "slug": "0910-button-lies",
+        "prompt": "Lying button, stickman still entering, MS Paint.",
+        "covers": "A button that often lies so you will keep stepping in.",
+        "image": null
+      },
+      {
+        "slug": "0915-love-the-ride",
+        "prompt": "Happy stickman in an elevator, MS Paint.",
+        "covers": "You are allowed to love the ride.",
+        "image": null
+      },
+      {
+        "slug": "0920-stairs-superior",
+        "prompt": "Smug stair stickman vs elevator, MS Paint.",
+        "covers": "You are allowed to take the stairs and feel superior for two floors.",
+        "image": null
+      },
+      {
+        "slug": "0925-not-natural",
+        "prompt": "Elevator NATURAL sticker with red X, MS Paint.",
+        "covers": "Stop calling the box natural.",
+        "image": null
+      },
+      {
+        "slug": "0930-not-late-proof",
+        "prompt": "LATE stamp with red X, MS Paint.",
+        "covers": "Not proof that you are late.",
+        "image": null
+      },
+      {
+        "slug": "0935-lullaby-stunt",
+        "prompt": "Jab, lullaby, stunt ghost in lobby, MS Paint.",
+        "covers": "When you jab, a lullaby for a fairground stunt that never left the lobby.",
+        "image": null
+      },
+      {
+        "slug": "0940-hole-is-point",
+        "prompt": "Cheerful lullaby, building hole, MS Paint.",
+        "covers": "The lullaby is cheerful. The hole is the point.",
+        "image": null
+      },
+      {
+        "slug": "0945-know-rope",
+        "prompt": "Stickman riding, rope labeled which, MS Paint.",
+        "covers": "Ride if you want. Know which rope you are still trusting.",
+        "image": null
+      },
+      {
+        "slug": "0950-poke-cheerful",
+        "prompt": "Smiling poke, closet-car in a building, MS Paint.",
+        "covers": "The poke is cheerful. Cheerful is how a falling closet stays.",
+        "image": null
+      },
+      {
+        "slug": "0955-stubborn-animal",
+        "prompt": "Elevator box as a stubborn mule, poking stickman, MS Paint.",
+        "covers": "You jab as if the elevator were a stubborn animal.",
+        "image": null
+      },
+      {
+        "slug": "1000-grow-up-not-out",
+        "prompt": "City stretching up, sprawl with red X, MS Paint.",
+        "covers": "Cities learned to grow up instead of out.",
+        "image": null
+      },
+      {
+        "slug": "1005-kitchen-smell",
+        "prompt": "Kitchen smell rising, rich on floor one, MS Paint.",
+        "covers": "The poor climbed so the rich would not smell the kitchen.",
+        "image": null
+      },
+      {
+        "slug": "1010-water-buckets",
+        "prompt": "Stickman hauling buckets up stairs, MS Paint.",
+        "covers": "Five stories were a mountain for water buckets.",
+        "image": null
+      },
+      {
+        "slug": "1015-fortieth-not-hike",
+        "prompt": "Floor 40 job, pilgrimage hat with red X, MS Paint.",
+        "covers": "A job on the fortieth story that is not a pilgrimage.",
+        "image": null
+      },
+      {
+        "slug": "1020-cheap-view",
+        "prompt": "Attic window now selling a view, MS Paint.",
+        "covers": "A cheap attic that became a cheap view.",
+        "image": null
+      },
+      {
+        "slug": "1025-three-phones",
+        "prompt": "Four stickmen, phones, falling car, MS Paint.",
+        "covers": "You and three people checking phones as if phones could catch a fall.",
+        "image": null
+      },
+      {
+        "slug": "1030-maintenance-log",
+        "prompt": "Maintenance log stamped TRUE, MS Paint.",
+        "covers": "Fiction is a word maintenance logs are not supposed to be.",
+        "image": null
+      },
+      {
+        "slug": "1035-honesty-slower",
+        "prompt": "Slow HONEST turtle vs fast jab, MS Paint.",
+        "covers": "Honesty is slower than a jab. A jab is a truce you poke.",
+        "image": null
+      },
+      {
+        "slug": "1040-doors-own-time",
+        "prompt": "Door clock vs stickman watch, MS Paint.",
+        "covers": "The doors have a clock you are not on.",
+        "image": null
+      },
+      {
+        "slug": "1045-lobby-mirror",
+        "prompt": "Elevator mirror, hidden cable, MS Paint.",
+        "covers": "A mirror so you look at yourself instead of the cable.",
+        "image": null
+      },
+      {
+        "slug": "1050-ding-permission",
+        "prompt": "Ding bell, hole wearing a room costume, MS Paint.",
+        "covers": "The ding is permission to pretend the hole is a room.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback: button, two place labels, stickman thumb, MS Paint.",
+        "covers": "Close door. Yonkers. Broadway. Your thumb.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why You Trust a Box on a Rope",
+    "description": "The close-door button feels like power. It is often a lullaby. Otis cut a rope in eighteen fifty four, Broadway got tall, the operator vanished into plastic. You still jab.",
+    "tags": [
+      "elevator",
+      "otis",
+      "skyscraper",
+      "history",
+      "button",
+      "why",
+      "buildings",
+      "safety",
+      "city",
+      "close-door"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "CLOSE DOOR?"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will jab the close-door button as if the elevator were a stubborn animal. The doors will close on their own schedule, or they will not, and you will jab again because jabbing feels like work. You will not think of it as a political act. It will feel like a box doing its job. Here is the part that should bother you. You are standing in a closet hanging from a rope, over a hole in a building, trusting a machine you cannot see. For most of the history of lifting, that closet was a freight accident waiting for a snap. So why do you step in as if gravity had signed a contract? Because a mechanic from Vermont cut the rope on purpose in New York, in eighteen fifty four, and shouted that everyone was safe, and then cities learned to grow up instead of out. That is the whole plot. Your button is not a remote control. It is a lullaby for a fear the demo already sold. You still press. The press is flattered. That is its job. The rope did not vote. A fairground stunt did, and then a skyline that taught your thumb the poke until the poke started calling itself hurry. Hurry is a word a lobby invented so a hole would feel like a room. The room is still a closet. The closet is still a bet.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the older lift, because the passenger car stole a warehouse hook and then sold it as a room. Before Otis, hoists hauled barrels and bricks. A rope broke, a platform fell, a worker became a rumor. Hotels and warehouses used steam and belts and hope. Hope is not an engineering spec. People walked stairs because stairs do not negotiate with a cable. A five-story building was already a mountain for knees and for water buckets. If your legs still choose the elevator for two floors, notice that two floors used to be a class: the rich lived low so they would not climb, and the poor climbed so the rich would not smell the kitchen. The attic was cheap because the attic was a hike. Gravity was rent. The box reversed the rent. It also reversed the fear, which is a harder trick than reversing a pulley. A pulley is honest about being a machine. A mirrored closet is a pulley that learned to dress. Dressing is how a warehouse hook got invited into a lobby and then started charging for the view.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Elisha Graves Otis was a mechanic from Vermont who had already failed at a few lives: farmer, millwright, inventor of a brake that would bite if the rope went slack. In eighteen fifty two he fitted that brake to a hoist in Yonkers. In eighteen fifty four, at the New York Crystal Palace, he rode a platform up, had an axeman cut the rope in public, and the platform jerked, caught, and stayed. He is supposed to have said all safe, gentlemen. Whether the quote is lacquer or fact, the stunt is the product. Safety as a theater you could watch without dying. The company that took his name sold the theater to buildings that wanted more floors than a staircase would forgive. In eighteen fifty seven a passenger elevator opened at the Haughwout Building on Broadway, a cast-iron store that suddenly had a reason to be tall. Height stopped being a dare. Height became inventory. Inventory is a word a store uses when a floor is no longer a hike. A hike used to be the tax on living above the street. The tax moved into a shaft, and the shaft learned to smile with brass.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the city turn vertical, because a vertical city is a stack of trust. Once the car did not fall as a hobby, architects stacked offices like dishes. Steel frames and the box discovered each other. By the last decades of the eighteen hundreds, New York and Chicago were arguing in the sky. I am not giving you a list of firsts. I am pointing at the swap. We took a death that belonged to freight, put a mirror and a brass button in it, and called the result civilization. The operator was a job: a person in a stool who knew the floors by feel. Then the operator vanished into a panel you mash with a knuckle. If your building still has a human in the car, that human is a fossil of courtesy. Courtesy is expensive. A panel is cheap. Cheap is how a skyline stays in the century without hiring a choir of elevator men. A choir would at least say the floor names out loud. A panel just lights a number and pretends the number is a conversation. Conversation is what you lost when the stool left.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the close-door button is a tool, the way a light switch is a tool. Often it is a placebo. In a lot of modern cars the button does nothing for ordinary passengers. It is there so your impatience has a place to land. Firefighters and staff may have a key that makes it real. Accessibility rules delayed doors so a person with a walker is not eaten by a schedule. I am not calling you a fool for pressing. I am un-naturing the poke. The poke is Otis's demo wearing a plastic square. The demo said the box will catch you. The square says you can boss the box. Bossing is a feeling. Catching is a ratchet. If the doors ignore you, that is not the elevator being rude. That is the building admitting the only hurry that counts is the one with a key. A key is a class in your pocket. Your finger is a class that got a square so it would not notice. Notice is slower than a jab. A jab is how a placebo stays employed.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the lock travel. Department stores put the box in the middle like a fountain of floors. Apartment towers sold a view as a product the stairs could not deliver. Hospitals rolled beds into cars that had to be wide enough for a life. Malls stacked parking so you would forget you were in a machine. You still perform the little rituals: stand back, face the door, do not skip with a crowd, apologize when you hold it. The rituals are how a fear stays polite. A polite fear is still a fear. Express elevators skip the kitchen floors the way first class skips the wing. If your office skybridge still feels like weather, notice it is a corridor that refused the ground. The ground is optional now. Optional ground is a city that bet your life on a cable inspection you will never read. Never reading is the modern contract. The contract is laminated in a lobby you walk through as if walking through were free. Walking through is the fee. The fee is a ding.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a lobby, a number lighting up as if it liked you. You step in with strangers and stare at the glowing digits because eye contact in a falling closet is too much truth. None of this makes you brave. It makes you a person born after a public rope-cut and after Broadway learned to be tall and after a panel replaced a human who used to say good morning. You can feel both in the same ride: relief that your knees are off duty, and a tiny insult when the close-door button ghosts you. The relief is real. The insult is the lullaby failing for a second. You paid for the sky with a trust you cannot inspect. The trust is cheerful. Cheerful is how a hole in a building stays in the century without looking like a hole. The hole still has a number. The number still feels like a greeting. A greeting used to have a voice. Your voice is the ding, which is a machine coughing politely so you will keep staring at the floor lights instead of the cable.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Skyscrapers are elevators with offices attached. That sentence is rude and almost fair. Take the box away and the tower becomes a stair argument nobody wins. Fire codes, express shafts, sky lobbies: the building is a diagram of who is allowed to skip. You still jab. The jab is a vote for hurry in a machine that was sold as safety. I am not telling you to take the stairs as a personality. I am telling you the personality was always the demo: a man on a platform, a rope cut, a crowd exhaling. The crowd is still in the car. The crowd is you and three people checking their phones as if phones could catch a fall. The phones cannot. The brake can, if the inspection was not a fiction. Fiction is a word maintenance logs are not supposed to be. A log is a promise written in a basement you will never visit. The basement is the real lobby. The lobby is a costume. Costume is how a shaft stays in a Tuesday without looking like a dare you agreed to at the ding.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So what did we trade? We traded a city that had to be walkable in height for a city that could be stacked, rented, and hurried. That stack is real help: a hospital floor, a cheap attic that became a cheap view, a job on the fortieth story that is not a pilgrimage. Help can be a miracle and still be a cable. We also gained a myth that the button is power, that the car is a room, that falling is a movie problem. Movies are a word the lobby uses. We kept the rope and called it a ride. We kept the fear and called it a button. Both can be true and still not be a reason to forget the box is a hoist that learned manners. Deals can be rewritten. Some already were, quietly, when doors learned to wait for a walker and when a key made the close button honest. Honesty is slower than a jab. A jab is a truce you poke. A truce is not a building that learned to be short. Short would be a different skyline. The skyline we kept is a stack of people who agreed not to look at the rope.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "This is you. You will pick up your finger. The square will still be there. You will feel nothing, which is the victory. Put your thumb on close door. That is not the sky and it is not a staircase. That is a Vermont mechanic, a cut rope in eighteen fifty four, a shout about safety, a Broadway store that wanted height, a skyline of stacked trust, an operator who vanished into plastic, and a button that often lies so you will keep stepping in. You are allowed to love the ride. You are allowed to take the stairs and feel superior for two floors. Just stop calling the box natural, or inevitable, or proof that you are late. Tonight, when you jab, look at it like a lullaby for a fairground stunt that never left the lobby. The lullaby is cheerful. The hole is the point. Ride if you want. Know which rope you are still trusting. The poke is cheerful. Cheerful is how a falling closet stays in the building without looking like a dare. The dare is still under the ding. The ding is still a permission slip you never signed, and you still step in as if signing were someone else's job.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "project_id": "your-life-on-a-champions-league-matchday-14dk-20260902",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.22,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 84,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.2,
+      "zoom_body_end": 1.2,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "r01-not-kickoff",
+        "prompt": "Kit alarm ringing, KICKOFF crossed out, MATCHDAY AT DAWN. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-alarm-wins",
+        "prompt": "Kit reaching for phone alarm 5:45 AM, dark room. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-tape-carbs-bus",
+        "prompt": "Tape roll, banana, team bus smell lines, Kit packing bag. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-tunnel-not-start",
+        "prompt": "Tunnel in distance, SKIP arrow to morning routine. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-quietest-hour",
+        "prompt": "Kit silent at kitchen table, steam from mug, cream paper. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-find-left-boot",
+        "prompt": "Kit searching one boot under bed, LEFT BOOT stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-phase-one",
+        "prompt": "Title PHASE 1, clock 5:45, Kit sitting up. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r02-weather-check",
+        "prompt": "Kit phone weather app foreign city, hoodie on. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r02-lucky-socks",
+        "prompt": "Kit laying lucky socks next to tape, superstition. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r02-oats-banana",
+        "prompt": "Breakfast bowl oats banana water bottles lined up. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r02-sixty-thousand",
+        "prompt": "Stadium silhouette over quiet kitchen, Kit staring. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r02-already-late",
+        "prompt": "Kit rushing checklist, LATE IN HEAD stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r03-phase-two",
+        "prompt": "Title PHASE 2, hotel breakfast table long. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-nutritionist-plate",
+        "prompt": "Plate with check marks, nutritionist clipboard, Kit eating. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-seating-politics",
+        "prompt": "Kit choosing seat near seniors, empty chairs politics. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-ankle-updates",
+        "prompt": "Teammates whisper ankle icons, Kit listening. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-doping-clipboard",
+        "prompt": "Kit signing clipboard ANTI-DOPING, neutral. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-bus-nine",
+        "prompt": "Bus door 9 AM, Kit with travel clothes not kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-phase-three",
+        "prompt": "Title PHASE 3, team bus interior Kit window seat. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-same-seat",
+        "prompt": "Kit same bus seat number taped, ritual. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-security-gate",
+        "prompt": "Bus at training ground gate security, Kit looking out. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-fans-fence",
+        "prompt": "Fans silhouettes phones outside fence, Kit inside bus. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-waiting-skill",
+        "prompt": "Kit waiting room clock, WAITING IS WORK stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-phone-away",
+        "prompt": "Kit putting phone face down, deep breath. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-phase-four",
+        "prompt": "Title PHASE 4, stadium concrete ramp Kit credential. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r05-credential-lanyard",
+        "prompt": "Kit lanyard CREDENTIAL, cleaner nodding. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r05-dressing-room-hooks",
+        "prompt": "Empty dressing room hooks ice tubs, Kit entering. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r05-name-on-back",
+        "prompt": "Kit shirt hanger NAME ON BACK, careful hands. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r05-physio-fine",
+        "prompt": "Physio clipboard hamstring, Kit saying FINE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r05-fine-contract",
+        "prompt": "Word FINE on contract paper, Kit serious. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-phase-five",
+        "prompt": "Title PHASE 5, pasta bowls team cafeteria. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-pasta-job",
+        "prompt": "Kit eating plain pasta, JOB stamp not joy. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-tactics-screen",
+        "prompt": "Tablet tactics arrows, Kit watching one detail circled. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-left-back-jumps",
+        "prompt": "Diagram left back jumping, Kit memorizing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-one-detail",
+        "prompt": "One arrow highlighted, many faded, Kit focus. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-three-hours-out",
+        "prompt": "Clock 3 HOURS, Kit calm face. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-phase-six",
+        "prompt": "Title PHASE 6, empty stadium Kit rondo. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-skeleton-stadium",
+        "prompt": "Empty stands skeleton seats, Kit small on pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-grass-too-perfect",
+        "prompt": "Perfect grass cross-section TOO PERFECT label. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-tunnel-cameras",
+        "prompt": "Camera silhouettes tunnel, Kit warming up ignore. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-photo-in-head",
+        "prompt": "Kit mental snapshot bubble, not on phone. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-warmup-whistle",
+        "prompt": "Referee whistle warm-up end, Kit alert. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r08-phase-seven",
+        "prompt": "Title PHASE 7, Kit final tape mirror. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-one-instruction",
+        "prompt": "Whiteboard PRESS THE TRAP repeated, gaffer point. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-shirt-weight",
+        "prompt": "Kit pulling shirt on, weight arrows down. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-music-then-silence",
+        "prompt": "Speaker OFF silence, Kit lined up corridor. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-touch-sign",
+        "prompt": "Kit hand touches DO NOT LITTER sign ritual, corridor. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-heart-no-run",
+        "prompt": "Heart rate monitor climbing Kit standing still. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r09-phase-eight",
+        "prompt": "Title PHASE 8, tunnel lights end Kit lineup. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r09-lights-stage",
+        "prompt": "Tunnel bright exit, Kit walking toward light. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-crowd-before-grass",
+        "prompt": "Sound waves before pitch visible, Kit breath. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r09-anthem-body",
+        "prompt": "Kit tunnel anthem moment no flags no logos. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-shoulder-opponents",
+        "prompt": "Kit next opponent silhouette respectful distance. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-noise-chest",
+        "prompt": "Kit hand chest sound waves emerging pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-phase-nine",
+        "prompt": "Title PHASE 9, Kit on pitch first half blur. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-time-compresses",
+        "prompt": "Clock melting 45 MIN, Kit running. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-one-touch-heavy",
+        "prompt": "Kit heavy touch, crowd sigh cloud. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-split-pass-tall",
+        "prompt": "Kit through ball line, tall silhouette half second. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-next-five-meters",
+        "prompt": "Five meter arrow on pitch POV Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-halftime-impossible",
+        "prompt": "45 MIN far away sign, Kit sprinting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r11-phase-ten",
+        "prompt": "Title PHASE 10, dressing room half-time Kit towel. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-orange-slices",
+        "prompt": "Orange slices tray cold towel Kit sitting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-heat-map-tablet",
+        "prompt": "Tablet heat map red zones, Kit glance. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-one-clip-gaffer",
+        "prompt": "Single clip on screen FIX THIS, Kit nod. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-change-shirt",
+        "prompt": "Kit swapping wet shirt fresh one. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-second-half-different",
+        "prompt": "Same scoreboard NEW MATCH label half-time. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-phase-eleven",
+        "prompt": "Title PHASE 11, Kit tired legs second half. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r12-sub-board-verdict",
+        "prompt": "Electronic board numbers, Kit watching hopeful. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r12-set-piece-court",
+        "prompt": "Corner flag courtroom metaphor, Kit jumping. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-eighty-minutes-door",
+        "prompt": "Door labeled 80 MIN PANIC or BELIEF Kit choosing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-extra-time",
+        "prompt": "EXTRA TIME clock optional, Kit ready. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-win-header-breath",
+        "prompt": "Kit header win, own breath visible in noise. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r13-phase-twelve",
+        "prompt": "Title PHASE 12, whistle full time Kit exhale. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-handshake-respect",
+        "prompt": "Kit handshake line opponents, no animosity. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-mixed-zone",
+        "prompt": "Microphone mixed zone if scored, Kit optional. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r13-ice-knees",
+        "prompt": "Kit knee ice tub later midnight meal. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r13-highlight-skips-morning",
+        "prompt": "TV highlight reel skipping 5 AM alarm crossed out. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-body-receipt",
+        "prompt": "Kit sore body map RECEIPT stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-which-phase",
+        "prompt": "Kit facing twelve phase doors WHICH PHASE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r14-chain-disciplines",
+        "prompt": "Chain links alarm bus tunnel ice, Kit holding. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-hour-breaks-you",
+        "prompt": "Clock hours 5 7 9 12 tunnel, Kit question mark. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-anthem-not-start",
+        "prompt": "Anthem crossed out, dawn circled, Kit wiser. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-comment-hour",
+        "prompt": "Comment bubble WEAKEST HOUR Kit POV camera. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-every-level-receipt",
+        "prompt": "EVERY LEVEL POV title Kit mouth closed thumbs up. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football matchday story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no UEFA logos, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic match kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 840.0
+  },
+  "tts": {
+    "voice": "en-US-ChristopherNeural",
+    "rate": "+5%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Anton-Regular.ttf",
+    "font_size": 54,
+    "color": "#FFFFFF",
+    "accent_color": "#FF4D4D",
+    "stroke_color": "#1A1A1A",
+    "stroke_width": 4,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true,
+    "karaoke": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Your Life on a Champions League Matchday",
+    "description": "From the five AM alarm to full-time ice — your life through every phase of a Champions League matchday, cartoon POV.",
+    "tags": [
+      "champions league",
+      "football",
+      "soccer",
+      "pov",
+      "matchday",
+      "cartoon",
+      "every level",
+      "tunnel",
+      "warm up"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "NOT KICKOFF YET",
+    "brand_id": "every-level-pov"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Matchday does not start at kickoff. Matchday starts when your alarm wins an argument you lost at midnight. You are not a hero yet. You are a person who needs tape, carbs, and a seat on a bus that smells like laundry and nerves. This is your life on a Champions League matchday, and if you think the tunnel is the beginning, you have skipped the part that breaks people. By full time you will understand that the loudest moment is sometimes the quietest hour before breakfast. Stay. Phase one is not glamour. Phase one is finding your left boot. Kickoff is a lie on television. Matchday starts when the alarm wins. The broadcast will show you ninety minutes. Your body will invoice you for eighteen hours. That gap is the job. Fans see the roar. They do not see the clipboard, the pasta, the quiet bus, the tape on a carpet at dawn. Matchday is logistics wearing a kit. You will rewatch the goal and forget the bus. That is how the sport sells itself. This episode is the bus. The clipboard. The tape that will not stick in humidity. The meal you eat without tasting because your mouth is dry from pretending you are calm.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Phase one. Five forty-five in the morning. Phone on the nightstand like a referee you cannot argue with. You check the weather in a city you fly to later, even though you will play indoors under lights that fake summer. You lay out tape, pre-wrap, and the same lucky socks you pretend not to believe in. Breakfast is not a feast. It is timing. Oats, banana, water, then more water. Your partner sleeps through the ritual. Your house feels normal for six minutes. Then you remember sixty thousand seats and one touch. The day has a schedule now. You are already late in your head. Left boot missing. Heart already running. Welcome to phase one. You have done this on bad pitches and good ones. European nights add security, cameras, and a clock that does not care about your sleep. The ritual stays: water, tape, same seat, same silence. Superstition is just anxiety with a uniform. The best players look bored at breakfast because boredom is control. You are still learning that face. Matchday morning is acting class with protein.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Phase two. Team breakfast at the hotel. Long table, short conversations. Nutritionist marks your plate like homework. Someone jokes about eggs and gets the look. You sit near seniors because seating is politics without speeches. Coffee is allowed until it is not. You listen to ankle updates the way civilians listen to weather. A starter is quiet. A sub is too loud. Both are afraid. You sign a clipboard for anti-doping that treats you like a suspect and a saint at once. The bus leaves at nine. You are dressed for travel, not for glory. Eggs are homework. Seating is politics. Nobody is relaxed here. Hotel breakfast is where teams pretend they are normal. The nutritionist is the real gaffer until noon. You learn to eat while reading a lineup prediction that is wrong. You learn that silence at table is not peace. It is concentration with toast. Someone always arrives late and the whole table pretends not to count. You arrive early because fear is punctual. Both strategies work until they do not.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Phase three. The bus. Same seat if you are superstitious. Headphones if you are smart. Window if you want the city to feel far away. The driver knows the route. You do not. Security escort at the training ground gate like you are valuable luggage. You pass fans with phones outside a fence you cannot see through. Training kits today. Then media. Then lunch. Then nothing, which is the hardest session. Waiting is a skill they never put on the whiteboard. You scroll once and put the phone away because the screen makes your heart race faster than sprints. Bus window world. Your heart races faster than the schedule. Travel days shrink the world to a bus window. You pass ordinary streets where matchday is not a religion. That contrast keeps you sane. You arrive at a gate that separates you from the crowd forever, even when the crowd loves you. The bus takes the long way on purpose so you do not see the crowd too early. Management calls it focus. You call it delaying the verdict.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Phase four. Arrival at the stadium hours before the public. Concrete ramps, cold air, credential on a lanyard that makes cleaners nod at you like you belong. The dressing room is not cinematic yet. It is hooks, ice tubs, and a smell you cannot describe to friends. Your shirt hangs with your name spelled correctly, which matters more than you admit. Boots go in your cubby, not the floor. Physio asks about a tight hamstring you said was fine yesterday. You say fine again. Fine is a contract word on matchday. Hooks and ice tubs. History sits on plastic chairs. Dressing rooms are churches with laundry. Every hook is a contract. Every ice tub is a confession. You sit where last week's hero sat and pretend history does not weigh on plastic chairs. The shirt goes on and you become a name on a back, not a person with a kitchen at home. The dressing room television plays without sound. You watch a cooking show and think about nothing. That is also preparation.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Phase five. Pre-match meal three hours out. Pasta again. Sauce again. Salt again. You eat like a job because it is. The chef has cooked for musicians and boxers and still looks nervous when the gaffer walks in. You are allowed dessert if you are starting. You are allowed silence if you are not. Tactics on a screen: their left back jumps, their number nine runs channels, their set pieces are tall and angry. You memorize one detail because too many details turn your legs to questions. Diagrams lie politely. You still chase half a second of space. Tactics meetings turn opponents into diagrams. Diagrams lie politely. Still, you cling to one truth: where the space opens for half a second. That half second is why you woke at five forty-five. You have eaten this pasta in eleven cities. It tastes like responsibility. You finish anyway because tomorrow's you is already owed.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Phase six. Warm-up on the pitch while the stadium is still a skeleton. Ball thumps echo like the building is empty on purpose. You do rondos, stretches, sprints that look easy on television and feel like debt. Cameras appear at the tunnel mouth. You act normal, which means you do not look at the stands. The grass is too green, too short, too perfect, like a lie you agree to play on. You take a photo in your head you will never post. The whistle for warm-up ending is the first whistle that matters. Empty stand rehearsal. The grass has to feel real before the roar. Warm-up is performance for nobody and everybody. The empty stand watches like a future audience. You touch the grass to convince your brain the pitch is real. Then you run and the brain catches up. A steward asks for an autograph during warm-up and you sign because kindness is faster than explaining you are working. Then you sprint and remember you are working.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Phase seven. Back in the dressing room. Final tape. Final words. The gaffer does not give a movie speech. He gives one instruction repeated until it sticks: press the trap, hit the channel, stay connected. You put on the match shirt and the weight changes. Music loud, then off. Silence is the real anthem. You line up in the corridor. Heart rate climbs without running. Someone spits into a bin like punctuation. You touch the sign above the door on the way out because ritual is how fear gets a uniform. Short words. Long fear. Courage is walking anyway. Final words are short because fear is long. Music hides noise. Silence hides thoughts. You walk the corridor and every step is a decision to stay present. That is matchday courage before the camera finds you. In the corridor you hear the opponent laugh and hate them for being human. Then you remember you will laugh too if you win. Matchday makes everyone temporary villains.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Phase eight. The tunnel. Lights at the end like a stage you did not audition for. You hear the crowd before you see grass. The anthem plays and your body remembers every youth game that was not this. Opponents breathe the same air. You stand shoulder to shoulder with people who will tackle you in ten minutes and share water later if the rules allow. The referee waits. The camera sweeps. You walk out and the noise hits your chest before the ball moves. Matchday finally looks like television. It feels like work. Tunnel compresses your whole life into twenty steps. The tunnel compresses adulthood into a walk. Lights, anthem, breath, grass. You remember being a kid with a ball in a park. You are still that kid with rent and a GPS vest. The whistle releases you into the only part strangers think is the whole day. The anthem ends and grass is suddenly real. All morning was prelude. Now the clock belongs to the referee, not your nutritionist.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Phase nine. First half. Time compresses. You hear your name once from the bench area and forget it instantly. One touch too heavy and the whole stadium sighs like a single person. One pass split and you feel tall for half a second. The game is faster because stakes are real. You scan, breathe, scan again. Halftime feels impossible and immediate. You drink without tasting. You are not thinking about glory. You are thinking about the next five meters. Amnesia and math. Courage between doubt, every minute. First half is amnesia and math. Forget the crowd when you touch the ball. Remember the crowd when you lose it. You play intervals of courage between intervals of doubt. That is not weakness. That is professional. You misplace a pass and the error feels permanent for four seconds. Then the game moves and forgiveness is possible if you sprint back. Matchday rewards repentance with lungs.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Phase ten. Half-time. Orange slices and cold towels. Tablet with heat maps you pretend to understand in thirty seconds. The gaffer points at one clip, not ten. Fix this, or we lose the week. You change shirt because sweat has weight. Someone gets an injection for pain with a nod like it is normal. It is normal here. You look at the score and the clock and understand that the second half is a different match with the same bruises. Orange slices and red zones. Verbs win at halftime. Halftime is a reset with a clock. Orange slices taste like childhood and obligation. The tablet shows red zones you will fix for one minute and forget for ten. The gaffer speaks in verbs, not poetry. Verbs win. Halftime oranges taste like childhood and obligation. You eat two and think about your dad driving you to youth games in rain. European nights inherit Sunday mornings.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Phase eleven. Second half. Legs heavier. Mind sharper if you are lucky. The sub board glows like a verdict. You watch numbers flip and hope yours appears or does not, depending on the lie you tell yourself. Set pieces become architecture. A corner is a courtroom. A free kick is a contract negotiation with gravity. You foul once and apologize to nobody. You win a header and hear your own breath in the noise. Eighty minutes and the game opens a door called panic or belief. The board is a lottery you trained for in silence. Second half is when subs become stories. The board is a lottery you trained for. Set pieces turn tall players into monuments. You run on fumes that look like energy on television. Eighty minutes is where seasons lean. Your calf tightens at sixty minutes and you tell nobody. You tell the physio at sixty-five when denial stops working. Honesty has a timetable on matchday.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "Phase twelve. Final phase. Full time or extra time if the tie demands it. Whistle blows and the stadium exhales. You shake hands because respect is cheaper than hate. Mixed zone if you scored. Silent bus if you did not. Ice on knees in a plastic tub. Phone floods with messages from people who watched three seconds and send paragraphs. You eat chicken at midnight. You sleep at two. Tomorrow the body reminds you what matchday cost. The highlight reel will skip the morning. You will not. Full time is not finished. The body invoices you at midnight. After the whistle, matchday is still not finished. Recovery starts in the tunnel. Messages arrive from people who love the score more than the schedule. You eat late, sleep late, pay tomorrow. The body keeps the receipt the broadcast throws away. After full time you sit on the floor and untie boots like they are handcuffs. Victory or loss, the laces take the same time. That equality is strange comfort.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "So which phase owns you. Alarm phase. Bus phase. Tunnel phase. Halftime tablet phase. Full-time ice phase. Champions League matchday is not one moment. It is a chain of small disciplines that look boring until you miss one. Tell me which hour would break you before kickoff even arrives. Tell me if you thought matchday started when the anthem played. That is the receipt. Rank Run POV. Comment your weakest hour before the anthem — be honest. Phases, not highlights. That is the truth matchday sells backwards. Tell me your weakest hour: dawn, bus, wait, tunnel, or midnight ice. That answer is more honest than a goal clip. Comment which phase would break you. Be honest. Dawn is underrated as a villain.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

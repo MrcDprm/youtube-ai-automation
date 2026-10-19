@@ -339,8 +339,9 @@ DRAWN_PLACEHOLDER_SEARCH_TERMS: Final[tuple[str, ...]] = (
 )
 
 EVERY_LEVEL_POV_BRAND_ID: Final[str] = "every-level-pov"
-POV_CHANNEL_NAME: Final[str] = "Every Level POV"
-POV_PLAYLIST: Final[str] = "Every Level"
+POV_CHANNEL_NAME: Final[str] = "Rank Run POV"
+POV_PLAYLIST: Final[str] = "Rank Run"
+POV_CHANNEL_HANDLE: Final[str] = "@RankRunPOV"
 POV_TTS_VOICE: Final[str] = "en-US-GuyNeural"
 POV_TTS_VOICE_FALLBACK: Final[str] = "en-US-ChristopherNeural"
 POV_TTS_RATE: Final[str] = "+2%"
@@ -351,10 +352,14 @@ POV_MAX_MINUTES: Final[int] = 26
 POV_BLOCK_SECONDS: Final[float] = 10.0
 POV_MIN_BEATS: Final[int] = 72
 POV_MAX_BEATS: Final[int] = 156
-POV_SUBTITLE_FONT_SIZE: Final[int] = 48
+POV_SUBTITLE_FONT_SIZE: Final[int] = 54
 POV_SUBTITLE_POSITION_RATIO: Final[float] = 0.84
 POV_SUBTITLE_COLOR: Final[str] = "#FFFFFF"
+POV_SUBTITLE_ACCENT: Final[str] = "#FF4D4D"
 POV_SUBTITLE_STROKE: Final[str] = "#1A1A1A"
+POV_SUBTITLE_STROKE_WIDTH: Final[int] = 4
+POV_SUBTITLE_FONT: Final[str] = "assets/fonts/Anton-Regular.ttf"
+POV_SUBTITLE_KARAOKE: Final[bool] = True
 POV_ZOOM_END: Final[float] = 1.16
 DEFAULT_POV_TOPICS_FILE: Final[str] = "topics-pov.json"
 POV_PLACEHOLDER_SEARCH_TERMS: Final[tuple[str, ...]] = (

@@ -1,0 +1,791 @@
+{
+  "project_id": "your-life-through-the-january-transfer-window-14dk-20260902",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.2,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 84,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.19,
+      "zoom_body_end": 1.19,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "r01-window-door",
+        "prompt": "Kit at calendar door JANUARY WINDOW. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-agent-medical-bench",
+        "prompt": "Split phone stethoscope bench icons Kit POV. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r01-not-highlight",
+        "prompt": "Kit rejecting highlight reel WAITING stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-phone-carpark",
+        "prompt": "Kit in car park staring at glowing phone. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r01-clean-medical",
+        "prompt": "MEDICAL RECEIPT stamp Kit corridor. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r01-level-one-noise",
+        "prompt": "Title LEVEL 1 NOISE Kit with rumor clouds. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r02-rumor-season",
+        "prompt": "Title LEVEL 1 RUMOR SEASON Kit scrolling feed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r02-name-in-feed",
+        "prompt": "Phone screen grainy photo LINKED emoji Kit shocked. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r02-cousin-texts",
+        "prompt": "COUSIN TEXT vs AGENT CALL split Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r02-delete-reopen",
+        "prompt": "Kit in shower phone steam DELETE REOPEN. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r02-focus-luxury",
+        "prompt": "Coach FOCUS while Kit sees rumor arrows. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r02-january-thumb",
+        "prompt": "Giant thumb on phone JANUARY STARTS HERE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r03-agent-call",
+        "prompt": "Title LEVEL 2 AGENT CALL Kit at dinner phone buzz. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-calm-voice",
+        "prompt": "Agent silhouette calm MONEY WEATHER Kit listening. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-interest-not-done",
+        "prompt": "INTEREST word spinning not DONE DEAL Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-who-not-yet",
+        "prompt": "Kit asking WHO agent shrugs NOT YET. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-probably-not",
+        "prompt": "Partner asking moving Kit says PROBABLY NOT. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-wall-answer",
+        "prompt": "Kit staring at blank wall after call. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-training-linked",
+        "prompt": "Title LEVEL 3 TRAINING LINKED Kit walking to pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-polite-new-way",
+        "prompt": "Teammates too kind side-eye Kit POLITE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-perform-normal",
+        "prompt": "Kit acting NORMAL mask on pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-ignore-noise",
+        "prompt": "Coach IGNORE NOISE Kit counting window hours. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-photographer-fence",
+        "prompt": "Mystery photographer fence Kit training. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-question-mark",
+        "prompt": "Kit silhouette with question mark over head. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-official-approach",
+        "prompt": "Title LEVEL 4 OFFICIAL APPROACH Kit at kitchen table. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-paperwork-language",
+        "prompt": "Release clause PERSONAL TERMS floating Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-temporary-table",
+        "prompt": "Kitchen table TEMPORARY label Kit family. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-parents-ask",
+        "prompt": "Kit explaining contract words to parents. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-priced-elsewhere",
+        "prompt": "Kit heading ball while PRICE tag in other building. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-professional-smiles",
+        "prompt": "Short meetings PROFESSIONAL SMILES Kit nodding. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-negotiation-week",
+        "prompt": "Title LEVEL 5 NEGOTIATION Kit empty chair in meeting room. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-empty-chair",
+        "prompt": "Empty chair YOUR CAREER HERE boardroom. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-agent-updates",
+        "prompt": "Phone messages too many or too few exclamation Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-hold-breath",
+        "prompt": "Kit in bed HOLD BREATH days counter. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-fake-agreed",
+        "prompt": "Social AGREE TERMS fake news Kit frustrated. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-character-audition",
+        "prompt": "Kit wearing wrong costume CHARACTER. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-medical-scheduled",
+        "prompt": "Title LEVEL 6 MEDICAL SCHEDULED Kit packing bag. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r07-body-insurance",
+        "prompt": "Kit body outline INSURANCE DOCUMENT stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r07-solo-flight",
+        "prompt": "Kit alone at airport departure board. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r07-google-city",
+        "prompt": "Kit phone map 2AM city search glow. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r07-replacement-chat",
+        "prompt": "Kit outside phone GROUP CHAT without you. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r07-three-alarms",
+        "prompt": "Kit setting THREE ALARMS bedside nervous. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r08-medical-day",
+        "prompt": "Title LEVEL 7 MEDICAL DAY Kit fluorescent corridor. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r08-treadmill-monitor",
+        "prompt": "Kit on treadmill HEART MONITOR wires. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r08-hamstring-number",
+        "prompt": "Doctor measuring hamstring CHAIRMAN SMILE arrow. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-passed-not-signed",
+        "prompt": "PASSED stamp vs SIGNED stamp Kit waiting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-club-sandwich",
+        "prompt": "Kit eating generic club sandwich SUSPENSE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-blurred-car",
+        "prompt": "Reporters blurred car window guessing Kit inside. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r09-deadline-day",
+        "prompt": "Title LEVEL 8 DEADLINE DAY Kit clock counting down. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-hours-currency",
+        "prompt": "Clock hours as coins Kit counting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-phone-slot",
+        "prompt": "Kit phone slot machine DONE DEAL spinning. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-wait-language",
+        "prompt": "WAIT word cloud agent club Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-window-closes",
+        "prompt": "Calendar lid snapping WINDOW CLOSED Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-pretend-relief",
+        "prompt": "Kit smiling RELIEF vs JOY mask teammates. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r10-announcement",
+        "prompt": "Title LEVEL 9 ANNOUNCEMENT Kit generic transfer graphic. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-generic-font",
+        "prompt": "Transfer graphic generic font Kit photo. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-comments-first",
+        "prompt": "Phone COMMENTS flood before CONGRATS Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-kind-distant",
+        "prompt": "Old teammates messages KIND DISTANT Kit reading. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-welcome-chat",
+        "prompt": "New team chat WELCOME emoji Kit analyzing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-official-not-settled",
+        "prompt": "OFFICIAL stamp arrow NEXT LEVEL Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r11-first-day-new",
+        "prompt": "Title LEVEL 10 FIRST DAY Kit new training ground entrance. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-lanyard-passport",
+        "prompt": "Kit holding lanyard PASSPORT badge. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-cubby-surname",
+        "prompt": "Kit cubby SURNAME spelled right emotional. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-forget-names",
+        "prompt": "Kit handshake FORGOT NAME thought bubble. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-simple-audition",
+        "prompt": "Manager SIMPLE FIRST Kit pass under pressure. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-transfer-starts-new",
+        "prompt": "Photo ends NEW BEGINNING arrow Kit walking in. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-playbook-week",
+        "prompt": "Title LEVEL 11 PLAYBOOK Kit in video room. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-arrows-screen",
+        "prompt": "Tactical screen arrows Kit nodding confused. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-nod-ask-wrong",
+        "prompt": "Kit NOD vs ASK wrong timing icons. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-late-student",
+        "prompt": "Kit chasing pattern shapes LATE STUDENT. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-homework-millions",
+        "prompt": "Notebook homework MILLIONS WATCHING Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-lights-stay-on",
+        "prompt": "Empty facility Kit alone under lights. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-bench-new-club",
+        "prompt": "Title LEVEL 12 BENCH Kit plastic seat matchday. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r13-plastic-seat",
+        "prompt": "Kit on plastic bench watching kickoff. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r13-moment-calendar",
+        "prompt": "Manager MOMENT COMING secret calendar Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-warm-up-sit",
+        "prompt": "Kit warm-up tunnel then back to bench. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-wasted-signing",
+        "prompt": "Phone WASTED SIGNING comment Kit stone face. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-fee-not-minutes",
+        "prompt": "Transfer fee tag vs MINUTES counter Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-where-window",
+        "prompt": "Kit pointing WINDOW PHASES chart comment hook. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r14-rumor-medical-bench",
+        "prompt": "Three doors RUMOR MEDICAL BENCH Kit choosing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-hurt-more",
+        "prompt": "Kit weighing heart scale HURT MORE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-hallway-between",
+        "prompt": "Kit in corridor between two generic club doors. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-comment-poison",
+        "prompt": "Comment bubble PICK YOUR POISON Kit POV. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-every-level-receipt",
+        "prompt": "Kit holding receipt EVERY LEVEL POV end card. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football transfer window story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 840.0
+  },
+  "tts": {
+    "voice": "en-US-ChristopherNeural",
+    "rate": "+3%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Anton-Regular.ttf",
+    "font_size": 54,
+    "color": "#FFFFFF",
+    "accent_color": "#FF4D4D",
+    "stroke_color": "#1A1A1A",
+    "stroke_width": 4,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true,
+    "karaoke": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Your Life through the January Transfer Window",
+    "description": "Agent calls, medical rooms, deadline-day refresh, and a bench at a new club — your life through the January transfer window, cartoon POV.",
+    "tags": [
+      "transfer window",
+      "january transfer",
+      "football transfer",
+      "agent",
+      "medical",
+      "deadline day",
+      "football",
+      "soccer",
+      "pov",
+      "cartoon",
+      "every level"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "WINDOW STRESS",
+    "brand_id": "every-level-pov"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "January does not feel like a month. It feels like a door that opens twice a year and asks whether your life still fits the shirt you are wearing. This is your life through the January transfer window — agent calls, medical rooms, and a bench at a club that barely knows your name yet. Not the highlight reel. The waiting. The rumors that arrive before breakfast. The training session where your teammates look at you like a question mark. By the end you will know why players stare at their phones in the car park and why a clean medical is not a celebration. It is a receipt. Stay. Level one is not a big-money move. Level one is noise you did not ask for. January is not a month. It is a door that opens on your phone. The window sells moves and hides the hallway between clubs. This episode is that hallway: phones, tests, and seats you did not earn yet. You will meet players who moved in January and say it was fine. Fine is what you say when the story is still being edited.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Level one. Rumor season. Your name appears in a feed you swore you would not refresh. A fan account posts a grainy photo and writes linked with an emoji you hate. You tell yourself it is fiction. Your cousin texts before your agent does. Training feels normal until someone jokes that you already packed. You laugh too quickly. You delete the app and reopen it in the shower. Coaches say focus on the match. Focus is a luxury when your future is being typed by strangers. You learn that January starts in the thumb, not on the pitch. Your name in a feed before your agent calls. Welcome to rumor season. Rumors start in feeds and end in dressing rooms. January teaches you that silence is never fully yours. You screenshot a rumor and delete it like shame. The thumb remembers.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Level two. The agent call. Your phone buzzes during a meal you were actually enjoying. The voice is calm in the way adults get calm when money is involved. There is interest, they say. Not a done deal. Interest is the word that turns your week into weather. You ask who. They say not yet. You ask if you should tell the club. They say let us see. You hang up and stare at the wall like it has an answer. Your partner asks if you are moving. You say probably not. Probably not is January's favorite lie. Interest is not a deal. Interest is weather that ruins dinner. Agent calm is a skill. The call that ruins your appetite is still the call that pays the rent. You miss a family moment because the agent said quick call. Quick is never quick.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Level three. Training while linked. You walk onto the grass at a club that still pays you and everyone is polite in a new way. The captain asks how you are. Too kind. The winger does not look you in the eye. You perform normality like a skill. The coach pulls you aside and says ignore the noise. You nod like a student. Inside you count hours until the window closes. A photographer you never noticed before stands near the fence. You wonder if today is the day your picture becomes a rumor with legs. Politeness is a new kind of side-eye at training. Training while linked is acting class with cleats. Everyone sees the rumor. Nobody agrees on the script. You score in training and wonder if the watching photographer cares. Everything feels observed.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Level four. The official approach. Your agent says the club has made contact. Not fans. The club. Paperwork language enters your kitchen. Release clause. Personal terms. Loan with obligation. Words that sound like furniture. You sit at a table that suddenly looks temporary. Your parents ask what it means. You explain like you understand more than you do. The current club knows now. Meetings get shorter. Smiles get professional. You are still required to win a header on Saturday while your life is being priced in another building. Paperwork language in your kitchen. Your life priced elsewhere. Official contact turns your apartment into a temporary office. Football grammar arrives with tea. You mispronounce a contract word and laugh too loud. Paperwork is humbling.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Level five. Negotiation week. You do not attend most of the calls. That is the point. Football teaches you early that your career is discussed in rooms where your chair is empty. Your agent sends updates with too many exclamation marks or too few. A number appears. You are told not to tell teammates. You are told to rest. Rest feels like holding your breath for days. Someone posts that you agreed terms. You did not. Someone else posts that you rejected everyone. You did not do that either. January turns you into a character you did not audition for. Empty chair negotiations. Your career discussed without you. Negotiation week is breath-holding as a lifestyle. You are the topic in rooms you never enter. You wake at four to a fake done deal and cannot fall back asleep. Leverage lives in your notifications.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Level six. Medical scheduled. The deal is close enough that someone books a flight you will take alone. Medical is not a doctor being nice. Medical is a club buying insurance with your body. You pack shorts you may never wear at that club. You google the city at two in the morning. You wonder if your current teammates already chose your replacement in the group chat you are not in. Your agent says act normal. Normal has left the building. You set three alarms for a flight that could change everything or nothing. Medical scheduled. Your body becomes a document. Medical scheduled means your body is a document. Pack light. Worry heavy. You sit on a plane with headphones and no announcement. Travel without certainty is its own sport.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Level seven. Medical day. Fluorescent lights. Treadmill. Heart monitor. A stranger in a tracksuit watches you like a purchase. You pass tests you did not know existed. Someone measures your hamstring and writes a number that decides whether a chairman smiles. You sit in a corridor scrolling messages you cannot answer yet. Passed is not signed. Signed is not announced. You eat a club sandwich that tastes like suspense. Outside, reporters guess your name from a blurred car window. You learn that your body can be approved before your life is. Fluorescent truth. Passed is not signed. Medical day is fluorescent truth. Passed tests still do not sign the contract. You pass the medical and still check your pulse in the taxi. Approval does not calm the chest.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Level eight. Deadline day. The calendar turns cruel. Hours become currency. Your phone becomes a slot machine. Done deal posts appear for players who are still packing. You refresh like it is a job. Your agent says wait. The club says wait. Waiting is the transfer window's native language. A rival bid rumor appears. You do not know if it is leverage or truth. Tea goes cold. The window closes and careers snap shut like lids. Some players celebrate. Some players discover they are staying and must pretend relief is joy. Deadline day. Refresh is survival. Waiting is the native language. Deadline day turns hours into superstition. Refresh is not a hobby. It is survival. You watch the clock hit window closed and feel your shoulders drop without permission. Relief is physical.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Level nine. The announcement. Your name is on a graphic with a generic font and a number you did not choose. Comments arrive before congratulations. Fans argue about money they estimate. You smile in a photo at a training ground you visited once. Your old teammates send messages that are kind and distant at the same time. Your new teammates add you to a chat and say welcome with emoji you read too carefully. You are official now. Official does not mean settled. It means the next level begins immediately. Official graphic. Comments land before congratulations. Announcement day is performance. Welcome messages and comment sections arrive together. You read welcome messages twice to see who used your first name. Tone analysis at midnight.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Level ten. First day at the new club. New badge on the wall. Not a real crest — generic shapes, same pressure. You park where someone points. You collect a lanyard like it is a passport. The kit room has a cubby with your surname spelled correctly, which feels oddly moving. You introduce yourself to people whose jobs you will depend on and whose names you will forget from nerves. The manager says simple first. Simple is hard when every pass is an audition. You learn that transfers do not end with a photo. They start with being new. New cubby. Correct surname. Nerves anyway. First day is small humiliations and big cubbies. New club smell is real. You forget where the ice bath is and pretend you wanted water. New building, old pride.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Level eleven. Learning the playbook. Meetings with clips. Arrows on a screen. A language of calls you half know. You nod when you should ask. You ask when you should nod. Teammates run patterns muscle memory built for them. You chase shapes like a late student. The assistant says you will get it. You wonder how many weeks simple takes. Video sessions feel like homework with millions watching. You stay late to walk patterns alone. The building empties. The lights stay on for players who cannot afford to look lost. Playbook homework with millions watching. Playbook week is late-student energy at elite speed. Arrows do not wait. You draw arrows in a notebook like school. Million-euro homework still feels like school.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "Level twelve. Bench at the new club. Matchday and your seat is plastic. You watch players you were supposed to replace play well enough to delay you. The manager says the moment will come. The moment is a calendar nobody shares. You warm up and the crowd claps politely. You sit again. Social media says wasted signing. You say nothing because nothing is the policy. You count minutes like debts. You cheer goals you partly envy. You learn that a transfer fee is not playing time. It is a loan your body must repay in silence. Plastic bench. Fee is not minutes. Bench at a new club is debt you pay in public. Fees do not guarantee minutes. You celebrate a teammate goal you wanted. Bench character is a weekly test.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "So where are you in the window. Rumor thumb. Agent call at dinner. Training under side eyes. Official approach language. Negotiation rooms without you. Medical corridor. Deadline refresh. Announcement comments. New cubby first day. Playbook arrows. Plastic bench. Tell me if you have ever been the rumor, the medical, or the bench — and which part hurt more than the move itself. That is the receipt. Rank Run POV. Comment: rumor, medical, or bench — pick your poison. Window phases stick with you. Comment which one you know. Comment honestly. Rumor, medical, or bench — pick your poison.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football transfer cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

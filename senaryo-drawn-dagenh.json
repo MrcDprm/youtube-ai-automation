@@ -1,0 +1,538 @@
+{
+  "project_id": "the-morning-sweden-drove-on-the-other-side-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-stop-four-fifty",
+        "prompt": "Cartoon title beat: a huge clock 4:50, two arrows LEFT to RIGHT, cream paper. No crash. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stop at 4:50, then walk to the other kerb.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a TRIVIA CRASH stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a forgot-which-side trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-sunday-1967",
+        "prompt": "A calendar 3 SEP 1967, a simple map SWEDEN, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sunday 3 September 1967, Sweden.",
+        "image": null
+      },
+      {
+        "slug": "0030-dagen-h-name",
+        "prompt": "A big letter H on a cream poster, DAGEN H. No national flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The day is Dagen H.",
+        "image": null
+      },
+      {
+        "slug": "0040-hogertrafik",
+        "prompt": "A glossary card H = RIGHT-HAND TRAFFIC, an arrow pointing right. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "H is Högertrafik, right-hand traffic.",
+        "image": null
+      },
+      {
+        "slug": "0050-left-to-right",
+        "prompt": "A road split LEFT crossed out, RIGHT circled, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Left-hand traffic became right-hand traffic.",
+        "image": null
+      },
+      {
+        "slug": "0100-palme-radio",
+        "prompt": "A nameplate OLOF PALME, RADIO mic, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Olof Palme, communications minister, on the radio.",
+        "image": null
+      },
+      {
+        "slug": "0110-eighty-three",
+        "prompt": "A ballot tally 83 PERCENT NO, year 1955. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1955 referendum: about 83 percent said keep left.",
+        "image": null
+      },
+      {
+        "slug": "0120-neighbours-right",
+        "prompt": "A simple border map NORWAY FINLAND arrows RIGHT, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Norway and Finland already drove on the right.",
+        "image": null
+      },
+      {
+        "slug": "0130-five-million-cross",
+        "prompt": "A border gate tally 5 MILLION, tiny car dots. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "On the order of 5 million vehicles a year crossing.",
+        "image": null
+      },
+      {
+        "slug": "0140-lhd-cars",
+        "prompt": "A car with the wheel on the LEFT, 90 PERCENT tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "More than 90 percent sat in left-hand-drive cars.",
+        "image": null
+      },
+      {
+        "slug": "0150-buses-wrong-door",
+        "prompt": "A bus with doors on the LEFT, KERB tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "City buses still had the wheel on the right, doors to the left.",
+        "image": null
+      },
+      {
+        "slug": "0200-cars-tripled",
+        "prompt": "Three piles of tiny cars 0.5M 1.5M 2.8M. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Cars: 500,000 to about 1.5 million, talk of 2.8 million by 1975.",
+        "image": null
+      },
+      {
+        "slug": "0210-erlander-1963",
+        "prompt": "A parliament stamp 10 MAY 1963, Tage Erlander nameplate, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Riksdag, 10 May 1963: Erlander's proposal, switch in 1967.",
+        "image": null
+      },
+      {
+        "slug": "0220-htk-skiold",
+        "prompt": "Two plates HTK and LARS SKIOLD, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "HTK. Lars Skiöld, the named chief.",
+        "image": null
+      },
+      {
+        "slug": "0230-four-year-school",
+        "prompt": "A school primer 4 YEARS, an H logo on the cover. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A four-year education programme, on psychologists' advice.",
+        "image": null
+      },
+      {
+        "slug": "0240-milk-underwear",
+        "prompt": "A milk carton and folded underwear both stamped H, comic not crude. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "H logo on milk cartons and underwear.",
+        "image": null
+      },
+      {
+        "slug": "0250-telstars-song",
+        "prompt": "A tiny record KEEP TO THE RIGHT SVENSSON, TELSTARS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Winning song: Keep to the right, Svensson. The Telstars.",
+        "image": null
+      },
+      {
+        "slug": "0300-yellow-to-white",
+        "prompt": "A road with YELLOW line vs WHITE line, before/after. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Yellow centre lines due to become white.",
+        "image": null
+      },
+      {
+        "slug": "0310-black-tape",
+        "prompt": "A road with black tape over a white line, PULL AT DAWN tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "New white lines painted, then hidden under black tape.",
+        "image": null
+      },
+      {
+        "slug": "0320-plastic-signals",
+        "prompt": "Traffic lights in black plastic bags, READY stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "New signals wrapped in black plastic until the morning.",
+        "image": null
+      },
+      {
+        "slug": "0330-three-fifty-k",
+        "prompt": "A mountain of signs 350000, a tiny Stockholm tag 20000. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 350,000 signs to remove or replace.",
+        "image": null
+      },
+      {
+        "slug": "0340-headlamp-decal",
+        "prompt": "A round headlamp with a sticker DO NOT REMOVE BEFORE 3 SEP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Headlamp decal: not to be removed before 3 September 1967.",
+        "image": null
+      },
+      {
+        "slug": "0350-reminder-gloves",
+        "prompt": "A pair of cartoon gloves labeled RIGHT, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Reminder gloves: drive on the right.",
+        "image": null
+      },
+      {
+        "slug": "0400-thousand-new-buses",
+        "prompt": "A new bus with RIGHT DOORS, tally 1000+. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "More than 1,000 new buses, doors on the right.",
+        "image": null
+      },
+      {
+        "slug": "0410-eight-thousand-retrofit",
+        "prompt": "A bus with doors BOTH SIDES, tally 8000. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 8,000 older buses rebuilt with doors on both sides.",
+        "image": null
+      },
+      {
+        "slug": "0420-export-kenya",
+        "prompt": "A shipping crate BUSES, tags PAKISTAN and KENYA, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Gothenburg and Malmö exported left-traffic buses to Pakistan and Kenya.",
+        "image": null
+      },
+      {
+        "slug": "0430-trams-out",
+        "prompt": "A tram with a WITHDRAWN stamp, a bus waiting. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Trams out in central Stockholm, Helsingborg, most of Malmö.",
+        "image": null
+      },
+      {
+        "slug": "0440-metro-stayed-left",
+        "prompt": "A tunnel METRO LEFT, a street above marked RIGHT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stockholm metro and railways stayed on the left.",
+        "image": null
+      },
+      {
+        "slug": "0450-long-ban-cities",
+        "prompt": "A longer clock SAT 10 to SUN 15, two city nameplates. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stockholm and Malmö: Saturday 10:00 to Sunday 15:00.",
+        "image": null
+      },
+      {
+        "slug": "0500-one-to-six",
+        "prompt": "A NO CARS stamp, clocks 1:00 and 6:00. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nationwide: non-essential traffic banned 01:00 to 06:00.",
+        "image": null
+      },
+      {
+        "slug": "0510-four-fifty-stop",
+        "prompt": "A huge STOP at a clock 4:50, empty road, no crash. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "4:50: stop completely.",
+        "image": null
+      },
+      {
+        "slug": "0520-creep-right",
+        "prompt": "Cars as simple arrows sliding LEFT to RIGHT, then a WAIT stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Then creep to the right-hand side, then stop again.",
+        "image": null
+      },
+      {
+        "slug": "0530-five-o-clock",
+        "prompt": "A clock 5:00, a stamp SWEDEN NOW RIGHT, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "5:00: right-hand driving.",
+        "image": null
+      },
+      {
+        "slug": "0540-radio-vigil",
+        "prompt": "A radio set HOGERTRAFIKVAKA, three name tags, no portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Högertrafikvaka on Melody Radio. Hammarlund, Skiöld, Palme.",
+        "image": null
+      },
+      {
+        "slug": "0550-palme-labour",
+        "prompt": "A radio quote card LABOUR AND MONEY, PALME, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Palme: never before so much labour and money for uniform rules.",
+        "image": null
+      },
+      {
+        "slug": "0600-time-jam",
+        "prompt": "A magazine cover BRIEF JAM, cartoon cars in a polite queue, no wrecks. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Time magazine: a brief but monumental traffic jam.",
+        "image": null
+      },
+      {
+        "slug": "0610-one-fifty-seven",
+        "prompt": "A somber tally 157 and 32, no wrecked cars, no blood. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "157 minor accidents that day. 32 with injuries. Not a giggle.",
+        "image": null
+      },
+      {
+        "slug": "0620-monday-numbers",
+        "prompt": "A Monday chart 125 vs 130-198, NONE FATAL stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Monday after: 125 accidents vs a usual 130 to 198. None fatal.",
+        "image": null
+      },
+      {
+        "slug": "0630-forty-percent",
+        "prompt": "A claims arrow down 40 PERCENT, a later arrow returning. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Motor insurance claims down about 40 percent, then not forever.",
+        "image": null
+      },
+      {
+        "slug": "0640-six-weeks",
+        "prompt": "A calendar 6 WEEKS then 1969 BACK, not a crash reel. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Toward normal in about six weeks. By 1969, old rates again.",
+        "image": null
+      },
+      {
+        "slug": "0650-iceland-1968",
+        "prompt": "A calendar 26 MAY 1968, H-DAGURINN, map ICELAND, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Iceland, 26 May 1968, H-dagurinn.",
+        "image": null
+      },
+      {
+        "slug": "0700-cost-kronor",
+        "prompt": "A ledger 628 MILLION KR, 5 PERCENT OVER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 628 million kronor. About 5 percent over budget.",
+        "image": null
+      },
+      {
+        "slug": "0710-info-forty-three",
+        "prompt": "A stack of leaflets 43 MILLION, H logo, milk carton. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Information campaign around 43 million kronor.",
+        "image": null
+      },
+      {
+        "slug": "0720-poll-not-procedure",
+        "prompt": "A ballot vs a clock 4:50, arrow pointing at the clock. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The 83 percent is a poll. The 4:50 is a procedure.",
+        "image": null
+      },
+      {
+        "slug": "0730-seventeen-eighteen",
+        "prompt": "An old calendar 1718-1734 RIGHT, a tiny horse cart, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sweden had already driven on the right, 1718 to 1734.",
+        "image": null
+      },
+      {
+        "slug": "0740-not-crash-joke",
+        "prompt": "Ink peeling a CRASH REEL sticker off a clock, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A crash montage is a terrible instrument for that morning.",
+        "image": null
+      },
+      {
+        "slug": "0750-door-had-to-move",
+        "prompt": "A record vs a bus door, the door winning MOVE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A song is a terrible instrument for a door that has to move.",
+        "image": null
+      },
+      {
+        "slug": "0800-who-won",
+        "prompt": "A commission stamp, a metro tunnel, a shipping crate beating a ballot. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the referendum. HTK. The metro left. Kenya's buses.",
+        "image": null
+      },
+      {
+        "slug": "0810-decal-date",
+        "prompt": "Close cartoon of the decal date 3 SEP 1967. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The headlamp decal won a date printed on the glass.",
+        "image": null
+      },
+      {
+        "slug": "0820-kerb-vs-poll",
+        "prompt": "A kerb stone vs a ballot, the kerb labeled LOGISTICS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A poll is a terrible instrument for a kerb.",
+        "image": null
+      },
+      {
+        "slug": "0830-whose-bag",
+        "prompt": "A traffic light half out of a black plastic bag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Whose traffic light was still in a bag.",
+        "image": null
+      },
+      {
+        "slug": "0840-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, a tiny clock 4:50. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have voted no, and still stopped. Tell me in the comments.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card 4:50 STOP then 5:00 RIGHT, Ink with marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no crash montage, no wrecked cars as the joke, no blood, no corpses. The switch shown as clocks, LEFT/RIGHT arrows, black plastic on signals, tape on road lines, bus doors, an H campaign logo, a radio, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stop, step across, wait. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-GB-ThomasNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Morning Sweden Drove on the Other Side",
+    "description": "Dagen H, Sunday the third of September nineteen sixty seven. Four fifty, a plastic bag on the lights, and a kerb that moved.",
+    "tags": [
+      "history",
+      "dagen h",
+      "sweden",
+      "1967",
+      "traffic",
+      "cartoon",
+      "true story",
+      "logistics",
+      "funny",
+      "right hand traffic"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "STOP AT FOUR FIFTY",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A whole country once stopped the cars at four fifty in the morning and walked them to the other kerb. That is not a metaphor, and it is not a cartoon you invented after a trivia night about driving on the left. On Sunday the third of September nineteen sixty seven, Sweden switched from left-hand traffic to right-hand traffic. The day is Dagen H. The H is Högertrafik, right-hand traffic, not a secret agency and not a national flag you salute. At about five in the morning, after a radio countdown, traffic that had been allowed on the road was told it could move again, on the other side. Olof Palme, then minister of communications, later prime minister, went on air and called it a very large change in daily existence. Keep that picture. Then put a red X on the crash-reel joke. The leftover is not that Swedes forgot which way was home. The leftover is that eighty three percent had already voted no, and the state still wrapped the traffic lights in black plastic until the minute it counted.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a no vote did not keep the left. In October nineteen fifty five, in a referendum, about eighty three percent said keep left, about fifteen and a half said switch, a sliver left the ballot blank, on a turnout around fifty three percent. The Riksdag still approved Prime Minister Tage Erlander's proposal on the tenth of May nineteen sixty three: right-hand traffic in nineteen sixty seven. The arguments on the table were not a vibe. Norway and Finland, the land borders, already drove on the right, with on the order of five million vehicles a year crossing. More than ninety percent of Swedes already sat in left-hand-drive cars, which is a bad match for overtaking on a narrow two-lane when the steering wheel is on the kerb side of the oncoming lane. City buses were among the few that still had the wheel on the right, doors to the left, because that is how you load a kerb when you drive on the left. Cars on Swedish roads had tripled, five hundred thousand to about one point five million, and were talked of heading toward two point eight million by nineteen seventy five. The official idea was: this will match the neighbours, and then the overtaking view will match the wheel.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The commission was Statens högertrafikkommission, HTK. The named chief was Lars Skiöld, the man the papers nicknamed the right-hand general, which is a job title you file as logistics, not as a war. Psychologists got a four-year education programme. The H logo went on billboards, buses, milk cartons, and, because this is Sweden in the sixties, underwear, gloves, mugs, ties, a board game, a stamp. Swedish television ran a song contest. The winner was Håll dig till höger, Svensson, Keep to the right, Svensson, written by Expressen journalist Peter Himmelstrand, sung by The Telstars. That is a chorus hired as a road sign you can hum. Yellow centre lines were due to become white. Crews painted a parallel set, then hid them under black tape. Extra poles and signals went up at intersections, wrapped in black plastic, so the morning of H could be a reveal, not a debate. About three hundred fifty thousand signs had to come down or go up, on the order of twenty thousand in Stockholm alone. Headlamps that kicked the wrong way got an opaque decal: not to be removed before the third of September nineteen sixty seven.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Buses were the expensive sentence. More than a thousand new ones were bought with doors on the right. Some eight thousand older buses were rebuilt with doors on both sides, because you cannot move a kerb overnight and leave the door hanging over the centre line. Gothenburg and Malmö exported left-traffic buses to Pakistan and Kenya, which is a leftover you can put on a shipping tag: the old door still had a country that wanted it. Trams in central Stockholm, in Helsingborg, and most lines in Malmö were pulled and replaced by buses. Norrköping and Gothenburg kept trams, plus a few suburban Stockholm lines. The Stockholm metro, and the railways, stayed on the left. File that. A country can change a kerb and leave a tunnel. Stockholm and Malmö got a longer ban, from ten on Saturday to three on Sunday, so crews could rebuild junctions. Other towns sat still from three Saturday to three Sunday. Nationwide, non-essential traffic was banned from one in the morning to six. The official plan was still going to work: stop, step across, wait, then five o'clock.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Sunday. From one o'clock the ordinary cars were supposed to be off the road. At four fifty, whatever was still legal on the asphalt had to stop completely, then creep to the right-hand side, then stop again so nobody met a neighbour still finishing the walk. At five, after the countdown on Högertrafikvaka, the right-hand-traffic vigil on Swedish Melody Radio, with C-G Hammarlund, Skiöld, and Palme in the booth, the country was told it had right-hand driving. Palme said he dared say no country had invested so much personal labour, and money, to get uniform international traffic rules. Time magazine later called it a brief but monumental traffic jam. Do not draw a pile-up. On the day, one hundred fifty seven minor accidents were reported, thirty two with personal injuries, a low number serious. The Monday after, one hundred twenty five reported accidents, against a usual Monday band of about one hundred thirty to one hundred ninety eight, none fatal. Motor insurance claims were later filed as down about forty percent. Caution is a speed limit you cannot paint on a sign. It is also not a permanent miracle.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a nation that woke up on the wrong side and crashed for sport. That is not the receipt. The early dip in deaths and claims did not last as a new physics. Claims were talked of returning toward normal over about six weeks. By nineteen sixty nine, accident rates were back near the old line, while car ownership kept rising. Experts had said the right-hand change should help overtaking because the wheel was already on the left of the car. They also said perceived risk jumped higher than the real risk, so people drove as if the road were new, which it was. That is logistics wearing a nervous face. Iceland did the same trick on the twenty sixth of May nineteen sixty eight, H-dagurinn. The Swedish bill, in the BBC's later sum, was about six hundred twenty eight million kronor, about five percent over a budget from two years earlier. The information campaign alone sat around forty three million. Underwear is cheaper than a bus door. A bus door is cheaper than a junction you rebuild twice.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "There is a later caption that the people were overruled, full stop. File the referendum. File the parliament. They are not the same vote. The fifty five no was real. The sixty three yes in the Riksdag was also real. What the commission actually bought was not a conversion of hearts. It bought tape on the new white line, plastic on the new signal, a decal on the lamp, a glove that said right, a song you could not get out of your head, and a four fifty stop that assumed strangers would wait for strangers. Sveriges Radio later notes Sweden had already driven on the right between seventeen eighteen and seventeen thirty four, which is a leftover older than the H logo: the kerb had been argued before the car. You are allowed to laugh at milk cartons with an H. You are not required to laugh at thirty two injuries, or to pretend a plastic bag on a traffic light is a personality test. The 83 percent is a poll. The 4:50 is a procedure.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to Palme, and none of it is a cartoon of Sweden as a nation too obedient to miss a kerb. They had neighbours already on the right. They had cars whose steering wheels were already on the left. They had buses whose doors were not. They had yellow paint due to become white. They had a metro that would keep left in a tunnel while the street above learned a new habit. The chemistry is LHD cars plus right-hand neighbours plus a parliament that would not wait for a second referendum. The logistics is who wraps the light, who peels the tape, who moves the bus stop to the other kerb, who stands still at four fifty so the person still crossing does not become a headline. A crash montage is a terrible instrument for a morning that filed one hundred fifty seven minor accidents. A song is a terrible instrument for a door that has to move. The door still had to move.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the referendum. Not the underwear. Not the joke that they forgot left from right. HTK won a Sunday that started. Palme won a radio line about labour and money. Skiöld won a nickname. The Telstars won a chorus. The metro won the left-hand tunnel. Kenya and Pakistan won some buses. The headlamp decal won a date printed on the glass. If you need a moral, skip never vote no. Take this: a poll is a terrible instrument for a kerb, and a kerb is a terrible neighbour for a bus door you have not rebuilt. The next time someone tells you Sweden switched sides overnight, ask who was still at four fifty, and whose traffic light was still in a bag. Would you have voted no, and still stopped when the radio said stop. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

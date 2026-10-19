@@ -1,0 +1,291 @@
+{
+  "project_id": "yapay-zekanin-kisa-tarihi-15dk-20260821",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "story",
+    "story_visual": {
+      "photo_count": 20,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 10,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "target_duration_seconds": 900.0
+  },
+  "tts": {
+    "voice": "tr-TR-EmelNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "tr"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 42,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": "#FFD34F",
+    "stroke_color": "#000000",
+    "stroke_width": 3,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Yapay zekanın kısa tarihi",
+    "description": "1950'lerden bu yana yapay zekanın gelişimi ve etkileri hakkında konuşan uzun bir hikaye.",
+    "tags": [
+      "yapay zeka",
+      "bilgisayar",
+      "tarih",
+      "bilim",
+      "programlama",
+      "rahatlatıcı",
+      "bilgisayarlar",
+      "elbette",
+      "ve"
+    ],
+    "category_id": "27",
+    "privacy_status": "private",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "tr",
+    "thumbnail_enabled": true
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Yapay zekanın tarihi, 1950'lerden beri devam etmektedir. İlk yapay zeka programı, 1956'da ortaya çıkmış. Bir pasajı okuyup anlamaya çalışan program, bu zamana kadar bilgisayarların yapay zeka yeteneği için öncülük etmiştir. 1960'lar ve 1970'lerde, bu araştırmalar yavaş yavaş ilerlemiştir. 1980'lerin ortalarında, daha fazla kaynak tahsis edilmiştir. 1990'ların başında, bir yapay zeka programı tahtada bir şampiyonluğa gelmiştir. 2000'lerin başında, yapay zeka programları doğal dil işleme ve sanal asistanlar gibi birçok alanda kullanıma sunulmuştur. Bu süreçte, yapay zeka teknolojisinin birçok farklı alanlarda kullanımına yol açan önemli gelişmeler oldu.",
+      "search_terms": [
+        "1950'ler",
+        "1980'ler"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "1990'ların başında yapay zeka araştırmaları hız kazanmaya başladı. Birçok üniversitede ve araştırma kurumunda bu alanda çalışmalar faaliyet gösteriyordu. Bu dönemde, bilgisayar hafızalarının genişleme ve işlem hızının artmasıyle birlikte yapay zeka programlarının performansları önemli ölçüde arttı. Bilim insanları, yapay zekanın birçok alanda uygulaması için potansiyelini keşfetmeye başladılar. Bu arada, bir programın tahtada şampiyonluğunu elde etmek için gerekli olan maddi ve teknik kaynakların artışı da göz önüne alınıyordu. 1990'ların başında, bir yapay zeka programının tahtada şampiyonluğunu kazanması için ne gibi kaynaklar ve teknikler gerekli olduğunu tartışılarak planlandı.",
+      "search_terms": [
+        "1990'ların başında yapay zeka programları",
+        "yapay zeka programının tahtada şampiyonluğu",
+        "1990'ların başlarında bilgisayar teknolojisi"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Yapay zeka araştırmaları 1990'ların ortalarında hız kazandı. 1997'de IBM'ın Deep Blue programı, şampiyon olan Garry Kasparov'u yendi. Bu, yapay zeka ve bilgisayar oyunları arasındaki ilk önemli galibiyetti. Bilgisayarlar ve yazılımların gelişmesiyle birlikte, daha karmaşık ve ilkel sistemler geliştirmeye başlandı. 1990'ların sonlarına geldiğimizde, teknolojideki bu ilerlemeler, daha fazla bilgi işlem ve daha iyi performans sağlayacak yeni yazılımların geliştirilmesine olanak verdi. Bu gelişmeler, yapay zekanın daha geniş alanda kullanımlarına olanak sağladı ve birçok farklı alanlarda potansiyel olumlu etkileri ortaya koymaya başladı. 1990'ların sonlarına ve 2000'lerin başında, yapay zekanın ilerleyen aşamalarında ve potansiyel kullanım alanlarında daha fazla çalışma başladı.",
+      "search_terms": [
+        "Deep Blue",
+        "Garry Kasparov",
+        "bilgisayar oyunları"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "1997 yılında Deep Blue, Garry Kasparov'u yendi ve yapay zekanın bilgisayar oyunları dünyasında ilk önemli galibiyetini yaptı. Bu başarı, yapay zekanın daha geniş alanda kullanımlarına olanak sağladı. Şimdiyse, yapay zekanın yeni bir aşamasına geldiğini görüyoruz. Bilim insanları, yeni algoritmalar geliştirdiler ve yapay zekanın sanayiye entegrasyonu hızlandı. Örneğin, otomotiv endüstrisi yapay zeka teknolojileri kullanmaya başladı ve arabaların otomatik kontrolü geliştirdi. Bu, yolculukların daha güvenli hale geleceği umuduna dayanıyor. Ayrıca, yapay zekanın sağlık ve eğitim sektörlerine da entegrasyonu hızlandı. Bilim insanları, yeni belirli bir hastalığın tedavisini sağlayacak olan yapay zekalı sistemler geliştirdiler. Öncülük rolünde olan Akademik Kurumlar, bu teknolojiye yatırım yaptılar ve daha iyi bir geleceğe yönelik projeler sunuştular. 1990'ların sonlarına geldiğimizde, teknolojideki bu ilerlemeler, yapay zekanın daha geniş alanda kullanımlarına olanak sağladı.",
+      "search_terms": [
+        "Deep Blue",
+        "Garry Kasparov",
+        "otomotiv endüstrisi"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "1998 yılında bir başka önemli olay oldu. IBM'in geliştirilen bir yapay zeka programı, ticari otomobil endüstrisine entegrasyonu hızlandırdı. Bu program, bir otomobil tasarımının tasarım sürecinde otomatik olarak test edilmesine olanak sağladı. Ayrıca sağlık sektöründe, bir yapay zeka programı hastaların tıbbi görüntülerini analiz etmek için kullanıldı. Bu teknolojik ilerlemeler, sanayi ve sağlık sektörleri arasında daha fazla yapay zeka uygulamasına yol açtı. Ayrıca, bu başarılar, teknolojiyi daha geniş bir kitleye tanıtmak için büyük bir itici gücü oluşturdu. İklim değişikliği çözümü için de yapay zeka uygulamaları kullanılarak daha etkili stratejiler geliştirildi. Örneğin, bir yapay zeka sistemine veri sağlanarak, hangi bölgelerde küresel ısınma hızı en fazla olduğunu belirleyebilir ve buna göre uygun eylemler planlanabilir. Bu, yenilenebilir enerji kaynaklarının etkin kullanımı ve emisyon azaltma stratejilerinin geliştirilmesinde önemli bir rol oynadı.",
+      "search_terms": [
+        "otomobil endüstrisi",
+        "hastalık tıbbi görüntüleri",
+        "iklim değişikliği"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "1999 yılında yapay zeka teknolojisi, ticari sektörlerde daha geniş bir alana yayılmış oldu. Özellikle finans sektöründe, yapay zeka yazılımları ile tahmin ve analiz süreçlerinde önemli ilerleme kaydedildi. Bu süreçte, yapay zekanın finansal piyasaların gerçek zamanlı analizlerinde kullanılabileceği gözlemleniyordu. Bir diğer önemli development, yapay zekanın telefon ve bilgisayarlar gibi günlük yaşam cihazlarında da uygulanmasındaydı. Bir kaza öncesi uyarı sistemi tasarımıyla test ediliyordu ve başarılı sonuçlar ortaya çıkıyordu. Bu teknolojinin hizmet verimliliği ve doğruluğu, daha sonra daha geniş bir kitleye sunulacak daha kapsamlı uygulamalara imkan sağladı.",
+      "search_terms": [
+        "tahmin ve analiz yazılımları",
+        "kaza öncesi uyarı sistemleri",
+        "yapay zeka finansal piyasalarında"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "1999 yılında finans sektöründe yapay zeka teknolojisi daha geniş kullanılarak piyasaların gerçek zamanlı analizleri için yazılımlar geliştirildi. Bu yazılımlar piyasa hareketlerini daha iyi tahmin etmek için önceden bilgili olmakla yardımcı oldu. Ayrıca, günlük yaşam cihazlarında yapay zeka daha fazla kullanıma sunuldu. Örneğin, siber güvenlik sistemlerinde kaza öncesi uyarıları artırma amaçlı geliştirdi. Bu yazılımlar, bilgisayarların hızlı ve doğru kararlar alabilmelerine yardımcı oldu ve güvenlik sistemlerinin etkinliğini artırdı. Ayrıca, otomobil endüstrisinde yapay zeka, kaza önleyici sistemlerine entegre edildi. Bu sistemler, araçların potansiyel kaza risklerini tespit etmek ve önlemeye yardımcı oldu. Ayrıca, yapay zeka teknolojisi, tıbbi cihazlar ve tedavi yöntemlerinde de daha geniş bir rol alarak, hastaların sağlığı ve yaşam kalitesini artırmaya yardımcı oldu.",
+      "search_terms": [
+        "yapay zeka piyasa analizi",
+        "günlük yaşam cihazları yapay zeka",
+        "siber güvenlik sistemleri"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "2000 yılında yapay zeka daha da gelişti. Bankacılıkta, finansal ürünlerin otomatik sınıflandırılması ve risk analizlerinde yapay zeka etkili bir yere geldi. Ayrıca, günlük yaşam cihazlarının yapay zeka ile entegre edilmesi başlamış oldu. Bir örnek olarak, bir otomatik masaj aletinin sahip olduğu yapay zekanın, kullanıcının masaj tarzını öğrenip, kişiselleştirilmiş masajlar sunması anlatıldı. Sağlık sektöründe de ilerleme oldu. Bir hastanede, yapay zekanın hastaların rahatsızlıklarını tanımak ve tedavi önerileri yapmak için kullanıldığını gösterdik. Bu ilerleme, hastaların sağlığına olumlu bir katkı sağladı. Her yıl yapay zekanın kullanım alanları genişledi, bu teknolojinin geleceğinin parlak bir görüntüye sahip olduğunu gösterdi.",
+      "search_terms": [
+        "yapay zeka finansal ürünleri",
+        "yapay zeka masaj aleti",
+        "yapay zeka sağlık sektörü"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Yapay zeka, finansal ürünlerde çok iyi performans gösterdi. 2000 yılında, yapay zeka modeli borsa analizlerinde insanlar tarafından yapılan analizleri geçerek daha iyi kararlar verdi. Sağlık sektöründe de, yapay zeka, hastaların tespit edilmesinde ve tedavinin planlanmasında yardımcı oldu. Masaj aleti geliştirdiler ve hastaların ağrılarını azaltma konusunda etkilendi. Hastanelerde da tedavi önerileri verdi ve hastaların durumlarını analiz etti. 2001 yılında, yapay zeka, günlük hayatımızda daha fazla yer alacak ve daha iyi hizmet verecektir. Bu teknolojinin ilerleyen yıllarında, finansal ve sağlık sektörlerinde yapay zeka daha kapsamlı kullanımlar ortaya çıkacak.",
+      "search_terms": [
+        "yapay zeka borsa analizi",
+        "yapay zeka masaj aleti",
+        "yapay zeka sağlık tedavisi"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Son yıllarda yapay zeka teknolojisi finansal endüstriye büyük bir dönüşüm getirdi. İşletmeler, yapay zeka sistemlerini kullanarak daha hızlı ve daha hassas kararlar vermek için daha iyi veri analizlerinde bulunma fırsatı kazandı. Sağlık sektöründe da bu teknolojinin kullanımının arttığı görülüyor. Hospitals are now using AI to provide better treatment suggestions to patients. Bilgisayarlar, hastaların tarihçelerine ve belirli belgelerine dayanarak, doktorlara daha kapsamlı ve zamanlı öneriler sunuyorlar. Bu teknoloji, hem hastaların hem de doktorların hayatını kolaylaştırıyor. Ancak, yapay zekanın gelişimi ve kullanımında sarsıntılı bir süreç olduğunu da belirtmek gerek. AI'nin bilgiye bağımlılığı ve etik sorunları konusunda endişeler hissediliyor. Bu teknolojinin gelecekteki potansiyeli ve onunla ilgili sorunları araştırmanın yolları açıkken, hala birçok sorun çözülmemiş durumda. Bu teknolojinin tam olarak nasıl işlediği ve hangi sorunlarla karşı karşıya kalınacağı merak ediliyor. Yapay zeka, finans ve sağlık gibi birçok sektörde büyük ilerleme kaydetmiş, ancak kullanımlarında ve etik sorunları çözümlenecek birçok konu var. Bu teknolojinin geleceğinin ne olacağını ve onunla ilgili düşünceleri anlatacağı bir konferansa katılacaklar. Yapay zekanın finans ve sağlık sektörlerindeki etkileri ve etik sorunları konferans, yapay zeka teknolojisi ve etik",
+      "search_terms": [
+        "yapay zeka finans sektörü",
+        "yapay zeka sağlık sektörü",
+        "yapay zekanın etik sorunları"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Bilim insanları, yapay zeka konusunda yeni projeler ortaya koyuyor. Ancak projenin etik sorunları tartışıyor ve projenin potansiyel risklerini ele alıyorlar. Bir araya geldi ve bir anlaşma yaptılar. Bu anlaşma, yapay zekanın etik kullanımını garanti edecek yeni kural sistemlerini ortaya koyacak. Bu kural sistemlerini test edecekler ve uygulamak için hazırlıklar yapacaklar. Ancak, bazı araştırmacılar yeni kurallara karşı çıkıyor. Kısacası, yapay zekanın etik sorunları hala bir tartışma konusu. Amaç etik kullanımları sağlayacak yeni kurallar geliştirmektir. Etik sorunları ele almak için bir etik komitesi oluşturuluyor. Komite üyelerine bilim insanları, finansal uzmanlar ve yasal uzmanlar dahil. Komite, yeni kuralların ne anlama geleceğini ve ne zaman uygulanacağını belirliyor. Sonuç olarak, yapay zekanın etik kullanımına yönelik yeni kurallar oluşturuluyor. Bu kurallar, yapay zekanın etik ve güvenli bir şekilde kullanılmasını sağlayacak. Etik sorunları ele almak için yeni bir komite oluşturuluyor. Komite, yapay zekanın etik kullanımına yönelik kuralları belirlemeye devam ediyor.",
+      "search_terms": [
+        "etik komitesi",
+        "yapay zeka kuralları",
+        "bilimsel etik"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Bugün etik komitesi toplantılarını gerçekleştirdiler. toplantıda yeni kuralların uygulanmasını ele alacaklardı. Bana göre biraz sıkıcı olabilir, ama bu önemlidir. Her yeni yapay zekayla ilgili kuralı uygulamanın gerekliliği hakkında tartıştılar. Biraz kafa karıştırıcı. Söylediklerini anlayabiliyor musun, Ali? Size biraz açıklama yapayım. Bir yapay zeka, bu yeni bir programlama türü. İnsanlar onun hatalarını düzeltmek istiyorlar. İşte bu yüzden yeni kurallar oluşturdular. Her yapay zeka programına önce bunları okutmaları gerekiyor. Bu, herkesin mutlu olmasını sağlamak için. Toplumun her tarafına dağılmış etik komitesi, bu kuralları uygulamak için çalışıyor. Herhangi bir hata varsa, hemen bildirmeli ve düzeltmeli. Bu, herkesin bilmesi gereken kural. Yeterince bilmiyorsun, Yusuf? Ben sana açıklayacağım. Toplumda, yapay zekaların yanlış kullanıldığı gibi, onların da doğru kullanıldığı anlaşılıyor. İşte bu yüzden, etik kuralları uygulama işlerini ele alacaklar. Sanki bir oyun oynuyorlar. Her yapay zeka ile beraber yeni bir kurallar seti geliyor. Yeter ki, bu kuralları hatırlasın ve uygulansın. Toplumun her köşesinde etik komitesi var. Herhangi bir sorun varsa, hemen bildirmeli. Sanki bir deneme odası. Her yeni yapay zeka ile beraber yeni bir deneme odası. En önemli şey, herkesin bilmesi gereken bu kuralları uygulamak. Toplumda herkes için mutluluk olacak. Bunu sağlayacaklar. Her yapay zeka ile birlikte yeni bir kurallar seti geliyor. Her zaman beklenmedik olabilirler, ama en iyisi onları uygulayacakları.",
+      "search_terms": [
+        "etik komitesi toplantıları",
+        "yeni yapay zekalar",
+        "uygulanan kurallar"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "Topluluk yeni bir yapay zeka sistemine geçme kararı verdi. Ancak bu, kuralların yeniden düzenlenmesi gerektiği anlamına geliyordu. Etik komitesi toplantıları düzenlendi ve kurallar seti belirlendi. İnsanlar yeni kurallara uymaya çalıştı. Toplum genellikle endişeli ve sakin değildi. Her yeni yapay zeka ile birlikte, yeni kurallar seti getiriliyordu ve uygulanması gerekiyordu. Bu süreçte insanlar sosyal ilişkilerde sorunlar yaşadılar. Topluluk her yeni kurallar ile birlikte yeni bir uyum sürecine girdi. Bu uyum süreci zorluklarla doluydu ve genellikle ciddi olumlu sonuçlar getirmiyordu. Topluluk hem yeni kurallar öğrenmeye hem de uygulamaya çalışıyordu. Bu süreçte insanlar bazen kavramsal zorluklar yaşadılar.",
+      "search_terms": [
+        "yeni yapay zeka sistem",
+        "kurallar seti belirlenmesi",
+        "etik komitesi toplantıları"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "Yapay zekanın yeni kuralları uygulaması zor bir süreç oldu. Herkes kendi hayatlarında değişiklikleri kabul etmeye çalışıyordu. Bazen insanlar birbirleriyle anlaşmazlıklar yaşardı. Bir gün, bir grubun yeni bir rapor hazırladığını duyduk. Rapor etik kurallarını uygulama sürecinde yaşadıkları zorlukları ve çözüm önerilerini içeriyordu. Topluluk toplantılarında bu raporu tartıştılar ve en iyisi nasıl yapılacağını belirlemeye çalıştılar. Bir kadın, yeni bir sistemle ilgili endişelerini dile getirdi ve kendi deneyimlerini paylaşdı. Bir başkası, sistemlerin daha iyi bir şekilde nasıl yapılacağını tartışmaya katıldı. Bu tartışmalar toplumda yeni bir dinamik yarattı ve herkesin sorumluluk duygusu arttı. Topluluk bu süreçte her adımı ölçümle atlattı, çünkü yeni kuralların başarıyla uygulanmasını sağlayacak tek yol bu olacak.",
+      "search_terms": [
+        "etik raporu",
+        "topluluk toplantıları",
+        "yeni kurallar uygulama"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

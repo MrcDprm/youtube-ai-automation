@@ -11,7 +11,9 @@ Do not wait for a second prompt to start stills, clips, or TTS. Do wait for the 
 
 Active brand must be `every-level-pov` in `brands/active.json`. Do not make Badly Drawn Why, After Hours File, or Drawn Anyway.
 
-Read `brands/every-level-pov-lock.json` for the locked protagonist **Kit** STYLE. Read `brands/every-level-pov-channel.json` for channel copy. Channel assets live in `brands/assets/every-level-pov/`.
+Read `brands/every-level-pov-lock.json` for the locked protagonist **Kit** STYLE. Read `brands/every-level-pov-channel.json` for channel copy (public name **Rank Run POV**, handle `@RankRunPOV`). Channel assets live in `brands/assets/every-level-pov/`.
+
+Per-episode pacing lives in `scripts/pov_pacing.py`: chapter energy profiles, TTS rate/voice, Ken Burns zoom, weighted still holds via ``covers`` length. Do not flatten every episode to the same GuyNeural +2% cadence.
 
 ## One episode, then stop
 
@@ -38,7 +40,7 @@ If TTS **under 12:00**, lengthen ranks and re-run. Do not ship short.
 ## Stills workflow
 
 1. Run or extend `scripts/author_pov_*.py` → `senaryo-pov.json` + `output/storyboard/<id>/beats.tsv`
-2. Generate 16:9 stills into `output/storyboard/<project_id>/` as `NN-slug.png` + `thumbnail.png`
+2. Generate 16:9 stills into `output/storyboard/<project_id>/` as `NN-slug.png`. Save cover as **`thumbnail-<project_id>.png`** in assets (never rely on bare `thumbnail.png` alone).
 3. **One unique still per 10-second beat.** After still 01, pass Kit reference on every call.
 4. Parallel batches of **6–8**; on 429 drop to 4.
 5. `python scripts/sync_paint_stills.py --scenario senaryo-pov.json` (or copy matching beats to `output/clips/`)
@@ -48,7 +50,7 @@ Ken Burns zoom **1.16**. `preset` medium. Do not use `veryfast`.
 
 ## Captions
 
-White fill, dark stroke. Do **not** set `accent_color`. `numeral_display` on for scores, fees, capacities in captions.
+**Karaoke word-sync** burn-in: Anton display font, white fill, tomato-red active word (`#FF4D4D`), dark stroke. Edge TTS word timings drive `\k` highlight on the spoken word. `numeral_display` on for scores, fees, capacities. Defaults live in `config/constants.py` (`POV_SUBTITLE_*`).
 
 ## Script shape
 

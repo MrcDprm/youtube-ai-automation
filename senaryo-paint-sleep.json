@@ -1,0 +1,466 @@
+{
+  "project_id": "why-your-ancestors-slept-twice-every-night-11dk-20260822",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 40,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-switch",
+        "prompt": "Stickman in a simple night bedroom flipping a wall switch, messy yellow light filling the room, MS Paint, white background.",
+        "covers": "You flip a switch and light floods the room.",
+        "image": null
+      },
+      {
+        "slug": "0005-no-switch",
+        "prompt": "Same bedroom wall with no switch and a big red X, confused stickman, MS Paint.",
+        "covers": "For most of history that switch did not exist.",
+        "image": null
+      },
+      {
+        "slug": "0009-cant-see-hand",
+        "prompt": "Stickman in a black blob holding a faint hand in front of its face, MS Paint.",
+        "covers": "You could not see your own hand in the dark.",
+        "image": null
+      },
+      {
+        "slug": "0017-300k-years",
+        "prompt": "Wobbly timeline arrow labeled 300,000 YEARS, left half black, MS Paint.",
+        "covers": "Three hundred thousand years, half a life in darkness.",
+        "image": null
+      },
+      {
+        "slug": "0024-stars-fire",
+        "prompt": "Black sky with stars, tiny campfire, candle with a red X, MS Paint.",
+        "covers": "No candles. Stars, sky, a small fire.",
+        "image": null
+      },
+      {
+        "slug": "0031-question",
+        "prompt": "Giant red question mark, tiny sleep and story icons, MS Paint.",
+        "covers": "What did they do for all those hours?",
+        "image": null
+      },
+      {
+        "slug": "0039-wonderwerk",
+        "prompt": "Brown cave with campfire and crude Africa map, labels SOUTH AFRICA and 1,000,000 YEARS, MS Paint.",
+        "covers": "Wonderwerk Cave, South Africa, one million years.",
+        "image": null
+      },
+      {
+        "slug": "0050-fire-extends-day",
+        "prompt": "Sun, sunset, then a fire stretching a day bar, MS Paint.",
+        "covers": "Fire restructured the human day.",
+        "image": null
+      },
+      {
+        "slug": "0054-tree-night",
+        "prompt": "Stickman sitting still in a clumsy tree at night, MS Paint.",
+        "covers": "Climb a tree and stay still.",
+        "image": null
+      },
+      {
+        "slug": "0102-predators",
+        "prompt": "Scared stickman, simple leopard hyena wolf shapes, MS Paint.",
+        "covers": "Leopards, hyenas, wolves could see just fine.",
+        "image": null
+      },
+      {
+        "slug": "0112-safety-circle",
+        "prompt": "Campfire, dashed 30 FT circle, stickmen inside, predator outside, MS Paint.",
+        "covers": "A campfire circle about thirty feet across.",
+        "image": null
+      },
+      {
+        "slug": "0124-wander-danger",
+        "prompt": "Stickman leaving the fire circle, red warning, MS Paint.",
+        "covers": "Wander from the fire and you die.",
+        "image": null
+      },
+      {
+        "slug": "0135-extra-hours",
+        "prompt": "Clock or day bar with EXTRA HOURS in orange, MS Paint.",
+        "covers": "Fire gave them extra hours.",
+        "image": null
+      },
+      {
+        "slug": "0144-hours-evolution",
+        "prompt": "Summer 12 H bar, winter 8 H bar, fire plus 2-4 H, MS Paint.",
+        "covers": "Twelve hours in summer, eight in winter, plus two to four.",
+        "image": null
+      },
+      {
+        "slug": "0157-kalahari",
+        "prompt": "Desert stickmen, notepad, labels KALAHARI, MS Paint.",
+        "covers": "Polly Wiessner recorded the Ju/'hoansi in the Kalahari.",
+        "image": null
+      },
+      {
+        "slug": "0215-daytime-work",
+        "prompt": "Two stickmen, speech bubbles with spear and plant, 80% WORK, MS Paint.",
+        "covers": "Daytime talk was eighty percent work.",
+        "image": null
+      },
+      {
+        "slug": "0226-night-stories",
+        "prompt": "Campfire, laughing stickmen, 81% STORIES, MS Paint.",
+        "covers": "At night eighty-one percent were stories.",
+        "image": null
+      },
+      {
+        "slug": "0240-theater-church",
+        "prompt": "Fire in front of three clumsy buildings, MS Paint.",
+        "covers": "The campfire was theater, classroom, church.",
+        "image": null
+      },
+      {
+        "slug": "0256-modern-sleep-x",
+        "prompt": "Stickman in one long bed, alarm clock, huge red X, MS Paint.",
+        "covers": "You were not designed to sleep like this.",
+        "image": null
+      },
+      {
+        "slug": "0306-first-second-sleep",
+        "prompt": "Pile of old books labeled FIRST SLEEP and SECOND SLEEP, MS Paint.",
+        "covers": "First sleep and second sleep.",
+        "image": null
+      },
+      {
+        "slug": "0332-biphasic-timeline",
+        "prompt": "Night bar 4H, 1-2H, 4H, NOT INSOMNIA, MS Paint.",
+        "covers": "Four hours, a wake window, four hours. Not insomnia.",
+        "image": null
+      },
+      {
+        "slug": "0352-night-wake",
+        "prompt": "Four tiny panels of night activities, wholesome, MS Paint.",
+        "covers": "Neighbors, dreams, writing, thinking in the dark.",
+        "image": null
+      },
+      {
+        "slug": "0410-the-watch",
+        "prompt": "Calm stickman awake in a dark bed, THE WATCH, MS Paint.",
+        "covers": "They called it the watch.",
+        "image": null
+      },
+      {
+        "slug": "0422-mistranslation",
+        "prompt": "Stickman at a desk, FIRST SLEEP crossed out, MS Paint.",
+        "covers": "Translators erased first sleep to fit modern sleep.",
+        "image": null
+      },
+      {
+        "slug": "0445-wehr-experiment",
+        "prompt": "Three stickmen, lamp with red X, 14 HOURS DARK, MS Paint.",
+        "covers": "Wehr removed all artificial light for a month.",
+        "image": null
+      },
+      {
+        "slug": "0502-ancient-program",
+        "prompt": "Stickman head with sleep-wake-sleep inside, ANCIENT PROGRAM, MS Paint.",
+        "covers": "Bodies settled into four, wake, four by themselves.",
+        "image": null
+      },
+      {
+        "slug": "0521-prolactin",
+        "prompt": "Peaceful sitting stickman, PROLACTIN, MS Paint.",
+        "covers": "Elevated prolactin. Peaceful. Meditative.",
+        "image": null
+      },
+      {
+        "slug": "0545-light-killed-it",
+        "prompt": "Giant yellow light bulb, tiny shocked stickman, MS Paint.",
+        "covers": "What killed it? Light.",
+        "image": null
+      },
+      {
+        "slug": "0549-street-lamps",
+        "prompt": "Stick lamp posts, tiny crown stickman, STREET LAMPS, MS Paint.",
+        "covers": "Paris street lamps under Louis the Fourteenth.",
+        "image": null
+      },
+      {
+        "slug": "0604-edison-1879",
+        "prompt": "Candle then gas lamp then bulb labeled 1879, MS Paint.",
+        "covers": "Candle, gas, Edison eighteen seventy-nine.",
+        "image": null
+      },
+      {
+        "slug": "0615-curfew",
+        "prompt": "Bell tower, stickman covering a fire, CURFEW, MS Paint.",
+        "covers": "Curfew means cover fire.",
+        "image": null
+      },
+      {
+        "slug": "0627-night-illegal",
+        "prompt": "Stickman without lantern in a red forbidden circle, MS Paint.",
+        "covers": "No lantern after dark was illegal.",
+        "image": null
+      },
+      {
+        "slug": "0648-progress",
+        "prompt": "Yellow city scribbles, stickman, PROGRESS?, MS Paint.",
+        "covers": "We flooded the night and called it progress.",
+        "image": null
+      },
+      {
+        "slug": "0653-blue-light",
+        "prompt": "Stickman in bed with blue phone, 11 PM = DAY, MS Paint.",
+        "covers": "Blue screens at eleven p.m. feel like noon to your brain.",
+        "image": null
+      },
+      {
+        "slug": "0718-camping-reset",
+        "prompt": "Triangle tent, sunset, CAMPING RESET, MS Paint.",
+        "covers": "One week of camping resets melatonin.",
+        "image": null
+      },
+      {
+        "slug": "0733-insomnia",
+        "prompt": "Split: calm wake window vs INSOMNIA bed, MS Paint.",
+        "covers": "We lost that state and named the remainder insomnia.",
+        "image": null
+      },
+      {
+        "slug": "0750-2am-not-broken",
+        "prompt": "Clock 2:00, calm awake stickman, NOT BROKEN, MS Paint.",
+        "covers": "Waking at two a.m. is not your body broken.",
+        "image": null
+      },
+      {
+        "slug": "0758-ancestors-sky",
+        "prompt": "Campfire stickmen under a milky way scribble, JUST THE SKY, MS Paint.",
+        "covers": "The Milky Way was just the sky.",
+        "image": null
+      },
+      {
+        "slug": "0818-thinking-in-dark",
+        "prompt": "Stickman in bed, thought bubble of heart dream sunrise, MS Paint.",
+        "covers": "They lay in the dark and thought.",
+        "image": null
+      },
+      {
+        "slug": "0827-light-switch-trade",
+        "prompt": "Stick hand reaching for a switch, fading stars, WE TRADED THIS, MS Paint.",
+        "covers": "We traded all of that for a light switch.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 42,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": "#FFD34F",
+    "stroke_color": "#000000",
+    "stroke_width": 3,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why Your Ancestors Slept Twice Every Night",
+    "description": "Tonight you will flip a switch and think nothing of it. For three hundred thousand years, night meant something else: fire, stories, and two sleeps with a quiet watch in between. This is what we lost.",
+    "tags": [
+      "sleep",
+      "first sleep",
+      "second sleep",
+      "history",
+      "fire",
+      "circadian rhythm",
+      "insomnia",
+      "anthropology",
+      "human evolution",
+      "night"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "2 AM?"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight, when the sun goes down, you are going to flip a switch. Light will flood the room, and you will not think twice about it. But for ninety-nine point nine percent of human history, that switch did not exist. When the sun set, the world went dark. You could not even see your own hand in front of your face. Modern humans almost never experience this. For over three hundred thousand years, every single one of your ancestors spent roughly half their life in near total darkness. They did not even have candles for most of that time. Just the black sky, the stars, and whatever fire they could keep alive. So what did they actually do for all those hours? The answer changes everything we think we know about sleep, storytelling, and what it means to be human. Let's start with fire. Because fire is the reason any of this was possible.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "The earliest solid evidence of humans controlling fire comes from Wonderwerk Cave in South Africa, roughly one million years ago. But fire did not just keep people warm. Fire completely restructured the human day. Before fire, our ancestors were like every other primate. When the sun went down, you climbed a tree or found a sheltered spot, and you stayed still. Moving at night meant becoming food. Our eyes are terrible in the dark compared to the predators that hunted us. Leopards, hyenas, wolves. All of them could see just fine. Fire changed that equation overnight. Literally. A campfire creates a circle of safety roughly thirty feet in diameter. Inside that circle, predators will not come. Outside that circle, you die. This is not an exaggeration. Anthropologists studying modern hunter-gatherer groups have documented that people who wander away from the fire at night are significantly more likely to be killed by predators. Even today.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "But here is what is fascinating. Fire did not just protect humans at night. It gave them something they had never had before. Extra hours. Think about this. Before fire, the useful day ended at sunset. That is maybe twelve hours in summer, as few as eight in winter. Fire suddenly added two to four usable hours to every single day. Over thousands of generations, those extra hours changed our species. In two thousand fourteen, anthropologist Polly Wiessner published a study in the Proceedings of the National Academy of Sciences. She spent years recording conversations among the Ju slash hoansi of the Kalahari Desert, one of the last groups on Earth still living something close to the original human lifestyle. What she found was striking. During the day, about eighty percent of conversations were practical. Who is hunting where. Which plants are ready. Logistics. Economic negotiations. Daytime talk was work.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "But at night around the fire, the entire character of conversation changed. At night, eighty-one percent of conversations were stories. Tales of people in distant places. Adventures. Myths about the origins of the world. Jokes that made the whole camp laugh. Wiessner argued that firelight conversation is where human culture was born. The campfire was the original theater, the original classroom, the original church. It is where humans learned to think beyond the immediate present and imagine things that do not exist yet. It is where we became us. But the night was not just about stories around the fire. There was something else happening. Something scientists only rediscovered in the last thirty years. You were not designed to sleep the way you sleep right now.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "In two thousand one, historian Roger E. Ekirch published a paper that changed sleep science. He had spent sixteen years digging through historical records, and he found something nobody expected. Over five hundred references, spanning centuries. Prayer books from the fourteen hundreds. Court records. Diaries. Medical texts. Letters from ordinary people. Even passages in Homer's Odyssey. All of them mentioned the same thing. First sleep and second sleep. Before the Industrial Age, people did not sleep in one continuous block. They went to bed shortly after sunset, slept for about four hours, then woke up. They stayed awake for one to two hours in the middle of the night. Then they went back to sleep for another four hours until dawn. This was not insomnia. This was normal. This was how every human on the planet slept for thousands of years.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "And what did people do during that wakeful period in the middle of the night? Everything. A sixteenth century French physician recommended that couples use this window because they would do it better. People visited neighbors. They interpreted their dreams while they were still fresh. They wrote. They simply lay in bed in the dark and thought. A doctor's manual from the fifteen hundreds advised patients that the best time to study and reflect was during the watch, as they called it. The quiet hours between first and second sleep, when the mind was calm and the world was still. Historians had been reading these references for centuries, but they kept translating first sleep as something else. Because they could not imagine that people ever slept differently than we do now. The assumption was so deep that translators literally mistranslated ancient Greek and medieval Latin to make it fit their modern experience.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Then science confirmed what history had been saying all along. In nineteen ninety-two, psychiatrist Thomas Wehr at the National Institute of Mental Health ran an experiment. He took a group of volunteers and removed all artificial light from their lives. For one month, they experienced fourteen hours of darkness every night, just like our ancestors would have before fire extended the evening. Within weeks, every single participant settled into the same pattern. Four hours of sleep, one to three hours of quiet wakefulness, then four more hours of sleep. Nobody told them to do this. Nobody suggested it. They just did it, as if some ancient program had been waiting inside them the whole time, buried under centuries of artificial light. Wehr measured their hormone levels during the wakeful period and found something remarkable. Their brains were producing elevated levels of prolactin, the same hormone released during meditation. They described feeling peaceful, reflective, almost meditative. It was not just a gap in sleep. It was its own distinct state of consciousness. One that most modern humans have never experienced.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "So what killed it? The answer is simpler than you would think. Light. In the sixteen hundreds, cities began installing street lamps. Paris was one of the first, under Louis the Fourteenth, who wanted to reduce crime. London followed. The night, which had been a place of danger and fear, slowly became navigable. Then came cheaper candles. Then gas lamps in the eighteen hundreds. Then in eighteen seventy-nine, Thomas Edison commercialized the electric light bulb. And within a generation, the night as humans had known it for three hundred thousand years was gone. The word curfew comes from the French couvre-feu. It literally means cover fire. In medieval towns, a bell would ring at night, signaling everyone to cover or extinguish their fires. Night was supposed to be dark. Night was when you slept. In many medieval European cities, walking outside after dark without a lantern was literally illegal. Night belonged to criminals and the supernatural. People feared it in a way that is almost impossible for us to understand today. And then we conquered it. We flooded it with light. And we thought that was progress.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "But here is what we lost. Modern humans are exposed to artificial light an average of seven to eight hours after sunset. This light, especially the blue light from screens, suppresses your body's production of melatonin, the hormone that regulates sleep. Your body does not know the difference between a light bulb and the sun. When light hits your retina at eleven p.m., your brain interprets it as daytime. It delays melatonin release. It fragments your sleep. It disrupts the circadian rhythm that evolved over millions of years. Researchers have found that people who go camping for just one week with no artificial light at all have their melatonin cycles reset by nearly two hours. Their bodies start producing melatonin at sunset instead of hours after it. That is all it takes for three hundred thousand years of programming to reassert itself. We did not just change when we sleep. We eliminated an entire phase of human consciousness.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "That quiet reflective state between first and second sleep, the state Wehr's subjects described as peaceful and meditative, does not exist anymore for most people. Instead, we have insomnia. And we treat it like a disorder. But what if it is not a disorder at all? What if waking up at two a.m. and lying there in the dark is not your body malfunctioning? What if it is your body remembering what it was built to do? For three hundred thousand years, your ancestors spent their nights in a rhythm that modern science is only beginning to understand. They gathered around fires and told stories that built civilizations. They slept in two phases with a window of quiet reflection in between. They lived in darkness so complete that the Milky Way was not something you had to drive to a national park to see. It was just the sky. And every night when they woke in the dark between first and second sleep, they lay there in silence and thought about their lives, their dreams, and the world they would wake up to in the morning. We traded all of that for a light switch. And most of us never even knew it was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

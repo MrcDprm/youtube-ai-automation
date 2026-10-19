@@ -1,0 +1,1007 @@
+{
+  "project_id": "why-a-number-plate-is-a-tax-receipt-11dk-20260829",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-glance-plate",
+        "prompt": "Stickman glancing at plate, DECORATION label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you glance at a number plate and treat it as decoration.",
+        "image": null
+      },
+      {
+        "slug": "0005-bumper-sticker",
+        "prompt": "Bumper sticker PERSONALITY vs plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The way you treat a bumper sticker as personality.",
+        "image": null
+      },
+      {
+        "slug": "0010-letters-digits",
+        "prompt": "Car with NAME TAG letters digits, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your eyes read letters and digits as if the car grew a name tag.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-no-plate",
+        "prompt": "Early car no plate red X tax receipt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first motorists did not drive with a tax receipt bolted to the back.",
+        "image": null
+      },
+      {
+        "slug": "0020-vanish-crowd",
+        "prompt": "Car vanishing into crowd no label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A machine without a label can vanish into a crowd.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-bumper-plate",
+        "prompt": "Plate stamped PHYSICS question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your bumper wear a plate as if the plate were physics?",
+        "image": null
+      },
+      {
+        "slug": "0030-paris-smoke",
+        "prompt": "Paris smoke car WHO OWNS label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Paris needed to know who owned the smoke.",
+        "image": null
+      },
+      {
+        "slug": "0035-germany-netherlands",
+        "prompt": "Germany Netherlands registration habit arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Germany and the Netherlands turned registration into a habit.",
+        "image": null
+      },
+      {
+        "slug": "0040-motor-car-act",
+        "prompt": "Motor Car Act 1903 UK document, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "United Kingdom Motor Car Act nineteen oh three.",
+        "image": null
+      },
+      {
+        "slug": "0045-ny-mass-plates",
+        "prompt": "NY 1901 MA 1903 plate timeline, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "New York nineteen oh one, Massachusetts nineteen oh three.",
+        "image": null
+      },
+      {
+        "slug": "0050-tin-fee",
+        "prompt": "Tin rectangle FEE PAID stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tin rectangle could carry a fee you already paid.",
+        "image": null
+      },
+      {
+        "slug": "0055-standard-tag",
+        "prompt": "Standard tag bolts enforce checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production learned a standardized tag is easier to enforce.",
+        "image": null
+      },
+      {
+        "slug": "0100-not-identity",
+        "prompt": "IDENTITY red X plate wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your plate is not identity by nature.",
+        "image": null
+      },
+      {
+        "slug": "0105-receipt-chrome",
+        "prompt": "Receipt wearing CHROME mask, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A registration receipt that learned to look like chrome.",
+        "image": null
+      },
+      {
+        "slug": "0110-glance-flattered",
+        "prompt": "Smiling plate FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The glance is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0115-road-no-vote",
+        "prompt": "Road NO VOTE clerk raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The road did not vote. A clerk did.",
+        "image": null
+      },
+      {
+        "slug": "0120-digits-sense",
+        "prompt": "Bumper word SENSE after digits, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The digits taught your bumper until they called themselves sense.",
+        "image": null
+      },
+      {
+        "slug": "0125-start-receipt",
+        "prompt": "Receipt labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the receipt.",
+        "image": null
+      },
+      {
+        "slug": "0130-plate-stole-ledger",
+        "prompt": "Ledger line stolen by metal plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The plate stole a ledger line and sold it back as metal.",
+        "image": null
+      },
+      {
+        "slug": "0135-before-reflective",
+        "prompt": "Timeline before reflective vanity camera, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Long before reflective film, vanity spelling, gantry cameras.",
+        "image": null
+      },
+      {
+        "slug": "0140-no-serial",
+        "prompt": "Car with red X street serial number, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car was a novelty with no serial number the street could see.",
+        "image": null
+      },
+      {
+        "slug": "0145-fees-offices",
+        "prompt": "Driver paying fee office PAPER LOVES, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early drivers paid fees in offices. Offices love paper.",
+        "image": null
+      },
+      {
+        "slug": "0150-paper-hates",
+        "prompt": "Paper chasing car PAPER HATES MOVING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Paper hates moving vehicles.",
+        "image": null
+      },
+      {
+        "slug": "0155-bookkeeping-fender",
+        "prompt": "Ledger dragged onto fender, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Bookkeeping dragged onto a fender.",
+        "image": null
+      },
+      {
+        "slug": "0200-fender-proof",
+        "prompt": "Fender speech bubble PROOF, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The fender asked for proof.",
+        "image": null
+      },
+      {
+        "slug": "0205-city-garage-agree",
+        "prompt": "City garage stranger agreeing PAID, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "City garage stranger agree machine paid entry fee.",
+        "image": null
+      },
+      {
+        "slug": "0210-road-river",
+        "prompt": "Road slow river traffic, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The road keeps traffic like a slow river.",
+        "image": null
+      },
+      {
+        "slug": "0215-badge-bill",
+        "prompt": "Badge forgot BILL reminder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The plate keeps traffic like a badge that forgot it was a bill.",
+        "image": null
+      },
+      {
+        "slug": "0220-named-corners",
+        "prompt": "Halo on plate MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the rectangle did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0225-not-one-hero",
+        "prompt": "Hero plaque red X many layers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The number plate is not one eureka moment on a plaque.",
+        "image": null
+      },
+      {
+        "slug": "0230-layer-cake",
+        "prompt": "Layer cake panic funds tin tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Municipal panic, road funds, tin tag in a line.",
+        "image": null
+      },
+      {
+        "slug": "0235-paris-1893",
+        "prompt": "Paris 1893 ORDINANCE ID MARKS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Paris police ordinance eighteen ninety three required identification marks.",
+        "image": null
+      },
+      {
+        "slug": "0240-germany-1896",
+        "prompt": "Germany 1896 decree registration, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Germany Imperial decree eighteen ninety six spread registration.",
+        "image": null
+      },
+      {
+        "slug": "0245-netherlands-1898",
+        "prompt": "Netherlands 1898 registration follow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The Netherlands followed in eighteen ninety eight.",
+        "image": null
+      },
+      {
+        "slug": "0250-uk-1903-act",
+        "prompt": "UK 1903 ACT plates required, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Motor Car Act nineteen oh three required plates in the UK.",
+        "image": null
+      },
+      {
+        "slug": "0255-us-spread",
+        "prompt": "US map states spreading plate habit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "American states spread the habit state by state.",
+        "image": null
+      },
+      {
+        "slug": "0300-not-sacred",
+        "prompt": "SACRED METAL stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The plate is not sacred metal.",
+        "image": null
+      },
+      {
+        "slug": "0305-treasury-visible",
+        "prompt": "Treasury wants VISIBLE RECEIPT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Treasuries needed a visible receipt.",
+        "image": null
+      },
+      {
+        "slug": "0310-ledger-line-paint",
+        "prompt": "Ledger line wearing paint on bumper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your bumper is a ledger line wearing paint.",
+        "image": null
+      },
+      {
+        "slug": "0315-number-leaves-office",
+        "prompt": "Digits walking away from office, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the number leave the office.",
+        "image": null
+      },
+      {
+        "slug": "0320-city-speed-label",
+        "prompt": "City speed needs label no clerk every corner, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A city of speed needed a label without a clerk at every corner.",
+        "image": null
+      },
+      {
+        "slug": "0325-stop-ask-papers",
+        "prompt": "Three panel STOP ASK MATCH REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop the car. Ask for papers. Match description. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0330-insult-anonymity",
+        "prompt": "Tin plate insulting anonymity cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tin rectangle is a small insult to anonymity.",
+        "image": null
+      },
+      {
+        "slug": "0335-digits-flex",
+        "prompt": "Digits changing states years flex, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The digits flex across states and years.",
+        "image": null
+      },
+      {
+        "slug": "0340-bolt-grudge",
+        "prompt": "Bolts pressing metal GRUDGE SOFT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Bolt holes press metal with a grudge soft enough not to rust.",
+        "image": null
+      },
+      {
+        "slug": "0345-paid-here",
+        "prompt": "PAID HERE plate no glove folder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The display says paid here without a folder in the glove box.",
+        "image": null
+      },
+      {
+        "slug": "0350-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0355-ledger-to-tag",
+        "prompt": "LEDGER fee vs TAG curb read, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A fee in a ledger replaced by a tag read from the curb.",
+        "image": null
+      },
+      {
+        "slug": "0400-photograph-ticket",
+        "prompt": "Camera photographing plate ticket, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Easier to photograph for a ticket camera.",
+        "image": null
+      },
+      {
+        "slug": "0405-line-inventor",
+        "prompt": "Factory line wearing INVENTOR badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0410-tags-fit",
+        "prompt": "Plate tag fitting slot, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line cares about tags that fit.",
+        "image": null
+      },
+      {
+        "slug": "0415-rehook-fact",
+        "prompt": "Plate vs door both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rehook: you think the plate is a fact like a door.",
+        "image": null
+      },
+      {
+        "slug": "0420-plate-policy",
+        "prompt": "Plate stamped POLICY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The plate is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0425-handshake-hope",
+        "prompt": "Handshake HOPE red X at corner, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Prove registration with a handshake and hope.",
+        "image": null
+      },
+      {
+        "slug": "0430-handshakes-honest",
+        "prompt": "Handshake HONEST stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Handshakes are honest.",
+        "image": null
+      },
+      {
+        "slug": "0435-tags-scalable",
+        "prompt": "Plate tags multiplying SCALABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tags are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0440-city-numbers",
+        "prompt": "Clerk bench to city fleet tags, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Scalable is how a fee escapes the clerk's bench.",
+        "image": null
+      },
+      {
+        "slug": "0445-un-nature-digits",
+        "prompt": "NATURE sticker peeling off digits, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not calling you clumsy. Un-naturing the digits.",
+        "image": null
+      },
+      {
+        "slug": "0450-receipt-font",
+        "prompt": "Receipt inside font costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The digits are a tax receipt wearing a font.",
+        "image": null
+      },
+      {
+        "slug": "0455-visibility-law",
+        "prompt": "Font stamp VISIBILITY LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The font said visibility can be law.",
+        "image": null
+      },
+      {
+        "slug": "0500-rental-relief",
+        "prompt": "Rental car relief tag there, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rent a car and feel relief the tag was already there.",
+        "image": null
+      },
+      {
+        "slug": "0505-treasury-factor",
+        "prompt": "Treasury factor list around driver, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You have been living inside a treasury's factor list.",
+        "image": null
+      },
+      {
+        "slug": "0510-spreadsheet-bolts",
+        "prompt": "Spreadsheet bolt holes truce, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A truce is a spreadsheet with bolt holes.",
+        "image": null
+      },
+      {
+        "slug": "0515-mass-inventoried",
+        "prompt": "INVENT CAR red X INVENTORIED answer, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0520-same-fleet",
+        "prompt": "Identical cars row fleet plates, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The same model had to repeat across a fleet.",
+        "image": null
+      },
+      {
+        "slug": "0525-issue-stamp-ship",
+        "prompt": "Plate ISSUE STAMP SHIP boxes, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Issue, stamp, ship, and replace without a ritual.",
+        "image": null
+      },
+      {
+        "slug": "0530-reflective-chapter",
+        "prompt": "Reflective reader brief label not hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Reflective sheeting and automated readers: a later chapter.",
+        "image": null
+      },
+      {
+        "slug": "0535-not-biopic",
+        "prompt": "WORKSHOP BIOPIC red X object focus, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not tonight a biopic about one contractor.",
+        "image": null
+      },
+      {
+        "slug": "0540-object-tin",
+        "prompt": "Tin digits repeat enforce cycle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: tin, digits, repeat, enforce.",
+        "image": null
+      },
+      {
+        "slug": "0545-quiet-referendum",
+        "prompt": "Catalog voting booth QUIET REFERENDUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0550-rental-vs-carriage",
+        "prompt": "Rental plate vs unmarked carriage gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rental has a plate, history book has unmarked carriage.",
+        "image": null
+      },
+      {
+        "slug": "0555-inventory-fight",
+        "prompt": "Inventory shelf beating unmarked fender, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "That gap is inventory.",
+        "image": null
+      },
+      {
+        "slug": "0600-this-is-you",
+        "prompt": "Stickman Tuesday parking lot plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you. A Tuesday. A parking lot.",
+        "image": null
+      },
+      {
+        "slug": "0605-stare-digits",
+        "prompt": "Suspicious leaving without tag stare, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You stare at digits because leaving feels suspicious without a tag.",
+        "image": null
+      },
+      {
+        "slug": "0610-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0615-not-bureaucratic",
+        "prompt": "BUREAUCRATIC NATURE red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "None of this makes you bureaucratic by nature.",
+        "image": null
+      },
+      {
+        "slug": "0620-born-after-act",
+        "prompt": "Timeline 1903 act metal plates, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after Motor Car Act and state fees as metal.",
+        "image": null
+      },
+      {
+        "slug": "0625-vanity-cameras",
+        "prompt": "Plate vanity toll camera icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tag learned vanity spelling, toll readers, cameras.",
+        "image": null
+      },
+      {
+        "slug": "0630-relief-no-corner",
+        "prompt": "Happy stickman no explain every corner, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not explain your car at every corner.",
+        "image": null
+      },
+      {
+        "slug": "0635-insult-ledger",
+        "prompt": "Ledger line winning bolt insult, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiny insult that a ledger line won a bumper bolt.",
+        "image": null
+      },
+      {
+        "slug": "0640-never-voted",
+        "prompt": "Receipt never voted tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a visible receipt you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0645-cheerful-tag",
+        "prompt": "Smiling plate disguise, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a tag stays without looking like a tag.",
+        "image": null
+      },
+      {
+        "slug": "0650-compromises-receipt",
+        "prompt": "Compromise stack receipt on car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car is compromises with a receipt attached.",
+        "image": null
+      },
+      {
+        "slug": "0655-take-plate-away",
+        "prompt": "Road puzzle no plates, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the plate away and the road becomes a puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0700-diagram-proof",
+        "prompt": "Diagram prove pay no drawer, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The tag is how to prove payment without opening a drawer.",
+        "image": null
+      },
+      {
+        "slug": "0705-watch-vote",
+        "prompt": "Glance voting OBVIOUS rectangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The glance is a vote for a rectangle sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0710-swap-personality",
+        "prompt": "Six icons fender Paris UK US camera, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Swap: unmarked fender, Paris, Germany, UK act, US states, reflective, camera.",
+        "image": null
+      },
+      {
+        "slug": "0715-crowd-road",
+        "prompt": "Many stickmen on road with plates, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crowd is still on the road.",
+        "image": null
+      },
+      {
+        "slug": "0720-tag-treaty",
+        "prompt": "Rental fleet tag treaty paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a rental fleet treating a tag as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0725-what-trade",
+        "prompt": "Trade scale anonymity vs visible tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "So what did we trade?",
+        "image": null
+      },
+      {
+        "slug": "0730-anonymity-fee",
+        "prompt": "Anonymity vs VISIBLE FEE scale, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded anonymity for a visible fee.",
+        "image": null
+      },
+      {
+        "slug": "0735-drawer-rectangle",
+        "prompt": "Drawer vs tin rectangle swap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded a clerk's drawer for a tin rectangle.",
+        "image": null
+      },
+      {
+        "slug": "0740-shared-label",
+        "prompt": "Garage city gantry agreeing label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We gained a shared label garage city gantry agree on.",
+        "image": null
+      },
+      {
+        "slug": "0745-miracle-part",
+        "prompt": "Halo on plate PART NUMBER tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0750-plate-identity-myth",
+        "prompt": "PLATE=IDENTITY myth stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the plate is identity.",
+        "image": null
+      },
+      {
+        "slug": "0755-unmarked-joke",
+        "prompt": "UNMARKED JOKE red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that an unmarked bumper is a joke you outgrow.",
+        "image": null
+      },
+      {
+        "slug": "0800-kept-receipt-plate",
+        "prompt": "Receipt renamed PLATE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the receipt and called it a plate.",
+        "image": null
+      },
+      {
+        "slug": "0805-kept-handshake-history",
+        "prompt": "Handshake in museum HISTORY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the handshake and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0810-policy-manners",
+        "prompt": "Policy plate polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The plate is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0815-walk-to-car",
+        "prompt": "Callback walking to car plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will walk to the car. The rectangle will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0820-feel-nothing",
+        "prompt": "Blank calm face victory at plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0825-look-bumper",
+        "prompt": "Bumper between red X sky red X hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the bumper. Not the sky and not a hero inventor.",
+        "image": null
+      },
+      {
+        "slug": "0830-named-stack",
+        "prompt": "Stack icons Paris UK NY reflective gantry, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Paris ordinance, German decree, UK act, New York tin, reflective, gantry.",
+        "image": null
+      },
+      {
+        "slug": "0835-digits-law",
+        "prompt": "Parking lot digits stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Digits that own your parking lot so metal stays law.",
+        "image": null
+      },
+      {
+        "slug": "0840-allowed-glance",
+        "prompt": "Glance ok hate bureaucracy driving, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to glance and hate bureaucracy and still drive.",
+        "image": null
+      },
+      {
+        "slug": "0845-not-natural",
+        "prompt": "NATURAL stamp red X on plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the plate natural.",
+        "image": null
+      },
+      {
+        "slug": "0850-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "0855-leftover-ledger",
+        "prompt": "Salute to ledger leaving office, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a ledger line that left the office.",
+        "image": null
+      },
+      {
+        "slug": "0900-metal-point",
+        "prompt": "Cheerful salute on shiny plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The metal is the point.",
+        "image": null
+      },
+      {
+        "slug": "0905-know-receipt",
+        "prompt": "Stickman driving plate which receipt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the digits let you. Know which receipt you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "0910-glance-cheerful",
+        "prompt": "Smiling plate clerk ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a plate stays without looking like a clerk.",
+        "image": null
+      },
+      {
+        "slug": "0915-gantry-brief",
+        "prompt": "Gantry brief chapter not origin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A gantry is a later chapter about optics not the origin fee.",
+        "image": null
+      },
+      {
+        "slug": "0920-font-size",
+        "prompt": "Font size bolt spacing CURB READ, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Font size and bolt spacing: bureaucracy you can read from the curb.",
+        "image": null
+      },
+      {
+        "slug": "0925-replacement-fee",
+        "prompt": "Replacement tag FEE AGAIN receipt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Replace the tag and the fee shows up again.",
+        "image": null
+      },
+      {
+        "slug": "0930-state-colors",
+        "prompt": "State colors FILING SYSTEM paint, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "State colors are a filing system wearing paint.",
+        "image": null
+      },
+      {
+        "slug": "0935-horseless-unmarked",
+        "prompt": "Small crowd horseless no tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Horseless carriages had no tag because the crowd was small.",
+        "image": null
+      },
+      {
+        "slug": "0940-crowd-grew",
+        "prompt": "Crowd growing treasury wants NAMES, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crowd grew and the treasury wanted names.",
+        "image": null
+      },
+      {
+        "slug": "0945-enforce-scale",
+        "prompt": "Enforcement scaling street-facing label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Enforcement scales when the label faces the street.",
+        "image": null
+      },
+      {
+        "slug": "0950-office-stamp",
+        "prompt": "Office stamp driving on bumper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Every plate is an office stamp that learned to drive.",
+        "image": null
+      },
+      {
+        "slug": "0955-toll-reader",
+        "prompt": "Toll reader checking receipt itself, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Toll readers are the receipt checking itself.",
+        "image": null
+      },
+      {
+        "slug": "1000-vanity-spelling",
+        "prompt": "Vanity spelling FEE JOKE paid, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Vanity spelling is a fee wearing a joke you paid for.",
+        "image": null
+      },
+      {
+        "slug": "1005-parking-gate",
+        "prompt": "Parking gate reading bumper treaty, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A parking gate reads the treaty on your bumper.",
+        "image": null
+      },
+      {
+        "slug": "1010-clerk-bench",
+        "prompt": "Clerk bench wants street-readable label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The clerk's bench wanted a label the street could read.",
+        "image": null
+      },
+      {
+        "slug": "1015-fee-renewal",
+        "prompt": "Registration renewal new year on plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Renew the registration and the plate gets a new year.",
+        "image": null
+      },
+      {
+        "slug": "1020-metal-not-name",
+        "prompt": "METAL NOT NAME payment visible, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The metal is not your name. It is your payment visible.",
+        "image": null
+      },
+      {
+        "slug": "1025-unmarked-tuesday",
+        "prompt": "Unmarked bumper UNFINISHED Tuesday, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "An unmarked bumper on a modern Tuesday looks unfinished.",
+        "image": null
+      },
+      {
+        "slug": "1030-bolt-holes",
+        "prompt": "Bolt holes BUREAUCRACY touches car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Bolt holes are where bureaucracy touches the car.",
+        "image": null
+      },
+      {
+        "slug": "1035-plate-font-law",
+        "prompt": "Font LAW readable 30 feet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The font is law you can read at thirty feet.",
+        "image": null
+      },
+      {
+        "slug": "1040-gantry-wave",
+        "prompt": "Gantry wave receipt at speed, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A gantry wave is the receipt checking itself at speed.",
+        "image": null
+      },
+      {
+        "slug": "1045-office-to-bumper",
+        "prompt": "Office commuting on bumper tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The office learned to commute on your bumper.",
+        "image": null
+      },
+      {
+        "slug": "1050-curb-read",
+        "prompt": "CURB READ design brief stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Readable from the curb is the whole design brief.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback receipt rectangle your bumper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Receipt. Rectangle. Your bumper.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why a Number Plate Is a Tax Receipt",
+    "description": "Your plate feels like decoration. Early cars had no tags. Paris 1893, Germany 1896, UK Motor Car Act 1903, and US states turned registration fees into tin receipts bolted to the bumper.",
+    "tags": [
+      "number plate",
+      "license plate",
+      "registration",
+      "tax",
+      "motor car act",
+      "history",
+      "why",
+      "car",
+      "paris",
+      "vehicle"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "TAX RECEIPT?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will glance at a number plate and treat it as decoration, the way you treat a bumper sticker as personality. Your eyes will read letters and digits as if the car grew a name tag because cars do names. Here is the part that should bother you. The first motorists did not drive around with a tax receipt bolted to the back. Many cities learned the hard way that a machine without a label is a machine that can vanish into a crowd. So why does your bumper wear a plate as if the plate were physics? Because Paris needed to know who owned the smoke, because Germany and the Netherlands turned registration into a habit before the century turned, because the United Kingdom passed the Motor Car Act in nineteen oh three and made a plate the price of admission to the road, because American states from New York onward decided a tin rectangle could carry a fee you already paid, and because mass production learned that a standardized tag is easier to enforce than a handshake at every corner. That is the whole plot. Your plate is not identity by nature. It is a registration receipt that learned to look like chrome. You still glance. The glance is flattered. That is its job. The road did not vote. A clerk did, and then a rectangle that taught your bumper the digits until the digits started calling themselves sense. Sense is a word a tax form invented so a fee would still feel like law when the ledger was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the receipt, because the plate stole a ledger line and then sold it back as metal. Long before reflective film, before vanity spelling, before a camera could read your digits from a gantry, a car was a novelty with no serial number the street could see. Early drivers paid fees in offices. Offices love paper. Paper hates moving vehicles. If your plate still feels like the only adult option, notice that the adult option started as bookkeeping dragged onto a fender. The fender did not ask for poetry. The fender asked for proof. Proof is useful when you need a city, a garage, and a stranger with a notebook to agree that this machine already paid its entry fee without waiting for a clerk to open a drawer. The road keeps traffic like a slow river. The plate keeps traffic like a badge that forgot it was a bill. You can love both and still admit only one of them is wearing your rental car's default skin.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a rectangle gets a halo it did not earn. The number plate is not a single eureka moment you can pin on one hero with a plaque. It is a layer cake of municipal panic, road funds, and a tin tag that behaved nicely when you needed to spot a car in a line. France's Paris police ordinance of eighteen ninety three required identification marks on vehicles. Germany's Imperial decree in eighteen ninety six spread registration habits. The Netherlands followed in eighteen ninety eight. In the United Kingdom, the Motor Car Act of nineteen oh three required registration and display of number plates. In the United States, New York began issuing plates in nineteen oh one, Massachusetts in nineteen oh three, and the habit spread state by state like a form that learned to drive. If you still treat the plate as sacred metal, file the paperwork separately from the romance. The plate did not fall out of a factory aesthetic. It fell out of treasuries that needed a visible receipt, then exported the habit along roads until the habit felt like chrome. Your bumper is a ledger line wearing paint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the number leave the office, because a horizontal city of speed needed a label that did not require a clerk at every corner. Early enforcement tricks were honest and exhausting. Stop the car. Ask for papers. Match a description. Repeat. A tin rectangle on a bumper is a small insult to anonymity with a large gift to the treasury. The digits flex across states and years. The rectangle repeats. The bolt holes press metal against metal with a grudge soft enough not to rust on the first rainy Tuesday. The display says paid here without asking the driver to carry a folder in the glove box. I am not giving you a list of firsts. I am pointing at the swap. We took a fee that lived in a ledger and we replaced it with a tag that said read this from the curb. Read is easier to teach in a manual. Read is easier to photograph for a ticket camera. Read is easier to repeat when the line speeds up. The line is the real inventor. The line does not care about your nostalgia for an unmarked fender. The line cares about tags that fit and drivers who stay inside the system.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the plate is a fact, the way a door is a fact. The plate is a policy. In a modern city the policy is already on, because the alternative is trusting every driver to prove registration with a handshake and a hope that the stranger with a notebook remembers your face. Handshakes are honest. Tags are scalable. Scalable is how a fee escapes the clerk's bench and becomes something a city can own in numbers. I am not calling you clumsy for liking a rectangle. I am un-naturing the digits. The digits are a tax receipt wearing a font. The font said visibility can be law. Law is a feeling when your eyes find a plate without remembering when they learned it. If you have ever rented a car and felt relief that the tag was already there, congratulations. You have been living inside a treasury's factor list. The relief is real. The relief is also a truce you never signed. A truce is not a road that voted. A truce is a spreadsheet with bolt holes.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Mass production did not invent the car. It inventoried the answer. When the same model had to repeat across a fleet, the plate became the part you could issue, stamp, ship, and replace without translating a registration ritual for every chassis. Reflective sheeting, standardized sizes, automated readers: decades later the tag could glow in a headlight beam, a useful chapter about optics and enforcement, not the origin story of the fee itself. Do not make tonight a biopic about one contractor in a workshop. Make it about the object: tin, digits, repeat, enforce. A catalog is a quiet referendum. If your rental has a plate and your history book has an unmarked horseless carriage, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a parking lot, a rectangle you have walked past a thousand times without thanking a clerk. You stare at the digits because leaving would feel suspicious without a tag, which is the most modern impossibility there is. None of this makes you bureaucratic by nature. It makes you a person born after the Motor Car Act and after states turned fees into metal and after a tag learned to host vanity spelling, toll readers, and cameras that blink. You can feel both in the same glance: relief that you do not have to explain your car to every corner, and a tiny insult that a ledger line won a bumper bolt. The relief is real. The insult is the unmarked fender failing for a second in your imagination. You paid for a visible receipt with a part you never voted on. The part is cheerful. Cheerful is how a tag stays in the century without looking like a tag.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A car is a pile of compromises with a receipt attached. That sentence is rude and almost fair. Take the plate away and the road becomes a workshop puzzle nobody wins, or a handshake at every model until the treasury breaks. Visibility, font size, assembly time, replacement fees: the tag is a diagram of how to prove payment without opening a drawer, written by clerks you will not meet. You still glance. The glance is a vote for a rectangle that was sold as obvious. I am not telling you to hunt for a horseless carriage as a personality. I am telling you the personality was always the swap: an unmarked fender, a Paris ordinance, a German decree, a British act, an American state issue line, a reflective sheet, a camera that forgot your handshake. The crowd is still on the road. The crowd is you and a rental fleet treating a tag as a treaty. So what did we trade? We traded anonymity for a visible fee. We traded a clerk's drawer for a tin rectangle payroll software can love. We gained a shared label that lets a garage, a city, and a gantry agree on which car paid without negotiating at every corner. Help can be a miracle and still be a part number. We also gained a myth that the plate is identity, that the digits are the only adult view, that an unmarked bumper is a joke you outgrow. We kept the receipt and called it a plate. We kept the handshake and called it history. Both can be true and still not be a reason to forget the plate is a policy that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will walk to the car. The rectangle will still be there. You will feel nothing, which is the victory. Look at the bumper. That is not the sky and it is not a hero inventor. That is a Paris ordinance, a German decree, the United Kingdom Motor Car Act of nineteen oh three, New York and Massachusetts learning to issue tin, a reflective sheet, a camera gantry, and digits that still own your parking lot so you will keep treating metal as law. You are allowed to glance. You are allowed to hate bureaucracy and still drive. Just stop calling the plate natural, or inevitable, or proof that you are modern. Tonight, when the tag catches light, look at it like a leftover salute to a ledger line that left the office. The salute is cheerful. The metal is the point. Go when the digits let you. Know which receipt you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

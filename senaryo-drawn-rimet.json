@@ -1,0 +1,537 @@
+{
+  "project_id": "the-trophy-that-vanished-in-a-bag-9dk-20260827",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-hedge-parcel",
+        "prompt": "A candy newspaper parcel under a hedge, string, a tiny gold cup peeking. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Pickles found the World Cup under a hedge, newspaper and string.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a DOG SAVED FOOTBALL stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a collie-saved-football trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-central-hall",
+        "prompt": "A building tag CENTRAL HALL, date 20 MAR 1966, SUNDAY. No flag as joke. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "20 March 1966, Sunday, Methodist Central Hall, Westminster.",
+        "image": null
+      },
+      {
+        "slug": "0030-stamps-vs-cup",
+        "prompt": "A split price STAMPS 3M vs CUP 3K. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stamps about £3 million. Cup official metal about £3,000.",
+        "image": null
+      },
+      {
+        "slug": "0040-x-heist-film",
+        "prompt": "An OCEANS ELEVEN clapboard with a giant red X. Cute not cruel. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the genius heist-movie joke.",
+        "image": null
+      },
+      {
+        "slug": "0050-leftover-padlock",
+        "prompt": "A padlock, a wooden door bar, a hedge tag BEULAH HILL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover: a padlock, a wooden bar, a parcel in Beulah Hill.",
+        "image": null
+      },
+      {
+        "slug": "0100-lancaster-gate",
+        "prompt": "A crate JULES RIMET, tag LANCASTER GATE, a small SHOEBOX WWII tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "FA had the silver-gilt trophy from January at Lancaster Gate. Older costume: Barassi's shoebox.",
+        "image": null
+      },
+      {
+        "slug": "0110-stampex-ask",
+        "prompt": "A poster STAMPEX, SPORT WITH STAMPS, tiny cup in a case. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stanley Gibbons asked to put it in Stampex, Sport with Stamps.",
+        "image": null
+      },
+      {
+        "slug": "0120-rous-rules",
+        "prompt": "A clipboard ROUS RULES, 30K INSURED, GUARD DAY NIGHT. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rous: security firm, locked glass, guard day and night, insured £30,000.",
+        "image": null
+      },
+      {
+        "slug": "0130-cheap-silver",
+        "prompt": "A cheap-silver price tag on a candy gold cup, STAMPS bigger. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rous treated the cup as cheap silver next to the stamps.",
+        "image": null
+      },
+      {
+        "slug": "0140-near-yard",
+        "prompt": "A map pin CENTRAL HALL, tags PARLIAMENT and SCOTLAND YARD. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Central Hall: near Parliament, close to New Scotland Yard.",
+        "image": null
+      },
+      {
+        "slug": "0150-opened-19",
+        "prompt": "A calendar 19 MAR SAT, OPEN 8-8, AFTER HOURS empty chair. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stampex opened Saturday 19 March. Extra guards 8am-8pm. After hours broke Rous's 24h line.",
+        "image": null
+      },
+      {
+        "slug": "0200-sunday-services",
+        "prompt": "A sign SUNDAY SERVICE, exhibition door CLOSED. Not mockery. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "On Sundays the hall ran Methodist services.",
+        "image": null
+      },
+      {
+        "slug": "0210-official-idea",
+        "prompt": "A stamp CHEAPER OBJECT SAFE with a tiny cup. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: nobody steals the cheaper thing in a room of stamps.",
+        "image": null
+      },
+      {
+        "slug": "0220-two-floors",
+        "prompt": "A two-floor plan, 4 GUARDS, church doors OPEN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Four uniformed guards, two floors. Exhibition closed, church open.",
+        "image": null
+      },
+      {
+        "slug": "0230-maintenance",
+        "prompt": "A mop and a glass case, tag SAW IT, LEFT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Maintenance men cleaned, saw the trophy, left. Not treated as suspects.",
+        "image": null
+      },
+      {
+        "slug": "0240-eleven-check",
+        "prompt": "A clock 11:00, two coffee cups, tiny cup still in case. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Guards checked the trophy at 11:00, then coffee in the office.",
+        "image": null
+      },
+      {
+        "slug": "0250-hudson-phone",
+        "prompt": "A payphone in a corridor, nameplate HUDSON, 11:25. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hudson, about 11:25, saw a man by the public telephone.",
+        "image": null
+      },
+      {
+        "slug": "0300-twelve-ten",
+        "prompt": "An empty glass case, clock 12:10, GONE stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 12:10: case forced, cup gone.",
+        "image": null
+      },
+      {
+        "slug": "0310-door-bar",
+        "prompt": "A wooden bar on the floor, screws tagged FROM OUTSIDE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Wooden bar on the floor; mounts unscrewed from outside.",
+        "image": null
+      },
+      {
+        "slug": "0320-padlock-off",
+        "prompt": "A dangling padlock OFF the back of a candy glass case. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A padlock taken off the back of the glass case.",
+        "image": null
+      },
+      {
+        "slug": "0330-two-descriptions",
+        "prompt": "Two mismatched silhouette cards COOMBES vs HUDSON. No photoreal faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mrs Coombes described a man. Hudson's man did not match.",
+        "image": null
+      },
+      {
+        "slug": "0340-flying-squad",
+        "prompt": "A folder FLYING SQUAD, Central Hall tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Scotland Yard gave it to the Flying Squad.",
+        "image": null
+      },
+      {
+        "slug": "0350-mears-call",
+        "prompt": "A phone and a note PARCEL TOMORROW, nameplate MEARS. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "21 March: Joe Mears got a call. Parcel of interest. Follow instructions.",
+        "image": null
+      },
+      {
+        "slug": "0400-lining-note",
+        "prompt": "A trophy lining piece, ransom card 15000, ONE FOR THE POT. Not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Parcel: removable lining plus £15,000 demand. One for the pot.",
+        "image": null
+      },
+      {
+        "slug": "0410-evening-news",
+        "prompt": "A newspaper personal ad WILLING TO DO BUSINESS JOE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ad in Evening News: Willing to do business. Joe.",
+        "image": null
+      },
+      {
+        "slug": "0420-jackson-notes",
+        "prompt": "A cash tag 5s AND 10s, name JACKSON. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Jackson changed the notes to fives and tens.",
+        "image": null
+      },
+      {
+        "slug": "0430-paper-suitcase",
+        "prompt": "A suitcase of paper bundles, real notes on the ends only. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bank packed a suitcase with paper, real notes only on the ends.",
+        "image": null
+      },
+      {
+        "slug": "0440-mcphee-buggy",
+        "prompt": "A nameplate MCPHEE with a small badge BUGGY underneath. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mears ill. Assistant McPhee was DI Charles Buggy.",
+        "image": null
+      },
+      {
+        "slug": "0450-battersea-gate",
+        "prompt": "Park gates BATTERSEA, a suitcase, MISSED THE PAPER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Meet at the gates of Battersea Park. Jackson checked the case, missed the paper.",
+        "image": null
+      },
+      {
+        "slug": "0500-funny-van",
+        "prompt": "A boxy van FUNNY OLD VAN, barred rear windows. Cute not grim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Jackson spotted a funny old van, Flying Squad bars on the windows.",
+        "image": null
+      },
+      {
+        "slug": "0510-kennington-jump",
+        "prompt": "A car, a jump arrow KENNINGTON, a garden fence. No violence. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kennington: Jackson jumped from the moving car. Caught in a garden.",
+        "image": null
+      },
+      {
+        "slug": "0520-betchley-id",
+        "prompt": "A card BETCHLEY, a blank card THE POLE. No photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Jackson was Edward Betchley, Camberwell dealer. Named only The Pole.",
+        "image": null
+      },
+      {
+        "slug": "0530-lineup-split",
+        "prompt": "A lineup of candy silhouettes, tick and X, FILE BOTH. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Coombes picked him. Hudson picked someone else. File both.",
+        "image": null
+      },
+      {
+        "slug": "0540-corbett-walk",
+        "prompt": "A house number 50 BEULAH HILL, dog leash, date 27 MAR. Cartoon dog. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "27 March evening: Corbett, 26, Thames lighterman, 50 Beulah Hill, Pickles.",
+        "image": null
+      },
+      {
+        "slug": "0550-winners-base",
+        "prompt": "The cup base with tiny winner plaques, a lightbulb tag NAMES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Corbett saw the winners' names on the base and knew.",
+        "image": null
+      },
+      {
+        "slug": "0600-gipsy-hill",
+        "prompt": "A police desk GIPSY HILL, stamp GENUINE, MAYES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Handed in at Gipsy Hill, then Cannon Row. Mayes said genuine.",
+        "image": null
+      },
+      {
+        "slug": "0610-alibi-clear",
+        "prompt": "A SUSPECT stamp peeling off Corbett's nameplate, ALIBI OK. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Corbett held as a possible thief until his alibi for the 20th cleared.",
+        "image": null
+      },
+      {
+        "slug": "0620-april-18",
+        "prompt": "A calendar 18 APR, RETURN TO FA, 10 WEEKS TO KICKOFF. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Police kept it as evidence until 18 April, then back to the FA.",
+        "image": null
+      },
+      {
+        "slug": "0630-six-miles",
+        "prompt": "A ruler 6+ MILES, KENNINGTON vs BEULAH HILL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Beulah Hill is over six miles from Kennington. Not dumped in the chase.",
+        "image": null
+      },
+      {
+        "slug": "0640-x-skip-lock",
+        "prompt": "Ink peeling a SKIP THE PADLOCK sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: red X on skipping the padlock for one dog.",
+        "image": null
+      },
+      {
+        "slug": "0650-bird-replica",
+        "prompt": "A silversmith bench, two cups ORIGINAL vs COPY, tag BIRD. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Denis Follows asked George Bird for a replica. Keep your mouth shut.",
+        "image": null
+      },
+      {
+        "slug": "0700-two-years",
+        "prompt": "A court stamp 2 YEARS, NOT THEFT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Betchley: two years for the demand, not convicted of stealing the cup.",
+        "image": null
+      },
+      {
+        "slug": "0710-pole-byline",
+        "prompt": "An empty chair THE POLE, a newspaper 2018, NOT A VERDICT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Pole never sat in the dock. A 2018 byline is not a verdict.",
+        "image": null
+      },
+      {
+        "slug": "0720-pickles-medal",
+        "prompt": "A cartoon dog with a silver medal NCDL. Not photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Pickles: National Canine Defence League silver medal, TV week.",
+        "image": null
+      },
+      {
+        "slug": "0730-five-or-six",
+        "prompt": "A ledger 5K-6K, FILE THE RANGE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Corbett rewards: about £5,000 in one file, about £6,000 in another.",
+        "image": null
+      },
+      {
+        "slug": "0740-brazil-1983",
+        "prompt": "An empty pedestal 1983, tag NEVER RECOVERED, rumor MELTED in small type. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Original to Brazil 1970; stolen 1983, never recovered. Melted is a rumor.",
+        "image": null
+      },
+      {
+        "slug": "0750-museum-copy",
+        "prompt": "A museum case MANCHESTER, tag REPLICA 1997. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "FIFA bought the Bird replica in 1997. National Football Museum, Manchester.",
+        "image": null
+      },
+      {
+        "slug": "0800-coffee-office",
+        "prompt": "Coffee cups, a hall, bolts tagged ALLEY SIDE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A Methodist hall on a Sunday. Coffee in an office. Bolts facing the alley.",
+        "image": null
+      },
+      {
+        "slug": "0810-who-won-hedge",
+        "prompt": "A hedge beating a pile of stamps, tag HELD A WEEK. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the stamps. A hedge in Norwood held the cup for a week.",
+        "image": null
+      },
+      {
+        "slug": "0820-replica-already",
+        "prompt": "An order slip REPLICA while a missing-cup poster hangs. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A replica was already on order while the original was still missing.",
+        "image": null
+      },
+      {
+        "slug": "0830-ask-the-bar",
+        "prompt": "A question mark over a wooden bar and a silversmith order. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask who unscrewed the door bar, and whether the copy was already being made.",
+        "image": null
+      },
+      {
+        "slug": "0840-dog-or-lock",
+        "prompt": "Split: a cartoon dog medal vs a giant padlock, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have given the statue to the dog, or to the lock.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card PADLOCK vs HEDGE, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no child-victim closeups, not mud-green archive night, not After Hours File dark. Trophy theft shown as a candy gold cup, a padlock, a newspaper parcel, a cartoon black-and-white dog not photoreal, a glass case, not a heist movie, not guns, not melting people, not a stadium riot. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A padlock lost the cup. A hedge found it. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Trophy That Vanished in a Bag",
+    "description": "England, nineteen sixty six. A padlock, a stamp show, and a dog who found the World Cup under a hedge.",
+    "tags": [
+      "history",
+      "1966",
+      "world cup",
+      "jules rimet",
+      "pickles",
+      "cartoon",
+      "true story",
+      "logistics",
+      "london"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "A DOG FOUND IT",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A black-and-white dog named Pickles found the World Cup under a hedge, wrapped in newspaper and tied with string. That is not a metaphor, and it is not a cartoon you invented after a trivia night about a collie who saved football. On the twentieth of March nineteen sixty six, a Sunday, somebody took the Jules Rimet Trophy out of a locked glass case at Methodist Central Hall in Westminster, while the guards were on coffee and a lavatory break. The stamps in the same building were valued at about three million pounds. The cup's official metal value was about three thousand. Keep that split. Then put a red X on the joke that this was a genius heist movie. The leftover is not Ocean's Eleven. The leftover is a padlock, a wooden bar, and a parcel in Beulah Hill.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a stamp show was supposed to be the safe plan. The Football Association had the silver-gilt trophy from January, parked at Lancaster Gate, and loaned it out for publicity by the hour. The cup itself had been made in nineteen thirty, gold plate over silver, a lapis base. During the last war, FIFA vice-president Ottorino Barassi hid Italy's winning trophy in a shoebox under a bed. That is the older costume: a World Cup as something you can lose in a bedroom. In late February, Stanley Gibbons asked to put it in Stampex, their Sport with Stamps exhibition at Central Hall. Sir Stanley Rous, president of FIFA, set conditions: a reputable security firm, a locked glass case, a guard day and night, insurance at thirty thousand pounds even though the official valuation was three thousand. The stamps next to it were valued at about three million. Rous treated the cup as cheap silver. Central Hall sits yards from the Houses of Parliament and close to New Scotland Yard. Stampex opened on Saturday the nineteenth of March. Extra guards stood by the cabinet while the public was in, eight in the morning to eight at night. After hours, that extra body went home, which already broke Rous's around-the-clock line. On Sundays the hall ran Methodist services. The official idea was: nobody steals the cheaper thing in a room full of stamps.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "File the Sunday, because the cabinet does not start as a mystery. Two uniformed officers were meant to cover the trophy around the clock, with two plainclothes in the daytime, and Atherton files four uniformed on two floors plus extras when the doors were open. On the twentieth, exhibition rooms were closed; church doors were open; corridors were public. A guard checked doors at nine. About nine thirty, two maintenance men opened the front and were escorted through the Stampex rooms to clean. They saw the trophy in the case and later said they locked the back doors when they left. Police interviewed them. They were not treated as the job. Guards checked the cup at eleven. Then the first-floor pair sat in the office with coffee while about two hundred people sat in a service below. Frank Hudson left around eleven twenty five for the toilet and saw a man by the public telephone. Minutes later the man was still there, using it. Public corridor. No alarm in his head. At about twelve ten the next circuit found the case forced and the cup gone. The rear doors' wooden bar was on the floor; screws and bolts that held the mounts had been taken from the outside. A padlock had been taken off the back of the glass case. None of the guards had heard a thing. Scotland Yard gave it to the Flying Squad. A churchgoer, Mrs Coombes, described a man. Hudson's man did not match. Two descriptions. The papers got a third. That is not a mastermind. That is a door that unbolted.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover the films file as a ransom thriller. On Monday the twenty first, Joe Mears, chairman of the Football Association and of Chelsea, got a call: a parcel would arrive at the club, of interest, follow the instructions. It went to his home. Inside: the removable lining from the top of the trophy, and a demand for fifteen thousand pounds. Place an ad in the Evening News personal column: Willing to do business. Joe. Get the cup back by Friday, or it is one for the pot. Do not tell the police. A man calling himself Jackson then changed the notes to fives and tens. Mears told Detective Inspector Charles Buggy of the Flying Squad anyway. The bank packed a suitcase with paper, real notes only on the ends. Mears had an angina attack. His wife handed the phone to an assistant named McPhee, who was Buggy. Jackson agreed to meet at the gates of Battersea Park. He checked the suitcase and did not notice the paper. He got in the car to fetch the cup. Then he spotted what he called a funny old van, the Flying Squad kind with bars on the windows. At Kennington he jumped from the moving car. Buggy caught him in a back garden. At the station Jackson was Edward Betchley, mid-forties, Camberwell, a dealer, one prior conviction. He said he had not stolen it. He named a customer he called only The Pole, five hundred pounds to be the middleman. Mrs Coombes picked him in a lineup. Hudson picked someone else. File both. Do not draw a cartoon villain with a monocle.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "The cup was still missing. On the evening of Sunday the twenty seventh, David Corbett, twenty six, a Thames lighterman, left fifty Beulah Hill in Upper Norwood to make a phone call and took Pickles for the walk. Pickles sniffed a parcel under the hedge by a parked car, newspaper, string. Corbett tore it open and did not know what he had until he saw the winners' names on the base. He took it to Gipsy Hill police station. They moved him and the metal to Cannon Row. Harold Mayes of the World Cup committee said it was genuine. Police held Corbett as a possible thief until his alibi for the twentieth cleared. They announced the find the next morning and kept the trophy as evidence until the eighteenth of April, then gave it back to the FA, ten weeks before kickoff. History Today later interviewed Corbett and filed the walk at about nine at night. That is a hedge, not a sting. Betchley did not dump it while running in Kennington; Beulah Hill is over six miles from St Agnes Place. Atherton's leftover: someone else panicking after the arrest is likelier than a film chase.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes one dog and a heist. Put a red X on skipping the padlock. The Football Association, before the story even went fully public, sent secretary Denis Follows to silversmith George Bird in Fenchurch Street and asked for a replica, keep your mouth shut. Very few people, including Rous, knew. After England won four to two at Wembley, the replica did the public work, including a Blue Peter appearance with Pickles; the original sat under lock, later a bank vault in one later officer's account, until it went to the next hosts. Betchley went to trial in July. Police called him an astute criminal; he had one prior, six months in nineteen fifty four, army, docks, then fancy goods to street traders, County Court debts. He was convicted of demanding money with menaces with intent to steal, two years concurrent. He was not convicted of stealing the cup. Justice Lyell did not buy the five-hundred-pound errand and said no other supposition made sense except a larger share of the fifteen thousand. Betchley died of emphysema in nineteen sixty nine. The Pole never sat in the dock. A journalist in twenty eighteen named Sidney Cugullere; that is a byline, not a verdict. File the claim. Do not spend it as a closed case. A statue of a dog is a costume for a cabinet that lost its padlock. A stamp exhibition is a costume for a thirty-thousand-pound insurance line.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "File the leftover metal, because March was not a finale. Pickles got a silver medal from the National Canine Defence League and a week of television. Corbett got rewards later counted at about five thousand pounds in one BBC file and about six thousand in History Today, six times an England player's World Cup bonus in the six-thousand version. The FA did not send a thank-you letter; Corbett and Pickles did go to the players' dinner. Bobby Charlton's wife made a fuss of the dog. In nineteen seventy Brazil kept the original after a third win, Jules Rimet's old rule. In nineteen eighty three it was stolen from the Brazilian Football Confederation and never recovered; people say it was melted. File the rumor as a rumor. The Bird replica later went to auction; FIFA bought it in nineteen ninety seven; it sits in the National Football Museum in Manchester. A hedge in Norwood is a costume for a cup that would later vanish for good. A collie is a costume for a security plan that treated three thousand pounds of gilt as the object nobody would bother to take.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a clever dog, and none of it is a cartoon of a criminal mastermind in gloves. They had a Methodist hall on a Sunday. They had coffee in an office. They had a wooden bar whose bolts faced the alley. You are allowed to laugh at a fifteen-thousand-pound suitcase stuffed with paper, and at a funny old van that kept reappearing, and at a World Cup that spent a week under a hedge. You are not required to laugh at Mears in bed with angina, or at Hudson walking past a telephone, or at Corbett being treated as a thief for handing the thing in. The official idea was: the stamps are the treasure, so the cup is safe. The street idea was: a dog found the World Cup. The leftover idea is: a padlock on the back of a glass case, and a replica already on order while the original was still missing.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the stamps. Not The Pole, who never had to answer a charge. Not the funny old van. Hudson won a telephone he could not explain. Buggy won an arrest without a cup. Betchley won two years for the note, not the case. Corbett won a house later, and a morning at Cannon Row as a suspect. Pickles won a medal and a dinner. George Bird won a secret copy that outlived the original. Nome had a relay. This had a hedge. If you need a moral, skip dogs are heroes. Take this: a last-mile collie is a terrible whole story, and a padlock is a terrible honest one. The next time someone tells you Pickles saved the World Cup, ask who unscrewed the door bar, and whether the replica was already being made when the dog sniffed the paper. Would you have given the statue to the dog, or to the lock. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "project_id": "the-war-fought-over-a-wooden-bucket-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-bucket-waited",
+        "prompt": "Cartoon title beat: a huge oak bucket on a pedestal, a tiny battlefield map behind it with a red X on CAUSE. Cream paper. No gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A wooden bucket outlived a war it did not start.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a TRIVIA WAR stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a metaphor. Not a trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-emilia-1325",
+        "prompt": "A simple map BOLOGNA and MODENA, year 1325, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1325, Emilia, northern Italy. Bologna and Modena.",
+        "image": null
+      },
+      {
+        "slug": "0030-internet-caption",
+        "prompt": "A clickbait card STOLEN BUCKET 32000, question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Internet caption: they stole a bucket, 32,000 men marched.",
+        "image": null
+      },
+      {
+        "slug": "0040-x-on-cause",
+        "prompt": "A cause line BUCKET with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the cause line.",
+        "image": null
+      },
+      {
+        "slug": "0050-zappolino",
+        "prompt": "Calendar 15 NOV 1325, a hill labeled ZAPPOLINO. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Battle of Zappolino, 15 November 1325.",
+        "image": null
+      },
+      {
+        "slug": "0100-serravalle",
+        "prompt": "A small village sign CASTELLO DI SERRAVALLE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Now a hamlet of Castello di Serravalle.",
+        "image": null
+      },
+      {
+        "slug": "0110-bonacolsi",
+        "prompt": "A nameplate PASSERINO BONACOLSI, Mantua tag, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Passerino Bonacolsi of Mantua led Modena.",
+        "image": null
+      },
+      {
+        "slug": "0120-malatesta",
+        "prompt": "A nameplate MALATESTA RIMINI, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Malatesta of Rimini filed as Bologna's field captain.",
+        "image": null
+      },
+      {
+        "slug": "0130-two-thousand",
+        "prompt": "A somber tally 2000, respectful, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 2,000 killed on both sides. Not a giggle.",
+        "image": null
+      },
+      {
+        "slug": "0140-porta-san-felice",
+        "prompt": "A city gate PORTA SAN FELICE, a well, a bucket, AFTER stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bucket story: a well outside Porta San Felice, after.",
+        "image": null
+      },
+      {
+        "slug": "0150-poem-late",
+        "prompt": "A book 1622 next to a clock 300 YR LATE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A poem three hundred years late hired the title.",
+        "image": null
+      },
+      {
+        "slug": "0200-guelph-ghibelline",
+        "prompt": "Two desks PAPA and EMPEROR, no flags as identity. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Guelphs with the pope, Ghibellines with the emperor.",
+        "image": null
+      },
+      {
+        "slug": "0210-bologna-modena-sides",
+        "prompt": "Two city nameplates, two faction tags, no banners as identity. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bologna Guelph. Modena Ghibelline. Factions, not flags.",
+        "image": null
+      },
+      {
+        "slug": "0220-bazzano-1296",
+        "prompt": "A 1296 deed BAZZANO SAVIGNO, papal seal cartoon not a flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1296: Bologna took Bazzano and Savigno. Boniface VIII confirmed.",
+        "image": null
+      },
+      {
+        "slug": "0230-azzo-este",
+        "prompt": "A job plaque AZZO VIII 1293-1308, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Azzo VIII d'Este ran Modena 1293-1308.",
+        "image": null
+      },
+      {
+        "slug": "0240-passerino-pocket",
+        "prompt": "Three city keys MANTUA PARMA REGGIO on a ring. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bonacolsi: Mantua, Parma, Reggio, Louis of Bavaria's agent.",
+        "image": null
+      },
+      {
+        "slug": "0250-john-xxii",
+        "prompt": "A 1325 paper INDULGENCE vs BONACOLSI, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Pope John XXII: rebel against the Church. Indulgences offered.",
+        "image": null
+      },
+      {
+        "slug": "0300-not-a-pail",
+        "prompt": "A border ditch vs a tiny bucket with a red X on CAUSE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A border with a sermon. Not a pail.",
+        "image": null
+      },
+      {
+        "slug": "0310-july-fields",
+        "prompt": "Empty fields and canals, a fire icon small not disaster-porn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "July: Bolognese burned fields between the canals.",
+        "image": null
+      },
+      {
+        "slug": "0320-august-podesta",
+        "prompt": "A calendar AUGUST, two weeks shaded, no violence closeup. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "August: two weeks of raids, headed by Bologna's podesta.",
+        "image": null
+      },
+      {
+        "slug": "0330-september-mantua",
+        "prompt": "A calendar SEP, MANTUA arrow. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "September: Mantua took a turn.",
+        "image": null
+      },
+      {
+        "slug": "0340-monteveglio",
+        "prompt": "A hill fortress MONTEVEGLIO, BETRAYED stamp, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "End of September: Monteveglio betrayed to Modena.",
+        "image": null
+      },
+      {
+        "slug": "0350-castle-not-bucket",
+        "prompt": "A castle vs a well-bucket, arrow pointing at the castle. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A castle on the approach, not a bucket on a rope.",
+        "image": null
+      },
+      {
+        "slug": "0400-pail-photographs",
+        "prompt": "A camera flashing at a bucket, ignoring a castle. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A pail photographs. A betrayed rocca does not go viral.",
+        "image": null
+      },
+      {
+        "slug": "0410-thirty-thousand-foot",
+        "prompt": "A poster 30000 FOOT, not a gore army. Tiny dots. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bologna: on the order of 30,000 foot, a couple thousand horse.",
+        "image": null
+      },
+      {
+        "slug": "0420-modena-column",
+        "prompt": "Two posters 32K vs 7K labeled USUAL POSTER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Modena: about 2,000 horse and 5,000 foot. Usual poster 32k vs 7k.",
+        "image": null
+      },
+      {
+        "slug": "0430-feint-marano",
+        "prompt": "A river, a fake arrow NORTH, a real path SOUTH to MARANO. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Feigned river crossing toward Marano sul Panaro the night before.",
+        "image": null
+      },
+      {
+        "slug": "0440-couple-of-hours",
+        "prompt": "A clock TWO HOURS, a ROUT stamp, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Within a couple of hours the larger army broke.",
+        "image": null
+      },
+      {
+        "slug": "0450-griffoni",
+        "prompt": "A chronicle page BATTLE yes, BUCKET blank. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Matteo Griffoni named the fight. He does not mention a bucket.",
+        "image": null
+      },
+      {
+        "slug": "0500-no-siege",
+        "prompt": "City walls, a NO SIEGE stamp, army turning away. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Modena did not siege Bologna.",
+        "image": null
+      },
+      {
+        "slug": "0510-reno-lock",
+        "prompt": "A canal lock broken, water arrow, not drowning gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They broke the Reno lock near Casalecchio. Water as a weapon.",
+        "image": null
+      },
+      {
+        "slug": "0520-palio-gates",
+        "prompt": "A comic horse race PALIO outside a city gate, not cruelty. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A palio outside the gates: a prize race as a receipt.",
+        "image": null
+      },
+      {
+        "slug": "0530-latin-shame",
+        "prompt": "A Latin scroll SHAME OF BOLOGNA, comic not cruel. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Latin: eternal memory of the expedition, eternal shame of Bologna.",
+        "image": null
+      },
+      {
+        "slug": "0540-twenty-six",
+        "prompt": "A tally 26 HOSTAGES, clock 11 WEEKS. No cages closeup. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "26 captured notables, 11 weeks in Modena.",
+        "image": null
+      },
+      {
+        "slug": "0550-january-peace",
+        "prompt": "A January calendar, CASTLES RETURNED, a coin RANSOM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "January: Monteveglio and castles back to Bologna. Ransom map.",
+        "image": null
+      },
+      {
+        "slug": "0600-lock-home-pail-stayed",
+        "prompt": "A castle walking home, a bucket staying on a shelf. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The lock went home. The pail, if it came, stayed.",
+        "image": null
+      },
+      {
+        "slug": "0610-tassoni",
+        "prompt": "A mock-epic book LA SECCHIA RAPITA, dates 1614 and 1622. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Tassoni: La secchia rapita, about 1614-15, Paris 1622.",
+        "image": null
+      },
+      {
+        "slug": "0620-eroicomico",
+        "prompt": "A stamp HEROIC-COMIC, a NOT A ROLL CALL tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He called it eroicomico. Some figures idealised, not roll calls.",
+        "image": null
+      },
+      {
+        "slug": "0630-salieri",
+        "prompt": "A tiny opera house 1772, same bucket on the poster. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Salieri's opera, 1772, same title.",
+        "image": null
+      },
+      {
+        "slug": "0640-ghirlandina-1911",
+        "prompt": "A tower GHIRLANDINA, a basement bucket, 1911. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Britannica 1911: bucket in the Ghirlandina basement.",
+        "image": null
+      },
+      {
+        "slug": "0650-town-hall-glass",
+        "prompt": "A glass case PALAZZO COMUNALE and a tower replica. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Today: old oak in Palazzo Comunale, replica in the tower.",
+        "image": null
+      },
+      {
+        "slug": "0700-ben-trovato",
+        "prompt": "An Italian proverb card, a WARNING not LICENCE stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Se non e vero, e ben trovato. A warning label, not a licence.",
+        "image": null
+      },
+      {
+        "slug": "0710-sneak-version",
+        "prompt": "A comic sneak with a bucket, a DEMAND stamp, labeled LATER CAPTION. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The sneak-thief version: San Felice citadel, demand, refuse, war.",
+        "image": null
+      },
+      {
+        "slug": "0720-plausible-souvenir",
+        "prompt": "A gate, a well, a SOUVENIR tag, AFTER the fight. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A well bucket is a plausible souvenir after you already stood at the gate.",
+        "image": null
+      },
+      {
+        "slug": "0730-terrible-casus",
+        "prompt": "A July-to-November calendar on fire at the edges, a tiny bucket too small to be the cause. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A terrible casus belli for a border on fire since July.",
+        "image": null
+      },
+      {
+        "slug": "0740-not-sports",
+        "prompt": "Ink peeling a SPORTS TEAM sticker off two city names, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Guelph and Ghibelline were not two sports teams.",
+        "image": null
+      },
+      {
+        "slug": "0750-not-fools",
+        "prompt": "Ink peeling a FOOLS sticker off a well, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a cartoon of Bologna as fools who would die for a well.",
+        "image": null
+      },
+      {
+        "slug": "0800-trophy-vs-casus",
+        "prompt": "A trophy cup labeled CAUSE with a crack. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A trophy is a terrible instrument for a casus belli.",
+        "image": null
+      },
+      {
+        "slug": "0810-who-won",
+        "prompt": "A well vs a caption card vs TASSONI's book winning TITLE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the well. Not the caption. Tassoni won the title.",
+        "image": null
+      },
+      {
+        "slug": "0820-january-lock",
+        "prompt": "MONTEVEGLIO key returning in JANUARY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bologna won the lock again in January.",
+        "image": null
+      },
+      {
+        "slug": "0830-glass-case",
+        "prompt": "Split: glass case ORIGINAL, tower REPLICA. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The town hall won the glass case. The tower won a replica.",
+        "image": null
+      },
+      {
+        "slug": "0840-before-or-after",
+        "prompt": "Two clocks BEFORE and AFTER, a bucket on AFTER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask: pail before Zappolino, or after Porta San Felice.",
+        "image": null
+      },
+      {
+        "slug": "0850-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, a tiny bucket in a tiny tower. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no beheadings, no battle-porn, no blood. War shown as maps, closed castles, a wooden bucket trophy, a poem book, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have hung it in the tower. Tell me in the comments.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The War Fought Over a Wooden Bucket",
+    "description": "Modena and Bologna, thirteen twenty five. Monteveglio, Zappolino, and a pail that waited until after the gate.",
+    "tags": [
+      "history",
+      "war of the bucket",
+      "modena",
+      "bologna",
+      "cartoon",
+      "true story",
+      "1325",
+      "zappolino",
+      "funny",
+      "italy"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "THE BUCKET WAITED",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A wooden bucket once outlived a war it did not start. That is not a metaphor, and it is not a cartoon you invented after a trivia night. In thirteen twenty five, in Emilia, northern Italy, the city of Bologna and the city of Modena went to war. The internet caption is that Modena stole a bucket from a Bolognese well and Bologna raised thirty two thousand men to get it back. Keep that picture, then put a red X on the cause line. The named fight is the Battle of Zappolino, the fifteenth of November thirteen twenty five, in Bolognese country, now a hamlet of Castello di Serravalle. Passerino Bonacolsi of Mantua led Modena. Bologna's captain in the field is filed as Malatesta of Rimini after the siege of Monteveglio. About two thousand men were killed on both sides. That is not a giggle, and it is not a number you get to spend as a punchline. The bucket, if you take the later souvenir story, came from a well outside Porta San Felice after the routing, on the way home, when nobody was staying to knock the gate down. Everything after this is just that picture hiring a poem three hundred years late to write the title the internet still recites.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why two cities already had a border that bit. For more than a century northern Italy had been arguing who licensed a government: the pope's party, called Guelphs, and the emperor's party, called Ghibellines. Bologna sat Guelph. Modena sat Ghibelline. File those names as factions, not as flags you salute and not as two sports shirts. In twelve ninety six Bologna took Bazzano and Savigno from Modena. Pope Boniface the Eighth confirmed the title. Azzo the Eighth d'Este ran Modena from twelve ninety three to thirteen oh eight and picked fights partly to look useful at home among nobles who were not warm. His successor in the city was Passerino Bonacolsi, a Mantuan, agent of Louis of Bavaria, King of the Romans, with Parma and Reggio also in his pocket. Pope John the Twenty Second declared him a rebel against the Church and offered indulgences, crusader-style, to anyone who could harm his person or his goods, as if harming a neighbour were a voyage to recover a tomb. That is a border with a sermon attached. It is not a pail, and it was not waiting for a well.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The months before November are raids, not a well. In July the Bolognese went into Modenese land between the canals and burned fields. In August a crowd headed by Bologna's podesta spent two weeks ravaging other Modenese ground. In September Mantua took a turn. At the end of that month the strategic Bolognese fortress of Monteveglio was betrayed to Modena by malcontents inside. Two renegade castellans were executed. Do not draw that. File it as why Bologna had to answer, not as a spectacle. Monteveglio is a castle on the approach, a lock on the road, not a bucket on a rope. War, in the sense of a mustered army marching, is what you do when a neighbour holds your lock. The trivia card prefers a pail because a pail photographs and fits in a glass case. A betrayed rocca does not go viral unless you already know which hill sits between the two cities. The official idea in Bologna was not retrieve the oak. It was get the fortress back before the map changed for good.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "November. Bologna mustered on the order of thirty thousand foot and a couple of thousand horse, with help talked of from Florence and Romagna, and went to sit on Monteveglio. Modena's column is filed around two thousand horse and five thousand foot, with professional Germans in the mix, Azzone Visconti of Milan, Rinaldo of Ferrara, Cangrande della Scala arriving and then leaving for Verona. Numbers in chronicles are a sport. Treat thirty two thousand versus seven thousand as the usual poster, not a census you can audit. On the fifteenth, around sunset, at Zappolino, Bonacolsi hit while the Bolognese were still sorting a feigned river crossing from the night before toward Marano sul Panaro. Griffoni dates the fight the next day if you start the calendar at sunset. Within a couple of hours the larger army broke and ran for the walls of Bologna. About two thousand dead is the number that keeps being written. Matteo Griffoni, a Bolognese chronicler, is the named witness for the fight. He does not mention a bucket. That absence is the leftover before the leftover. If a stolen well had started the march, a Bolognese memorialist had a reason to complain about the oak. He complained about the hill instead.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Here is the leftover fact, and it is not that oak wins wars. The Modenese did not siege Bologna. They wrecked outlying castles, Crespellano, Zola, Samoggia, Anzola, Castelfranco, Piumazzo, and the Reno lock near Casalecchio, which is a sentence about water as a weapon, not a gore reel you are owed. Then they ran a palio outside the gates, a prize race, to the eternal memory of the expedition and the eternal shame of Bologna, the Latin is in the Modenese chronicle William Heywood quotes in his book on central Italian sports. Then they went home. Some accounts say they lifted a wooden bucket from a well just outside Porta San Felice and carried it as a trophy. Twenty six captured notables sat in Modena for eleven weeks. In January, peace talks put Monteveglio and the other castles back to Bologna, a return toward the old map, probably paid as ransom into Bonacolsi's hands. The lock went home. The pail, if it came, stayed. That is the only logistics that still hangs on a wall. A ransom can move a fortress. A glass case cannot move a cause.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a war fought over a bucket and a death count it can treat as a joke. Alessandro Tassoni of Modena wrote La secchia rapita, the stolen bucket, a mock-heroic poem, drafted about sixteen fourteen to sixteen fifteen, published in Paris in sixteen twenty two. Twelve cantos. He called the mix eroicomico, heroic-comic. In an introduction under a pen name he said some figures were idealised, not roll calls, which is a poet admitting the cast is not a muster list. That book is how a trophy story became the title of the war. Antonio Salieri later made an opera of the same name in seventeen seventy two. Encyclopaedia Britannica in nineteen eleven still had the bucket in the basement of the Ghirlandina, Modena's cathedral tower. Today the usual filing is: the old oak in the Palazzo Comunale, the town hall, behind glass, and a replica in the tower where it had hung for centuries. Se non e vero, e ben trovato, even if it is not true it makes a good story. File that as an Italian warning label, not a licence to skip Monteveglio. A good story is a neighbour of a true one. It is not the same address, and it does not get to collect the rent on two thousand dead.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "There is a version where two Modenese sneak into the citadel of San Felice, steal the town's favourite pail, Bologna demands it back, Modena refuses, and thirty two thousand men die for oak. That is Tassoni's joke doing later work as a caption on a well. A well bucket is a plausible souvenir after you have already stood at the gate and declined to siege. It is a terrible casus belli for a border that had been on fire since July, with a fortress lost in September. Guelph and Ghibelline were not two sports teams. They were who you called when your neighbour took a castle, and who called you a rebel when the pope needed a sermon. You are allowed to laugh at a pail in a glass case. You are not required to laugh at two thousand dead, or to pretend a seventeenth-century poem is a fourteenth-century declaration of war, or to hang the declaration on a rope. The sneak-thief version is a later caption looking for a well that could carry a war it did not fund.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to Modena, and none of it is a cartoon of Bologna as fools who would die for a well. They had a fortress betrayed in September. They had a pope offering indulgences against Bonacolsi. They had a larger militia and a smaller professional opposite. They lost in a couple of hours on a hill at Zappolino. The chemistry is numbers plus a feint plus a flank. The logistics is what you carry home when you will not stay for a siege. A palio is a race you stage as a receipt. A bucket is a receipt you can still hang when the castles have gone home in January. Griffoni wrote the battle and skipped the pail. Tassoni wrote the pail and made it the war. The object in the town hall is real oak. The cause line on the trivia card is the part that waited three hundred years for a poet who already knew how to mix a joke with an epic and still sell both. You can keep the oak. You cannot keep the caption if the chronicle is empty where the well should be.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the well. Not the caption. Bonacolsi won a winter of hostages and a ransom map that put the castles back. Bologna won the lock again in January and, at home, a coat of arms pairing John the Twenty Second with Robert of Anjou on the wall, which is a sentence about an old alliance still claiming to be alive. Tassoni won the title the internet still uses. The Ghirlandina won a replica. The Palazzo Comunale won the glass case. If you need a moral, skip never steal a bucket. Take this: a trophy is a terrible instrument for a casus belli, and a casus belli is a terrible neighbour for a well. The next time someone tells you the war of the bucket, ask whether the pail walked out before Zappolino or after Porta San Felice, and whose chronicle skipped it. Would you have hung it in the tower, or would you have put Monteveglio back on the card. A betrayed castle, two hours, a palio, a pail that waited. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

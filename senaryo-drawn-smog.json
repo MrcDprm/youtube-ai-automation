@@ -1,0 +1,538 @@
+{
+  "project_id": "the-fog-that-shut-the-city-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-stage-vanished",
+        "prompt": "Cartoon title beat: an opera stage vanishing into yellow-cream pea-soup fog, cream paper, candy colors, not dark archive. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The fog walked indoors and ate the stage.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a TRIVIA FOG stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a gothic pea-soup trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-december-1952",
+        "prompt": "A calendar 5-9 DEC 1952, a simple map LONDON, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Friday 5 to Tuesday 9 December 1952, London.",
+        "image": null
+      },
+      {
+        "slug": "0030-foot-of-sight",
+        "prompt": "A ruler 1 FOOT beside a street lamp in candy yellow fog, no people dying. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sunday: visibility filed down to a foot.",
+        "image": null
+      },
+      {
+        "slug": "0040-sadlers-wells",
+        "prompt": "A theatre marquee SADLER'S WELLS, TRAVIATA, ABANDONED AFTER ACT 1. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sadler's Wells, Monday 8th: La Traviata stopped after act one.",
+        "image": null
+      },
+      {
+        "slug": "0050-tube-ran",
+        "prompt": "A cartoon tube train TUBE STILL RAN, buses parked above. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Buses stalled. The Underground still ran.",
+        "image": null
+      },
+      {
+        "slug": "0100-x-on-corpse-joke",
+        "prompt": "A CORPSE REEL stamp with a giant red X. No bodies drawn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the corpse-reel joke.",
+        "image": null
+      },
+      {
+        "slug": "0110-nutty-slack",
+        "prompt": "Two coal piles HARD EXPORT vs NUTTY SLACK HOME. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Good hard coal exported. Homes burned nutty slack.",
+        "image": null
+      },
+      {
+        "slug": "0120-evelyn-1661",
+        "prompt": "An old book FUMIFUGIUM 1661, a tiny chimney. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "John Evelyn, Fumifugium, 1661. Smoke is an old argument.",
+        "image": null
+      },
+      {
+        "slug": "0130-pea-souper",
+        "prompt": "A soup tin PEA-SOUPER, a stamp THIS ONE WORSE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "London knew pea-soupers. This one was denser and longer.",
+        "image": null
+      },
+      {
+        "slug": "0140-cold-snap",
+        "prompt": "A thermometer low, extra coal scuttles, no people suffering. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A cold snap. More coal in the grates.",
+        "image": null
+      },
+      {
+        "slug": "0150-stations-ring",
+        "prompt": "Six power-station nameplates in a ring, chimneys as simple candy stacks. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Battersea, Bankside, Fulham, Greenwich, West Ham, Kingston.",
+        "image": null
+      },
+      {
+        "slug": "0200-met-office-tonnes",
+        "prompt": "A clipboard 1000 SMOKE 140 HCl 370 SO2, MET OFFICE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Met Office: 1000 t smoke, 140 HCl, 370 SO2 a day.",
+        "image": null
+      },
+      {
+        "slug": "0210-battersea-slump",
+        "prompt": "A chimney with a DOWN arrow SLUMP, not a disaster-porn plume. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Battersea washers cooled the flue. Smoke slumped.",
+        "image": null
+      },
+      {
+        "slug": "0220-diesel-for-trams",
+        "prompt": "A tram WITHDRAWN, a diesel bus NEW, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Diesel buses replacing electric trams.",
+        "image": null
+      },
+      {
+        "slug": "0230-official-weather",
+        "prompt": "A clipboard PLAN: WEATHER THEN LIFT, a check mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: this is weather, and then it will lift.",
+        "image": null
+      },
+      {
+        "slug": "0240-anticyclone-lid",
+        "prompt": "A weather sandwich COLD under WARM, LID stamp, 4 DEC. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "4 December: anticyclone, windless, a temperature inversion.",
+        "image": null
+      },
+      {
+        "slug": "0250-wilkins-miles",
+        "prompt": "A nameplate E.T. WILKINS, a map blob 1000 SQ MI. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Wilkins: Thames Valley, upwards of 1000 square miles.",
+        "image": null
+      },
+      {
+        "slug": "0300-no-panic-yet",
+        "prompt": "A newspaper JUST FOG, a small question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "No panic at first. London was famous for fog.",
+        "image": null
+      },
+      {
+        "slug": "0310-transport-halt",
+        "prompt": "Empty bus stops, a small ambulance icon, no crash gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Surface transport halted. Ambulances strained.",
+        "image": null
+      },
+      {
+        "slug": "0320-indoor-screens",
+        "prompt": "A cinema screen fading into yellow fog, empty seats. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Concerts and film screens went dim indoors.",
+        "image": null
+      },
+      {
+        "slug": "0330-sport-off",
+        "prompt": "A football pitch with a POSTPONED stamp in candy fog. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Outdoor sport cancelled.",
+        "image": null
+      },
+      {
+        "slug": "0340-incandescent-night",
+        "prompt": "A weak lamp, a chemist sign SMOG MASKS, no suffering faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Night bulbs did not punch through. Masks at chemists.",
+        "image": null
+      },
+      {
+        "slug": "0350-traviata-act-one",
+        "prompt": "Singers as tiny silhouettes lost in fog, STAGE EATEN, no photoreal faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "If the audience cannot see, the opera is weather.",
+        "image": null
+      },
+      {
+        "slug": "0400-smithfield-report",
+        "prompt": "Empty show-ring pens and a VET BAG, no dead animals. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Smithfield Show: livestock in the papers. Do not draw slaughter.",
+        "image": null
+      },
+      {
+        "slug": "0410-shuffle-kerbs",
+        "prompt": "Empty cartoon cars, a kerb, candy fog, no people collapsing. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Walking became shuffling for kerbs. Cars abandoned.",
+        "image": null
+      },
+      {
+        "slug": "0420-week-nine-forty-five",
+        "prompt": "A somber ledger 945 AVERAGE, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Week to 6 Dec: about 945 deaths, winter average.",
+        "image": null
+      },
+      {
+        "slug": "0430-week-two-four-eight-four",
+        "prompt": "A tally 2484 then 1523, NOT FLU stamp, respectful. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Next week: 2484. Then 1523. Not influenza carrying it.",
+        "image": null
+      },
+      {
+        "slug": "0440-four-thousand",
+        "prompt": "A somber government card 4000 and 100000, no corpses. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "First government figure: up to 4000 dead, 100000 ill.",
+        "image": null
+      },
+      {
+        "slug": "0450-lipton-1953",
+        "prompt": "A Commons nameplate MARCUS LIPTON, 6000 and 25000. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Marcus Lipton, Feb 1953: 6000 dead, 25000 sickness claims.",
+        "image": null
+      },
+      {
+        "slug": "0500-twelve-thousand",
+        "prompt": "A line chart 4000 then 12000, WILKINS, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Wilkins's chart: about 8000 more, 12000 total.",
+        "image": null
+      },
+      {
+        "slug": "0510-bell-davis",
+        "prompt": "A paper 2004, 12000, a stamp CLOSE TO WILKINS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bell, Davis, Fletcher 2004: around 12000, close to Wilkins.",
+        "image": null
+      },
+      {
+        "slug": "0520-file-both",
+        "prompt": "Two folders 4000 FIRST and 12000 REMAINDER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "File both numbers. Four thousand is first. Twelve is the remainder.",
+        "image": null
+      },
+      {
+        "slug": "0530-crown-warning",
+        "prompt": "A TV card THE CROWN, a WARNING not LICENCE stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Crown used the week. Politics and hospitals were turned up.",
+        "image": null
+      },
+      {
+        "slug": "0540-macmillan-busy",
+        "prompt": "A memo SEEM BUSY, nameplate HAROLD MACMILLAN, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Macmillan memo 18 Nov 1953: seem to be very busy.",
+        "image": null
+      },
+      {
+        "slug": "0550-no-new-act-yet",
+        "prompt": "A bill stamped NOT NEEDED YET, 1953. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He was not satisfied further general legislation was needed.",
+        "image": null
+      },
+      {
+        "slug": "0600-macleod-fog",
+        "prompt": "A nameplate IAN MACLEOD, calendar joke FOG SINCE ME, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Macleod: as if fog started when he became minister.",
+        "image": null
+      },
+      {
+        "slug": "0610-beaver-chair",
+        "prompt": "A nameplate HUGH BEAVER, COMMITTEE, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sir Hugh Beaver, Committee on Air Pollution, summer 1953.",
+        "image": null
+      },
+      {
+        "slug": "0620-domestic-fire",
+        "prompt": "A cartoon grate 2X SMOKE vs a factory, DOMESTIC. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Interim Dec 1953: the domestic fire, biggest single smoke.",
+        "image": null
+      },
+      {
+        "slug": "0630-final-1954",
+        "prompt": "A report NOV 1954, stamps ZONES and CLEANER FUEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Final report November 1954: zones, cleaner fuel, a plan.",
+        "image": null
+      },
+      {
+        "slug": "0640-city-act-1954",
+        "prompt": "A Square Mile map, ACT 1954, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "City of London Various Powers Act 1954, the Square Mile first.",
+        "image": null
+      },
+      {
+        "slug": "0650-clean-air-1956",
+        "prompt": "A law book CLEAN AIR 1956, 1968 tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Clean Air Act 1956, extended 1968. Smoke control areas.",
+        "image": null
+      },
+      {
+        "slug": "0700-coke-and-grants",
+        "prompt": "A grant envelope, a coke scuttle replacing a coal grate. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Coke, gas fires, money to swap the open coal.",
+        "image": null
+      },
+      {
+        "slug": "0710-sixty-two-again",
+        "prompt": "A calendar DEC 1962, AGAIN stamp, candy fog, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Another smog, early December 1962. A law is not a wind.",
+        "image": null
+      },
+      {
+        "slug": "0720-not-folklore",
+        "prompt": "Ink peeling a FOLKLORE sticker off a soup tin, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a hymn to pea soup as folklore.",
+        "image": null
+      },
+      {
+        "slug": "0730-slack-is-spec",
+        "prompt": "A nickname tag vs a SPEC sheet NUTTY SLACK. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A pea-souper is a nickname. Nutty slack is a specification.",
+        "image": null
+      },
+      {
+        "slug": "0740-lid-plus-fuel",
+        "prompt": "A weather lid over a grate, a tiny mask with a red X as a fix. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Lid plus cheap sulphur fire. Mask vs fuel policy.",
+        "image": null
+      },
+      {
+        "slug": "0750-masks-not-policy",
+        "prompt": "A chemist mask vs a coal barge, the barge labeled POLICY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A mask is a terrible instrument for a fuel policy.",
+        "image": null
+      },
+      {
+        "slug": "0800-who-won",
+        "prompt": "A tube, a chart, a committee stamp, a law book beating a soup tin. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the nickname. Tube. Wilkins. Beaver. The Act, late.",
+        "image": null
+      },
+      {
+        "slug": "0810-hard-coal-dock",
+        "prompt": "A dock HARD COAL vs a home grate SLACK. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hard coal won the export dock. Slack won the grate.",
+        "image": null
+      },
+      {
+        "slug": "0820-four-year-delay",
+        "prompt": "A clock 1952 to 1956, then ZONES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Clean Air Act won a four-year delay, then zones.",
+        "image": null
+      },
+      {
+        "slug": "0830-which-coal",
+        "prompt": "A coal scuttle vs a tiny opera glass, question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask which coal was at home, and whether the singers could see.",
+        "image": null
+      },
+      {
+        "slug": "0840-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, a tiny grate and a tiny stage. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have kept burning slack. Tell me in the comments.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card LID + SLACK = NO ACT TWO, Ink with marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no corpse closeups, no dead cattle, no blood, not mud-green archive night, not After Hours File dark. Fog shown as a candy yellow-cream pea-soup blob, chimneys, an opera stage, coal piles, a tube train, a law book, not violence and not bodies. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A lid, a cheap fire, a cancelled second act. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Fog That Shut the City",
+    "description": "London, December nineteen fifty two. Nutty slack, a lid of weather, and an opera that lost its stage.",
+    "tags": [
+      "history",
+      "great smog",
+      "london",
+      "1952",
+      "clean air act",
+      "cartoon",
+      "true story",
+      "logistics",
+      "pea souper",
+      "funny"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "THE STAGE VANISHED",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A city once cancelled an opera because the fog walked indoors and ate the stage. That is not a metaphor, and it is not a gothic cartoon you invented after a trivia night about pea soup. From Friday the fifth of December to Tuesday the ninth of December nineteen fifty two, London sat under a yellow-black mix of smoke and fog so thick that on Sunday visibility was filed down to a foot, and in back streets to about a metre. At Sadler's Wells, on the evening of Monday the eighth, La Traviata was abandoned after the first act because the house could not see the singers. Buses and cars stalled. The Underground still ran. Keep that picture. Then put a red X on the corpse-reel joke. The leftover is not that London invented weather. The leftover is that the good hard coal had been sent abroad to pay wartime debts, and what burned in the grates was nutty slack, a cheap sulphurous stuff, while an anticyclone sat on the city like a lid and refused to let the chimneys have a sky.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a pea-souper was supposed to be ordinary. London had been arguing with its own smoke since at least the thirteenth century. John Evelyn published Fumifugium in sixteen sixty one, a book about the inconvenience of the air and smoke of London, which is a sentence three hundred years older than this week and still not a punchline. Londoners knew pea-soupers. This one was denser and longer. A cold snap had people stoking more coal than usual. Better anthracite tended to be exported. Domestic fuel was often nutty slack, low grade, high sulphur, more sulphur dioxide in the plume. Coal-fired stations sat in the Greater London ring: Battersea, Bankside, Fulham, Greenwich, West Ham, Kingston upon Thames. The Met Office later listed, for each smoggy day, on the order of a thousand tonnes of smoke particles, one hundred forty tonnes of hydrochloric acid, fourteen tonnes of fluorine compounds, three hundred seventy tonnes of sulphur dioxide that might become eight hundred tonnes of sulphuric acid. At Battersea, flue-gas washing cooled the exhaust so it did not rise. It slumped. Diesel buses were replacing electric trams, which is a sentence about exhaust you can put on a depot, not a conspiracy. The official idea, if anyone had written one, was: this is weather, and then it will lift, because it always had, and the city had a nickname for it already.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "On the fourth of December an anticyclone settled over a windless London. Cool stagnant air sat under a warmer lid. That is a temperature inversion, a sandwich, not a ghost. Smoke from homes and works, tarry soot, vehicle exhaust, sulphur dioxide, mixed into a persistent smog. The tarry particles gave the mix its greenish-yellow, the pea-soup nickname. No significant wind. The stuff accumulated. E. T. Wilkins, of the Department of Scientific and Industrial Research, later the named officer in charge of atmospheric pollution, said fog, white mist, or grimy smog covered many parts of the British Isles, and in London and the Thames Valley covered upwards of a thousand square miles. It was in London that the effects were greatest. There was initially no panic, because London was famous for fog. Driving became difficult, then sometimes impossible. Public transport other than the Underground halted. Ambulances were strained. Indoor concerts and film screens went dim. Outdoor sport was cancelled. At night, incandescent street bulbs did not punch through. Fluorescent lamps that could were not yet common. Chemists sold smog masks to whoever could buy them, which is a retail sentence standing in for a fuel sentence. A mask is what you sell when you will not move the coal.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Indoor is the leftover that photographs as a joke and is not one. The smog seeped into halls. Sadler's Wells lost La Traviata after act one. That is a logistics receipt: if the audience cannot see the stage, the opera is a weather instrument. At the Smithfield Show, an agricultural fair, livestock were the first named casualties in the papers: an Aberdeen Angus died, twelve other cattle had to be put down, sixty needed major veterinary treatment, about a hundred more needed minor attention. Do not draw that as a slaughter reel. File it as a showground that was not built for acid air. Walking became shuffling for kerbs. People abandoned cars. Crime in the streets was reported up, which is a newspaper sentence, not a thesis. The week ending the sixth of December, weekly deaths in London were running about the winter average, about nine hundred forty five. The next week they went to two thousand four hundred eighty four. The week after, still high, one thousand five hundred twenty three. There was no influenza epidemic that could carry those numbers. That is Wilkins's later point, and a Commons point. It is not a giggle you get to spend on a tally, and it is not a week you get to file as a long weekend of atmosphere. The singers went home. The tube kept its timetable. The grate kept its slack.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Here is the leftover that is not a body. Government medical reports in the weeks after estimated up to four thousand dead as a direct result, and about one hundred thousand made ill, especially the very young, the elderly, and people who already had lung or heart trouble. Do not draw those people. In February nineteen fifty three, Labour MP Marcus Lipton told the Commons the fog had caused six thousand deaths and that twenty five thousand more had claimed sickness benefits in London in that period. Wilkins plotted deaths from December through March against the previous winter and found about eight thousand extra beyond the first four thousand, twelve thousand in total. A nineteen ninety influenza story was offered for the later months. Later work, including Bell, Davis, and Fletcher in two thousand four, put the total around twelve thousand, three to four times the first official figure, close to Wilkins. File both numbers. The four thousand is what the government first wrote. The twelve thousand is what the chart kept adding. A city can file a fog as weather while a mortality curve files it as fuel.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a killer fog and a Netflix episode that makes the hospitals a riot. The Crown used the week. Critics said the weather was fair and the politics and the hospital chaos were turned up. File the warning. Harold Macmillan, Minister of Housing and Local Government, later prime minister, was not racing to a new Act. In a memorandum dated the eighteenth of November nineteen fifty three he listed masks and warning signals as things that could look busy, better stoves and smokeless coal as longer studies, and wrote that we cannot do very much, but we can seem to be very busy, and that is half the battle nowadays. He was not satisfied that further general legislation was needed at present. Broad economic considerations, he told the House, would be foolish to disregard. Ian Macleod, Minister of Health, was quoted in the Evening Standard protesting that anyone would think fog had only started in London since he became a minister. That is a ministry defending a calendar. It is not a chemistry lesson.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Pressure from the press, doctors, the London County Council, and MPs forced a committee. Sir Hugh Beaver chaired the Committee on Air Pollution, appointed in the summer of nineteen fifty three. Beaver was an administrator, not a lifelong smoke scientist. The interim report came in December nineteen fifty three, in plain language, focused on fuel combustion. It said the domestic fire was the biggest single smoke producer, twice as much smoke per coal as industry, lower to the ground. The final report, November nineteen fifty four, offered a plan: smoke control, cleaner fuel, zones. The City of London Various Powers Act nineteen fifty four came first in the Square Mile. The Clean Air Act nineteen fifty six, later extended in nineteen sixty eight, let authorities set smoke control areas, push coke and gas fires, offer money to swap open coal. Central heating was still rare in most homes until the late sixties. Progress was slow enough that another smog sat down in early December nineteen sixty two. A law is not a wind. A zone is not a lid lifting itself. Householders were offered money to swap the open fire, which is a grant standing next to a habit, and habits do not read White Papers on the day they are printed. The Act could name a smoke control area. It could not, on day one, unexport the hard coal that had already left the dock.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to pea soup as folklore, and none of it is a cartoon of Londoners as fools who should have known better than to light a grate in December. They had a cold snap. They had the coal they were sold. They had stations whose washers put the plume back in the street. They had buses on diesel where trams had been electric. They had an inversion that turned five days into a lid. The chemistry is sulphur plus water droplets plus no wind. The logistics is which coal leaves the country, which coal stays in the grate, which flue is cooled until it cannot rise, which minister would rather issue masks than move a fuel market. You are allowed to laugh at an opera that lost its stage. You are not required to laugh at four thousand, or twelve thousand, or at a showground vet list. A pea-souper is a nickname. Nutty slack is a specification. Macmillan's busy is a memo. Wilkins's chart is a remainder.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the anticyclone. Not the nickname. Not the first press line that this was just weather. The Underground won a week of being the transport that still existed. Sadler's Wells won a cancelled second act, which is a terrible trophy and a perfect receipt. Wilkins won a chart that would not stay at four thousand. Beaver won a committee that named the domestic fire. The Clean Air Act won a four-year delay and then a set of zones. Nutty slack won the grate. Hard coal won the export dock. If you need a moral, skip never live in London. Take this: a lid is a terrible neighbour for a cheap sulphurous fire, and a mask is a terrible instrument for a fuel policy. The next time someone tells you the Great Smog was only fog, ask which coal was at home, and whether the singers could see the pit. Would you have kept burning slack, or would you have kept the hard coal in the grate. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

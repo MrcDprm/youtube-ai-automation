@@ -1,0 +1,790 @@
+{
+  "project_id": "your-life-as-every-position-on-a-football-pit-14dk-20260902",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.28,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 84,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "r01-not-one-role",
+        "prompt": "Kit on pitch split into position zones NOT ONE ROLE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-ladder-roles",
+        "prompt": "Position ladder Kit climbing from goal to striker. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-bravery-rewrites",
+        "prompt": "BRAVERY stamp changing per zone Kit POV. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-keeper-post",
+        "prompt": "Kit as keeper whispering to goalpost gloves on. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-striker-net",
+        "prompt": "Kit as striker staring at net one touch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-stay-pitch",
+        "prompt": "Kit pointing across full pitch STAY text. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-position-one-gk",
+        "prompt": "Title POSITION 1 GOALKEEPER Kit in gloves. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r02-box-yours",
+        "prompt": "Penalty box YOURS stamp Kit hands up. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r02-shout-wind",
+        "prompt": "Kit shouting arrows stolen by wind. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-hands-resume",
+        "prompt": "Gloved hands RESUME stamp Kit diving. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-train-alone",
+        "prompt": "Kit solo training cones outfielders joking STILL. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-clean-sheet",
+        "prompt": "Clean sheet trophy one name GOALKEEPER. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r03-position-two-cb",
+        "prompt": "Title POSITION 2 CENTER-BACK Kit shoulders square. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-adult-room",
+        "prompt": "Kit calm amid chaos ADULT IN ROOM. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-headers-count",
+        "prompt": "Kit winning header invisible stat counter. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-cover-fullback",
+        "prompt": "Kit sprinting to cover wandering full-back. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-yellow-invoice",
+        "prompt": "Yellow card INVOICE for others mistake Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-step-forward",
+        "prompt": "Kit stepping forward BRAVERY arrow. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-position-three-fb",
+        "prompt": "Title POSITION 3 FULL-BACK Kit on touchline. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r04-two-games",
+        "prompt": "Split DEFEND and ATTACK Kit running both. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r04-lungs-burn",
+        "prompt": "Kit gasping STAY SIMPLE from bench. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r04-cross-traffic",
+        "prompt": "Kit crossing into crowded box judged. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r04-touchline-wall",
+        "prompt": "Kit using touchline as wall vs winger. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r04-back-both-goals",
+        "prompt": "Kit spinning back to defend and attack goals. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r05-position-four-dm",
+        "prompt": "Title POSITION 4 DEFENSIVE MID Kit screening. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-screen-chaos",
+        "prompt": "Chaos arrow blocked by Kit SCREEN. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-break-passes",
+        "prompt": "Kit intercept invisible highlight pass broken. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-forward-claps",
+        "prompt": "Forward celebrated space Kit cleaned earlier. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-foul-rent",
+        "prompt": "Kit tactical foul CARD LIKE RENT. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-two-languages",
+        "prompt": "Kit two speech bubbles CB language winger language. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-position-five-b2b",
+        "prompt": "Title POSITION 5 BOX-TO-BOX Kit mid-pitch sprint. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-gps-lying",
+        "prompt": "Heat trail both boxes GPS LIAR Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-both-boxes",
+        "prompt": "Kit appearing in both penalty boxes same half. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-screamer-cover",
+        "prompt": "Kit long shot plus three recovery tackles. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-work-avoided",
+        "prompt": "Kit doing arrows teammates skipped. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-personality-test",
+        "prompt": "BOX-TO-BOX personality test Kit exhausted. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-position-six-am",
+        "prompt": "Title POSITION 6 NUMBER TEN Kit in pocket. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-half-second-space",
+        "prompt": "Pocket space opening closing Kit turning. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-passes-not-exist",
+        "prompt": "Kit vision dotted pass lines future. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-kicked-stopping",
+        "prompt": "Kit fouled CHEAPER THAN HONEST MARKING. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-four-chances-one-goal",
+        "prompt": "Four chance icons one GOAL headline stolen. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-judged-magic",
+        "prompt": "MAGIC vs MILEAGE scales Kit ten. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-position-seven-w",
+        "prompt": "Title POSITION 7 WINGER Kit touchline. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-beat-cut-cross",
+        "prompt": "Kit sequence beat cut cross loop. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-space-belief",
+        "prompt": "Kit believing into touchline space. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-track-back",
+        "prompt": "Kit sprinting back counter arrow personal. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-one-v-one-exam",
+        "prompt": "Kit 1v1 EXAM NO RETAKE stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-width-snaps",
+        "prompt": "Defense stretched SNAP Kit wide. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-position-eight-iw",
+        "prompt": "Title POSITION 8 INVERTED WINGER Kit cutting in. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r09-start-wide-end-central",
+        "prompt": "Kit path wide to central strong foot. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-shape-tilts",
+        "prompt": "Defense shape tilting Kit cutting inside. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r09-half-space-tenant",
+        "prompt": "Kit in half-space TENANT REFUSES LEAVE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-progressive-angle",
+        "prompt": "Kit shooting progressive angle coach flip. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-flank-loneliness",
+        "prompt": "Kit alone on flank INVERTED LONELINESS. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-position-nine-ss",
+        "prompt": "Title POSITION 9 SECOND STRIKER Kit linking. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-shadow-striker",
+        "prompt": "Kit shadow behind number nine LINK. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-pass-before-pass",
+        "prompt": "Two-pass chain only second visible Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-drop-spin-arrive",
+        "prompt": "Kit drop spin late box arrival. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-two-languages-hunger",
+        "prompt": "Kit two modes HUNGER and PATIENCE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-unselfish-tax",
+        "prompt": "Assist credit tax bill Kit smiling. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r11-position-ten-9",
+        "prompt": "Title POSITION 10 TARGET NINE Kit in box. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-box-office",
+        "prompt": "Kit in box OFFICE stamp meetings crosses. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-back-to-goal",
+        "prompt": "Kit back to goal shielding midfield far. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-aerial-wrestling",
+        "prompt": "Kit header duel wrestling mud. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-one-touch-luxury",
+        "prompt": "Kit one-touch finish TWO TOUCH LUXURY X. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-two-markers",
+        "prompt": "Two CBs on Kit still expected GOAL. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-position-eleven-f9",
+        "prompt": "Title POSITION 11 FALSE NINE Kit dropping deep. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-drop-defenders",
+        "prompt": "Kit dropping CBs follow or hold dilemma. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-refuse-stay",
+        "prompt": "Kit leaving box on purpose REFUSE STAY. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-open-lanes",
+        "prompt": "Defenders pulled winger lane open Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-less-goals-more-team",
+        "prompt": "Personal goals down team goals up chart. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-trade-structure",
+        "prompt": "Kit trading goal icon for shape icon. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-position-twelve-hybrid",
+        "prompt": "Title POSITION 12 HYBRID Kit multi-role. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r13-no-one-name",
+        "prompt": "Kit shirt with three role labels. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-heat-map-art",
+        "prompt": "Chaotic heat map Kit abstract art. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-sheet-suggestion",
+        "prompt": "Team sheet SUGGESTION stamp shape changed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r13-versatility-currency",
+        "prompt": "Kit juggling winger full-back mid icons. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-moving-problem",
+        "prompt": "Eleven kits solving moving puzzle pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r14-which-position",
+        "prompt": "Kit facing pitch WHICH POSITION stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r14-gloves-to-hybrid",
+        "prompt": "Arc goalkeeper gloves to hybrid shape Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-sunday-vs-camera",
+        "prompt": "Split SUNDAY ROLE vs CAMERA ROLE Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-one-role-myth",
+        "prompt": "ONE POSITION FIX MYTH crossed out Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-comment-position",
+        "prompt": "Comment bubble YOUR POSITION Kit POV. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-every-level-receipt",
+        "prompt": "EVERY LEVEL POV title Kit mouth closed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 840.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+1%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Anton-Regular.ttf",
+    "font_size": 54,
+    "color": "#FFFFFF",
+    "accent_color": "#FF4D4D",
+    "stroke_color": "#1A1A1A",
+    "stroke_width": 4,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true,
+    "karaoke": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Your Life as Every Position on a Football Pitch",
+    "description": "From goalkeeper gloves to false nine drops — your life in every position on the pitch, cartoon POV, not a tactics lecture.",
+    "tags": [
+      "football positions",
+      "goalkeeper",
+      "striker",
+      "winger",
+      "midfielder",
+      "football",
+      "soccer",
+      "pov",
+      "cartoon",
+      "every level"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "NOT ONE ROLE",
+    "brand_id": "every-level-pov"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "You do not live one role on a pitch. You live a ladder of roles, and each rung rewrites what bravery looks like. This is your life as every position on a football pitch, from the last line to the last touch. The gap between them is not a tactics board. It is loneliness, noise, blame, and where your body belongs when the ball moves. By the end you will know why the keeper talks to the post and the striker talks to the net. Stay. Position one is not glory. Position one is gloves in the rain and nobody clapping when you save what they forgot to see. One shirt. Eleven jobs. The pitch is lying if it says you only have one role. Position stories sell the striker and hide the keeper. This episode is the whole pitch made personal: blame, credit, and the version of you that appears when the ball arrives elsewhere. You will meet players who looked wrong on paper and right on grass. The pitch punishes labels faster than coaches do.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Position one. Goalkeeper. You stand where mistakes become headlines and saves become expected. The box is yours until it is not. You organize defenders who ignore you until the ball is in the air. You shout into wind that steals your words. Your hands are your résumé. One spill and the whole pitch thinks you cracked. You train alone while outfield players joke about standing still. You dive on frozen ground because someone has to. You watch the game from the best seat and the worst jury. You learn patience that looks like laziness from the stands. You learn that clean sheets are team trophies worn by one name. Gloves save what nobody claps. Welcome to invisible glory. Goalkeepers learn early that applause is conditional. One save is duty. One mistake is a documentary. The role teaches you to love the game in quiet rooms. Your first clean sheet feels like a secret because nobody chants for the keeper at the café afterward.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Position two. Center-back. You are the adult in a room of adrenaline. You solve problems with shoulders, timing, and calm when a striker smells blood. You win headers that nobody counts unless you lose one. You cover for full-backs who forgot their job because the winger looked fast on television. You communicate in short words because panic spreads faster than passes. You take yellow cards like invoices for someone else's mistake. You are not allowed to be tired in public. You learn that bravery here is stepping forward when every instinct says step back. Headers win wars. Credit loses them. Center-backs inherit panic and return calm. You are the last adult before the adult in goal. Headers are not highlights until you lose one. You once cleared a ball off the line and the striker got credit for the miss. Center-back math is cruel.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Position three. Full-back. You are a winger who came home late and got put on defense duty forever. You run two games in one: shut the line, then become an extra attacker when the coach points. Your lungs burn while the center-back tells you to stay simple. You cross into traffic and get judged on one connection. You mark players who are faster on paper and win anyway because the touchline is a wall. You spend half the match with your back to each goal. You learn that modern football punishes full-backs who only defend and also punishes full-backs who only attack. Touchline sprint. Attack. Defend. Lungs on fire. Full-backs live in the corridor between styles. Attack too much and you are reckless. Defend too much and you are obsolete. The touchline is your contract. You overlap, cross, sprint back, and still hear keep it simple from the bench like simplicity is free.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Position four. Defensive midfielder. You are the screen between chaos and structure. You break passes that would have looked beautiful on highlights if you had arrived one second late. You tackle, recover, tackle again, and rarely score. Fans clap the forward who ran into space you cleaned five minutes earlier. You read the game like sheet music and play the note nobody hears. You take fouls to stop counters and accept the card like rent. You learn that being important and being celebrated are not the same currency on a Saturday. Break the pass nobody sees. Janitor with a view. Defensive mids are the game's janitors with better views. You sweep what would have gone viral if you had been late. You foul once to kill a counter and accept the yellow like rent. The DM receipt is always paid in cards.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Position five. Box-to-box midfielder. You are the player GPS thinks is lying. You appear in both boxes in one half and still get asked why you were not somewhere else. You run until your legs feel borrowed. You join attacks because the coach said arrive, then sprint back because the coach said never leave us open. You score a screamer once a month and cover three mistakes per week. Teammates love you because you do the work they avoid. Opponents hate you because you never fully disappear. You learn that box-to-box is a personality test with shin guards. GPS thinks you are lying. You are not. Box-to-box is mileage with meaning. You are everywhere, which means you are also nowhere when someone needs a scapegoat. You cover more ground than anyone and still get asked why you were not on the back post. Box-to-box irony.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Position six. Attacking midfielder. Number ten energy even when the shirt says something else. You live in the pocket where space opens for half a second and disappears if you breathe wrong. You are expected to see passes that do not exist yet and make them look obvious after they land. You take the ball in traffic and turn like the crowd is a suggestion. You get kicked because stopping you is cheaper than marking you honestly. You miss one chance and the stadium remembers. You learn that playmakers are judged on magic, not on mileage. Half-second pocket. Magic or miss — no middle. The ten sees the pass before the pass exists. That gift comes with a tax: one miss and the crowd thinks you vanished. You thread a ball through three legs and the assist chart says second pass. Playmaker erasure is normal.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Position seven. Winger. Touchline merchant. You beat a man, cut in, cross, repeat until the full-back hates sunlight. Your best weapon is space that only exists if you believe in it. You track back because the gaffer said so and because you know the counter will kill you personally. You take on one-v-ones like exams you cannot retake. You deliver balls into boxes where strikers miss and you still get half the blame. You are fast until the pitch is heavy, then you are clever or you are dead. You learn that width is not decoration. It is how you stretch a defense until someone snaps. Beat your man. Overhit the cross. Repeat until hate. Wingers sell hope to the touchline. One good cross erases three lost duels until the next lost duel. You beat your man twice and overhit the cross. The touchline remembers the cross, not the beats.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Position eight. Inverted winger. You start wide and end up central because your strong foot has opinions. Defenders think they know where you are going until you cut inside and the whole shape tilts. You shoot from angles coaches once banned and now call progressive. You occupy the half-space like a tenant who refuses to leave. Full-backs do not know whether to follow you inside or protect the line you abandoned. You create goals and also take them because someone has to. You learn that inverted is not a trick. It is a different kind of loneliness on the flank. Cut inside. The whole pitch tilts. Inverted wingers bend the pitch without moving the lines. Defenders hate you because you refuse to stay where they studied. You cut inside, shoot, score, and the pundit says predictable. Inverted life is never fully credited.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Position nine. Second striker. You are the shadow striker, the link, the player who makes the number nine look like a genius. You drop, you spin, you arrive late in the box when everyone watches the ball. You do not always score but you always connect. You press from an angle that looks lazy until it isn't. You speak both languages: striker hunger and midfielder patience. Coaches love you because you solve problems without instructions. Fans sometimes forget your name because your work is the pass before the pass. You learn that being unselfish is a skill with a tax bill. Link play. Your name stays off the photo. Second strikers connect rooms. Your goal tally will lie about your importance forever. You set up the goal and the striker takes the photo. Second-striker fame is always one room away.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Position ten. Target striker. Number nine. The box is your office and every cross is a meeting you cannot miss. You hold up balls with your back to goal while midfielders pretend they are close enough to help. You win aerial duels that look like wrestling and smell like grass. You finish with one touch because two touches is a luxury you were never sold. You get marked by two center-backs and still expected to score anyway. You take elbows like weather. You learn that target nines are not just tall. They are stubborn in ways statistics rarely capture. One touch. Elbows included. No refund. Target nines carry contact like currency. The box is not glamorous. It is elbows, timing, and one touch. You win a header duel and land in mud that matches your kit. Target nine glamour is a myth sold to forwards.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Position eleven. False nine. You drop deep and the center-backs do not know whether to follow or hold the line. You are a striker who refuses to stay where strikers belong. You pull defenders into midfield and open lanes for wingers who thank you with a wave. You score less than a classic nine but the team scores more because you rearrange the room. You need intelligence, touch, and the confidence to disappear from the box on purpose. You learn that false nine is not a cheat code. It is a trade: your goals for their structure. Drop deep. Defenders panic. Your goals disappear. False nines trade personal numbers for team shape. You score less and matter more, which is a hard sell at dinner. You drop deep, spin, and release a winger who scores. The false nine goal count will never tell that story.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "Position twelve. Hybrid roles. Modern football does not always give you one name. You are a winger who defends like a full-back. A full-back who finishes like a winger. A midfielder who drops into defense because the shape changed in real time. You watch heat maps that look like abstract art and realize the position on the team sheet was a suggestion. You train multiple jobs because substitutes are expensive and versatility is currency. You get instructions through earpieces and hand signals. You learn that the pitch is not eleven fixed jobs. It is eleven people solving a moving problem. Hybrid week. Three jobs. One shirt. Hybrid roles are the receipt that football changed. One shirt, three jobs, zero patience. You played winger Tuesday and wing-back Saturday and nobody updated the program. Hybrid football is real life.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "So which position owns you. Gloves and silence. Shoulders and headers. Touchline sprints. The screen in front of defense. Box-to-box lungs. Number ten pockets. Wide crosses. Inverted cuts. Second-striker links. Target nine battles. False nine drops. Hybrid shapes that change every week. Tell me which role you play on Sunday and which role you wish you played when the camera was on. Tell me if you thought one position would fix your football and did not. That is the receipt. Rank Run POV. Comment your Sunday role. Be honest. Positions are weeks, not labels. Tell me yours honestly. Sunday role counts. Comment your position. Be honest. Nobody starts as a complete player.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "project_id": "why-you-wear-a-strap-to-sit-still-11dk-20260831",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-click-strap",
+        "prompt": "Stickman clicking chest strap SITTING STILL OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you click a strap across your chest and treat sitting still as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0005-hand-buckle",
+        "prompt": "Hand finding buckle CAR RIBBON label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hand finds a buckle as if the car grew a ribbon.",
+        "image": null
+      },
+      {
+        "slug": "0010-cars-do-ribbons",
+        "prompt": "Car sprouting ribbon like fruit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Because cars do ribbons.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-no-agree",
+        "prompt": "Early motorist shaking head at belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first motorists did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0020-bench-hope",
+        "prompt": "Bench rider HOPE vs HARD STOP label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Many rode on benches with nothing but hope and a hard stop.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-strap-physics",
+        "prompt": "Strap stamped PHYSICS with question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your seat wear a strap as if the strap were physics?",
+        "image": null
+      },
+      {
+        "slug": "0030-aircraft-harness",
+        "prompt": "Airplane harness logic diagram, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Aircraft already had harness logic.",
+        "image": null
+      },
+      {
+        "slug": "0035-lap-half-answer",
+        "prompt": "Lap belt sliding HALF ANSWER label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Lap belts arrived as a half answer that could slide.",
+        "image": null
+      },
+      {
+        "slug": "0040-bohlin-1959",
+        "prompt": "Patent paper 1959 NILS BOHLIN VOLVO, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Nils Bohlin at Volvo patented a three-point belt in nineteen fifty nine.",
+        "image": null
+      },
+      {
+        "slug": "0045-amazon-standard",
+        "prompt": "Volvo Amazon car with STANDARD BELT badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Bolted it to the Amazon as a standard part.",
+        "image": null
+      },
+      {
+        "slug": "0050-opened-patent",
+        "prompt": "Open patent drawer RIVALS COPY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Volvo opened the patent so rivals could copy the geometry.",
+        "image": null
+      },
+      {
+        "slug": "0055-three-points-certify",
+        "prompt": "Three anchor points vs LECTURE red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A body held at three points is easier to certify than a lecture.",
+        "image": null
+      },
+      {
+        "slug": "0100-not-safety-nature",
+        "prompt": "SAFETY BY NATURE stamp red X on buckle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your click is not safety by nature.",
+        "image": null
+      },
+      {
+        "slug": "0105-harness-habit",
+        "prompt": "Harness morphing into cabin belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover harness habit that learned to live in a cabin.",
+        "image": null
+      },
+      {
+        "slug": "0110-buckle-flattered",
+        "prompt": "Smiling buckle FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The buckle is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0115-road-no-vote",
+        "prompt": "Road NO VOTE strap raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The road did not vote. A strap did.",
+        "image": null
+      },
+      {
+        "slug": "0120-diagonal-sense",
+        "prompt": "Shoulder diagonal word SENSE appearing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The diagonal taught your shoulder until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0125-start-bench",
+        "prompt": "Car bench labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the bench.",
+        "image": null
+      },
+      {
+        "slug": "0130-belt-stole-harness",
+        "prompt": "Harness stolen by nylon belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The belt stole a harness and sold it back as nylon.",
+        "image": null
+      },
+      {
+        "slug": "0135-before-retractor",
+        "prompt": "Timeline before cabin glass retractor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Before enclosed cabins, before laminated glass, before a retractor.",
+        "image": null
+      },
+      {
+        "slug": "0140-momentum-negotiation",
+        "prompt": "Driver negotiating with invisible MOMENTUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Riding was a negotiation with momentum you could not see.",
+        "image": null
+      },
+      {
+        "slug": "0145-lean-rail",
+        "prompt": "Driver leaning passenger holding rail, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early drivers leaned. Early passengers held a rail.",
+        "image": null
+      },
+      {
+        "slug": "0150-upholstery-contract",
+        "prompt": "Upholstery SOCIAL CONTRACT no lunge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Some cars offered upholstery and the social contract you would not lunge.",
+        "image": null
+      },
+      {
+        "slug": "0155-lap-honest",
+        "prompt": "Lap belt HONEST INCOMPLETE labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When lap belts appeared, they were honest and incomplete.",
+        "image": null
+      },
+      {
+        "slug": "0200-stay-in-seat",
+        "prompt": "Lap strap STAY IN SEAT arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A strap across the lap says stay in the seat.",
+        "image": null
+      },
+      {
+        "slug": "0205-seat-moves-faster",
+        "prompt": "Seat moving faster than ribs diagram, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "It does not say stay with the seat when the seat moves faster than your ribs.",
+        "image": null
+      },
+      {
+        "slug": "0210-aviation-paperwork",
+        "prompt": "Aviation papers dragged onto highway NOT RUNWAY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Aviation paperwork dragged onto a road not a runway.",
+        "image": null
+      },
+      {
+        "slug": "0215-bench-wanted-holding",
+        "prompt": "Bench speech bubble WANT HOLDING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bench still wanted holding.",
+        "image": null
+      },
+      {
+        "slug": "0220-grip-tired",
+        "prompt": "Tired hand grip ONLY PLAN label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Holding wanted a human grip until the grip got tired of being the only plan.",
+        "image": null
+      },
+      {
+        "slug": "0225-not-miracle",
+        "prompt": "LOGISTICS stamp on grip not miracle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The grip was not a miracle. It was logistics.",
+        "image": null
+      },
+      {
+        "slug": "0230-named-corners",
+        "prompt": "Halo on belt MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the strap did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0235-not-only-person",
+        "prompt": "Many thought bubbles bench one loud Bohlin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Nils Bohlin was not the only person who looked at a bench.",
+        "image": null
+      },
+      {
+        "slug": "0240-patent-factory",
+        "prompt": "Loud example PATENT SWEDISH FACTORY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "An early loud example with a patent and a Swedish factory.",
+        "image": null
+      },
+      {
+        "slug": "0245-born-1920",
+        "prompt": "Timeline 1920 AIRCRAFT WORK label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born in nineteen twenty, trained in aircraft work.",
+        "image": null
+      },
+      {
+        "slug": "0250-saab-volvo",
+        "prompt": "Saab to Volvo arrow body leaves seat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hired by Volvo after helping Saab think about how a body leaves a seat.",
+        "image": null
+      },
+      {
+        "slug": "0255-aug-13-1959",
+        "prompt": "Calendar AUG 13 1959 patent stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Thirteenth of August nineteen fifty nine, the Patent Office issued his patent.",
+        "image": null
+      },
+      {
+        "slug": "0300-three-point-patent",
+        "prompt": "Three-point belt patent diagram, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Patent for a three-point safety belt.",
+        "image": null
+      },
+      {
+        "slug": "0305-amazon-same-year",
+        "prompt": "Amazon 1959 STANDARD EQUIPMENT badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Volvo put it on the Amazon the same year as standard equipment.",
+        "image": null
+      },
+      {
+        "slug": "0310-luxury-teaches",
+        "prompt": "Luxury car teaching fleet NORMAL arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The quiet way a luxury teaches a fleet what normal means.",
+        "image": null
+      },
+      {
+        "slug": "0315-shared-design",
+        "prompt": "Shared design open hands rivals, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Volvo then shared the design.",
+        "image": null
+      },
+      {
+        "slug": "0320-adoption-second",
+        "prompt": "INVENTION 1 idea INVENTION 2 adoption, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Adoption is a second invention.",
+        "image": null
+      },
+      {
+        "slug": "0325-shared-geometry",
+        "prompt": "Shared geometry vs locked drawer wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A shared geometry beats a locked drawer.",
+        "image": null
+      },
+      {
+        "slug": "0330-gothenburg-harness",
+        "prompt": "Gothenburg harness wearing nylon century coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your click is a Gothenburg harness wearing a century of nylon.",
+        "image": null
+      },
+      {
+        "slug": "0335-strap-leaves-hand",
+        "prompt": "Hand releasing strap walking away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the strap leave the hand.",
+        "image": null
+      },
+      {
+        "slug": "0340-speed-diagonal",
+        "prompt": "Diagonal safe vs torso inventing red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car of speed needed a diagonal without a torso inventing itself mid-turn.",
+        "image": null
+      },
+      {
+        "slug": "0345-grip-rail",
+        "prompt": "Three panel GRIP RAIL BRACE TRUST REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Grip the rail. Brace a foot. Trust the door. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0350-small-insult",
+        "prompt": "Belt insulting momentum cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A three-point belt is a small insult to momentum.",
+        "image": null
+      },
+      {
+        "slug": "0355-lap-anchors",
+        "prompt": "Lap section ANCHOR LOW arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The lap section anchors low.",
+        "image": null
+      },
+      {
+        "slug": "0400-shoulder-crosses",
+        "prompt": "Shoulder crosses chest no parachute rig, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The shoulder section crosses the chest without a parachute rig.",
+        "image": null
+      },
+      {
+        "slug": "0405-buckle-click",
+        "prompt": "Buckle CLICK HERE no manual, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The buckle says click here without a manual in a parking lot.",
+        "image": null
+      },
+      {
+        "slug": "0410-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0415-bench-hold-on",
+        "prompt": "Bench speech bubble HOLD ON, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We took a bench that said hold on.",
+        "image": null
+      },
+      {
+        "slug": "0420-strap-route",
+        "prompt": "Strap ROUTE FORCE HERE arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We replaced it with a strap that said route force here.",
+        "image": null
+      },
+      {
+        "slug": "0425-route-showroom",
+        "prompt": "Showroom teaching ROUTE checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Route is easier to teach in a showroom.",
+        "image": null
+      },
+      {
+        "slug": "0430-route-bolt",
+        "prompt": "Same belt bolting dozen car models, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Route is easier to bolt to a dozen models.",
+        "image": null
+      },
+      {
+        "slug": "0435-line-inventor",
+        "prompt": "Factory line labeled REAL INVENTOR, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0440-unbuckled-bench",
+        "prompt": "Unbuckled bench nostalgia red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line does not care about nostalgia for an unbuckled bench.",
+        "image": null
+      },
+      {
+        "slug": "0445-rehook-fact",
+        "prompt": "Belt vs door both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You think the belt is a fact, the way a door is a fact.",
+        "image": null
+      },
+      {
+        "slug": "0450-belt-policy",
+        "prompt": "POLICY stamp on seatbelt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The belt is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0455-lecture-merge",
+        "prompt": "Lecture while merging red X strap wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The alternative is trusting a lecture about momentum while merging.",
+        "image": null
+      },
+      {
+        "slug": "0500-hope-honest",
+        "prompt": "HOPE honest STRAPS scalable scales, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hope is honest. Straps are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0505-un-naturing",
+        "prompt": "Diagonal NATURAL stamp peeling off, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "I am un-naturing the diagonal.",
+        "image": null
+      },
+      {
+        "slug": "0510-harness-retractor",
+        "prompt": "Harness wearing retractor costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The diagonal is a harness wearing a retractor.",
+        "image": null
+      },
+      {
+        "slug": "0515-slack-law",
+        "prompt": "Retractor spool SLACK IS LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The retractor said slack can be law.",
+        "image": null
+      },
+      {
+        "slug": "0520-golf-cart",
+        "prompt": "Golf cart slope no belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "If you rode something with no belt, even a golf cart on a slope.",
+        "image": null
+      },
+      {
+        "slug": "0525-not-physics",
+        "prompt": "PHYSICS stamp red X on three-point, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You know the three-point is not physics.",
+        "image": null
+      },
+      {
+        "slug": "0530-production-vote",
+        "prompt": "Production line voting for belt wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compromise that won a production vote.",
+        "image": null
+      },
+      {
+        "slug": "0535-spreadsheet-webbing",
+        "prompt": "Spreadsheet webbing latch catalog, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A vote is a spreadsheet with webbing and a latch catalog.",
+        "image": null
+      },
+      {
+        "slug": "0540-webbing-travel",
+        "prompt": "Webbing spooling across frame, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the webbing travel.",
+        "image": null
+      },
+      {
+        "slug": "0545-inventoried-answer",
+        "prompt": "Factory inventory belt parts shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0550-source-stamp-ship",
+        "prompt": "SOURCE STAMP SHIP REPLACE conveyor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Source, stamp, ship, replace without a harness ritual.",
+        "image": null
+      },
+      {
+        "slug": "0555-retractor-chapter",
+        "prompt": "Retractor pretensioner chime LATER CHAPTER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Retractors, pretensioners, warning chimes: a later chapter.",
+        "image": null
+      },
+      {
+        "slug": "0600-object-nylon",
+        "prompt": "NYLON LATCH ROUTE REPEAT icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: nylon, latch, route, repeat.",
+        "image": null
+      },
+      {
+        "slug": "0605-catalog-referendum",
+        "prompt": "Quiet catalog REFERENDUM whisper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0610-rental-vs-bench",
+        "prompt": "Rental belt vs history bare bench gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your rental has a three-point and your history book has a bare bench.",
+        "image": null
+      },
+      {
+        "slug": "0615-inventory-fight",
+        "prompt": "Past losing fight INVENTORY filing cabinet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Inventory is how the past loses a fight without filing a complaint.",
+        "image": null
+      },
+      {
+        "slug": "0620-volvo-sharing",
+        "prompt": "Volvo open patent LOUD QUIET PAGE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Volvo sharing the patent is the loudest quiet page.",
+        "image": null
+      },
+      {
+        "slug": "0625-page-not-halo",
+        "prompt": "Factory nodding strap fits many badges, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A page is not a halo. A factory agreeing a strap should fit more than one badge.",
+        "image": null
+      },
+      {
+        "slug": "0630-this-is-you",
+        "prompt": "Stickman labeled THIS IS YOU parking lot, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you, already, in the middle of the story.",
+        "image": null
+      },
+      {
+        "slug": "0635-tuesday-click",
+        "prompt": "Tuesday parking lot click no thank you, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Tuesday, a parking lot, a click without thanking a Swedish engineer.",
+        "image": null
+      },
+      {
+        "slug": "0640-reach-chest",
+        "prompt": "Hand reaching chest RECKLESS without strap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You reach across your chest because starting would feel reckless.",
+        "image": null
+      },
+      {
+        "slug": "0645-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY stamp on merge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0650-after-amazon",
+        "prompt": "Timeline after 1959 Amazon belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after the Amazon in nineteen fifty nine.",
+        "image": null
+      },
+      {
+        "slug": "0655-lap-shoulder",
+        "prompt": "Lap belt growing shoulder arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After lap belts learned a shoulder.",
+        "image": null
+      },
+      {
+        "slug": "0700-chime-beeps",
+        "prompt": "Retractor with beeping chime, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After a retractor learned to host a chime that beeps.",
+        "image": null
+      },
+      {
+        "slug": "0705-relief-insult",
+        "prompt": "Relief checkmark insult aircraft habit wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not invent a harness, insult an aircraft habit won.",
+        "image": null
+      },
+      {
+        "slug": "0710-unbuckled-imagination",
+        "prompt": "Ghost bare bench failing imagination, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The unbuckled bench failing in your imagination.",
+        "image": null
+      },
+      {
+        "slug": "0715-never-voted",
+        "prompt": "Held body receipt NEVER VOTED stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a held body with a part you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0720-cheerful-strap",
+        "prompt": "Smiling strap harness costume hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a strap stays without looking like a harness.",
+        "image": null
+      },
+      {
+        "slug": "0725-compromises-bench",
+        "prompt": "Car pile COMPROMISES bench bolted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car is a pile of compromises with a bench attached.",
+        "image": null
+      },
+      {
+        "slug": "0730-take-belt-away",
+        "prompt": "Cabin puzzle nobody wins no belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the belt away and the cabin becomes a workshop puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0735-routing-geometry",
+        "prompt": "ROUTING GEOMETRY ASSEMBLY WEBBING labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Routing, latch geometry, assembly time, replacement webbing.",
+        "image": null
+      },
+      {
+        "slug": "0740-diagram-stay",
+        "prompt": "Strap diagram STAY without windshield story, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The strap is a diagram of how to stay without the windshield story.",
+        "image": null
+      },
+      {
+        "slug": "0745-click-vote",
+        "prompt": "Click lever voting DIAGONAL OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The click is a vote for a diagonal sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0750-personality-swap",
+        "prompt": "SWAP arrow open bench to three-point, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was always the swap.",
+        "image": null
+      },
+      {
+        "slug": "0755-open-bench",
+        "prompt": "Open bench lap belt sliding, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "An open bench, a lap belt that slid.",
+        "image": null
+      },
+      {
+        "slug": "0800-bohlin-three-point",
+        "prompt": "Bohlin stick figure three-point belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Nils Bohlin with a three-point.",
+        "image": null
+      },
+      {
+        "slug": "0805-shared-patent-line",
+        "prompt": "Shared patent retractor forgot pull, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A shared patent, a retractor that forgot your pull.",
+        "image": null
+      },
+      {
+        "slug": "0810-treaty-crowd",
+        "prompt": "Rental fleet strap TREATY handshake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a rental fleet treating a strap as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0815-what-we-traded",
+        "prompt": "Bench truth MOMENTUM traded away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded a bench that told the truth about momentum.",
+        "image": null
+      },
+      {
+        "slug": "0820-timed-tooled",
+        "prompt": "Timed tooled forgotten belt on line, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "For a strap that could be timed, tooled, and forgotten.",
+        "image": null
+      },
+      {
+        "slug": "0825-real-help",
+        "prompt": "Fewer lectures dignity ROUTE body, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Real help: fewer lectures, dignity, a body you can route.",
+        "image": null
+      },
+      {
+        "slug": "0830-miracle-part-number",
+        "prompt": "MIRACLE and PART NUMBER both true, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0835-myth-nature",
+        "prompt": "MYTH NATURE ADULT START stamps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the belt is nature and the click is the only adult start.",
+        "image": null
+      },
+      {
+        "slug": "0840-harness-seatbelt",
+        "prompt": "Harness wearing SEATBELT name tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the harness and called it a seatbelt.",
+        "image": null
+      },
+      {
+        "slug": "0845-bench-history",
+        "prompt": "Bench labeled HISTORY museum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the bench and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0850-policy-manners",
+        "prompt": "Policy belt in polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The belt is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0855-pretensioner-slack",
+        "prompt": "Pretensioner tightening slack QUIETLY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Pretensioners tightened the slack quietly.",
+        "image": null
+      },
+      {
+        "slug": "0900-lap-only-era",
+        "prompt": "Lap belt preaching WHOLE SERMON label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "There was an era when the lap belt was the whole sermon.",
+        "image": null
+      },
+      {
+        "slug": "0905-shoulder-separate",
+        "prompt": "Shoulder strap SEPARATE HOMEWORK label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Shoulder straps arrived as a separate homework assignment.",
+        "image": null
+      },
+      {
+        "slug": "0910-buckle-sound",
+        "prompt": "Buckle click sound CONTRACT ears trust, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The click sound is a contract your ears learned to trust.",
+        "image": null
+      },
+      {
+        "slug": "0915-webbing-fray",
+        "prompt": "Frayed webbing new buckle same GEOMETRY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Webbing frays, buckles swap, the geometry stays.",
+        "image": null
+      },
+      {
+        "slug": "0920-regulators-shelf",
+        "prompt": "Regulator placing diagonal on SHELF not invent, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Regulators did not invent the diagonal. They shelved it.",
+        "image": null
+      },
+      {
+        "slug": "0925-rental-fleet",
+        "prompt": "Identical rental car latches TREATY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A rental fleet is a treaty written in identical latches.",
+        "image": null
+      },
+      {
+        "slug": "0930-shoulder-memory",
+        "prompt": "Shoulder with diagonal MEMORY ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your shoulder remembers a diagonal you never chose.",
+        "image": null
+      },
+      {
+        "slug": "0935-bench-ghost",
+        "prompt": "Bare bench ghost in modern cabin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bare bench is still a ghost in every cabin.",
+        "image": null
+      },
+      {
+        "slug": "0940-nylon-cheerful",
+        "prompt": "Cheerful nylon fabric POLICY costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Nylon is cheerful. Cheerful is how policy wears fabric.",
+        "image": null
+      },
+      {
+        "slug": "0945-click-before-roll",
+        "prompt": "Click then ROLL PERMISSION stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You click before you roll as if roll required permission.",
+        "image": null
+      },
+      {
+        "slug": "0950-layout-nylon",
+        "prompt": "People nodding at nylon no argue, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A pile of people who agreed not to argue with nylon.",
+        "image": null
+      },
+      {
+        "slug": "0955-hands-wheel",
+        "prompt": "Callback hands wheel strap across chest, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You put your hands on the wheel. The strap will still be there.",
+        "image": null
+      },
+      {
+        "slug": "1000-feel-nothing",
+        "prompt": "Blank calm face victory at buckle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1005-look-buckle",
+        "prompt": "Buckle between red X sky and red X hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the buckle. Not the sky and not a Swedish hero.",
+        "image": null
+      },
+      {
+        "slug": "1010-named-stack",
+        "prompt": "Stack icons bench lap Bohlin Amazon patent retractor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Bench, lap belt, Bohlin nineteen fifty nine, Amazon, shared patent, retractor.",
+        "image": null
+      },
+      {
+        "slug": "1015-diagonal-law",
+        "prompt": "Parking lot diagonal stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A diagonal that owns your parking lot so nylon stays law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-click",
+        "prompt": "Click ok hate chime still driving, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to click. Allowed to hate the chime and still drive.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "NATURAL stamp red X on belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the belt natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-bench",
+        "prompt": "Salute to bench leaving harness, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a bench that left the harness.",
+        "image": null
+      },
+      {
+        "slug": "1040-webbing-point",
+        "prompt": "Cheerful salute on nylon webbing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The webbing is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-diagonal",
+        "prompt": "Stickman driving strap labeled which diagonal, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the strap lets you. Know which diagonal you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-glance-cheerful",
+        "prompt": "Smiling strap harness ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a strap stays without looking like a harness.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback bench Gothenburg YOUR CLICK, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A bench. Gothenburg. Your click.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why You Wear a Strap to Sit Still",
+    "description": "Your seatbelt click feels obvious. Early cars had bare benches. Nils Bohlin patented the three-point belt at Volvo in nineteen fifty nine. Volvo shared the design. The diagonal is logistics.",
+    "tags": [
+      "seatbelt",
+      "volvo",
+      "nils bohlin",
+      "safety",
+      "history",
+      "why",
+      "car",
+      "three-point",
+      "invention"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "CLICK STRAP?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will click a strap across your chest and treat sitting still as obvious. Your hand will find a buckle as if the car grew a ribbon because cars do ribbons. Here is the part that should bother you. The first motorists did not agree. Many of them rode on benches with nothing but hope and a hard stop between them and the windshield. So why does your seat wear a strap as if the strap were physics? Because aircraft already had harness logic, because lap belts arrived as a half answer that could slide, because Nils Bohlin at Volvo patented a three-point belt in nineteen fifty nine and bolted it to the Amazon as a standard part, because Volvo then opened the patent so rivals could copy the geometry without a royalty fight, and because factories learned that a body held at three points is easier to certify than a lecture about caution. That is the whole plot. Your click is not safety by nature. It is a leftover harness habit that learned to live in a cabin. You still buckle. The buckle is flattered. That is its job. The road did not vote. A strap did, and then a latch that taught your shoulder the diagonal until the diagonal started calling itself sense. Sense is a word a buckle invented so a bench would still feel like law when the harness was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the bench, because the belt stole a harness and then sold it back as nylon. Before enclosed cabins, before laminated glass, before a dashboard could host a retractor, riding in a car was a negotiation with momentum you could not see. Early drivers leaned. Early passengers held a rail. Some cars offered nothing but upholstery and the social contract that you would not lunge. When lap belts appeared, they were honest and incomplete. A strap across the lap says stay in the seat. It does not say stay with the seat when the seat moves faster than your ribs remember. If your three-point still feels like the only adult option, notice that the adult option started as aviation paperwork dragged onto a road that was not a runway. The road did not offer ejection seats. The bench still wanted holding. Holding wanted a human grip until the human grip got tired of being the only plan. The grip was not a miracle. It was logistics.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a strap gets a halo it did not earn. Nils Bohlin was not the only person who looked at a bench and thought the joke was incomplete. He was an early loud example with a patent and a Swedish factory behind him. Born in nineteen twenty, trained in aircraft work, hired by Volvo after helping Saab think about how a body leaves a seat when the seat is no longer optional. On the thirteenth of August, nineteen fifty nine, the United States Patent Office issued his patent for a three-point safety belt. Volvo put it on the Amazon model the same year as standard equipment, which is the quiet way a luxury teaches a fleet what normal means. Volvo then shared the design. That is not proof engineers are saints. It is proof that adoption is a second invention, and that a shared geometry beats a locked drawer when the product is a strap everyone needs to copy. If you still treat the belt as a single eureka moment, file the hero separately from the latch. Your click is a Gothenburg harness wearing a century of nylon.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the strap leave the hand, because a horizontal car of speed needed a diagonal that did not require a torso to invent itself mid-turn. Early restraint tricks were honest and exhausting. Grip the rail. Brace a foot. Trust the door. Repeat. A three-point belt is a small insult to momentum with a large gift to the cabin. The lap section anchors low. The shoulder section crosses the chest without asking the driver to assemble a harness like a parachute rig before every grocery run. The buckle says click here without asking the passenger to read a manual in a parking lot. I am not giving you a list of firsts. I am pointing at the swap. We took a bench that said hold on and we replaced it with a strap that said route force here. Route is easier to teach in a showroom. Route is easier to bolt to a dozen models. Route is easier to repeat when the line speeds up. The line is the real inventor. The line does not care about your nostalgia for an unbuckled bench. The line cares about parts that fit and bodies that stay inside the plan.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the belt is a fact, the way a door is a fact. The belt is a policy. In a modern cabin the policy is already on, because the alternative is trusting every driver to remember a lecture about momentum while merging at forty miles an hour with one hand on coffee and one hand on hope. Hope is honest. Straps are scalable. Scalable is how a restraint escapes the test bench and becomes something a city can own in numbers. I am not calling you clumsy for liking a click. I am un-naturing the diagonal. The diagonal is a harness wearing a retractor. The retractor said slack can be law. Law is a feeling when your shoulder finds a strap without remembering when it learned it. If you have ever ridden in something with no belt, even a golf cart on a slope, you know the three-point is not physics. It is a compromise that won a production vote. A vote is not a bench. A vote is a spreadsheet with webbing and a latch catalog.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the webbing travel. Mass production did not invent momentum. It inventoried the answer. When the same seat had to repeat across models, the belt became the part you could source, stamp, ship, and replace without translating a harness ritual for every chassis. Retractors, pretensioners, warning chimes: decades later the strap could spool and tighten, a useful chapter about pulses and sensors, not the origin story of the diagonal itself. Do not make tonight a biopic about one engineer in a courtroom. Make it about the object: nylon, latch, route, repeat. A catalog is a quiet referendum. If your rental car has a three-point and your history book has a bare bench, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint. Volvo sharing the patent is the loudest quiet page in that inventory. A page is not a halo. A page is a factory agreeing that a strap should fit more than one badge.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a parking lot, a click you have performed a thousand times without thanking a Swedish engineer. You reach across your chest because starting would feel reckless without a strap, which is the most modern impossibility there is. None of this makes you cautious by nature. It makes you a person born after the Amazon in nineteen fifty nine and after lap belts learned a shoulder and after a retractor learned to host a chime that beeps. You can feel both in the same motion: relief that you do not have to invent a harness before every errand, and a tiny insult that an aircraft habit won a cabin latch. The relief is real. The insult is the unbuckled bench failing for a second in your imagination. You paid for a held body with a part you never voted on. The part is cheerful. Cheerful is how a strap stays in the century without looking like a harness.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A car is a pile of compromises with a bench attached. That sentence is rude and almost fair. Take the belt away and the cabin becomes a workshop puzzle nobody wins, or a lecture on every model until the shoulder gives up. Routing, latch geometry, assembly time, replacement webbing: the strap is a diagram of how to stay without sending the whole human into the windshield story, written by someone you will not meet. You still click. The click is a vote for a diagonal that was sold as obvious. I am not telling you to hunt for a bare bench as a personality. I am telling you the personality was always the swap: an open bench, a lap belt that slid, Nils Bohlin with a three-point, a Volvo Amazon line, a shared patent, a retractor that forgot your pull. The crowd is still in the cabin. The crowd is you and a rental fleet treating a strap as a treaty. So what did we trade? We traded a bench that told the truth about momentum for a strap that could be timed, tooled, and forgotten. That tooling is real help: fewer lectures, a passenger who keeps dignity, a body you can route with a parts bin. Help can be a miracle and still be a part number. We also gained a myth that the belt is nature and the click is the only adult start. We kept the harness and called it a seatbelt. We kept the bench and called it history. Both can be true and still not be a reason to forget the belt is a policy that learned manners. Deals can be rewritten. Some already were, quietly, when pretensioners tightened the slack. The layout we kept is a pile of people who agreed not to argue with nylon.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will put your hands on the wheel. The strap will still be there. You will feel nothing, which is the victory. Look at the buckle. That is not the sky and it is not a Swedish hero. That is a bench with no plan, a lap belt that half answered, Nils Bohlin in nineteen fifty nine with a three-point and a Volvo Amazon, a shared patent that taught rivals, a retractor shelf that replaced a grip, a brief later chapter about pretensioners if you must, and a diagonal that still owns your parking lot so you will keep treating nylon as law. You are allowed to click. You are allowed to hate the chime and still drive. Just stop calling the belt natural, or inevitable, or proof that you are modern. Tonight, when the latch catches, look at it like a leftover salute to a bench that left the harness. The salute is cheerful. The webbing is the point. Go when the strap lets you. Know which diagonal you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

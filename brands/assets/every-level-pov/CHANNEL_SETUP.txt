@@ -1,11 +1,15 @@
-Every Level POV — YouTube channel setup
+Rank Run POV — YouTube channel setup
 ========================================
 
 Channel name
-  Every Level POV
+  Rank Run POV
 
 Handle suggestion
-  @EveryLevelPOV
+  @RankRunPOV
+  (alternatives if taken: @RankRunPOV1, @TheRankRun, @KitRankPOV)
+
+Email used
+  everylevelpov1@gmail.com
 
 Tagline
   Your life at every rank.
@@ -23,11 +27,12 @@ Profile picture
   (800×800 — face/logo centered; corners crop to circle on all devices)
 
 Channel banner
-  brands/assets/every-level-pov/banner-2560x1440.png
-  (2560×1440 — keep title and Kit inside center TV-safe 1235×338)
+  brands/assets/every-level-pov/banner-2048x1152.png
+  (2048×1152 — keep title and Kit inside center all-devices safe zone)
+  Legacy: brands/assets/every-level-pov/banner-2560x1440.png
 
 Default playlist
-  Every Level
+  Rank Run
 
 Category
   Entertainment
@@ -43,10 +48,13 @@ Altered / synthetic content
 
 Studio checklist
 ----------------
-1. Create channel → name: Every Level POV
+1. Create channel → name: Rank Run POV
 2. Customization → Upload profile-800.png as profile picture
-3. Customization → Upload banner-2560x1440.png as banner art
+3. Customization → Upload banner-2048x1152.png as banner art
 4. About → paste description above
-5. Create playlist: Every Level
-6. Upload first video from output/final/ when pilot is ready
+5. Create playlist: Rank Run
+6. Upload videos from output/final/
 7. Add end screen / cards manually after each upload
+
+Note: "Every Level POV" was unavailable on YouTube. Brand id in repo stays
+every-level-pov; public channel name is Rank Run POV.

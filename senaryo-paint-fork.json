@@ -1,0 +1,1006 @@
+{
+  "project_id": "why-you-stab-dinner-with-a-fork-11dk-20260901",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-stab-plate",
+        "prompt": "Stickman stabbing plate with fork TABLE LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you stab a plate with a fork and treat the tines as table law.",
+        "image": null
+      },
+      {
+        "slug": "0005-hand-tines",
+        "prompt": "Hand on four tines ADULT OPTION question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hand finds four metal prongs as if the fork were always the adult option.",
+        "image": null
+      },
+      {
+        "slug": "0010-fork-physics",
+        "prompt": "Fork lift stamped PHYSICS question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "As if lifting a fork were physics.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-no-agree",
+        "prompt": "Early diner shaking head at fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first diners at your table did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0020-fingers-knives",
+        "prompt": "Fingers bread shared KNIVES labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "They tore bread with fingers and shared knives.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-wrist-lift",
+        "prompt": "Wrist lifting fork PHYSICS stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your wrist lift a fork as if lifting were physics?",
+        "image": null
+      },
+      {
+        "slug": "0030-italian-courts",
+        "prompt": "Italian court refining FORK prongs, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Italian courts refined the pronged tool before English travelers stopped laughing.",
+        "image": null
+      },
+      {
+        "slug": "0035-catherine-1533",
+        "prompt": "Catherine de Medici 1533 FORK HABITS caravan, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Catherine de Medici helped spread fork habits into French service in fifteen thirty-three.",
+        "image": null
+      },
+      {
+        "slug": "0040-coryat-1611",
+        "prompt": "Thomas Coryat 1611 Coryat Crudities travel book, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Thomas Coryat wrote home about Italian forks in sixteen eleven.",
+        "image": null
+      },
+      {
+        "slug": "0045-etiquette-books",
+        "prompt": "Etiquette book LUXURY to LESSON arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Etiquette books turned a luxury into a lesson.",
+        "image": null
+      },
+      {
+        "slug": "0050-stamped-tines",
+        "prompt": "Stamped tines vs lecture CLEAN HANDS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stamped tines are easier to ship than a lecture about clean hands.",
+        "image": null
+      },
+      {
+        "slug": "0055-not-nature",
+        "prompt": "NATURE BY BIRTH stamp red X on fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your fork is not nature by birth.",
+        "image": null
+      },
+      {
+        "slug": "0100-finger-costume",
+        "prompt": "Finger morphing into fork COSTUME four tines, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover finger habit wearing a metal costume with four opinions.",
+        "image": null
+      },
+      {
+        "slug": "0105-eat-flattered",
+        "prompt": "Smiling fork FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The eat is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0110-plate-no-vote",
+        "prompt": "Plate NO VOTE table custom raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The plate did not vote. A table custom did.",
+        "image": null
+      },
+      {
+        "slug": "0115-stab-sense",
+        "prompt": "Wrist word SENSE after fork stab, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The stab taught your wrist until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0120-start-finger",
+        "prompt": "Finger labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the finger.",
+        "image": null
+      },
+      {
+        "slug": "0125-fork-stole-grab",
+        "prompt": "Finger grab stolen by fork MANNERS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The fork stole a grab and sold it back as manners.",
+        "image": null
+      },
+      {
+        "slug": "0130-before-prongs",
+        "prompt": "Timeline before four tine default, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Before pronged tools sat beside every plate, before four tines became default.",
+        "image": null
+      },
+      {
+        "slug": "0135-heat-sauce",
+        "prompt": "Negotiation with HEAT SAUCE no outsource, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Eating was a negotiation with heat and sauce you could not outsource.",
+        "image": null
+      },
+      {
+        "slug": "0140-diners-shared",
+        "prompt": "Diners sharing bread WIPE label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early diners shared. Early hosts offered bread as a wipe.",
+        "image": null
+      },
+      {
+        "slug": "0145-forks-late",
+        "prompt": "Fork at wealthy table HONEST LATE labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When forks arrived at wealthy tables, they were honest and late.",
+        "image": null
+      },
+      {
+        "slug": "0150-pierce-here",
+        "prompt": "PIERCE HERE finger wearing armor fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A fork that says pierce here is a finger wearing armor.",
+        "image": null
+      },
+      {
+        "slug": "0155-room-watching",
+        "prompt": "Room WATCHING polite bite agreement, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bite is polite until the room agrees the room is watching.",
+        "image": null
+      },
+      {
+        "slug": "0200-court-habit",
+        "prompt": "Court habit on table NOT LECTURE HALL, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A court habit dragged onto a table not a lecture hall.",
+        "image": null
+      },
+      {
+        "slug": "0205-finger-wanted-food",
+        "prompt": "Finger speech bubble WANT FOOD, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The finger still wanted the food until the finger got tired.",
+        "image": null
+      },
+      {
+        "slug": "0210-finger-transport",
+        "prompt": "Tired finger ONLY TRANSPORT label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The finger got tired of being the only transport.",
+        "image": null
+      },
+      {
+        "slug": "0215-not-miracle",
+        "prompt": "LOGISTICS stamp on finger not miracle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The finger was not a miracle. It was logistics.",
+        "image": null
+      },
+      {
+        "slug": "0220-named-corners",
+        "prompt": "Halo on fork MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One queen is a halo the fork did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0225-not-one-wedding",
+        "prompt": "Wedding eureka red X many layers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The dinner fork is not one eureka moment at one wedding.",
+        "image": null
+      },
+      {
+        "slug": "0230-layer-cake",
+        "prompt": "Layer cake Byzantine Italian French English, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Byzantine prongs, Italian refinement, French service, English mockery.",
+        "image": null
+      },
+      {
+        "slug": "0235-catherine-corner",
+        "prompt": "1533 marriage FORK CORNER signpost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Catherine de Medici marriage fifteen thirty-three is a named corner.",
+        "image": null
+      },
+      {
+        "slug": "0240-coryat-witness",
+        "prompt": "Coryat witness writing home about fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Coryat's Crudities is a named English witness who wrote home.",
+        "image": null
+      },
+      {
+        "slug": "0245-louis-courses",
+        "prompt": "Louis XIV court separate COURSES tools, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Louis the fourteenth court helped turn courses into separate tools.",
+        "image": null
+      },
+      {
+        "slug": "0250-habit-part-number",
+        "prompt": "Habit becoming PART NUMBER arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The quiet way a habit becomes a part number.",
+        "image": null
+      },
+      {
+        "slug": "0255-traveler-complaint",
+        "prompt": "Traveler complaint wearing homework coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your tines are a traveler complaint wearing centuries of table homework.",
+        "image": null
+      },
+      {
+        "slug": "0300-finger-leaves",
+        "prompt": "Finger walking away from plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the finger leave the plate.",
+        "image": null
+      },
+      {
+        "slug": "0305-shared-knife",
+        "prompt": "Shared knife TREATY red X fork wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A table that did not require every diner to share one knife like a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0310-tear-wipe-pass",
+        "prompt": "Three panel TEAR WIPE PASS REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tear with hands. Wipe with bread. Pass the blade. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0315-small-insult",
+        "prompt": "Fork insulting shared germs gift to host, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A fork is a small insult to shared germs with a large gift to the host.",
+        "image": null
+      },
+      {
+        "slug": "0320-tines-grip",
+        "prompt": "Tines grip food wrist repeats, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The tines grip food. The wrist repeats.",
+        "image": null
+      },
+      {
+        "slug": "0325-route-bite",
+        "prompt": "ROUTE BITE HERE no thumb negotiate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The fork says route the bite here without sauce negotiating every thumb.",
+        "image": null
+      },
+      {
+        "slug": "0330-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0335-finger-grab",
+        "prompt": "Finger speech bubble GRAB THIS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We took a finger that said grab this.",
+        "image": null
+      },
+      {
+        "slug": "0340-prongs-pierce",
+        "prompt": "Prongs PIERCE LIFT HERE arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We replaced it with prongs that said pierce and lift here.",
+        "image": null
+      },
+      {
+        "slug": "0345-pierce-etiquette",
+        "prompt": "Etiquette book teaching PIERCE checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Pierce is easier to teach in an etiquette book.",
+        "image": null
+      },
+      {
+        "slug": "0350-pierce-stamp",
+        "prompt": "Factory stamping fork tines PIERCE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Pierce is easier to stamp in a factory line.",
+        "image": null
+      },
+      {
+        "slug": "0355-line-inventor",
+        "prompt": "Factory line labeled REAL INVENTOR, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0400-knife-nostalgia",
+        "prompt": "Shared knife nostalgia red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line does not care about nostalgia for a shared knife.",
+        "image": null
+      },
+      {
+        "slug": "0405-rehook-fact",
+        "prompt": "Fork vs plate both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You think the fork is a fact, the way a plate is a fact.",
+        "image": null
+      },
+      {
+        "slug": "0410-fork-policy",
+        "prompt": "POLICY stamp on fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The fork is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0415-sauce-cuffs",
+        "prompt": "Hot food sauce on cuffs red X fork wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Trusting every guest to handle hot food while a host watches sauce on cuffs.",
+        "image": null
+      },
+      {
+        "slug": "0420-fingers-honest",
+        "prompt": "FINGERS honest FORKS scalable scales, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fingers are honest. Forks are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0425-un-naturing",
+        "prompt": "Fork NATURAL stamp peeling off, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "I am un-naturing the tines.",
+        "image": null
+      },
+      {
+        "slug": "0430-finger-lesson",
+        "prompt": "Finger wearing metal LESSON coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The tines are a finger wearing a metal lesson.",
+        "image": null
+      },
+      {
+        "slug": "0435-blade-law",
+        "prompt": "Shared blades CAN BE LAW stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The lesson said shared blades can be law.",
+        "image": null
+      },
+      {
+        "slug": "0440-spoon-knife-only",
+        "prompt": "Camp meal spoon knife no fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "If you ate somewhere with only a spoon and a knife.",
+        "image": null
+      },
+      {
+        "slug": "0445-not-physics",
+        "prompt": "PHYSICS stamp red X on fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You know the fork is not physics.",
+        "image": null
+      },
+      {
+        "slug": "0450-table-vote",
+        "prompt": "Dining table voting fork wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compromise that won a table vote.",
+        "image": null
+      },
+      {
+        "slug": "0455-spreadsheet-silver",
+        "prompt": "Spreadsheet silver registry catalog, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A vote is a spreadsheet with silver plate and a wedding registry.",
+        "image": null
+      },
+      {
+        "slug": "0500-stamp-travel",
+        "prompt": "Metal stamp traveling across frame, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the stamp travel.",
+        "image": null
+      },
+      {
+        "slug": "0505-inventoried-answer",
+        "prompt": "Factory inventory forks shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0510-stamp-ship-replace",
+        "prompt": "STAMP PLATE SHIP REPLACE conveyor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stamp, plate, ship, replace without a court ritual.",
+        "image": null
+      },
+      {
+        "slug": "0515-stainless-four",
+        "prompt": "Stainless four tines LATER CHAPTER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stainless steel, four tines, salad fork: a later chapter.",
+        "image": null
+      },
+      {
+        "slug": "0520-no-etiquette-war",
+        "prompt": "ETIQUETTE WAR stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Do not make tonight an etiquette war about which nation won.",
+        "image": null
+      },
+      {
+        "slug": "0525-object-metal",
+        "prompt": "METAL TINE WRIST REPEAT icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: metal, tine, wrist, repeat.",
+        "image": null
+      },
+      {
+        "slug": "0530-catalog-referendum",
+        "prompt": "Quiet catalog REFERENDUM whisper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0535-drawer-vs-knife",
+        "prompt": "Six forks vs shared knife gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your drawer has six forks and your history book has a shared knife.",
+        "image": null
+      },
+      {
+        "slug": "0540-inventory-fight",
+        "prompt": "Past losing fight INVENTORY filing cabinet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Inventory is how the past loses a fight without filing a complaint.",
+        "image": null
+      },
+      {
+        "slug": "0545-this-is-you",
+        "prompt": "Stickman labeled THIS IS YOU restaurant table, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you, already, in the middle of the story.",
+        "image": null
+      },
+      {
+        "slug": "0550-wednesday-lift",
+        "prompt": "Wednesday restaurant lift no thank traveler, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Wednesday, a restaurant table, a lift without thanking a traveler.",
+        "image": null
+      },
+      {
+        "slug": "0555-stab-leaf",
+        "prompt": "Stabbing salad leaf RECKLESS without fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You stab a leaf because tearing would feel reckless.",
+        "image": null
+      },
+      {
+        "slug": "0600-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY stamp on lift, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0605-after-coryat",
+        "prompt": "Timeline after Coryat joke became habit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after Coryat's joke aged into habit.",
+        "image": null
+      },
+      {
+        "slug": "0610-drawer-specialize",
+        "prompt": "Drawer learning SPECIALIZATION morph, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After drawers learned specialization.",
+        "image": null
+      },
+      {
+        "slug": "0615-courses-multiply",
+        "prompt": "Fork hosting multiplying courses, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After a fork learned to host courses that multiply.",
+        "image": null
+      },
+      {
+        "slug": "0620-relief-insult",
+        "prompt": "Relief checkmark insult court habit wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not negotiate sauce with a thumb, insult a court habit won.",
+        "image": null
+      },
+      {
+        "slug": "0625-finger-imagination",
+        "prompt": "Ghost finger failing imagination, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The finger failing for a second in your imagination.",
+        "image": null
+      },
+      {
+        "slug": "0630-never-voted",
+        "prompt": "Table peace NEVER VOTED stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for table peace with a tool you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0635-cheerful-fork",
+        "prompt": "Smiling fork finger costume hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a fork stays without looking like a finger.",
+        "image": null
+      },
+      {
+        "slug": "0640-compromises-drawer",
+        "prompt": "Table pile COMPROMISES drawer bolted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A table is a pile of compromises with a utensil drawer attached.",
+        "image": null
+      },
+      {
+        "slug": "0645-take-fork-away",
+        "prompt": "Meal puzzle nobody wins no fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the fork away and the meal becomes a workshop puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0650-tine-geometry",
+        "prompt": "TINE SAUCE COURSE STAMP labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tine length, sauce grip, course count, replacement stamp.",
+        "image": null
+      },
+      {
+        "slug": "0655-diagram-bite",
+        "prompt": "Fork diagram BITE without laundry story, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The fork is a diagram of how to eat without the laundry story.",
+        "image": null
+      },
+      {
+        "slug": "0700-lift-vote",
+        "prompt": "Lift voting PRONGS OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The lift is a vote for prongs sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0705-personality-swap",
+        "prompt": "SWAP arrow finger to fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was always the swap.",
+        "image": null
+      },
+      {
+        "slug": "0710-grab-blade",
+        "prompt": "Grab and shared blade icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A grab, a shared blade.",
+        "image": null
+      },
+      {
+        "slug": "0715-joke-service",
+        "prompt": "Traveler joke French service icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A traveler joke, a French service line.",
+        "image": null
+      },
+      {
+        "slug": "0720-registry-forgot",
+        "prompt": "Registry sheet forgetting bread wipe, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A registry sheet that forgot your bread wipe.",
+        "image": null
+      },
+      {
+        "slug": "0725-treaty-wedding",
+        "prompt": "Wedding fleet fork TREATY handshake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a wedding fleet treating a fork as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0730-what-we-traded",
+        "prompt": "Finger truth HEAT traded away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded a finger that told the truth about heat.",
+        "image": null
+      },
+      {
+        "slug": "0735-stamped-taught",
+        "prompt": "Stamped plated taught fork on line, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "For a tool that could be stamped, plated, and taught.",
+        "image": null
+      },
+      {
+        "slug": "0740-real-help",
+        "prompt": "Fewer shared blades CLEAN CUFFS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Real help: fewer shared blades, cuffs stay clean.",
+        "image": null
+      },
+      {
+        "slug": "0745-miracle-part-number",
+        "prompt": "MIRACLE and PART NUMBER both true, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0750-myth-nature",
+        "prompt": "MYTH NATURE ADULT TABLE stamps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the fork is nature and tines are the only adult table.",
+        "image": null
+      },
+      {
+        "slug": "0755-finger-casual",
+        "prompt": "Finger labeled CASUAL picnic, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the finger and called it casual.",
+        "image": null
+      },
+      {
+        "slug": "0800-court-history",
+        "prompt": "Court labeled HISTORY museum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the court and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0805-policy-manners",
+        "prompt": "Policy fork in polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The fork is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0810-byzantine-prong",
+        "prompt": "Byzantine prong OLD NEWS label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "There was an era when the Byzantine prong was already old news.",
+        "image": null
+      },
+      {
+        "slug": "0815-english-mockery",
+        "prompt": "English mockery aging into DRAWER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "English mockery aged into drawer inventory.",
+        "image": null
+      },
+      {
+        "slug": "0820-drawer-real-estate",
+        "prompt": "Drawer REAL ESTATE piercing department, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The drawer is real estate with a piercing department.",
+        "image": null
+      },
+      {
+        "slug": "0825-table-separate",
+        "prompt": "Table peace SEPARATE HOMEWORK label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Table peace arrived as a separate homework assignment.",
+        "image": null
+      },
+      {
+        "slug": "0830-restaurant-line",
+        "prompt": "Restaurant line teaching WAITING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The restaurant line taught the fork what waiting means.",
+        "image": null
+      },
+      {
+        "slug": "0835-registry-photograph",
+        "prompt": "Registry photograph learned to SELL, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A registry photograph learned to sell.",
+        "image": null
+      },
+      {
+        "slug": "0840-bite-before-agree",
+        "prompt": "Bite wanting speed room disagreeing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bite wanted speed before the room agreed.",
+        "image": null
+      },
+      {
+        "slug": "0845-four-tine-policy",
+        "prompt": "Four tines TABLE POLICY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Four tines is a table policy written in metal.",
+        "image": null
+      },
+      {
+        "slug": "0850-catalog-etiquette",
+        "prompt": "Catalog beating sermon MANNERS alike, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The catalog beat the sermon when manners sounded alike.",
+        "image": null
+      },
+      {
+        "slug": "0855-clink-sound",
+        "prompt": "Fork clink sound CONTRACT ears trust, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The clink sound is a contract your ears learned to trust.",
+        "image": null
+      },
+      {
+        "slug": "0900-metal-wear",
+        "prompt": "Worn metal new stamp same TINES, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Metal wears, stamps swap, the tines stay.",
+        "image": null
+      },
+      {
+        "slug": "0905-etiquette-shelf",
+        "prompt": "Etiquette writer placing finger on SHELF fork wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Etiquette writers did not invent the fork. They shelved the finger.",
+        "image": null
+      },
+      {
+        "slug": "0910-fleet-treaty",
+        "prompt": "Identical forks TREATY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A wedding fleet is a treaty written in identical forks.",
+        "image": null
+      },
+      {
+        "slug": "0915-wrist-memory",
+        "prompt": "Wrist with fork stab MEMORY ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your wrist remembers a stab you never chose.",
+        "image": null
+      },
+      {
+        "slug": "0920-finger-ghost",
+        "prompt": "Finger ghost in modern place setting, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The finger is still a ghost in every place setting.",
+        "image": null
+      },
+      {
+        "slug": "0925-metal-cheerful",
+        "prompt": "Cheerful metal fork POLICY costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Metal is cheerful. Cheerful is how policy wears a fork.",
+        "image": null
+      },
+      {
+        "slug": "0930-lift-before-bite",
+        "prompt": "Lift then BITE PERMISSION stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You lift before you bite as if bite required permission.",
+        "image": null
+      },
+      {
+        "slug": "0935-layout-metal",
+        "prompt": "People nodding at fork tines no argue, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A pile of people who agreed not to argue with tines.",
+        "image": null
+      },
+      {
+        "slug": "0940-set-down",
+        "prompt": "Callback setting fork down tines remain, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will set the fork down. The tines will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0945-feel-nothing",
+        "prompt": "Blank calm face victory at fork clink, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0950-look-tines",
+        "prompt": "Tines between red X sky and red X hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the prongs. Not the sky and not a cooking hero.",
+        "image": null
+      },
+      {
+        "slug": "0955-named-stack",
+        "prompt": "Stack icons finger knife caravan book stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Finger, shared knife, fifteen thirty-three caravan, sixteen eleven travel book, molded stamp.",
+        "image": null
+      },
+      {
+        "slug": "1000-tine-law",
+        "prompt": "Wrist fork stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tool that owns your wrist so metal stays law.",
+        "image": null
+      },
+      {
+        "slug": "1005-allowed-lift",
+        "prompt": "Lift ok hate sauce still dining, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to lift. Allowed to hate sauce season and still dine.",
+        "image": null
+      },
+      {
+        "slug": "1010-not-natural",
+        "prompt": "NATURAL stamp red X on fork, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the fork natural.",
+        "image": null
+      },
+      {
+        "slug": "1015-not-inevitable",
+        "prompt": "INEVITABLE CIVILIZED stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are civilized.",
+        "image": null
+      },
+      {
+        "slug": "1020-leftover-finger",
+        "prompt": "Salute to finger leaving bite, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a finger that left the bite.",
+        "image": null
+      },
+      {
+        "slug": "1025-stab-point",
+        "prompt": "Cheerful salute on fork stab, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The stab is the point.",
+        "image": null
+      },
+      {
+        "slug": "1030-know-prong",
+        "prompt": "Stickman dining fork labeled which prong, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Eat when the room lets you. Know which prong you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1035-glance-cheerful",
+        "prompt": "Smiling tines finger ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how tines stay without looking like a finger.",
+        "image": null
+      },
+      {
+        "slug": "1040-salad-chapter",
+        "prompt": "Salad fork LATER CHAPTER label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Salad fork is a brief later chapter if you must.",
+        "image": null
+      },
+      {
+        "slug": "1045-tine-repeat",
+        "prompt": "Fork costume repeating REGISTRY no nostalgia, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A costume that repeats on every registry without asking your nostalgia.",
+        "image": null
+      },
+      {
+        "slug": "1050-prong-first",
+        "prompt": "Tine meeting plate before LESSON, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The tine meets the plate before the lesson does.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback finger TRAVEL BOOK YOUR LIFT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A finger. A travel book. Your lift.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why You Stab Dinner With a Fork",
+    "description": "Your fork feels obvious. Early diners used fingers and shared knives. Catherine de Medici and Thomas Coryat helped spread pronged habits. The tines are logistics.",
+    "tags": [
+      "fork",
+      "table manners",
+      "etiquette",
+      "history",
+      "why",
+      "utensil",
+      "dining",
+      "catherine de medici",
+      "thomas coryat"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "FORK WEIRD?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will stab a plate with a fork and treat the tines as table law. Your hand will find four metal prongs as if the fork were always the adult option. Here is the part that should bother you. The first diners at your table did not agree. Many of them tore bread with fingers, shared knives, and let the food come to the mouth without a middleman made of steel. So why does your wrist lift a fork as if lifting were physics? Because Italian courts refined the pronged tool long before English travelers stopped laughing at it, because Catherine de Medici's entourage helped spread fork habits into French service in the fifteen thirties, because Thomas Coryat wrote home about Italian forks in sixteen eleven and made England notice, because etiquette books turned a luxury into a lesson, and because factories learned that stamped tines are easier to ship than a lecture about clean hands. That is the whole plot. Your fork is not nature by birth. It is a leftover finger habit wearing a metal costume with four opinions. You still eat. The eat is flattered. That is its job. The plate did not vote. A table custom did, and then a fork that taught your wrist the stab until the stab started calling itself sense. Sense is a word tines invented so dinner would still feel like law when the fingers left the story.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the finger, because the fork stole a grab and then sold it back as manners. Before pronged tools sat beside every plate, before four tines became the boring default, before a salad could be a small war you win with stainless steel, eating was a negotiation with heat and sauce you could not outsource. Early diners shared. Early hosts offered bread as a wipe. When forks arrived at wealthy tables, they were honest and late. A fork that says pierce here is a finger wearing armor. It does not say the bite is polite until the room agrees the room is watching. If your fork still feels like the only adult option, notice that the adult option started as a court habit dragged onto a table that was not a lecture hall. The table did not offer a sermon. The finger still wanted the food until the finger got tired of being the only transport. The finger was not a miracle. It was logistics.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one queen is how a fork gets a halo it did not earn. The dinner fork is not a single eureka moment you can pin on one wedding in one year. It is a layer cake of Byzantine prongs, Italian refinement, French service, English mockery, and a stamped utensil that behaved nicely when you needed to sell a place setting in a catalog. Catherine de Medici did not invent the fork in a laboratory, but her marriage to Henry the second in fifteen thirty-three is a named corner where Italian table tools traveled with a court that already loved ceremony. Thomas Coryat's Coryat's Crudities in sixteen eleven is a named English witness who saw forks in Italy and wrote home like a man reporting a scandal that would become normal. Louis the fourteenth's court helped turn separate courses into separate tools. If you still treat the fork as sacred silver, file the etiquette book separately from the bite. Your tines are a traveler complaint wearing centuries of table homework.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the finger leave the plate, because a horizontal table of guests needed a tool that did not require every diner to share one knife like a treaty. Early eating tricks were honest and exhausting. Tear with hands. Wipe with bread. Pass the blade. Repeat. A fork is a small insult to shared germs with a large gift to the host. The tines grip food. The wrist repeats. The fork says route the bite here without asking the sauce to negotiate with every thumb. I am not giving you a list of firsts. I am pointing at the swap. We took a finger that said grab this and we replaced it with prongs that said pierce and lift here. Pierce is easier to teach in an etiquette book. Pierce is easier to stamp in a factory line. Pierce is easier to repeat when the dining room grows. The line is the real inventor. The line does not care about your nostalgia for a shared knife. The line cares about tines that match and tables that stay inside the lesson plan.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the fork is a fact, the way a plate is a fact. The fork is a policy. In a modern dining room the policy is already on, because the alternative is trusting every guest to handle hot food with fingers while a host watches for sauce on cuffs. Fingers are honest. Forks are scalable. Scalable is how a court habit escapes the palace and becomes something a department store can own in numbers. I am not calling you prissy for liking a fork. I am un-naturing the tines. The tines are a finger wearing a metal lesson. The lesson said shared blades can be law. Law is a feeling when your wrist lifts a fork without remembering when it learned the lift. If you have ever eaten somewhere with only a spoon and a knife, even a camp meal with no prongs, you know the fork is not physics. It is a compromise that won a table vote. A vote is not a cooking show. A vote is a spreadsheet with silver plate, stainless stamp, and a wedding registry.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the stamp travel. Mass production did not invent hunger. It inventoried the answer. When the same place setting had to repeat across a middle-class table, the fork became the part you could stamp, plate, ship, and replace without translating a court ritual for every dining room. Stainless steel, four tines, salad fork, dessert fork: decades later the drawer could multiply, a useful chapter about alloys and catalogs, not the origin story of the prong itself. Do not make tonight a etiquette war about which nation won the politest bite. Make it about the object: metal, tine, wrist, repeat. A catalog is a quiet referendum. If your drawer has six forks and your history book has a shared knife, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Wednesday, a restaurant table, a lift you have performed a thousand times without thanking a traveler who got mocked for writing home. You stab a leaf because tearing would feel reckless without tines, which is the most modern impossibility there is. None of this makes you fussy by nature. It makes you a person born after Coryat's joke aged into habit and after drawers learned specialization and after a fork learned to host courses that multiply. You can feel both in the same motion: relief that you do not have to negotiate sauce with a thumb, and a tiny insult that a court habit won a wrist slot. The relief is real. The insult is the finger failing for a second in your imagination. You paid for table peace with a tool you never voted on. The tool is cheerful. Cheerful is how a fork stays in the century without looking like a finger.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A table is a pile of compromises with a utensil drawer attached. That sentence is rude and almost fair. Take the fork away and the meal becomes a workshop puzzle nobody wins, or a host who becomes a knife broker until the roast cools. Tine length, sauce grip, course count, replacement stamp: the fork is a diagram of how to eat without sending the whole shirt into the laundry story, written by someone you will not meet. You still lift. The lift is a vote for prongs that were sold as obvious. I am not telling you to hunt for fingers as a personality. I am telling you the personality was always the swap: a grab, a shared blade, a traveler joke, a French service line, a registry sheet that forgot your bread wipe. The crowd is still at the table. The crowd is you and a wedding fleet treating a fork as a treaty. So what did we trade? We traded a finger that told the truth about heat for a tool that could be stamped, plated, and taught. That tooling is real help: fewer shared blades, a guest who keeps cuffs clean, a bite you can route with a drawer. Help can be a miracle and still be a part number. We also gained a myth that the fork is nature and the tines are the only adult table. We kept the finger and called it casual. We kept the court and called it history. Both can be true and still not be a reason to forget the fork is a policy that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will set the fork down. The tines will still be there. You will feel nothing, which is the victory. Look at the prongs. That is not the sky and it is not a cooking hero. That is a finger, a shared knife, a fifteen thirty-three court caravan, a sixteen eleven travel book that made England blush, a molded stamp that replaced a grab, a registry photograph that replaced a bread wipe, a brief later chapter about salad forks if you must, and a tool that still owns your wrist so you will keep treating metal as law. You are allowed to lift. You are allowed to hate sauce season and still dine. Just stop calling the fork natural, or inevitable, or proof that you are civilized. Tonight, when the tines catch the plate light, look at them like a leftover salute to a finger that left the bite. The salute is cheerful. The stab is the point. Eat when the room lets you. Know which prong you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

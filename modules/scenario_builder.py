@@ -41,10 +41,14 @@ from config.constants import (
     POV_CATEGORY_ID,
     POV_DEFAULT_MINUTES,
     POV_PLACEHOLDER_SEARCH_TERMS,
+    POV_SUBTITLE_ACCENT,
     POV_SUBTITLE_COLOR,
+    POV_SUBTITLE_FONT,
     POV_SUBTITLE_FONT_SIZE,
+    POV_SUBTITLE_KARAOKE,
     POV_SUBTITLE_POSITION_RATIO,
     POV_SUBTITLE_STROKE,
+    POV_SUBTITLE_STROKE_WIDTH,
     POV_TTS_RATE,
     POV_TTS_VOICE,
     POV_ZOOM_END,
@@ -466,6 +470,9 @@ def build_paint_scenario(
     subtitle_stroke: str | None = None,
     numeral_display: bool = False,
     use_zenn: bool | None = None,
+    subtitle_karaoke: bool = False,
+    subtitle_font: str | Path | None = None,
+    subtitle_stroke_width: int | None = None,
 ) -> Scenario:
     """Assemble a Badly Drawn Why scenario: spoken essay + drawing beats, no Pexels.
 
@@ -497,6 +504,8 @@ def build_paint_scenario(
         numeral_display: When true, years and large counts show as digits in captions.
         use_zenn: Stick-cut Zenn renderer (~2s programmatic beats). Defaults to false;
             legacy MS Paint stills need ``visual_beats`` and ``use_zenn=False``.
+        subtitle_karaoke: Word-sync karaoke burn-in using Edge TTS word timings.
+        subtitle_font: Explicit font path; defaults to project font when omitted.
 
     Returns:
         A validated paint scenario.
@@ -623,8 +632,14 @@ def build_paint_scenario(
             "font_size": subtitle_font_size or STORY_SUBTITLE_FONT_SIZE,
             "position_ratio": subtitle_position_ratio or STORY_SUBTITLE_POSITION_RATIO,
             "color": subtitle_color or "#FFFFFF",
-            "stroke_width": 5,
+            "stroke_width": subtitle_stroke_width or 5,
+            **({"font": str(subtitle_font)} if subtitle_font else {}),
             **({"stroke_color": subtitle_stroke} if subtitle_stroke else {}),
+            **(
+                {"karaoke": True, "accent_color": subtitle_accent or "#FFD600"}
+                if subtitle_karaoke
+                else {}
+            ),
             **({"accent_color": subtitle_accent or "#FFD600"} if zenn or subtitle_accent else {}),
             **({"numeral_display": True} if numeral_display else {}),
         },
@@ -784,10 +799,13 @@ def build_pov_scenario(
     target_seconds: float | None = None,
     minutes: int | None = None,
     tts_rate: str | None = None,
+    scene_gap: float | None = None,
+    zoom_body_end: float | None = None,
     subtitle_font_size: int | None = None,
     subtitle_position_ratio: float | None = None,
     subtitle_color: str | None = None,
     subtitle_stroke: str | None = None,
+    subtitle_accent: str | None = None,
 ) -> Scenario:
     """Assemble an Every Level POV scenario: rank progression, cartoon beats, no Pexels.
 
@@ -804,6 +822,8 @@ def build_pov_scenario(
         target_seconds: Desired spoken length, stored for ``run`` trimming.
         minutes: When set, the project id includes ``{minutes}dk``.
         tts_rate: Edge TTS rate; ``POV_TTS_RATE`` when omitted.
+        scene_gap: Silence after each chapter; tighter gaps feel faster.
+        zoom_body_end: Ken Burns end scale; higher values feel more energetic.
         subtitle_font_size: Burn-in size; POV default when omitted.
         subtitle_position_ratio: Caption vertical ratio.
         subtitle_color: Burn-in fill colour.
@@ -823,17 +843,21 @@ def build_pov_scenario(
         target_seconds=target_seconds,
         minutes=POV_DEFAULT_MINUTES if minutes is None else minutes,
         tts_rate=tts_rate or POV_TTS_RATE,
+        scene_gap=0.3 if scene_gap is None else scene_gap,
         category_id=POV_CATEGORY_ID,
         subtitle_font_size=subtitle_font_size or POV_SUBTITLE_FONT_SIZE,
         subtitle_position_ratio=subtitle_position_ratio or POV_SUBTITLE_POSITION_RATIO,
         placeholder_search_terms=POV_PLACEHOLDER_SEARCH_TERMS,
-        zoom_opening_end=POV_ZOOM_END,
-        zoom_body_end=POV_ZOOM_END,
+        zoom_opening_end=POV_ZOOM_END if zoom_body_end is None else zoom_body_end,
+        zoom_body_end=POV_ZOOM_END if zoom_body_end is None else zoom_body_end,
         brand_id=EVERY_LEVEL_POV_BRAND_ID,
         subtitle_color=subtitle_color or POV_SUBTITLE_COLOR,
-        subtitle_accent=None,
+        subtitle_accent=subtitle_accent or POV_SUBTITLE_ACCENT,
         subtitle_stroke=subtitle_stroke or POV_SUBTITLE_STROKE,
         numeral_display=True,
+        subtitle_karaoke=POV_SUBTITLE_KARAOKE,
+        subtitle_font=POV_SUBTITLE_FONT,
+        subtitle_stroke_width=POV_SUBTITLE_STROKE_WIDTH,
     )
 
 

@@ -1,0 +1,538 @@
+{
+  "project_id": "the-town-that-could-not-stop-dancing-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-street-no-band",
+        "prompt": "Cartoon title beat: a cobbled street, one woman mid-step, empty music stand, cream paper. Kind, not mocking. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A city tried to cure dancing by hiring a band.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-a-festival",
+        "prompt": "Ink shaking his head at a FESTIVAL stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a metaphor. Not a festival cartoon.",
+        "image": null
+      },
+      {
+        "slug": "0020-july-1518",
+        "prompt": "Cartoon calendar July 1518, a half-timbered street, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "July 1518, Strasbourg in Alsace.",
+        "image": null
+      },
+      {
+        "slug": "0030-frau-troffea",
+        "prompt": "A named woman silhouette dancing, a silent fiddle with an X. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Frau Troffea began to dance with no music.",
+        "image": null
+      },
+      {
+        "slug": "0040-four-chronicles",
+        "prompt": "Six little chronicle books, four circled, two dim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Four of six chronicles put a named woman first.",
+        "image": null
+      },
+      {
+        "slug": "0050-fourteenth",
+        "prompt": "A calendar 14 circled with LATER written small. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A later retelling pins the day as July 14.",
+        "image": null
+      },
+      {
+        "slug": "0100-a-week",
+        "prompt": "Seven day boxes, a rest pillow on one, dance swirl on others. Not cruel. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "She kept going about a week, rest, then again.",
+        "image": null
+      },
+      {
+        "slug": "0110-thirty-more",
+        "prompt": "A small crowd of simple figures, 30+ label, not a party. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Within days more than 30 people were moving the same way.",
+        "image": null
+      },
+      {
+        "slug": "0120-not-joyful",
+        "prompt": "A JOY meter at empty, a vacant-not-mean cartoon face. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Observers said the motion looked vacant, not joyful.",
+        "image": null
+      },
+      {
+        "slug": "0130-keep-picture",
+        "prompt": "Three icons: street, council table, HOT BLOOD flask. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A street. A council. Physicians writing hot blood.",
+        "image": null
+      },
+      {
+        "slug": "0140-brittle-city",
+        "prompt": "A city skyline with a CRACK label, cream paper. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Strasbourg was already brittle in 1518.",
+        "image": null
+      },
+      {
+        "slug": "0150-waller-pile",
+        "prompt": "A Lancet-ish notebook: GRAIN, HARVEST, DISEASE stacked. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Waller: bad harvests, high grain, disease in the file.",
+        "image": null
+      },
+      {
+        "slug": "0200-vitus-curse",
+        "prompt": "A saint icon and a DANCE curse tag, not a horror poster. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "People already believed Saint Vitus could curse a dance.",
+        "image": null
+      },
+      {
+        "slug": "0210-instruction-set",
+        "prompt": "A manual titled IF VITUS, THEN DANCE. Ink reading, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "That belief was the local instruction set.",
+        "image": null
+      },
+      {
+        "slug": "0220-three-dozen",
+        "prompt": "A tally 36, simple hats, not a rave. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "By week's end about three dozen.",
+        "image": null
+      },
+      {
+        "slug": "0230-fifty-to-four-hundred",
+        "prompt": "A slider from 50 to 400, IMLIN tag on the high end. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "By August the range is 50 to 400.",
+        "image": null
+      },
+      {
+        "slug": "0240-not-a-turnstile",
+        "prompt": "A turnstile with a question mark, 400 in quotes. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Four hundred is a chronicle ceiling, not a turnstile.",
+        "image": null
+      },
+      {
+        "slug": "0250-call-physicians",
+        "prompt": "A council table passing a folder to a PHYSICIANS hat. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The city called the physicians.",
+        "image": null
+      },
+      {
+        "slug": "0300-hot-blood",
+        "prompt": "A thermometer flask labeled HOT BLOOD, not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They called it a natural disease from overheated blood.",
+        "image": null
+      },
+      {
+        "slug": "0310-dance-free",
+        "prompt": "A prescription pad: DANCE IT OUT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Prescription: dance themselves free of it.",
+        "image": null
+      },
+      {
+        "slug": "0320-specklin",
+        "prompt": "An architect's notebook SPECKLIN, guild-hall sketch. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Daniel Specklin records the work order.",
+        "image": null
+      },
+      {
+        "slug": "0330-guild-halls",
+        "prompt": "Two guild signs CARPENTERS and TANNERS over a dance floor. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Carpenters and tanners turned halls into floors.",
+        "image": null
+      },
+      {
+        "slug": "0340-two-markets",
+        "prompt": "Two stages labeled HORSE MARKET and GRAIN MARKET. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Platforms in the horse market and the grain market.",
+        "image": null
+      },
+      {
+        "slug": "0350-hired-band",
+        "prompt": "A cartoon band with those four instruments, paid sacks. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Dozens of musicians: drums, fiddles, pipes, horns.",
+        "image": null
+      },
+      {
+        "slug": "0400-healthy-dancers",
+        "prompt": "Helpers in bright shoes beside tired simple figures, kind not mocking. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Healthy dancers brought in as encouragement.",
+        "image": null
+      },
+      {
+        "slug": "0410-strong-men",
+        "prompt": "Two helpers supporting a tired dancer, respectful, no slapstick cruelty. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Strong men hired to keep people upright.",
+        "image": null
+      },
+      {
+        "slug": "0420-controlled-exhaustion",
+        "prompt": "A plan diagram: STAGE then REST then CURE? Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The official idea was controlled exhaustion.",
+        "image": null
+      },
+      {
+        "slug": "0430-the-stage",
+        "prompt": "A spotlight on a market platform, INVOICE under it. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The unofficial idea was a stage.",
+        "image": null
+      },
+      {
+        "slug": "0440-following-brief",
+        "prompt": "Ink pointing at a BRIEF folder, not a STUPID stamp, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They were following the medical brief they had.",
+        "image": null
+      },
+      {
+        "slug": "0450-watching-spreads",
+        "prompt": "Eyes in a crowd, dotted arrows of attention, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A fear that spreads by watching.",
+        "image": null
+      },
+      {
+        "slug": "0500-soundtrack",
+        "prompt": "Sound notes flying off a stage into side streets. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The contagion got a soundtrack.",
+        "image": null
+      },
+      {
+        "slug": "0510-ban-dancing",
+        "prompt": "A big NO DANCING seal over the market. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Then the council banned public dancing.",
+        "image": null
+      },
+      {
+        "slug": "0520-ban-music",
+        "prompt": "Instruments with mute bags, BAND CLOSED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They banned the music too.",
+        "image": null
+      },
+      {
+        "slug": "0530-mismatch",
+        "prompt": "A poster CURE that looks identical to the symptom swirl. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A work order that advertised the symptom.",
+        "image": null
+      },
+      {
+        "slug": "0540-shrine-plan",
+        "prompt": "A road arrow from market to CHAPEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "If it was a curse, only a shrine could close it.",
+        "image": null
+      },
+      {
+        "slug": "0550-saverne",
+        "prompt": "A hill chapel SAVERNE, small travelers, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A day's ride to Saverne, Saint Vitus in the hills.",
+        "image": null
+      },
+      {
+        "slug": "0600-red-shoes",
+        "prompt": "A pair of red shoes with tiny crosses, objects not wounds. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Red shoes, holy water, painted crosses on the soles.",
+        "image": null
+      },
+      {
+        "slug": "0610-incense-latin",
+        "prompt": "Smoke curls and a Latin book, kind ritual, not horror. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Incense, Latin, small crosses in their hands.",
+        "image": null
+      },
+      {
+        "slug": "0620-forgiven",
+        "prompt": "A FORGIVEN banner, the pilgrim stream shrinking. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Word came back that Vitus had forgiven them.",
+        "image": null
+      },
+      {
+        "slug": "0630-more-than-month",
+        "prompt": "A summer bar from JUL to SEP, over a month. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mid-July into late August or early September.",
+        "image": null
+      },
+      {
+        "slug": "0640-aachen-1374",
+        "prompt": "A timeline: 1374 AACHEN, then 1518 STRASBOURG. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Aachen had a famous outbreak in 1374.",
+        "image": null
+      },
+      {
+        "slug": "0650-unhire-venue",
+        "prompt": "A lease paper torn between HIRE and UNHIRE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They hired a venue, then tried to unhire it.",
+        "image": null
+      },
+      {
+        "slug": "0700-no-body-count",
+        "prompt": "A 1518 ledger with the DEATHS line blank. Respectful. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Contemporary notes do not print a death toll.",
+        "image": null
+      },
+      {
+        "slug": "0710-fifteen-a-day",
+        "prompt": "A calculator 15 x DAYS = ?, IF TRUE in small type. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Later: 15 a day, if true, into the hundreds.",
+        "image": null
+      },
+      {
+        "slug": "0720-not-a-receipt",
+        "prompt": "A receipt stamped LATER, not 1518. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A later rate is not a 1518 receipt.",
+        "image": null
+      },
+      {
+        "slug": "0730-ergot-rehook",
+        "prompt": "A rye ear with a red X, Waller's NO stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The internet likes a fungus. Ergot is a poor fit.",
+        "image": null
+      },
+      {
+        "slug": "0740-rhine-cluster",
+        "prompt": "A simple river map, dots along two rivers, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Outbreaks cluster on the Rhine and Moselle.",
+        "image": null
+      },
+      {
+        "slug": "0750-paracelsus",
+        "prompt": "Two flasks: NATURAL and IMAGINED, PARACELSUS label. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Paracelsus later split hot blood from imagined influence.",
+        "image": null
+      },
+      {
+        "slug": "0800-invoice-survives",
+        "prompt": "A paid invoice MUSICIANS on top of theory books. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The city paid musicians. That sentence survives theories.",
+        "image": null
+      },
+      {
+        "slug": "0810-not-a-gag",
+        "prompt": "Ink peeling a GAG sticker off a patient tag, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The dancers are not a gag reel.",
+        "image": null
+      },
+      {
+        "slug": "0820-who-owns-floor",
+        "prompt": "Two floors: MARKET WITH BAND vs CHAPEL, arrows of size. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The logistics is who owns the floor.",
+        "image": null
+      },
+      {
+        "slug": "0830-stage-terrible",
+        "prompt": "A stage shrinking a fear? No: a fear growing on a stage. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A stage is a terrible instrument for contagious fear.",
+        "image": null
+      },
+      {
+        "slug": "0840-which-chronicle",
+        "prompt": "A chronicle vs a GRAIN MARKET rental slip. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask which chronicle, and whether they rented the grain market.",
+        "image": null
+      },
+      {
+        "slug": "0850-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, a tiny mute trumpet. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no bleeding, no corpses, no mockery of the sick, no child victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have hired the musicians. Tell me in the comments.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Town That Could Not Stop Dancing",
+    "description": "Strasbourg, fifteen eighteen. Hot blood, a hired band in the grain market, and a shrine that had to undo the stage.",
+    "tags": [
+      "history",
+      "dancing plague",
+      "strasbourg",
+      "cartoon",
+      "true story",
+      "1518",
+      "saint vitus",
+      "alsace",
+      "funny",
+      "medicine"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "DANCE IT OUT",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A city once tried to cure dancing by hiring a band. That is not a metaphor, and it is not a cartoon you invented after a festival. In July fifteen eighteen, in Strasbourg, then an imperial free city in Alsace in the Holy Roman Empire, a woman later named Frau Troffea, or Trauffea in some spellings, stepped into a street and began to dance with no music. Four of the six surviving chronicles put a named woman first. Ned Pennant-Rea, working the later retellings, puts her on the fourteenth, on a cobbled street outside a half-timbered house, no fiddle, no drum. She kept going for about a week, collapsing from exhaustion, resting, starting again. Some accounts say her husband joined. Within days more than thirty people were moving the same way. This is not a party. Observers said the motion looked vacant, not joyful, arms thrashing, sweat, cries for help. Keep that picture without turning it into gore. A street with no soundtrack. A council that would later rent guild halls. Physicians who would write hot blood. Everything after this is just that picture hiring musicians.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a street becomes a clinic. Strasbourg in fifteen eighteen was already brittle, even by the rough standard of the early sixteen hundreds. John Waller, writing in The Lancet in two thousand nine, lists the pile: a succession of appalling harvests, the highest grain prices for over a generation, syphilis arriving as a new terror, old killers like leprosy and plague still in the file. People already believed Saint Vitus, a fourth-century martyr and patron of dancers and of people with seizures, could curse you into dancing if you failed to propitiate him. That belief is not a punchline about peasants. It is the local instruction set. When Troffea did not stop, neighbors did not invent a nightclub. They watched a fear they already had walk into daylight. Historian Lynneth Miller notes the city's first move was medical, not a miracle hunt. By the end of a week the count is usually given as about three dozen. By August the range in the papers is fifty to four hundred. The Imlin family chronicle is the source for the high number. Treat four hundred as a ceiling a later household wrote down, not a turnstile you can audit.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The city did what cities do. It called the physicians. The clergy were ready to call it Saint Vitus. The privy council listened to the guild of physicians instead and declared a natural disease from overheated blood. Humoral theory said bleed it. The doctors on the ground prescribed the older remedy used on past dancing manias: the afflicted must dance themselves free of it. Daniel Specklin, a sixteenth-century architect chronicling the file, records the work order. Carpenters and tanners were to transform their guild halls into temporary dance floors. Platforms went up in the horse market and in the grain market, in full view of anyone still shopping. Dozens of musicians were paid to play drums, fiddles, pipes, and horns. Healthy dancers were brought in as encouragement. Strong men were hired to keep people upright so the motion would not stop. The official idea was controlled exhaustion, a fever danced out under a roof the city already owned. The unofficial idea, which nobody put on the invoice, was a stage with a crowd.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "If you came for a morality play about stupid officials, slow down. They were following the medical brief they had. Hot blood cools if you sweat it. A market is a place you already own. A guild hall already has a roof and a guild that can take orders. Hiring a band is cheaper than inventing a new disease, and cheaper than admitting you do not have one. It is also a terrible instrument for a fear that spreads by watching. More people joined. The contagion got a soundtrack. At some point the council reversed itself. Public dancing banned. Music banned. The cure had become the amplifier. Write that down. That mismatch is the plot. Not a joke at the dancers, who were asking for help in a square that now had a beat. A work order that advertised the symptom it was trying to spend. When a treatment requires an audience, the audience is part of the dose.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Then the file changed religions again. If the dance was a curse, only a shrine could close it. The remaining dancers were sent a day's ride west to Saverne, Zabern in German, to a mountaintop chapel of Saint Vitus. Priests placed the still-moving under a wooden carving of the saint, small crosses in their hands, red shoes on their feet. Holy water sprinkled, crosses of consecrated oil painted on the tops and soles. Incense. Latin incantations. Word came back to Strasbourg that Vitus had forgiven them, which in this file means the stream of pilgrims slowed to a trickle within about a week. The episode ran from mid-July into late August or early September, more than a month. Similar outbreaks had already happened along the Rhine and Moselle, including a famous one at Aachen in thirteen seventy four, and a churchyard story from Colbigk in Saxony centuries earlier. Strasbourg did not invent choreomania. Strasbourg hired a venue for it, then tried to unhire the venue.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Here is the leftover fact, and it is not a body count. Later writers, and John Waller repeating them with a careful if, talk about fifteen dying a day at the height, which would run into the hundreds if you multiply it by enough weeks. Strasbourg's own contemporary notes, physician notes, cathedral sermons, local chronicles, and orders from the city council, are clear that people danced. They do not print that daily number. They do not even print whether anyone died. Collapses from heat, hunger, thirst, and exhaustion are easy to imagine on a July platform. A specific toll is not in the fifteen eighteen paperwork. Do not turn absence into a miracle of zero, and do not turn a later rate into a receipt. The punchline you can stand on is logistical: they built stages, then banned the band, then booked a shrine. That sequence is in the file. The graveyard arithmetic is a product, not a tally.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Rehook, because the internet likes a fungus. Ergot on damp rye can cause convulsions and visions. Waller argued in The Lancet that ergot is a poor fit: people poisoned like that do not keep dancing for days at a time, they would not all react the same way, and the outbreaks cluster on the Rhine and Moselle, rivers that link towns, not a single crop map. Robert Bartholomew guessed adherents of heretical sects dancing for divine favor. Paracelsus, writing about a decade later, hostile to the story, split a natural cause in the blood, he talked about laughing veins, from an imagined influence that jumped from person to person, and he declined to make it purely a divine spanking. You can keep the argument. You do not get to skip the invoice. The city paid musicians to treat a street. That is the sentence that survives a theory war, whether you side with Waller, with rye, or with a saint.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this makes the dancers a gag reel, or the council a cartoon of incompetence you get to feel superior to. They had humoral medicine, a saint with a dancing curse already in the folklore, grain stress, disease, and a public square. The chemistry, if you need a word, is attention plus a script people already feared, a trance Waller called stress-induced, not a rave. The logistics is who owns the floor. When the floor was a grain market with a paid band, the file grew. When the floor was a chapel off-stage, the file shrank. A caption can call that mass psychogenic illness. A work order called it recovery. Both captions hired carpenters. You are allowed to laugh at the idea of prescribing more dancing. You are not required to laugh at the people who could not stop, and you are not entitled to a corpse montage the fifteen eighteen clerks did not file.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the horse market. Not the hot-blood theory. Not the death-toll arithmetic from a later century. Specklin won a sentence about platforms. The physicians won a week of being believed. Saint Vitus won the last booking. The dancers won the only thing this file should give them: they were patients, not a festival, not a meme about shoe blood. If you need a moral, skip never have a party. Take this: a stage is a terrible instrument for a contagious fear, and a contagious fear is a terrible brief for a band. The next time someone tells you they danced themselves to death in Strasbourg, ask which chronicle printed the deaths, and whether the city had already rented the grain market. Would you have hired the musicians. A street, two guild halls, a mute stamp, a hill chapel, red shoes as ritual not a wound. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

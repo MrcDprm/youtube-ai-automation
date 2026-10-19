@@ -1,0 +1,538 @@
+{
+  "project_id": "the-flood-that-was-molasses-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-painted-brown",
+        "prompt": "Cartoon title beat: a huge steel tank painted molasses-brown, a paintbrush, cream paper. Hook energy. No people trapped. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They painted the leaking tank brown.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a TRIVIA FLOOD stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a sticky-street trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-north-end-1919",
+        "prompt": "A simple map NORTH END BOSTON, calendar 15 JAN 1919, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "15 January 1919, Boston North End.",
+        "image": null
+      },
+      {
+        "slug": "0030-commercial-529",
+        "prompt": "A street sign 529 COMMERCIAL, COPP'S HILL across the road. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "529 Commercial Street, opposite Copp's Hill.",
+        "image": null
+      },
+      {
+        "slug": "0040-purity-usia",
+        "prompt": "Two company nameplates PURITY and USIA, no portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Purity Distilling. United States Industrial Alcohol.",
+        "image": null
+      },
+      {
+        "slug": "0050-fifty-by-ninety",
+        "prompt": "A tank diagram 50 FT by 90 FT, cream paper, no people. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 50 feet high, 90 feet across.",
+        "image": null
+      },
+      {
+        "slug": "0100-two-point-three",
+        "prompt": "A giant gallon tally 2.3 MILLION, a tiny ship icon. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "On the order of 2.3 million gallons that day.",
+        "image": null
+      },
+      {
+        "slug": "0110-twelve-thirty",
+        "prompt": "A round clock 12:30, lunch-hour stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 12:30 in the afternoon.",
+        "image": null
+      },
+      {
+        "slug": "0120-rivets",
+        "prompt": "Cartoon rivets flying off a tank as dots, BANG stamps, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rivet pops like a machine gun. File as cartoon bangs, not gore.",
+        "image": null
+      },
+      {
+        "slug": "0130-twenty-one",
+        "prompt": "A somber tally 21 and 150, respectful, no bodies, no children drawn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "21 killed, about 150 hurt. Not a giggle.",
+        "image": null
+      },
+      {
+        "slug": "0140-ethanol-munitions",
+        "prompt": "A pipe diagram MOLASSES to ETHANOL, two tags LIQUOR and MUNITIONS as text. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Molasses to ethanol: liquor and wartime chemistry.",
+        "image": null
+      },
+      {
+        "slug": "0150-cambridge-pipe",
+        "prompt": "A simple map HARBOR tank dotted pipe to CAMBRIDGE. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Harbor tank, pipeline to East Cambridge.",
+        "image": null
+      },
+      {
+        "slug": "0200-arthur-jell",
+        "prompt": "A nameplate ARTHUR P. JELL, TREASURER tag, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Arthur P. Jell, treasurer, oversaw the build.",
+        "image": null
+      },
+      {
+        "slug": "0210-no-engineer",
+        "prompt": "A job plaque NO ENGINEER with a red X on a diploma. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not an architect. Not an engineer.",
+        "image": null
+      },
+      {
+        "slug": "0220-hammond-nawn",
+        "prompt": "Two contractor cards NAWN PAD and HAMMOND STEEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hugh Nawn poured the pad. Hammond Iron Works raised the steel.",
+        "image": null
+      },
+      {
+        "slug": "0230-six-inches",
+        "prompt": "A huge tank with a tiny 6 IN puddle labeled TEST. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The water test was about six inches.",
+        "image": null
+      },
+      {
+        "slug": "0240-first-leak-1915",
+        "prompt": "A tank dated 1915 with cartoon drips, LEAK stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Seams wept from the first fill, 1915.",
+        "image": null
+      },
+      {
+        "slug": "0250-pails-seepage",
+        "prompt": "Empty pails under dripping seams, no child faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Neighbours collected seepage in pails.",
+        "image": null
+      },
+      {
+        "slug": "0300-groaning",
+        "prompt": "A tank with comic GROAN sound lines, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The tank groaned when filled.",
+        "image": null
+      },
+      {
+        "slug": "0310-brown-paint",
+        "prompt": "A giant paintbrush painting a tank BROWN, leak disappearing into the color. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Jell had it painted brown so the leak looked like the tank.",
+        "image": null
+      },
+      {
+        "slug": "0320-gonzales",
+        "prompt": "A nameplate ISAAC GONZALES, a small NIGHT CHECK tag, no portrait, not a ghost. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Isaac Gonzales, company man, feared it would come down.",
+        "image": null
+      },
+      {
+        "slug": "0330-official-plan",
+        "prompt": "A clipboard PLAN: HOLD THEN PIPE, a check mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official plan: hold millions until Cambridge needed a pipe.",
+        "image": null
+      },
+      {
+        "slug": "0340-two-to-forty-one",
+        "prompt": "A thermometer jumping 2 to 41, January calendar. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Air from about 2 F toward 41 F.",
+        "image": null
+      },
+      {
+        "slug": "0350-warm-load",
+        "prompt": "A ship pumping WARM molasses into a COLD tank, two colors. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The day before: a warmed fresh load pumped in.",
+        "image": null
+      },
+      {
+        "slug": "0400-fermentation",
+        "prompt": "A tank with tiny CO2 bubbles labeled PRESSURE, not an explosion gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Warm on cold, and fermentation can add pressure.",
+        "image": null
+      },
+      {
+        "slug": "0410-density",
+        "prompt": "A scale WATER vs MOLASSES, molasses side heavier. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 40 percent denser than water. 12 pounds a gallon.",
+        "image": null
+      },
+      {
+        "slug": "0420-thirty-five",
+        "prompt": "A speed badge 35 MPH on a brown cartoon syrup arrow, hitting a building not a person. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Wave filed around 35 miles an hour.",
+        "image": null
+      },
+      {
+        "slug": "0430-height-disagreement",
+        "prompt": "Three rulers 15 25 40 labeled ARGUMENT, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Height is an argument: plaque 40 ft, papers often 25, one piece 15.",
+        "image": null
+      },
+      {
+        "slug": "0440-el-tracks",
+        "prompt": "Bent cartoon EL tracks, a streetcar tilted, no people falling. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Steel plates hit the Elevated girders. A streetcar tipped.",
+        "image": null
+      },
+      {
+        "slug": "0450-engine-31",
+        "prompt": "A firehouse labeled ENGINE 31 shifted off a square foundation, no trapped firefighters drawn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Engine 31 firehouse was shoved.",
+        "image": null
+      },
+      {
+        "slug": "0500-truck-harbor",
+        "prompt": "A tiny truck icon in cartoon water, HARBOUR stamp, not drowning gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A truck went into the harbor.",
+        "image": null
+      },
+      {
+        "slug": "0510-two-three-feet",
+        "prompt": "A street with a 2-3 FT depth mark, empty of people. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Blocks sat 2 to 3 feet deep after the first rush.",
+        "image": null
+      },
+      {
+        "slug": "0520-cadets-nantucket",
+        "prompt": "A ship nameplate USS NANTUCKET, tally 116 CADETS, distant silhouettes not faces in syrup. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "116 cadets from USS Nantucket, Copeland.",
+        "image": null
+      },
+      {
+        "slug": "0530-cleanup-salt",
+        "prompt": "A fireboat spraying, a sand pile, a brown harbor until SUMMER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Fireboat salt water and sand. Harbor brown into summer.",
+        "image": null
+      },
+      {
+        "slug": "0540-sticky-city",
+        "prompt": "Sticky subway seat, sticky phone, STICKY CITY stamp, comic not cruel. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Molasses tracked onto trains, phones, homes.",
+        "image": null
+      },
+      {
+        "slug": "0550-anarchist-claim",
+        "prompt": "A BOMB stamp with a giant red X, court papers. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "USIA said anarchists bombed it. No blast evidence that held.",
+        "image": null
+      },
+      {
+        "slug": "0600-one-nineteen",
+        "prompt": "A filing stack 119 PLAINTIFFS, CLASS ACTION stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "119 plaintiffs. A Massachusetts class action.",
+        "image": null
+      },
+      {
+        "slug": "0610-ogden",
+        "prompt": "A nameplate HUGH W. OGDEN, AUDITOR, LIABLE stamp, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Auditor Hugh W. Ogden found the company responsible.",
+        "image": null
+      },
+      {
+        "slug": "0620-six-twenty-eight",
+        "prompt": "A check 628000, a smaller tag 7000, not a joke. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "USIA paid about $628,000. About $7,000 per victim reported.",
+        "image": null
+      },
+      {
+        "slug": "0630-half-too-thin",
+        "prompt": "A tank wall cross-section 50 PERCENT TOO THIN, year 2014. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mayville 2014: walls at least 50 percent too thin.",
+        "image": null
+      },
+      {
+        "slug": "0640-manganese",
+        "prompt": "A rivet hole with a cartoon CRACK line, BRITTLE tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Steel too brittle, short on manganese, cracks at rivet holes.",
+        "image": null
+      },
+      {
+        "slug": "0650-prohibition-next-day",
+        "prompt": "A calendar 16 JAN next to the tank, NOT CAUSE stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "18th Amendment ratified the next day. File the calendar, not the cause.",
+        "image": null
+      },
+      {
+        "slug": "0700-harvard-2016",
+        "prompt": "A lab model NORTH END, year 2016, FAST then THICK arrows. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Harvard 2016: first rush speed credible, then it thickened.",
+        "image": null
+      },
+      {
+        "slug": "0710-non-newtonian",
+        "prompt": "Two stamps HIT LIKE WATER and THEN GLUE, a syrup arrow slowing. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hits like water, then holds like glue.",
+        "image": null
+      },
+      {
+        "slug": "0720-smell-decades",
+        "prompt": "A summer sun over the North End, SMELL stamp, no people suffering. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "For decades, hot days still smelled of molasses.",
+        "image": null
+      },
+      {
+        "slug": "0730-puopolo-plaque",
+        "prompt": "A park plaque BOSTON MOLASSES FLOOD, 529 COMMERCIAL, no gore photos. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Puopolo Park plaque: 529 Commercial, 21 dead.",
+        "image": null
+      },
+      {
+        "slug": "0740-langone-slab",
+        "prompt": "A baseball diamond with a dotted tank circle under the grass. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The pad sits under a ballfield at Langone Park.",
+        "image": null
+      },
+      {
+        "slug": "0750-paint-not-steel",
+        "prompt": "A brush vs a steel plate, the plate winning THICKNESS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Brown paint does not thicken plate.",
+        "image": null
+      },
+      {
+        "slug": "0800-not-a-joke-neighbourhood",
+        "prompt": "Ink peeling a JOKE sticker off a NORTH END sign, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a cartoon of the North End as a punchline.",
+        "image": null
+      },
+      {
+        "slug": "0810-who-won",
+        "prompt": "A gavel, a plaque, and a CODE book beating a tiny paintbrush. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the tank. Not the brush. Ogden. The plaque. The codes.",
+        "image": null
+      },
+      {
+        "slug": "0820-licensed-look",
+        "prompt": "Two stamps ARCHITECT and CIVIL ENGINEER on a tank blueprint. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "After: licensed architect and civil engineer on a tank.",
+        "image": null
+      },
+      {
+        "slug": "0830-water-or-paint",
+        "prompt": "Split: 6 IN TEST vs BROWN BRUSH, a red X on the brush as a fix. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Six inches of water, or a brush.",
+        "image": null
+      },
+      {
+        "slug": "0840-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, a tiny brown tank and a tiny water bucket. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have painted it brown. Tell me in the comments.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card LEAK vs PAINT, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no drowning, no child-victim closeups, no dead horses, no blood. Disaster shown as a leaking brown tank, a paint brush, a syrup wave hitting buildings and tracks, court papers, a park plaque, not violence and not trapped people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A leak is a report. Paint is a costume. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Flood That Was Molasses",
+    "description": "Boston North End, January nineteen nineteen. A leaking tank, brown paint, and two point three million gallons.",
+    "tags": [
+      "history",
+      "boston molasses flood",
+      "1919",
+      "north end",
+      "cartoon",
+      "true story",
+      "purity distilling",
+      "funny",
+      "disaster",
+      "logistics"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "THEY PAINTED IT BROWN",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A tank of molasses once outran a neighbourhood at lunch. That is not a metaphor, and it is not a cartoon you invented after a trivia night about sticky streets. On Wednesday the fifteenth of January nineteen nineteen, in Boston's North End, a steel tank at five hundred twenty nine Commercial Street, opposite Copp's Hill, near Keany Square, let go at about twelve thirty in the afternoon. Purity Distilling ran the site. United States Industrial Alcohol owned the company. The tank stood about fifty feet high and ninety feet across, and that day it held on the order of two point three million gallons. Witnesses heard a roar like the Elevated, then a bang, then rivets popping like a machine gun. A brown wave ran into the blocks. Twenty one people were killed. About one hundred fifty were hurt. Keep that picture. Then put a red X on the joke line. The leftover is not that molasses is funny. The leftover is that the tank had been leaking, and the company's answer was brown paint.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a waterfront needed a silo of syrup. Molasses ferments into ethanol. In those years that ethanol was liquor and, in wartime, a piece of munitions chemistry. The Commercial Street tank sat beside Boston Harbor so ships could offload, then a pipeline could send the stuff to Purity's plant in East Cambridge, between Willow Street and Evereteze Way. Arthur P. Jell, the treasurer, oversaw the build. He was not an architect and not an engineer. Hugh Nawn Construction poured a thick concrete pad. Hammond Iron Works raised the steel. The first Cuban steamer was due with hundreds of thousands of gallons, and the clock on the pier was louder than the spec sheet. The contract talked about a water test, filling the tank to see if it held. They put in about six inches of water. Jell later said a full fill would have taken days they did not have, on a small water connection, with a ship already on the calendar. That is a tank approved by a puddle. It is not a tank approved by a load.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The leak was a report. Neighbours said the seams wept almost from the first fill in nineteen fifteen. People collected the seepage in pails. The tank groaned when it was filled. Isaac Gonzales, a company man on the site, later told of running back in the night because he dreamed it would come down. File him as a named witness with a bad feeling, not as a ghost story. When locals could see molasses on the steel, Jell had the tank painted brown, the colour of the leak, so the leak would look like the tank. That is logistics wearing a costume. The official plan was still going to work: hold more than two million gallons until Cambridge needed a transfer, keep the waterfront moving, keep the treasurer's calendar. The tank was filled to capacity only a handful of times. January was one of the heavy days. A leak is a sentence you can answer with thicker plate, or with a test, or with a smaller fill. Brown paint is a sentence you answer with a brush.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "January. Boston had been bitter. Then the air jumped, in the usual telling, from about two degrees Fahrenheit toward forty one, above forty on the day itself. The day before, a ship had pumped in a fresh load that had been warmed so it would flow. Older molasses in the tank was colder. Warm syrup on cold syrup is a pressure story, and fermentation can add carbon dioxide if the mix is alive. At about twelve thirty the cylinder failed. Molasses is about forty percent denser than water, about twelve pounds to the gallon, so the potential energy is not a kitchen spill. The wave is filed around thirty five miles an hour. Height is an argument: a later park plaque says forty feet; physics writeups often cite about twenty five at the peak; an older Smithsonian piece said fifteen. File the disagreement. Do not pick a cartoon number because it sounds bigger. Steel plates hit the Boston Elevated Railway's Atlantic Avenue girders. A streetcar tipped on the rails. Engine Thirty One's firehouse was shoved. A truck went into the harbor. Several blocks sat two to three feet deep after the first rush.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Here is the leftover that is not a punchline. Twenty one dead. About one hundred fifty hurt. Most of the named dead were laborers, teamsters, longshoremen, a firefighter, people whose work put them at the paving yard, the wharf, the firehouse. George Layhe of Engine Thirty One is on that list. Two ten-year-olds are on that list. Do not turn those two names into a drawing. Cadets from the training ship U.S.S. Nantucket, one hundred sixteen of them under Lieutenant Commander H. J. Copeland, came off the nearby pier and waded in. Boston police, the Red Cross, Army and Navy followed. Searching went on for days. Some victims were not found in the harbor for months. Cleanup used salt water from a fireboat and sand to drink the syrup. The harbor stayed brown into summer. Rescue, cleanup, and sightseeing tracked molasses onto subway platforms, streetcar seats, telephone handsets, and homes. The line that stuck was: everything a Bostonian touched was sticky. That is a city as a residue, not a joke you get to spend on twenty one names.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a funny flood and a company that said a bomb did it. United States Industrial Alcohol told the court anarchists had dynamited the tank, because some of the alcohol was for munitions, and Boston in those years had real bomb scares to borrow. There was no blast evidence that held. One hundred nineteen plaintiffs sued. It became a landmark Massachusetts class action, years of hearings, engineers and metallurgists in the room. Court-appointed auditor Hugh W. Ogden found the company responsible. USIA paid about six hundred twenty eight thousand dollars. Relatives of the dead were reported around seven thousand each. In two thousand fourteen, engineer Ronald Mayville wrote that the walls were at least fifty percent too thin even for the codes of the day, the steel too brittle, short on manganese, cracks starting at flawed rivet holes. The tank had been a fatigue machine on a cyclic fill. Brown paint does not thicken plate. A bomb story does not thicken plate either.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "There is a later caption that they were racing Prohibition. The Eighteenth Amendment was ratified the next day, the sixteenth of January nineteen nineteen, and would take effect a year after that. Some writers file the full tank as a last pour before the dry law. File the calendar. Do not let a constitutional date steal a tensile test. In two thousand sixteen a Harvard group ran cold syrup through a model North End and said the high speed in the first rush was credible, then the flood cooled and thickened, which is why a non-Newtonian wall can hit like water and then hold like glue. For decades people said the North End still smelled of molasses on hot days. Edwards Park wrote that the smell remained a distinctive atmosphere of Boston. USIA did not rebuild the tank. The pad is under a ballfield at Langone Park. A Bostonian Society plaque at Puopolo Park still names five hundred twenty nine Commercial Street, twenty one dead, and a wave. The plaque's forty feet is a public sentence. The thinner steel is the private one.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a sticky joke, and none of it is a cartoon of the North End as a punchline neighbourhood that should have known better than to live next to a leak. They had a treasurer on a steamer deadline. They had six inches of water where a fill test was written. They had seams you could taste with a pail. They had a paint job that made the leak the architecture. The chemistry is thin brittle plate plus a near-full tank plus a warm load on a warm day. The logistics is who you hire when the object is heavier than water and sits beside a school, a firehouse, and an elevated track. You are allowed to laugh at a city that stayed sticky into summer. You are not required to laugh at Engine Thirty One, or at a paving yard, or at two names you will not draw. A leak is a report. Brown paint is a costume. Six inches of water is a costume for a test. The official idea was: this will hold, and then Cambridge will take a pipe.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the tank. Not the anarchist caption. Not the brown brush. Ogden won a finding. The plaintiffs won a number that does not buy twenty one people back. Mayville won a thickness that should have been on the drawing in nineteen fifteen. The park won a plaque and a diamond over a slab. Building rules after this started insisting that a licensed architect and a civil engineer look at a tank before a neighbourhood has to. If you need a moral, skip never store molasses. Take this: paint is a terrible instrument for a leak, and a leak is a terrible neighbour for two point three million gallons. The next time someone tells you Boston flooded with molasses, ask whether they mean the wave or the brush, and whether the water test was six inches or a tank. Would you have painted it brown, or would you have filled it with water first. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

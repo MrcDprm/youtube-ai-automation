@@ -1,0 +1,537 @@
+{
+  "project_id": "the-coffee-that-made-a-warning-label-9dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-49-cent",
+        "prompt": "A candy 49 CENT coffee cup next to a hospital tag 8 DAYS. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A 49-cent cup put a 79-year-old in hospital for eight days.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a LOTTERY COFFEE stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a clumsy-grandma lottery gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-feb-27",
+        "prompt": "A date card 27 FEB 1992, ALBUQUERQUE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "27 February 1992, Albuquerque drive-through.",
+        "image": null
+      },
+      {
+        "slug": "0030-passenger",
+        "prompt": "A car tag PASSENGER, not DRIVER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Passenger seat. Grandson driving. Not her at the wheel.",
+        "image": null
+      },
+      {
+        "slug": "0040-no-holders",
+        "prompt": "An empty dash NO CUP HOLDERS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1989 Ford Probe. No cup holders.",
+        "image": null
+      },
+      {
+        "slug": "0050-parked-lid",
+        "prompt": "A parked car, a lid coming off a candy cup. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Parked to add cream and sugar. She pulled the far side of the lid.",
+        "image": null
+      },
+      {
+        "slug": "0100-x-driving",
+        "prompt": "A DRIVING JOKE stamp with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the joke that she was driving and spilled it for fun.",
+        "image": null
+      },
+      {
+        "slug": "0110-hold-180",
+        "prompt": "A thermostat 180-190 F. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Franchise spec: hold coffee at 180 to 190 F.",
+        "image": null
+      },
+      {
+        "slug": "0120-flavour-consult",
+        "prompt": "A flavour beaker tag HOTTER = TASTE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Consultants: high brew heat extracts flavour.",
+        "image": null
+      },
+      {
+        "slug": "0130-drink-now",
+        "prompt": "A cup tag DRINK NOW, not later. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Company research: customers meant to drink it immediately.",
+        "image": null
+      },
+      {
+        "slug": "0140-home-range",
+        "prompt": "Two thermometers HOME 140 vs SHOP 180. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Home makers about 135 to 150 F. City shops at least 20 F cooler.",
+        "image": null
+      },
+      {
+        "slug": "0150-three-seconds",
+        "prompt": "Three timers 3 SEC / 15 SEC / 20 SEC. No wounds. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "190 F: about 3 seconds to a full-thickness burn. 180 F: 12 to 15. 160 F: about 20.",
+        "image": null
+      },
+      {
+        "slug": "0200-wipe-window",
+        "prompt": "A wipe-cloth and a 20 SEC window. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Those extra seconds are time to wipe it off.",
+        "image": null
+      },
+      {
+        "slug": "0210-official-hot",
+        "prompt": "A tiny cup line HOT, stamp OFFICIAL PLAN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: hotter is better, a small reminder on the cup is enough.",
+        "image": null
+      },
+      {
+        "slug": "0220-bills-18k",
+        "prompt": "A stack of bills 10500 / 2500 / 5000. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bills: about $10,500 past, $2,500 future, $5,000 daughter's lost work. About $18,000 named.",
+        "image": null
+      },
+      {
+        "slug": "0230-asked-20k",
+        "prompt": "A request card 20000. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "She sought $20,000 to cover the stack.",
+        "image": null
+      },
+      {
+        "slug": "0240-offered-800",
+        "prompt": "A tiny cheque 800. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "McDonald's offered $800.",
+        "image": null
+      },
+      {
+        "slug": "0250-never-sued",
+        "prompt": "A blank lawsuit stamp FIRST TIME. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "She had never filed a lawsuit.",
+        "image": null
+      },
+      {
+        "slug": "0300-reed-morgan",
+        "prompt": "A folder MORGAN, tag 1986 27500. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Houston attorney Reed Morgan. Similar 1986 case settled $27,500.",
+        "image": null
+      },
+      {
+        "slug": "0310-appleton-heat",
+        "prompt": "A quote card NO PLANS TO COOL, nameplate APPLETON. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Appleton: knew the risk, no plans to turn the heat down.",
+        "image": null
+      },
+      {
+        "slug": "0320-300k-225k",
+        "prompt": "Two refused stamps 300K and 225K. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Morgan offered $300,000. Mediator $225,000. Both refused.",
+        "image": null
+      },
+      {
+        "slug": "0330-700-reports",
+        "prompt": "A file cabinet 700 REPORTS, tag 500K PAID. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1982 to 1992: more than 700 burn reports. Settled scalds for more than $500,000.",
+        "image": null
+      },
+      {
+        "slug": "0340-not-enough",
+        "prompt": "A scale 700 vs NOT ENOUGH. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Appleton: that number was not enough to change the practice.",
+        "image": null
+      },
+      {
+        "slug": "0350-aug-94",
+        "prompt": "A calendar AUG 1994, nameplate SCOTT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Trial 8 to 17 August 1994. Verdict 18 August. Judge Robert H. Scott.",
+        "image": null
+      },
+      {
+        "slug": "0400-80-20",
+        "prompt": "A pie 80 / 20. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Jury: McDonald's 80 percent, Liebeck 20.",
+        "image": null
+      },
+      {
+        "slug": "0410-warning-small",
+        "prompt": "A tiny cup warning vs a TOO SMALL stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A warning was already on the cup. Jury: neither large enough nor sufficient.",
+        "image": null
+      },
+      {
+        "slug": "0420-160k",
+        "prompt": "A math card 200K minus 20% = 160K. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Compensatory $200,000, cut 20 percent to $160,000.",
+        "image": null
+      },
+      {
+        "slug": "0430-two-days",
+        "prompt": "A coffee-sales ticker 1.35M / DAY x2. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Punitive $2.7 million: two days of coffee revenue, about $1.35 million a day.",
+        "image": null
+      },
+      {
+        "slug": "0440-judge-cuts",
+        "prompt": "A gavel 2.7M down to 480K, total 640K. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Judge cut punitive to $480,000. Total $640,000.",
+        "image": null
+      },
+      {
+        "slug": "0450-callous",
+        "prompt": "A stamp CALLOUS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Scott: callous. Tort Museum also files willful, wanton, reckless.",
+        "image": null
+      },
+      {
+        "slug": "0500-sealed",
+        "prompt": "A sealed envelope CONFIDENTIAL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Appeals, then a confidential settlement. Do not invent the cheque.",
+        "image": null
+      },
+      {
+        "slug": "0510-poster-child",
+        "prompt": "Two headlines POSTER CHILD vs WORTHY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "ABC: poster child of excessive lawsuits. Turley: meaningful and worthy.",
+        "image": null
+      },
+      {
+        "slug": "0520-158-local",
+        "prompt": "A local pot 158 F, NEXT DAY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Next day, Albuquerque window at 158 F. Seconds, not comedy.",
+        "image": null
+      },
+      {
+        "slug": "0530-national-slow",
+        "prompt": "A national range 176-194, LOUDER LID. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "2007: still about 176 to 194 F nationally, louder cup words.",
+        "image": null
+      },
+      {
+        "slug": "0540-2013-range",
+        "prompt": "A later thermometer 170-180 F. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "2013 NYT: service 170 to 180 F.",
+        "image": null
+      },
+      {
+        "slug": "0550-x-clowns",
+        "prompt": "Ink peeling a CLOWN COLLEGE sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: red X on America-is-a-clown-college-of-coffee-suits.",
+        "image": null
+      },
+      {
+        "slug": "0600-packaging",
+        "prompt": "A better lid vs a cooler pot, tag PACKAGING. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Specialty Coffee Association: better packaging, not cooler coffee.",
+        "image": null
+      },
+      {
+        "slug": "0610-not-driving",
+        "prompt": "Three cards NOT DRIVING / NO HOLDERS / PARKED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "She was not driving. No cup holders. Parked to use the lid.",
+        "image": null
+      },
+      {
+        "slug": "0620-hot-coffee-doc",
+        "prompt": "A film strip HOT COFFEE 2011, shrinking headline. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "HBO Hot Coffee, 2011. Details shrank until the company looked like the victim.",
+        "image": null
+      },
+      {
+        "slug": "0630-nyt-retro",
+        "prompt": "A news ticker getting shorter. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "NYT Retro Report 2013: the story lost length and context.",
+        "image": null
+      },
+      {
+        "slug": "0640-same-suits",
+        "prompt": "A row of candy cups OTHER SHOPS, still hot. No logos mash. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Other vendors kept facing similar suits. National cooling was slow.",
+        "image": null
+      },
+      {
+        "slug": "0650-died-2004",
+        "prompt": "A date 5 AUG 2004, a nurse-tag, respectful, no grave. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Liebeck died 5 August 2004, aged 91. Settlement paid for a live-in nurse.",
+        "image": null
+      },
+      {
+        "slug": "0700-guess-500",
+        "prompt": "A guess card UNDER 500K, stamp GUESS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "News later guessed the sealed amount under $500,000. File as a guess.",
+        "image": null
+      },
+      {
+        "slug": "0710-louder-lid",
+        "prompt": "A loud lid vs a slow policy snail. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The cup won more ink. The policy moved slower than a punchline.",
+        "image": null
+      },
+      {
+        "slug": "0720-sitcom-x",
+        "prompt": "A sitcom clapboard with a red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A sitcom bit is not a verdict.",
+        "image": null
+      },
+      {
+        "slug": "0730-who-won-800",
+        "prompt": "A tiny 800 cheque in a bin, DRIVING JOKE in a bin. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the $800. Not the driving joke.",
+        "image": null
+      },
+      {
+        "slug": "0740-window-won",
+        "prompt": "A local window trophy 158 F. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Albuquerque window won a cooler pot the next morning.",
+        "image": null
+      },
+      {
+        "slug": "0750-ads-won",
+        "prompt": "A flyer mascot vs a real file 700. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Tort-reform ads won a mascot they did not interview.",
+        "image": null
+      },
+      {
+        "slug": "0800-seven-hundred-aloud",
+        "prompt": "A jury box reading a stack 700. No portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Seven hundred earlier files won almost nothing until a jury read them aloud.",
+        "image": null
+      },
+      {
+        "slug": "0810-ask-driving",
+        "prompt": "A question mark over a wheel, a cup, and 700. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask whether she was driving, what the cup said, and whether 700 reports count as a warning.",
+        "image": null
+      },
+      {
+        "slug": "0820-pay-or-spec",
+        "prompt": "Split: a 20K card vs a 180 F spec, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have paid the $20,000, or kept the 180-degree spec.",
+        "image": null
+      },
+      {
+        "slug": "0830-lid-and-policy",
+        "prompt": "A lid and a policy binder. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The leftover: a louder lid on a policy they did not want to cool.",
+        "image": null
+      },
+      {
+        "slug": "0840-hold-honest",
+        "prompt": "A laugh-track box vs a thermometer. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A sitcom bit is a terrible whole story. A hold temperature is a terrible honest one.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card 180 F vs 800, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no burn wounds, no injury closeups, not mud-green archive night, not After Hours File dark. Coffee shown as a candy cup, a thermometer, a lid, a receipt, a tiny warning line, not photoreal restaurant logos, not a courtroom blood photo. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They already had the temperature. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Coffee That Made a Warning Label",
+    "description": "Nineteen ninety two. A forty-nine-cent cup, a one-hundred-eighty-degree hold, and a lid that had to get louder because the policy already knew.",
+    "tags": [
+      "history",
+      "1994",
+      "liebeck",
+      "coffee",
+      "law",
+      "cartoon",
+      "true story",
+      "logistics",
+      "warning"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "THEY OFFERED 800",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A forty nine cent cup of coffee put a seventy nine year old woman in hospital for eight days. That is not a metaphor, and it is not a cartoon you invented after a trivia night about a clumsy grandma who won millions for being clumsy. On the twenty seventh of February nineteen ninety two, Stella Liebeck ordered coffee at a McDonald's drive-through in Albuquerque, New Mexico. She was in the passenger seat of a nineteen eighty nine Ford Probe that did not have cup holders. Her grandson parked so she could add cream and sugar. She put the cup between her knees and pulled the far side of the lid. The cup tipped. Wikipedia files third-degree burns on six percent of her skin, lesser burns over sixteen, eight days in hospital, skin grafts, two years of treatment. Keep that split: she asked for medical bills, and the company treated it like a joke. Then put a red X on the joke that she was driving and spilled it for fun. The leftover is not cruelty. The leftover is a holding temperature and a lid that was not a warning.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a hold temperature was supposed to be the truth. McDonald's required franchisees to keep coffee at one hundred eighty to one hundred ninety degrees Fahrenheit, about eighty two to eighty eight Celsius. Consultants said high brew heat extracts flavour. Drive-through logic said commuters wanted it still hot at the office. McDonald's own research, the trial record later showed, found customers meant to drink it immediately while driving. Home makers sat around one hundred thirty five to one hundred fifty, Albuquerque lawyer Kenneth Wagner later said. Other shops in the city tested at least twenty degrees cooler. Experts told the jury: one hundred ninety degrees can mean a full-thickness burn in about three seconds. One hundred eighty, about twelve to fifteen. One hundred sixty, about twenty seconds, time to wipe it off. The official idea was: hotter is better coffee, and a small reminder on the cup is enough.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "File the ask, because eight hundred dollars is not a medical plan. Liebeck's past bills about ten thousand five hundred. Future care about two thousand five hundred. Her daughter's lost income about five thousand. She sought twenty thousand to cover the stack, about eighteen thousand of it already named. McDonald's offered eight hundred. She had never filed a lawsuit. When they would not move, she hired Houston attorney Reed Morgan, who had already taken a similar hot-coffee case in nineteen eighty six, settled for twenty seven thousand five hundred, and deposed quality man Christopher Appleton, who said he knew the risk and had no plans to turn the heat down. Morgan filed in New Mexico, unreasonably dangerous, defectively manufactured. He offered three hundred thousand. A mediator suggested two hundred twenty five thousand on the eve of trial. McDonald's refused both. From nineteen eighty two to ninety two the company had more than seven hundred burn reports from its coffee, and had settled scald claims for more than five hundred thousand. Appleton testified that number was not enough to change the practice.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover late night filed as a lottery ticket. Trial, eighth to seventeenth of August nineteen ninety four, Judge Robert H. Scott, Bernalillo County. Twelve jurors, eighteenth of August. Comparative negligence: McDonald's eighty percent, Liebeck twenty. The cup already had a warning. The jury said it was neither large enough nor sufficient. Two hundred thousand compensatory, cut twenty percent to one hundred sixty thousand. Punitive: two point seven million. The New York Times filed Morgan's suggestion: two days of coffee revenue, about one point three five million a day. Scott reduced punitive to four hundred eighty thousand, three times compensatory, six hundred forty thousand total. He called the conduct callous in one write-up, willful, wanton, and reckless in the Tort Museum's. Both sides appealed in December. Then a confidential settlement. Albuquerque Journal ran it first. Associated Press took it worldwide. ABC later called it the poster child of excessive lawsuits. Jonathan Turley called it a meaningful and worthy lawsuit. File both. Do not draw the injuries. Draw the numbers.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "The prescription had a lid. After the verdict, news documented that the Albuquerque store was selling at one hundred fifty eight degrees the next day, a margin measured in seconds, not in comedy. Nationally, a two thousand seven report still filed McDonald's around one hundred seventy six to one hundred ninety four, relying on sterner wording on rigid foam cups. The New York Times in twenty thirteen said service had come down to one hundred seventy to one hundred eighty. The Specialty Coffee Association of America argued for better packaging rather than cooler coffee, and later helped defend other burn cases. So who actually moved: a local thermometer, a louder sentence on a cup, and a slower national range. A warning label is a costume for a temperature you already knew. A foam cup is a costume for seven hundred files you already paid.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a story that America is a clown college of people who sue over coffee. Put a red X on that sermon. She was not driving. The car had no cup holders. She parked to use the lid. The company had seven hundred prior reports and still called eight hundred dollars a full offer. A Seinfeld gag is not a verdict. A tort-reform flyer is not a hospital chart. Susan Saladoff later argued the media version was a purposeful misrepresentation. HBO's Hot Coffee in twenty eleven spent a large chunk on how the details shrank. The New York Times Retro Report in twenty thirteen showed the story losing length and context until McDonald's looked like the victim. File the meme. Do not spend it as a fact. The leftover is uglier and smaller: a hold range, a tiny reminder, and a meeting that treated seven hundred burns as a rounding error.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "File what the label actually did. Major vendors kept facing similar suits: Starbucks, Dunkin, Wendy's, Burger King, hospitals. Wikipedia notes McDonald's had not simply cooled the country after Liebeck, even if one Albuquerque window did. In twenty thirteen the range was still near boiling relative to a kitchen pot. Liebeck died the fifth of August two thousand four, aged ninety one. Her daughter said the burns and the court had taken their toll, and the settlement paid for a live-in nurse. That is not a punchline. That is a receipt for a two-year disability and a joke that outlived her. Do not invent a secret check. The amount stayed confidential. News later guessed under five hundred thousand. File the guess as a guess. The honest leftover is the cup copy: more words, same logistics, a policy that moved slower than a punchline.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a perfect jury, and none of it is a cartoon of a grandmother as a gold-digger. They had a forty nine cent cup. They had a Ford with no holders. They had a corporate spec hotter than the rest of the block. You are allowed to laugh at a late-night host who skipped the grafts, and at an eight hundred dollar offer next to ten thousand in bills, and at a warning that the jury said was too small. You are not required to laugh at eight days in a ward, or at a daughter who lost three weeks of work, or at Appleton saying restaurants had more pressing dangers. The official idea was: customers want it that hot. The street idea was: she spilled it and won the lottery. The leftover idea is: they already had the temperature, they already had the complaints, and the fix was a louder lid on a policy they did not want to cool.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the eight hundred dollars. Not the driving joke. Liebeck won a verdict that got cut and then sealed. Morgan won a two-day coffee number the judge would not keep. Scott won a ratio. McDonald's won a poster child it did not write. Tort-reform ads won a mascot. The Albuquerque window won a cooler pot the next morning. The national cup won more ink. Seven hundred earlier files won almost nothing until a jury read them aloud. If you need a moral, skip America is sue-happy. Take this: a sitcom bit is a terrible whole story, and a hold temperature is a terrible honest one. The next time someone tells you she spilled coffee for millions, ask whether she was driving, what the cup said, and whether seven hundred reports count as a warning. Would you have paid the twenty thousand, or kept the one hundred eighty degree spec. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

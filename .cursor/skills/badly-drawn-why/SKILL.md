@@ -31,7 +31,7 @@ Humor lands on the **system or object**, never on a person, nationality, religio
 
 1. Author the English spoken essay yourself (~11 minutes). Ollama `generate --format paint` is an optional sketch only; rewrite until it holds a viewer.
 2. Split into chapters for TTS. Add **~132 visual beats** (one every five seconds) with MS Paint prompts.
-3. Generate **132 sixteen-by-nine MS Paint stills** plus `thumbnail.png` into `output/storyboard/<project_id>/`. Name them `NN-mmss-slug.png` to match `visual_beats`.
+3. Generate **132 sixteen-by-nine MS Paint stills** plus a cover into `output/storyboard/<project_id>/`. Name stills `NN-mmss-slug.png` to match `visual_beats`. Save the cover to assets as **`thumbnail-<project_id>.png`** (not bare `thumbnail.png` — that gets overwritten and sync used to copy the wrong episode).
 4. Write the paint scenario (`build_paint_scenario` / `senaryo-paint.json`, `use_zenn=False`). Voice `en-US-GuyNeural`, rate `-8%`. Set `thumbnail_hook` (yellow 2–4 words). Never Ink. Never `senaryo-drawn.json`.
 5. `python main.py run --scenario senaryo-paint.json --no-upload` — Ken Burns stills, standard ASS captions.
 6. Deliver `output/final/<id>.mp4`, `output/thumbnails/<id>.jpg`, `output/studio/<id>/STUDIO.txt`.

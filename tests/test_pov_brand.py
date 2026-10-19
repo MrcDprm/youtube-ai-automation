@@ -85,6 +85,9 @@ def test_build_pov_scenario_defaults() -> None:
     assert scenario.video.format == "paint"
     assert scenario.video.story_visual.zoom_body_end == POV_ZOOM_END
     assert scenario.subtitles.numeral_display is True
+    assert scenario.subtitles.karaoke is True
+    assert scenario.subtitles.accent_color == "#FF4D4D"
+    assert "Anton" in str(scenario.subtitles.font)
 
 
 def test_brand_for_pov_scenario() -> None:

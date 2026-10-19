@@ -1,0 +1,537 @@
+{
+  "project_id": "the-station-they-told-to-fall-somewhere-9dk-20260827",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-litter-ticket",
+        "prompt": "A candy citation 400 DOLLARS LITTERING, nameplate NASA, tag ESPERANCE. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Esperance fined NASA $400 for littering after Skylab came down.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a DISASTER MOVIE stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a disaster-movie trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-july-11",
+        "prompt": "A clock 1637 UTC, date 11 JUL 1979, small tag 12 JUL LOCAL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "11 July 1979, 16:37 UTC, orbit 34,981. In Esperance it was already the 12th.",
+        "image": null
+      },
+      {
+        "slug": "0030-aimed-ocean",
+        "prompt": "A map arrow to INDIAN OCEAN, stamp MOSTLY WATER. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "NASA aimed the leftover metal at the Indian Ocean. Most of it did go there.",
+        "image": null
+      },
+      {
+        "slug": "0040-some-did-not",
+        "prompt": "A few candy metal scraps on a cream coastline, tag SOME DID NOT. Not fire. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Some of it did not.",
+        "image": null
+      },
+      {
+        "slug": "0050-x-disaster",
+        "prompt": "A movie clapboard SKYLAB CRASH with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the disaster-movie joke.",
+        "image": null
+      },
+      {
+        "slug": "0100-leftover-ticket",
+        "prompt": "A souvenir ticket vs a tiny crossed-out fireball icon. Cute not grim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover: a souvenir ticket, not a fireball over a city.",
+        "image": null
+      },
+      {
+        "slug": "0110-may-14",
+        "prompt": "A rocket tag LAST SATURN V, date 14 MAY 1973, pad 39A. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Launched 14 May 1973, last Saturn V, Pad 39A.",
+        "image": null
+      },
+      {
+        "slug": "0120-sixty-three-sec",
+        "prompt": "A torn blanket tag 63 SEC, one solar wing missing. Not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 63 seconds up: micrometeoroid shield tore. One solar wing gone.",
+        "image": null
+      },
+      {
+        "slug": "0130-mass-range",
+        "prompt": "A scale 170000 LB / 77 TONS, FILE THE RANGE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "On-orbit mass: about 170,000 lb NASA, about 168,750 Wikipedia. Roughly 77 tons.",
+        "image": null
+      },
+      {
+        "slug": "0140-sunshade",
+        "prompt": "A candy sunshade on a workshop, tag SKYLAB-2 SAVED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Skylab-2: sunshade, then freed the stuck panel. First crew slipped 10 days.",
+        "image": null
+      },
+      {
+        "slug": "0150-three-crews",
+        "prompt": "Three duration badges 28 / 59 / 84 DAYS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Three crews, nine people: 28, 59, and 84 days.",
+        "image": null
+      },
+      {
+        "slug": "0200-experiments",
+        "prompt": "A tally 270 EXPERIMENTS, 170K SUN SHOTS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "270 experiments. 170,000+ solar images. 46,000 Earth photos.",
+        "image": null
+      },
+      {
+        "slug": "0210-feb-8-boost",
+        "prompt": "An orbit card 269x283 MI, tag HOPE 1983. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "8 Feb 1974: Skylab-4 boosted to about 269 by 283 miles, hoping for 1983.",
+        "image": null
+      },
+      {
+        "slug": "0220-shuttle-late",
+        "prompt": "A calendar SHUTTLE LATE, a sun with extra DRAG arrows. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Shuttle was supposed to attach a rocket. The Shuttle ran late. The Sun ran hot.",
+        "image": null
+      },
+      {
+        "slug": "0230-official-catch",
+        "prompt": "A catcher's mitt labeled NEXT VEHICLE, empty. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: the next vehicle will catch it.",
+        "image": null
+      },
+      {
+        "slug": "0240-only-lever",
+        "prompt": "A lever ATTITUDE = DRAG, Johnson tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Controllers changed attitude to change drag. The only leftover lever.",
+        "image": null
+      },
+      {
+        "slug": "0250-gyros-off",
+        "prompt": "A switch GYROS OFF, tumble arrows, stamp MISS CITIES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Last command: turn off control moment gyros, slow tumble, miss North America.",
+        "image": null
+      },
+      {
+        "slug": "0300-africa-plan",
+        "prompt": "A dashed path AFRICA TIP to OCEAN. No flags as joke. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Expected breakup over southern Africa, then the Indian Ocean.",
+        "image": null
+      },
+      {
+        "slug": "0310-odds-152",
+        "prompt": "Two odds cards 1 IN 152 PERSON, 1 IN 7 CITY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Odds any person hit: about 1 in 152. A city of 100,000+: about 1 in 7.",
+        "image": null
+      },
+      {
+        "slug": "0320-nebraska-target",
+        "prompt": "A lawn with a painted bullseye, tag NEBRASKA. Cute. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A Nebraska neighborhood painted a target so it would have something to aim for.",
+        "image": null
+      },
+      {
+        "slug": "0330-shirts-hats",
+        "prompt": "A T-shirt SKYLAB, a fake insurance slip. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "T-shirts, hats, mock insurance, nightly news. Merchandising wearing an orbit.",
+        "image": null
+      },
+      {
+        "slug": "0340-breakup-late",
+        "prompt": "A late clock, most scraps in a blue ocean shape. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The breakup ran late. Most surviving pieces still hit water.",
+        "image": null
+      },
+      {
+        "slug": "0350-esperance-swath",
+        "prompt": "A map pin ESPERANCE, tags BALLADONIA RAWLUNNA. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A swath from Esperance toward Balladonia and Rawlinna. Sparse country.",
+        "image": null
+      },
+      {
+        "slug": "0400-booms-not-fire",
+        "prompt": "A boom-lines icon, stamp NO ONE HURT. Not disaster. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sonic booms, a fiery apparition in later memory. Not a town on fire. No one hurt.",
+        "image": null
+      },
+      {
+        "slug": "0410-nasa-first-call",
+        "prompt": "A press card INDIAN OCEAN, a second stamp ALSO LAND. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "NASA first said Indian Ocean, then land reports stacked up.",
+        "image": null
+      },
+      {
+        "slug": "0420-harlan-quote",
+        "prompt": "A quote card ON THE PLANET EARTH, nameplate HARLAN. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Harlan: The surprise is over. No more suspense. Skylab is on the planet Earth.",
+        "image": null
+      },
+      {
+        "slug": "0430-geiger-bench",
+        "prompt": "A table, Geiger, candy scraps, tag CHECKED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A makeshift bench, Geiger counter, pieces checked. Not a war zone.",
+        "image": null
+      },
+      {
+        "slug": "0440-pageant-piece",
+        "prompt": "A stage 20 JUL, a candy workshop fragment on a stand. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Miss Universe in Perth that year. A large piece on stage 20 July.",
+        "image": null
+      },
+      {
+        "slug": "0450-ten-miles",
+        "prompt": "An altitude ruler 10 MI, tag LOWER THAN MODEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Came apart about 10 miles up, lower than the model.",
+        "image": null
+      },
+      {
+        "slug": "0500-examiner-10k",
+        "prompt": "A prize banner 10000 FIRST CHUNK, EXAMINER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "San Francisco Examiner: $10,000 for the first chunk at the office.",
+        "image": null
+      },
+      {
+        "slug": "0510-thornton-24",
+        "prompt": "A bag 24 PIECES, tag THORNTON 17, a tiny passport. No photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stan Thornton, 17, Esperance: about 24 pieces at home, then a passport.",
+        "image": null
+      },
+      {
+        "slug": "0520-marshall-wait",
+        "prompt": "A lab stamp GENUINE, prize 10K + 1K. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Waited a week for Marshall to authenticate, then the prize plus $1,000 extra.",
+        "image": null
+      },
+      {
+        "slug": "0530-grewar-tank",
+        "prompt": "A museum case OXYGEN TANK 1993, ESPERANCE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Grewar oxygen tank, 1993. Esperance museum still holds tanks and scraps.",
+        "image": null
+      },
+      {
+        "slug": "0540-smithsonian",
+        "prompt": "Two building tags SMITHSONIAN and HOUSTON TRAINER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Backup workshop at the Smithsonian. Trainer at Space Center Houston.",
+        "image": null
+      },
+      {
+        "slug": "0550-x-plot",
+        "prompt": "Ink peeling a PINE GAP PLOT sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: red X on disaster porn and on a Pine Gap plot.",
+        "image": null
+      },
+      {
+        "slug": "0600-cables-untruth",
+        "prompt": "A cable stamp OBVIOUS UNTRUTH, FILE THE RUMOR. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Cables: obvious untruth. Answering would be counterproductive. File the rumor.",
+        "image": null
+      },
+      {
+        "slug": "0610-july-19-fine",
+        "prompt": "A calendar 19 JUL, ticket 400, stamp JOKE GIFT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Around 19 July: Esperance Shire, $400 littering, tongue-in-cheek.",
+        "image": null
+      },
+      {
+        "slug": "0620-unpaid-30",
+        "prompt": "A novelty cheque 2009, nameplate BARLEY, 30 YEARS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "NASA did not pay. 2009: Scott Barley, Highway Radio, listeners, novelty cheque.",
+        "image": null
+      },
+      {
+        "slug": "0630-never-landing",
+        "prompt": "A workshop with EMPTY TANKS, TIRED GYROS tags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Never designed for a crewed, steered landing. Empty tanks, tired gyros.",
+        "image": null
+      },
+      {
+        "slug": "0640-solar-drag",
+        "prompt": "A sun and atmosphere layer, arrows DRAG. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hotter Sun, thicker upper air, more drag. Same physics as a busy solar cycle.",
+        "image": null
+      },
+      {
+        "slug": "0650-error-bars",
+        "prompt": "A path with wide ERROR BARS over an ocean band. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Pick a tumble and a band of ocean, then live with the error bars.",
+        "image": null
+      },
+      {
+        "slug": "0700-tourism-bump",
+        "prompt": "A postcard ESPERANCE, stamp TOURISM BUMP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Esperance later remembered a tourism bump more than a scare.",
+        "image": null
+      },
+      {
+        "slug": "0710-not-body-count",
+        "prompt": "Scraps plus a ticket, a red X on a body-count ledger. Not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover on the ground: scraps and a fine, not a body count.",
+        "image": null
+      },
+      {
+        "slug": "0720-converted-stage",
+        "prompt": "A candy workshop interior, sunshade, 9 CREW. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nine people lived in a converted rocket stage. A sunshade saved the program.",
+        "image": null
+      },
+      {
+        "slug": "0730-last-lever",
+        "prompt": "A single lever LAST COMMAND. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A last gyro command because that was the lever they had.",
+        "image": null
+      },
+      {
+        "slug": "0740-ocean-vs-shire",
+        "prompt": "Three cards OCEAN / LAND / TICKET. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official: the ocean. Street: Australia. Leftover: a shire billed the somewhere.",
+        "image": null
+      },
+      {
+        "slug": "0750-who-won-water",
+        "prompt": "A split pie MOSTLY WATER vs NEWS PIECES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Indian Ocean won most of the mass. WA won the pieces that made the news.",
+        "image": null
+      },
+      {
+        "slug": "0800-museum-or-lawn",
+        "prompt": "A glass case vs a painted lawn bullseye. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A museum glass case versus a lawn target.",
+        "image": null
+      },
+      {
+        "slug": "0810-how-much-water",
+        "prompt": "A question mark over water and a museum ticket. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask how much landed in water, and whether the fine was a gift for a glass case.",
+        "image": null
+      },
+      {
+        "slug": "0820-pay-or-target",
+        "prompt": "Split: a 400 ticket vs a lawn target, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have paid the four hundred, or kept the target on the lawn.",
+        "image": null
+      },
+      {
+        "slug": "0830-harlan-won",
+        "prompt": "A receipt line SUSPENSE OVER. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Harlan won a sentence about suspense being over.",
+        "image": null
+      },
+      {
+        "slug": "0840-thornton-won",
+        "prompt": "A prize cup 10K, a waiting-room ticket MARSHALL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Thornton won ten thousand dollars and a week in a lab queue.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card TUMBLE vs TICKET, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, no disaster porn, not mud-green archive night, not After Hours File dark. Skylab shown as a candy workshop, a paper ticket, a map pin, cartoon metal scraps not burning towns, not people on fire, not craters. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They told it to fall somewhere. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Station They Told to Fall Somewhere",
+    "description": "Nineteen seventy nine. A seventy-seven-ton workshop, an ocean aim, and a four-hundred-dollar litter ticket.",
+    "tags": [
+      "history",
+      "1979",
+      "skylab",
+      "nasa",
+      "esperance",
+      "cartoon",
+      "true story",
+      "logistics",
+      "space"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "THEY FINED NASA",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "The Shire of Esperance fined NASA four hundred dollars for littering after a space station came down on Western Australia. That is not a metaphor, and it is not a cartoon you invented after a trivia night about America dropping a lab on a beach. On the eleventh of July nineteen seventy nine, at sixteen thirty seven Coordinated Universal Time, Skylab began reentry on its thirty four thousand nine hundred eighty first orbit. In Esperance it was already the twelfth, just after midnight. NASA had aimed the leftover metal at the Indian Ocean. Most of it did go there. Some of it did not. Keep that split. Then put a red X on the joke that this is a disaster movie. The leftover is not a fireball over a city. The leftover is a souvenir ticket.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a shuttle was supposed to be the save. Skylab was America's first station, launched the fourteenth of May nineteen seventy three on the last Saturn Five from Pad Thirty Nine A. The complex was four pieces: an Orbital Workshop converted from a Saturn upper stage, an airlock, a multiple docking adapter, and an Apollo Telescope Mount with solar arrays. About sixty three seconds up, the micrometeoroid shield, which was also the thermal blanket, tore. One solar wing ripped off. Debris jammed the other. NASA files the on-orbit mass around one hundred seventy thousand pounds, by far the heaviest spacecraft to that date. Wikipedia files about one hundred sixty eight thousand seven hundred fifty, roughly seventy seven tons. File the range. It arrived underpowered and cooking. Mission managers slipped the first crew ten days while engineers invented a save. Skylab-2 put up a sunshade and later freed the stuck panel. Humans on board, NASA later said, were the reason unplanned repairs and extra science happened at all, including new solar flares and a comet in the inner system. Three crews, nine people, stayed twenty eight, fifty nine, and eighty four days. Two hundred seventy experiments. More than one hundred seventy thousand solar images. Forty six thousand Earth photographs. Before leaving on the eighth of February nineteen seventy four, Skylab-4 boosted the empty station to about two hundred sixty nine by two hundred eighty three miles, hoping it would last until nineteen eighty three. By then a Shuttle was supposed to attach a rocket, raise it, or drop it neatly in the Pacific. The Shuttle ran late. The Sun ran hot. Extra solar activity thickened the upper air. Drag ate the orbit. The official idea was: the next vehicle will catch it.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "File the 1979 plan, because a tumble is not a steering wheel. NASA could not park a seventy seven ton workshop on a dime. Flight controllers at Johnson Space Center changed the station's attitude to change the drag, the only leftover lever they had. On the eleventh of July they sent the last command: turn off the control moment gyros, put it in a slow tumble, keep the footprint off a populated band such as North America. They expected breakup over the southern tip of Africa, then the Indian Ocean. Robert Gray at the State Department later said the aim was the South Atlantic or the Indian Ocean. Wikipedia files NASA's odds of any person being hit at about one in one hundred fifty two. Multiply by four billion people and you get a specific-person leftover around one in six hundred billion in the same write-up, and a city of a hundred thousand or more at about one in seven. Special teams waited in case a country asked for help. Newspapers sold mock Skylab insurance. A Nebraska neighborhood painted a target so the station would have something to aim for. T-shirts. Hats. Nightly news. Nightly bets. That is merchandising wearing an orbit. Controllers were not throwing darts at a globe. They were shrinking a footprint with a gyro switch.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover the movies file as a crash. The breakup ran late. Most surviving pieces still hit water. Some crossed sparsely populated southern Western Australia, a swath from Esperance toward Balladonia and Rawlinna. Locals later told the ABC of a fiery apparition and window-rattling sonic booms in the early hours. NASA first announced it had fallen harmlessly into the Indian Ocean, about two thirty eight in the morning Australian Eastern time in one ABC file, before the land reports stacked up. No one was hurt. File that as the whole injury count. Do not draw it as a town on fire. Flight Director Charles S. Harlan told a news conference: the surprise is over, no more suspense, Skylab is on the planet Earth. A NASA party arrived to check pieces. A makeshift bench with a Geiger counter. Contestants from the Miss Universe pageant in Perth that year flew out to hunt. A large piece later sat on the pageant stage on the twentieth of July. Analysis said the station came apart about ten miles up, lower than the model.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "The San Francisco Examiner offered ten thousand dollars for the first chunk delivered to its office. The Chronicle offered insurance if a subscriber took damage. Stan Thornton, seventeen, in Esperance, found about twenty four pieces at his home, insulation in the usual description. He got a passport, flew to San Francisco, waited a week for Marshall Space Flight Center to say the wreckage was genuine, and collected the Examiner money plus another thousand from a Philadelphia businessman who had flown his family. That is a bag of station as a contest prize. Souvenir hunters were in the desert in under a day. Even pageant contestants flew from Perth. Geoff and Pauline Grewar later found an oxygen tank in nineteen ninety three; the Esperance museum still holds tanks, a nitrogen tank, and scraps. The backup workshop sits at the Smithsonian. The trainer sits at Space Center Houston. NASA's 2019 history still points visitors there. The leftover of a space station is sometimes a glass case, and sometimes a teenager's luggage, and sometimes a litter ticket nobody paid until a radio morning show did it as a gag.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a disaster and a plot. Put a red X on both. A later story claimed Skylab was steered at Pine Gap so secret gear could be recovered. Diplomatic cables called that an obvious untruth and said answering it would be counterproductive. File the rumor. Do not spend it as a mission. The official leftover was an ocean. The street leftover was Australia. The joke leftover was a ticket. Around the nineteenth of July, Esperance Shire presented NASA's team a four hundred dollar littering citation, the same local rule as dumped household waste, meant as a tongue-in-cheek gift they hoped might land in the museum. NASA did not pay. In two thousand nine, Scott Barley of Highway Radio in Barstow, California, crowdfunded the outstanding penalty from morning listeners and handed the shire a novelty cheque. Thirty years of an unpaid joke. A ticket is a costume for a footprint that overshot a model.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "File what the Sun actually did, because July was not a villain in a cape. Skylab was never designed for a crewed, steered landing. Empty tanks, tired gyros, no Shuttle tug. Higher solar activity meant more upper-atmosphere drag, the same physics that makes satellites fall faster in a busy solar cycle. Controllers did the only honest thing left: pick a tumble and a band of ocean, then live with the error bars. International media treated the weeks before as a sweepstakes. Some people were cautious. Some painted bullseyes. Some sold shirts. Esperance later remembered a tourism bump more than a scare. Balladonia, population nine in one later ABC file, found itself on the map when pieces came down near a hotel. That is not the same as saying a seventy seven ton object is a party trick. It is saying the leftover, on the ground, was scraps and a fine, not a body count. NASA's own later history still files the majority in the Indian Ocean and the Australian pieces as the sparse-country remainder. Do not spend sonic booms as an attack. Do not spend a museum oxygen tank as a crater. The backup Orbital Workshop you can still walk around in Washington is the station that did not have to fall.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a perfect splashdown, and none of it is a cartoon of NASA as clowns who missed a continent on purpose. They had a last Saturn Five. They had a torn blanket at sixty three seconds. They had a Shuttle that was not ready in eighty three. You are allowed to laugh at a four hundred dollar litter ticket on a superpower, and at a Nebraska target painted on a lawn, and at a pageant displaying a piece of workshop. You are not required to laugh at nine people who lived in a converted rocket stage, or at a sunshade that saved the program, or at controllers sending a last gyro command because that was the lever they had. The official idea was: the ocean will take it. The street idea was: they dropped a station on Australia. The leftover idea is: they told it to fall somewhere, and a shire billed them for the somewhere.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the 1983 rescue that never launched. Not the Pine Gap plot. Harlan won a sentence about suspense being over. Esperance won a museum and a joke invoice. Thornton won ten thousand dollars and a week in a lab queue. Barley's listeners won a thirty-year punchline. The Indian Ocean won most of the mass. Western Australia won the pieces that made the news. If you need a moral, skip space is doomed. Take this: a tumble is a terrible whole story, and a litter ticket is a terrible honest one. The next time someone tells you NASA dumped a station on a town, ask how much landed in water, and whether the fine was a gift for a glass case. Would you have paid the four hundred, or kept the target on the lawn. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

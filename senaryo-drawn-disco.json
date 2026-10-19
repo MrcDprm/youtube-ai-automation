@@ -1,0 +1,538 @@
+{
+  "project_id": "the-night-they-blew-up-disco-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-crate-ate-game",
+        "prompt": "Cartoon title beat: a giant wooden crate of vinyl records sitting on a baseball diamond, a tiny FORFEIT stamp falling. Cream paper. Comic, not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A crate of vinyl ate a baseball game.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-sermon",
+        "prompt": "Ink shaking his head at a CULTURE WAR stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a metaphor. Not a culture-war sermon.",
+        "image": null
+      },
+      {
+        "slug": "0020-july-12-1979",
+        "prompt": "Calendar July 12 1979, a cartoon brick ballpark, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "July 12, 1979, Comiskey Park, Chicago South Side.",
+        "image": null
+      },
+      {
+        "slug": "0030-doubleheader",
+        "prompt": "Two stacked tickets GAME 1 GAME 2, generic baseball caps, no photoreal players. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Twi-night doubleheader: White Sox vs Detroit Tigers.",
+        "image": null
+      },
+      {
+        "slug": "0040-ninety-eight-cents",
+        "prompt": "A huge 98 CENTS ticket next to a vinyl disc and a radio dial 97.9. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "98 cents if you brought a disco record. WLUP 97.9.",
+        "image": null
+      },
+      {
+        "slug": "0050-named-people",
+        "prompt": "Three cartoon nameplates BILL MIKE STEVE, no photoreal faces, a tiny park. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bill Veeck, Mike Veeck, Steve Dahl. Named by 0:40.",
+        "image": null
+      },
+      {
+        "slug": "0100-hoped-twenty",
+        "prompt": "A hopeful crowd meter at 20000, a baseball waiting. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official hope: about 20,000 people. Then baseball.",
+        "image": null
+      },
+      {
+        "slug": "0110-crate-center",
+        "prompt": "A crate in center field with a comic fuse, CENTER FIELD sign. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Between games: blow up a crate in center field.",
+        "image": null
+      },
+      {
+        "slug": "0120-christmas-eve",
+        "prompt": "A Christmas Eve 1978 pink slip, radio tower DISCO, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Dahl fired Christmas Eve 1978 when WDAI went disco.",
+        "image": null
+      },
+      {
+        "slug": "0130-wlup-hired",
+        "prompt": "Two slogan cards DISCO DAI vs DISCO DIE, a radio mic. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "WLUP hired him. Disco DAI mocked as Disco DIE.",
+        "image": null
+      },
+      {
+        "slug": "0140-coho-lips",
+        "prompt": "A silly fish-lips club badge INSANE COHO LIPS, cartoon not army. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Insane Coho Lips. A listener club with a joke name.",
+        "image": null
+      },
+      {
+        "slug": "0150-meier-slogan",
+        "prompt": "Two mics, a DISCO SUCKS bumper sticker as a product not a hymn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Garry Meier on air. Disco Sucks as a radio product.",
+        "image": null
+      },
+      {
+        "slug": "0200-saturday-night",
+        "prompt": "A 1977 movie marquee SATURDAY NIGHT FEVER, vinyl flying, no photoreal Travolta. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Disco went huge after Saturday Night Fever, 1977.",
+        "image": null
+      },
+      {
+        "slug": "0210-mall-to-park",
+        "prompt": "A tiny mall crate next to a huge ballpark crate, UPGRADE arrow. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He already wanted a mall crate. The park was bigger.",
+        "image": null
+      },
+      {
+        "slug": "0220-bread-circuses",
+        "prompt": "A circus tent on a baseball field, BREAD AND CIRCUSES banner. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Veeck: losing team plus bread and circuses.",
+        "image": null
+      },
+      {
+        "slug": "0230-rainout-may2",
+        "prompt": "A raincloud MAY 2 dumping a ticket onto JULY 12. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "May 2 rainout stacked onto July 12 as game two.",
+        "image": null
+      },
+      {
+        "slug": "0240-teen-night",
+        "prompt": "A TEEN NIGHT half-price stub under a stack of records. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Teen night already half price. Then they stacked vinyl.",
+        "image": null
+      },
+      {
+        "slug": "0250-security-35k",
+        "prompt": "Two clipboards 20000 HOPE and 35000 SECURITY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hoped 20,000. Hired security for 35,000.",
+        "image": null
+      },
+      {
+        "slug": "0300-capacity",
+        "prompt": "A stadium seating chart labeled 44492. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Comiskey seated about 44,492.",
+        "image": null
+      },
+      {
+        "slug": "0310-previous-night",
+        "prompt": "A sparse cartoon crowd 15520, empty seats. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Night before: 15,520 in the park.",
+        "image": null
+      },
+      {
+        "slug": "0320-sox-record",
+        "prompt": "A standings card 40-46, not a lecture. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "White Sox went in 40-46.",
+        "image": null
+      },
+      {
+        "slug": "0330-loud-then-play",
+        "prompt": "A two-step recipe LOUD then PLAY, Ink nodding, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: this will be loud, then we play.",
+        "image": null
+      },
+      {
+        "slug": "0340-hospital-out",
+        "prompt": "A hospital gown on a hook, a worried owner silhouette walking to the park, no photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bill checked out of hospital tests. He was worried.",
+        "image": null
+      },
+      {
+        "slug": "0350-sold-out",
+        "prompt": "A SOLD OUT stamp, a crowd outside a brick wall. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sold out. At least 20,000 still outside.",
+        "image": null
+      },
+      {
+        "slug": "0400-windows-fences",
+        "prompt": "Cartoon figures climbing a fence and a window, comic not riot-porn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Turnstiles, fences, windows. Extra people inside.",
+        "image": null
+      },
+      {
+        "slug": "0410-official-47795",
+        "prompt": "A ticket counter 47795 vs a handwritten 50-55K. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official attendance 47,795. Veeck said 50-55 thousand.",
+        "image": null
+      },
+      {
+        "slug": "0420-dan-ryan",
+        "prompt": "A highway off-ramp with a CLOSED cone, park in the distance. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Police closed Dan Ryan ramps near the park.",
+        "image": null
+      },
+      {
+        "slug": "0430-box-size",
+        "prompt": "A wooden box 4x6x5 overflowing with vinyl. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Collection box about 4 by 6 by 5 feet. It overflowed.",
+        "image": null
+      },
+      {
+        "slug": "0440-seats-vinyl",
+        "prompt": "Vinyl discs stacked on bleacher seats. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Extra records went to seats, not the crate.",
+        "image": null
+      },
+      {
+        "slug": "0450-six-pm",
+        "prompt": "A stadium clock 6:00 CDT, a baseball on the mound. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "First pitch 6:00 pm CDT.",
+        "image": null
+      },
+      {
+        "slug": "0500-lorelei-pitch",
+        "prompt": "A cartoon first-pitch silhouette, modest clothing, no sexualizing, a baseball in air. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Lorelei threw the first pitch. Then baseball tried.",
+        "image": null
+      },
+      {
+        "slug": "0510-security-gates",
+        "prompt": "Guards clustered at GATES, the grass empty of guards. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mike sent security to the gates. Field left thin.",
+        "image": null
+      },
+      {
+        "slug": "0520-frisbee-lps",
+        "prompt": "Vinyl records flying like frisbees onto cartoon grass. Not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Uncollected LPs thrown like flying discs.",
+        "image": null
+      },
+      {
+        "slug": "0530-staub-helmets",
+        "prompt": "A batting helmet beside a vinyl disc stuck in dirt, HELMETS sign. No photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rusty Staub: wear batting helmets. Vinyl can slice.",
+        "image": null
+      },
+      {
+        "slug": "0540-tigers-4-1",
+        "prompt": "A scoreboard TIGERS 4 SOX 1, names UNDERWOOD HOWARD. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Detroit won game one 4-1. Underwood, Howard.",
+        "image": null
+      },
+      {
+        "slug": "0550-eight-forty",
+        "prompt": "A cartoon Jeep in center field, helmet, no photoreal face, 8:40. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "8:40: Dahl in a helmet, a Jeep, center field.",
+        "image": null
+      },
+      {
+        "slug": "0600-worlds-largest",
+        "prompt": "A megaphone WORLD'S LARGEST ANTI-DISCO RALLY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He called it the world's largest anti-disco rally.",
+        "image": null
+      },
+      {
+        "slug": "0610-boom-crater",
+        "prompt": "Giant comic BOOM letters, vinyl shards, a grass crater, nobody hurt on camera. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Explosion. Comic BOOM. A hole in the outfield grass.",
+        "image": null
+      },
+      {
+        "slug": "0620-five-to-seven",
+        "prompt": "Tiny cartoon crowd pouring onto a diamond, 5000-7000 tag, not riot-porn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Then 5,000 to 7,000 people on the grass.",
+        "image": null
+      },
+      {
+        "slug": "0630-kravec-runs",
+        "prompt": "A pitcher running toward a CLUBHOUSE door, mound empty. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ken Kravec left the mound. Clubhouse barricade.",
+        "image": null
+      },
+      {
+        "slug": "0640-batting-cage",
+        "prompt": "A bent batting cage, bases walking away with little legs, comic. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Batting cage wrecked. Bases stolen. Cartoon mess.",
+        "image": null
+      },
+      {
+        "slug": "0650-caray-pa",
+        "prompt": "A PA mic and scoreboard PLEASE RETURN TO YOUR SEATS. No photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Harry Caray on the PA. Scoreboard: please return to seats.",
+        "image": null
+      },
+      {
+        "slug": "0700-padlocked",
+        "prompt": "A chain and padlock on stadium gates, one small EXIT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Security padlocked all but one gate.",
+        "image": null
+      },
+      {
+        "slug": "0710-nine-oh-eight",
+        "prompt": "A clock 9:08, cartoon police hats, people walking off grass, no violence. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "9:08: police. Crowd left the grass.",
+        "image": null
+      },
+      {
+        "slug": "0720-thirty-nine",
+        "prompt": "A respectful tally 39 ARRESTS, 0 DEATHS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "39 arrests, disorderly conduct. Nobody died.",
+        "image": null
+      },
+      {
+        "slug": "0730-phillips-unplayable",
+        "prompt": "A rake, a crater, UNPLAYABLE stamp, clock one hour. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Dave Phillips: field still unplayable after an hour.",
+        "image": null
+      },
+      {
+        "slug": "0740-sparky-forfeit",
+        "prompt": "A rulebook and FORFEIT stamp, manager cap, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sparky Anderson: forfeit. Home team owes a field.",
+        "image": null
+      },
+      {
+        "slug": "0750-macphail",
+        "prompt": "A morning newspaper FORFEIT 9-0, LAST AL FORFEIT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Lee MacPhail next day: forfeit 9-0. Last AL forfeit.",
+        "image": null
+      },
+      {
+        "slug": "0800-leftover-gates",
+        "prompt": "Split panel GATES full of guards, CENTER FIELD crate alone. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover fact: security was at the gates. Crate in center.",
+        "image": null
+      },
+      {
+        "slug": "0810-mike-next-job",
+        "prompt": "A tiny figure on an outfield wall, a NEXT JOB thought bubble, no photoreal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Mike Veeck: first person down the wall, life over.",
+        "image": null
+      },
+      {
+        "slug": "0820-disco-debate",
+        "prompt": "Two folders STUNT and PREJUDICE, a FILE BOTH stamp. Ink serious, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Later argument: radio stunt vs prejudice. File both.",
+        "image": null
+      },
+      {
+        "slug": "0830-not-a-mob-gag",
+        "prompt": "Ink peeling a MOB GAG sticker off a ticket stub, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a cartoon of fans as a punchline. The plan undercounted radio.",
+        "image": null
+      },
+      {
+        "slug": "0840-ninety-eight-receipt",
+        "prompt": "A 98 CENTS coin crushing a turnstile, comic. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "98 cents bought a crowd the gates could not meter.",
+        "image": null
+      },
+      {
+        "slug": "0850-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, a tiny crate on a diamond. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no injuries closeup, no sexualized figures, no riot-porn. Explosion shown as a comic BOOM with vinyl shards, not fireballs of people. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have stacked a crate on a baseball field. Tell me in the comments.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Night They Blew Up Disco",
+    "description": "Chicago, nineteen seventy nine. Ninety eight cents, a crate in center field, and a doubleheader that hired a forfeit.",
+    "tags": [
+      "history",
+      "disco demolition",
+      "comiskey park",
+      "cartoon",
+      "true story",
+      "1979",
+      "white sox",
+      "steve dahl",
+      "funny",
+      "baseball"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "ATE GAME TWO",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A baseball game once lost to a crate of vinyl in center field. That is not a metaphor, and it is not a culture-war cartoon you invented after a trivia night. On Thursday the twelfth of July nineteen seventy nine, at Comiskey Park on the South Side of Chicago, the Chicago White Sox hosted the Detroit Tigers in a twi-night doubleheader. Anyone who brought a disco record could walk in for ninety eight cents, because WLUP sat at ninety seven point nine on the dial. Between games, a crate in center field was supposed to explode, the crowd was supposed to clap, and game two was supposed to start. Keep that picture. Owner Bill Veeck. Promotions director Mike Veeck, his son. Radio man Steve Dahl. Official hope: about twenty thousand people. Official plan: a box, a bang, then baseball. Everything after this is just that picture hiring a forfeit stamp.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a radio man thought a ballpark was a booth. On Christmas Eve nineteen seventy eight, Steve Dahl was fired from WDAI when the station switched from rock to disco. He was twenty four. Rival album-rock station WLUP hired him. He mocked the old slogan Disco DAI as Disco DIE, and he built a listener club with a joke name, the Insane Coho Lips. His partner on air was Garry Meier. The slogan on the banners would be Disco Sucks. Treat that as a radio product, not a moral you have to salute. Disco itself had gone huge after Saturday Night Fever in nineteen seventy seven. Stations copied New York's WKTU. In Chicago, a rock DJ who had just lost a job to a format change now had a crate, a frequency, and a grudge that sold tickets. Early in seventy nine, a WLUP man told Mike Veeck that Dahl already wanted to blow up records live from a shopping mall. The park was simply bigger. That is the setup. Not a thesis. A venue upgrade.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Bill Veeck had been selling baseball as a circus since the nineteen forties. You can draw more people, he said, with a losing team plus bread and circuses than with a losing team and a long still silence. Mike was promotions director. A White Sox versus Tigers game rained out on the second of May had been stacked onto Thursday the twelfth of July as a twi-night doubleheader. Teen night was already on the calendar, half price. Then they stacked vinyl. WLUP was ninety seven point nine, so the ticket joke was ninety eight cents with a disco record. Dahl would destroy the collected vinyl between games. The club hoped for twenty thousand, about five thousand more than a dull night. They hired security for thirty five thousand. Comiskey seated about forty four thousand four hundred ninety two. The night before, fifteen thousand five hundred twenty had shown up. The White Sox went in at forty wins and forty six losses. The official idea was: this will be loud, and then we will play.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Bill Veeck checked himself out of hospital tests because he was worried the promotion would become a disaster. His fear arrived on foot. The doubleheader sold out. At least twenty thousand people were still outside. Some leapt turnstiles, climbed fences, came through windows. Official attendance was forty seven thousand seven hundred ninety five. Bill later said fifty to fifty five thousand were inside, the biggest crowd of his second stint as owner. Chicago police closed off-ramps from the Dan Ryan Expressway near the park. The collection box was about four feet by six by five. Once it overflowed, records went to seats. First pitch was due at six in the evening, Central Daylight Time. Lorelei, a WLUP public-appearance model that summer, threw it. As game one started, Mike got word thousands were still trying to enter without tickets. He sent security to the gates. That left the grass thin. Uncollected LPs started flying from the stands like discs. Tigers designated hitter Rusty Staub said they sliced the air and stuck in the dirt. He told teammates to wear batting helmets. The game stopped several times. Detroit won it, four to one. Pat Underwood got the win. Fred Howard took the loss.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "At eight forty, Dahl came onto the field in army fatigues and a helmet, with Meier and Lorelei, circling in a Jeep toward center field. Ken Kravec, booked to start game two, was already warming up. Dahl told the crowd this was now officially the world's largest anti-disco rally, and that the giant box of records would be blown up real good. He set off the explosives. The vinyl went. So did a hole in the outfield grass. File the boom as a cartoon bang, not a war reel. With most of the guards still at the gates, the first of five thousand to seven thousand people came over the wall. Kravec left the mound and joined a barricaded clubhouse. Some climbed foul poles. Some set records on fire. The batting cage was wrecked. The bases were pulled up and stolen. Bill Veeck stood near where home plate had been and asked people to go back. Harry Caray tried the public address. The scoreboard flashed please return to your seats. They played Take Me Out to the Ball Game. It did not work. Security had padlocked all but one gate, trying to keep the outside from becoming the inside.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Here is the leftover fact, and it is not that disco died in a crater. At nine oh eight, Chicago police in riot gear arrived. The people on the grass left. Thirty nine were arrested for disorderly conduct. Estimates of injuries run from none to over thirty. Nobody died. Veeck wanted game two once the dirt was raked. Crew chief Dave Phillips said the field was still unplayable after groundskeepers spent an hour on debris. Tigers manager Sparky Anderson would not send his club out. He argued a game is postponed for an act of God, and a home team owes a playable field. Phillips called American League president Lee MacPhail, who postponed the second game to Sunday. Anderson wanted a forfeit. The next day MacPhail gave him one, nine to nothing, and said the White Sox had failed to provide acceptable playing conditions. It remains the last American League forfeit. The crate did what it was hired to do. The second game did not.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Rehook, because the internet likes a night disco died. Dahl said later disco was probably already on its way out, and that the night may have hurried it. Record companies started calling the same songs dance music. Dave Marsh in Rolling Stone called the crowd a paranoid fantasy about where rock radio could lead. Nile Rodgers likened the pile of vinyl to a book burning. Gloria Gaynor said she believed it was an economic idea dressed as a crowd. Dahl has spent decades saying it was not racist and not homophobic, that it was a romp later reframed. File the argument. Do not pretend there was no argument. Also do not let the argument steal the receipt. Mike Veeck stayed with the club into late nineteen eighty, then left baseball for years and said he had been blackballed. He later said that when the first person came down the outfield wall, he knew that life was over. Bill sold the team in nineteen eighty one. The promotion sold tickets. It also sold a forfeit.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a cartoon of fifty thousand teenagers as a punchline, and none of it is a hymn to Disco Sucks. They had a radio frequency that became a price. They had a box four by six by five that did not scale. They had security counted for thirty five thousand and a park that printed forty seven thousand seven hundred ninety five, plus whoever came through the windows. They put the guards at the gates because the outside was still trying to become the inside, which is how the grass lost its guards. The chemistry is cheap tickets plus vinyl plus a crater in center field. The logistics is who you staff for. When you staff the turnstiles, the crate is unsupervised. When the crate goes bang, the second game is a field condition. You are allowed to laugh at ninety eight cents. You are not required to laugh at a batting cage, or to pretend a forfeit is a culture thesis that arrived with a Jeep. White Sox pitcher Rich Wortham said it would not have happened on country and western night. File the quote. The field still had a hole.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the crate. Not the Jeep. Not the slogan on the banners. Detroit won game one, four to one, and was handed game two in the morning. Sparky Anderson won a rulebook argument. Lee MacPhail won a nine to nothing line in the standings. Harry Caray won a public address that nobody obeyed. Dahl won a headline he is still answering. Mike Veeck won a story he has spent a career retelling, and a decade out of the sport. Bill Veeck won the biggest crowd of that second run, and a forfeit. If you need a moral, skip never book a radio man. Take this: a crate is a terrible instrument for a doubleheader, and a doubleheader is a terrible neighbour for a radio army you cannot count at the gate. The next time someone tells you they blew up disco, ask whose security was at the gates, and whose second game got a stamp. Would you have stacked a crate of vinyl on a baseball field for ninety eight cents. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}
