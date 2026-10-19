@@ -1,0 +1,537 @@
+{
+  "project_id": "the-telescope-that-launched-blurry-9dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-hair-width",
+        "prompt": "A hair next to a 2.2 MICRON tag, a candy mirror disk. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Off by about 1/50 the width of a human hair. 2.2 microns too flat at the edge.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a BLURRY JOKE stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a blurry-Hubble trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-april-24",
+        "prompt": "A shuttle tag DISCOVERY STS-31, date 24 APR 1990. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "24 April 1990, Discovery STS-31, Hubble into orbit.",
+        "image": null
+      },
+      {
+        "slug": "0030-june-27",
+        "prompt": "A press card 27 JUN 1990, WRONG CURVE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "27 June: NASA announced the primary had the wrong curve.",
+        "image": null
+      },
+      {
+        "slug": "0040-two-foci",
+        "prompt": "A candy mirror with two focus dots instead of one. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Spherical aberration: light did not meet at one focus.",
+        "image": null
+      },
+      {
+        "slug": "0050-x-never-tested",
+        "prompt": "A NEVER TESTED stamp with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the joke that NASA never tested anything.",
+        "image": null
+      },
+      {
+        "slug": "0100-wrong-box",
+        "prompt": "A gold TEST box beating two smaller RIGHT tests. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover: a test they trusted more than the tests that were right.",
+        "image": null
+      },
+      {
+        "slug": "0110-cassegrain",
+        "prompt": "A two-mirror cartoon telescope, tag RITCHEY-CHRETIEN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ritchey-Chrétien Cassegrain: two hyperbolic mirrors, compact enough to fly.",
+        "image": null
+      },
+      {
+        "slug": "0120-mirror-spec",
+        "prompt": "A disk 2.4 M / 1825 LB. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Primary: 7.9 feet, 2.4 m, 1,825 pounds, Ultra-Low Expansion glass.",
+        "image": null
+      },
+      {
+        "slug": "0130-wanted-83",
+        "prompt": "A calendar 1983 slipped to 1990, shuttle grounded tag. Not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Wanted in 1983. Delays, then Challenger 1986 grounded the fleet.",
+        "image": null
+      },
+      {
+        "slug": "0140-six-million",
+        "prompt": "A meter 6M / MONTH, NITROGEN, CLEAN ROOM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About $6 million a month in a clean room on nitrogen.",
+        "image": null
+      },
+      {
+        "slug": "0150-perkin-elmer",
+        "prompt": "A factory tag PERKIN-ELMER DANBURY. No photoreal logo mash. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Perkin-Elmer, Danbury. Later Hughes Danbury. Won the mirror.",
+        "image": null
+      },
+      {
+        "slug": "0200-kodak-backup",
+        "prompt": "Two disks PRIMARY and KODAK BACKUP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "NASA made them subcontract a Kodak backup with traditional polish.",
+        "image": null
+      },
+      {
+        "slug": "0210-itek-bid",
+        "prompt": "Two clipboards DOUBLE CHECK, stamp WOULD HAVE CAUGHT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kodak and Itek bid a double-check that would almost certainly have caught it.",
+        "image": null
+      },
+      {
+        "slug": "0220-museum-uncoated",
+        "prompt": "A museum disk UNCOATED, SMITHSONIAN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kodak backup now at the Air and Space Museum, uncoated.",
+        "image": null
+      },
+      {
+        "slug": "0230-official-rnc",
+        "prompt": "A certified stamp RNC ONLY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: certify the reflective null corrector, believe only that.",
+        "image": null
+      },
+      {
+        "slug": "0240-null-template",
+        "prompt": "A small optical box labeled TEMPLATE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A null corrector is a template for a perfect primary.",
+        "image": null
+      },
+      {
+        "slug": "0250-two-mirrors-lens",
+        "prompt": "Two tiny mirrors and a lens in a candy box. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "RNC: two small mirrors and a lens.",
+        "image": null
+      },
+      {
+        "slug": "0300-pinhole-cap",
+        "prompt": "A rod, a cap with a PINHOLE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Metering rod and field cap with a pinhole were supposed to set the lens.",
+        "image": null
+      },
+      {
+        "slug": "0310-stray-light",
+        "prompt": "A bounce arrow CAP NOT ROD, 1.3 MM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stray reflection off the cap, not the rod: about 1.3 millimetres.",
+        "image": null
+      },
+      {
+        "slug": "0320-washers",
+        "prompt": "Tiny washers 1.3 MM, tag POSSIBLE CAUSE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "UPI: spacing washers of that same thickness as another possible cause.",
+        "image": null
+      },
+      {
+        "slug": "0330-allen-accounts",
+        "prompt": "A report card 1.3 MM = BLUR, ALLEN. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Allen Board: 1.3 mm accounts in detail for the blur.",
+        "image": null
+      },
+      {
+        "slug": "0340-point-four-wave",
+        "prompt": "A tolerance bar 10X SPEC, 0.4 WAVE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "0.4-wave rms at 632.8 nm. Ten times the specified tolerance.",
+        "image": null
+      },
+      {
+        "slug": "0350-switched-box",
+        "prompt": "A switch to RNC ONLY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Final figuring switched to the custom reflective box as the only test that counted.",
+        "image": null
+      },
+      {
+        "slug": "0400-inverse-null",
+        "prompt": "A box INVERSE NULL, stamp SAW IT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "An inverse null, mimicking a perfect primary, showed the error.",
+        "image": null
+      },
+      {
+        "slug": "0410-vertex-null",
+        "prompt": "A second box VERTEX, stamp ALSO SAW IT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A second null for vertex radius showed the error too.",
+        "image": null
+      },
+      {
+        "slug": "0420-discounted",
+        "prompt": "Two tests in a DISCOUNTED bin, a shiny WRONG mirror. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Both discounted as themselves flawed. A perfect wrong mirror.",
+        "image": null
+      },
+      {
+        "slug": "0430-sts-31-crew",
+        "prompt": "Five nameplates, clock 8:33 EDT, no portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Discovery 8:33 a.m. Eastern. Shriver, Bolden, Hawley, McCandless, Sullivan.",
+        "image": null
+      },
+      {
+        "slug": "0440-may-20",
+        "prompt": "Two cameras WFPC and FOC, same BLUR stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "First light / entered service: 20 May. Both cameras, same distortion.",
+        "image": null
+      },
+      {
+        "slug": "0450-july-2-board",
+        "prompt": "A folder BOARD 2 JUL, nameplate ALLEN JPL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "2 July: Optical Systems Board, Lew Allen of JPL.",
+        "image": null
+      },
+      {
+        "slug": "0500-nine-years",
+        "prompt": "A dusty box 9 YEARS, SAME SETUP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The null still assembled as it had been nine years earlier.",
+        "image": null
+      },
+      {
+        "slug": "0510-not-blind",
+        "prompt": "A fuzzy star still tagged SCIENCE, not a black screen. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Blurry was not the same as blind. Ground could not do that science.",
+        "image": null
+      },
+      {
+        "slug": "0520-pellerin-60",
+        "prompt": "A budget card 60M, date BY 1994, PELLERIN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Pellerin: about $60 million, publicly committed to repair by 1994.",
+        "image": null
+      },
+      {
+        "slug": "0530-cant-swap",
+        "prompt": "A no-swap stamp IN ORBIT, backup disk on the ground. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kodak backup could not be swapped in orbit. Home refill too slow.",
+        "image": null
+      },
+      {
+        "slug": "0540-opposite-curve",
+        "prompt": "Two matching S-curves, one inverted, tag PRESCRIPTION. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A precise wrong curve means you can write the opposite curve.",
+        "image": null
+      },
+      {
+        "slug": "0550-x-clowns",
+        "prompt": "Ink peeling a CLOWN COLLEGE sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: red X on NASA-is-a-clown-college.",
+        "image": null
+      },
+      {
+        "slug": "0600-wfpc2",
+        "prompt": "A camera box WFPC2, tag BUILT-IN GLASSES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "WFPC2 redesigned with its own internal correction.",
+        "image": null
+      },
+      {
+        "slug": "0610-costar-fridge",
+        "prompt": "A fridge-shaped box COSTAR, tiny nickel mirrors on arms. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "COSTAR: Ball Aerospace, fridge-sized, five pairs of small mirrors.",
+        "image": null
+      },
+      {
+        "slug": "0620-hsp-out",
+        "prompt": "An instrument slot HSP OUT, COSTAR IN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "High Speed Photometer came out to make room.",
+        "image": null
+      },
+      {
+        "slug": "0630-dec-93",
+        "prompt": "A calendar DEC 1993, ENDEAVOUR STS-61. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "SM1, Endeavour, December 1993, STS-61. Thornton and Akers among the walkers.",
+        "image": null
+      },
+      {
+        "slug": "0640-m100-receipt",
+        "prompt": "Split blurry vs sharp, tag M100. Cartoon galaxy, not a photo. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Before and after of galaxy M100 became the receipt.",
+        "image": null
+      },
+      {
+        "slug": "0650-costar-2009",
+        "prompt": "A museum tag COSTAR 2009, hole labeled COS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "COSTAR removed 2009, Smithsonian. COS in the hole.",
+        "image": null
+      },
+      {
+        "slug": "0700-public-report",
+        "prompt": "A public PDF stamp COMPLETE RELIANCE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Allen report is public: complete reliance, no remeasure after assembly.",
+        "image": null
+      },
+      {
+        "slug": "0710-no-plot",
+        "prompt": "A conspiracy board with a red X, leftover 1.3 MM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not sabotage. Not a cover-up. A pinhole, a millimetre, an expensive box.",
+        "image": null
+      },
+      {
+        "slug": "0720-still-in-glass",
+        "prompt": "A mirror with a permanent 2.2 UM tag, new cameras wearing glasses. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The error never left the primary. Later cameras are still the prescription.",
+        "image": null
+      },
+      {
+        "slug": "0730-madison-hsp",
+        "prompt": "A museum tag HSP MADISON. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "High Speed Photometer at Wisconsin-Madison. It paid for the glasses.",
+        "image": null
+      },
+      {
+        "slug": "0740-kodak-costume",
+        "prompt": "A floor disk vs a flying blurry tube. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A Kodak disk on a museum floor is a costume for a ground test that would have caught it.",
+        "image": null
+      },
+      {
+        "slug": "0750-who-won-glasses",
+        "prompt": "A pair of glasses beating a gold RNC box. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the reflective box. The glasses won decades of pictures.",
+        "image": null
+      },
+      {
+        "slug": "0800-inverse-won",
+        "prompt": "A warning bell in a NOISE folder. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The inverse null won a warning that was filed as noise.",
+        "image": null
+      },
+      {
+        "slug": "0810-ask-the-tests",
+        "prompt": "A question mark over 2.2 UM and two test boxes. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask whether they mean 2.2 microns or the tests that already saw them.",
+        "image": null
+      },
+      {
+        "slug": "0820-expensive-or-cheap",
+        "prompt": "Split: gold box vs two cheap boxes, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have believed the expensive box, or the cheap ones that disagreed.",
+        "image": null
+      },
+      {
+        "slug": "0830-prescription-math",
+        "prompt": "A glasses prescription card ARITHMETIC. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The prescription was arithmetic, not luck.",
+        "image": null
+      },
+      {
+        "slug": "0840-two-point-two",
+        "prompt": "A polish rag vs a 1.3 MM ruler. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A perfect polish is a terrible whole story. A millimetre is a terrible honest one.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card BOX vs GLASSES, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hubble shown as a candy telescope, a primary mirror disk, a tiny millimetre ruler, glasses, a test box, not photoreal NASA logos, not a conspiracy board. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They already had the error. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Telescope That Launched Blurry",
+    "description": "Nineteen ninety. Two point two microns, a millimetre in a test box, and a prescription they could write because the error was so precise.",
+    "tags": [
+      "history",
+      "1990",
+      "hubble",
+      "nasa",
+      "telescope",
+      "cartoon",
+      "true story",
+      "logistics",
+      "space"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "OFF BY A HAIR",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "The most expensive science telescope NASA had ever flown was off by about one fiftieth the width of a human hair. That is not a metaphor, and it is not a cartoon you invented after a trivia night about a blurry Hubble joke. On the twenty fourth of April nineteen ninety, Space Shuttle Discovery, mission STS-31, put the Hubble Space Telescope into orbit at eight thirty three in the morning Eastern. On the twenty seventh of June, NASA told the press the primary mirror had the wrong curve. Spherical aberration. Too flat at the outer edge by about two point two microns. Light did not meet at one focus. Keep that split: the glass was polished to a polish, and the polish was the wrong prescription. Then put a red X on the joke that NASA never tested anything. The leftover is not a conspiracy. The leftover is a test they trusted more than the tests that were right.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why one measuring box was supposed to be the truth. Hubble is a Ritchey-Chrétien Cassegrain: two hyperbolic mirrors, compact enough to fly. The primary is about seven point nine feet across, two point four meters, Ultra-Low Expansion glass, about one thousand eight hundred twenty five pounds. NASA wanted it in nineteen eighty three. Technical delays, budget, then Challenger in eighty six grounded the fleet. Wikipedia files about six million dollars a month to keep the telescope in a clean room on nitrogen. Ground software was barely ready even in ninety. Perkin-Elmer in Danbury, Connecticut, later Hughes Danbury, won the mirror. NASA made them subcontract a backup to Kodak, using traditional polishing, because the fancy computer-controlled machines might fail. Kodak and Itek had even bid a double-check plan that would almost certainly have caught the error. That backup now sits in the National Air and Space Museum, uncoated so you can see the structure. Launch spend sat around four point seven billion in later twenty ten dollars. The official idea was: certify the reflective null corrector, then believe only that.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "File the box, because a millimetre is not a vibe. A null corrector is a template. It turns a spherical test wave into the shape a perfect Hubble primary should send back. Perkin-Elmer's reflective null corrector had two small mirrors and a lens. During setup, a metering rod and a field cap with a pinhole were supposed to set the lens. New Scientist, quoting Lew Allen, files stray light: a reflective region around the pinhole bounced the beam off the cap instead of the end of the rod, about one point three millimetres. UPI filed spacing washers of that same thickness as another possible cause. The Allen Board later measured the preserved device and said one point three millimetres accounts in detail for the blur. Zero point four wave rms wavefront error at six hundred thirty two point eight nanometres. Ten times the specified tolerance, NASA later said. During grind they had conventional refractive nulls. For final figuring they switched to the custom reflective box and treated it as the only test that counted. An inverse null corrector, built to mimic a perfect primary, showed the error. A second null used to measure vertex radius showed the error. Both were discounted as themselves flawed. They ground a perfect wrong mirror.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover the late-night shows filed as a national punchline. Discovery launched on the twenty fourth of April. Crew: Loren Shriver, Charles Bolden, Steven Hawley, Bruce McCandless, Kathryn Sullivan. First light, Wikipedia's service date, the twentieth of May. Both cameras, the Wide Field and Planetary Camera and the Faint Object Camera, showed the same distortion. So it was not one instrument. June twenty seventh: public announcement. July second: Optical Systems Board of Investigation, Lew Allen of JPL in the chair. They found the null corrector still assembled as it had been nine years earlier. The error was in the primary, too flat away from centre. Even with the flaw, NASA notes Hubble could already do science the ground could not. That is not a defence of a millimetre. It is a file: blurry was not the same as blind. Charles Pellerin, astrophysics, pulled about sixty million dollars for a fix and publicly committed to repair by ninety four. Kodak's backup could not be swapped in orbit. Bringing the telescope home was too slow and too expensive. The leftover of a precise wrong curve is that you can write the opposite curve.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "The prescription had a name. Wide Field and Planetary Camera Two was redesigned with its own internal correction. For the other axial instruments, Ball Aerospace and NASA built COSTAR, Corrective Optics Space Telescope Axial Replacement. NASA calls it about the size of a large refrigerator; another NASA page says telephone-booth-sized. Five pairs of small mirrors on arms, some as small as a nickel, to send corrected light to the Faint Object Camera, the Faint Object Spectrograph, and the Goddard High Resolution Spectrograph. To make room, the High Speed Photometer came out. Servicing Mission One, Endeavour, December nineteen ninety three, STS-61. Kathryn Thornton and Thomas Akers among the spacewalkers who put COSTAR in. WFPC2 went in the radial bay. Solar arrays, gyros, magnetometers, computer coprocessors, a boost to a higher orbit. Before and after of galaxy M100 became the receipt. Later instruments carried their own glasses. COSTAR left in two thousand nine, Smithsonian now, Cosmic Origins Spectrograph in the hole.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a story that NASA is a clown college. Put a red X on that sermon. A certified template is not a personality. Ignoring two cheaper tests is logistics, not a plot to waste a decade. The Allen report is public: they placed complete reliance on the reflective null and did not verify its dimensions after original assembly. That is a process failure you can read. It is not a secret. Perkin-Elmer had been trusted because the box was supposed to be more accurate than the backups. The backups were less precise and still loud enough to scream. File both. Do not invent sabotage. Do not invent a cover-up. The leftover is uglier and smaller: a pinhole reflection, a millimetre, and a meeting that believed the expensive instrument.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "File what the glasses actually did. After ninety three, Hubble became the poster of a repaired machine. More than one and a half million observations in NASA's later count. WFPC2 worked until later cameras replaced it. By two thousand two, new instruments had built-in correction and COSTAR was leftover hardware. The High Speed Photometer, the instrument that paid for the glasses, sits at the University of Wisconsin-Madison. The error never left the primary. Every later camera is still a prescription written against two point two microns. That is the honest leftover. You do not sand a two-metre hyperboloid in a spacesuit. You add the opposite mistake on purpose. A backup Kodak mirror on a museum floor is a costume for a test plan that would have caught it on the ground. A nickel-sized corrector is a costume for a millimetre nobody remeasured. The inverse null had already won, and then lost the meeting.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a perfect agency, and none of it is a cartoon of grinders as villains. They had a two point four metre disk. They had a custom interferometer. They had a Shuttle delay that bought years of nitrogen and still did not include a second look at the box. You are allowed to laugh at a national telescope that needed glasses, and at a field cap that pretended to be the end of a rod, and at a late-night joke that outlived the blur. You are not required to laugh at Sullivan deploying a payload, or at Pellerin moving sixty million, or at a photometer that got pulled so the rest of the light could focus. The official idea was: the certified null is the mirror. The street idea was: Hubble launched broken. The leftover idea is: they already had the error in two other tests, and the fix was a prescription for a curve they had measured too well.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the reflective box. Not the joke that nothing was tested. The inverse null won a warning that was filed as noise. Kodak won a mirror that never flew. Allen won a report that named a millimetre. Pellerin won a repair date. Thornton and Akers won a refrigerator of mirrors. The High Speed Photometer won a museum in Madison. Hubble won decades of pictures after someone wrote the opposite glasses. If you need a moral, skip NASA is dumb. Take this: a perfect polish is a terrible whole story, and a millimetre is a terrible honest one. The next time someone tells you Hubble launched as a failure, ask whether they mean the two point two microns or the tests that already saw them, and whether the prescription was luck or arithmetic. Would you have believed the expensive box, or the cheap ones that disagreed. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

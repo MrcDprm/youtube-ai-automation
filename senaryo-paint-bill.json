@@ -1,0 +1,1006 @@
+{
+  "project_id": "why-a-bill-is-a-promise-11dk-20260831",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-hand-bill",
+        "prompt": "Stickman handing paper bill PROMISE OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you hand a rectangle of paper and treat a promise as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0005-fingers-portrait",
+        "prompt": "Fingers on bill portrait WALLET SPELL label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your fingers find a portrait and a number as if the wallet grew a spell.",
+        "image": null
+      },
+      {
+        "slug": "0010-wallets-spells",
+        "prompt": "Wallet sprouting spell like fruit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Because wallets do spells.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-no-agree",
+        "prompt": "Early trader shaking head at paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first markets did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0020-metal-salt-grain",
+        "prompt": "Metal salt grain payment options, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Many paid in metal you could weigh, salt you could lick, or grain you could carry.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-pocket-bill",
+        "prompt": "Bill stamped PHYSICS with question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your pocket wear a bill as if the bill were physics?",
+        "image": null
+      },
+      {
+        "slug": "0030-song-jiaozi",
+        "prompt": "JIAOZI label heavy copper coins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Song Dynasty merchants printed jiaozi when copper coins were too heavy.",
+        "image": null
+      },
+      {
+        "slug": "0035-goldsmith-receipts",
+        "prompt": "Goldsmith vault receipt safer than saddlebag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "London goldsmiths wrote receipts when vaults were safer than saddlebags.",
+        "image": null
+      },
+      {
+        "slug": "0040-bank-england",
+        "prompt": "Bank of England 1694 notes war credit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The Bank of England learned to issue notes when war needed credit faster than a mine.",
+        "image": null
+      },
+      {
+        "slug": "0045-standard-promise",
+        "prompt": "Standard notes vs room of silver easier, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Factories learned a standardized promise is easier to count than a room of silver.",
+        "image": null
+      },
+      {
+        "slug": "0050-not-value-nature",
+        "prompt": "VALUE BY NATURE stamp red X on bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your spend is not value by nature.",
+        "image": null
+      },
+      {
+        "slug": "0055-receipt-circulate",
+        "prompt": "Receipt morphing into circulating bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover receipt that learned to circulate.",
+        "image": null
+      },
+      {
+        "slug": "0100-payment-flattered",
+        "prompt": "Smiling bill FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The payment is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0105-market-no-vote",
+        "prompt": "Market NO VOTE clerk raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The market did not vote. A clerk did.",
+        "image": null
+      },
+      {
+        "slug": "0110-rectangle-sense",
+        "prompt": "Hand word SENSE after rectangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The rectangle taught your hand until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0115-start-weight",
+        "prompt": "Scale weight labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the weight.",
+        "image": null
+      },
+      {
+        "slug": "0120-bill-stole-receipt",
+        "prompt": "Receipt stolen by cotton bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bill stole a receipt and sold it back as cotton.",
+        "image": null
+      },
+      {
+        "slug": "0125-before-presses",
+        "prompt": "Timeline before press central bank denominations, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Before printing presses, before central banks, before twenty denominations.",
+        "image": null
+      },
+      {
+        "slug": "0130-mass-negotiation",
+        "prompt": "Buyer negotiating with heavy MASS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Buying was a negotiation with mass you could not ignore.",
+        "image": null
+      },
+      {
+        "slug": "0135-count-bite",
+        "prompt": "Counting coins biting metal test, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early traders counted. Early buyers bit metal to test it.",
+        "image": null
+      },
+      {
+        "slug": "0140-trust-coin",
+        "prompt": "TRUST coin not shaved contract, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Some markets offered trust and the social contract your coin was not shaved.",
+        "image": null
+      },
+      {
+        "slug": "0145-paper-suspicious",
+        "prompt": "Paper HONEST SUSPICIOUS labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When paper arrived, it was honest and suspicious.",
+        "image": null
+      },
+      {
+        "slug": "0150-pay-bearer",
+        "prompt": "PAY BEARER promise wearing ink coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A note that says pay the bearer is a promise wearing ink.",
+        "image": null
+      },
+      {
+        "slug": "0155-pretend-together",
+        "prompt": "People agreeing PRETEND TOGETHER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The promise is true until everyone agrees to pretend together.",
+        "image": null
+      },
+      {
+        "slug": "0200-warehouse-paperwork",
+        "prompt": "Warehouse papers on street NOT VAULT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Warehouse paperwork dragged onto a street not a vault.",
+        "image": null
+      },
+      {
+        "slug": "0205-coin-wanted-weighing",
+        "prompt": "Coin speech bubble WANT WEIGHING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The coin still wanted weighing.",
+        "image": null
+      },
+      {
+        "slug": "0210-arm-tired",
+        "prompt": "Tired arm ONLY CASHIER label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Weighing wanted a human arm until the arm got tired of being the only cashier.",
+        "image": null
+      },
+      {
+        "slug": "0215-not-miracle",
+        "prompt": "LOGISTICS stamp on arm not miracle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The arm was not a miracle. It was logistics.",
+        "image": null
+      },
+      {
+        "slug": "0220-named-corners",
+        "prompt": "Halo on bill MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the rectangle did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0225-not-only-paper",
+        "prompt": "Many papers one loud JIAOZI, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Jiaozi was not the only paper that looked at heavy copper.",
+        "image": null
+      },
+      {
+        "slug": "0230-dynasty-behind",
+        "prompt": "Loud example DYNASTY BEHIND label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "An early loud example with a dynasty behind it.",
+        "image": null
+      },
+      {
+        "slug": "0235-eleventh-sichuan",
+        "prompt": "Sichuan 11th century printed notes, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Eleventh century, merchants in Sichuan traded printed notes.",
+        "image": null
+      },
+      {
+        "slug": "0240-strings-cash",
+        "prompt": "Heavy string of coins BACK INJURY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Strings of cash were a back injury waiting to happen.",
+        "image": null
+      },
+      {
+        "slug": "0245-song-1023",
+        "prompt": "Calendar 1023 SONG ISSUANCE stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The Song government took over issuance around ten twenty three.",
+        "image": null
+      },
+      {
+        "slug": "0250-crisis-teaches",
+        "prompt": "Crisis teaching state NORMAL arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The quiet way a crisis teaches a state what normal means.",
+        "image": null
+      },
+      {
+        "slug": "0255-london-goldsmith",
+        "prompt": "London goldsmith vault receipt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Goldsmiths in London wrote receipts for gold in vaults.",
+        "image": null
+      },
+      {
+        "slug": "0300-receipts-change-hands",
+        "prompt": "Receipt changing hands gold stays vault, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Receipts changed hands without the gold moving.",
+        "image": null
+      },
+      {
+        "slug": "0305-vault-teaches-speed",
+        "prompt": "Vault teaching city SPEED label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The quiet way a vault teaches a city what speed means.",
+        "image": null
+      },
+      {
+        "slug": "0310-bank-charter",
+        "prompt": "Bank of England 1694 CHARTER stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Bank of England chartered in sixteen ninety four joined the habit.",
+        "image": null
+      },
+      {
+        "slug": "0315-song-complaint",
+        "prompt": "Song merchant complaint wearing cotton century coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your rectangle is a Song merchant complaint wearing a century of cotton.",
+        "image": null
+      },
+      {
+        "slug": "0320-promise-leaves-vault",
+        "prompt": "Promise walking away from vault, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the promise leave the vault.",
+        "image": null
+      },
+      {
+        "slug": "0325-trade-no-mule",
+        "prompt": "Slip safe vs mule every purchase red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A city of trade needed a slip without a mule for every purchase.",
+        "image": null
+      },
+      {
+        "slug": "0330-carry-weigh-argue",
+        "prompt": "Three panel CARRY WEIGH ARGUE REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Carry the silver. Weigh the silver. Argue. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0335-small-insult",
+        "prompt": "Note insulting heavy mass cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A transferable note is a small insult to mass.",
+        "image": null
+      },
+      {
+        "slug": "0340-paper-flexes",
+        "prompt": "Bill flexing across many hands signature, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The paper flexes across hands. The signature repeats.",
+        "image": null
+      },
+      {
+        "slug": "0345-seal-trust",
+        "prompt": "Seal TRUST HERE no melting coin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The seal says trust here without melting a coin before every loaf.",
+        "image": null
+      },
+      {
+        "slug": "0350-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0355-vault-come-back",
+        "prompt": "Vault speech bubble COME BACK WITH WEIGHT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We took a vault that said come back with weight.",
+        "image": null
+      },
+      {
+        "slug": "0400-note-believe",
+        "prompt": "Note BELIEVE THIS INK arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We replaced it with a note that said believe this ink.",
+        "image": null
+      },
+      {
+        "slug": "0405-believe-market",
+        "prompt": "Market teaching BELIEVE checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Believe is easier to teach in a market.",
+        "image": null
+      },
+      {
+        "slug": "0410-believe-print",
+        "prompt": "Printing press BELIEVE in run, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Believe is easier to print in a run.",
+        "image": null
+      },
+      {
+        "slug": "0415-line-inventor",
+        "prompt": "Factory line labeled REAL INVENTOR, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0420-nostalgia-metal",
+        "prompt": "Metal purse nostalgia red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line does not care about nostalgia for a purse full of metal.",
+        "image": null
+      },
+      {
+        "slug": "0425-rehook-fact",
+        "prompt": "Bill vs door both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You think the bill is a fact, the way a door is a fact.",
+        "image": null
+      },
+      {
+        "slug": "0430-bill-policy",
+        "prompt": "POLICY stamp on bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bill is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0435-bullion-grocery",
+        "prompt": "Bullion in grocery line red X note wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The alternative is carrying bullion to a grocery line.",
+        "image": null
+      },
+      {
+        "slug": "0440-metal-honest",
+        "prompt": "METAL honest NOTES scalable scales, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Metal is honest. Notes are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0445-un-naturing",
+        "prompt": "Portrait NATURAL stamp peeling off, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "I am un-naturing the portrait.",
+        "image": null
+      },
+      {
+        "slug": "0450-receipt-denomination",
+        "prompt": "Receipt wearing DENOMINATION costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The portrait is a receipt wearing a denomination.",
+        "image": null
+      },
+      {
+        "slug": "0455-trust-law",
+        "prompt": "Denomination TRUST IS LAW stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The denomination said trust can be law.",
+        "image": null
+      },
+      {
+        "slug": "0500-cards-down",
+        "prompt": "Exact change needed cards down scene, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "If you paid somewhere that wanted exact change because cards were down.",
+        "image": null
+      },
+      {
+        "slug": "0505-not-physics",
+        "prompt": "PHYSICS stamp red X on note, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You know the note is not physics.",
+        "image": null
+      },
+      {
+        "slug": "0510-production-vote",
+        "prompt": "Production line voting for note wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compromise that won a production vote.",
+        "image": null
+      },
+      {
+        "slug": "0515-spreadsheet-cotton",
+        "prompt": "Spreadsheet cotton serial catalog, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A vote is a spreadsheet with cotton and a serial catalog.",
+        "image": null
+      },
+      {
+        "slug": "0520-ink-travel",
+        "prompt": "Ink traveling across printing frame, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the ink travel.",
+        "image": null
+      },
+      {
+        "slug": "0525-inventoried-answer",
+        "prompt": "Factory inventory note stacks shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0530-print-serial-ship",
+        "prompt": "PRINT SERIAL SHIP REPLACE conveyor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Print, serial, ship, replace without a weighing ritual.",
+        "image": null
+      },
+      {
+        "slug": "0535-central-bank-chapter",
+        "prompt": "Central bank threads LATER CHAPTER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Central banks, reserve ratios, anti-counterfeit threads: a later chapter.",
+        "image": null
+      },
+      {
+        "slug": "0540-object-cotton",
+        "prompt": "COTTON INK SIGNATURE REPEAT icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: cotton, ink, signature, repeat.",
+        "image": null
+      },
+      {
+        "slug": "0545-no-cabal",
+        "prompt": "SHADOWY CABAL stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Do not make tonight a lecture about shadowy cabals.",
+        "image": null
+      },
+      {
+        "slug": "0550-catalog-referendum",
+        "prompt": "Quiet catalog REFERENDUM whisper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0555-wallet-vs-scale",
+        "prompt": "Wallet bill vs history scale gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your wallet has a bill and your history book has a scale.",
+        "image": null
+      },
+      {
+        "slug": "0600-inventory-fight",
+        "prompt": "Past losing fight INVENTORY filing cabinet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Inventory is how the past loses a fight without filing a complaint.",
+        "image": null
+      },
+      {
+        "slug": "0605-this-is-you",
+        "prompt": "Stickman labeled THIS IS YOU at counter, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you, already, in the middle of the story.",
+        "image": null
+      },
+      {
+        "slug": "0610-tuesday-handoff",
+        "prompt": "Tuesday counter handoff no thank you, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Tuesday, a counter, a handoff without thanking a Song merchant.",
+        "image": null
+      },
+      {
+        "slug": "0615-reach-paper",
+        "prompt": "Hand reaching bill AWKWARD without paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You reach for paper because leaving would feel awkward without a rectangle.",
+        "image": null
+      },
+      {
+        "slug": "0620-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY stamp on checkout, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0625-after-jiaozi",
+        "prompt": "Timeline after jiaozi goldsmith receipt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after jiaozi and after goldsmith receipts.",
+        "image": null
+      },
+      {
+        "slug": "0630-denominations-multiply",
+        "prompt": "Central bank denominations multiplying, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After a central bank learned to host denominations that multiply.",
+        "image": null
+      },
+      {
+        "slug": "0635-relief-insult",
+        "prompt": "Relief checkmark insult warehouse note wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not weigh metal, insult a warehouse note won.",
+        "image": null
+      },
+      {
+        "slug": "0640-coin-purse-imagination",
+        "prompt": "Ghost coin purse failing imagination, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The coin purse failing in your imagination.",
+        "image": null
+      },
+      {
+        "slug": "0645-never-voted",
+        "prompt": "Speed receipt NEVER VOTED stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for speed with a promise you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0650-cheerful-bill",
+        "prompt": "Smiling bill receipt costume hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a bill stays without looking like a receipt.",
+        "image": null
+      },
+      {
+        "slug": "0655-compromises-promise",
+        "prompt": "Market pile COMPROMISES promise bolted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A market is a pile of compromises with a promise attached.",
+        "image": null
+      },
+      {
+        "slug": "0700-take-bill-away",
+        "prompt": "Checkout puzzle nobody wins no bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the bill away and checkout becomes a workshop puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0705-signatures-serials",
+        "prompt": "SIGNATURES SERIALS PLATES REPLACEMENT labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Signatures, serial numbers, printing plates, replacement notes.",
+        "image": null
+      },
+      {
+        "slug": "0710-diagram-trade",
+        "prompt": "Bill diagram TRADE without moving vault, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The rectangle is a diagram of how to trade without moving the vault.",
+        "image": null
+      },
+      {
+        "slug": "0715-pay-vote",
+        "prompt": "Payment voting SLIP OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The payment is a vote for a slip sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0720-personality-swap",
+        "prompt": "SWAP arrow heavy copper to paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was always the swap.",
+        "image": null
+      },
+      {
+        "slug": "0725-heavy-copper",
+        "prompt": "Heavy copper and Sichuan jiaozi icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Heavy copper, a Sichuan jiaozi.",
+        "image": null
+      },
+      {
+        "slug": "0730-london-receipt",
+        "prompt": "London goldsmith receipt icon, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A London goldsmith receipt.",
+        "image": null
+      },
+      {
+        "slug": "0735-bank-charter-line",
+        "prompt": "Charter and printing plate icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Bank of England charter, a central bank plate.",
+        "image": null
+      },
+      {
+        "slug": "0740-thread-forgot-scale",
+        "prompt": "Security thread forgetting scale ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A thread that forgot your scale.",
+        "image": null
+      },
+      {
+        "slug": "0745-treaty-crowd",
+        "prompt": "City crowd paper TREATY handshake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a city treating paper as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0750-what-we-traded",
+        "prompt": "Weight truth VALUE traded away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded weight that told the truth about value.",
+        "image": null
+      },
+      {
+        "slug": "0755-printed-numbered",
+        "prompt": "Printed numbered forgotten note on line, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "For a note that could be printed, numbered, and forgotten.",
+        "image": null
+      },
+      {
+        "slug": "0800-real-help",
+        "prompt": "Fewer mules line moving POCKET purchase, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Real help: fewer mules, a line moving, a pocket purchase.",
+        "image": null
+      },
+      {
+        "slug": "0805-miracle-part-number",
+        "prompt": "MIRACLE and PART NUMBER both true, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0810-myth-nature",
+        "prompt": "MYTH NATURE ADULT PAY stamps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the bill is nature and the rectangle is the only adult pay.",
+        "image": null
+      },
+      {
+        "slug": "0815-receipt-money",
+        "prompt": "Receipt wearing MONEY name tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the receipt and called it money.",
+        "image": null
+      },
+      {
+        "slug": "0820-coin-history",
+        "prompt": "Coin labeled HISTORY museum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the coin and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0825-policy-manners",
+        "prompt": "Policy bill in polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The bill is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0830-coin-era",
+        "prompt": "Coin preaching WHOLE SERMON label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "There was an era when the coin was the whole sermon.",
+        "image": null
+      },
+      {
+        "slug": "0835-deposit-backing",
+        "prompt": "Note arrow DEPOSIT SOMEWHERE SPECIFIC, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early notes promised a deposit somewhere specific.",
+        "image": null
+      },
+      {
+        "slug": "0840-counterfeit-fear",
+        "prompt": "Counterfeit shadow following traveling note, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Counterfeit fear is the shadow of a promise that travels.",
+        "image": null
+      },
+      {
+        "slug": "0845-note-separate",
+        "prompt": "Paper note SEPARATE HOMEWORK label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Paper notes arrived as a separate homework assignment.",
+        "image": null
+      },
+      {
+        "slug": "0850-fold-sound",
+        "prompt": "Bill crinkle sound CONTRACT ears trust, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crinkle sound is a contract your ears learned to trust.",
+        "image": null
+      },
+      {
+        "slug": "0855-weighing-queue",
+        "prompt": "Scale on every counter QUEUE BREAKS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A scale on every counter until the queue breaks.",
+        "image": null
+      },
+      {
+        "slug": "0900-bearer-promise",
+        "prompt": "PAY BEARER outsources TRUST label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Pay the bearer is a sentence that outsources trust.",
+        "image": null
+      },
+      {
+        "slug": "0905-ink-dry",
+        "prompt": "Drying ink worn plate AGREEMENT stays, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Ink dries, plates wear, the agreement stays.",
+        "image": null
+      },
+      {
+        "slug": "0910-vault-shut",
+        "prompt": "Shut vault street moving arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The vault stayed shut so the street could move.",
+        "image": null
+      },
+      {
+        "slug": "0915-cotton-fray",
+        "prompt": "Frayed cotton new plate same PROMISE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cotton frays, plates swap, the promise stays.",
+        "image": null
+      },
+      {
+        "slug": "0920-regulators-shelf",
+        "prompt": "Regulator placing note on SHELF not invent, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Regulators did not invent the promise. They shelved it.",
+        "image": null
+      },
+      {
+        "slug": "0925-city-treaty",
+        "prompt": "Identical bill portraits TREATY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A city checkout is a treaty written in identical portraits.",
+        "image": null
+      },
+      {
+        "slug": "0930-hand-memory",
+        "prompt": "Hand with rectangle MEMORY ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hand remembers a rectangle you never chose.",
+        "image": null
+      },
+      {
+        "slug": "0935-coin-ghost",
+        "prompt": "Coin purse ghost in modern wallet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The coin purse is still a ghost in every wallet.",
+        "image": null
+      },
+      {
+        "slug": "0940-cotton-cheerful",
+        "prompt": "Cheerful cotton fabric POLICY costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cotton is cheerful. Cheerful is how policy wears fabric.",
+        "image": null
+      },
+      {
+        "slug": "0945-pay-before-leave",
+        "prompt": "Pay then LEAVE PERMISSION stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You pay before you leave as if leave required permission.",
+        "image": null
+      },
+      {
+        "slug": "0950-layout-cotton",
+        "prompt": "People nodding at cotton no argue, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A pile of people who agreed not to argue with cotton.",
+        "image": null
+      },
+      {
+        "slug": "0955-hands-counter",
+        "prompt": "Callback walking register bill in hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You walk to the register. The rectangle will still be there.",
+        "image": null
+      },
+      {
+        "slug": "1000-feel-nothing",
+        "prompt": "Blank calm face victory at payment, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1005-look-portrait",
+        "prompt": "Portrait between red X sky and red X hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the portrait. Not the sky and not a single hero.",
+        "image": null
+      },
+      {
+        "slug": "1010-named-stack",
+        "prompt": "Stack icons copper jiaozi receipt bank plate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Heavy copper, Song jiaozi, London receipt, Bank of England, printing plate.",
+        "image": null
+      },
+      {
+        "slug": "1015-promise-law",
+        "prompt": "Checkout promise stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A promise that owns your checkout so cotton stays law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-pay",
+        "prompt": "Pay ok hate inflation still lunch, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to pay. Allowed to hate inflation and still buy lunch.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "NATURAL stamp red X on bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the bill natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-vault",
+        "prompt": "Salute to vault staying shut, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a vault that stayed shut.",
+        "image": null
+      },
+      {
+        "slug": "1040-cotton-point",
+        "prompt": "Cheerful salute on cotton bill, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The cotton is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-receipt",
+        "prompt": "Stickman paying bill labeled which receipt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the promise lets you. Know which receipt you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-glance-cheerful",
+        "prompt": "Smiling bill receipt ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a bill stays without looking like a receipt.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback scale Sichuan YOUR RECTANGLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A scale. Sichuan. Your rectangle.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why a Bill Is a Promise",
+    "description": "Your paper bill feels like money. Early markets used weighed metal. Song Dynasty jiaozi and London goldsmith receipts became circulating promises. The rectangle is logistics.",
+    "tags": [
+      "paper money",
+      "jiaozi",
+      "history",
+      "bank of england",
+      "goldsmith",
+      "why",
+      "economics",
+      "promise",
+      "currency"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "PAPER PROMISE?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will hand a rectangle of paper and treat a promise as obvious. Your fingers will find a portrait and a number as if the wallet grew a spell because wallets do spells. Here is the part that should bother you. The first markets did not agree. Many of them paid in metal you could weigh, salt you could lick, or grain you could carry until your back filed a complaint. So why does your pocket wear a bill as if the bill were physics? Because Song Dynasty merchants already printed jiaozi when copper coins were too heavy to haul, because London goldsmiths wrote receipts when vaults were safer than saddlebags, because the Bank of England learned to issue notes when a war needed credit faster than a mine could dig, and because factories learned that a standardized promise is easier to count than a room full of silver. That is the whole plot. Your spend is not value by nature. It is a leftover receipt that learned to circulate. You still pay. The payment is flattered. That is its job. The market did not vote. A clerk did, and then a note that taught your hand the rectangle until the rectangle started calling itself sense. Sense is a word a promise invented so a debt would still feel like law when the vault was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the weight, because the bill stole a receipt and then sold it back as cotton. Before printing presses, before central banks, before a wallet could host twenty denominations without hernia, buying a thing was a negotiation with mass you could not ignore. Early traders counted. Early buyers bit metal to test it. Some markets offered nothing but trust and the social contract that your coin was not shaved. When paper arrived, it was honest and suspicious. A note that says pay the bearer is a promise wearing ink. It does not say the promise is true until everyone agrees to pretend together. If your bill still feels like the only adult option, notice that the adult option started as warehouse paperwork dragged onto a street that was not a vault. The street did not offer a scale. The coin still wanted weighing. Weighing wanted a human arm until the human arm got tired of being the only cashier. The arm was not a miracle. It was logistics.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a rectangle gets a halo it did not earn. Jiaozi was not the only paper that looked at heavy copper and thought the joke was bad. It was an early loud example with a dynasty behind it. In the eleventh century, merchants in Sichuan traded printed notes backed by deposits because strings of cash were a back injury waiting to happen. The Song government eventually took over issuance around ten twenty three, which is the quiet way a crisis teaches a state what normal means. Across centuries and continents, goldsmiths in London wrote receipts for gold left in their vaults, and those receipts began to change hands without the gold moving, which is the other quiet way a vault teaches a city what speed means. The Bank of England, chartered in sixteen ninety four, joined the habit. If you still treat the bill as a single eureka moment, file the hero separately from the ink. Your rectangle is a Song merchant complaint wearing a century of cotton.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the promise leave the vault, because a horizontal city of trade needed a slip that did not require a mule for every purchase. Early payment tricks were honest and exhausting. Carry the silver. Weigh the silver. Argue about the silver. Repeat. A transferable note is a small insult to mass with a large gift to the counter. The paper flexes across hands. The signature repeats. The seal says trust here without asking the buyer to melt a coin before every loaf. I am not giving you a list of firsts. I am pointing at the swap. We took a vault that said come back with weight and we replaced it with a note that said believe this ink. Believe is easier to teach in a market. Believe is easier to print in a run. Believe is easier to repeat when the line speeds up. The line is the real inventor. The line does not care about your nostalgia for a purse full of metal. The line cares about notes that fit and traders who stay inside the agreement.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the bill is a fact, the way a door is a fact. The bill is a policy. In a modern city the policy is already on, because the alternative is trusting every buyer to carry bullion to a grocery line and every seller to weigh it before the ice cream melts. Metal is honest. Notes are scalable. Scalable is how a promise escapes the strongroom and becomes something a city can own in numbers. I am not calling you clumsy for liking a rectangle. I am un-naturing the portrait. The portrait is a receipt wearing a denomination. The denomination said trust can be law. Law is a feeling when your hand finds a bill without remembering when it learned it. If you have ever paid somewhere that wanted exact change because cards were down, you know the note is not physics. It is a compromise that won a production vote. A vote is not a coin. A vote is a spreadsheet with cotton and a serial number catalog.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the ink travel. Mass production did not invent trade. It inventoried the answer. When the same purchase had to repeat across a city, the note became the unit you could print, serial, ship, and replace without translating a weighing ritual for every stall. Central banks, reserve ratios, anti-counterfeit threads: decades later the paper could glow under a lamp, a useful chapter about fibers and enforcement, not the origin story of the promise itself. Do not make tonight a lecture about shadowy cabals. Make it about the object: cotton, ink, signature, repeat. A catalog is a quiet referendum. If your wallet has a bill and your history book has a scale, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a counter, a handoff you have performed a thousand times without thanking a Song merchant. You reach for paper because leaving would feel awkward without a rectangle, which is the most modern impossibility there is. None of this makes you gullible by nature. It makes you a person born after jiaozi and after goldsmith receipts and after a central bank learned to host denominations that multiply. You can feel both in the same motion: relief that you do not have to weigh metal before every coffee, and a tiny insult that a warehouse note won a wallet slot. The relief is real. The insult is the coin purse failing for a second in your imagination. You paid for speed with a promise you never voted on. The promise is cheerful. Cheerful is how a bill stays in the century without looking like a receipt.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A market is a pile of compromises with a promise attached. That sentence is rude and almost fair. Take the bill away and the checkout becomes a workshop puzzle nobody wins, or a scale on every counter until the queue breaks. Signatures, serial numbers, printing plates, replacement notes: the rectangle is a diagram of how to trade without moving the whole vault, written by clerks you will not meet. You still pay. The payment is a vote for a slip that was sold as obvious. I am not telling you to hunt for a coin purse as a personality. I am telling you the personality was always the swap: heavy copper, a Sichuan jiaozi, a London goldsmith receipt, a Bank of England charter, a central bank plate, a thread that forgot your scale. The crowd is still at the counter. The crowd is you and a city treating paper as a treaty. So what did we trade? We traded weight that told the truth about value for a note that could be printed, numbered, and forgotten. That tooling is real help: fewer mules, a seller who keeps a line moving, a purchase you can make with a pocket. Help can be a miracle and still be a part number. We also gained a myth that the bill is nature and the rectangle is the only adult pay. We kept the receipt and called it money. We kept the coin and called it history. Both can be true and still not be a reason to forget the bill is a policy that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will walk to the register. The rectangle will still be there. You will feel nothing, which is the victory. Look at the portrait. That is not the sky and it is not a single hero inventor. That is heavy copper, a Song jiaozi around ten twenty three, a London goldsmith vault receipt, the Bank of England in sixteen ninety four, a printing plate that replaced a scale, a brief later chapter about glowing threads if you must, and a promise that still owns your checkout so you will keep treating ink as law. You are allowed to pay. You are allowed to hate inflation and still buy lunch. Just stop calling the bill natural, or inevitable, or proof that you are modern. Tonight, when the clerk takes the note, look at it like a leftover salute to a vault that stayed shut. The salute is cheerful. The cotton is the point. Go when the promise lets you. Know which receipt you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

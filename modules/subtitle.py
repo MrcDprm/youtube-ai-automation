@@ -34,11 +34,17 @@ __all__ = [
     "cues_to_ass",
     "format_ass_timestamp",
     "format_timestamp",
+    "subtitle_margin_v",
     "wrap_words",
     "write_ass",
 ]
 
 logger = get_logger(__name__)
+
+
+def subtitle_margin_v(play_res_y: int, position_ratio: float) -> int:
+    """Convert ``position_ratio`` (0 top → 1 bottom) to ASS bottom margin."""
+    return max(40, int(round(play_res_y * (1.0 - position_ratio))))
 
 
 def format_timestamp(seconds: float) -> str:

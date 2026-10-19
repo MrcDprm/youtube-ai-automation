@@ -329,6 +329,7 @@ class SubtitleSettings(StrictModel):
     position_ratio: float = Field(default=0.72, ge=0.0, le=1.0)
     uppercase: bool = False
     numeral_display: bool = False
+    karaoke: bool = False
 
     @model_validator(mode="after")
     def _check_font_available_for_burn_in(self) -> SubtitleSettings:

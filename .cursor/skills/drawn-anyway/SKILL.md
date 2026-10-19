@@ -63,7 +63,9 @@ This is still Drawn Anyway: punchy picture changes, stronger Ken Burns (`zoom` 1
 
 ## Captions
 
-One fill colour per episode. Do **not** set `accent_color` (it alternates every cue and is hard to watch). `numeral_display` is on: TTS may still say "nineteen seventy"; the burn-in should show `1970`, `45 feet`, `8 tons`. Leave small prose counts as words (`three men`).
+**Per-niche subtitle identity (planned):** Drawn Anyway will get its own font + highlight style — distinct from Every Level POV (Anton + tomato karaoke) and Badly Drawn Why. When the operator starts Drawn Anyway batches, revise `config/constants.py` / `build_drawn_scenario` defaults before shipping; do not reuse POV Anton karaoke on Ink episodes.
+
+Until that revamp lands: one fill colour per episode. Do **not** set `accent_color` (it alternates every cue and is hard to watch). `numeral_display` is on: TTS may still say "nineteen seventy"; the burn-in should show `1970`, `45 feet`, `8 tons`. Leave small prose counts as words (`three men`).
 
 ## Essay shape
 

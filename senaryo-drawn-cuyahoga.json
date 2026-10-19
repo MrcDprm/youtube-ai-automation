@@ -1,0 +1,538 @@
+{
+  "project_id": "the-river-that-caught-fire-9dk-20260825",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-river-fire-open",
+        "prompt": "Cartoon title beat: a cream river with comic oil rainbow and tiny flames under a trestle, Cleveland mill silhouettes. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A river in Cleveland caught fire.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-a-metaphor",
+        "prompt": "Ink the mascot shaking his head at a flask labeled METAPHOR with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a metaphor. Not a chemistry-class cartoon.",
+        "image": null
+      },
+      {
+        "slug": "0020-june-twenty-two",
+        "prompt": "Cartoon calendar June 22 1969, a winding river into a lake, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sunday, June 22, 1969, the Cuyahoga.",
+        "image": null
+      },
+      {
+        "slug": "0030-oil-and-debris",
+        "prompt": "Toy trestles pinching a channel, debris raft and oil sheen, not gory. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Oil slick and debris piled at railroad bridges.",
+        "image": null
+      },
+      {
+        "slug": "0040-train-spark",
+        "prompt": "A tiny locomotive over a bridge, one comic spark dropping toward the water. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A spark from a passing train was enough.",
+        "image": null
+      },
+      {
+        "slug": "0050-eleven-fifty-six",
+        "prompt": "A fire-alarm box and a clock 11:56, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Alarm at 11:56 a.m.",
+        "image": null
+      },
+      {
+        "slug": "0100-half-hour",
+        "prompt": "A stopwatch under 30 MIN, small comic flames already shrinking. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The fire lasted less than half an hour.",
+        "image": null
+      },
+      {
+        "slug": "0110-fifty-thousand",
+        "prompt": "Two broken toy trestles, a price tag $50,000. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About $50,000 damage, mostly two trestles.",
+        "image": null
+      },
+      {
+        "slug": "0120-no-photo",
+        "prompt": "A camera with an empty frame and a NO SHOT stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nobody got a photograph.",
+        "image": null
+      },
+      {
+        "slug": "0130-why-it-burns",
+        "prompt": "A simple diagram: oil on water, debris at a pinch point. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Why a river burns: oil floats, debris piles.",
+        "image": null
+      },
+      {
+        "slug": "0140-industrial-pipe",
+        "prompt": "A river drawn as a pipe through mills, PIPE stamp, no guilt poster. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "This stretch was treated as industrial plumbing.",
+        "image": null
+      },
+      {
+        "slug": "0150-more-than-ten",
+        "prompt": "A tally of many small flame icons across a century timeline. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "It had burned more than ten times already.",
+        "image": null
+      },
+      {
+        "slug": "0200-fifty-two-worse",
+        "prompt": "Calendar Nov 1952, tugs and docks as toys, $ MILLIONS tag, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "November 1952 was the ugly expensive one.",
+        "image": null
+      },
+      {
+        "slug": "0210-nineteen-twelve",
+        "prompt": "A somber clipboard 1912, CASUALTIES 5, respectful not graphic. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A 1912 fire killed five dock workers.",
+        "image": null
+      },
+      {
+        "slug": "0220-not-the-first",
+        "prompt": "Ink pointing at a FIRST? stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1969 was not the first time water misbehaved.",
+        "image": null
+      },
+      {
+        "slug": "0230-trestle-job",
+        "prompt": "Close on a creosote trestle with comic flames, firefighters tiny. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The morning itself was a trestle job.",
+        "image": null
+      },
+      {
+        "slug": "0240-three-hundred-feet",
+        "prompt": "A 300 FT measuring tape across a small oily circle. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Burning surface about 300 feet across.",
+        "image": null
+      },
+      {
+        "slug": "0250-hundred-feet-high",
+        "prompt": "A 100 FT height arrow on a trestle, cartoon not disaster-movie. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Trestle flames jumped high, even 100 feet in one account.",
+        "image": null
+      },
+      {
+        "slug": "0300-celebrezze",
+        "prompt": "A cheerful toy fireboat labeled CELEBREZZE spraying the water. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Fireboat Anthony J. Celebrezze helped knock it down.",
+        "image": null
+      },
+      {
+        "slug": "0310-page-eleven",
+        "prompt": "A newspaper with a tiny 11-C box, the fire almost a footnote. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Plain Dealer put it on page 11-C, no byline.",
+        "image": null
+      },
+      {
+        "slug": "0320-not-shocked",
+        "prompt": "Tiny workers shrugging at a river flame like a leaky pipe. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Clevelanders were not shocked.",
+        "image": null
+      },
+      {
+        "slug": "0330-monday-tour",
+        "prompt": "A mayor's hat leading reporters along a rail, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Monday: Mayor Carl Stokes took the press to the river.",
+        "image": null
+      },
+      {
+        "slug": "0340-stokes-map",
+        "prompt": "A river crossing many town-limit stamps Stokes cannot reach. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He used the fire as a map of jurisdictions.",
+        "image": null
+      },
+      {
+        "slug": "0350-betty-klaric",
+        "prompt": "A reporter notebook SAVE LAKE ERIE, press hat, no photoreal face. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Betty Klaric covered it for the Cleveland Press.",
+        "image": null
+      },
+      {
+        "slug": "0400-hundred-million",
+        "prompt": "A ballot box 1968, $100M, 2-to-1 checkmark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1968: voters passed a $100 million bond, two to one.",
+        "image": null
+      },
+      {
+        "slug": "0410-stefanski",
+        "prompt": "A utilities desk, sewer-pipe blueprint, BOND stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ben Stefanski had already sold the pipes.",
+        "image": null
+      },
+      {
+        "slug": "0420-after-the-vote",
+        "prompt": "A timeline: VOTE then FIRE, the vote first. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The fire arrived after the vote.",
+        "image": null
+      },
+      {
+        "slug": "0430-time-august",
+        "prompt": "A magazine cover-ish ENVIRONMENT, August 1 1969, no logos stolen. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "August 1, Time opens an Environment section.",
+        "image": null
+      },
+      {
+        "slug": "0440-oozes-line",
+        "prompt": "A sluggish cartoon river labeled OOZES, not a corpse. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Time: the river oozes rather than flows.",
+        "image": null
+      },
+      {
+        "slug": "0450-wrong-photo",
+        "prompt": "A photo frame dated 1952 hanging on a 1969 calendar. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The photograph was not this fire. It was 1952.",
+        "image": null
+      },
+      {
+        "slug": "0500-no-sixty-nine-shot",
+        "prompt": "An empty evidence board, 1969 slot blank. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Still no known photo of the 1969 job.",
+        "image": null
+      },
+      {
+        "slug": "0510-santa-barbara",
+        "prompt": "Two newspaper stacks: SANTA BARBARA tall, CLEVELAND small then growing. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Santa Barbara's oil spill had already eaten more ink.",
+        "image": null
+      },
+      {
+        "slug": "0520-caption-outranks",
+        "prompt": "A giant CAPTION crushing a tiny stopwatch. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A caption can outrank a clock.",
+        "image": null
+      },
+      {
+        "slug": "0530-seventeen-early",
+        "prompt": "A ruler 17 YEARS between two flame icons. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The famous image is seventeen years early.",
+        "image": null
+      },
+      {
+        "slug": "0540-already-law",
+        "prompt": "A law book 1965 on a desk, fire still in the future. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The 1965 Water Pollution Control Act was already law.",
+        "image": null
+      },
+      {
+        "slug": "0550-stokes-senate",
+        "prompt": "A Senate-hearing table, a river map bigger than a city box. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stokes later testified that city limits cannot fix a watershed.",
+        "image": null
+      },
+      {
+        "slug": "0600-louis-stokes",
+        "prompt": "A House folder CLEANUP FUNDS, two Stokes nameplates, no portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Congressman Louis Stokes pushed cleanup money in the House.",
+        "image": null
+      },
+      {
+        "slug": "0610-earth-day",
+        "prompt": "Tiny marchers and a river, April 1970 calendar, no flags as identity. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Earth Day, April 1970. Students marched to the river.",
+        "image": null
+      },
+      {
+        "slug": "0620-epa-december",
+        "prompt": "Two stamps: EPA DEC 1970 and CWA 1972. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "EPA opened December 1970. Clean Water Act 1972.",
+        "image": null
+      },
+      {
+        "slug": "0630-not-a-straight-fuse",
+        "prompt": "A fuse that branches into many files, not one spark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A straight fuse from one trestle to all of that is the myth.",
+        "image": null
+      },
+      {
+        "slug": "0640-reminder-not-inventor",
+        "prompt": "A REMINDER sticky on a thick WORK folder. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The fire was a reminder. The work was already a file.",
+        "image": null
+      },
+      {
+        "slug": "0650-chemistry-not-sermon",
+        "prompt": "Ink holding a CHEMISTRY flask, a SERMON book closed, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Oil floated. Debris trapped. That is chemistry, not a sermon.",
+        "image": null
+      },
+      {
+        "slug": "0700-two-definitions",
+        "prompt": "Split signs: MAINTENANCE and SCANDAL over the same river. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sewer versus public water: fire as maintenance or scandal.",
+        "image": null
+      },
+      {
+        "slug": "0710-hinge-sixty-eight",
+        "prompt": "A door hinge labeled 1968, a magazine pinning a flame icon. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The hinge was already turning in 1968. The magazine froze a flame.",
+        "image": null
+      },
+      {
+        "slug": "0720-jokes-then-beer",
+        "prompt": "A joke microphone next to a souvenir bottle BURNING RIVER, not a drunk gag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Punchlines, then beers and festivals named for the burn.",
+        "image": null
+      },
+      {
+        "slug": "0730-fish-back",
+        "prompt": "Simple cartoon fish returning to a cleaner blue-cream river. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Fish came back in stretches written off.",
+        "image": null
+      },
+      {
+        "slug": "0740-boring-recovery",
+        "prompt": "Three icons: PERMIT, PLANT, PIPE, trophy for boredom. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Recovery is permits, plants, regional pipes.",
+        "image": null
+      },
+      {
+        "slug": "0750-not-a-bigger-hose",
+        "prompt": "A giant hose in a museum case, a tiny law book on the desk. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The leftover tool was not a bigger hose.",
+        "image": null
+      },
+      {
+        "slug": "0800-who-won",
+        "prompt": "A textbook swallowing a 1952 photo, the 1969 alarm tiny. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Who won. The 1952 photograph won the textbook.",
+        "image": null
+      },
+      {
+        "slug": "0810-time-won-ooze",
+        "prompt": "A quote bubble OOZES bigger than a fireboat. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Time won a sentence about ooze.",
+        "image": null
+      },
+      {
+        "slug": "0820-stokes-won-mic",
+        "prompt": "A microphone labeled PIPES not FLAMES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stokes won a microphone for a regional pipe problem.",
+        "image": null
+      },
+      {
+        "slug": "0830-ask-the-negative",
+        "prompt": "Two film negatives, 1952 and 1969, only one has an image. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask which Sunday, and which negative.",
+        "image": null
+      },
+      {
+        "slug": "0840-would-you-print",
+        "prompt": "A PRINT? stamp hovering over the wrong-year picture. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have printed the 1952 photo.",
+        "image": null
+      },
+      {
+        "slug": "0850-comment-hook",
+        "prompt": "Ink the mascot pointing at the viewer, mouth closed, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning, no decaying bodies, no graphic fire victims. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Tell me in the comments. That is the receipt. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-GB-ThomasNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The River That Caught Fire",
+    "description": "Cleveland, June twenty two, nineteen sixty nine. A twenty-minute trestle fire, no photograph, and a magazine that printed nineteen fifty two.",
+    "tags": [
+      "history",
+      "cleveland",
+      "cuyahoga",
+      "cartoon",
+      "true story",
+      "1969",
+      "river",
+      "environment",
+      "funny",
+      "ohio"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "WRONG PHOTO",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A river in Cleveland caught fire. That is not a metaphor, and it is not a cartoon you invented after a chemistry class. On Sunday the twenty second of June nineteen sixty nine, an oil slick and a raft of industrial debris on the Cuyahoga ignited near railroad bridges by Republic Steel. A spark from a passing train, some tellings say a flare, was enough. The alarm went at eleven fifty six in the morning. The fire lasted less than half an hour. Damage was mostly two trestles, about fifty thousand dollars in the usual tally, forty five thousand on the Norfolk and Western, five thousand on the Newburgh and South Shore. Nobody got a photograph. Keep that picture. A short fire on a working river. A city that already knew the water could burn. A magazine that would later print a picture from nineteen fifty two. Everything after this is just that picture hiring a caption.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a river burns, because water does not volunteer. Oil floats. Debris piles where railroad bridges pinch the channel. For a century Cleveland treated this stretch as industrial plumbing: mills, docks, sewers, a wet conveyor into Lake Erie. In that light a river fire felt like a workplace accident, not a miracle of physics. The Cuyahoga had burned more than ten times already. November nineteen fifty two was the ugly one: tugs, buildings, shipyards, damage in the millions, photographers on the docks, and that is the blaze people still see when they close their eyes. A fire in nineteen twelve killed five dock workers. Those numbers belong in the file so sixty nine cannot steal their scale. If you came for nineteen sixty nine as the first time water misbehaved, you already lost the plot. The sixty nine fire was not the worst morning. It was the morning that arrived after the country had started wanting a different kind of river, which is a logistics change, not a sermon about who should feel ashamed.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The morning itself was a trestle job. Historian Paul Nelson, working from Cleveland fire records, put the burning surface at about three hundred feet across. Flames on the creosote-coated trestle jumped high, even a hundred feet in one account, which sounds like a disaster movie until you remember the clock. Land companies and the fireboat Anthony J. Celebrezze knocked it down in twenty or thirty minutes, before any camera clocked in. The Plain Dealer gave it a slice on page eleven C, no byline, because industrial rivers catching fire was not a novelty in the Flats. Clevelanders were not shocked. They lived next to the plumbing. Railroad bridges near Republic Steel had been trapping debris for years; oil made the raft flammable; a Sunday train supplied the rest. The official idea, locally, was: put the trestle out, count the damage, go back to Monday. The unofficial idea, about to walk in with a mayor, was that Monday could be a tour.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Monday the twenty third, Mayor Carl Stokes took the press to the river. Stokes was already a national story: first Black mayor of a major American city, elected in nineteen sixty seven. He did not need a fire to exist. He used the fire as a map. The river crossed too many towns, too many permits, too many suburbs he did not govern. Cleaning Cleveland's pipes would not clean what arrived from upstream. Betty Klaric of the Cleveland Press, one of the country's first full-time environment reporters, had been on Save Lake Erie Now for years. She covered the tour. National magazines later lifted that local reporting. Public utilities director Ben Stefanski had already sold a hundred million dollar bond in nineteen sixty eight, two to one, more yes votes than anything else on the ballot, sewers and treatment to protect the lake. The fire did not invent that vote. The fire arrived after the vote, which is the detail textbooks like to skip because it is less cinematic than a flame on water.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "August first, Time magazine opened a new Environment section and put Stokes in it. The essay, later filed under America's sewage system and the price of optimism, listed other dirty urban rivers, then called the Cuyahoga, about eighty miles long, among the worst. Chocolate-brown, oily, bubbling, a river that oozes rather than flows, and a grim joke about decaying instead of drowning. Treat that as Time's packaging. Do not turn it into a gore reel. Time also ran a photograph of a river on fire that was not this fire. It was November nineteen fifty two, the expensive one, tugs in the frame, the picture that looks like the end of a city. There is still no known photo of the twenty minute job in sixty nine. In nineteen sixty nine the Santa Barbara oil spill had already eaten more national ink. Months later, Cleveland's small fire became the symbol and Santa Barbara became a footnote. That swap is the plot. A caption can outrank a clock.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Here is the leftover fact, and it is not a conspiracy. The famous image is seventeen years early. The famous fire is a short alarm. The city had already passed the bond. Nationally the Water Pollution Control Act of nineteen sixty five was already law. Stokes would testify in nineteen seventy that cities could not fix a watershed with a city limit. His brother, Congressman Louis Stokes, pushed cleanup money in the House. Northeast Ohio built a regional sewer district. Ohio stood up a state environmental agency. The federal Clean Water Act arrived in nineteen seventy two. Earth Day was April nineteen seventy. The Environmental Protection Agency opened in December that year. Some textbooks draw a straight fuse from one Sunday trestle to all of that. The National Park Service's own write-up calls that the myth: people agree on June twenty two, then myth walks in when the fire is billed as the primary cause of the whole environmental toolbox. The fire was a reminder. The work was already a file.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Rehook, because the internet likes a simple villain. Industry did load the river. Oil did float. Debris did trap at the bridges. That is the chemistry. What the sixty nine morning did not do is invent pollution, invent Earth Day, or secretly write the Clean Water Act in thirty minutes. Deindustrialization was already thinning some of the load as plants cut back. Clevelanders had already voted to tax themselves for pipes. Stefanski had lined up papers, citizen groups, even suburban governments, and called clean water apple pie: nobody wanted to vote against it. The symbol still matters. Symbols are how a country files a feeling. You are allowed to laugh at a river that burned. You are not required to pretend the twenty minute fire was a five-alarm apocalypse, or that the Time photograph was shot that Sunday, or that guilt is a substitute for a sewer interceptor. A file can hold a small fire and a large caption at the same time.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Aftermath is where the jokes beat the incident report. Cleveland collected years of burning-river punchlines, then beers and festivals that recoded the insult as a souvenir. Parts of the Flats turned from mill yard to nightlife once the water stopped being a punchline you could smell. Fish came back in stretches that had been written off as empty of even the worms that live on waste. That recovery is boring in the best way: permits, plants, regional pipes, a law with teeth. The leftover tool was not a bigger hose. It was a different definition of what a river is for. When it is a sewer, fire is a maintenance issue. When it is a public water, fire is a scandal. Sixty nine sits on that hinge. The hinge was already turning in sixty eight. The magazine froze the hinge as a flame from fifty two.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the trestle. Not the spark. The nineteen fifty two photograph won the textbook. Time won a sentence about ooze. Stokes won a national microphone for a regional pipe problem. Klaric won years of unglamorous copy that suddenly had a picture, even if it was the wrong year. If you need a moral, skip nature is magic. Take this: a caption is a terrible instrument for a twenty minute fire, and a twenty minute fire is a terrible summary of a hundred million dollar bond. The next time someone shows you a river in flames and dates it sixty nine, ask which Sunday, and which negative. Would you have printed the fifty two photo. A short fire, no snapshot, a mayor on a tour, and a picture from another decade. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -7,12 +7,17 @@ from datetime import UTC, datetime
 from config.constants import PROJECT_ROOT, pov_beat_count
 from modules.interfaces import DraftScene, DraftScript, DraftVisualBeat
 from modules.scenario_builder import build_pov_scenario, write_scenario
+from scripts.pov_pacing import EPISODE_CHAPTER_ENERGY, beat_covers
 
 TERMS = ("cartoon pov illustration", "football rank cartoon")
 TARGET_SECONDS = 840.0
 MINUTES = 14
+PROJECT_ID = "your-life-at-every-level-of-football-14dk-20260901"
+EPISODE_KEY = "football-levels"
 VOICE = "en-US-GuyNeural"
-RATE = "+2%"
+RATE = "+0%"
+ZOOM = 1.14
+SCENE_GAP = 0.35
 
 STYLE = (
     "Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, "
@@ -36,7 +41,24 @@ CHAPTERS = [
     """Level ten. Starter in the top league. Noise hits you in the chest before the ball moves. Every pass is reviewed by millions who never miss a meal for sport. Sponsors own your sleeves. Your calendar is not yours. Performance data lands on a tablet before you shower. Win and you are a product. Lose and you are a problem. The money is real. So is the loneliness. Friends treat you like a bank with jokes. You are living the dream people shout about. Sometimes it feels like work in a loud room.""",
     """Level eleven. European nights. Travel that eats days. Security lines, hotel lobbies, pitch walk the night before under lights that make the grass look fake. Opponents you grew up watching on a screen. Anthem in a tunnel you once drew in school. Subbed on at seventy minutes with the score tight and the whole continent listening without knowing your postcode. This level is not only skill. It is sleep, discipline, and the ability to look small in a giant stadium and still choose courage.""",
     """Level twelve. National camp call-up. Not a tournament montage. A badge on a training top that changes how staff speak to you. Media training before you touch a ball. Teammates you fought all season now share a cafeteria. You compete for a squad number with friends. Miss the cut and fly home economy with strangers reading the headline over your shoulder. Make it and discover the nation argument is louder than any away end. Pride and pressure share a room. You represent more than your club now. You represent every level you climbed past.""",
-    """So where are you stuck. Park myth. Sunday mud. Semi-pro limbo. Academy PDF. Bench sweat. Championship spreadsheet. Top-league minutes. European tunnel. National camp nerves. The levels are not a ladder you climb once. People fall, restart, change position, change country, change mind. Football pays some people in money and everyone else in stories. Tell me which level you are on right now, and which one you thought would feel different when you got there. That is the receipt. Every level POV.""",
+    """So where are you stuck. Park myth. Sunday mud. Semi-pro limbo. Academy PDF. Bench sweat. Championship spreadsheet. Top-league minutes. European tunnel. National camp nerves. The levels are not a ladder you climb once. People fall, restart, change position, change country, change mind. Football pays some people in money and everyone else in stories. Tell me which level you are on right now, and which one you thought would feel different when you got there. That is the receipt. Rank Run POV.""",
+]
+
+_REHOOKS = [
+    "Wrong. The game starts before the whistle — and the first level is lying to you.",
+    "Two jumpers. No nets. That is not cute. That is the filter.",
+    "Freezer bag money. Cracked mug tea. This is where most people quit without announcing it.",
+    "Pathway is a word adults use when they cannot say maybe yet.",
+    "Semi-pro is not a stepping stone. It is a waiting room with floodlights.",
+    "Release day hits like a door. You learn fast that talent is rent, not ownership.",
+    "Empty stands. Echo applause. Proximity is not arrival — remember that.",
+    "Local paper fame. Forum hate. Professional means accountable, not safe.",
+    "The table follows you home. Ordinary on Saturday gets you loaned out.",
+    "Plastic seat. Warm-up pantomime. Minutes are rationed like medicine.",
+    "One touch becomes a headline. One mistake becomes a meme by half time.",
+    "Anthem weight. Tunnel noise. Courage is choosing small in a giant room.",
+    "Badge on a training top. You represent every level you climbed past.",
+    "Comment your level. Not the one you post — the one your week actually lives.",
 ]
 
 # Extra prose per rank so Edge TTS lands near fourteen minutes (roughly twelve thousand five hundred chars).
@@ -59,7 +81,10 @@ _CHAPTER_EXTRAS = [
 
 
 def _full_chapters() -> list[str]:
-    return [f"{body} {extra}" for body, extra in zip(CHAPTERS, _CHAPTER_EXTRAS, strict=True)]
+    return [
+        f"{body} {rehook} {extra}"
+        for body, rehook, extra in zip(CHAPTERS, _REHOOKS, _CHAPTER_EXTRAS, strict=True)
+    ]
 
 # Six beats per chapter (84 total at 14 minutes).
 _BEAT_TEMPLATES: list[list[tuple[str, str]]] = [
@@ -180,9 +205,11 @@ _BEAT_TEMPLATES: list[list[tuple[str, str]]] = [
 
 def _build_rows() -> list[tuple[str, str, str]]:
     rows: list[tuple[str, str, str]] = []
+    energies = EPISODE_CHAPTER_ENERGY[EPISODE_KEY]
     for chapter_index, templates in enumerate(_BEAT_TEMPLATES, start=1):
-        for beat_index, (slug, covers, prompt) in enumerate(templates, start=1):
-            rows.append((f"r{chapter_index:02d}-{slug}", covers, prompt))
+        energy = energies[chapter_index - 1]
+        for beat_index, (slug, _covers, prompt) in enumerate(templates, start=1):
+            rows.append((f"r{chapter_index:02d}-{slug}", beat_covers(energy, beat_index), prompt))
     return rows
 
 
@@ -221,11 +248,14 @@ def main() -> None:
     scenario = build_pov_scenario(
         draft,
         topic="Your Life at Every Level of Football",
+        project_id=PROJECT_ID,
         language="en",
         minutes=MINUTES,
         target_seconds=TARGET_SECONDS,
         voice=VOICE,
         tts_rate=RATE,
+        scene_gap=SCENE_GAP,
+        zoom_body_end=ZOOM,
         now=datetime.now(UTC),
     )
     out = PROJECT_ROOT / "senaryo-pov.json"

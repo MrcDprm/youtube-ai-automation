@@ -1,0 +1,1018 @@
+{
+  "project_id": "why-your-food-used-to-rot-11dk-20260824",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-can-opener",
+        "prompt": "Stickman turning a can opener, lid curling, MS Paint, white background.",
+        "covers": "You open a can. The lid curls like a metal tongue.",
+        "image": null
+      },
+      {
+        "slug": "0005-soup-smell",
+        "prompt": "Open soup can with a smell cloud, stickman sniffing, MS Paint.",
+        "covers": "A smell comes out that does not belong to this week.",
+        "image": null
+      },
+      {
+        "slug": "0010-january-peaches",
+        "prompt": "Peach slices in a can labeled JAN, snowflake, MS Paint.",
+        "covers": "Peaches that remember a summer you were not in.",
+        "image": null
+      },
+      {
+        "slug": "0015-cupboard-job",
+        "prompt": "Simple cupboard of cans, smiling stickman, MS Paint.",
+        "covers": "It feels like a cupboard doing its job.",
+        "image": null
+      },
+      {
+        "slug": "0020-flies-weather",
+        "prompt": "Rotting meat, flies, rain cloud, red X on a clock, MS Paint.",
+        "covers": "Dinner had an expiration written in flies and weather.",
+        "image": null
+      },
+      {
+        "slug": "0025-meat-green",
+        "prompt": "Green steak and a sour milk jug, disgusted stickman, MS Paint.",
+        "covers": "Meat went green. Milk went sharp.",
+        "image": null
+      },
+      {
+        "slug": "0030-fruit-calendar",
+        "prompt": "Apple on a calendar becoming a compost heap, MS Paint.",
+        "covers": "Fruit was a calendar, then compost.",
+        "image": null
+      },
+      {
+        "slug": "0035-army-field",
+        "prompt": "Tiny soldiers next to a field, empty bowls, MS Paint.",
+        "covers": "Armies ate whatever the nearest field would give.",
+        "image": null
+      },
+      {
+        "slug": "0040-field-says-no",
+        "prompt": "Bare field saying NO, hungry stick soldiers, MS Paint.",
+        "covers": "Then they starved when the field said no.",
+        "image": null
+      },
+      {
+        "slug": "0045-august-january",
+        "prompt": "August sun stuffed into a January snow can, MS Paint.",
+        "covers": "Why does your pantry pretend August lives in January?",
+        "image": null
+      },
+      {
+        "slug": "0050-appert-bottle",
+        "prompt": "Stick cook sealing a hot glass bottle, tiny crown, MS Paint.",
+        "covers": "A French confectioner trapped heat in a bottle for an emperor.",
+        "image": null
+      },
+      {
+        "slug": "0055-tin-travel",
+        "prompt": "Tin can with little legs walking, MS Paint.",
+        "covers": "Then a tin learned to travel.",
+        "image": null
+      },
+      {
+        "slug": "0100-war-in-kitchen",
+        "prompt": "Army helmet on a soup can with a cheerful label, MS Paint.",
+        "covers": "A war problem moved into the kitchen and put on a paper label.",
+        "image": null
+      },
+      {
+        "slug": "0105-older-death",
+        "prompt": "Food with a tombstone, stickman looking, MS Paint.",
+        "covers": "Start with the older death of food.",
+        "image": null
+      },
+      {
+        "slug": "0110-smoked-dried",
+        "prompt": "Smokehouse, dried fish, pot of fat, MS Paint.",
+        "covers": "You smoked. You dried. You packed in fat.",
+        "image": null
+      },
+      {
+        "slug": "0115-cellar-fail",
+        "prompt": "Cellar of food sweating in a heat wave, MS Paint.",
+        "covers": "Cold cellars failed in a warm week.",
+        "image": null
+      },
+      {
+        "slug": "0120-slaughter-panic",
+        "prompt": "Three panels: pig, empty shelf, overflowing apples, MS Paint.",
+        "covers": "The year as panics: slaughter, scarcity, too much fruit.",
+        "image": null
+      },
+      {
+        "slug": "0125-hard-biscuit",
+        "prompt": "Ship, hard biscuit, meat barrel, MS Paint.",
+        "covers": "Ships carried hard biscuit and barrelled meat.",
+        "image": null
+      },
+      {
+        "slug": "0130-no-feb-peach",
+        "prompt": "Sailor stickman, peach with a red X, February calendar, MS Paint.",
+        "covers": "The navy did not eat peaches in February.",
+        "image": null
+      },
+      {
+        "slug": "0135-scurvy-cask",
+        "prompt": "Ship throwing a barrel, sailor with sore gums, MS Paint.",
+        "covers": "They still got scurvy and threw spoiled casks overboard.",
+        "image": null
+      },
+      {
+        "slug": "0140-fresh-geography",
+        "prompt": "Cow far away, empty milk glass, map, MS Paint.",
+        "covers": "Fresh was a geography. No cow, no milk.",
+        "image": null
+      },
+      {
+        "slug": "0145-cupboard-erases",
+        "prompt": "Cupboard erasing a map with a sponge, MS Paint.",
+        "covers": "The modern cupboard erases geography.",
+        "image": null
+      },
+      {
+        "slug": "0150-food-is-clock",
+        "prompt": "Clock made of food, a can covering the hands, MS Paint.",
+        "covers": "Food is a clock. The can deleted the limit.",
+        "image": null
+      },
+      {
+        "slug": "0155-fridge-drawer",
+        "prompt": "Open fridge drawer with a green leftover, MS Paint.",
+        "covers": "A forgotten fridge drawer still tells the truth.",
+        "image": null
+      },
+      {
+        "slug": "0200-limit-protect",
+        "prompt": "Nose and a stop-sign smell cloud, MS Paint.",
+        "covers": "The smell was protecting a limit.",
+        "image": null
+      },
+      {
+        "slug": "0205-progress-dishes",
+        "prompt": "Trophy labeled PROGRESS next to a dirty sink, MS Paint.",
+        "covers": "Progress is a word that never has to do the dishes.",
+        "image": null
+      },
+      {
+        "slug": "0210-napoleon-calories",
+        "prompt": "Tiny Napoleon, walking soup cans, MS Paint.",
+        "covers": "Napoleon needed calories that could walk.",
+        "image": null
+      },
+      {
+        "slug": "0215-france-prize",
+        "prompt": "Prize ribbon on a sealed jar, map of far kitchens, MS Paint.",
+        "covers": "France offered a prize to keep food edible far from kitchens.",
+        "image": null
+      },
+      {
+        "slug": "0220-appert-massy",
+        "prompt": "Stick confectioner labeled APPERT, MASSY, MS Paint.",
+        "covers": "Nicolas Appert, confectioner in Massy, won it.",
+        "image": null
+      },
+      {
+        "slug": "0225-glass-bath",
+        "prompt": "Jars in a pot of boiling water, MS Paint.",
+        "covers": "He packed jars and heated them in a water bath.",
+        "image": null
+      },
+      {
+        "slug": "0230-no-germ-theory",
+        "prompt": "Kitchen vs a crossed-out germ doodle, MS Paint.",
+        "covers": "He did not have germ theory. He had a kitchen.",
+        "image": null
+      },
+      {
+        "slug": "0235-art-of-preserving",
+        "prompt": "Book 1810, boastful stickman, MS Paint.",
+        "covers": "Eighteen ten: The Art of Preserving, a boast because it was one.",
+        "image": null
+      },
+      {
+        "slug": "0240-army-wanted-miles",
+        "prompt": "Bottle with a road inside, soldiers marching, MS Paint.",
+        "covers": "The army wanted miles. Appert sold miles in a bottle.",
+        "image": null
+      },
+      {
+        "slug": "0245-glass-broke",
+        "prompt": "Shattered heavy jar, sad stickman, MS Paint.",
+        "covers": "Glass broke. Glass was heavy.",
+        "image": null
+      },
+      {
+        "slug": "0250-ham-three-days",
+        "prompt": "Ham with a mean face, calendar 3 DAYS, sun, MS Paint.",
+        "covers": "A ham could turn on you in three summer days.",
+        "image": null
+      },
+      {
+        "slug": "0255-twelve-thousand",
+        "prompt": "Money bag 12000 F, cook hat, state building, MS Paint.",
+        "covers": "The prize was twelve thousand francs. The state paid a cook for logistics.",
+        "image": null
+      },
+      {
+        "slug": "0300-you-eat-logistics",
+        "prompt": "Lunch plate that is actually a tiny warehouse, MS Paint.",
+        "covers": "You still eat the logistics. You just call them lunch.",
+        "image": null
+      },
+      {
+        "slug": "0305-durand-1810",
+        "prompt": "Patent paper DURAND 1810, tin can, MS Paint.",
+        "covers": "Eighteen ten: Peter Durand patents a tin-plated canister.",
+        "image": null
+      },
+      {
+        "slug": "0310-stop-breaking",
+        "prompt": "Tin can saying STOP BREAKING to a glass jar, MS Paint.",
+        "covers": "A letter to the future that said stop breaking.",
+        "image": null
+      },
+      {
+        "slug": "0315-donkin-hall",
+        "prompt": "Marsh factory, cans on a belt, label BERMONDSEY, MS Paint.",
+        "covers": "Donkin and Hall built a factory on the Bermondsey marshes.",
+        "image": null
+      },
+      {
+        "slug": "0320-navy-cans",
+        "prompt": "Navy ship loading cans, MS Paint.",
+        "covers": "They sold canned meat to the Royal Navy.",
+        "image": null
+      },
+      {
+        "slug": "0325-armor-thick",
+        "prompt": "Huge thick can like a shield, MS Paint.",
+        "covers": "Early cans were thick as armor.",
+        "image": null
+      },
+      {
+        "slug": "0330-hammer-chisel",
+        "prompt": "Stickman hammering a can with a chisel, MS Paint.",
+        "covers": "Opening them took a hammer and a chisel.",
+        "image": null
+      },
+      {
+        "slug": "0335-siege-vibe",
+        "prompt": "Castle siege next to a can, MS Paint.",
+        "covers": "Not a kitchen vibe. A siege vibe.",
+        "image": null
+      },
+      {
+        "slug": "0340-not-a-crime",
+        "prompt": "Letter: NOT A CRIME, canned meat, MS Paint.",
+        "covers": "Officers wrote that the meat was surprisingly not a crime.",
+        "image": null
+      },
+      {
+        "slug": "0345-empire-stomach",
+        "prompt": "Empire map with a stomach clock, no harvest, MS Paint.",
+        "covers": "A timetable for an empire's stomach that ignored harvest.",
+        "image": null
+      },
+      {
+        "slug": "0350-tuna-ocean",
+        "prompt": "Tuna can with a tiny ocean wave, MS Paint.",
+        "covers": "Your tuna feels like a quiet cylinder of the ocean.",
+        "image": null
+      },
+      {
+        "slug": "0355-ocean-navy",
+        "prompt": "Navy hat on a fish, MS Paint.",
+        "covers": "The ocean was first a navy problem.",
+        "image": null
+      },
+      {
+        "slug": "0400-shelf-is-dock",
+        "prompt": "Grocery shelf shaped like a dock, MS Paint.",
+        "covers": "The shop shelf is a dock that learned to be indoor.",
+        "image": null
+      },
+      {
+        "slug": "0405-label-smile",
+        "prompt": "Smiling can label, waiting metal, MS Paint.",
+        "covers": "The label learned to smile. The metal learned to wait.",
+        "image": null
+      },
+      {
+        "slug": "0410-civil-war-tin",
+        "prompt": "Two stick armies, cans outlasting a battle, 1860s, MS Paint.",
+        "covers": "The Civil War taught armies a tin could outlast a campaign.",
+        "image": null
+      },
+      {
+        "slug": "0415-baltimore-chicago",
+        "prompt": "Factory cities stuffing months into cans, MS Paint.",
+        "covers": "Baltimore and Chicago stuffed the calendar into steel.",
+        "image": null
+      },
+      {
+        "slug": "0420-borden-milk",
+        "prompt": "Condensed milk can, cow far away, BORDEN, MS Paint.",
+        "covers": "Gail Borden condensed milk in the eighteen fifties.",
+        "image": null
+      },
+      {
+        "slug": "0425-dairy-no-cow",
+        "prompt": "Milk can, empty barn, stickman pouring, MS Paint.",
+        "covers": "Dairy that did not need a cow in the next room.",
+        "image": null
+      },
+      {
+        "slug": "0430-grocery-tomatoes",
+        "prompt": "Tomato can and salmon can entering a house, MS Paint.",
+        "covers": "After the war, tomatoes and salmon climbed into houses.",
+        "image": null
+      },
+      {
+        "slug": "0435-snow-peach",
+        "prompt": "Peach can in a snowman scene, MS Paint.",
+        "covers": "Peaches that had no right to be peaches in a snow month.",
+        "image": null
+      },
+      {
+        "slug": "0440-city-warehouse",
+        "prompt": "Tiny warehouse inside an apartment pantry, MS Paint.",
+        "covers": "A city pantry looked like a warehouse in miniature.",
+        "image": null
+      },
+      {
+        "slug": "0445-not-a-field",
+        "prompt": "Stickman far from a field, next to cans, MS Paint.",
+        "covers": "You were no longer a person living next to a field.",
+        "image": null
+      },
+      {
+        "slug": "0450-supply-chain",
+        "prompt": "Cans playing dead, then popping up hungry, MS Paint.",
+        "covers": "A supply chain that learned to play dead until you were hungry.",
+        "image": null
+      },
+      {
+        "slug": "0455-bacteria-wait",
+        "prompt": "Germ doodles at a dented can, warm warehouse, MS Paint.",
+        "covers": "Bacteria wait for a dent and a warm warehouse.",
+        "image": null
+      },
+      {
+        "slug": "0500-rehook-safe",
+        "prompt": "Can wearing a padlock, stickman trusting it, MS Paint.",
+        "covers": "Rehook: you think a can is safe the way a lock is a lock.",
+        "image": null
+      },
+      {
+        "slug": "0505-botulinum",
+        "prompt": "Sausage-named germ in a sealed dark can, MS Paint.",
+        "covers": "Clostridium botulinum, named from sausage, lives where air cannot.",
+        "image": null
+      },
+      {
+        "slug": "0510-quiet-disaster",
+        "prompt": "Pretty jar with a tiny skull, quiet, MS Paint.",
+        "covers": "A poorly processed jar can be a quiet disaster.",
+        "image": null
+      },
+      {
+        "slug": "0515-learn-by-outbreak",
+        "prompt": "Factory plus a warning outbreak arrow, MS Paint.",
+        "covers": "Nineteenth-century canners learned by outbreak.",
+        "image": null
+      },
+      {
+        "slug": "0520-pressure-cooker",
+        "prompt": "Pressure cooker factory hat, thermometer, MS Paint.",
+        "covers": "Temperature, pH, pressure cookers that are small factories.",
+        "image": null
+      },
+      {
+        "slug": "0525-not-spook-soup",
+        "prompt": "Soup bowl with a nature sticker peeling off, MS Paint.",
+        "covers": "Not trying to spook your soup. Trying to un-nature it.",
+        "image": null
+      },
+      {
+        "slug": "0530-dented-lecture",
+        "prompt": "Dented can giving a lecture at a tiny podium, MS Paint.",
+        "covers": "The dented can you throw away is a microbiology lecture.",
+        "image": null
+      },
+      {
+        "slug": "0535-anaerobic-dark",
+        "prompt": "Handshake with a germ in the dark, MS Paint.",
+        "covers": "A treaty with an organism that likes anaerobic dark.",
+        "image": null
+      },
+      {
+        "slug": "0540-cupboard-treaty",
+        "prompt": "Cupboard with a peace treaty paper, MS Paint.",
+        "covers": "Your cupboard is a peace treaty.",
+        "image": null
+      },
+      {
+        "slug": "0545-factory-stamp",
+        "prompt": "Stamp INSPECTED, faceless factory, MS Paint.",
+        "covers": "The inspector is a factory stamp you never meet.",
+        "image": null
+      },
+      {
+        "slug": "0550-nose-was-inspector",
+        "prompt": "Giant nose with an inspector badge, MS Paint.",
+        "covers": "The inspector used to be your nose.",
+        "image": null
+      },
+      {
+        "slug": "0555-tool-late",
+        "prompt": "Army can first, kitchen opener second, timeline, MS Paint.",
+        "covers": "The tool arrived late. Military object first, kitchen second.",
+        "image": null
+      },
+      {
+        "slug": "0600-bayonet-open",
+        "prompt": "Bayonet opening a can, MS Paint.",
+        "covers": "Hammer, chisel, a bayonet if you had one.",
+        "image": null
+      },
+      {
+        "slug": "0605-warner-1858",
+        "prompt": "Claw can opener, label 1858, MS Paint.",
+        "covers": "Eighteen fifty eight: Ezra Warner's claw-like opener.",
+        "image": null
+      },
+      {
+        "slug": "0610-lyman-1870",
+        "prompt": "Wheel opener riding a can rim, 1870, MS Paint.",
+        "covers": "Eighteen seventy: Lyman's rotating cutter on the rim.",
+        "image": null
+      },
+      {
+        "slug": "0615-sardine-key",
+        "prompt": "Sardine tin key as a white flag, MS Paint.",
+        "covers": "The sardine key is a little surrender flag.",
+        "image": null
+      },
+      {
+        "slug": "0620-pull-tab",
+        "prompt": "Pull-tab saying SORRY, MS Paint.",
+        "covers": "Pull-tabs are later apologies.",
+        "image": null
+      },
+      {
+        "slug": "0625-breaking-in",
+        "prompt": "Stickman burglar at a can door, MS Paint.",
+        "covers": "Opening a can still feels like breaking into something.",
+        "image": null
+      },
+      {
+        "slug": "0630-logistics-crate",
+        "prompt": "Crate in a tuxedo, MS Paint.",
+        "covers": "A nineteenth-century logistics crate that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0635-thumb-tab",
+        "prompt": "Thumb on a tab, tiny army door, MS Paint.",
+        "covers": "Your thumb on the tab is a civilian using an army door.",
+        "image": null
+      },
+      {
+        "slug": "0640-this-is-you",
+        "prompt": "Stickman eating January peaches from a can, MS Paint.",
+        "covers": "This is you. January peaches.",
+        "image": null
+      },
+      {
+        "slug": "0645-three-leases",
+        "prompt": "Bean can next to three moving boxes, MS Paint.",
+        "covers": "A can of beans that outlasted three apartment leases.",
+        "image": null
+      },
+      {
+        "slug": "0650-spam-joke",
+        "prompt": "Spam can laughing and saluting, MS Paint.",
+        "covers": "Spam as a joke and as wartime protein that stayed.",
+        "image": null
+      },
+      {
+        "slug": "0655-camping-plan",
+        "prompt": "Tent, one can, stickman, MS Paint.",
+        "covers": "A camping trip where the can is the whole plan.",
+        "image": null
+      },
+      {
+        "slug": "0700-student-berm",
+        "prompt": "Dorm cupboard labeled TINY BERMONDSEY, MS Paint.",
+        "covers": "A student cupboard that is a tiny Bermondsey.",
+        "image": null
+      },
+      {
+        "slug": "0705-not-lazy",
+        "prompt": "Bath of jars, baby stickman, modern kitchen, MS Paint.",
+        "covers": "None of this makes you lazy. Born after Appert's bath.",
+        "image": null
+      },
+      {
+        "slug": "0710-trust-steel",
+        "prompt": "Steel can beating a season tree at arm wrestling, MS Paint.",
+        "covers": "A war taught a continent to trust steel more than a season.",
+        "image": null
+      },
+      {
+        "slug": "0715-relief-lunch",
+        "prompt": "Stickman not hunting, opening a can instead, MS Paint.",
+        "covers": "Relief that dinner does not have to be hunted this afternoon.",
+        "image": null
+      },
+      {
+        "slug": "0720-factory-taste",
+        "prompt": "Flat-tasting peach, factory smokestack, MS Paint.",
+        "covers": "A flatness, a factory taste, time sugar-coating itself.",
+        "image": null
+      },
+      {
+        "slug": "0725-august-soul",
+        "prompt": "January can holding a tiny August ghost, MS Paint.",
+        "covers": "You paid for August in January with a little of August's soul.",
+        "image": null
+      },
+      {
+        "slug": "0730-heat-steel-peach",
+        "prompt": "Peach in a steel can over a flame, MS Paint.",
+        "covers": "That is what heat and steel do to a peach.",
+        "image": null
+      },
+      {
+        "slug": "0735-food-was-clock",
+        "prompt": "Clock swapped for a warehouse key, MS Paint.",
+        "covers": "We traded food as a clock for food as a warehouse password.",
+        "image": null
+      },
+      {
+        "slug": "0740-buy-seasons",
+        "prompt": "Taste vs price tag on two seasons, MS Paint.",
+        "covers": "Seasons you could taste for seasons you can buy.",
+        "image": null
+      },
+      {
+        "slug": "0745-crossing-protein",
+        "prompt": "Can on a ship crossing ocean, MS Paint.",
+        "covers": "A protein that survived a crossing.",
+        "image": null
+      },
+      {
+        "slug": "0750-baby-train",
+        "prompt": "Baby bottle can on a train, MS Paint.",
+        "covers": "Baby milk that did not sour on a train.",
+        "image": null
+      },
+      {
+        "slug": "0755-disaster-ration",
+        "prompt": "Broken road, miracle can, MS Paint.",
+        "covers": "A disaster ration that is a miracle if the road is gone.",
+        "image": null
+      },
+      {
+        "slug": "0800-warehouse-not-garden",
+        "prompt": "Warehouse wearing a flower costume, MS Paint.",
+        "covers": "The trick is pretending the warehouse is a garden.",
+        "image": null
+      },
+      {
+        "slug": "0805-label-never-blinks",
+        "prompt": "Can label with unblinking eyes, MS Paint.",
+        "covers": "A label that never blinks.",
+        "image": null
+      },
+      {
+        "slug": "0810-fresh-aisle-jets",
+        "prompt": "Airplane peaches in plastic, MS Paint.",
+        "covers": "Fresh aisles fake season with jets and plastic.",
+        "image": null
+      },
+      {
+        "slug": "0815-unfashionable-cousin",
+        "prompt": "Can with a flashlight in a blackout, MS Paint.",
+        "covers": "The can is the unfashionable cousin who shows up when the power dies.",
+        "image": null
+      },
+      {
+        "slug": "0820-cousin-loyal",
+        "prompt": "Ugly loyal can hugging stickman, MS Paint.",
+        "covers": "The cousin is ugly. The cousin is loyal.",
+        "image": null
+      },
+      {
+        "slug": "0825-time-travel",
+        "prompt": "Can time machine, ignored branding chart, MS Paint.",
+        "covers": "Loyalty is time travel that ignores a branding meeting.",
+        "image": null
+      },
+      {
+        "slug": "0830-pick-up-can",
+        "prompt": "Callback: stickman holding a can, lid starting to curl, MS Paint.",
+        "covers": "You pick up the can. The lid will still curl.",
+        "image": null
+      },
+      {
+        "slug": "0835-feel-nothing",
+        "prompt": "Blank calm face, curling lid, MS Paint.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0840-thumb-metal",
+        "prompt": "Giant thumb on a can lid, MS Paint.",
+        "covers": "Put your thumb on the metal.",
+        "image": null
+      },
+      {
+        "slug": "0845-not-a-garden",
+        "prompt": "Can between a red-X sky and a red-X garden, MS Paint.",
+        "covers": "Not the sky and not a garden.",
+        "image": null
+      },
+      {
+        "slug": "0850-prize-emperor",
+        "prompt": "Ribbon on a can, tiny emperor, MS Paint.",
+        "covers": "A prize for an emperor.",
+        "image": null
+      },
+      {
+        "slug": "0855-glass-to-tin",
+        "prompt": "Jar morphing into a tin can, MS Paint.",
+        "covers": "A glass jar that learned to be tin.",
+        "image": null
+      },
+      {
+        "slug": "0900-navy-miles",
+        "prompt": "Navy can with a mileage counter, MS Paint.",
+        "covers": "A navy that needed miles.",
+        "image": null
+      },
+      {
+        "slug": "0905-calendar-steel",
+        "prompt": "Calendar jammed into a steel can, MS Paint.",
+        "covers": "A war that stuffed the calendar into steel.",
+        "image": null
+      },
+      {
+        "slug": "0910-microbe-afraid",
+        "prompt": "Tiny germ scaring a factory, MS Paint.",
+        "covers": "A microbe that taught the factory to be afraid.",
+        "image": null
+      },
+      {
+        "slug": "0915-wheel-late",
+        "prompt": "Late wheel opener saying PLEASE, MS Paint.",
+        "covers": "A little wheel that arrived fifty years late to say please.",
+        "image": null
+      },
+      {
+        "slug": "0920-love-the-soup",
+        "prompt": "Happy stickman with soup, MS Paint.",
+        "covers": "You are allowed to love the soup.",
+        "image": null
+      },
+      {
+        "slug": "0925-dry-beans",
+        "prompt": "Stickman with dry beans looking smug at a can, MS Paint.",
+        "covers": "You are allowed to cook beans from dry and feel superior.",
+        "image": null
+      },
+      {
+        "slug": "0930-not-natural",
+        "prompt": "Cupboard with a NATURAL sticker and a red X, MS Paint.",
+        "covers": "Stop calling the cupboard natural.",
+        "image": null
+      },
+      {
+        "slug": "0935-letter-massy",
+        "prompt": "Letter stamped MASSY next to soldiers eating, MS Paint.",
+        "covers": "A letter from a kitchen in Massy that thought an army should eat.",
+        "image": null
+      },
+      {
+        "slug": "0940-letter-cheerful",
+        "prompt": "Cheerful letter, army silhouette, MS Paint.",
+        "covers": "The letter is cheerful. The army is the point.",
+        "image": null
+      },
+      {
+        "slug": "0945-eat-know-war",
+        "prompt": "Stickman eating, can labeled which war, MS Paint.",
+        "covers": "Eat if you want. Know which war you are still opening.",
+        "image": null
+      },
+      {
+        "slug": "0950-lid-final",
+        "prompt": "Curling lid as a contract page, MS Paint.",
+        "covers": "When the lid curls, look at it like a contract.",
+        "image": null
+      },
+      {
+        "slug": "0955-key-flattered",
+        "prompt": "Can key with a flattered smile, MS Paint.",
+        "covers": "You still turn the key. The key is flattered.",
+        "image": null
+      },
+      {
+        "slug": "1000-label-yes",
+        "prompt": "Can label checking YES, MS Paint.",
+        "covers": "The label votes yes before you have had a thought.",
+        "image": null
+      },
+      {
+        "slug": "1005-shelf-forever",
+        "prompt": "Shelf of cans labeled FOREVER, MS Paint.",
+        "covers": "A shelf that pretends forever is a flavor.",
+        "image": null
+      },
+      {
+        "slug": "1010-winter-orchard",
+        "prompt": "Snow orchard made of peach cans, no trees, MS Paint.",
+        "covers": "A winter orchard that never had trees.",
+        "image": null
+      },
+      {
+        "slug": "1015-student-midnight",
+        "prompt": "Midnight stickman eating beans from a can, MS Paint.",
+        "covers": "Midnight beans, no cow, no field, no excuse.",
+        "image": null
+      },
+      {
+        "slug": "1020-camp-rain",
+        "prompt": "Rain tent, can next to a tiny fire, MS Paint.",
+        "covers": "Rain on a tent. The can is the campfire's cousin.",
+        "image": null
+      },
+      {
+        "slug": "1025-dented-choice",
+        "prompt": "Stickman binning a dented can, treaty paper, MS Paint.",
+        "covers": "You throw the dented one away. That is the treaty talking.",
+        "image": null
+      },
+      {
+        "slug": "1030-pop-top-civilian",
+        "prompt": "Pop-top bowing, old crate behind, MS Paint.",
+        "covers": "A pop-top is a civilian apology for a crate.",
+        "image": null
+      },
+      {
+        "slug": "1035-two-pantries",
+        "prompt": "Split: full can pantry vs empty shelf, MS Paint.",
+        "covers": "Right pantry versus empty pantry. The can still takes sides.",
+        "image": null
+      },
+      {
+        "slug": "1040-open-loop-close",
+        "prompt": "Cupboard opening, tiny war inside, MS Paint.",
+        "covers": "The cupboard did a job. The job had a war in it.",
+        "image": null
+      },
+      {
+        "slug": "1045-dent-or-eat",
+        "prompt": "Dented can vs clean can, stickman choosing, MS Paint.",
+        "covers": "A dent is a vote. Eating is another vote.",
+        "image": null
+      },
+      {
+        "slug": "1050-paper-label-mask",
+        "prompt": "Can wearing a paper-label mask of a peach, MS Paint.",
+        "covers": "The paper label is a mask the metal wears to look like food.",
+        "image": null
+      },
+      {
+        "slug": "1055-curl-callback",
+        "prompt": "Final callback: curling lid, three tiny place labels, stickman hand, MS Paint.",
+        "covers": "The metal tongue curls. Massy. Bermondsey. Your hand.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 42,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": "#FFD34F",
+    "stroke_color": "#000000",
+    "stroke_width": 3,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why Your Food Used To Rot",
+    "description": "A can feels like a cupboard. It was a war problem. Appert's glass, Durand's tin, a navy dock, a civil war pantry, botulism as a treaty, a can opener that arrived late. January peaches are logistics.",
+    "tags": [
+      "canned",
+      "food",
+      "history",
+      "napoleon",
+      "appert",
+      "preservation",
+      "why",
+      "pantry",
+      "tin",
+      "leftovers"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "STILL GOOD?"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will open a can. The lid will curl like a metal tongue and a smell will come out that does not belong to this room or this week. Soup. Beans. Peaches that remember a summer you were not in. You will not think of it as a political act. It will feel like a cupboard doing its job. Here is the part that should bother you. For most of human history, dinner had an expiration date written in flies and weather. Meat went green. Milk went sharp. Fruit was a calendar, and then it was compost. Armies marched on whatever the nearest field would give them, and then they starved when the field said no. So why does your pantry pretend that August lives in January? Because a French confectioner learned to trap heat in a bottle for an emperor who needed to feed men far from farms, and then a tin learned to travel. That is the whole plot. Your leftover is not a personality. It is a war problem that moved into the kitchen and put on a paper label. You still turn the key. The key is flattered. That is its job. The flies did not vote. A prize committee did, and then a factory, and then a grocery aisle that taught your hand the motion until the motion started calling itself dinner.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the older death of food, because the can stole time and then denied the theft. Before factories, preservation was a local argument with rot. You smoked. You dried. You packed in fat. You buried in cold cellars that failed in a warm week. A peasant kitchen knew the year as a sequence of panics: slaughter, then scarcity, then green shoots, then too much fruit and no way to keep it. Ships carried hard biscuit and barrelled meat that tasted like the barrel. The navy did not eat peaches in February. They ate whatever had been insulted into lasting, and they still got scurvy and still threw spoiled casks overboard. Fresh was a geography. If you were not near the cow, you were not near the milk. The modern cupboard erases geography. It also erases the old honesty that food is a clock. You can hate the smell of a forgotten fridge drawer and still notice what the smell was protecting: a limit. The can deleted the limit and called the deletion progress, which is a word that never has to do the dishes.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Napoleon needed calories that could walk. In the first years of the eighteen hundreds, France offered a prize for a way to keep food edible far from kitchens. Nicolas Appert, a confectioner and bottler in Massy, won it. He packed meat and vegetables into glass, sealed them, and heated the jars in a water bath until the inside stopped being a farm and started being a vault. He did not have germ theory. He had a kitchen and a stubborn empiricism. In eighteen ten he published The Art of Preserving Animal and Vegetable Substances for Many Years, a title that sounds like a boast because it was one. The army wanted miles. Appert sold miles in a bottle. Glass broke. Glass was heavy. Glass was still a miracle if you had ever watched a ham turn on you in three summer days. The prize was twelve thousand francs, which is a polite way of saying the state paid a cook to invent logistics. You still eat the logistics. You just call them lunch.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Britain took the miracle off glass and put it in metal. In eighteen ten Peter Durand patented a tin-plated iron canister, a letter to the future that said: stop breaking. Bryan Donkin and John Hall built a factory on the Bermondsey marshes and began selling canned meat to the Royal Navy. Early cans were thick as armor. Opening them was a job for a hammer and a chisel, which is not a kitchen vibe, it is a siege vibe. Sailors did the siege. Officers wrote home that the meat was surprisingly not a crime. The can was not kindness. It was a way to keep an empire's stomach on a timetable that did not care about harvest. If your tuna still feels like a quiet little cylinder of the ocean, notice that the ocean was first a navy problem. The shop shelf is a dock that learned to be indoor. The label learned to smile. The metal learned to wait.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "America scaled the vault until it became a habit. The Civil War taught both armies that a tin could outlast a campaign. Factories in Baltimore and Chicago learned to stuff the calendar into steel. Gail Borden had already condensed milk into a sweet, shelf-stable paste in the eighteen fifties, a dairy that did not need a cow in the next room. After the war, grocery cans climbed into ordinary houses: tomatoes, salmon, peaches that had no right to be peaches in a snow month. By the early nineteen hundreds a city pantry could look like a warehouse in miniature. The warehouse was the point. You were no longer a person living next to a field. You were a person living next to a supply chain that had learned to play dead until you were hungry. Playing dead is a skill. Bacteria do not applaud. They wait for a dent and a warm warehouse and a skipped sterilizing minute. The skipped minute is how a miracle becomes a recall, and a recall is just a factory admitting the vault had a door.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "This is the rehook. You think a can is safe the way you think a lock is a lock. Safety was a late science, not a birthright of metal. Clostridium botulinum, named from the Latin for sausage, can live where air cannot, make a toxin that does not care about your plans, and turn a poorly processed jar into a quiet disaster. Nineteenth-century canners learned by outbreak. Twentieth-century canners learned by temperature, pH, and pressure cookers that are really small factories. I am not trying to spook your soup. I am trying to un-nature it. The dented can you were told to throw away is a tiny lecture in microbiology wearing a grocery rule. The rule is not superstition. It is a treaty with an organism that likes anaerobic dark. Your cupboard is a peace treaty. Treaties need inspectors. The inspector used to be your nose. Now it is a factory stamp you never meet.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Watch the tool arrive late, because that is how you know the can was a military object first and a kitchen object second. For decades you opened the vault with violence: hammer, chisel, a bayonet if you had one. In eighteen fifty eight Ezra Warner patented a claw-like opener. In eighteen seventy William Lyman patented a rotating cutter that rode the rim, which is the ancestor of the wheel you still turn while watching a show. The key on a sardine tin is a little surrender flag: we admit this box was not designed for your hands. Pull-tabs and pop-tops are later apologies. If opening a can still feels slightly like breaking into something, good. You are breaking into a nineteenth-century logistics crate that learned manners. The manners are the can opener. The crate is the plot. Your thumb on the tab is a civilian using an army door.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "This is you, already, in the middle of the story. January peaches. A can of beans that outlasted three apartment leases. Spam as a joke and as a wartime protein that refused to leave the joke. A camping trip where the can is the whole plan. A student cupboard that is really a tiny Bermondsey. None of this makes you lazy. It makes you a person born after Appert's bath and after Donkin's tin and after a civil war that taught a continent to trust steel more than a season. You can feel both in the same lunch: relief that dinner does not have to be hunted this afternoon, and a flatness, a factory taste, a sweetness that is really time sugar-coating itself. The relief is real. The flatness is the receipt. You paid for August in January with a little of August's soul. That is not a poem. That is what heat and steel do to a peach. If the peach still tastes like a peach, that is a bonus. If it tastes like the warehouse, that is honest. Honesty is allowed to be beige.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So what did we trade? We traded a world where food was a clock for a world where food is a warehouse password. We traded seasons you could taste for seasons you can buy. We also gained, for millions, a protein that survived a crossing, a baby milk that did not sour on a train, a disaster ration that is actually a miracle if the road is gone. The trick is pretending the warehouse is a garden. It is not. It is Appert's stubborn bath, a British patent, a navy dock, a war, a botulism treaty, a wheel on a rim, a label that never blinks. Deals can be rewritten. Some already were, quietly, when fresh aisles learned to fake season with jets and plastic, and the can became the unfashionable cousin who still shows up when the power dies. The cousin is ugly. The cousin is loyal. Loyalty is a kind of time travel that does not care about your branding meeting.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "This is you. You will pick up the can. The lid will still curl. You will feel nothing, which is the victory. Put your thumb on the metal. That is not the sky and it is not a garden. That is a prize for an emperor, a glass jar that learned to be tin, a navy that needed miles, a war that stuffed the calendar into steel, a microbe that taught the factory to be afraid, and a little wheel that arrived fifty years late to say please. You are allowed to love the soup. You are allowed to cook the beans from dry and feel superior for an evening. Just stop calling the cupboard natural, or inevitable, or proof that you cannot cook. Tonight, when the lid curls, look at it like a letter from a kitchen in Massy that thought an army should eat. The letter is cheerful. The army is the point. Eat if you want. Know which war you are still opening. The curl is cheerful. Cheerful is how a logistics crate stays in the room without looking like a crate.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

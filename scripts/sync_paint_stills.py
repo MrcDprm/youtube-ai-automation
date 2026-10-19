@@ -13,6 +13,8 @@ ASSETS = Path(
 
 
 def sync(project_id: str, *, thumb_name: str = "thumbnail.png") -> tuple[int, int]:
+    from modules.studio_pack import resolve_episode_thumbnail_source
+
     board = PROJECT_ROOT / "output" / "storyboard" / project_id
     tsv = board / "beats.tsv"
     if not tsv.is_file():
@@ -32,18 +34,14 @@ def sync(project_id: str, *, thumb_name: str = "thumbnail.png") -> tuple[int, in
         else:
             missing.append(name)
 
-    for candidate in (
-        f"thumbnail-{project_id.split('-11dk-')[0]}.png",
-        "thumbnail-rain.png",
-        "thumbnail-hour.png",
-        "thumbnail-stick.png",
-        "thumbnail-weekdays.png",
-        "thumbnail.png",
-    ):
-        src = ASSETS / candidate
-        if src.is_file():
-            shutil.copy2(src, board / thumb_name)
-            break
+    thumb_src = resolve_episode_thumbnail_source(
+        project_id,
+        assets_dir=ASSETS,
+        storyboard_dir=PROJECT_ROOT / "output" / "storyboard",
+        prefer_assets=True,
+    )
+    if thumb_src is not None and thumb_src != board / thumb_name:
+        shutil.copy2(thumb_src, board / thumb_name)
 
     return copied, len(missing)
 

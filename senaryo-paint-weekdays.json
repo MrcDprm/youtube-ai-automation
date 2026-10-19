@@ -1,0 +1,1007 @@
+{
+  "project_id": "why-your-week-has-seven-days-11dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-seven-boxes",
+        "prompt": "Stickman tapping a phone calendar with seven colored squares, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "You tap a calendar and see seven boxes in a row.",
+        "image": null
+      },
+      {
+        "slug": "0005-mon-sun",
+        "prompt": "Two calendars side by side, one starts MON one starts SUN, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Monday through Sunday. Or Sunday first.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-a-vote",
+        "prompt": "Calendar labeled NOT A VOTE, shrugging stickman, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "You will not think of it as a vote.",
+        "image": null
+      },
+      {
+        "slug": "0015-feels-weather",
+        "prompt": "Calendar wearing a cloud costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "It feels like weather.",
+        "image": null
+      },
+      {
+        "slug": "0020-moon-month",
+        "prompt": "Moon cycle arrow 29.5 DAYS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The Moon takes about twenty nine and a half days.",
+        "image": null
+      },
+      {
+        "slug": "0025-no-clean-divide",
+        "prompt": "Division 29.5 / 7 = MESSY, red X on neat fit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Twenty nine point five does not divide cleanly into seven.",
+        "image": null
+      },
+      {
+        "slug": "0030-not-sky-child",
+        "prompt": "Week belt disconnected from Moon, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The week is not a child of the night sky.",
+        "image": null
+      },
+      {
+        "slug": "0035-universe-meeting",
+        "prompt": "Stickman at a UNIVERSE MEETING sign, seven chairs, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Why seven-day chunks as if the universe held a meeting?",
+        "image": null
+      },
+      {
+        "slug": "0040-mesopotamia-sevens",
+        "prompt": "Clay tablet with seven marks, MESOPOTAMIA tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Ancient Mesopotamia liked sevens.",
+        "image": null
+      },
+      {
+        "slug": "0045-rome-rest",
+        "prompt": "Roman scroll labeled REST DAY spreadsheet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Rome wanted a shared rest day on a spreadsheet.",
+        "image": null
+      },
+      {
+        "slug": "0050-wandering-lights",
+        "prompt": "Seven planet icons above a coffee mug, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven wandering lights became words before coffee.",
+        "image": null
+      },
+      {
+        "slug": "0055-iso-vs-wall",
+        "prompt": "ISO Monday vs wall calendar Sunday first, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "ISO and your kitchen wall never agreed on the start.",
+        "image": null
+      },
+      {
+        "slug": "0100-not-astronomy",
+        "prompt": "ASTRONOMY stamp with red X, calendar wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Your week is not astronomy.",
+        "image": null
+      },
+      {
+        "slug": "0105-grid-as-fact",
+        "prompt": "Grid wearing a FACT mask, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A grid that learned to look like a fact.",
+        "image": null
+      },
+      {
+        "slug": "0110-laundry-opinions",
+        "prompt": "Calendar pointing at laundry basket, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The grid has opinions about your laundry.",
+        "image": null
+      },
+      {
+        "slug": "0115-grid-flattered",
+        "prompt": "Smiling calendar, FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The grid is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0120-start-moon",
+        "prompt": "Moon drum stolen by a seven-day belt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Start with the Moon. The week stole a rhythm.",
+        "image": null
+      },
+      {
+        "slug": "0125-twenty-nine-half",
+        "prompt": "Moon phases in a 29.5 day loop, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A lunar month is about twenty nine and a half days.",
+        "image": null
+      },
+      {
+        "slug": "0130-app-subscription",
+        "prompt": "Moon behind a paywall APP SUB, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Depending on who is counting and selling subscriptions.",
+        "image": null
+      },
+      {
+        "slug": "0135-four-plus-fraction",
+        "prompt": "4 weeks + FRACTION sock, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Four weeks plus a leftover fraction.",
+        "image": null
+      },
+      {
+        "slug": "0140-sock-year",
+        "prompt": "Sock labeled FRACTION walking around a year circle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A fraction wandering the year like a mismatched sock.",
+        "image": null
+      },
+      {
+        "slug": "0145-farmers-moon",
+        "prompt": "Stick farmer, Moon, crops and tide arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Farmers watched the Moon for planting and tides.",
+        "image": null
+      },
+      {
+        "slug": "0150-phases-feasts",
+        "prompt": "Moon phases with FEAST and FAST tags, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Fasting and feasts tied to phases.",
+        "image": null
+      },
+      {
+        "slug": "0155-no-seven-belt",
+        "prompt": "Seven-day belt with red X over Moon link, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "None of that required a neat seven-day belt.",
+        "image": null
+      },
+      {
+        "slug": "0200-sky-belt-mismatch",
+        "prompt": "Big Moon clock vs small 7-day belt, mismatch, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The sky's loudest clock does not fit your belt.",
+        "image": null
+      },
+      {
+        "slug": "0205-phase-story",
+        "prompt": "Moon phases comic strip PHASE STORY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A month is a phase story.",
+        "image": null
+      },
+      {
+        "slug": "0210-counter-story",
+        "prompt": "Metronome labeled COUNTER STORY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A week is a counter story.",
+        "image": null
+      },
+      {
+        "slug": "0215-same-day-city",
+        "prompt": "City stickmen synced on same calendar day, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Counters get everyone in a city on the same day.",
+        "image": null
+      },
+      {
+        "slug": "0220-moon-drum",
+        "prompt": "Moon beating a slow drum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The Moon keeps time like a slow drum.",
+        "image": null
+      },
+      {
+        "slug": "0225-week-metronome",
+        "prompt": "Seven-day metronome with question mark song, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The week keeps time like a forgetful metronome.",
+        "image": null
+      },
+      {
+        "slug": "0230-phone-skin",
+        "prompt": "Phone wearing a 7-day skin not a Moon skin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Only one of them wears your phone's default skin.",
+        "image": null
+      },
+      {
+        "slug": "0235-named-corners",
+        "prompt": "Halo on calendar, MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Named corners. One inventor is a halo the grid did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0240-mesopotamia-layers",
+        "prompt": "Layered clay tablets MONTH FESTIVAL MARKET 7, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Mesopotamia tracked months, festivals, markets, seven-day units.",
+        "image": null
+      },
+      {
+        "slug": "0245-cuneiform-seven",
+        "prompt": "Cuneiform wedge marks in groups of seven, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven-day units show up on cuneiform tablets.",
+        "image": null
+      },
+      {
+        "slug": "0250-seven-busy",
+        "prompt": "Number 7 juggling many tags, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The number seven was already busy.",
+        "image": null
+      },
+      {
+        "slug": "0255-completeness-gesture",
+        "prompt": "Seven as COMPLETE hand gesture, telescope with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven was a completeness gesture, not a telescope find.",
+        "image": null
+      },
+      {
+        "slug": "0300-babylon-sky",
+        "prompt": "Stick scribe star chart, BABYLON tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Babylonian astronomy was serious about the sky.",
+        "image": null
+      },
+      {
+        "slug": "0305-admin-rhythm",
+        "prompt": "Clipboard ADMIN RHYTHM next to stars, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "It was also serious about administrative rhythm.",
+        "image": null
+      },
+      {
+        "slug": "0310-temple-town",
+        "prompt": "Temple and town sharing a seven-day pulse, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Temple and town agreed on when to rest and reckon.",
+        "image": null
+      },
+      {
+        "slug": "0315-not-vibes-harvest",
+        "prompt": "Harvest calendar vs VIBES cloud with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Harvest could not be scheduled by vibes alone.",
+        "image": null
+      },
+      {
+        "slug": "0320-paperwork-physics",
+        "prompt": "PAPERWORK folder separate from PHYSICS folder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "File paperwork separately from physics.",
+        "image": null
+      },
+      {
+        "slug": "0325-not-lunar-division",
+        "prompt": "Week falling from clay not from Moon math, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The week did not fall out of a lunar division.",
+        "image": null
+      },
+      {
+        "slug": "0330-sevens-on-clay",
+        "prompt": "Clay tablet exported on trade route arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A culture that liked sevens on clay exported the habit.",
+        "image": null
+      },
+      {
+        "slug": "0335-souvenir-english",
+        "prompt": "Seven boxes with SOUVENIR tag and English labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Your row of boxes is a Mesopotamian souvenir that learned English.",
+        "image": null
+      },
+      {
+        "slug": "0340-sky-part-wrong",
+        "prompt": "Wrong SKY MYTH thought bubble with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The sky part people remember wrong.",
+        "image": null
+      },
+      {
+        "slug": "0345-seven-wanderers",
+        "prompt": "Seven planet sun moon icons in a row, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven bright wanderers: Sun Moon Mars Mercury Jupiter Venus Saturn.",
+        "image": null
+      },
+      {
+        "slug": "0350-seven-lights",
+        "prompt": "Moving lights among fixed stars, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven lights that moved.",
+        "image": null
+      },
+      {
+        "slug": "0355-seven-names",
+        "prompt": "Name tags orbiting seven lights, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven names that moved with them.",
+        "image": null
+      },
+      {
+        "slug": "0400-not-tuesday-proof",
+        "prompt": "TUESDAY PLANET COUNT myth with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Not proof someone counted planets on a Tuesday.",
+        "image": null
+      },
+      {
+        "slug": "0405-chorus-costume",
+        "prompt": "Seven seats choir of planets, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The sky handed a chorus that fit a seven costume.",
+        "image": null
+      },
+      {
+        "slug": "0410-saturn-slow",
+        "prompt": "Saturn with a SLOW turtle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Saturn slow.",
+        "image": null
+      },
+      {
+        "slug": "0415-mercury-quick",
+        "prompt": "Mercury with speed lines QUICK, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Mercury quick.",
+        "image": null
+      },
+      {
+        "slug": "0420-venus-bright",
+        "prompt": "Bright Venus star, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Venus bright.",
+        "image": null
+      },
+      {
+        "slug": "0425-mars-alarm",
+        "prompt": "Red Mars with ALARM bell, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Mars reddish and alarming.",
+        "image": null
+      },
+      {
+        "slug": "0430-sun-moon-boss",
+        "prompt": "Sun and Moon as bosses over day/night, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Sun and Moon boss day and night.",
+        "image": null
+      },
+      {
+        "slug": "0435-jupiter-important",
+        "prompt": "Large Jupiter with IMPORTANT crown, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Jupiter fat with importance.",
+        "image": null
+      },
+      {
+        "slug": "0440-inevitable-rhyme",
+        "prompt": "Planet labels as nursery rhyme, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Labels feel inevitable like a childhood rhyme.",
+        "image": null
+      },
+      {
+        "slug": "0445-schedules-train",
+        "prompt": "Schedule train tracks labeled INEVITABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Inevitable is a feeling schedules train.",
+        "image": null
+      },
+      {
+        "slug": "0450-no-payroll-vote",
+        "prompt": "Planets at ballot box with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Planets did not vote on your payroll cycle.",
+        "image": null
+      },
+      {
+        "slug": "0455-seven-seats",
+        "prompt": "Seven empty seats then planet stickers applied, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Drafted after the board chose seven seats.",
+        "image": null
+      },
+      {
+        "slug": "0500-names-travel",
+        "prompt": "Weekday words on arrows traveling, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Watch the names travel.",
+        "image": null
+      },
+      {
+        "slug": "0505-romance-luggage",
+        "prompt": "Suitcase with LUNDI MARDI tags, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Romance weekday words carry planetary luggage.",
+        "image": null
+      },
+      {
+        "slug": "0510-french-lundi",
+        "prompt": "French LUNDI MARDI with Moon and Mars icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "French lundi from Luna. Mardi from Mars.",
+        "image": null
+      },
+      {
+        "slug": "0515-mercredi-jeudi",
+        "prompt": "MERCREDI JEUDI with Mercury Jupiter, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Mercredi from Mercury. Jeudi from Jupiter.",
+        "image": null
+      },
+      {
+        "slug": "0520-vendredi-venus",
+        "prompt": "VENDREDI with Venus, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Vendredi from Venus.",
+        "image": null
+      },
+      {
+        "slug": "0525-english-norse",
+        "prompt": "Tiw Woden hiding under Tuesday Wednesday, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "English hides ancestry under Norse replacements.",
+        "image": null
+      },
+      {
+        "slug": "0530-italian-mercury",
+        "prompt": "Italian MERCOLEDI with Mercury note, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Italian mercoledì still sings Mercury.",
+        "image": null
+      },
+      {
+        "slug": "0535-spanish-row",
+        "prompt": "Spanish weekday row with planets, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Spanish lunes martes miércoles jueves viernes.",
+        "image": null
+      },
+      {
+        "slug": "0540-weekend-break",
+        "prompt": "Planet parade stopping at SAT SUN, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Saturday and Sunday break the planet parade.",
+        "image": null
+      },
+      {
+        "slug": "0545-sabato-domenica",
+        "prompt": "SABATO DOMENICA bone tags, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Sabato and domenica carry Latin skeletons.",
+        "image": null
+      },
+      {
+        "slug": "0550-not-last-thursday",
+        "prompt": "LAST THURSDAY INVENTION joke with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Romans did not invent the week on a whim last Thursday.",
+        "image": null
+      },
+      {
+        "slug": "0555-mnemonic-survived",
+        "prompt": "Mnemonic sticker book PLANETS on days, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Planet labels were a cheap mnemonic that survived.",
+        "image": null
+      },
+      {
+        "slug": "0600-mercredi-mouth",
+        "prompt": "Stickman mouth with planet roster, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Your mouth rehearses a roster when you say mercredi.",
+        "image": null
+      },
+      {
+        "slug": "0605-sticker-counter",
+        "prompt": "Planet sticker on a seven-day counter, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The roster is a sticker on a counter, not astronomy class.",
+        "image": null
+      },
+      {
+        "slug": "0610-rome-logistics",
+        "prompt": "Roman scroll LOGISTICS not SERMON, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Rome enters as logistics, not as a sermon.",
+        "image": null
+      },
+      {
+        "slug": "0615-constantine-321",
+        "prompt": "Emperor nameplate CONSTANTINE 321 CE, Sunday sun icon, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Constantine issued a Sunday law in three hundred twenty one.",
+        "image": null
+      },
+      {
+        "slug": "0620-dies-solis",
+        "prompt": "Latin DIES SOLIS on ledger, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Dies Solis on the imperial books.",
+        "image": null
+      },
+      {
+        "slug": "0625-justinian-code",
+        "prompt": "Code of Justinian book REST DAY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "It shows up in the Code of Justinian as civil rest.",
+        "image": null
+      },
+      {
+        "slug": "0630-not-faith-lamp",
+        "prompt": "LAMP FAITH MYTH with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Punchline is not faith invented in a lamp.",
+        "image": null
+      },
+      {
+        "slug": "0635-empire-sync",
+        "prompt": "Empire map with SYNC PAUSE stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "An empire needed a synchronized pause.",
+        "image": null
+      },
+      {
+        "slug": "0640-seven-day-rhythm",
+        "prompt": "Seven-day wheel already spinning, Rome stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Riding on a circulating seven-day rhythm.",
+        "image": null
+      },
+      {
+        "slug": "0645-spread-laws",
+        "prompt": "CAPITAL LETTERS law spreading on map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Spread is what laws do in capital letters.",
+        "image": null
+      },
+      {
+        "slug": "0650-tax-collectors",
+        "prompt": "Tax collector stamp on Sunday rest paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Backed by tax collectors.",
+        "image": null
+      },
+      {
+        "slug": "0655-stamp-not-confessional",
+        "prompt": "Rubber stamp on calendar not confessional booth, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Sunday traveled because Rome could stamp it.",
+        "image": null
+      },
+      {
+        "slug": "0700-day-off-contract",
+        "prompt": "Contract paper wearing old hat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Much of the feeling is a day-off contract in an old hat.",
+        "image": null
+      },
+      {
+        "slug": "0705-cheerful-rest",
+        "prompt": "Cheerful Sunday sun, hidden memo, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Cheerful is how a rest day stays without looking like a memo.",
+        "image": null
+      },
+      {
+        "slug": "0710-rehook-start",
+        "prompt": "Stickman pointing at calendar start box, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Rehook: you think the week starts where your calendar starts.",
+        "image": null
+      },
+      {
+        "slug": "0715-default-flag",
+        "prompt": "Settings toggle with tiny flag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "That is a default setting with a flag on it.",
+        "image": null
+      },
+      {
+        "slug": "0720-iso-8601",
+        "prompt": "ISO 8601 row MON=1 SUN=7, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "ISO eight six zero one puts Monday at one.",
+        "image": null
+      },
+      {
+        "slug": "0725-sunday-end-cap",
+        "prompt": "Sunday box at end labeled 7, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Sunday is the end cap at seven.",
+        "image": null
+      },
+      {
+        "slug": "0730-us-sunday-first",
+        "prompt": "US calendar Sunday top-left, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Many United States calendars put Sunday first.",
+        "image": null
+      },
+      {
+        "slug": "0735-tv-grids",
+        "prompt": "TV grid and paper calendar fighting for corner, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Television grids and paper habits won the square.",
+        "image": null
+      },
+      {
+        "slug": "0740-others-pick",
+        "prompt": "Small flags on different week-start calendars, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Mexico Canada Japan Israel pick sides for local reasons.",
+        "image": null
+      },
+      {
+        "slug": "0745-where-loop",
+        "prompt": "Two calendars LOOP START arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Two honest answers: where does the loop begin?",
+        "image": null
+      },
+      {
+        "slug": "0750-neither-moon",
+        "prompt": "Moon with red X at loop start debate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Neither answer is the Moon.",
+        "image": null
+      },
+      {
+        "slug": "0755-neither-babylon",
+        "prompt": "Babylon clay tablet with red X at loop start, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Neither answer is Babylon.",
+        "image": null
+      },
+      {
+        "slug": "0800-both-interfaces",
+        "prompt": "UI buttons labeled INTERFACE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Both answers are interfaces.",
+        "image": null
+      },
+      {
+        "slug": "0805-week-view-rage",
+        "prompt": "Two stickmen angry at each other's calendar layout, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Rage when someone else's week view looks wrong.",
+        "image": null
+      },
+      {
+        "slug": "0810-ui-morality",
+        "prompt": "UI toggle stamped MORALITY with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Trained to treat a UI choice like morality.",
+        "image": null
+      },
+      {
+        "slug": "0815-first-box",
+        "prompt": "FIRST BOX question blocked by grid, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Morality is the grid stopping you asking who picked the first box.",
+        "image": null
+      },
+      {
+        "slug": "0820-what-trade",
+        "prompt": "Trade scale OLD vs NEW week, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "So what did we trade?",
+        "image": null
+      },
+      {
+        "slug": "0825-portable-counter",
+        "prompt": "Seven-day counter surviving Moon fraction, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A portable counter that survives lunar awkwardness.",
+        "image": null
+      },
+      {
+        "slug": "0830-payroll-pulse",
+        "prompt": "Payroll software hugging seven-day grid, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A seven-day pulse payroll software can love.",
+        "image": null
+      },
+      {
+        "slug": "0835-poetry-to-habit",
+        "prompt": "Poetry book turning into habit sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Planet names went from poetry to habit.",
+        "image": null
+      },
+      {
+        "slug": "0840-shared-thursday",
+        "prompt": "Ship school chat bubble all say THURSDAY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Container, school, group chat agree on Thursday.",
+        "image": null
+      },
+      {
+        "slug": "0845-nurse-weekend",
+        "prompt": "Nurse with real WEEKEND badge not Saturn trait, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A nurse's weekend is an administrative outcome.",
+        "image": null
+      },
+      {
+        "slug": "0850-not-nature",
+        "prompt": "NATURE mask on seven boxes with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The trick is pretending the row is nature.",
+        "image": null
+      },
+      {
+        "slug": "0855-mesopotamian-chorus",
+        "prompt": "Four icons clay planets scroll ISO, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Mesopotamian rhythm, planet chorus, Roman memo, ISO defaults.",
+        "image": null
+      },
+      {
+        "slug": "0900-marketing-sunday",
+        "prompt": "Marketing poster picks Sunday first, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Sunday left because marketing liked the look.",
+        "image": null
+      },
+      {
+        "slug": "0905-deals-rewritten",
+        "prompt": "App toggle REWRITE DEAL, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Deals can be rewritten quietly in app settings.",
+        "image": null
+      },
+      {
+        "slug": "0910-history-toggle",
+        "prompt": "History book with toggle switch, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Settings are history with a toggle switch.",
+        "image": null
+      },
+      {
+        "slug": "0915-this-is-you",
+        "prompt": "Stickman opening calendar again callback, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "This is you. You will open the calendar again.",
+        "image": null
+      },
+      {
+        "slug": "0920-seven-still",
+        "prompt": "Same seven boxes waiting, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven boxes will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0925-feel-nothing",
+        "prompt": "Blank calm face at calendar victory, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "You will feel nothing. That is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0930-finger-row",
+        "prompt": "Finger on seven-day row, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Put your finger on the row.",
+        "image": null
+      },
+      {
+        "slug": "0935-not-moon-month",
+        "prompt": "Moon month cycle with red X under finger, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "That is not the Moon finishing a month.",
+        "image": null
+      },
+      {
+        "slug": "0940-clay-counter",
+        "prompt": "Clay tablet plus planet sticker book, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A clay counter and a wandering-light sticker book.",
+        "image": null
+      },
+      {
+        "slug": "0945-sun-law-321",
+        "prompt": "321 sun law scroll, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A Sun-day law in three hundred twenty one.",
+        "image": null
+      },
+      {
+        "slug": "0950-norse-mercury",
+        "prompt": "Mercury under Woden hat on Wednesday, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Wednesday hides Mercury under a Norse hat.",
+        "image": null
+      },
+      {
+        "slug": "0955-two-screens",
+        "prompt": "Two phones different week starts, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "ISO Monday on one screen, Sunday first on another.",
+        "image": null
+      },
+      {
+        "slug": "1000-loop-as-law",
+        "prompt": "Loop circle stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A grid taught you to treat a loop like a law.",
+        "image": null
+      },
+      {
+        "slug": "1005-live-in-loop",
+        "prompt": "Stickman cozy inside seven-box loop, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "You are allowed to live inside the loop.",
+        "image": null
+      },
+      {
+        "slug": "1010-hate-monday",
+        "prompt": "Hate Monday cloud but still on calendar, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Allowed to hate Monday and still obey it.",
+        "image": null
+      },
+      {
+        "slug": "1015-not-natural-seven",
+        "prompt": "NATURAL INEVITABLE stamps with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Stop calling the seven natural or inevitable.",
+        "image": null
+      },
+      {
+        "slug": "1020-sky-no-vote",
+        "prompt": "Ballot box SKY VOTED with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Not proof the sky voted.",
+        "image": null
+      },
+      {
+        "slug": "1025-seven-seats-election",
+        "prompt": "Seven chairs NO ELECTION sign, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "A contract with seven seats that never held an election.",
+        "image": null
+      },
+      {
+        "slug": "1030-cheerful-seats",
+        "prompt": "Cheerful seven seats, CONTRACT spotlight, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "The seats are cheerful. The contract is the point.",
+        "image": null
+      },
+      {
+        "slug": "1035-know-first-box",
+        "prompt": "App highlight on first box WHICH START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Know which box your app puts first.",
+        "image": null
+      },
+      {
+        "slug": "1040-moon-not-pick",
+        "prompt": "Moon shrugging NOT MY PICK, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Know the Moon did not pick it.",
+        "image": null
+      },
+      {
+        "slug": "1045-go-when-row",
+        "prompt": "Stickman walking when calendar row opens, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Go when the row lets you.",
+        "image": null
+      },
+      {
+        "slug": "1050-counter-clipboard",
+        "prompt": "Wall calendar smiling, hidden clay clipboard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Cheerful counter on the wall without Mesopotamia clipboard.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback seven boxes Moon fraction stickman finger, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9",
+        "covers": "Seven boxes. Moon fraction. Your finger.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why Your Week Has Seven Days",
+    "description": "Seven boxes feel like weather. The Moon does not divide by seven. Mesopotamia, seven wanderers, Romance names, Constantine in three hundred twenty one, ISO Monday versus Sunday first.",
+    "tags": [
+      "week",
+      "calendar",
+      "history",
+      "days",
+      "why",
+      "monday",
+      "sunday",
+      "moon",
+      "babylon",
+      "planets"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "SEVEN DAYS?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will tap a calendar and see seven boxes in a row before the pattern repeats. Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Or Sunday first, if your phone was set by someone who thinks the week is a sermon with a weekend attached. You will not think of it as a vote. It will feel like weather. Here is the part that should bother you. The Moon takes about twenty nine and a half days to finish the cycle your apps politely call a month, and twenty nine point five does not divide cleanly into seven, which means the week is not a child of the sky you can see at night. So why does your life still snap into seven-day chunks as if the universe held a meeting? Because ancient Mesopotamia liked sevens, because Rome wanted a shared rest day on an imperial spreadsheet, because seven wandering lights in the sky got turned into words you still mutter before coffee, and because ISO and your kitchen wall never agreed on where the row should start. That is the whole plot. Your week is not astronomy. It is a grid that learned to look like a fact, and you check it every morning as if the grid had opinions about your laundry. The grid does. The grid is flattered. That is its job.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the Moon, because the week stole a rhythm and then denied the theft. A lunar month is about twenty nine and a half days from new to new, depending on who is counting and whether they are selling you an app subscription. Divide that by seven and you get four weeks plus a leftover fraction that would wander around the year like a sock that never matches. Early farmers watched the Moon anyway. Planting, tides, fasting, feasts tied to phases. None of that required a neat seven-day belt that repeats forever without talking to the Moon. If your calendar still feels like it belongs to the sky, notice that the sky's loudest clock does not fit the belt you live in. A month is a phase story. A week is a counter story. Counters are useful when you need everyone in a city to show up on the same day without waiting for clouds. The Moon keeps time like a slow drum. The week keeps time like a metronome that forgot which song it was hired for. You can love both and still admit only one of them is wearing your phone's default skin.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a grid gets a halo it did not earn. In ancient Mesopotamia, especially under Babylonian practice, priests and scribes tracked time in layers: lunar months, festival cycles, market intervals, and a seven-day unit that shows up on cuneiform tablets and in later Jewish and Christian calendars as if it had always been there. The number seven was already busy. Seven was a completeness gesture in the region's math and ritual bookkeeping, not a telescope discovery. Sumerian and Babylonian astronomy was serious about the sky. It was also serious about administrative rhythm. A seven-day pulse let temple and town agree on when to rest, when to reckon, when to stop pretending the harvest could be scheduled by vibes alone. If you still treat seven as sacred math, file the paperwork separately from the physics. The week did not fall out of a lunar division. It fell out of a culture that liked sevens on clay and then exported the habit along trade routes and conquered calendars. Your row of boxes is a Mesopotamian souvenir that learned English.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "This is the sky part people remember wrong. Before telescopes expanded the neighborhood, naked-eye watchers saw seven bright wanderers against the fixed stars: the Sun, the Moon, Mars, Mercury, Jupiter, Venus, and Saturn. Seven lights that moved. Seven names that moved with them. That is not proof the week was invented because someone counted planets on a Tuesday. It is proof that when humans already liked seven, the sky handed them a chorus that fit the costume. Saturn slow. Mercury quick. Venus bright. Mars reddish and alarming if you are in a mood. The Sun and Moon boss the obvious day and night. Jupiter fat with importance. Put that choir next to a seven-day counter and the labels start to feel inevitable, the way a rhyme feels inevitable after you have heard it in childhood. Inevitable is a feeling schedules train. The planets did not vote on your payroll cycle. They got drafted into it after the draft board had already chosen seven seats.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Watch the names travel. In Romance languages the weekday words still carry planetary luggage with the covers half off. French lundi from Luna, Monday moon day. Mardi from Mars. Mercredi from Mercury. Jeudi from Jove, Jupiter. Vendredi from Venus. English hides the same ancestry under Germanic gods and Norse replacements, which is how you get Tuesday from Tiw and Wednesday from Woden while Italian keeps singing Mercury on mercoledì. Spanish lunes, martes, miércoles, jueves, viernes. The weekend breaks the planet parade on Saturday and Sunday, Saturn and Sun in the English names, sabato and domenica carrying their own Latin skeletons. None of this means Romans invented the week on a whim last Thursday. It means once the seven-day grid existed, labeling days after the seven classical luminaries was a mnemonic that survived because mnemonics are cheap to teach and hard to unlearn. Your mouth still rehearses a planet roster when you ask if it is mercredi. The roster is not astronomy class. It is a sticker on a counter.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rome enters as logistics, not as a sermon. Constantine, emperor, issued a Sunday law in three hundred twenty one of the common era that shows up in the Code of Justinian as a civil rest provision tied to the Sun day, dies Solis, on the imperial books. File the date. File the text as governance. The punchline is not that an emperor invented faith in a lamp. The punchline is that an empire with soldiers, courts, and market days needed a synchronized pause that could ride on an already circulating seven-day rhythm Christian communities were using alongside older customs. Spread is what laws do when they are written in capital letters and backed by tax collectors. Sunday as a protected day off traveled because Rome could stamp it, not because a calendar page is a confessional. If your week still feels Christian in the bones, notice how much of that feeling is actually a day-off contract wearing an old hat. Contracts can be cheerful. Cheerful is how a rest day stays in the century without looking like a memo from a desk you never saw.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is the rehook. You think the week starts where your calendar starts. That is not astronomy either. That is a default setting with a flag on it. ISO eight six zero one, the international standard your spreadsheets pretend to respect, puts Monday at position one and Sunday at seven, which makes Sunday the end cap of the row. Many United States calendars, phones, and planners put Sunday first because church bulletins, television grids, and twentieth-century paper habits won the top-left square on this side of the Atlantic. Mexico, Canada, Japan, Israel, and plenty of others pick sides for their own reasons that are boring and local and perfectly real. Two honest answers to the same question: where does the loop begin? Neither answer is the Moon. Neither answer is Babylon. Both answers are interfaces. If you have ever felt a small rage when someone else's week view looks wrong, congratulations. You have been trained to treat a UI choice like morality. Morality is a word the grid uses when it wants you to stop asking who picked the first box.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "So what did we trade? We traded a sky-tied month for a portable counter that survives lunar awkwardness. We traded local festival chaos for a seven-day pulse that payroll software can love. We traded planet names as poetry for planet names as habit. We gained a shared week that lets a shipping container, a school district, and a group chat agree on when Thursday is without negotiating with the Moon. That is not nothing. A nurse who knows her weekend is a real thing is living inside a political and administrative outcome, not a personality trait of Saturn. The trick is pretending the seven-box row is nature. It is not. It is Mesopotamian rhythm, a classical planet chorus, a Roman rest memo, Romance mnemonics, ISO defaults, and a wall calendar that puts Sunday on the left because someone in marketing liked the look. Deals can be rewritten. Some already were, quietly, when apps let you start weeks on Monday and called it a setting as if settings were not history with a toggle switch.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will open the calendar again. Seven boxes will still be there. You will feel nothing, which is the victory. Put your finger on the row. That is not the Moon finishing a month. That is a clay counter, a wandering-light sticker book, a Sun-day law in three hundred twenty one, lundi and martes and Wednesday hiding Mercury under a Norse hat, ISO Monday on one screen and Sunday first on another, and a grid that taught you to treat a loop like a law. You are allowed to live inside the loop. You are allowed to hate Monday and still obey it. Just stop calling the seven natural, or inevitable, or proof that the sky voted. Tonight, when you check what day it is, look at the calendar like a contract with seven seats that never held an election. The seats are cheerful. The contract is the point. Know which box your app puts first. Know that the Moon did not pick it. Go when the row lets you. The row is cheerful. Cheerful is how a counter stays on the wall without looking like Mesopotamia holding a clipboard.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

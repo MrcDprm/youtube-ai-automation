@@ -1,0 +1,1007 @@
+{
+  "project_id": "why-north-won-the-map-11dk-20260829",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-open-map",
+        "prompt": "Stickman opening phone map, NORTH UP obvious, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you open a map and treat north as up.",
+        "image": null
+      },
+      {
+        "slug": "0005-ceiling-above",
+        "prompt": "Ceiling ABOVE HEAD arrow, map same habit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The way you treat a ceiling as above your head.",
+        "image": null
+      },
+      {
+        "slug": "0010-spin-labels",
+        "prompt": "Rotating map but NORTH stays top, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You spin the page and labels still expect top is north.",
+        "image": null
+      },
+      {
+        "slug": "0015-gravity-cartography",
+        "prompt": "Gravity cartoon giving cartography opinion, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "As if gravity had opinions about cartography.",
+        "image": null
+      },
+      {
+        "slug": "0020-no-ribbon",
+        "prompt": "Earth with red X ribbon THIS WAY UP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The planet did not grow a ribbon saying this way is up.",
+        "image": null
+      },
+      {
+        "slug": "0025-eyes-no-ladder",
+        "prompt": "Eyes vs latitude ladder red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your eyes did not evolve to read latitude as a ladder.",
+        "image": null
+      },
+      {
+        "slug": "0030-needle-not-word",
+        "prompt": "Needle ignoring word NORTH on legend, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compass needle does not point at the word north on a legend.",
+        "image": null
+      },
+      {
+        "slug": "0035-magnetic-north",
+        "prompt": "Needle pointing MAGNETIC NORTH wandering, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "It points at magnetic north, a wandering pole.",
+        "image": null
+      },
+      {
+        "slug": "0040-why-north-top",
+        "prompt": "Screen with NORTH TOP PHYSICS costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your screen wear north at the top as if north were physics?",
+        "image": null
+      },
+      {
+        "slug": "0045-chinese-magnetize",
+        "prompt": "Ancient Chinese lodestone needle label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Chinese engineers learned to magnetize iron for navigation.",
+        "image": null
+      },
+      {
+        "slug": "0050-sailors-copied",
+        "prompt": "Trade route copying compass needle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Islamic and European sailors copied the needle along trade routes.",
+        "image": null
+      },
+      {
+        "slug": "0055-ptolemy-grid",
+        "prompt": "Ptolemy grid GEOGRAPHY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Claudius Ptolemy drew a grid in the second century.",
+        "image": null
+      },
+      {
+        "slug": "0100-mercator-1569",
+        "prompt": "Mercator 1569 rectangle world map generic, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Gerardus Mercator published a projection in fifteen sixty nine.",
+        "image": null
+      },
+      {
+        "slug": "0105-printing-export",
+        "prompt": "Printing press exporting NORTH UP arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass printing exported one orientation until a phone default felt like weather.",
+        "image": null
+      },
+      {
+        "slug": "0110-not-mountain",
+        "prompt": "MOUNTAIN red X, north habit wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your north-up habit is not a mountain.",
+        "image": null
+      },
+      {
+        "slug": "0115-cartographic-souvenir",
+        "prompt": "Souvenir tag CARTOGRAPHY wearing LAW mask, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A cartographic souvenir that learned to look like a law.",
+        "image": null
+      },
+      {
+        "slug": "0120-law-flattered",
+        "prompt": "Smiling compass rose FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The law is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0125-globe-no-vote",
+        "prompt": "Globe NO VOTE, printer raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The globe did not vote. A printer did.",
+        "image": null
+      },
+      {
+        "slug": "0130-grid-sense",
+        "prompt": "Screen word SENSE after grid arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The grid taught your screen until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0135-start-needle",
+        "prompt": "Compass needle labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the needle.",
+        "image": null
+      },
+      {
+        "slug": "0140-map-stole-magnet",
+        "prompt": "Magnet stolen by map FRAME, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The map stole a magnet and sold it back as a frame.",
+        "image": null
+      },
+      {
+        "slug": "0145-before-mercator",
+        "prompt": "Timeline before Mercator atlases satellites, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Long before Mercator, before atlases, before satellites.",
+        "image": null
+      },
+      {
+        "slug": "0150-iron-could-point",
+        "prompt": "Iron bar pointing like compass, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Humans already knew iron could point.",
+        "image": null
+      },
+      {
+        "slug": "0155-han-spoons",
+        "prompt": "South-pointing spoon HAN label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Han dynasty China left references to south-pointing spoons.",
+        "image": null
+      },
+      {
+        "slug": "0200-song-needles",
+        "prompt": "Needle floating water silk SONG, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Song dynasty navigators used magnetized needles on water or silk.",
+        "image": null
+      },
+      {
+        "slug": "0205-magnetic-field",
+        "prompt": "Needle aligned to magnetic field lines, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The needle aligns with Earth's magnetic field.",
+        "image": null
+      },
+      {
+        "slug": "0210-geo-vs-magnetic",
+        "prompt": "Two cousins GEO NORTH vs MAG NORTH arguing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Geographic north and magnetic north are cousins who disagree.",
+        "image": null
+      },
+      {
+        "slug": "0215-pole-star-ceiling",
+        "prompt": "Pole star as ceiling light, flat map lie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The pole star is a ceiling light; the map is a flat lie.",
+        "image": null
+      },
+      {
+        "slug": "0220-flat-useful",
+        "prompt": "Harbor tax classroom agreeing on flat map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Flat is useful when harbor, tax boundary, and classroom agree.",
+        "image": null
+      },
+      {
+        "slug": "0225-earth-spin",
+        "prompt": "Earth spinning slow direction arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The Earth keeps direction like a slow spin.",
+        "image": null
+      },
+      {
+        "slug": "0230-poster-curved",
+        "prompt": "Flat poster forgot CURVED red reminder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "North-up grid keeps direction like a poster that forgot it was curved.",
+        "image": null
+      },
+      {
+        "slug": "0235-named-corners",
+        "prompt": "Halo on north arrow MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One culture is a halo the arrow did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0240-not-one-hero",
+        "prompt": "Single hero plaque red X many layers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "North at the top is not one eureka moment on a plaque.",
+        "image": null
+      },
+      {
+        "slug": "0245-layer-cake",
+        "prompt": "Layer cake ritual astronomy printing paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A layer cake of ritual, astronomy, printing, and paper edges.",
+        "image": null
+      },
+      {
+        "slug": "0250-ptolemy-geography",
+        "prompt": "Ptolemy GEOGRAPHY book north top many maps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Ptolemy compiled Geography in the second century.",
+        "image": null
+      },
+      {
+        "slug": "0255-medieval-east",
+        "prompt": "Mappa mundi EAST AT TOP Jerusalem, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Medieval mappa mundi often put east at the top.",
+        "image": null
+      },
+      {
+        "slug": "0300-al-idrisi-south",
+        "prompt": "Al-Idrisi map SOUTH AT TOP 1154, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Al-Idrisi finished Tabula Rogeriana in eleven fifty four with south at the top.",
+        "image": null
+      },
+      {
+        "slug": "0305-chinese-south-up",
+        "prompt": "Chinese map south top emperor faces south, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Chinese maps sometimes placed south at the top.",
+        "image": null
+      },
+      {
+        "slug": "0310-not-sacred",
+        "prompt": "SACRED DIRECTION stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "North-up is not sacred direction.",
+        "image": null
+      },
+      {
+        "slug": "0315-repeatable-edge",
+        "prompt": "Workshop stamping repeatable edge on maps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Workshops needed a repeatable edge.",
+        "image": null
+      },
+      {
+        "slug": "0320-convention-english",
+        "prompt": "Screen wearing ENGLISH ROTATION LOCK, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your screen is a convention wearing English and a rotation lock.",
+        "image": null
+      },
+      {
+        "slug": "0325-north-leaves-needle",
+        "prompt": "Word NORTH walking away from needle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch north leave the needle.",
+        "image": null
+      },
+      {
+        "slug": "0330-rectangle-spine",
+        "prompt": "Rectangle spine no globe in pocket, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A flat rectangle needed a spine without a globe in every pocket.",
+        "image": null
+      },
+      {
+        "slug": "0335-portolan-coast",
+        "prompt": "Portolan chart coast rhumb lines, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Portolan charts cared about coastlines and rhumb lines.",
+        "image": null
+      },
+      {
+        "slug": "0340-sailors-bearings",
+        "prompt": "Sailor happy repeating bearings, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Sailors wanted bearings that repeated.",
+        "image": null
+      },
+      {
+        "slug": "0345-printers-stack",
+        "prompt": "Printer stacking identical map sheets, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Printers wanted a sheet that stacked in a shop.",
+        "image": null
+      },
+      {
+        "slug": "0350-classroom-chalk",
+        "prompt": "Map rectangle above chalkboard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Classroom walls wanted a rectangle above a chalkboard.",
+        "image": null
+      },
+      {
+        "slug": "0355-layout-decision",
+        "prompt": "LAYOUT DECISION stamp on north arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Putting north up is a layout decision.",
+        "image": null
+      },
+      {
+        "slug": "0400-not-universal",
+        "prompt": "UNIVERSAL stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "It is not universal.",
+        "image": null
+      },
+      {
+        "slug": "0405-same-handshake",
+        "prompt": "Three figures handshake NORTH UP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fleet, publisher, and atlas customer learned the same handshake.",
+        "image": null
+      },
+      {
+        "slug": "0410-mercator-problem",
+        "prompt": "Mercator straight rhumb line on flat chart, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mercator solved navigation: constant bearings as straight lines.",
+        "image": null
+      },
+      {
+        "slug": "0415-poles-stretched",
+        "prompt": "Stretched poles joke but rectangle ships, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The projection stretched the poles into a joke you forgive.",
+        "image": null
+      },
+      {
+        "slug": "0420-navigable-rectangle",
+        "prompt": "Rectangle and press agreeing on top edge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A navigable rectangle and a printing press agreed on an edge.",
+        "image": null
+      },
+      {
+        "slug": "0425-retrain-thumbs",
+        "prompt": "Millions of thumbs dollar signs expensive, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Retraining millions of thumbs is expensive.",
+        "image": null
+      },
+      {
+        "slug": "0430-rehook-fact",
+        "prompt": "North-up vs gravity both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rehook: you think north-up is a fact like gravity.",
+        "image": null
+      },
+      {
+        "slug": "0435-north-policy",
+        "prompt": "North arrow stamped POLICY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "North-up is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0440-personal-up",
+        "prompt": "Chaos everyone picks own UP red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Alternative: every user negotiates up with their chair and car.",
+        "image": null
+      },
+      {
+        "slug": "0445-globes-honest",
+        "prompt": "Globe labeled HONEST, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Globes are honest.",
+        "image": null
+      },
+      {
+        "slug": "0450-defaults-scalable",
+        "prompt": "Flat map defaults multiplying SCALABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Flat defaults are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0455-city-teaches",
+        "prompt": "Scriptorium to city classroom arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Scalable is how orientation escapes the scriptorium.",
+        "image": null
+      },
+      {
+        "slug": "0500-un-nature-arrow",
+        "prompt": "NATURE sticker peeling off north arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not calling you clumsy. Un-naturing the arrow.",
+        "image": null
+      },
+      {
+        "slug": "0505-printer-margin",
+        "prompt": "Printer margin wearing compass rose costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The arrow is a printer's margin wearing a compass rose.",
+        "image": null
+      },
+      {
+        "slug": "0510-rotation-law",
+        "prompt": "Compass rose ROTATION LAW stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The rose said rotation can be law.",
+        "image": null
+      },
+      {
+        "slug": "0515-windy-trail",
+        "prompt": "Hiker fighting creased sideways trail map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Paper map on a windy trail, trail goes sideways on the page.",
+        "image": null
+      },
+      {
+        "slug": "0520-locked-north",
+        "prompt": "Relief sigh locked north arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The relief of a locked north is real.",
+        "image": null
+      },
+      {
+        "slug": "0525-spreadsheet-margins",
+        "prompt": "Spreadsheet with margin arrows truce, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A truce is a spreadsheet with margins.",
+        "image": null
+      },
+      {
+        "slug": "0530-mass-inventoried",
+        "prompt": "INVENT DIRECTION red X INVENTORIED check, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried direction.",
+        "image": null
+      },
+      {
+        "slug": "0535-atlas-plate",
+        "prompt": "Atlas plate repeating north-up editions, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The same atlas plate had to repeat across editions.",
+        "image": null
+      },
+      {
+        "slug": "0540-admiralty-ordnance",
+        "prompt": "Stack Admiralty Ordnance school atlas generic, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Admiralty charts, Ordnance Survey, school atlases.",
+        "image": null
+      },
+      {
+        "slug": "0545-boring-on-purpose",
+        "prompt": "BORING ON PURPOSE stamp on chart stack, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The stack is boring on purpose.",
+        "image": null
+      },
+      {
+        "slug": "0550-satellite-jpeg",
+        "prompt": "Satellite photo jpeg forced NORTH UP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Satellites photographed the planet; the jpeg still arrives north-up.",
+        "image": null
+      },
+      {
+        "slug": "0555-quiet-referendum",
+        "prompt": "Catalog voting booth QUIET REFERENDUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0600-phone-vs-history",
+        "prompt": "Phone north-up vs book south-up gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Phone map locked top, history book south-up Islamic map.",
+        "image": null
+      },
+      {
+        "slug": "0605-inventory-fight",
+        "prompt": "Inventory shelf beating alternate orientations, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "That gap is inventory.",
+        "image": null
+      },
+      {
+        "slug": "0610-this-is-you",
+        "prompt": "Stickman Tuesday blue dot on map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you. A Tuesday. A blue dot.",
+        "image": null
+      },
+      {
+        "slug": "0615-snap-back",
+        "prompt": "Phone rotating then snapping NORTH UP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You rotate the screen and it snaps back to north-up.",
+        "image": null
+      },
+      {
+        "slug": "0620-turn-left",
+        "prompt": "Driver needs fixed top to turn left, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Turning left feels impossible without a fixed top.",
+        "image": null
+      },
+      {
+        "slug": "0625-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY cloud over map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0630-not-geographical",
+        "prompt": "GEOGRAPHICAL NATURE stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "None of this makes you geographical by nature.",
+        "image": null
+      },
+      {
+        "slug": "0635-born-after-posters",
+        "prompt": "Timeline Mercator poster classroom wall, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after Mercator posters and classroom walls.",
+        "image": null
+      },
+      {
+        "slug": "0640-pinch-zoom",
+        "prompt": "Map with pinch zoom traffic triangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A rectangle learned pinch-zoom, traffic, re-center triangle.",
+        "image": null
+      },
+      {
+        "slug": "0645-relief-no-negotiate",
+        "prompt": "Happy stickman no negotiate UP with strangers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not negotiate up with strangers.",
+        "image": null
+      },
+      {
+        "slug": "0650-insult-printer",
+        "prompt": "Printer margin beating parchment insult cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiny insult that a printer's margin outlasted parchment.",
+        "image": null
+      },
+      {
+        "slug": "0655-never-voted",
+        "prompt": "Receipt map edge never voted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a shared world with an edge you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0700-cheerful-edge",
+        "prompt": "Smiling north arrow disguise, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a default stays without looking like a convention.",
+        "image": null
+      },
+      {
+        "slug": "0705-compromises-corners",
+        "prompt": "Compromise stack with map corners, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A map is compromises with corners attached.",
+        "image": null
+      },
+      {
+        "slug": "0710-take-north-away",
+        "prompt": "Classroom puzzle no north-up, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take north-up away and the classroom becomes a puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0715-diagram-agree",
+        "prompt": "Room not spinning everyone agrees on map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Orientation is how to agree without spinning the room.",
+        "image": null
+      },
+      {
+        "slug": "0720-watch-vote",
+        "prompt": "Opening map voting OBVIOUS margin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The open is a vote for a margin sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0725-swap-personality",
+        "prompt": "Six icons needle Ptolemy south east Mercator GPS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The swap: needle, Ptolemy, south-up table, east-up map, Mercator, poster, GPS.",
+        "image": null
+      },
+      {
+        "slug": "0730-crowd-screen",
+        "prompt": "Many stickmen on one phone map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crowd is still on the screen.",
+        "image": null
+      },
+      {
+        "slug": "0735-arrow-treaty",
+        "prompt": "Rideshare cars arrow treaty paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a rideshare fleet treating an arrow as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0740-treaty-blind",
+        "prompt": "Treaty blindfold globe behind, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The treaty cannot see a globe.",
+        "image": null
+      },
+      {
+        "slug": "0745-settings-menu",
+        "prompt": "Settings menu promise never opened, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A default is a promise in a settings menu you never open.",
+        "image": null
+      },
+      {
+        "slug": "0750-printer-under",
+        "prompt": "Printer ghost under GPS triangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The printer is still under the triangle.",
+        "image": null
+      },
+      {
+        "slug": "0755-what-trade",
+        "prompt": "Trade scale sphere vs rectangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "So what did we trade?",
+        "image": null
+      },
+      {
+        "slug": "0800-sphere-rectangle",
+        "prompt": "Globe shrinking into pocket rectangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded a sphere for a rectangle that survives pockets.",
+        "image": null
+      },
+      {
+        "slug": "0805-shared-top",
+        "prompt": "Pilot teacher app agreeing on top arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We gained a shared top pilots teachers and apps agree on.",
+        "image": null
+      },
+      {
+        "slug": "0810-kid-wall",
+        "prompt": "Kid pointing at wall north administrative outcome, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A kid who knows north is up lives inside an administrative outcome.",
+        "image": null
+      },
+      {
+        "slug": "0815-arrow-not-nature",
+        "prompt": "NATURE stamp red X on arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The trick is pretending the arrow is nature.",
+        "image": null
+      },
+      {
+        "slug": "0820-lodestone-habit",
+        "prompt": "Stack lodestone Ptolemy Mercator press phone, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Lodestone habit, Ptolemaic grid, Mercator stretch, press plate, phone default.",
+        "image": null
+      },
+      {
+        "slug": "0825-rotate-heading",
+        "prompt": "Feature toggle ROTATE WITH HEADING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Apps added rotate-with-heading and called it a feature.",
+        "image": null
+      },
+      {
+        "slug": "0830-rhumb-lines",
+        "prompt": "Rhumb lines on flat chart polite lie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rhumb lines wanted a flat chart that lied politely.",
+        "image": null
+      },
+      {
+        "slug": "0835-magnetic-drift",
+        "prompt": "Magnetic north drifting arrow pretending loyal, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Magnetic north drifts; maps pretend the arrow is loyal.",
+        "image": null
+      },
+      {
+        "slug": "0840-jerusalem-east",
+        "prompt": "Jerusalem east top pilgrimage over pole, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "East-at-top maps put pilgrimage above pole logic.",
+        "image": null
+      },
+      {
+        "slug": "0845-emperor-south",
+        "prompt": "Emperor throne top south-up map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "South-at-top maps put the throne at the top of the page.",
+        "image": null
+      },
+      {
+        "slug": "0850-atlas-customer",
+        "prompt": "Atlas customer stopped asking other edges, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Atlas customers learned one edge and stopped asking.",
+        "image": null
+      },
+      {
+        "slug": "0855-chart-room",
+        "prompt": "Chart room BEARINGS not PHILOSOPHY sign, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Chart rooms wanted bearings, not philosophy.",
+        "image": null
+      },
+      {
+        "slug": "0900-poster-nail",
+        "prompt": "Map nailed to wall QUIET REFERENDUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A classroom nail is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0905-blue-dot-you",
+        "prompt": "Blue dot YOU handle on map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The blue dot is you pretending the world has a handle.",
+        "image": null
+      },
+      {
+        "slug": "0910-recenter-panic",
+        "prompt": "Re-center triangle saving panicked stickman, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The re-center triangle saves you from your own rotation.",
+        "image": null
+      },
+      {
+        "slug": "0915-heading-mode",
+        "prompt": "Heading mode toggle HISTORY SWITCH, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Heading mode is history with a toggle switch.",
+        "image": null
+      },
+      {
+        "slug": "0920-flat-lie-useful",
+        "prompt": "Flat map lie labeled USEFUL stays, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The flat lie is useful. Useful is how lies stay.",
+        "image": null
+      },
+      {
+        "slug": "0925-margin-won",
+        "prompt": "Sphere too big for pocket margin wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The margin won because spheres do not fit in pockets.",
+        "image": null
+      },
+      {
+        "slug": "0930-compass-rose-costume",
+        "prompt": "Compass rose printer costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The compass rose is a costume for a printer's habit.",
+        "image": null
+      },
+      {
+        "slug": "0935-thumb-treaty",
+        "prompt": "Thumb signing treaty with map triangle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your thumb signed a treaty with a triangle.",
+        "image": null
+      },
+      {
+        "slug": "0940-spin-axis-hidden",
+        "prompt": "Spin axis hidden behind smiling arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The spin axis stays hidden behind a cheerful arrow.",
+        "image": null
+      },
+      {
+        "slug": "0945-legend-handshake",
+        "prompt": "Map legend SCHOOL HANDSHAKE label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The legend is a handshake you learned in school.",
+        "image": null
+      },
+      {
+        "slug": "0950-plate-repeat",
+        "prompt": "Printing plate repeating UP lesson to city, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A repeated plate teaches a city what up means.",
+        "image": null
+      },
+      {
+        "slug": "0955-open-again",
+        "prompt": "Callback opening map north top again, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will open the map again. North will still be at the top.",
+        "image": null
+      },
+      {
+        "slug": "1000-feel-nothing",
+        "prompt": "Blank calm face victory at map, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1005-look-arrow",
+        "prompt": "Arrow between red X spin axis and red X mountain, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the arrow. Not the spin axis and not a mountain.",
+        "image": null
+      },
+      {
+        "slug": "1010-named-stack",
+        "prompt": "Stack icons needle Ptolemy Mercator poster GPS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Needle, Ptolemy, south-up table, Mercator, Admiralty, poster, GPS.",
+        "image": null
+      },
+      {
+        "slug": "1015-arrow-law",
+        "prompt": "Thumb on phone north stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "GPS still owns your thumb so north stays law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-open",
+        "prompt": "Open ok hate rotate still navigating, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to open and hate rotating and still navigate.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "NATURAL stamp red X on north-up, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling north-up natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-margin",
+        "prompt": "Salute to printer margin leaving shop, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a printer's margin that left the shop.",
+        "image": null
+      },
+      {
+        "slug": "1040-arrow-point",
+        "prompt": "Cheerful salute on north arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The arrow is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-edge",
+        "prompt": "Stickman driving map edge labeled which, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the grid lets you. Know which edge you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-glance-cheerful",
+        "prompt": "Smiling map scribe ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a map stays without looking like a scribe.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback needle rectangle label your thumb, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Needle. Rectangle. Your thumb.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why North Won the Map",
+    "description": "North at the top feels obvious. Compasses point to magnetic north. Ptolemy, al-Idrisi, and Mercator shaped cartographic habits. Printing and phone defaults made one orientation feel like law.",
+    "tags": [
+      "maps",
+      "north",
+      "compass",
+      "cartography",
+      "mercator",
+      "ptolemy",
+      "history",
+      "why",
+      "navigation",
+      "geography"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "NORTH UP?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will open a map and treat north as up, the way you treat a ceiling as above your head. Your thumb will spin the page and the labels will still expect the top edge to be north as if gravity had opinions about cartography. Here is the part that should bother you. The planet did not grow a ribbon that says this way is up. Your eyes did not evolve to read latitude as a ladder. A compass needle does not point at the word north on a legend. It points at magnetic north, a wandering pole the map politely hides behind a tidy arrow. So why does your screen wear north at the top as if north were physics? Because Chinese engineers learned to magnetize iron for navigation, because Islamic and European sailors copied the needle habit along trade routes, because Claudius Ptolemy drew a grid in the second century of the common era that later printers treated like a template, because Gerardus Mercator published a projection in fifteen sixty nine that made a rectangle feel like the world, and because mass printing and maritime empires exported one convenient orientation until a phone default felt like weather. That is the whole plot. Your north-up habit is not a mountain. It is a cartographic souvenir that learned to look like a law, and you obey it every commute as if the law had opinions about your thumb. The law does. The law is flattered. That is its job. The globe did not vote. A printer did, and then a convention that taught your screen the grid until the grid started calling itself sense. Sense is a word a compass rose invented so a leftover would still feel like truth when the parchment was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the needle, because the map stole a magnet and then sold it back as a frame. Long before Mercator, before atlases, before a satellite could laugh at your sense of up, humans already knew iron could point. Han dynasty China left early references to south-pointing spoons and lodestone. By the Song dynasty, navigators were using magnetized needles floating on water or hanging on silk. The needle does not read your moral compass. It aligns with Earth's magnetic field, which is tilted and drifting and rude about staying put. Geographic north, the top of the axis the planet spins around, and magnetic north, the place your pocket compass chases, are cousins who disagree. If your map still feels like it belongs to the pole star, notice that the star is a ceiling light and the map is a flat lie you agreed to enjoy. Flat is useful when you need a harbor, a tax boundary, and a school classroom to agree on where the river went without waiting for a globe to roll off the desk. The Earth keeps direction like a slow spin. The north-up grid keeps direction like a poster that forgot it was curved. You can love both and still admit only one of them is wearing your phone's default skin.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one culture is how an arrow gets a halo it did not earn. North at the top is not a single eureka moment you can pin on one hero with a plaque. It is a layer cake of ritual, astronomy, printing, and whichever edge of the paper was easiest to hold while the ink dried. Claudius Ptolemy compiled the Geography in the second century of the common era, a star manual for the ground that placed north toward the top of many reconstructions later scholars made from his coordinates. Medieval European mappa mundi often put east at the top because Jerusalem mattered more than a pole. Islamic cartographer Muhammad al-Idrisi finished the Tabula Rogeriana for Roger the Second of Sicily in eleven fifty four with south at the top, a perfectly sensible choice when your patron sits in the north of the sheet. Chinese maps sometimes placed south at the top because the emperor faced south toward his realm. If you still treat north-up as sacred direction, file the paperwork separately from the physics. North did not fall out of a mountain. It fell out of workshops that needed a repeatable edge, then exported the habit along routes and copied tables until the habit felt like gravity. Your screen is a convention wearing English and wearing a rotation lock.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch north leave the needle, because a flat rectangle needed a spine that did not require a globe in every pocket. Early portolan charts cared about coastlines and rhumb lines, not a moral top. Sailors wanted bearings that repeated. Printers wanted a sheet that stacked in a shop. Classroom walls wanted a rectangle that fit above a chalkboard. Putting north up is a layout decision the way putting a title at the top of a page is a layout decision. It is not evil. It is not universal. It is convenient once your fleet, your publisher, and your atlas customer all learned the same handshake. When Gerardus Mercator published his world projection in fifteen sixty nine, he was solving a practical problem for navigation: how to represent constant compass bearings as straight lines on a flat chart. The projection stretched the poles into a joke you still forgive because rectangles ship well. The punchline is not that one Flemish engraver invented your commute. The punchline is that a navigable rectangle and a printing press agreed on an edge, and the edge stayed because retraining millions of thumbs is expensive. Expensive is how a leftover stays in the century without looking like a leftover.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think north-up is a fact, the way gravity is a fact. North-up is a policy. In a modern app the policy is already on, because the alternative is trusting every user to rotate a map until their personal sense of up matches their chair, their car, and their teacher's chalkboard from nineteen ninety eight. Globes are honest. Flat defaults are scalable. Scalable is how an orientation escapes the scriptorium and becomes something a city can teach in numbers. I am not calling you clumsy for liking a fixed top. I am un-naturing the arrow. The arrow is a printer's margin wearing a compass rose. The rose said rotation can be law. Law is a feeling when your eyes find north without remembering when they learned it. If you have ever used a paper map on a windy trail and fought the crease because the trail went sideways on the page, congratulations. You have met the policy hiding inside the legend. The relief of a locked north is real. The relief is also a truce you never signed. A truce is not a planet that voted. A truce is a spreadsheet with margins.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Mass production did not invent direction. It inventoried it. When the same atlas plate had to repeat across editions, north-up became the part you could source, print, ship, and hang without translating a different sacred edge for every classroom wall. British Admiralty charts, Ordnance Survey sheets, school atlases in the twentieth century: the stack is boring on purpose. Boring is how a convention wins without a parade. Aviation maps and maritime charts kept rhumb-line logic while classrooms kept poster logic. Satellites later photographed the planet without asking permission from a compass rose, yet the jpeg still arrives north-up because the viewer software inherited the poster. A catalog is a quiet referendum. If your phone map has a locked top and your history book has a south-up Islamic world map, that gap is not evolution. It is inventory. Inventory is how the past wins a fight without filing a complaint. The past is cheerful. Cheerful is how a north arrow stays in the corner without looking like a printer holding a clipboard.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a blue dot, a screen you rotate with your wrist and watch snap back to north-up as if the app were correcting your personality. You stare at the arrow because turning left would feel impossible without a fixed top, which is the most modern impossibility there is. None of this makes you geographical by nature. It makes you a person born after Mercator posters and after classroom walls became real estate and after a rectangle learned to host pinch-zoom, traffic, and a little triangle that re-centers you when you panic. You can feel both in the same glance: relief that you do not have to negotiate up with every stranger at a bus stop, and a tiny insult that a printer's margin outlasted the parchment. The relief is real. The insult is the south-up map failing for a second in your imagination. You paid for a shared world with an edge you never voted on. The edge is cheerful. Cheerful is how a default stays in the century without looking like a convention. The screen still has an arrow. The arrow still feels like a pole. A pole used to be a spin axis you never saw. Your axis is the rotation lock on a rectangle that forgot the globe. The lock is cheerful. Cheerful is how a cartographic habit stays on a phone without looking like a workshop.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A map is a pile of compromises with corners attached. That sentence is rude and almost fair. Take north-up away and the classroom becomes a workshop puzzle nobody wins, or a different sacred edge on every sheet until the compass rose breaks. Coastlines, tax lines, bearings, poster frames: the orientation is a diagram of how to agree without spinning the room, written by scribes and engravers you will not meet. You still open. The open is a vote for a margin that was sold as obvious. I am not telling you to hunt for an eleventh-century south-up atlas as a personality. I am telling you the personality was always the swap: a lodestone needle, a Ptolemaic grid, an Islamic south-up table, a medieval east-up pilgrimage map, a Mercator rectangle, an Admiralty plate, a classroom poster, a GPS view that re-locks your thumb. The crowd is still on the screen. The crowd is you and a rideshare fleet treating an arrow as a treaty. The treaty cannot see a globe. The globe can, if you pick it up, which is a sentence app defaults are not supposed to hide. A default is a promise in a settings menu you will never open. The menu is the real map edge. The edge is a costume. Costume is how a north arrow stays on a Tuesday without looking like a printer. The printer is still under the triangle. The triangle is still a permission slip you never signed. So what did we trade? We traded a sphere for a rectangle that survives pockets. We traded local sacred edges for a poster pulse atlases can love. We gained a shared top that lets a pilot, a teacher, and a navigation app agree on where left is without spinning the room. That is not nothing. A kid who knows north is up on the wall is living inside an administrative outcome, not a personality trait of the planet. The trick is pretending the arrow is nature. It is not. It is lodestone habit, a Ptolemaic reconstruction, a Mercator stretch, a plate on a press, a classroom nail, and a phone default you never changed. Deals can be rewritten. Some already were, quietly, when apps added rotate-with-heading and called it a feature as if features were not history with a toggle switch.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will open the map again. North will still be at the top. You will feel nothing, which is the victory. Look at the arrow. That is not the spin axis and it is not a mountain. That is a magnetized needle, a Ptolemaic grid habit, an Islamic south-up table you rarely see, a Mercator rectangle, an Admiralty sheet, a classroom poster, and a GPS view that still owns your thumb so you will keep treating north as law. You are allowed to open. You are allowed to hate rotating and still navigate. Just stop calling north-up natural, or inevitable, or proof that you are modern. Tonight, when the little triangle snaps you back to top, look at it like a leftover salute to a printer's margin that left the shop. The salute is cheerful. The arrow is the point. Go when the grid lets you. Know which edge you are still obeying. The glance is cheerful. Cheerful is how a map stays on the screen without looking like a scribe you never met.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "project_id": "your-life-from-sunday-league-to-the-premier-l-14dk-20260902",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.25,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 84,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.18,
+      "zoom_body_end": 1.18,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "r01-no-teleport",
+        "prompt": "Kit between muddy pitch and bright stadium split screen. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r01-rungs-creak",
+        "prompt": "Wooden ladder rungs creaking, Kit climbing cartoon. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r01-wage-pitch-bus",
+        "prompt": "Three icons WAGE PITCH BUS on ladder, Kit pointing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-fifty-pence",
+        "prompt": "Coins in rain freezer bag, SUNDAY LEAGUE stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-subs-bag-pl",
+        "prompt": "Freezer bag morphing to bank deposit slip. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-stay-climb",
+        "prompt": "Kit pointing up ladder STAY text. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r02-rung-one",
+        "prompt": "Title RUNG 1 muddy pitch Kit playing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r02-spray-lines",
+        "prompt": "Spray paint lines washing away, muddy field. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r02-coins-sub",
+        "prompt": "Kit handing coins SUBS jar, rain. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-zero-wage",
+        "prompt": "Pay slip ZERO, boots expensive beside it. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-day-job",
+        "prompt": "Kit in work vest with boots in bag Monday. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-hobby-hurts",
+        "prompt": "Kit icing ankle HOBBY HURTS stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r03-rung-two",
+        "prompt": "Title RUNG 2 Kit in almost-matching kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-share-fuel",
+        "prompt": "Kit splitting petrol money with teammate. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-twenty-quid",
+        "prompt": "Envelope 20 QUID PETROL maybe. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-twelve-fans",
+        "prompt": "Tiny stand 12 FANS dog silhouette. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-night-shift",
+        "prompt": "Clock night shift vs extra time conflict. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-muddy-tuesday",
+        "prompt": "Kit playing muddy Tuesday SCOUT MYTH empty. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-rung-three",
+        "prompt": "Title RUNG 3 one-page contract Kit signing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-warehouse",
+        "prompt": "Kit warehouse vest and football boots split. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-buzz-lights",
+        "prompt": "Flickering floodlights Kit training. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-six-years",
+        "prompt": "Calendar six years STEPPING STONE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-gaffer-stops",
+        "prompt": "Phone missed calls fading Kit worried. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-solid-stone",
+        "prompt": "Kit team photo smile stiff. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-rung-four",
+        "prompt": "Title RUNG 4 contract handshake family. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-pays-rent",
+        "prompt": "Rent bill checkmark wages cover Kit relieved. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-small-flat",
+        "prompt": "Kit small flat boots by door humble. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-october-miss",
+        "prompt": "Forum post OCTOBER MISS Kit shrugging. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-three-week-injury",
+        "prompt": "Injury calendar 3 WEEKS recession metaphor. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-accountable",
+        "prompt": "ACCOUNTABLE stamp Kit standing tall. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-rung-five",
+        "prompt": "Title RUNG 5 League Two generic badge shape. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-wage-band",
+        "prompt": "Sealed envelope WAGE BAND shhh. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-car-not-embarrassing",
+        "prompt": "Kit modest car not flashy ok. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-agent-emails",
+        "prompt": "Laptop agent email inbox Kit reading. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-promotion-talk",
+        "prompt": "PROMOTION MONEY arrows table talk. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r06-two-year-deal",
+        "prompt": "Contract 2 YEAR OPTION release clause icons. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-rung-six",
+        "prompt": "Title RUNG 6 salary jump Kit new flat. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-second-room",
+        "prompt": "Flat second room boots ice packs. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-car-gap",
+        "prompt": "Car park modest vs nice cars Kit neutral. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-club-feeds",
+        "prompt": "Team cafeteria schedule Kit eating on time. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-lit-window",
+        "prompt": "Lit window across street CHAMPIONSHIP glow. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-loan-threat",
+        "prompt": "LOAN arrow Kit warning ordinary. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-rung-seven",
+        "prompt": "Title RUNG 7 big stadium Kit bus. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-rent-changes",
+        "prompt": "Better apartment key RENT UPGRADE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-named-seat",
+        "prompt": "Bus seat NAME TAG Kit night travel. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-table-in-bed",
+        "prompt": "Phone league table in bed Kit awake. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-bank-jokes",
+        "prompt": "Friends laughing MONEY jokes Kit awkward smile. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r08-exams-weekly",
+        "prompt": "Report card EXAMS EVERY SATURDAY. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-promotion-night",
+        "prompt": "Title PROMOTION NIGHT Wembley-style arch generic no logos. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-playoff-final",
+        "prompt": "Two paths PLAYOFF or AUTO PROMOTION Kit between. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-quiet-bus",
+        "prompt": "Team bus silent tension Kit staring window. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-towels-cry",
+        "prompt": "Towels over faces adults crying promotion. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-ninety-minutes",
+        "prompt": "Door 90 MINUTES UPGRADE ladder below. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-diary-entry",
+        "prompt": "Old diary SUNDAY LEAGUE distant memory. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r10-rung-eight",
+        "prompt": "Title RUNG 8 tunnel suit Kit bench area. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-bench-money",
+        "prompt": "Calendar rewritten PREMIER LEAGUE PAY. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-minutes-rationed",
+        "prompt": "Stopwatch MINUTES RATIONED Kit waiting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-locker-gap",
+        "prompt": "Three lockers PAY GAP different cars implied. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-houses-before-25",
+        "prompt": "House icons young age Kit renting still. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-gap-inside",
+        "prompt": "Same tunnel DIFFERENT BANK Kit noticing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r11-rung-nine",
+        "prompt": "Title RUNG 9 Kit starter stadium roar. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r11-noise-chest",
+        "prompt": "Kit hand chest sound waves crowd. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r11-sponsor-sleeves",
+        "prompt": "Generic sleeve logos Kit playing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r11-house-deposit",
+        "prompt": "House deposit document POSSIBLE stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r11-ticket-requests",
+        "prompt": "Family text TICKETS PLEASE Kit overwhelmed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r11-remember-mud",
+        "prompt": "Flashback mud to tunnel Kit tying laces. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r12-rung-ten",
+        "prompt": "Title RUNG 10 MAINTENANCE Kit agent meeting. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-image-rights",
+        "prompt": "Documents IMAGE RIGHTS TAX Kit signing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-car-park",
+        "prompt": "Car park luxury vs normal Kit walking through. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-fly-private",
+        "prompt": "Split plane PRIVATE vs ECONOMY same badge. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-same-badge",
+        "prompt": "Same shirt different wallets three players. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-magnified-ladder",
+        "prompt": "Magnifying glass on ladder below Kit top. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-montage-skips",
+        "prompt": "Montage reel with red X moves injuries loans. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r13-different-direction",
+        "prompt": "Phone call DIFFERENT DIRECTION Kit stunned. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r13-fall-faster",
+        "prompt": "Ladder up arrow down arrow Kit between. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-love-without-money",
+        "prompt": "Kid Kit park joy no money icon. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-shadow-money",
+        "prompt": "Kit shadow shaped like money bag. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r13-almost-quit",
+        "prompt": "Calendar ALMOST QUIT crossed out kept going. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-which-rung",
+        "prompt": "Kit facing ladder WHICH RUNG stamp. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r14-coins-to-deposit",
+        "prompt": "Arc coins freezer bag to bank deposit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-mum-frames",
+        "prompt": "Mum silhouette frame contract wall Kit smile. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-sunday-morning",
+        "prompt": "Kit Sunday morning coffee muddy boots memory. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-comment-rung",
+        "prompt": "Comment bubble YOUR RUNG Kit POV. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-every-level-receipt",
+        "prompt": "EVERY LEVEL POV title Kit mouth closed. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football climb story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 840.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Anton-Regular.ttf",
+    "font_size": 54,
+    "color": "#FFFFFF",
+    "accent_color": "#FF4D4D",
+    "stroke_color": "#1A1A1A",
+    "stroke_width": 4,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true,
+    "karaoke": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Your Life from Sunday League to the Premier League",
+    "description": "From fifty-pence subs in the rain to Premier League wages — your life on every rung of the climb, cartoon POV.",
+    "tags": [
+      "sunday league",
+      "premier league",
+      "football",
+      "soccer",
+      "pov",
+      "climb",
+      "cartoon",
+      "every level",
+      "wages"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "MUD TO LIGHTS",
+    "brand_id": "every-level-pov"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "You do not teleport from Sunday mud to Premier League lights. You climb rungs that creak. Each rung has a wage, a pitch, a bus, and a version of you that thinks the next rung will finally feel like the movies. This is your life from Sunday league to the Premier League, and the gap between rung one and rung ten is not talent alone. It is paperwork, rent, injuries, and the slow rewrite of what normal looks like. By the end you will know what changes when subs are collected in a freezer bag and when they are direct-deposited before you wake. Stay. Rung one is not a highlight. Rung one is collecting fifty pence in the rain. Mud first. Lights later. The ladder lies about how clean the top looks. Climb stories sell the top rung and hide the middle years. The middle is where most careers live and die. This episode is the middle made visible: wages as numbers, pitches as characters, buses as timelines. You will meet players who jumped two rungs on talent and fell one on discipline. The ladder punishes shortcuts.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Rung one. Sunday league. The pitch is a field that was a field yesterday. Someone marks lines with spray paint that washes away by Wednesday. You pay your sub in coins. The manager is also the treasurer. Win and you celebrate with pints you cannot afford twice. Lose and you fix the net because nobody else will. Boots cost more than your wage, which is zero. You work Monday somewhere that does not care you scored. You tell coworkers you have a match and they nod like you said you have a hobby. It is a hobby that hurts. You learn hunger without a nutritionist. You learn pride without a crowd. Freezer bag subs. Cracked handle tea. Pride is optional here. Sunday league is where you learn the ball is not fair. It does not care about your shift tomorrow. You play anyway because the rung above is a story you tell yourself at half time. Your boss at the day job will ask if you are still doing that football thing. One day the question stops. You miss the simplicity of it.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Rung two. Regional step. Travel in a car you share fuel for. Kit almost matches. Opponents know your name from last season's grudge. You get twenty quid petrol money if the treasurer remembered. You still have a day job. You still tape ankles yourself. The pitch might have a stand with twelve people and one dog. You start dreaming in spreadsheets: if I get seen, if I get signed, if I stop being late to night shift because of extra time. The football is faster. The excuses die younger. You are not professional. You are visible on a muddy Tuesday. Bumpy pitch justice. The bus schedule is your contract. Regional football is geography with grudges. You lose in towns you cannot spell and remember forever. Petrol money is not income. It is hope with mileage. Treasurer forgets petrol money once and the whole car goes silent. Small humiliations teach teams faster than tactics.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Rung three. Semi-pro. A contract that fits on one page. Wages enough to notice on a payslip, not enough to quit the warehouse. Training twice a week under lights that buzz. Physio is a student with tape and good intentions. You meet players who were academy kids and fell through the floor. You meet players who never went and built legs like tree trunks. Everyone says this is a stepping stone. Some have been stepping for six years. You learn the cruel math: one bad month and the gaffer stops calling. You learn to smile in team photos like the stone is solid. Petrol IOU football. Monday always waits. Semi-pro is the limbo rung. Enough money to believe. Not enough to stop being afraid. The warehouse still knows your name on Monday. Semi-pro photos look professional until you zoom in on the pitch lines. Context is everything on the climb.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Rung four. Full-time lower tier. First time football pays rent if you are careful. Contract you can show your family without laughing. Fans who know your miss from October. Media is a local paper and a forum that hates creatively. You move closer to the ground because travel was killing you. Your apartment is small and honest. You buy boots without checking the bank twice. You still eat pasta before matches because habits survive upgrades. You fear a three-week injury like a recession. Professional now means accountable, not safe. First payslip shock. Not enough to quit. Enough to hope. Full-time lower tier is the first time football pays rent and still owns your weekends forever. Small apartment, big relief. You stop calling it a hobby out loud. First framed contract on a mum's wall weighs more than the paper. You cry in the car after signing and hate yourself for crying.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rung five. League Two money. Wage bands you are not allowed to discuss at dinner. Car that is not embarrassing. Agent emails begin. You sign autographs without feeling like a fraud. Training ground has a gym that works. Medical staff exist on matchdays. You play in front of thousands some weeks, hundreds others. The table follows you home on a phone screen. Promotion talk is real money talk. Relegation talk is real fear talk. You start measuring life in windows: two-year deal, one-year option, release clause you finally understand. Framed contract. Mum cries. You still fear Tuesday training. League Two is when agents appear like weather. Contracts get language you need explained. Promotion is not glory yet. It is arithmetic. League Two promotion bonus rumors spread faster than truth. You learn to nod and say nothing.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Rung six. League One step up. Salary jumps enough to help family without shouting about it. Apartment with a second room you use for boots and ice packs. Teammates drive better cars and pretend they do not notice the gap. You eat better because the club feeds you on schedule. Recovery is scheduled, not hoped for. Opponents are faster, nastier, smarter. You are not allowed to be ordinary on Saturday. Ordinary gets loaned out. You learn that the rung above is visible from here like a lit window across the street. Spreadsheet pressure. Promotion money haunts every pass. League One is a raise that feels like oxygen. You still share dressing room jokes with players on half your wage. Awkwardness becomes normal. Better car, same anxiety. The rung upgrades hardware, not nerves.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Rung seven. Championship grind. Money that changes what rent means. Stadiums swallow your old Sunday pitch whole. Travel on coaches with your name on the seat. The table is a spreadsheet that follows you into bed. Sell a bad game and social media does not sleep. You earn more than your parents did at your age and that creates a new pressure you cannot explain at home. Friends treat you like a bank with jokes. You are living a life that looks like success on paper and feels like exams every week. Premier bench view. Minutes cost more than money here. Championship money changes what you order without looking at the menu. It does not change the table following you home. Fear scales up with income. Promotion bonus pays for one summer of feeling safe. Then August reminds you the ladder continues.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Promotion night. Playoff final or automatic spot, the rung does not care which story you prefer. Wembley or a Tuesday away, the bus is quiet in a different way. Win and the bank account changes tier before the summer ends. Lose and you pretend the season was still progress. You watch teammates cry in towels that look too small for adults. You learn that one ninety-minute door can upgrade every rung below overnight. Sunday league feels like another person's diary entry. Tunnel starter. Noise hits before the ball moves. Promotion is a door, not a gradient. One night can rewrite the ladder below. You stand in a tunnel that is not the Champions League tunnel but feels like a visa stamp. Championship bus has your name on the seat. Sunday league had no seats. Progress is petty and beautiful.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Rung eight. Premier League threshold. Even the bench money rewrites your calendar. Medical team, performance staff, security at home you did not ask for. You suit up hours before kickoff. Minutes are rationed. One touch can be a headline. One mistake can be a meme by half time. Teammates earn sums you do not say aloud. You share a dressing room with people who bought houses before twenty-five. You rent and tell yourself patience. The rung is real. The gap inside the rung is also real. Lifestyle jump. Same anxiety. Better kitchen. Premier League bench is a job with a view. Pay changes life. Minutes stay rationed. You learn to be ready in thirty seconds because the board is a guillotine. Premier League dressing room coffee tastes the same as semi-pro. Progress is not always sensory.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Rung nine. Premier League starter. Noise hits your chest before the ball moves. Sponsors on your sleeves. Calendar is not yours. Performance data on a tablet before you shower. Win and you are a product. Lose and you are a problem. House deposit becomes possible. Family asks for tickets they do not understand are contracts. You rent quiet because silence is expensive at the top. You are the climb people will use as a montage. You remember Sunday mud when you tie laces in a tunnel that smells like money. Agents like weather. Some help. Some sell storms. Starting in the top flight turns your name into a search term. You can afford silence. You cannot afford ordinary Saturdays. You buy your parents dinner and pretend it is normal. It is not normal. It is the climb paying backward.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Rung ten is not a number. It is maintenance. Agents, image rights, tax conversations, transfer windows that feel like job interviews in public. Teammates come and go by plane. You learn that the Premier League pays some people like CEOs and others like managers, same dressing room, same badge, different lives. Pay gaps sit three lockers away. You do not complain out loud. You notice the car park. You notice who flies private and who flies economy next day. The rung did not erase the ladder. It magnified every rung below. Old mates text when you score. Silence when you don't. Inside the Premier League, pay gaps are not abstract. They are parking spaces, holidays, and who pays the bill without thinking. Same tunnel, different tax bracket. Teammate flies private, you fly economy next day. You laugh together because the badge is shared and the bank is not.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "What the montage skips. Moves every year. Friends left in cities you only visit for fixtures. Relationships strained by schedules written in July. Injuries that downgrade you one rung overnight. Loans that feel like exile. The phone call that says we are going in a different direction. You can climb fast and fall faster. Sunday league taught you to love the game without money. The Premier League teaches you to protect the game because money attached itself like a shadow. Sunday morning in your head while Premier lights flash. The montage skips loans, injuries, and the year you almost quit. Real climbs include backward steps. Sunday league still lives in your touch sometimes. Loan to a smaller club feels like exile and education at once. You either return sharper or broken.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "So which rung are you on. Coins in a freezer bag. Petrol money in an envelope. First payslip. First contract your mum frames. Championship spreadsheet. Premier League bench. Starter tunnel. Tell me where the climb still feels like Sunday morning. Tell me which rung you thought would fix everything and did not. That is the receipt. Rank Run POV. Comment your rung. The real one — not the highlight. Rungs are weeks, not medals. Tell me yours honestly. Mud rung counts. Comment your rung. Be honest. Nobody starts in the tunnel.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football rank cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

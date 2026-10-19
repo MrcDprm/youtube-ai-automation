@@ -1,0 +1,537 @@
+{
+  "project_id": "the-ship-that-parked-in-the-canal-9dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-parked-ship",
+        "prompt": "A candy container ship wedged across a narrow blue canal. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A 400-metre ship parked across the Suez Canal for six days.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a MEME DIGGER stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a meme-excavator trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-march-23",
+        "prompt": "A clock 0740, date 23 MAR 2021, tag EVER GIVEN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "23 March 2021, 7:40 Egypt time, Ever Given aground.",
+        "image": null
+      },
+      {
+        "slug": "0030-km-151",
+        "prompt": "A canal marker KM 151, tiny village tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kilometre 151, near Manshiyet Rugola.",
+        "image": null
+      },
+      {
+        "slug": "0040-bow-stern",
+        "prompt": "A ship as a diagonal stick, bow and stern in sand. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bow in one bank. Stern nearly in the other.",
+        "image": null
+      },
+      {
+        "slug": "0050-x-digger-alone",
+        "prompt": "A tiny yellow digger with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the joke that one cartoon digger did the whole job.",
+        "image": null
+      },
+      {
+        "slug": "0100-fairway",
+        "prompt": "A wind arrow 40 KN on a wall of candy boxes in a thin ditch. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover: a fairway too narrow for a wall of boxes in a 40-knot wind.",
+        "image": null
+      },
+      {
+        "slug": "0110-1869",
+        "prompt": "A tally 50 SHIPS / DAY, 12 PERCENT TRADE, year 1869. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Canal opened 1869. By 2021: about 50 ships a day, ~12% of world trade.",
+        "image": null
+      },
+      {
+        "slug": "0120-single-lane",
+        "prompt": "A one-lane canal with a WAIT tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Much of the length is single-lane. Convoys take turns.",
+        "image": null
+      },
+      {
+        "slug": "0130-ship-spec",
+        "prompt": "A scale 400 M / 60 M / 20K TEU. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 400 m long, nearly 60 m wide, about 20,000 TEU.",
+        "image": null
+      },
+      {
+        "slug": "0140-owners",
+        "prompt": "Four paper tags OWNER / LEASE / MANAGER / CREW. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Panama registry, Shoei Kisen owner, Evergreen lease, Schulte manager, Indian crew.",
+        "image": null
+      },
+      {
+        "slug": "0150-22-times",
+        "prompt": "A punch card 22 TRANSITS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "She had already done this canal 22 times.",
+        "image": null
+      },
+      {
+        "slug": "0200-fifth-convoy",
+        "prompt": "A convoy 5TH, tag 15 BEHIND, arrow ROTTERDAM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Fifth in a northbound convoy, 15 ships behind, Malaysia to Rotterdam.",
+        "image": null
+      },
+      {
+        "slug": "0210-two-pilots",
+        "prompt": "Two nameplates PILOT, tag SCA. No portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Two Suez Canal Authority pilots boarded.",
+        "image": null
+      },
+      {
+        "slug": "0220-boxes-sail",
+        "prompt": "Box stacks catching wind, tag SAIL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Stacked containers act like a sail.",
+        "image": null
+      },
+      {
+        "slug": "0230-official-centred",
+        "prompt": "A centred-ship stamp OFFICIAL PLAN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official idea: pilots, a convoy, and a cut will keep a giant centred.",
+        "image": null
+      },
+      {
+        "slug": "0240-sandstorm",
+        "prompt": "A dust cloud, tag 40 KN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "7:40, sandstorm. Winds exceeding 40 knots.",
+        "image": null
+      },
+      {
+        "slug": "0250-lost-steer",
+        "prompt": "Two press cards STEER LOST and HIT BOTTOM. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "SCA: lost the ability to steer. Evergreen: sudden wind, hull hit bottom.",
+        "image": null
+      },
+      {
+        "slug": "0300-rabie-weather",
+        "prompt": "A quote card NOT THE MAIN REASON, nameplate RABIE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rabie: weather not the main reason. Technical or human errors to be investigated.",
+        "image": null
+      },
+      {
+        "slug": "0310-bank-effect",
+        "prompt": "A stern swinging toward a sandy bank, tag BANK EFFECT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bank effect: stern can swing toward the near bank in a tight channel.",
+        "image": null
+      },
+      {
+        "slug": "0320-12-knots",
+        "prompt": "A speed tag 12 KN, course 352. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Panama file: 7:41 local, about 12 knots, course 352, eastern bank.",
+        "image": null
+      },
+      {
+        "slug": "0330-121-metres",
+        "prompt": "A ruler 121 M FAIRWAY vs 400 M SHIP. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Canal looks ~300 m across. Fairway about 121 m. Ship 400 m.",
+        "image": null
+      },
+      {
+        "slug": "0340-no-go-around",
+        "prompt": "A blocked canal, NO GO AROUND stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "South of the two-channel stretch. Nobody could go around.",
+        "image": null
+      },
+      {
+        "slug": "0350-48-72",
+        "prompt": "Two clocks 48-72 HRS vs DAYS TO WEEKS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Advisor: 48 to 72 hours, maximum. Berdowski: days to weeks.",
+        "image": null
+      },
+      {
+        "slug": "0400-ballast-off",
+        "prompt": "A tank tag 9000 T BALLAST OFF. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Fuel off. 9,000 tonnes of ballast water off.",
+        "image": null
+      },
+      {
+        "slug": "0410-excavator-bow",
+        "prompt": "A tiny yellow excavator at a giant candy bow. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "An excavator started digging at the bow. The picture became the whole story.",
+        "image": null
+      },
+      {
+        "slug": "0420-30k-sand",
+        "prompt": "A pile 30000 M3 SAND. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "About 30,000 cubic metres of sand dredged from under bow and stern.",
+        "image": null
+      },
+      {
+        "slug": "0430-plan-c",
+        "prompt": "A crane over boxes, stamp IMPRACTICAL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Plan C: unload ~18,300 containers. Deemed impractical.",
+        "image": null
+      },
+      {
+        "slug": "0440-not-taking-water",
+        "prompt": "A hull stamp NOT TAKING WATER, nameplate HIGAKI. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Higaki: the ship is not taking water.",
+        "image": null
+      },
+      {
+        "slug": "0450-alp-guard",
+        "prompt": "A tug ALP GUARD, tag 285 T PULL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "28 March: Alp Guard, 285 tonnes bollard pull, almost doubled the tow.",
+        "image": null
+      },
+      {
+        "slug": "0500-stern-0430",
+        "prompt": "A clock 0430, stern sliding off sand. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "29 March, ~4:30 local: stern came free.",
+        "image": null
+      },
+      {
+        "slug": "0510-carlo-magno",
+        "prompt": "A second tug CARLO MAGNO, 153 T. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Carlo Magno joined, about 153 tonnes of pull.",
+        "image": null
+      },
+      {
+        "slug": "0520-king-tide",
+        "prompt": "A moon and a high-water mark KING TIDE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Towing timed to a supermoon king tide.",
+        "image": null
+      },
+      {
+        "slug": "0530-1505-free",
+        "prompt": "A clock 1505, ship floating, stamp FREE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Boskalis: 15:05 local, pulled free.",
+        "image": null
+      },
+      {
+        "slug": "0540-bitter-lake",
+        "prompt": "A lake tag BITTER LAKE, clock 1900 OPEN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Towed to the Great Bitter Lake. Canal reopened 19:00.",
+        "image": null
+      },
+      {
+        "slug": "0550-x-clowns",
+        "prompt": "Ink peeling a WRONG CAPTAIN sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: red X on clown-college and on blaming the wrong captain.",
+        "image": null
+      },
+      {
+        "slug": "0600-400-waiting",
+        "prompt": "A queue of candy ships, tag 400+, date 3 APR. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "More than 400 ships waiting. Backlog cleared 3 April.",
+        "image": null
+      },
+      {
+        "slug": "0610-lloyds-number",
+        "prompt": "A ticker 400M / HOUR, 9B / DAY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Lloyd's: about $400 million an hour, about $9 billion a day. File the range.",
+        "image": null
+      },
+      {
+        "slug": "0620-egypt-fees",
+        "prompt": "A fee card 12-15M / DAY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rabie: Egypt lost about $12 to $15 million a day in fees.",
+        "image": null
+      },
+      {
+        "slug": "0630-ismailia",
+        "prompt": "A court stamp SEIZED 13 APR, 916M. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "13 April: Ismailia court seized the ship. Claim over $916 million.",
+        "image": null
+      },
+      {
+        "slug": "0640-reputation",
+        "prompt": "Two invoice lines SALVAGE 300M, REPUTATION 300M. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "$300 million salvage bonus and $300 million loss of reputation, UK P&I filed.",
+        "image": null
+      },
+      {
+        "slug": "0650-crew-wait",
+        "prompt": "A crew count 25, a small DEPARTURE ticket. No cruelty. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "25 Indian crew stayed. Some left as contracts expired. Not a hostage cartoon.",
+        "image": null
+      },
+      {
+        "slug": "0700-general-average",
+        "prompt": "A split bill GENERAL AVERAGE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Shoei Kisen declared general average. Cargo owners could be asked to chip in.",
+        "image": null
+      },
+      {
+        "slug": "0710-540-plus-tug",
+        "prompt": "A receipt 540M + 75 T TUG. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Settlement around $540 million, plus a 75-ton tug for the Authority.",
+        "image": null
+      },
+      {
+        "slug": "0720-july-7",
+        "prompt": "A calendar JUL 7 / JUL 12, tag 100+ DAYS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Released 7 July. Sailed 12 July, more than 100 days after the bank.",
+        "image": null
+      },
+      {
+        "slug": "0730-rotterdam",
+        "prompt": "Two port tags ROTTERDAM FELIXSTOWE, stamp REPAIRS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Then Rotterdam, Felixstowe, then out of service for repairs.",
+        "image": null
+      },
+      {
+        "slug": "0740-rumour-x",
+        "prompt": "A rumour stamp WRONG SHIP, red X. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Marwa Elselehdar was on Aida IV in Alexandria. File the rumour.",
+        "image": null
+      },
+      {
+        "slug": "0750-who-won-bank",
+        "prompt": "A sand bank trophy SIX DAYS vs a tiny digger MEME. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The bank won six days. The excavator won a meme.",
+        "image": null
+      },
+      {
+        "slug": "0800-we-pulled",
+        "prompt": "A quote card WE PULLED IT OFF. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Boskalis: we pulled it off.",
+        "image": null
+      },
+      {
+        "slug": "0810-ask-the-tide",
+        "prompt": "A question mark over a tide gauge. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask whether the tide did the last metre.",
+        "image": null
+      },
+      {
+        "slug": "0820-wait-or-unload",
+        "prompt": "Split: a moon vs a crane over boxes, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have waited for the king tide, or started unloading 18,000 boxes.",
+        "image": null
+      },
+      {
+        "slug": "0830-121-honest",
+        "prompt": "A viral phone vs a 121 M ruler. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A viral digger is a terrible whole story. 121 metres is a terrible honest one.",
+        "image": null
+      },
+      {
+        "slug": "0840-convoy-question",
+        "prompt": "A convoy count 5TH OF MANY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask how many were already in the convoy.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card 121 M vs 400 M, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Ever Given shown as a candy container ship, a sand bank, a tiny yellow excavator, tugs, not photoreal shipping logos, not a geopolitics lecture, no national flags as the joke. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The fairway was 121 metres. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Ship That Parked in the Canal",
+    "description": "Twenty twenty one. A four-hundred-metre stick, a one-hundred-twenty-one-metre fairway, and a parking ticket that outlived the meme digger.",
+    "tags": [
+      "history",
+      "2021",
+      "ever given",
+      "suez",
+      "shipping",
+      "cartoon",
+      "true story",
+      "logistics",
+      "canal"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "SIX DAYS PARKED",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A four hundred metre container ship parked itself across the Suez Canal and stayed there for six days. That is not a metaphor, and it is not a cartoon you invented after a trivia night about a meme excavator. On the twenty third of March twenty twenty one, at seven forty in the morning Egypt time, Ever Given, IMO nine eight one one zero zero zero, ran aground at kilometre one hundred fifty one, near the village of Manshiyet Rugola. Bow in one bank. Stern nearly in the other. Wikipedia files the blockage at six days and seven hours, twenty three to twenty nine March. No injuries reported in the grounding. Keep that split: the ship was trying to go north to Rotterdam, and the canal treated it like a parked truck. Then put a red X on the joke that one cartoon digger did the whole job. The leftover is not geopolitics. The leftover is a fairway too narrow for a wall of boxes in a forty-knot wind.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a convoy was supposed to be the truth. The canal opened in eighteen sixty nine. By twenty twenty one, about fifty ships a day, roughly twelve percent of world trade. For much of the length it is single-lane: convoys take turns. Ever Given is about four hundred metres long, nearly sixty metres wide, about twenty thousand TEU, laid down in twenty fifteen, completed in twenty eighteen for Shoei Kisen, IMO nine eight one one zero zero zero. Panama registry, Japanese owner, leased to Evergreen Marine, managed by Bernhard Schulte Shipmanagement, Indian crew. She had already done this canal twenty two times. On that morning she was fifth in a northbound convoy, fifteen ships behind her, coming from Tanjung Pelepas in Malaysia toward Rotterdam. Two Suez Canal Authority pilots boarded, as Egyptian rules require. Containers stacked on deck act like a sail. Bill Kavanagh later called a Suez transit a very complex, high-risk operation. Wind on a box wall will blow a heavy ship off course, and the momentum is hard to recover. The official idea was: pilots, a convoy, and a cut in the sand will keep a giant centred.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "File the morning, because a bank is not a parking space. At seven forty, a sandstorm. Winds exceeding forty knots, about seventy four kilometres an hour. Egyptian meteorologists also filed gusts around fifty kilometres an hour in the area that day. File the range. SCA said the ship lost the ability to steer. Evergreen was told a sudden strong wind made the hull deviate and hit the bottom. Admiral Osama Rabie later told a press conference weather was not the main reason, and technical or human errors might be involved, all to be investigated. File both. Evert Lataire at Ghent later pointed at the bank effect: in a tight channel the stern can swing toward the near bank, plus west-to-east wind on a northbound hull. Panama's later investigation, as filed by gCaptain, put the grounding at seven forty one local, about twelve knots, course three five two, eastern bank, no fatalities, slight bow damage. At that spot the canal can look about three hundred metres across. The fairway, in one case study, is about one hundred twenty one. A four hundred metre stick in a one hundred twenty one metre ditch. That is logistics wearing a dust storm.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover the internet filed as a yellow digger. The blockage sat south of the two-channel stretch, so nobody could go around. On the twenty fifth, the Authority suspended navigation. An advisor to the Egyptian president told the press forty eight to seventy two hours, maximum. Peter Berdowski of Boskalis, hired through SMIT Salvage, said days to weeks. Ships behind were moved to make room. Fuel came off. Nine thousand tonnes of ballast water came off. An excavator started digging at the bow, and that picture became the whole story. Dredgers, Wikipedia and Boskalis both file about thirty thousand cubic metres of sand from under bow and stern. Backup plan C was unloading about eighteen thousand three hundred containers with floating cranes or even heavy-lift helicopters. Deemed impractical and hazardous. Yukito Higaki, president of Shoei Kisen, said the ship was not taking water, and once it refloated it should operate. On the twenty seventh a high tide let tugs move her about seventeen metres north. On the twenty eighth, the seagoing tug Alp Guard arrived, two hundred eighty five tonnes of bollard pull, almost doubling the tow. The leftover of a viral digger is that the tide and the tugs still had to win.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "The prescription had a clock. On the twenty ninth, the stern came free about four thirty local. The Italian tug Carlo Magno, about one hundred fifty three tonnes of pull, joined. Ballast was shifted. Towing was timed to a supermoon king tide. Boskalis: fifteen oh five local, the ship was pulled free. Wikipedia: fourteen Egyptian, Dutch, and Italian tugs. SCA chairman Rabie said the stern was already one hundred two metres off the bank instead of four. Great Bitter Lake for inspection. Canal checked, found sound, reopened at nineteen hundred local. By then more than four hundred ships were waiting: about two hundred in the Red Sea, under two hundred in the Mediterranean, around fifty in the Bitter Lakes. Lloyd's List, during the blockage, filed about four hundred million dollars of goods delayed per hour, about nine billion a day. File the range with Wikipedia's nine point six. Rabie later estimated Egypt lost twelve to fifteen million a day in fees. The backlog of delayed ships was cleared by the third of April. Six days of parked steel. Then a queue that still had to walk.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a story that a country is a clown college, or that a woman captain parked it. Put a red X on both sermons. A doctored rumour blamed Marwa Elselehdar, Egypt's first woman ship captain. She was first mate on Aida Four, hundreds of miles away in Alexandria. File the rumour. Do not spend it as a cause. Weather was real. Bank effect is real. A certified canal with two pilots is not a personality. Ignoring the sail-area of a box wall is logistics, not a plot. The leftover is uglier and smaller: a kilometre marker, a gust, a fairway, and a meeting that still had to dig sand because you cannot reverse a four hundred metre momentum with a joke.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "File what the parking ticket actually did. On the thirteenth of April a court in Ismailia seized the ship. The claim exceeded nine hundred sixteen million dollars, including three hundred million for salvage bonus and three hundred million for loss of reputation, as UK P and I Club filed it. Twenty five Indian crew stayed on board. Two left on the fifteenth for urgent personal circumstances. Three more when contracts expired at the end of April. The International Transport Workers Federation said the crew was well cared for and also called them human pawns in a compensation game. File both. Shoei Kisen declared general average, so cargo owners could be asked to chip in to rescue the voyage. On the tenth of May the claim came down to six hundred million. A later settlement around five hundred forty million, plus a seventy five ton tug for the Authority to replace one wrecked in the recovery. Released the seventh of July twenty twenty one. Port Said inspections. Finally sailed the twelfth, more than one hundred days after the bank. Rotterdam. Then Felixstowe. Then out of service, through the canal again in August toward Qingdao for repairs, back in regular service in mid-November.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a perfect canal, and none of it is a cartoon of a crew as villains. They had a twenty-two-time regular. They had a sandstorm and a forty-knot gust. They had a single lane and a ship whose boxes were a sail. You are allowed to laugh at a national shortcut that needed a dredger, and at a yellow excavator that outlived the tide, and at a reputation line on an invoice. You are not required to laugh at twenty five people waiting on a seized hull, or at dredge crews moving thirty thousand cubic metres, or at a supermoon that did more work than a meme. The official idea was: the convoy will fit. The street idea was: they parked a ship with a toy digger. The leftover idea is: the fairway was one hundred twenty one metres, the stick was four hundred, and the fix was sand, tugs, and a tide they could not schedule in a press conference.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the forty-eight-hour promise. Not the rumour captain. The bank won six days. Lloyd's won a number. Boskalis won a sentence: we pulled it off. Alp Guard and Carlo Magno won a pull. The excavator won a meme. The crew won a long wait and then a release. Shoei Kisen won a settlement and a spare tug to hand over. Garden gnome shops in Europe, in one later write-up, won a shortage joke on the back of a delayed box. If you need a moral, skip the canal is doomed. Take this: a viral digger is a terrible whole story, and a one hundred twenty one metre fairway is a terrible honest one. The next time someone tells you one ship closed world trade for fun, ask how many were already in the convoy, and whether the tide did the last metre. Would you have waited for the king tide, or started unloading eighteen thousand boxes. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

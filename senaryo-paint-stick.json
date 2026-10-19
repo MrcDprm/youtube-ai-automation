@@ -1,0 +1,1007 @@
+{
+  "project_id": "why-a-stick-became-a-steering-wheel-11dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-grip-circle",
+        "prompt": "Stickman hands on steering wheel labeled OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you grip a circle and call it obvious.",
+        "image": null
+      },
+      {
+        "slug": "0005-ten-two",
+        "prompt": "Clock hands 10 and 2 on a wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hands find ten and two without a lesson.",
+        "image": null
+      },
+      {
+        "slug": "0010-car-ring",
+        "prompt": "Car sprouting a ring like fruit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "As if the car grew a ring because cars do rings.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-cars-no",
+        "prompt": "Early car shaking head at a wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first automobiles did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0020-stick-tiller",
+        "prompt": "Vertical tiller lever in early car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Many steered with a stick, a tiller, a lever.",
+        "image": null
+      },
+      {
+        "slug": "0025-boat-pretending",
+        "prompt": "Car with a tiny boat flag on a tiller, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A boat still pretending it was wet.",
+        "image": null
+      },
+      {
+        "slug": "0030-why-wheel",
+        "prompt": "Dashboard wheel stamped PHYSICS with question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your dashboard wear a wheel as if it were physics?",
+        "image": null
+      },
+      {
+        "slug": "0035-ships-had-tillers",
+        "prompt": "Stern tiller on a simple ship, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Ships already had tillers.",
+        "image": null
+      },
+      {
+        "slug": "0040-wet-on-dry",
+        "prompt": "Water splash icon on dry road car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early cars copied the wet habit on dry roads.",
+        "image": null
+      },
+      {
+        "slug": "0045-vacheron-1894",
+        "prompt": "Race banner PARIS ROUEN 1894, Panhard car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Alfred Vacheron, eighteen ninety four Paris Rouen, Panhard.",
+        "image": null
+      },
+      {
+        "slug": "0050-wheel-not-stick",
+        "prompt": "Stick crossed out, wheel circled, on Panhard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A wheel where a stick used to be.",
+        "image": null
+      },
+      {
+        "slug": "0055-factory-column",
+        "prompt": "Wheel bolting to a column, easier than lever, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Factories learned a circle bolts to a column easier.",
+        "image": null
+      },
+      {
+        "slug": "0100-not-ergonomics",
+        "prompt": "ERGONOMICS stamp with red X, hands on wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your grip is not ergonomics by nature.",
+        "image": null
+      },
+      {
+        "slug": "0105-tiller-rolled",
+        "prompt": "Tiller morphing into a wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover tiller that learned to roll.",
+        "image": null
+      },
+      {
+        "slug": "0110-circle-sense",
+        "prompt": "Wrists on wheel, word SENSE appearing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The circle taught your wrists until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0115-start-wet-stick",
+        "prompt": "Large tiller at ship stern labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the wet stick.",
+        "image": null
+      },
+      {
+        "slug": "0120-wheel-stole-rudder",
+        "prompt": "Rudder stolen by a chrome wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The wheel stole a rudder and sold it back as chrome.",
+        "image": null
+      },
+      {
+        "slug": "0125-stern-lever",
+        "prompt": "Stickman pushing stern tiller, world tilts, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Put a lever at the stern and push the world sideways.",
+        "image": null
+      },
+      {
+        "slug": "0130-stick-leverage",
+        "prompt": "Tiller stick with LEVERAGE and grumpy face, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiller is a stick with leverage and a grudge.",
+        "image": null
+      },
+      {
+        "slug": "0135-rudder-honest",
+        "prompt": "Stick to rudder arrow, honest label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Move the stick, the rudder moves, the argument is honest.",
+        "image": null
+      },
+      {
+        "slug": "0140-water-pushback",
+        "prompt": "Hand on tiller, water pushing arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You can feel the water push back.",
+        "image": null
+      },
+      {
+        "slug": "0145-carriage-anxiety",
+        "prompt": "Horse ghost, anxious early car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A carriage that forgot the horse and kept the anxiety.",
+        "image": null
+      },
+      {
+        "slug": "0150-builders-knew-boats",
+        "prompt": "Boat blueprint next to early car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early builders knew boats.",
+        "image": null
+      },
+      {
+        "slug": "0155-tiller-vocabulary",
+        "prompt": "Dictionary entry TILLER, no manual, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiller was a vocabulary word that did not need a manual.",
+        "image": null
+      },
+      {
+        "slug": "0200-maritime-furniture",
+        "prompt": "Ship tiller on asphalt with NOT LIQUID sign, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Maritime furniture dragged onto a road that was not liquid.",
+        "image": null
+      },
+      {
+        "slug": "0205-knees-passenger",
+        "prompt": "Tiller poking passenger knees, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The stick was in the way of knees and your passenger.",
+        "image": null
+      },
+      {
+        "slug": "0210-dashboard-plan",
+        "prompt": "Tiller blocking dashboard slot, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "In the way of any plan to put a dashboard between you and the engine.",
+        "image": null
+      },
+      {
+        "slug": "0215-wheel-real-estate",
+        "prompt": "Wheel as REAL ESTATE sign on dashboard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The wheel was not a miracle. It was real estate.",
+        "image": null
+      },
+      {
+        "slug": "0220-named-corners",
+        "prompt": "Halo on wheel, MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the stick did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0225-panhard-paris",
+        "prompt": "Panhard factory sign PARIS, early car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Panhard et Levassor building serious machines in Paris.",
+        "image": null
+      },
+      {
+        "slug": "0230-petit-journal",
+        "prompt": "Newspaper LE PETIT JOURNAL, map Paris Rouen, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Le Petit Journal organized a trial Paris to Rouen.",
+        "image": null
+      },
+      {
+        "slug": "0235-vacheron-entered",
+        "prompt": "Driver nameplate VACHERON, wheel on Panhard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Alfred Vacheron entered a Panhard with a steering wheel.",
+        "image": null
+      },
+      {
+        "slug": "0240-footnote-habit",
+        "prompt": "Tiny footnote growing into big habit arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A footnote until footnotes are how habits start.",
+        "image": null
+      },
+      {
+        "slug": "0245-not-only-soul",
+        "prompt": "Many thought bubbles with wheels, one loud Vacheron, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not the only soul to think of a wheel.",
+        "image": null
+      },
+      {
+        "slug": "0250-levassor-shop",
+        "prompt": "Carriage plus engine equals car in workshop, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Emile Levassor and the Panhard shop turned carriages into engines.",
+        "image": null
+      },
+      {
+        "slug": "0255-tillers-competitors",
+        "prompt": "Two cars, one tiller one wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tillers still showed up on competitors.",
+        "image": null
+      },
+      {
+        "slug": "0300-leverage-visibility",
+        "prompt": "Three checkmarks leverage visibility repeat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Wheels where leverage, visibility, and repeatability agreed.",
+        "image": null
+      },
+      {
+        "slug": "0305-default-negotiated",
+        "prompt": "Workshop handshake, FOREST DISCOVERY with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The default was negotiated in workshops, not a forest.",
+        "image": null
+      },
+      {
+        "slug": "0310-paris-trial-century",
+        "prompt": "Paris Rouen medal on a bolted column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your circle is a Paris trial wearing a century of bolts.",
+        "image": null
+      },
+      {
+        "slug": "0315-stick-leaves-stern",
+        "prompt": "Tiller walking away from ship stern, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the stick leave the stern.",
+        "image": null
+      },
+      {
+        "slug": "0320-speed-needs-hinge",
+        "prompt": "Tiller poking chest, red X, wheel safe, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car of speed needed a hinge that did not poke the chest.",
+        "image": null
+      },
+      {
+        "slug": "0325-vertical-lever",
+        "prompt": "Vertical tiller yanked like elevator, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tillers could be vertical levers you yanked.",
+        "image": null
+      },
+      {
+        "slug": "0330-lever-wants-space",
+        "prompt": "Lever expanding, cramped cabin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A lever wants space.",
+        "image": null
+      },
+      {
+        "slug": "0335-engine-roommate",
+        "prompt": "Engine sitting in passenger seat ROOMMATE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The engine stops being a rumor and starts being a roommate.",
+        "image": null
+      },
+      {
+        "slug": "0340-wheel-stacks",
+        "prompt": "Rotation arrows stacking into column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A wheel stacks rotation into a column.",
+        "image": null
+      },
+      {
+        "slug": "0345-column-love",
+        "prompt": "Factory heart on a steering column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A column is a factory's love language.",
+        "image": null
+      },
+      {
+        "slug": "0350-ten-workers",
+        "prompt": "Ten workers same wheel part, peace, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hand the same part to ten workers without ten arguments.",
+        "image": null
+      },
+      {
+        "slug": "0355-not-firsts",
+        "prompt": "FIRSTS list red X, SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0400-push-to-rotate",
+        "prompt": "PUSH HERE stick vs ROTATE HERE wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A stick that said push here replaced by a ring that said rotate here.",
+        "image": null
+      },
+      {
+        "slug": "0405-rotate-showroom",
+        "prompt": "Showroom teacher pointing at wheel rotate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rotate is easier to teach in a showroom.",
+        "image": null
+      },
+      {
+        "slug": "0410-line-speeds-up",
+        "prompt": "Assembly line repeating wheels faster, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Easier to repeat when the line speeds up.",
+        "image": null
+      },
+      {
+        "slug": "0415-line-inventor",
+        "prompt": "Factory line wearing INVENTOR badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0420-parts-that-fit",
+        "prompt": "Wheel part fitting slot PARTS THAT FIT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line cares about parts that fit.",
+        "image": null
+      },
+      {
+        "slug": "0425-rehook-fact",
+        "prompt": "Wheel vs doorknob both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rehook: you think the wheel is a fact like a door knob.",
+        "image": null
+      },
+      {
+        "slug": "0430-wheel-policy",
+        "prompt": "Wheel stamped POLICY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The wheel is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0435-not-trust-stick",
+        "prompt": "3D tiller maze, TRUST DRIVER red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The alternative is trusting every driver to learn a stick in three dimensions.",
+        "image": null
+      },
+      {
+        "slug": "0440-engine-furnace",
+        "prompt": "Engine with FURNACE flames under driver, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Over an engine that wants to be a furnace.",
+        "image": null
+      },
+      {
+        "slug": "0445-tillers-honest",
+        "prompt": "Tiller with HONEST stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tillers are honest.",
+        "image": null
+      },
+      {
+        "slug": "0450-wheels-scalable",
+        "prompt": "Wheel multiplying on assembly line SCALABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Wheels are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0455-city-in-numbers",
+        "prompt": "Bench to city fleet many cars, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Scalable is how a machine escapes the bench and a city owns it in numbers.",
+        "image": null
+      },
+      {
+        "slug": "0500-un-nature-grip",
+        "prompt": "NATURE sticker peeling off hands on wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not calling you clumsy. Un-naturing the grip.",
+        "image": null
+      },
+      {
+        "slug": "0505-boat-wearing-column",
+        "prompt": "Boat tiller inside column costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The grip is a boat lever wearing a column.",
+        "image": null
+      },
+      {
+        "slug": "0510-rotation-law",
+        "prompt": "Column stamped ROTATION LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The column said rotation can be law.",
+        "image": null
+      },
+      {
+        "slug": "0515-ten-two-feeling",
+        "prompt": "Hands 10-2 with blank memory bubble, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hands find ten and two without remembering when they learned.",
+        "image": null
+      },
+      {
+        "slug": "0520-tiller-golf-cart",
+        "prompt": "Golf cart tiller vs car wheel, PHYSICS red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Drive a tiller golf cart and you know the wheel is not physics.",
+        "image": null
+      },
+      {
+        "slug": "0525-production-vote",
+        "prompt": "Ballot box PRODUCTION VOTE wheel wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compromise that won a production vote.",
+        "image": null
+      },
+      {
+        "slug": "0530-spreadsheet-elbows",
+        "prompt": "Spreadsheet with elbow icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A vote is a spreadsheet with elbows.",
+        "image": null
+      },
+      {
+        "slug": "0535-lock-travel",
+        "prompt": "Steering lock walking onto highway, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the lock travel.",
+        "image": null
+      },
+      {
+        "slug": "0540-mass-inventoried",
+        "prompt": "INVENT red X, INVENTORIED check on wheel shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production did not invent steering. It inventoried it.",
+        "image": null
+      },
+      {
+        "slug": "0545-same-dashboard",
+        "prompt": "Identical dashboards row of cars, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The same dashboard had to repeat across models.",
+        "image": null
+      },
+      {
+        "slug": "0550-source-stamp-ship",
+        "prompt": "Wheel parts SOURCE STAMP SHIP boxes, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A part you could source, stamp, ship, and replace.",
+        "image": null
+      },
+      {
+        "slug": "0555-no-tiller-translate",
+        "prompt": "Tiller layouts chaos vs one wheel column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Without translating a tiller layout for every chassis.",
+        "image": null
+      },
+      {
+        "slug": "0600-dealers-liked",
+        "prompt": "Dealer thumbs up at wheel column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Dealers liked it.",
+        "image": null
+      },
+      {
+        "slug": "0605-repair-dark",
+        "prompt": "Mechanic finding column in dark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Repair shops liked a column recognizable in the dark.",
+        "image": null
+      },
+      {
+        "slug": "0610-racing-modern",
+        "prompt": "Race car wheel labeled MODERN, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Racing helped the wheel feel modern.",
+        "image": null
+      },
+      {
+        "slug": "0615-stick-faded",
+        "prompt": "Catalog page tiller faded out, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The stick faded when catalogs stopped listing them.",
+        "image": null
+      },
+      {
+        "slug": "0620-quiet-referendum",
+        "prompt": "Catalog voting booth QUIET REFERENDUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0625-rental-vs-book",
+        "prompt": "Rental wheel vs book tiller gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rental car has a wheel, history book has a tiller.",
+        "image": null
+      },
+      {
+        "slug": "0630-inventory-fight",
+        "prompt": "Inventory shelf beating tiller stick, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "That gap is inventory. Inventory is how the past loses without complaining.",
+        "image": null
+      },
+      {
+        "slug": "0635-this-is-you",
+        "prompt": "Stickman Tuesday parking lot, wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you. A Tuesday. A parking lot. A circle turned a thousand times.",
+        "image": null
+      },
+      {
+        "slug": "0640-stare-column",
+        "prompt": "Backing up stickman staring at wheel ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You stare at the column because backing up needs a ring.",
+        "image": null
+      },
+      {
+        "slug": "0645-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY cloud over reverse, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0650-not-mechanical",
+        "prompt": "MECHANICAL NATURE stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "None of this makes you mechanical by nature.",
+        "image": null
+      },
+      {
+        "slug": "0655-born-after-trial",
+        "prompt": "Timeline Panhard trial then dashboard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after Panhard trials and dashboards as real estate.",
+        "image": null
+      },
+      {
+        "slug": "0700-wheel-hosts",
+        "prompt": "Wheel with horn airbag beep buttons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A wheel learned to host horns, airbags, buttons that beep.",
+        "image": null
+      },
+      {
+        "slug": "0705-relief-knee",
+        "prompt": "Safe wheel vs tiller poking passenger, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not shove a lever through your passenger's knee.",
+        "image": null
+      },
+      {
+        "slug": "0710-insult-stick-lost",
+        "prompt": "Sad tiller losing to column, tiny insult cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiny insult that a maritime stick lost to a factory column.",
+        "image": null
+      },
+      {
+        "slug": "0715-never-voted",
+        "prompt": "Cabin receipt part never voted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a simpler cabin with a part you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0720-cheerful-column",
+        "prompt": "Smiling column disguise, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a column stays without looking like a column.",
+        "image": null
+      },
+      {
+        "slug": "0725-captain-had-stick",
+        "prompt": "Captain with stick at stern, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A captain used to have a stick.",
+        "image": null
+      },
+      {
+        "slug": "0730-ring-forgot-sea",
+        "prompt": "Wheel rotating, sea forgotten ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your stick is rotation of a ring that forgot the sea.",
+        "image": null
+      },
+      {
+        "slug": "0735-compromises-wheels",
+        "prompt": "Compromise stack with wheels on top, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car is a pile of compromises with wheels attached.",
+        "image": null
+      },
+      {
+        "slug": "0740-take-wheel-away",
+        "prompt": "Cabin puzzle pieces no wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the wheel away and the cabin becomes a workshop puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0745-knee-room-breaks",
+        "prompt": "Cramped knees BREAK sign, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Or a tiller on every model until knee room breaks.",
+        "image": null
+      },
+      {
+        "slug": "0750-diagram-turn",
+        "prompt": "Diagram human still wheel turns car, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Visibility, linkage, assembly: a diagram of turn without moving the whole human.",
+        "image": null
+      },
+      {
+        "slug": "0755-grip-vote",
+        "prompt": "Grip voting OBVIOUS hinge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The grip is a vote for a hinge sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0800-not-tiller-personality",
+        "prompt": "Tiller personality hat red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not telling you to hunt a tiller as a personality.",
+        "image": null
+      },
+      {
+        "slug": "0805-swap-personality",
+        "prompt": "Five icons stern lever Paris column catalog, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was the swap: stern, lever, Paris, column, catalog.",
+        "image": null
+      },
+      {
+        "slug": "0810-crowd-cabin",
+        "prompt": "Many stickmen in one cabin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crowd is still in the cabin.",
+        "image": null
+      },
+      {
+        "slug": "0815-circle-treaty",
+        "prompt": "Rental cars circle treaty paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a rental fleet treating a circle as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0820-treaty-blind",
+        "prompt": "Treaty paper blindfold workshop behind, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The treaty cannot see a workshop.",
+        "image": null
+      },
+      {
+        "slug": "0825-cabinet-dashboard",
+        "prompt": "Locked cabinet LOG real dashboard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A log in a cabinet you will never open. The real dashboard.",
+        "image": null
+      },
+      {
+        "slug": "0830-boat-under-ring",
+        "prompt": "Boat ghost under steering wheel ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The boat is still under the ring.",
+        "image": null
+      },
+      {
+        "slug": "0835-what-trade",
+        "prompt": "Trade scale stick vs wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "So what did we trade?",
+        "image": null
+      },
+      {
+        "slug": "0840-stick-truth",
+        "prompt": "Tiller honest leverage arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A stick that told the truth about leverage.",
+        "image": null
+      },
+      {
+        "slug": "0845-ring-tooled",
+        "prompt": "Wheel on factory timer TOOLED, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "For a ring that could be timed, tooled, and forgotten.",
+        "image": null
+      },
+      {
+        "slug": "0850-fewer-knee-fights",
+        "prompt": "Happy passenger, hood service column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fewer knee fights, passenger keeps ribs, service from under hood.",
+        "image": null
+      },
+      {
+        "slug": "0855-miracle-part-number",
+        "prompt": "Halo on wheel with PART NUMBER tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0900-wheel-nature-myth",
+        "prompt": "WHEEL=NATURE myth, ADULT GRIP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the wheel is nature, the only adult grip.",
+        "image": null
+      },
+      {
+        "slug": "0905-tiller-joke",
+        "prompt": "TILLER JOKE stamp with red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that a tiller is a joke you outgrow.",
+        "image": null
+      },
+      {
+        "slug": "0910-line-word-adult",
+        "prompt": "Factory line holding word ADULT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Adult is a word the line uses.",
+        "image": null
+      },
+      {
+        "slug": "0915-kept-boat-dashboard",
+        "prompt": "Boat renamed DASHBOARD, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the boat and called it a dashboard.",
+        "image": null
+      },
+      {
+        "slug": "0920-kept-stick-history",
+        "prompt": "Stick in museum labeled HISTORY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the stick and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0925-policy-manners",
+        "prompt": "Policy wheel in polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The wheel is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0930-power-steering",
+        "prompt": "Lighter wheel POWER STEERING feather, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Power steering made the circle lighter.",
+        "image": null
+      },
+      {
+        "slug": "0935-joystick-lost",
+        "prompt": "Joystick losing to column again, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A joystick flirted with concept cars and lost to the column again.",
+        "image": null
+      },
+      {
+        "slug": "0940-tiller-truce",
+        "prompt": "Tiller shove TRUCE label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiller is a truce you shove.",
+        "image": null
+      },
+      {
+        "slug": "0945-layout-ring",
+        "prompt": "People nodding at ring no argue, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The layout we kept is people who agreed not to argue with a ring.",
+        "image": null
+      },
+      {
+        "slug": "0950-hands-on-wheel",
+        "prompt": "Callback hands on wheel circle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You put your hands on the wheel. The circle will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0955-feel-nothing",
+        "prompt": "Blank calm face victory at wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1000-look-column",
+        "prompt": "Column between red X sky and red X captain, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the column. Not the sky and not a captain.",
+        "image": null
+      },
+      {
+        "slug": "1005-stern-carriage-paris",
+        "prompt": "Three icons stern lever Vacheron race, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A stern stick, a carriage lever, Vacheron Panhard Paris Rouen.",
+        "image": null
+      },
+      {
+        "slug": "1010-factory-catalog",
+        "prompt": "Column factory plus catalog no tiller, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A factory column, a catalog that stopped listing tillers.",
+        "image": null
+      },
+      {
+        "slug": "1015-rotation-as-law",
+        "prompt": "Parking lot wheel stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A ring that owns your parking lot so rotation stays law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-grip",
+        "prompt": "Grip ok, hate parking cloud, still turning, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to grip. Allowed to hate parking and still turn.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "NATURAL stamp red X on wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the wheel natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-stern",
+        "prompt": "Salute to tiller leaving stern, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a stick that left the stern.",
+        "image": null
+      },
+      {
+        "slug": "1040-asphalt-point",
+        "prompt": "Cheerful salute on asphalt, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The asphalt is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-circle",
+        "prompt": "Stickman driving, circle labeled which, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the ring lets you. Know which circle you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-grip-cheerful",
+        "prompt": "Smiling grip, wheel, tiller ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The grip is cheerful. Cheerful is how a wheel stays without looking like a tiller.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback stick Paris label hands on wheel, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A stick. Paris. Your hands.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why a Stick Became a Steering Wheel",
+    "description": "Your wheel feels obvious. Early cars used boat tillers. Alfred Vacheron ran Paris Rouen in eighteen ninety four on a Panhard with a wheel. Factories picked the circle for the line.",
+    "tags": [
+      "steering",
+      "wheel",
+      "tiller",
+      "history",
+      "car",
+      "why",
+      "automobile",
+      "panhard",
+      "ship",
+      "factory"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "A STICK?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will grip a circle and call it obvious. Your hands will find ten and two without a lesson, as if the car grew a ring because rings are what cars do. Here is the part that should bother you. The first automobiles did not agree. Many of them steered with a stick, a tiller, a lever that looked like a boat still pretending it was wet. So why does your dashboard wear a wheel as if the wheel were physics? Because ships already had tillers, because early cars copied the wet habit on dry roads, because Alfred Vacheron ran the eighteen ninety four Paris Rouen on a Panhard with a wheel where a stick used to be, and because factories learned that a circle is easier to bolt to a column than a lever is to argue with in a cramped cabin. That is the whole plot. Your grip is not ergonomics by nature. It is a leftover tiller that learned to roll. You still turn. The turn is flattered. That is its job. The road did not vote. A stick did, and then a wheel that taught your wrists the circle until the circle started calling itself sense. Sense is a word a tiller invented so a lever would still feel like law when the water was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the wet stick, because the wheel stole a rudder and then sold it back as chrome. For thousands of years, if you wanted a hull to obey, you put a lever at the stern and pushed the world sideways. A tiller is not mystical. It is a stick with leverage and a grudge. You move the stick, the rudder moves, the boat argues with the current, and the argument is honest because you can feel the water push back. When the automobile arrived, it arrived as a carriage that forgot the horse and kept the anxiety. Early builders knew boats. Boats had a vocabulary. A tiller was a vocabulary word that did not need a manual. If your wheel still feels like the only adult option, notice that the adult option started as maritime furniture dragged onto a road that was not liquid. The road did not push back like water. The stick still worked. The stick was also in the way of your knees, your passenger, and any plan to put a dashboard between you and the engine. The wheel was not a miracle. It was real estate.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a stick gets a halo it did not earn. Panhard et Levassor was already building serious machines in Paris when the newspaper Le Petit Journal organized a road trial from Paris to Rouen in eighteen ninety four. Alfred Vacheron entered a Panhard et Levassor car fitted with a steering wheel, a choice that reads like a footnote until you notice footnotes are how habits start. He was not the only soul on earth to think of a wheel. He was an early loud example on a famous run, the kind of example catalogs copy. Emile Levassor and the Panhard shop were busy turning carriages into engines with opinions. Tillers still showed up on competitors. Wheels showed up where leverage, visibility, and factory repeatability could agree. If you still treat the wheel as the default human interface, file the paperwork separately from the prototype. The default was negotiated in workshops, not discovered in a forest. Your circle is a Paris trial wearing a century of bolts.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the stick leave the stern, because a horizontal car of speed needed a hinge that did not poke the chest. Tillers on early cars could be vertical levers you yanked like an elevator argument, or horizontal bars you slid like a boat that refused to admit the pond was gone. Both layouts share a problem. A lever wants space. Space is what a cabin sells when the engine stops being a rumor and starts being a roommate. A wheel stacks rotation into a column. A column is a factory's love language. You can mount it, gear it, hide the linkage behind a firewall, and hand the same part to ten workers without ten arguments. I am not giving you a list of firsts. I am pointing at the swap. We took a stick that said push here and we replaced it with a ring that said rotate here. Rotate is easier to teach in a showroom. Rotate is easier to photograph for a catalog. Rotate is easier to repeat when the line speeds up. The line is the real inventor. The line does not care about your nostalgia for a tiller. The line cares about parts that fit.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the wheel is a fact, the way a door knob is a fact. The wheel is a policy. In a modern cabin the policy is already on, because the alternative is trusting every driver to learn a stick that moves in three dimensions while looking over an engine that wants to be a furnace. Tillers are honest. Wheels are scalable. Scalable is how a machine escapes the hobbyist bench and becomes something a city can own in numbers. I am not calling you clumsy for liking a circle. I am un-naturing the grip. The grip is a boat lever wearing a column. The column said rotation can be law. Law is a feeling when your hands find ten and two without remembering when they learned it. If you have ever driven something with a tiller, even a golf cart or a lawn rig, you know the wheel is not physics. It is a compromise that won a production vote. A vote is not a rudder. A vote is a spreadsheet with elbows.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the lock travel. Mass production did not invent steering. It inventoried it. When the same dashboard had to repeat across models, the wheel became the part you could source, stamp, ship, and replace without translating a tiller layout for every chassis. Dealers liked it. Drivers liked the idea of a ship captain without the wet. Repair shops liked a column you could recognize in the dark. Racing and speed records helped the wheel feel modern, not because circles are faster, but because a wheel lets you turn hard without relocating your torso. The stick did not vanish in a single year. It faded the way habits fade when catalogs stop listing them. A catalog is a quiet referendum. If your rental car has a wheel and your history book has a tiller, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a parking lot, a circle you have turned a thousand times without thanking a boat. You sit with the seatbelt and stare at the column because backing up would feel impossible without a ring, which is the most modern impossibility there is. None of this makes you mechanical by nature. It makes you a person born after Panhard trials and after dashboards became real estate and after a wheel learned to host horns, airbags, and buttons that beep. You can feel both in the same grip: relief that you do not have to shove a lever through your passenger's knee, and a tiny insult that a maritime stick lost to a factory column. The relief is real. The insult is the tiller failing for a second in your imagination. You paid for a simpler cabin with a part you never voted on. The part is cheerful. Cheerful is how a column stays in the century without looking like a column. The wheel still has a circle. The circle still feels like a captain. A captain used to have a stick. Your stick is the rotation of a ring that forgot the sea. The rotation is cheerful. Cheerful is how a boat habit stays on asphalt without looking wet.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A car is a pile of compromises with wheels attached. That sentence is rude and almost fair. Take the wheel away and the cabin becomes a workshop puzzle nobody wins, or a tiller on every model until the knee room breaks. Visibility, linkage, assembly time, repair manuals: the wheel is a diagram of how to turn without moving the whole human, written by someone you will not meet. You still grip. The grip is a vote for a hinge that was sold as obvious. I am not telling you to hunt for a tiller as a personality. I am telling you the personality was always the swap: a stern stick, a carriage lever, a Paris trial on a Panhard, a column on a line, a catalog that stopped listing the stick. The crowd is still in the cabin. The crowd is you and a rental fleet treating a circle as a treaty. The treaty cannot see a workshop. The template can, if a human overrode it, which is a sentence assembly logs are not supposed to hide. A log is a promise in a cabinet you will never open. The cabinet is the real dashboard. The dashboard is a costume. Costume is how a column stays in a Tuesday without looking like a boat. The boat is still under the ring. The ring is still a permission slip you never signed. So what did we trade? We traded a stick that told the truth about leverage for a ring that could be timed, tooled, and forgotten. That tooling is real help: fewer knee fights, a passenger who keeps their ribs, a linkage you can service from under the hood. Help can be a miracle and still be a part number. We also gained a myth that the wheel is nature, that the circle is the only adult grip, that a tiller is a joke you outgrow. Adult is a word the line uses. We kept the boat and called it a dashboard. We kept the stick and called it history. Both can be true and still not be a reason to forget the wheel is a policy that learned manners. Deals can be rewritten. Some already were, quietly, when power steering made the circle lighter and when a joystick flirted with concept cars and lost to the column again. Again is slower than a tiller. A tiller is a truce you shove. A truce is not a cabin that learned to be roomy and still kind. Kind would be a different layout. The layout we kept is a pile of people who agreed not to argue with a ring.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will put your hands on the wheel. The circle will still be there. You will feel nothing, which is the victory. Look at the column. That is not the sky and it is not a captain. That is a stern stick, a carriage lever, Alfred Vacheron on a Panhard at Paris Rouen in eighteen ninety four, a factory column that replaced a knee argument, a catalog that stopped listing tillers, and a ring that still owns your parking lot so you will keep treating rotation as law. You are allowed to grip. You are allowed to hate parallel parking and still turn. Just stop calling the wheel natural, or inevitable, or proof that you are modern. Tonight, when you back out, look at it like a leftover salute to a stick that left the stern. The salute is cheerful. The asphalt is the point. Go when the ring lets you. Know which circle you are still obeying. The grip is cheerful. Cheerful is how a wheel stays in the cabin without looking like a tiller you used to shove.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

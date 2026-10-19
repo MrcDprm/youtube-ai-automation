@@ -1,0 +1,1006 @@
+{
+  "project_id": "why-a-cup-holder-beat-horsepower-11dk-20260901",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-reach-ring",
+        "prompt": "Stickman reaching cup ring CABIN IS SALE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you reach for a plastic ring and treat the cabin as the sale.",
+        "image": null
+      },
+      {
+        "slug": "0005-hand-slot",
+        "prompt": "Hand finding cup slot CAR KITCHEN label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hand finds a cup slot as if the car grew a kitchen.",
+        "image": null
+      },
+      {
+        "slug": "0010-cars-kitchens",
+        "prompt": "Car sprouting kitchen like fruit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Because cars do kitchens.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-no-agree",
+        "prompt": "Early driver shaking head at cup holder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first motorists did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0020-knee-peril",
+        "prompt": "Coffee KNEE FLOOR LAP peril labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Coffee lived in peril between knees, on the floor, or in a passenger lap.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-dash-ring",
+        "prompt": "Cup ring stamped PHYSICS question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your dash wear a cup ring as if the ring were physics?",
+        "image": null
+      },
+      {
+        "slug": "0030-drive-through",
+        "prompt": "Drive-through window before cup slot timeline, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Drive-through windows arrived before stable slots did.",
+        "image": null
+      },
+      {
+        "slug": "0035-minivan-showroom",
+        "prompt": "Interior peace beats HORSEPOWER bragging chart, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Minivan showrooms learned families buy interior peace faster than horsepower bragging.",
+        "image": null
+      },
+      {
+        "slug": "0040-chrysler-1984",
+        "prompt": "1984 van CUPHOLDERS IN CONVERSATION badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Chrysler nineteen eighty four vans put cupholders in the conversation.",
+        "image": null
+      },
+      {
+        "slug": "0045-engine-commodity",
+        "prompt": "Engine labeled COMMODITY same as others, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When the engine was already a commodity.",
+        "image": null
+      },
+      {
+        "slug": "0050-molded-ring-photo",
+        "prompt": "Molded ring vs dyno chart photo easier, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A molded ring is easier to photograph than a dyno chart.",
+        "image": null
+      },
+      {
+        "slug": "0055-not-ergonomics",
+        "prompt": "ERGONOMICS BY NATURE stamp red X on ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your sip is not ergonomics by nature.",
+        "image": null
+      },
+      {
+        "slug": "0100-diner-habit",
+        "prompt": "Diner cup morphing into plastic ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover diner habit that learned to live in molded plastic.",
+        "image": null
+      },
+      {
+        "slug": "0105-reach-flattered",
+        "prompt": "Smiling cup ring FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The reach is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0110-road-no-vote",
+        "prompt": "Road NO VOTE showroom raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The road did not vote. A showroom did.",
+        "image": null
+      },
+      {
+        "slug": "0115-slot-sense",
+        "prompt": "Wrist word SENSE after cup slot, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The slot taught your wrist until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0120-start-knee",
+        "prompt": "Knee labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the knee.",
+        "image": null
+      },
+      {
+        "slug": "0125-holder-stole-lap",
+        "prompt": "Lap stolen by plastic cup holder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The cup holder stole a lap and sold it back as plastic.",
+        "image": null
+      },
+      {
+        "slug": "0130-before-minivans",
+        "prompt": "Timeline before minivan console six rings, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Before minivans, before molded consoles, before six rings without irony.",
+        "image": null
+      },
+      {
+        "slug": "0135-gravity-negotiation",
+        "prompt": "Driver negotiating with GRAVITY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Drinking in a car was a negotiation with gravity.",
+        "image": null
+      },
+      {
+        "slug": "0140-wedged-guarded",
+        "prompt": "Driver wedging passenger guarding cup, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early drivers wedged. Early passengers guarded.",
+        "image": null
+      },
+      {
+        "slug": "0145-flat-tray",
+        "prompt": "Flat tray NO BRAKE HARD contract, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Some cars offered a flat tray and the contract you would not brake hard.",
+        "image": null
+      },
+      {
+        "slug": "0150-slots-late",
+        "prompt": "Slots HONEST LATE labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When slots arrived, they were honest and late.",
+        "image": null
+      },
+      {
+        "slug": "0155-hold-here",
+        "prompt": "HOLD HERE diner cup wearing geometry, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A ring that says hold here is a diner cup wearing geometry.",
+        "image": null
+      },
+      {
+        "slug": "0200-mold-cup-size",
+        "prompt": "Mold measuring cup size agreement, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Coffee is safe until the mold agrees with your cup size.",
+        "image": null
+      },
+      {
+        "slug": "0205-fast-food-cabin",
+        "prompt": "Fast food papers on cabin NOT TABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fast-food paperwork dragged onto a cabin not a table.",
+        "image": null
+      },
+      {
+        "slug": "0210-cup-wanted-hand",
+        "prompt": "Cup speech bubble WANT HAND, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The cup still wanted a hand until the hand got tired.",
+        "image": null
+      },
+      {
+        "slug": "0215-hand-suspension",
+        "prompt": "Tired hand ONLY SUSPENSION label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The hand got tired of being the only suspension.",
+        "image": null
+      },
+      {
+        "slug": "0220-not-miracle",
+        "prompt": "LOGISTICS stamp on hand not miracle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The hand was not a miracle. It was logistics.",
+        "image": null
+      },
+      {
+        "slug": "0225-named-corners",
+        "prompt": "Halo on cup ring MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the ring did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0230-not-one-hero",
+        "prompt": "Hero plaque red X many layers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The cup holder is not one eureka moment on a plaque.",
+        "image": null
+      },
+      {
+        "slug": "0235-layer-cake",
+        "prompt": "Layer cake drive-through van molded ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Drive-through culture, family vans, molded circle in a photograph.",
+        "image": null
+      },
+      {
+        "slug": "0240-caravan-voyager",
+        "prompt": "1984 Caravan Voyager van icons no logos, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Nineteen eighty four Dodge Caravan and Plymouth Voyager.",
+        "image": null
+      },
+      {
+        "slug": "0245-cabin-pitch",
+        "prompt": "Showroom CABIN IS PITCH sign, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "They helped teach showrooms the cabin could be the pitch.",
+        "image": null
+      },
+      {
+        "slug": "0250-horsepower-alike",
+        "prompt": "Horsepower numbers all sound ALIKE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When horsepower numbers started sounding alike.",
+        "image": null
+      },
+      {
+        "slug": "0255-honda-toyota",
+        "prompt": "Family vans storage as FURNITURE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Honda and Toyota followed with family vans that treated storage like furniture.",
+        "image": null
+      },
+      {
+        "slug": "0300-patent-rings",
+        "prompt": "Patent archive ring shapes 1980s, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Patent archives fill with ring shapes from the nineteen eighties onward.",
+        "image": null
+      },
+      {
+        "slug": "0305-habit-part-number",
+        "prompt": "Habit becoming PART NUMBER arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The quiet way a habit becomes a part number.",
+        "image": null
+      },
+      {
+        "slug": "0310-minivan-complaint",
+        "prompt": "Minivan complaint wearing molded circles coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your ring is a minivan showroom complaint wearing molded circles.",
+        "image": null
+      },
+      {
+        "slug": "0315-cup-leaves-hand",
+        "prompt": "Hand releasing cup walking away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the cup leave the hand.",
+        "image": null
+      },
+      {
+        "slug": "0320-errands-ring",
+        "prompt": "Ring safe vs passenger as table red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car of errands needed a ring without a passenger becoming a table.",
+        "image": null
+      },
+      {
+        "slug": "0325-knees-dash-pass",
+        "prompt": "Three panel KNEES DASH PASS REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hold between knees. Balance on dash. Pass to the right. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0330-small-insult",
+        "prompt": "Cup ring insulting gravity cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A molded holder is a small insult to gravity.",
+        "image": null
+      },
+      {
+        "slug": "0335-ring-grips",
+        "prompt": "Ring grips low console repeats, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The ring grips low. The console repeats.",
+        "image": null
+      },
+      {
+        "slug": "0340-stay-here",
+        "prompt": "STAY HERE slot no stoplight negotiate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The slot says stay here without the latte negotiating every stoplight.",
+        "image": null
+      },
+      {
+        "slug": "0345-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0350-lap-guard",
+        "prompt": "Lap speech bubble GUARD THIS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We took a lap that said guard this.",
+        "image": null
+      },
+      {
+        "slug": "0355-circle-route",
+        "prompt": "Circle ROUTE CUP HERE arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We replaced it with a circle that said route the cup here.",
+        "image": null
+      },
+      {
+        "slug": "0400-route-brochure",
+        "prompt": "Brochure teaching ROUTE checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Route is easier to teach in a brochure.",
+        "image": null
+      },
+      {
+        "slug": "0405-route-mold",
+        "prompt": "Same ring molding dozen trims, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Route is easier to mold into a dozen trims.",
+        "image": null
+      },
+      {
+        "slug": "0410-line-inventor",
+        "prompt": "Factory line labeled REAL INVENTOR, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0415-knee-nostalgia",
+        "prompt": "Knee brace nostalgia red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line does not care about nostalgia for a knee brace.",
+        "image": null
+      },
+      {
+        "slug": "0420-rehook-fact",
+        "prompt": "Cup holder vs seat both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You think the cup holder is a fact, the way a seat is a fact.",
+        "image": null
+      },
+      {
+        "slug": "0425-holder-policy",
+        "prompt": "POLICY stamp on cup ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The cup holder is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0430-hot-cup-merge",
+        "prompt": "Hot cup merging red X ring wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Trusting every driver to balance a hot cup while merging.",
+        "image": null
+      },
+      {
+        "slug": "0435-hope-honest",
+        "prompt": "HOPE honest RINGS scalable scales, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hope is honest. Rings are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0440-un-naturing",
+        "prompt": "Circle NATURAL stamp peeling off, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "I am un-naturing the circle.",
+        "image": null
+      },
+      {
+        "slug": "0445-lap-console",
+        "prompt": "Lap wearing console costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The circle is a lap wearing a console.",
+        "image": null
+      },
+      {
+        "slug": "0450-spill-law",
+        "prompt": "Console SPILL RISK IS LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The console said spill risk can be law.",
+        "image": null
+      },
+      {
+        "slug": "0455-rental-smooth",
+        "prompt": "Rental smooth dash no holder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "If you drove something with no holder, a rental with smooth dash.",
+        "image": null
+      },
+      {
+        "slug": "0500-not-physics",
+        "prompt": "PHYSICS stamp red X on cup slot, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You know the slot is not physics.",
+        "image": null
+      },
+      {
+        "slug": "0505-production-vote",
+        "prompt": "Production line voting for ring wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compromise that won a production vote.",
+        "image": null
+      },
+      {
+        "slug": "0510-spreadsheet-plastic",
+        "prompt": "Spreadsheet plastic trim catalog, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A vote is a spreadsheet with plastic and a trim catalog.",
+        "image": null
+      },
+      {
+        "slug": "0515-mold-travel",
+        "prompt": "Plastic mold traveling across frame, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the mold travel.",
+        "image": null
+      },
+      {
+        "slug": "0520-inventoried-answer",
+        "prompt": "Factory inventory cup rings shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0525-mold-spec-ship",
+        "prompt": "MOLD SPEC SHIP REPLACE conveyor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mold, spec, ship, replace without a knee ritual.",
+        "image": null
+      },
+      {
+        "slug": "0530-heated-rings",
+        "prompt": "Heated ring travel mug LATER CHAPTER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Heated rings, adjustable grips, travel mugs: a later chapter.",
+        "image": null
+      },
+      {
+        "slug": "0535-no-brochure-war",
+        "prompt": "BROCHURE WAR stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Do not make tonight a brochure war about which brand won.",
+        "image": null
+      },
+      {
+        "slug": "0540-object-plastic",
+        "prompt": "PLASTIC RING CONSOLE REPEAT icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: plastic, ring, console, repeat.",
+        "image": null
+      },
+      {
+        "slug": "0545-catalog-referendum",
+        "prompt": "Quiet catalog REFERENDUM whisper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0550-minivan-vs-knee",
+        "prompt": "Six rings vs knee brace gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your minivan has six rings and your history book has a knee brace.",
+        "image": null
+      },
+      {
+        "slug": "0555-inventory-fight",
+        "prompt": "Past losing fight INVENTORY filing cabinet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Inventory is how the past loses a fight without filing a complaint.",
+        "image": null
+      },
+      {
+        "slug": "0600-this-is-you",
+        "prompt": "Stickman labeled THIS IS YOU drive-through, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you, already, in the middle of the story.",
+        "image": null
+      },
+      {
+        "slug": "0605-tuesday-reach",
+        "prompt": "Tuesday drive-through reach no thank you, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Tuesday, a drive-through window, a reach without thanking a photographer.",
+        "image": null
+      },
+      {
+        "slug": "0610-slide-cup",
+        "prompt": "Cup sliding into ring RECKLESS without, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You slide a cup into plastic because turning would feel reckless.",
+        "image": null
+      },
+      {
+        "slug": "0615-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY stamp on turn, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0620-after-1984",
+        "prompt": "Timeline after 1984 van brochure, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after nineteen eighty four van brochures.",
+        "image": null
+      },
+      {
+        "slug": "0625-console-furniture",
+        "prompt": "Console learning FURNITURE morph, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After consoles learned furniture.",
+        "image": null
+      },
+      {
+        "slug": "0630-travel-mug-beeps",
+        "prompt": "Ring hosting oversized travel mug, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After a ring learned to host travel mugs.",
+        "image": null
+      },
+      {
+        "slug": "0635-relief-insult",
+        "prompt": "Relief checkmark insult diner habit wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not guard with knees, insult a diner habit won.",
+        "image": null
+      },
+      {
+        "slug": "0640-knee-imagination",
+        "prompt": "Ghost knee brace failing imagination, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The knee brace failing in your imagination.",
+        "image": null
+      },
+      {
+        "slug": "0645-never-voted",
+        "prompt": "Interior peace NEVER VOTED stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for interior peace with a part you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0650-cheerful-ring",
+        "prompt": "Smiling ring lap costume hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a ring stays without looking like a lap.",
+        "image": null
+      },
+      {
+        "slug": "0655-compromises-console",
+        "prompt": "Car pile COMPROMISES console bolted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A car is a pile of compromises with a console attached.",
+        "image": null
+      },
+      {
+        "slug": "0700-take-holder-away",
+        "prompt": "Cabin puzzle nobody wins no holder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the cup holder away and the cabin becomes a workshop puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0705-mold-spill",
+        "prompt": "MOLD SPILL RADIUS TRIM labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mold geometry, spill radius, assembly time, replacement trim.",
+        "image": null
+      },
+      {
+        "slug": "0710-diagram-sip",
+        "prompt": "Ring diagram SIP without footwell story, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The ring is a diagram of how to sip without the footwell story.",
+        "image": null
+      },
+      {
+        "slug": "0715-reach-vote",
+        "prompt": "Reach voting CIRCLE OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The reach is a vote for a circle sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0720-personality-swap",
+        "prompt": "SWAP arrow lap to molded ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was always the swap.",
+        "image": null
+      },
+      {
+        "slug": "0725-lap-guard-icon",
+        "prompt": "Lap guard and dash balance icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A lap guard, a dash balance.",
+        "image": null
+      },
+      {
+        "slug": "0730-minivan-brochure",
+        "prompt": "Minivan brochure console line icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A minivan brochure, a molded console line.",
+        "image": null
+      },
+      {
+        "slug": "0735-trim-forgot-diner",
+        "prompt": "Trim sheet forgetting diner booth, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A trim sheet that forgot your diner booth.",
+        "image": null
+      },
+      {
+        "slug": "0740-treaty-fleet",
+        "prompt": "School run fleet ring TREATY handshake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a school-run fleet treating a ring as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0745-what-we-traded",
+        "prompt": "Knee truth GRAVITY traded away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded a knee that told the truth about gravity.",
+        "image": null
+      },
+      {
+        "slug": "0750-molded-photographed",
+        "prompt": "Molded photographed forgotten ring on line, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "For a slot that could be molded, photographed, and forgotten.",
+        "image": null
+      },
+      {
+        "slug": "0755-real-help",
+        "prompt": "Fewer spills dignity COFFEE parts bin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Real help: fewer spills, dignity, coffee from a parts bin.",
+        "image": null
+      },
+      {
+        "slug": "0800-miracle-part-number",
+        "prompt": "MIRACLE and PART NUMBER both true, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0805-myth-nature",
+        "prompt": "MYTH NATURE ADULT CABIN stamps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the cup holder is nature and the ring is the only adult cabin.",
+        "image": null
+      },
+      {
+        "slug": "0810-lap-console-name",
+        "prompt": "Lap wearing CONSOLE name tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the lap and called it a console.",
+        "image": null
+      },
+      {
+        "slug": "0815-diner-history",
+        "prompt": "Diner booth labeled HISTORY museum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the diner and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0820-policy-manners",
+        "prompt": "Policy cup ring in polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The holder is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0825-dyno-era",
+        "prompt": "Dyno chart preaching WHOLE SERMON label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "There was an era when the dyno chart was the whole sermon.",
+        "image": null
+      },
+      {
+        "slug": "0830-spill-footwell",
+        "prompt": "Spill in footwell LECTURE red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A spill in the footwell is a lecture nobody wants.",
+        "image": null
+      },
+      {
+        "slug": "0835-console-real-estate",
+        "prompt": "Console REAL ESTATE beverage department, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The console is real estate with a beverage department.",
+        "image": null
+      },
+      {
+        "slug": "0840-interior-separate",
+        "prompt": "Interior peace SEPARATE HOMEWORK label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Interior peace arrived as a separate homework assignment.",
+        "image": null
+      },
+      {
+        "slug": "0845-drive-through-line",
+        "prompt": "Drive-through line teaching WAITING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The drive-through line taught the cabin what waiting means.",
+        "image": null
+      },
+      {
+        "slug": "0850-trim-photograph",
+        "prompt": "Trim sheet photograph learned to SELL, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A trim sheet is a photograph that learned to sell.",
+        "image": null
+      },
+      {
+        "slug": "0855-coffee-commute",
+        "prompt": "Commute wanting coffee cabin disagreeing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The commute wanted coffee before the cabin agreed.",
+        "image": null
+      },
+      {
+        "slug": "0900-ring-count",
+        "prompt": "Six cup rings FAMILY POLICY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Six rings is a family policy written in plastic.",
+        "image": null
+      },
+      {
+        "slug": "0905-brochure-dyno",
+        "prompt": "Brochure beating dyno chart ALIKE numbers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The brochure beat the dyno when the numbers sounded alike.",
+        "image": null
+      },
+      {
+        "slug": "0910-click-sound",
+        "prompt": "Cup click sound CONTRACT ears trust, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The click sound is a contract your ears learned to trust.",
+        "image": null
+      },
+      {
+        "slug": "0915-plastic-wear",
+        "prompt": "Worn plastic new mold same CIRCLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Plastic wears, molds swap, the circle stays.",
+        "image": null
+      },
+      {
+        "slug": "0920-regulators-shelf",
+        "prompt": "Regulator placing ring on SHELF not invent, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Regulators did not invent the ring. They shelved it.",
+        "image": null
+      },
+      {
+        "slug": "0925-fleet-treaty",
+        "prompt": "Identical cup rings TREATY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A school-run fleet is a treaty written in identical rings.",
+        "image": null
+      },
+      {
+        "slug": "0930-wrist-memory",
+        "prompt": "Wrist with slot MEMORY ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your wrist remembers a slot you never chose.",
+        "image": null
+      },
+      {
+        "slug": "0935-knee-ghost",
+        "prompt": "Knee brace ghost in modern cabin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The knee brace is still a ghost in every cabin.",
+        "image": null
+      },
+      {
+        "slug": "0940-plastic-cheerful",
+        "prompt": "Cheerful plastic circle POLICY costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Plastic is cheerful. Cheerful is how policy wears a circle.",
+        "image": null
+      },
+      {
+        "slug": "0945-reach-before-roll",
+        "prompt": "Reach then ROLL PERMISSION stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You reach before you roll as if roll required permission.",
+        "image": null
+      },
+      {
+        "slug": "0950-layout-plastic",
+        "prompt": "People nodding at plastic no argue, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A pile of people who agreed not to argue with plastic.",
+        "image": null
+      },
+      {
+        "slug": "0955-pull-away",
+        "prompt": "Callback pulling away cup in ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will pull away from the window. The ring will still be there.",
+        "image": null
+      },
+      {
+        "slug": "1000-feel-nothing",
+        "prompt": "Blank calm face victory at cup click, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1005-look-slot",
+        "prompt": "Slot between red X sky and red X hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the slot. Not the sky and not a horsepower hero.",
+        "image": null
+      },
+      {
+        "slug": "1010-named-stack",
+        "prompt": "Stack icons knee dash brochure console photo, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Knee brace, dash balance, nineteen eighty four brochure, molded console, showroom photo.",
+        "image": null
+      },
+      {
+        "slug": "1015-circle-law",
+        "prompt": "Commute circle stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A circle that owns your commute so plastic stays law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-reach",
+        "prompt": "Reach ok hate spills still driving, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to reach. Allowed to hate spill season and still drive.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "NATURAL stamp red X on ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the cup holder natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-lap",
+        "prompt": "Salute to lap leaving cabin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a lap that left the cabin.",
+        "image": null
+      },
+      {
+        "slug": "1040-ring-point",
+        "prompt": "Cheerful salute on plastic ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The ring is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-circle",
+        "prompt": "Stickman driving cup labeled which circle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the slot lets you. Know which circle you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-glance-cheerful",
+        "prompt": "Smiling ring lap ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a ring stays without looking like a lap.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback knee SHOWROOM YOUR REACH, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A knee. A showroom. Your reach.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why a Cup Holder Beat Horsepower",
+    "description": "Your cup slot feels obvious. Early drivers balanced coffee on knees. Nineteen eighty four minivan brochures made the cabin the pitch. The molded ring is logistics.",
+    "tags": [
+      "cup holder",
+      "minivan",
+      "car interior",
+      "chrysler",
+      "history",
+      "why",
+      "car",
+      "design",
+      "horsepower"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "CUP WON?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will reach for a plastic ring and treat the cabin as the sale. Your hand will find a cup slot as if the car grew a kitchen because cars do kitchens. Here is the part that should bother you. The first motorists did not agree. Many of them gripped a wheel and accepted that coffee lived in peril between their knees, on the floor, or in a passenger's lap like a hostage. So why does your dash wear a cup ring as if the ring were physics? Because drive-through windows arrived before stable slots did, because minivan showrooms learned that families buy interior peace faster than they buy horsepower bragging rights, because Chrysler's nineteen eighty four front-wheel-drive vans put cupholders in the conversation when the engine was already a commodity, and because factories learned that a molded ring is easier to photograph than a dyno chart. That is the whole plot. Your sip is not ergonomics by nature. It is a leftover diner habit that learned to live in molded plastic. You still reach. The reach is flattered. That is its job. The road did not vote. A showroom did, and then a ring that taught your wrist the slot until the slot started calling itself sense. Sense is a word a cup invented so a commute would still feel like law when the diner was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the knee, because the cup holder stole a lap and then sold it back as plastic. Before minivans, before molded consoles, before a dashboard could host six rings without irony, drinking in a car was a negotiation with gravity you could not argue with. Early drivers wedged. Early passengers guarded. Some cars offered nothing but a flat tray and the social contract that you would not brake hard. When slots arrived, they were honest and late. A ring that says hold here is a diner cup wearing geometry. It does not say the coffee is safe until the mold agrees with your cup size. If your holder still feels like the only adult option, notice that the adult option started as fast-food paperwork dragged onto a cabin that was not a table. The cabin did not offer a saucer. The cup still wanted a hand until the hand got tired of being the only suspension. The hand was not a miracle. It was logistics.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a ring gets a halo it did not earn. The cup holder is not a single eureka moment you can pin on one hero with a plaque. It is a layer cake of drive-through culture, family vans, and a molded circle that behaved nicely when you needed to sell an interior in a photograph. Chrysler's nineteen eighty four Dodge Caravan and Plymouth Voyager did not invent the cup, but they helped teach American showrooms that the cabin could be the pitch when horsepower numbers started sounding alike. Honda and Toyota followed with family vans that treated storage like furniture. Patent archives fill with ring shapes from the nineteen eighties onward, which is the quiet way a habit becomes a part number. If you still treat the slot as sacred plastic, file the brochure separately from the commute. Your ring is a minivan showroom complaint wearing a decade of molded circles.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the cup leave the hand, because a horizontal car of errands needed a ring that did not require a passenger to become a table. Early coffee tricks were honest and exhausting. Hold between knees. Balance on the dash. Pass to the right. Repeat. A molded holder is a small insult to gravity with a large gift to the driver. The ring grips low. The console repeats. The slot says stay here without asking the latte to negotiate with every stoplight. I am not giving you a list of firsts. I am pointing at the swap. We took a lap that said guard this and we replaced it with a circle that said route the cup here. Route is easier to teach in a brochure. Route is easier to mold into a dozen trims. Route is easier to repeat when the line speeds up. The line is the real inventor. The line does not care about your nostalgia for a knee brace. The line cares about rings that fit and drivers who stay inside the cabin plan.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the cup holder is a fact, the way a seat is a fact. The cup holder is a policy. In a modern cabin the policy is already on, because the alternative is trusting every driver to balance a hot cup on a slope while merging at forty miles an hour with one hand on hope. Hope is honest. Rings are scalable. Scalable is how a convenience escapes the diner booth and becomes something a fleet can own in numbers. I am not calling you clumsy for liking a slot. I am un-naturing the circle. The circle is a lap wearing a console. The console said spill risk can be law. Law is a feeling when your hand finds a ring without remembering when it learned it. If you have ever driven something with no holder, even a rental with a smooth dash, you know the slot is not physics. It is a compromise that won a production vote. A vote is not a horsepower chart. A vote is a spreadsheet with plastic and a trim catalog.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the mold travel. Mass production did not invent coffee. It inventoried the answer. When the same cabin had to repeat across a family line, the cup holder became the part you could mold, spec, ship, and replace without translating a knee ritual for every chassis. Heated rings, adjustable grips, oversized slots for travel mugs: decades later the circle could warm and flex, a useful chapter about watts and molds, not the origin story of the ring itself. Do not make tonight a brochure war about which brand won. Make it about the object: plastic, ring, console, repeat. A catalog is a quiet referendum. If your minivan has six rings and your history book has a knee brace, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a drive-through window, a reach you have performed a thousand times without thanking a showroom photographer. You slide a cup into plastic because turning would feel reckless without a ring, which is the most modern impossibility there is. None of this makes you weak by nature. It makes you a person born after the nineteen eighty four van brochures and after consoles learned furniture and after a ring learned to host travel mugs that beep. You can feel both in the same motion: relief that you do not have to guard a cup with your knees, and a tiny insult that a diner habit won a dash slot. The relief is real. The insult is the knee brace failing for a second in your imagination. You paid for interior peace with a part you never voted on. The part is cheerful. Cheerful is how a ring stays in the century without looking like a lap.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A car is a pile of compromises with a console attached. That sentence is rude and almost fair. Take the cup holder away and the cabin becomes a workshop puzzle nobody wins, or a passenger who becomes a table until the coffee cools. Mold geometry, spill radius, assembly time, replacement trim: the ring is a diagram of how to sip without sending the whole drink into the footwell story, written by someone you will not meet. You still reach. The reach is a vote for a circle that was sold as obvious. I am not telling you to hunt for a knee brace as a personality. I am telling you the personality was always the swap: a lap guard, a dash balance, a minivan brochure, a molded console line, a trim sheet that forgot your diner booth. The crowd is still in the cabin. The crowd is you and a school-run fleet treating a ring as a treaty. So what did we trade? We traded a knee that told the truth about gravity for a slot that could be molded, photographed, and forgotten. That tooling is real help: fewer spills, a passenger who keeps dignity, a coffee you can route with a parts bin. Help can be a miracle and still be a part number. We also gained a myth that the cup holder is nature and the ring is the only adult cabin. We kept the lap and called it a console. We kept the diner and called it history. Both can be true and still not be a reason to forget the holder is a policy that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will pull away from the window. The ring will still be there. You will feel nothing, which is the victory. Look at the slot. That is not the sky and it is not a horsepower hero. That is a knee brace, a dash balance, a nineteen eighty four van brochure, a molded console that replaced a lap, a showroom photograph that replaced a dyno chart, a brief later chapter about heated rings if you must, and a circle that still owns your commute so you will keep treating plastic as law. You are allowed to reach. You are allowed to hate spill season and still drive. Just stop calling the cup holder natural, or inevitable, or proof that you are modern. Tonight, when the cup clicks into plastic, look at it like a leftover salute to a lap that left the cabin. The salute is cheerful. The ring is the point. Go when the slot lets you. Know which circle you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

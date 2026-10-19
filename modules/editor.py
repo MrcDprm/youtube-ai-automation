@@ -498,6 +498,8 @@ class MoviePyEditor(IVideoEditor):
         scenario: Scenario,
         font_path: Path | None,
         out_path: Path,
+        *,
+        word_cues: list[WordCue] | None = None,
     ) -> Path:
         """Render equal-time stills under concatenated narration via ffmpeg.
 
@@ -532,7 +534,16 @@ class MoviePyEditor(IVideoEditor):
             )
 
         try:
-            plan = plan_story_visual(total_audio, scenario.video.story_visual)
+            if beats and len({beat.weight for beat in beats}) > 1:
+                from modules.story_timeline import plan_weighted_visual
+
+                plan = plan_weighted_visual(
+                    total_audio,
+                    [beat.weight for beat in beats],
+                    zoom_end=scenario.video.story_visual.zoom_body_end,
+                )
+            else:
+                plan = plan_story_visual(total_audio, scenario.video.story_visual)
         except ValueError as exc:
             raise RenderError(str(exc)) from exc
 
@@ -547,18 +558,40 @@ class MoviePyEditor(IVideoEditor):
         vf: list[str] = []
         if scenario.subtitles.enabled and scenario.subtitles.burn_in and font_path is not None:
             ass_path = self._temp_dir / f"{out_path.stem}.ass"
-            from modules.subtitle import cues_to_ass, write_ass
+            from modules.subtitle import cues_to_ass, subtitle_margin_v, write_ass
 
-            body = cues_to_ass(
-                subtitle_cues,
-                play_res_x=scenario.video.width,
-                play_res_y=scenario.video.height,
-                font_name=_ass_font_name(font_path),
-                font_size=scenario.subtitles.font_size,
-                primary=scenario.subtitles.color,
-                outline=scenario.subtitles.stroke_width,
+            margin_v = subtitle_margin_v(
+                scenario.video.height,
+                scenario.subtitles.position_ratio,
             )
-            write_ass(subtitle_cues, ass_path, body)
+            if scenario.subtitles.karaoke and word_cues:
+                accent = scenario.subtitles.accent_color or "#FFD600"
+                body = word_cues_to_karaoke_ass(
+                    word_cues,
+                    play_res_x=scenario.video.width,
+                    play_res_y=scenario.video.height,
+                    font_name=_ass_font_name(font_path),
+                    font_size=scenario.subtitles.font_size,
+                    primary=scenario.subtitles.color,
+                    accent=accent,
+                    margin_v=margin_v,
+                    outline=scenario.subtitles.stroke_width,
+                    max_chars_per_line=scenario.subtitles.max_chars_per_line,
+                    max_lines=scenario.subtitles.max_lines,
+                )
+                write_karaoke_ass(word_cues, ass_path, body)
+            else:
+                body = cues_to_ass(
+                    subtitle_cues,
+                    play_res_x=scenario.video.width,
+                    play_res_y=scenario.video.height,
+                    font_name=_ass_font_name(font_path),
+                    font_size=scenario.subtitles.font_size,
+                    primary=scenario.subtitles.color,
+                    margin_v=margin_v,
+                    outline=scenario.subtitles.stroke_width,
+                )
+                write_ass(subtitle_cues, ass_path, body)
             vf = [self._ass_filter(ass_path, font_path.parent)]
 
         self._mux_story(visual_path, audio_path, out_path, scenario, vf)

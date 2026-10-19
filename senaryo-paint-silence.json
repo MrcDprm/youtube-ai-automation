@@ -1,0 +1,1018 @@
+{
+  "project_id": "why-quiet-got-expensive-11dk-20260824",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-headphones-on",
+        "prompt": "Stickman putting huge over-ear headphones on a bus, MS Paint, white background.",
+        "covers": "You put on over-ear headphones and the bus dies.",
+        "image": null
+      },
+      {
+        "slug": "0005-people-hiss",
+        "prompt": "Bus door hiss, stick passengers, sound X, MS Paint.",
+        "covers": "Not the engine. The people. The hiss of the door.",
+        "image": null
+      },
+      {
+        "slug": "0010-kids-video",
+        "prompt": "Child stickman phone blasting, annoyed neighbors, MS Paint.",
+        "covers": "A kid's video with no headphones of its own.",
+        "image": null
+      },
+      {
+        "slug": "0015-plastic-cups",
+        "prompt": "Giant plastic ear cups sealing on a round head, MS Paint.",
+        "covers": "You press a cup of plastic over each ear.",
+        "image": null
+      },
+      {
+        "slug": "0020-movie-muted",
+        "prompt": "City skyline with a MUTE slider, stickman watching, MS Paint.",
+        "covers": "The city becomes a movie with the sound turned down.",
+        "image": null
+      },
+      {
+        "slug": "0025-default-room",
+        "prompt": "Empty quiet room, DEFAULT sticker, MS Paint.",
+        "covers": "Silence used to be the default setting of a room.",
+        "image": null
+      },
+      {
+        "slug": "0030-no-cable",
+        "prompt": "Silence with a red X on a charging cable, MS Paint.",
+        "covers": "It did not come with a charging cable.",
+        "image": null
+      },
+      {
+        "slug": "0035-three-hundred",
+        "prompt": "Headphones price 300, train, MS Paint.",
+        "covers": "It did not cost three hundred dollars to make a train bearable.",
+        "image": null
+      },
+      {
+        "slug": "0040-luxury-head",
+        "prompt": "Headphones wearing a luxury crown, stickman, MS Paint.",
+        "covers": "Why does quiet feel like a luxury good on your head?",
+        "image": null
+      },
+      {
+        "slug": "0045-factories-shout",
+        "prompt": "Shouting factory, never-sleeping city, MS Paint.",
+        "covers": "Factories learned to shout. Cities learned to never stop.",
+        "image": null
+      },
+      {
+        "slug": "0050-professor-plane",
+        "prompt": "Stick professor on a plane, headset vs air, MS Paint.",
+        "covers": "A professor on an airplane invented a machine that argues with air.",
+        "image": null
+      },
+      {
+        "slug": "0055-not-peace",
+        "prompt": "Headphones labeled REFUND not PEACE, MS Paint.",
+        "covers": "Your headphones are not peace. They are a refund.",
+        "image": null
+      },
+      {
+        "slug": "0100-tap-cup",
+        "prompt": "Finger tapping a smiling earcup, MS Paint.",
+        "covers": "You tap the earcup. The earcup is flattered.",
+        "image": null
+      },
+      {
+        "slug": "0105-older-quiet",
+        "prompt": "Village path, no factories, stickman listening, MS Paint.",
+        "covers": "Start with the older quiet.",
+        "image": null
+      },
+      {
+        "slug": "0110-stole-room",
+        "prompt": "Headphones stealing a room, FEATURE tag, MS Paint.",
+        "covers": "The headphone stole a room and sold it back as a feature.",
+        "image": null
+      },
+      {
+        "slug": "0115-storm-dog-bell",
+        "prompt": "Storm, dog, bell, market stall, four icons, MS Paint.",
+        "covers": "Loud things had names: a storm, a dog, a bell, a market.",
+        "image": null
+      },
+      {
+        "slug": "0120-night-not-factory",
+        "prompt": "Moon over a dark village, factory far and tiny, MS Paint.",
+        "covers": "Night was mostly dark and mostly not a factory.",
+        "image": null
+      },
+      {
+        "slug": "0125-village-quiet",
+        "prompt": "Village with a resting hammer, MS Paint.",
+        "covers": "A village was quiet like a place that ran out of reasons to bang.",
+        "image": null
+      },
+      {
+        "slug": "0130-steam-whisper",
+        "prompt": "Steam engine shouting, whisper X, MS Paint.",
+        "covers": "Steam arrived. Steam does not know how to whisper.",
+        "image": null
+      },
+      {
+        "slug": "0135-lancashire-mill",
+        "prompt": "Mill belts, iron, speech bubbles eaten, LANCASHIRE, MS Paint.",
+        "covers": "A Lancashire mill of belts and iron ate conversations.",
+        "image": null
+      },
+      {
+        "slug": "0140-lip-read",
+        "prompt": "Two mill workers reading lips, noisy gears, MS Paint.",
+        "covers": "Workers learned to lip-read.",
+        "image": null
+      },
+      {
+        "slug": "0145-ringing-home",
+        "prompt": "Stickman in bed, ringing ears, bird with red X, MS Paint.",
+        "covers": "They went home with a ringing that belonged to no bird.",
+        "image": null
+      },
+      {
+        "slug": "0150-injury-commute",
+        "prompt": "Ear injury riding a train, MS Paint.",
+        "covers": "The ringing was an injury that learned to commute.",
+        "image": null
+      },
+      {
+        "slug": "0155-open-office",
+        "prompt": "Open office of talking stick people, overwhelmed one, MS Paint.",
+        "covers": "Your open office feels a bit much.",
+        "image": null
+      },
+      {
+        "slug": "0200-mill-no-button",
+        "prompt": "Mill with a missing CANCEL button, MS Paint.",
+        "covers": "The mill floor had no noise-cancel button.",
+        "image": null
+      },
+      {
+        "slug": "0205-cotton-wage",
+        "prompt": "Cotton bale and wage envelope, ears left behind, MS Paint.",
+        "covers": "It offered cotton and a wage. Not your ears.",
+        "image": null
+      },
+      {
+        "slug": "0210-progress-looms",
+        "prompt": "Tally of looms, ignored ringing ear, MS Paint.",
+        "covers": "Progress counted looms. Not the leftover ring.",
+        "image": null
+      },
+      {
+        "slug": "0215-city-inside-out",
+        "prompt": "City wearing a mill as a coat labeled PROGRESS, MS Paint.",
+        "covers": "Cities turned the mill inside out and called it progress.",
+        "image": null
+      },
+      {
+        "slug": "0220-rice-1906",
+        "prompt": "Stick physician RICE, New York skyline 1906, MS Paint.",
+        "covers": "Nineteen hundred six, New York: Julia Barnett Rice.",
+        "image": null
+      },
+      {
+        "slug": "0225-tugboat-horns",
+        "prompt": "Tugboat blasting a horn, Rice covering ears, MS Paint.",
+        "covers": "A low tolerance for tugboat horns.",
+        "image": null
+      },
+      {
+        "slug": "0230-society-noise",
+        "prompt": "Banner SOCIETY UNNECESSARY NOISE, MS Paint.",
+        "covers": "Society for the Suppression of Unnecessary Noise.",
+        "image": null
+      },
+      {
+        "slug": "0235-joke-until",
+        "prompt": "Apartment next to honking boats, not laughing, MS Paint.",
+        "covers": "The name is a joke until you live next to honking boats.",
+        "image": null
+      },
+      {
+        "slug": "0240-hospital-whistles",
+        "prompt": "Hospital kids awake, steam whistle, MS Paint.",
+        "covers": "Children's hospitals kept awake by steam whistles.",
+        "image": null
+      },
+      {
+        "slug": "0245-quiet-zones",
+        "prompt": "Map with QUIET ZONE, ordinance paper, MS Paint.",
+        "covers": "She got quiet zones. She got ordinances.",
+        "image": null
+      },
+      {
+        "slug": "0250-not-a-monk",
+        "prompt": "Rice not a monk, noise dumped on small houses, MS Paint.",
+        "covers": "She was not a monk. She noticed dumped noise.",
+        "image": null
+      },
+      {
+        "slug": "0255-commerce-dump",
+        "prompt": "Factory dumping sound on poor street, COMMERCE, MS Paint.",
+        "covers": "The powerful dump noise and call it commerce.",
+        "image": null
+      },
+      {
+        "slug": "0300-el-train",
+        "prompt": "El train outside a bedroom, no consent form, MS Paint.",
+        "covers": "The elevated train did not ask your bedroom for consent.",
+        "image": null
+      },
+      {
+        "slug": "0305-whistle-rsvp",
+        "prompt": "Whistle ignoring an RSVP card, MS Paint.",
+        "covers": "The factory whistle did not RSVP.",
+        "image": null
+      },
+      {
+        "slug": "0310-leaf-blower",
+        "prompt": "Leaf blower vs neighbor stickman, RIGHT?, MS Paint.",
+        "covers": "If your leaf blower feels like a neighbor's right.",
+        "image": null
+      },
+      {
+        "slug": "0315-unnecessary-word",
+        "prompt": "Big word UNNECESSARY, Rice pointing, MS Paint.",
+        "covers": "Rice's word is unnecessary.",
+        "image": null
+      },
+      {
+        "slug": "0320-product-page-won",
+        "prompt": "Product page trophy, tiny hospital quiet zone, MS Paint.",
+        "covers": "The product page won the century. The hat got a hospital zone.",
+        "image": null
+      },
+      {
+        "slug": "0325-etiquette-volume",
+        "prompt": "Etiquette book shushing a loud kitchen, MS Paint.",
+        "covers": "Silence became etiquette. A class teaching its volume.",
+        "image": null
+      },
+      {
+        "slug": "0330-library-deal",
+        "prompt": "Library stick figures silent, thinking bubbles, MS Paint.",
+        "covers": "A library decided thinking requires nobody to speak.",
+        "image": null
+      },
+      {
+        "slug": "0335-velvet-rope",
+        "prompt": "Library door with a velvet rope, MS Paint.",
+        "covers": "A beautiful deal and a velvet rope.",
+        "image": null
+      },
+      {
+        "slug": "0340-loud-kitchen",
+        "prompt": "Loud kitchen vs library TEST, kid stickman, MS Paint.",
+        "covers": "A loud kitchen makes the library feel like a secret test.",
+        "image": null
+      },
+      {
+        "slug": "0345-open-plan-reverse",
+        "prompt": "Warehouse office of calls, no walls, MS Paint.",
+        "covers": "Open-plan offices reversed the deal.",
+        "image": null
+      },
+      {
+        "slug": "0350-team-player",
+        "prompt": "TEAM PLAYER stamp on a headphone hater, MS Paint.",
+        "covers": "If you hated it you were not a team player.",
+        "image": null
+      },
+      {
+        "slug": "0355-furniture-voted",
+        "prompt": "Desks voting, people not voting, MS Paint.",
+        "covers": "The team did not vote. The furniture did.",
+        "image": null
+      },
+      {
+        "slug": "0400-short-cubicles",
+        "prompt": "Short cubicle, huge headphones, MS Paint.",
+        "covers": "Cubicle walls got shorter. Headphones got bigger.",
+        "image": null
+      },
+      {
+        "slug": "0405-portable-carrel",
+        "prompt": "Headphones as a tiny carrel, refused building, MS Paint.",
+        "covers": "A headset is a portable library carrel the building refused.",
+        "image": null
+      },
+      {
+        "slug": "0410-not-shush-police",
+        "prompt": "Librarian whistle with red X, MS Paint.",
+        "covers": "Not nostalgic for shushing librarians as police.",
+        "image": null
+      },
+      {
+        "slug": "0415-the-swap",
+        "prompt": "Shared quiet room becoming foam earcups, MS Paint.",
+        "covers": "We took shared quiet and sold it as foam.",
+        "image": null
+      },
+      {
+        "slug": "0420-wireless-chip",
+        "prompt": "Foam + chip labeled PERSONALITY, MS Paint.",
+        "covers": "Personality as foam and a wireless chip.",
+        "image": null
+      },
+      {
+        "slug": "0425-rehook-empty",
+        "prompt": "Blank page vs headphones, stickman, MS Paint.",
+        "covers": "Rehook: you think silence is empty like a blank page.",
+        "image": null
+      },
+      {
+        "slug": "0430-cage-1952",
+        "prompt": "Concert hall MAVERICK, CAGE 1952, pianist, MS Paint.",
+        "covers": "Nineteen fifty two, Woodstock: John Cage, Maverick Hall.",
+        "image": null
+      },
+      {
+        "slug": "0435-four-33",
+        "prompt": "Piano, timer 4:33, pianist not touching keys, MS Paint.",
+        "covers": "Four minutes thirty-three seconds of not playing.",
+        "image": null
+      },
+      {
+        "slug": "0440-prank-until",
+        "prompt": "Audience stickman hearing chairs and rain, MS Paint.",
+        "covers": "A prank until you sit in it.",
+        "image": null
+      },
+      {
+        "slug": "0445-hear-chairs",
+        "prompt": "Chairs, rain, tiny self-radio, MS Paint.",
+        "covers": "You hear chairs. You hear rain. You hear yourself.",
+        "image": null
+      },
+      {
+        "slug": "0450-anechoic",
+        "prompt": "Box room eating echo waves, Cage sitting, MS Paint.",
+        "covers": "Cage in an anechoic chamber that eats echoes.",
+        "image": null
+      },
+      {
+        "slug": "0455-blood-nerves",
+        "prompt": "Body as radio, high and low waves, MS Paint.",
+        "covers": "He still heard blood and nerves, high tone and low.",
+        "image": null
+      },
+      {
+        "slug": "0500-un-nature-cup",
+        "prompt": "Nature sticker peeling off a headphone cup, MS Paint.",
+        "covers": "Trying to un-nature the earcup.",
+        "image": null
+      },
+      {
+        "slug": "0505-filter-logo",
+        "prompt": "Filter headphones with a brand scribble, MS Paint.",
+        "covers": "The quiet you buy is a filter with a logo.",
+        "image": null
+      },
+      {
+        "slug": "0510-quietest-room",
+        "prompt": "Tourist room MINNEAPOLIS, body radio, MS Paint.",
+        "covers": "A quietest-on-earth room in Minneapolis still plays your body.",
+        "image": null
+      },
+      {
+        "slug": "0515-cannot-fire-blood",
+        "prompt": "Headphones vs bus, blood still beating, MS Paint.",
+        "covers": "Headphones cannot fire your blood. They argue with the bus.",
+        "image": null
+      },
+      {
+        "slug": "0520-argument-battery",
+        "prompt": "Headphones plugged into a battery, ARGUMENT, MS Paint.",
+        "covers": "Argument is a product that needs a battery.",
+        "image": null
+      },
+      {
+        "slug": "0525-room-lost",
+        "prompt": "Sad room vs winning battery, MS Paint.",
+        "covers": "A battery is an admission that the room lost.",
+        "image": null
+      },
+      {
+        "slug": "0530-bose-mit",
+        "prompt": "Stick professor BOSE, MIT, airplane noise, MS Paint.",
+        "covers": "Amar Gopal Bose, MIT professor, hated airplane sound.",
+        "image": null
+      },
+      {
+        "slug": "0535-flight-1978",
+        "prompt": "Airplane 1978, leaky airline headset, MS Paint.",
+        "covers": "Transatlantic flight, nineteen seventy eight, airline headphones fail.",
+        "image": null
+      },
+      {
+        "slug": "0540-roommate-engine",
+        "prompt": "Engine as a roommate on the plane, MS Paint.",
+        "covers": "The engine came through like a roommate who never leaves.",
+        "image": null
+      },
+      {
+        "slug": "0545-sketch-opposite",
+        "prompt": "Sketch: noise wave vs opposite wave in an ear, MS Paint.",
+        "covers": "He sketched a headset that plays the opposite of noise.",
+        "image": null
+      },
+      {
+        "slug": "0550-war-canal",
+        "prompt": "Tiny war inside an ear canal, MS Paint.",
+        "covers": "A little war in the ear canal.",
+        "image": null
+      },
+      {
+        "slug": "0555-pilots-1989",
+        "prompt": "Pilot headset 1989, ANR, MS Paint.",
+        "covers": "Nineteen eighty nine: active noise control for pilots.",
+        "image": null
+      },
+      {
+        "slug": "0600-consumer-silver",
+        "prompt": "Silver headphones, commute labeled STUDIO, MS Paint.",
+        "covers": "Later, a silver consumer version. Commute as studio.",
+        "image": null
+      },
+      {
+        "slug": "0605-science-real",
+        "prompt": "Lab flask vs lullaby catalog, MS Paint.",
+        "covers": "The science is real. The marketing is a lullaby.",
+        "image": null
+      },
+      {
+        "slug": "0610-anti-noise-trick",
+        "prompt": "Physics medal vs catalog PEACE, MS Paint.",
+        "covers": "Anti-noise is a physics trick. Peace is a catalog trick.",
+        "image": null
+      },
+      {
+        "slug": "0615-self-care-patch",
+        "prompt": "Bandage headphones on a shouting city, MS Paint.",
+        "covers": "Self-care is a patch so the city need not lower its voice.",
+        "image": null
+      },
+      {
+        "slug": "0620-patch-allowed",
+        "prompt": "OK stamp on patch, city labeled PLOT, MS Paint.",
+        "covers": "The patch is allowed. The city is the plot.",
+        "image": null
+      },
+      {
+        "slug": "0625-quieter-street",
+        "prompt": "Quiet street, sequels of headphones cancelled, MS Paint.",
+        "covers": "A quieter street does not need a sequel of earcups.",
+        "image": null
+      },
+      {
+        "slug": "0630-first-class-quiet",
+        "prompt": "First-class seat labeled QUIET, expensive, MS Paint.",
+        "covers": "First-class cabins sell quiet as a seat.",
+        "image": null
+      },
+      {
+        "slug": "0635-quiet-car",
+        "prompt": "Train car QUIET, chalk line, phone argument, MS Paint.",
+        "covers": "Quiet cars on trains: a chalk line through courtesy.",
+        "image": null
+      },
+      {
+        "slug": "0640-phone-theology",
+        "prompt": "Two stickmen arguing phones vs theology book, MS Paint.",
+        "covers": "They argue about phone calls like theology.",
+        "image": null
+      },
+      {
+        "slug": "0645-hotel-soundproof",
+        "prompt": "Hotel bed, SOUNDPROOF 400, MS Paint.",
+        "covers": "Hotels sell soundproof like thread count.",
+        "image": null
+      },
+      {
+        "slug": "0650-other-guests",
+        "prompt": "Thin wall, other guest living, please-X, MS Paint.",
+        "covers": "A number that means please do not hear the other guests.",
+        "image": null
+      },
+      {
+        "slug": "0655-leaf-moto-night",
+        "prompt": "Four noisy street icons, MS Paint.",
+        "covers": "Leaf blowers, motorcycles, night construction, scooter speakers.",
+        "image": null
+      },
+      {
+        "slug": "0700-street-speaker",
+        "prompt": "Street shaped like a speaker, MS Paint.",
+        "covers": "The street learned to be a loudspeaker.",
+        "image": null
+      },
+      {
+        "slug": "0705-store-earmuffs",
+        "prompt": "Store shelf of battery earmuffs, MS Paint.",
+        "covers": "The store sells earmuffs with a battery.",
+        "image": null
+      },
+      {
+        "slug": "0710-airport-foam",
+        "prompt": "Airport shop, foam earplugs bottle SILENCE, MS Paint.",
+        "covers": "Airports sell silence in a bottle of foam.",
+        "image": null
+      },
+      {
+        "slug": "0715-school-note",
+        "prompt": "School note NOISE-SENSITIVE, HVAC cloud, MS Paint.",
+        "covers": "Schools send notes as if HVAC were weather.",
+        "image": null
+      },
+      {
+        "slug": "0720-buy-filter",
+        "prompt": "Shopping bag FILTER vs unsold quiet block, MS Paint.",
+        "covers": "You can buy a better filter. Not a quieter block.",
+        "image": null
+      },
+      {
+        "slug": "0725-politics-slow",
+        "prompt": "Turtle politics vs fast shipping box, MS Paint.",
+        "covers": "Politics is slower than two-day shipping.",
+        "image": null
+      },
+      {
+        "slug": "0730-ears-zoning",
+        "prompt": "Ear wearing a zoning-board badge, MS Paint.",
+        "covers": "Your ears became the zoning board.",
+        "image": null
+      },
+      {
+        "slug": "0735-this-is-you",
+        "prompt": "Stickman Tuesday headphones on a commute, MS Paint.",
+        "covers": "This is you. Two cups on your ears on a Tuesday.",
+        "image": null
+      },
+      {
+        "slug": "0740-food-court-office",
+        "prompt": "Office desks plus food-court noise, MS Paint.",
+        "covers": "An open office that sounds like a food court.",
+        "image": null
+      },
+      {
+        "slug": "0745-one-am-video",
+        "prompt": "1 AM stickman, video, cancel ON, MS Paint.",
+        "covers": "One in the morning, volume down, cancel up.",
+        "image": null
+      },
+      {
+        "slug": "0750-building-alones",
+        "prompt": "Apartment windows, each with headphones, MS Paint.",
+        "covers": "Alone in a building full of other alones.",
+        "image": null
+      },
+      {
+        "slug": "0755-not-fragile",
+        "prompt": "Not-fragile sticker, mill and modern commute, MS Paint.",
+        "covers": "None of this makes you fragile. Born after the mill.",
+        "image": null
+      },
+      {
+        "slug": "0800-air-lost",
+        "prompt": "Air losing a debate to a headset, MS Paint.",
+        "covers": "A professor decided the air should lose an argument.",
+        "image": null
+      },
+      {
+        "slug": "0805-toddler-relief",
+        "prompt": "Toddler speaker X, relieved stickman, MS Paint.",
+        "covers": "Relief that the toddler speaker died.",
+        "image": null
+      },
+      {
+        "slug": "0810-shame-product",
+        "prompt": "Tiny shame cloud over store headphones, MS Paint.",
+        "covers": "A small shame that peace required a product.",
+        "image": null
+      },
+      {
+        "slug": "0815-shame-unearned",
+        "prompt": "Shame in a trash, price tag still on cups, MS Paint.",
+        "covers": "The shame is unearned. The product is not free.",
+        "image": null
+      },
+      {
+        "slug": "0820-catalog-talking",
+        "prompt": "Catalog speaking through headphones, MS Paint.",
+        "covers": "If quiet feels like personality, the catalog is talking.",
+        "image": null
+      },
+      {
+        "slug": "0825-mill-costume",
+        "prompt": "Mill in a cheerful costume, MS Paint.",
+        "covers": "Cheerful is how a mill stays without looking like a mill.",
+        "image": null
+      },
+      {
+        "slug": "0830-private-weather",
+        "prompt": "Personal weather cloud of noise around one head, MS Paint.",
+        "covers": "The roar feels like your private weather.",
+        "image": null
+      },
+      {
+        "slug": "0835-trade-smoke",
+        "prompt": "Smoke pollution vs noise, gadget instead of law, MS Paint.",
+        "covers": "We traded treating noise like smoke for a gadget.",
+        "image": null
+      },
+      {
+        "slug": "0840-gadget-helps",
+        "prompt": "Night worker and thin apartment, headphones helping, MS Paint.",
+        "covers": "The gadget helps a night-shift worker and a thin wall.",
+        "image": null
+      },
+      {
+        "slug": "0845-ten-minutes",
+        "prompt": "Parent with timer 10 MIN, kitchen X, headphones, MS Paint.",
+        "covers": "A parent who needs ten minutes that are not a kitchen.",
+        "image": null
+      },
+      {
+        "slug": "0850-miracle-receipt",
+        "prompt": "Miracle halo on a receipt, MS Paint.",
+        "covers": "Help can be a miracle and still be a receipt.",
+        "image": null
+      },
+      {
+        "slug": "0855-luxury-myth",
+        "prompt": "Luxury personality badge on earcups, MS Paint.",
+        "covers": "A myth that quiet is a luxury personality.",
+        "image": null
+      },
+      {
+        "slug": "0900-taste-cups",
+        "prompt": "Wine-taste pose with headphones, MS Paint.",
+        "covers": "Expensive earcups as taste.",
+        "image": null
+      },
+      {
+        "slug": "0905-difficult-word",
+        "prompt": "Leaf blower calling a neighbor DIFFICULT, MS Paint.",
+        "covers": "Complain about leaf blowers and you are difficult.",
+        "image": null
+      },
+      {
+        "slug": "0910-noisy-word",
+        "prompt": "Noisy stickman holding the word DIFFICULT, MS Paint.",
+        "covers": "Difficult is a word the noisy use.",
+        "image": null
+      },
+      {
+        "slug": "0915-vibrancy-mill",
+        "prompt": "City mill labeled VIBRANCY, MS Paint.",
+        "covers": "We kept the mill in the city and called it vibrancy.",
+        "image": null
+      },
+      {
+        "slug": "0920-laptop-airplane",
+        "prompt": "Laptop with airplane wings in a living room, MS Paint.",
+        "covers": "We kept the airplane in the living room and called it a laptop.",
+        "image": null
+      },
+      {
+        "slug": "0925-roar-every-block",
+        "prompt": "Every city block carved with ROAR, MS Paint.",
+        "covers": "Not a reason to carve the same roar into every block.",
+        "image": null
+      },
+      {
+        "slug": "0930-hospital-treaty",
+        "prompt": "Hospital and quiet car shaking hands, TREATY, MS Paint.",
+        "covers": "A hospital quiet zone and a train quiet car are treaties.",
+        "image": null
+      },
+      {
+        "slug": "0935-foam-truce",
+        "prompt": "Foam earplug truce vs polite street, MS Paint.",
+        "covers": "Foam is a truce you wear. Not a street with manners.",
+        "image": null
+      },
+      {
+        "slug": "0940-pick-up-cups",
+        "prompt": "Callback: stickman lifting headphones, seal starting, MS Paint.",
+        "covers": "You pick up the headphones. The cups will still seal.",
+        "image": null
+      },
+      {
+        "slug": "0945-feel-nothing",
+        "prompt": "Blank calm face, sealed cups, MS Paint.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0950-thumb-cup",
+        "prompt": "Giant thumb on an earcup, MS Paint.",
+        "covers": "Put your thumb on the earcup.",
+        "image": null
+      },
+      {
+        "slug": "0955-not-forest",
+        "prompt": "Headphones between red-X sky and red-X forest, MS Paint.",
+        "covers": "Not the sky and not a forest.",
+        "image": null
+      },
+      {
+        "slug": "1000-mill-city",
+        "prompt": "Mill morphing into a skyline, MS Paint.",
+        "covers": "A mill that learned to be a city.",
+        "image": null
+      },
+      {
+        "slug": "1005-physician-horns",
+        "prompt": "Rice vs tugboat horn, MS Paint.",
+        "covers": "A physician who hated tugboat horns.",
+        "image": null
+      },
+      {
+        "slug": "1010-pianist-refused",
+        "prompt": "Pianist hands in lap, 4:33, MS Paint.",
+        "covers": "A pianist who refused to play.",
+        "image": null
+      },
+      {
+        "slug": "1015-professor-air",
+        "prompt": "Plane professor plus catalog ARGUE WITH AIR, MS Paint.",
+        "covers": "A professor on a plane. A catalog selling the argument.",
+        "image": null
+      },
+      {
+        "slug": "1020-street-never",
+        "prompt": "Shouting street, quiet headphone person, MS Paint.",
+        "covers": "A street that never lowered its voice because you lowered yours.",
+        "image": null
+      },
+      {
+        "slug": "1025-love-quiet",
+        "prompt": "Happy stickman in genuine quiet, MS Paint.",
+        "covers": "You are allowed to love the quiet.",
+        "image": null
+      },
+      {
+        "slug": "1030-cups-off",
+        "prompt": "Headphones off, bus documentary, MS Paint.",
+        "covers": "You are allowed to take the cups off and hear the bus.",
+        "image": null
+      },
+      {
+        "slug": "1035-not-natural",
+        "prompt": "Headphones with NATURAL sticker and a red X, MS Paint.",
+        "covers": "Stop calling the silence natural.",
+        "image": null
+      },
+      {
+        "slug": "1040-too-sensitive",
+        "prompt": "SENSITIVE stamp with red X, century calendar, MS Paint.",
+        "covers": "Not proof you are too sensitive for the century.",
+        "image": null
+      },
+      {
+        "slug": "1045-world-dies",
+        "prompt": "City dying inside earcups, REFUND, MS Paint.",
+        "covers": "When the world dies in your ears, look at it like a refund.",
+        "image": null
+      },
+      {
+        "slug": "1050-city-is-point",
+        "prompt": "Cheerful refund, city silhouette, MS Paint.",
+        "covers": "The refund is cheerful. The city is the point.",
+        "image": null
+      },
+      {
+        "slug": "1055-machine-wearing",
+        "prompt": "Stickman wearing a machine labeled which mill, MS Paint.",
+        "covers": "Know which machine you are still wearing.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why Quiet Got Expensive",
+    "description": "Headphones feel like peace. They are a refund. Mills, Julia Rice, Cage's four minutes, Bose on a plane, a city that sold you the argument with the air. Quiet used to be a room.",
+    "tags": [
+      "silence",
+      "headphones",
+      "noise",
+      "quiet",
+      "history",
+      "bose",
+      "cage",
+      "why",
+      "commute",
+      "luxury"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "BUY SILENCE?"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will put on a pair of over-ear headphones and the bus will die. Not the engine. The people. The hiss of the door. The kid's video with no headphones of its own. You will press a cup of plastic over each ear and the city will become a movie with the sound turned down, which will feel like a small personal miracle and not like a purchase. Here is the part that should bother you. Silence used to be the default setting of a room. It did not come with a charging cable. It did not require a brand. It did not cost three hundred dollars to make a train bearable. So why does quiet now feel like a luxury good you wear on your head? Because factories learned to shout, cities learned to never stop, and then a professor on an airplane decided the only polite response was to invent a machine that argues with the air. That is the whole plot. Your headphones are not peace. They are a refund. You still tap the earcup. The earcup is flattered. That is its job. The mill did not vote. A catalog did, and then a commute that taught your hands the seal until the seal started calling itself calm.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the older quiet, because the headphone stole a room and then sold it back as a feature. Before mills, the loud things had names you could point at: a storm, a dog, a bell, a market day. Night was still mostly dark and mostly not a factory. A village was not silent like a studio. It was quiet like a place that ran out of reasons to bang. Then steam arrived, and steam does not know how to whisper. A Lancashire mill in the eighteen hundreds was a room of belts and iron that ate conversations for lunch. Workers learned to lip-read. They went home with a ringing that did not belong to any bird. The ringing was not a vibe. It was an injury that learned to commute. If your open office still feels a bit much, notice that a bit much used to be a mill floor, and the mill floor did not offer a noise-cancel button. It offered cotton and a wage. The wage did not include your ears. The ears were a donation you did not remember signing. Progress counted looms. It did not count the leftover ring.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Cities turned the mill inside out and called it progress. In nineteen hundred six, in New York, Julia Barnett Rice, a physician with money and a low tolerance for tugboat horns, founded the Society for the Suppression of Unnecessary Noise. That name is a joke until you live next to a river of boats that honk as if honking were a personality. She went after children's hospitals being kept awake by steam whistles. She got quiet zones. She got ordinances. She was not a monk. She was a person who noticed that noise is a thing the powerful can dump on the less powerful and then call it commerce. The elevated train did not ask your bedroom for consent. The factory whistle did not RSVP. If your leaf blower still feels like a neighbor's right, Rice would like a word. The word is unnecessary. Unnecessary is a moral category wearing a civic hat. A civic hat is slower than a product page, which is why the product page won the century and the hat had to settle for a quiet zone around a hospital that still had to sleep.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch silence become etiquette, because etiquette is how a class teaches its volume. A library is a room that decided thinking is a group project that requires nobody to speak. That is a beautiful deal and also a velvet rope. If you grew up in a loud kitchen, the library can feel like a test you were not told about. Open-plan offices later reversed the deal: thinking would now happen in a warehouse of other people's calls, and if you hated it you were not a team player. The team did not vote. The furniture did. Cubicle walls got shorter. Headphones got bigger. The headset at your desk is a portable library carrel you bought because the building refused to be one. I am not nostalgic for shushing librarians as a police force. I am pointing at the swap. We took a shared quiet, turned it into a personality, then sold the personality as foam and a wireless chip. Personality is a word that never has to sit in the food-court office. The food-court office just sends you a calendar invite labeled focus time, which is a joke the walls tell with a straight face.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think silence is empty, the way a blank page is empty. In nineteen fifty two, at the Maverick Concert Hall in Woodstock, New York, John Cage premiered four minutes and thirty-three seconds of a pianist not playing. The piece is a prank until you sit in it. You hear chairs. You hear rain. You hear yourself. Cage had already sat in an anechoic chamber, a room built to eat echoes, and he still heard his nervous system, a high tone and a low tone, blood and nerves refusing to be mute. I am not assigning you homework in experimental music. I am trying to un-nature the earcup. The quiet you buy is not the absence of the world. It is a filter with a logo. Even a room later advertised as the quietest on earth, a tourist attraction for nothing in Minneapolis, still gives you your body as a radio. Your headphones cannot fire your blood. They can only argue with the bus. Argument is not peace. Argument is a product that needs a battery, and a battery is a tiny admission that the room lost.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Amar Gopal Bose was an MIT professor who liked music and hated the way airplanes sounded. On a transatlantic flight in nineteen seventy eight, he put on the airline headphones and the engine came through like a roommate who never leaves. He started sketching a headset that would listen to the noise and play its opposite, a little war in the ear canal. By nineteen eighty nine, Bose was selling active noise control to pilots. The consumer version arrived later, wrapped in silver and the promise that your commute could be a studio. The science is real. The marketing is a lullaby. Anti-noise is a clever trick of physics. Selling it as peace is a clever trick of a catalog. If your quiet-comfort still feels like self-care, notice that self-care is often a patch you wear so the city does not have to lower its voice. The patch is allowed. The city is the plot. A plot can be rewritten. A catalog would prefer you not notice the rewrite is possible, because a quieter street does not need a sequel of earcups.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Watch the lock travel. First-class cabins sell quiet as a seat. Quiet cars on trains draw a chalk line through courtesy and then argue about phone calls like theology. Hotels sell soundproof the way they sell thread count, a number that means please do not hear the other guests living. Leaf blowers, motorcycle packs, night construction, the scooter with a speaker: the street learned to be a loudspeaker, and then the store learned to sell you earmuffs with a battery. Airports sell silence in a bottle of foam. Schools send home notes about noise-sensitive kids as if the building's air system were weather. You can buy a better filter. You cannot buy a quieter block without politics. Politics is slower than two-day shipping. Two-day shipping is how a lock stays in the room. The lock looks like self-respect. Self-respect is allowed. Just notice it is also a subscription to not hearing the neighbors the city declined to regulate, which is a polite way of saying your ears became the zoning board.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "This is you, already, in the middle of the story. Two cups on your ears on a Tuesday. An open office that sounds like a food court. A video you watch at one in the morning with the volume down and the cancel up, which is a funny way to be alone in a building full of other alones. None of this makes you fragile. It makes you a person born after the mill and after the elevated train and after a professor on a plane decided the air should lose an argument. You can feel both in the same commute: relief that the toddler speaker died, and a small shame that peace required a product. The shame is unearned. The product is not free. If the quiet feels like your personality, that is the catalog talking. The catalog is cheerful. Cheerful is how a mill stays in the century without looking like a mill. You still commute through it. The commute is flattered. That is its job, and the job is to make the roar feel like your private weather instead of a public decision.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So what did we trade? We traded a chance, at every new street, to treat noise as pollution the way we treat smoke, for a gadget that lets the smoke continue. That gadget is real help for a night-shift worker, a student in a thin-walled apartment, a parent who needs ten minutes that are not a kitchen. Help can be a miracle and still be a receipt. We also gained a myth that quiet is a luxury personality, that expensive earcups are taste, that people who complain about leaf blowers are difficult. Difficult is a word the noisy use. We kept the mill in the city and called it vibrancy. We kept the airplane in the living room and called it a laptop. Both can be true and still not be a reason to carve the same roar into every block. Deals can be rewritten. Some already were, quietly, when a hospital got a quiet zone and a train got a quiet car. Quiet cars are tiny treaties. Treaties need more than foam. Foam is a truce you wear. A truce is not a street that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "This is you. You will pick up the headphones. The cups will still seal. You will feel nothing, which is the victory. Put your thumb on the earcup. That is not the sky and it is not a forest. That is a mill that learned to be a city, a physician who hated tugboat horns, a pianist who refused to play, a professor on a plane, a catalog that sold you the argument with the air, and a street that never had to lower its voice because you lowered yours first. You are allowed to love the quiet. You are allowed to take the cups off and hear the bus like a documentary. Just stop calling the silence natural, or inevitable, or proof that you are too sensitive for the century. Tonight, when the world dies in your ears, look at it like a refund for a city that overcharged you in sound. The refund is cheerful. The city is the point. Listen if you want. Know which machine you are still wearing. The seal is cheerful. Cheerful is how a refund stays on your head without looking like a mill.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

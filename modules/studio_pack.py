@@ -22,8 +22,11 @@ from utils.fs import ensure_parent
 
 __all__ = [
     "chapter_markers",
+    "find_paint_thumbnail",
     "format_chapter_time",
     "prepare_youtube_thumbnail",
+    "project_slug",
+    "resolve_episode_thumbnail_source",
     "suggest_playlist",
     "write_studio_pack",
 ]
@@ -165,16 +168,85 @@ def prepare_youtube_thumbnail(source: Path, out_path: Path) -> Path:
     )
 
 
-def find_paint_thumbnail(search_roots: list[Path]) -> Path | None:
-    """Return the first ``thumbnail.png`` / ``cover.png`` in the storyboard folders."""
-    names = ("thumbnail.png", "thumbnail.jpg", "cover.png", "cover.jpg", "00-thumbnail.png")
-    for root in search_roots:
-        if not root.is_dir():
-            continue
-        for name in names:
-            candidate = root / name
+def project_slug(project_id: str) -> str:
+    """Strip ``-Ndk-YYYYMMDD`` from a project id."""
+    return re.sub(r"-\d+dk-\d{8}$", "", project_id, flags=re.IGNORECASE)
+
+
+_LEGACY_THUMBNAIL_KEYS: dict[str, str] = {
+    "why-nothing-became-a-number": "zero",
+    "why-an-hour-has-sixty-minutes": "hour",
+    "why-your-week-has-seven-days": "weekdays",
+    "why-a-stick-became-a-steering-wheel": "stick",
+}
+
+
+def resolve_episode_thumbnail_source(
+    project_id: str,
+    *,
+    assets_dir: Path,
+    storyboard_dir: Path | None = None,
+    prefer_assets: bool = False,
+) -> Path | None:
+    """Pick the thumbnail PNG for ``project_id`` without cross-episode fallbacks."""
+    if storyboard_dir is not None and not prefer_assets:
+        board = storyboard_dir / project_id
+        for name in ("thumbnail.png", "thumbnail.jpg", "cover.png", "cover.jpg"):
+            candidate = board / name
             if candidate.is_file():
                 return candidate
+
+    slug = project_slug(project_id)
+    candidates: list[Path] = [
+        assets_dir / f"thumbnail-{project_id}.png",
+        assets_dir / f"thumbnail-{slug}.png",
+    ]
+
+    legacy_key = _LEGACY_THUMBNAIL_KEYS.get(slug)
+    if legacy_key:
+        candidates.append(assets_dir / f"thumbnail-{legacy_key}.png")
+
+    keyed: list[tuple[int, Path]] = []
+    for path in assets_dir.glob("thumbnail-*.png"):
+        key = path.stem.removeprefix("thumbnail-")
+        if not key or key in {project_id, slug, legacy_key or ""}:
+            continue
+        if key in project_id or key in slug:
+            keyed.append((len(key), path))
+    keyed.sort(key=lambda item: item[0], reverse=True)
+    candidates.extend(path for _, path in keyed)
+
+    candidates.append(assets_dir / "thumbnail.png")
+    for src in candidates:
+        if src.is_file():
+            return src
+    return None
+
+
+def find_paint_thumbnail(
+    search_roots: list[Path],
+    *,
+    project_id: str | None = None,
+    assets_dir: Path | None = None,
+) -> Path | None:
+    """Return the cover PNG for the current project only."""
+    if project_id and assets_dir is not None and search_roots:
+        storyboard_dir = search_roots[0].parent
+        resolved = resolve_episode_thumbnail_source(
+            project_id,
+            assets_dir=assets_dir,
+            storyboard_dir=storyboard_dir,
+        )
+        if resolved is not None:
+            return resolved
+
+    if not search_roots:
+        return None
+    root = search_roots[0]
+    for name in ("thumbnail.png", "thumbnail.jpg", "cover.png", "cover.jpg", "00-thumbnail.png"):
+        candidate = root / name
+        if candidate.is_file():
+            return candidate
     return None
 
 

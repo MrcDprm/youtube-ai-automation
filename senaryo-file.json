@@ -1,0 +1,572 @@
+{
+  "project_id": "the-night-the-lightship-stopped-answering-10dk-20260825",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 60,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-sands-bank",
+        "prompt": "Dark sandbank in a night channel, pale foam, distant Kent shore smudge. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The Goodwin Sands do not need a door.",
+        "image": null
+      },
+      {
+        "slug": "0010-ledger-names",
+        "prompt": "Open ledger on a dark desk, wet sand grains on the page, no people. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "A bank that takes ships the way a ledger takes names.",
+        "image": null
+      },
+      {
+        "slug": "0020-kent-night",
+        "prompt": "Simple night map of Kent coast and a sandbank, no flags, date not written. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Off the coast of Kent, twenty sixth of November, nineteen fifty four.",
+        "image": null
+      },
+      {
+        "slug": "0030-lamp-promise",
+        "prompt": "Unpowered lightvessel lamp glowing in storm murk, hull small against waves. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "A lightship is a promise written in iron.",
+        "image": null
+      },
+      {
+        "slug": "0040-stay-sand",
+        "prompt": "Chart line from lamp to hidden sandbar, weak yellow thread. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "We stay, so you do not hit the sand.",
+        "image": null
+      },
+      {
+        "slug": "0050-midnight-lamp",
+        "prompt": "Close lamp glass in rain, charcoal sky. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Around midnight the lamp was still a lamp.",
+        "image": null
+      },
+      {
+        "slug": "0100-radio-room",
+        "prompt": "Empty radio room, headphones on hook, weak lamp, no operator face. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The radio room was still a room a man could walk to.",
+        "image": null
+      },
+      {
+        "slug": "0110-folder-blank",
+        "prompt": "Manila folder open, one page blank, yellow lamp. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Then the folder stops having a sentence from that room.",
+        "image": null
+      },
+      {
+        "slug": "0120-sister-saw",
+        "prompt": "Two distant lamps, one drifting off a dotted station mark. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Sister ships saw a light leave its station.",
+        "image": null
+      },
+      {
+        "slug": "0130-shore-heard",
+        "prompt": "Shore radio set glowing, empty chair, storm window. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Shore heard the neighbors. South Goodwin did not finish the call.",
+        "image": null
+      },
+      {
+        "slug": "0140-not-haunting",
+        "prompt": "Radio handset hanging, not haunted, just unused. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Not a haunting. A radio that did not get its turn.",
+        "image": null
+      },
+      {
+        "slug": "0150-gap-walk",
+        "prompt": "Narrow ship corridor, galley glow one end, radio door the other. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The gap is the walk between the galley and the set.",
+        "image": null
+      },
+      {
+        "slug": "0200-public-weather",
+        "prompt": "Window lamp mistaken for a storm glow, no people. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The public treats a light as weather.",
+        "image": null
+      },
+      {
+        "slug": "0210-dartmouth-hull",
+        "prompt": "Shipyard hull at night, no flags, wet iron. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Built nineteen thirty seven, Dartmouth, iron and steel.",
+        "image": null
+      },
+      {
+        "slug": "0220-unpowered",
+        "prompt": "Tug silhouette towing a dark lightvessel, no faces. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Unpowered, towed to a station four miles off Dover.",
+        "image": null
+      },
+      {
+        "slug": "0230-winch-fog",
+        "prompt": "Foghorn throat and lamp cage, no crew. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Engines for a winch, a foghorn, a lamp.",
+        "image": null
+      },
+      {
+        "slug": "0240-mushroom-anchors",
+        "prompt": "Four mushroom anchors on a chain, sand below. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Four mushroom anchors were supposed to hold her.",
+        "image": null
+      },
+      {
+        "slug": "0250-civilians",
+        "prompt": "Empty oilskins on pegs in a dim cabin. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Trinity House civilians who knew long water.",
+        "image": null
+      },
+      {
+        "slug": "0300-skipp-name",
+        "prompt": "Nameplate SKIPP on a cabin door, no portrait. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Horace Thomas Skipp the master.",
+        "image": null
+      },
+      {
+        "slug": "0310-six-others",
+        "prompt": "Six empty mugs on a galley shelf. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Six others, among them Porter and Viney.",
+        "image": null
+      },
+      {
+        "slug": "0320-murton-guest",
+        "prompt": "Bird notebook and binoculars on a bunk, no face. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Ronald Murton, twenty two, Ministry of Agriculture.",
+        "image": null
+      },
+      {
+        "slug": "0330-count-wings",
+        "prompt": "Birds as tiny pale marks around a lamp, not cute cartoon. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Aboard a month to count wings on the lamp.",
+        "image": null
+      },
+      {
+        "slug": "0340-swallower",
+        "prompt": "Masts sticking from sand at night, distant, no corpses. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The sandbank called a ship swallower.",
+        "image": null
+      },
+      {
+        "slug": "0350-not-play",
+        "prompt": "Closed book beside a real chart, chart winning. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "A play and a novel are not evidence.",
+        "image": null
+      },
+      {
+        "slug": "0400-not-mood",
+        "prompt": "Barometer needle buried in storm, cabin lamp. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The weather that night was not a mood.",
+        "image": null
+      },
+      {
+        "slug": "0410-force-gale",
+        "prompt": "Coast town windows dark, spray, no people. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Hurricane force, flooding ashore in the same hours.",
+        "image": null
+      },
+      {
+        "slug": "0420-bearings",
+        "prompt": "Compass and parallel rulers sliding on a wet chart. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Between midnight and one they tried to take bearings.",
+        "image": null
+      },
+      {
+        "slug": "0430-on-station",
+        "prompt": "Two chart positions overlapping, question not written. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Skipp could not tell if they were still on the mooring.",
+        "image": null
+      },
+      {
+        "slug": "0440-drift-quiet",
+        "prompt": "Lamp slightly off a station ring on a chart. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Drift does not announce itself with a speech.",
+        "image": null
+      },
+      {
+        "slug": "0450-galley-muster",
+        "prompt": "Crowded galley implied by coats and steam, silhouettes only, no faces. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "They mustered in the galley, eight people in a small room.",
+        "image": null
+      },
+      {
+        "slug": "0500-turned-radio",
+        "prompt": "Silhouette in a hatch toward a radio glow, no face. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Skipp turned toward the radio room.",
+        "image": null
+      },
+      {
+        "slug": "0510-no-air",
+        "prompt": "Microphone unkeyed, empty chair. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "He did not get the sentence onto the air.",
+        "image": null
+      },
+      {
+        "slug": "0520-starboard",
+        "prompt": "Interior tilting, cups leaving a table, no people falling. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The ship lurched hard to starboard.",
+        "image": null
+      },
+      {
+        "slug": "0530-wrong-door",
+        "prompt": "Galley door underwater-dark, air pocket lamp. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The galley became a room with the wrong door.",
+        "image": null
+      },
+      {
+        "slug": "0540-first-blank",
+        "prompt": "Clipboard with a blank radio log line. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The file's first blank: the call intended and not sent.",
+        "image": null
+      },
+      {
+        "slug": "0550-neighbors",
+        "prompt": "Another lightvessel watching a drifting lamp. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The alarm came from people watching a lamp misbehave.",
+        "image": null
+      },
+      {
+        "slug": "0600-east-north",
+        "prompt": "Two lamps, one leaving a dotted circle. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "East Goodwin saw the sister light leave.",
+        "image": null
+      },
+      {
+        "slug": "0610-coastguard",
+        "prompt": "Coastguard window, rain, radio glow, empty. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Ramsgate and Deal uneasy in poor visibility.",
+        "image": null
+      },
+      {
+        "slug": "0620-boats-out",
+        "prompt": "Lifeboat in huge night sea, far from a dark hull. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Lifeboats went out and could not close.",
+        "image": null
+      },
+      {
+        "slug": "0630-station-walks",
+        "prompt": "Chart with a walking lamp icon, no cartoon face. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "When the station walks, the chart becomes a rumor.",
+        "image": null
+      },
+      {
+        "slug": "0640-want-last",
+        "prompt": "Crowd of blank paper expecting a quote. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The public wants a last transmission.",
+        "image": null
+      },
+      {
+        "slug": "0650-neighbors-sentences",
+        "prompt": "Two radio logs filled, one empty. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The folder has the neighbors' sentences, not Skipp's.",
+        "image": null
+      },
+      {
+        "slug": "0700-not-secret",
+        "prompt": "Hull angle diagram, simple, dark. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Not proof of a secret. Proof of a lurch.",
+        "image": null
+      },
+      {
+        "slug": "0710-claim-evidence",
+        "prompt": "Split: unkeyed mic vs distant lamp. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Claim: they were going to call. Evidence: other lamps called.",
+        "image": null
+      },
+      {
+        "slug": "0720-dawn-hull",
+        "prompt": "Capsized lightvessel on a sandbank at grey dawn, no bodies. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Dawn: hull on the sands, on her side.",
+        "image": null
+      },
+      {
+        "slug": "0730-scaffolding",
+        "prompt": "Tiny silhouette on lamp cage, distant, no face detail. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Someone on the lamp scaffolding.",
+        "image": null
+      },
+      {
+        "slug": "0740-helicopter",
+        "prompt": "Helicopter shape over wreck, no national markings, no flags. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "A rescue helicopter from Manston had to leave and return.",
+        "image": null
+      },
+      {
+        "slug": "0750-second-pass",
+        "prompt": "Winch line toward the lamp cage, silhouette. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "On the second pass they took Murton off.",
+        "image": null
+      },
+      {
+        "slug": "0800-skylight",
+        "prompt": "Skylight from below, water line, no drowning figure. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "He had gone through a skylight when the galley filled.",
+        "image": null
+      },
+      {
+        "slug": "0810-tapping",
+        "prompt": "Ear toward a steel wall, implied, no face. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "He later said he heard tapping from inside.",
+        "image": null
+      },
+      {
+        "slug": "0820-hope-paper",
+        "prompt": "Newspaper stack, headline not readable, grey dawn. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Hope got written into the morning papers.",
+        "image": null
+      },
+      {
+        "slug": "0830-cannot-cut",
+        "prompt": "Helicopter high above a sealed hull. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "A helicopter cannot cut a ship open from thirty feet.",
+        "image": null
+      },
+      {
+        "slug": "0840-murton-lived",
+        "prompt": "Hospital-window dawn, empty bed implied, no face. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Murton lived. A winch and a crew who went back.",
+        "image": null
+      },
+      {
+        "slug": "0850-twenty-eighth",
+        "prompt": "Calendar page, storm still drawn in the margin. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The twenty eighth of November tries to finish the folder.",
+        "image": null
+      },
+      {
+        "slug": "0900-divers-late",
+        "prompt": "Divers as distant shapes, hull in sand, no gore. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Divers arrived when the weather allowed.",
+        "image": null
+      },
+      {
+        "slug": "0910-not-found",
+        "prompt": "Empty cabins in a tilted hull, sand on the floor. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "They did not find the seven.",
+        "image": null
+      },
+      {
+        "slug": "0920-tap-and-empty",
+        "prompt": "Folder with two photos: wall, empty bunk. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "Tapping and an empty search in the same clip.",
+        "image": null
+      },
+      {
+        "slug": "0930-older-page",
+        "prompt": "Older wreck silhouette, separate from nineteen fifty four. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "An older page: a wartime lightvessel that left station.",
+        "image": null
+      },
+      {
+        "slug": "0940-anchors-question",
+        "prompt": "Four anchors, one chain slack. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The question: were all four mushroom anchors down.",
+        "image": null
+      },
+      {
+        "slug": "0950-open-stamp",
+        "prompt": "Rubber stamp OPEN beside a blank radio line, yellow lamp. Painterly night illustration, 16:9, mud-green and charcoal, weak yellow lamp, fog, no photoreal faces, no flags, no gore, no stickman, no MS Paint cartoon.",
+        "covers": "The folder remains open where Skipp's call should be.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-GB-RyanNeural",
+    "rate": "-12%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 42,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.86,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Night the Lightship Stopped Answering",
+    "description": "South Goodwin, nineteen fifty four. The sister lamps reported a drift. The radio room on Lightvessel ninety did not get its sentence on the air. The folder is still open where the call should be.",
+    "tags": [
+      "mystery",
+      "lightship",
+      "night",
+      "archive",
+      "radio",
+      "sea",
+      "storm",
+      "kent",
+      "sands",
+      "file"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "WENT QUIET"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "The Goodwin Sands do not need a door. They sit off the coast of Kent like a graveyard that keeps its own hours, a ten-mile bank that has taken ships the way a ledger takes names. On the night of the twenty sixth of November, nineteen fifty four, a Trinity House lightvessel was supposed to be the one thing that did not move. Her name was South Goodwin. Her number was Lightvessel ninety. A lightship is a promise written in iron: we stay, so you do not hit the sand. Around midnight the lamp was still a lamp. The radio room was still a room a man could walk to. Then the folder stops having a sentence from that room. Sister ships saw a light leave its station. Shore heard the neighbors. The South Goodwin itself did not finish the call. That is the file. Not a haunting. A radio that did not get its turn. The sands were doing what sands do. The lamp was doing what a lamp is hired to do. The gap is the walk between the galley and the set.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with what a lightship is, because the public treats a light as weather. Lightvessel ninety was built in nineteen thirty seven at Dartmouth, one hundred eighteen feet of iron and steel, unpowered, towed to a station four miles off Dover and told to stay. Engines aboard ran a winch, a foghorn, a lamp. Four mushroom anchors were supposed to hold her. Trinity House crewed her with civilians, mostly men who already knew long water: Horace Thomas Skipp the master, and six others, among them Tom Porter and a fog-signal driver named Viney. For a month they also had a guest. Ronald Murton was twenty two, from the Ministry of Agriculture, aboard to watch migratory birds that used the lightship as a roost. He had not come to be in a disaster file. He had come to count wings. The sandbank he sat above has been called a ship swallower for centuries. Shakespeare put the Goodwins in a play. Ian Fleming parked a fictional lightship on the same compass point. None of that is evidence. It is how a hazard becomes a story before the radio even fails.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The weather that night was not a mood. Papers later called it the worst gale in a generation: hurricane force, flooding ashore, other ships in trouble in the same hours. Between midnight and one, the men tried to take bearings. Skipp could not at first tell if they were still on the mooring. An unpowered vessel in a storm does not announce drift with a speech. It announces drift by the lamp no longer sitting where a chart says a lamp must sit. Murton, unable to sleep, went up and found the master and crew trying to make the night into numbers. They mustered in the galley, seven seafarers and the guest crammed into a small hot room while the hull argued with the sea. Skipp turned toward the radio room. That sentence is in the survivor's later account and in Trinity House's telling. He did not get the sentence onto the air. The ship lurched, went hard to starboard, and the galley became a room with the wrong door. The file's first blank is here: the call that was intended and not sent.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "The alarm that reached land did not come from Lightvessel ninety. It came from people watching a lamp misbehave. East Goodwin, in some tellings North Goodwin, saw the sister light sweep off station, a red barque married to a compass point until it was not. They radioed the mainland. Ramsgate and Deal coastguards were already uneasy in poor visibility. Lifeboats from Dover and Ramsgate went out and could not close. A lightship is a station. When the station walks, the chart becomes a rumor. The public will later want a last transmission, a sentence that proves someone inside knew. The folder has the neighbors' sentences. It does not have Skipp's. That is not proof of a secret. It is proof of a lurch that arrived between a man and a set. Separate those. The claim is: they were going to call. The evidence is: other lamps called about them. The gap is not a ghost. The gap is time, measured in hull degrees.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Dawn is when a closed file pretends it will open. A United States Air Force helicopter from the air-sea rescue squadron at Manston found the hull on the sands, on her side, partly a wreck and partly a hill of iron. Someone was on the scaffolding of the lamp, pyjamas, nine hours of holding on. They had to leave and come back with fuel. On the second pass they hovered low and took Ronald Murton off. He was twenty two and he had gone through a skylight when the galley filled. He later said he had heard tapping from inside, a sound he took for men still in a compartment, Skipp and Porter and Viney among them. Hope is a document too. It got written into the morning papers. It is allowed to be true as a hearing and still fail as a rescue. Lifeboats still could not board. The tide still had hours. The helicopter still could not cut a ship open from thirty feet. Murton lived. That is not a miracle the folder invented. It is a winch and a crew who went back.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "The twenty eighth of November is the date the folder tries to finish. Trinity House tender Patricia, a navy ship, divers, cutting gear on a sandbank. They reached the hull when the weather allowed. They did not find the seven. Not a roll call. Not a neat ending. Sand had begun to take the rooms. Later writers will say the sea washed the crew out. That is a theory wearing work clothes. It is not a photograph. The file can hold Murton's tapping and the empty search in the same clip without making them into a haunting. Trapped men tap. Storms move sand. Both can be written. Neither requires a visitor from outside the weather. Do not mock Murton for hearing a hull. Do not promote the tap to a message from the other side. The honest sentence is: he reported a sound, and the search did not return the men the sound implied.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "There is an older page in the same drawer, and it is a temptation. In nineteen forty a previous South Goodwin lightvessel left her station in wartime and was later found as a wreck with a hole that looks like a mine. In eighteen ninety nine a lightship on this sand also broke her ground tackle. The sands keep a habit. Habit is not destiny, but it is a pattern a chart already knew. In nineteen fifty four the question that will not sit still is smaller than war. Were all four mushroom anchors down. An unpowered ship with a short mooring is a bet on iron. If the bet fails, the lamp becomes a drifting hazard, which is the one job a lightship is not allowed. The sister ships did their job by reporting. The South Goodwin's job was to stay and then, failing that, to speak. She stayed until she did not. She did not speak. The folder's cruelty is that the public hears 'lightship' and imagines a lighthouse that can steam. She could not steam. She could only hold, or fail, or fall.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "What did we file, then, besides grief. We filed a weather extreme, a station lost, a guest who lived, seven names that Deal and Ramsgate would have to carry into a fund: Skipp, Cox, Lanham, Philpott, Viney, Lynn, Porter. We filed a helicopter that went twice. We filed divers who arrived late because the Channel does not take appointments. We did not file a last radio from Lightvessel ninety. That missing page is why the night still feels unfinished, and unfinished is not the same as unexplained. A lurch can delete a transmission without deleting physics. The sands can keep men without becoming a myth. The honest open loop is narrower: the lamp moved, the neighbors spoke, the intended call did not land, and the search on the twenty eighth did not close the galley. You may want a villain. The folder offers a gale, a mooring, and a room that filled faster than a walk to a set.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Leave the file on the desk. The Goodwin Sands are still a bank. Trinity House still marks water, now with machines that do not sleep in a galley. The replacement South Goodwin later got a helipad, a sentence that reads like an apology in steel. Ronald Murton went ashore. The seven did not. The radio room on Lightvessel ninety did not get to be the author of its own last line. That is not a ghost story. It is a chain of minutes: bearings, galley, a turned back, a starboard fall, a sister lamp reporting a drift, a helicopter at dawn, a search two days later that found weather and sand. If you need a moral, do not take 'the sea is haunted.' Take this: a light that does not move is a staff of men, and when the light moves, the first thing the chart loses is their sentence. The folder remains open where Skipp's call should be. Open is the correct stamp. Closed would be a lie the Channel did not earn.",
+      "search_terms": [
+        "night illustration",
+        "archive folder"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

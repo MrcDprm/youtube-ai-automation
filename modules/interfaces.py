@@ -619,6 +619,8 @@ class IVideoEditor(ABC):
         scenario: Scenario,
         font_path: Path | None,
         out_path: Path,
+        *,
+        word_cues: list[WordCue] | None = None,
     ) -> Path:
         """Render a longform stills track under concatenated narration.
 

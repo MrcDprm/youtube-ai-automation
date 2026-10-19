@@ -1,0 +1,1006 @@
+{
+  "project_id": "why-a-booklet-lets-you-cross-a-line-11dk-20260901",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-open-booklet",
+        "prompt": "Stickman opening booklet BORDER OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you open a small booklet and treat a border as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0005-thumb-photo",
+        "prompt": "Thumb on photo page AIRPORT PERMISSION SLIP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your thumb finds a photo page as if the airport grew a permission slip.",
+        "image": null
+      },
+      {
+        "slug": "0010-airports-slips",
+        "prompt": "Airport sprouting permission slip like fruit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Because airports do permission slips.",
+        "image": null
+      },
+      {
+        "slug": "0015-first-no-agree",
+        "prompt": "Early traveler shaking head at passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first travelers did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0020-river-letter",
+        "prompt": "River crossing letter seal face guard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Many crossed with a local letter, a merchant seal, or a face the guard knew.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-pocket-passport",
+        "prompt": "Passport stamped PHYSICS question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your pocket wear a passport as if the booklet were physics?",
+        "image": null
+      },
+      {
+        "slug": "0030-safe-conducts",
+        "prompt": "Medieval king SAFE CONDUCT document, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Medieval kings issued safe conducts when roads needed paperwork.",
+        "image": null
+      },
+      {
+        "slug": "0035-louis-xiv",
+        "prompt": "Louis XIV IDENTITY PAPERS label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Louis the Fourteenth asked subjects to carry identity papers.",
+        "image": null
+      },
+      {
+        "slug": "0040-league-1920",
+        "prompt": "League of Nations 1920 PASSPORT FORMAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The League of Nations standardized the booklet format in nineteen twenty.",
+        "image": null
+      },
+      {
+        "slug": "0045-stamped-page",
+        "prompt": "Stamped page vs MEMORY red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "States learned a stamped page is easier to inspect than a memory.",
+        "image": null
+      },
+      {
+        "slug": "0050-not-freedom-nature",
+        "prompt": "FREEDOM BY NATURE stamp red X on booklet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your crossing is not freedom by nature.",
+        "image": null
+      },
+      {
+        "slug": "0055-letter-official",
+        "prompt": "Letter morphing into official booklet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover letter that learned to look official.",
+        "image": null
+      },
+      {
+        "slug": "0100-present-flattered",
+        "prompt": "Smiling passport FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The presentation is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0105-river-no-vote",
+        "prompt": "River NO VOTE clerk raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The river did not vote. A clerk did.",
+        "image": null
+      },
+      {
+        "slug": "0110-stamp-sense",
+        "prompt": "Hand word SENSE after stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The stamp taught your hand until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0115-start-letter",
+        "prompt": "Letter labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the letter.",
+        "image": null
+      },
+      {
+        "slug": "0120-passport-stole",
+        "prompt": "Safe conduct stolen by cardboard passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The passport stole a safe conduct and sold it back as cardboard.",
+        "image": null
+      },
+      {
+        "slug": "0125-before-photo",
+        "prompt": "Timeline before photo MRZ chip, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Before photography, before machine-readable zones, before a chip that beeps.",
+        "image": null
+      },
+      {
+        "slug": "0130-guard-negotiation",
+        "prompt": "Traveler negotiating with guard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Crossing was a negotiation with a guard you could not schedule.",
+        "image": null
+      },
+      {
+        "slug": "0135-carry-vouch",
+        "prompt": "Traveler carrying host vouching, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Early travelers carried. Early hosts vouched.",
+        "image": null
+      },
+      {
+        "slug": "0140-reputation-contract",
+        "prompt": "REPUTATION name matches face contract, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Some routes offered reputation and the contract your name matched your face.",
+        "image": null
+      },
+      {
+        "slug": "0145-booklet-suspicious",
+        "prompt": "Booklet HONEST SUSPICIOUS labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "When booklets arrived, they were honest and suspicious.",
+        "image": null
+      },
+      {
+        "slug": "0150-bearer-pass",
+        "prompt": "BEARER MAY PASS letter wearing cover, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A page that says bearer may pass is a letter wearing a cover.",
+        "image": null
+      },
+      {
+        "slug": "0155-ink-gate",
+        "prompt": "INK AS GATE agreement stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is real until everyone agrees to treat ink as a gate.",
+        "image": null
+      },
+      {
+        "slug": "0200-royal-paperwork",
+        "prompt": "Royal papers on road NOT CHECKPOINT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Royal paperwork dragged onto a route not a checkpoint.",
+        "image": null
+      },
+      {
+        "slug": "0205-face-recognition",
+        "prompt": "Face speech bubble WANT RECOGNITION, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The face still wanted recognition until recognition got tired.",
+        "image": null
+      },
+      {
+        "slug": "0210-face-tired",
+        "prompt": "Tired recognition ONLY SYSTEM label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Recognition got tired of being the only system.",
+        "image": null
+      },
+      {
+        "slug": "0215-not-miracle",
+        "prompt": "LOGISTICS stamp on face not miracle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The face was not a miracle. It was logistics.",
+        "image": null
+      },
+      {
+        "slug": "0220-named-corners",
+        "prompt": "Halo on passport MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the booklet did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0225-not-one-hero",
+        "prompt": "Hero plaque red X many layers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The passport is not one eureka moment on a plaque.",
+        "image": null
+      },
+      {
+        "slug": "0230-layer-cake",
+        "prompt": "Layer cake safe conduct identity stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Safe conducts, identity counts, stamped page in a crowd.",
+        "image": null
+      },
+      {
+        "slug": "0235-henry-v-1414",
+        "prompt": "Henry V 1414 SAFE CONDUCT stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fourteen fourteen, King Henry the Fifth issued safe conducts.",
+        "image": null
+      },
+      {
+        "slug": "0240-france-papers",
+        "prompt": "France 1600s WHO YOU ARE papers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Seventeenth century France pushed papers that proved who you were.",
+        "image": null
+      },
+      {
+        "slug": "0245-wwi-borders",
+        "prompt": "Train loud BORDERS after war, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After the First World War, borders got loud with trains.",
+        "image": null
+      },
+      {
+        "slug": "0250-league-format",
+        "prompt": "League 1920 STANDARD FORMAT handshake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "League of Nations nineteen twenty agreed on standard passport format.",
+        "image": null
+      },
+      {
+        "slug": "0255-conference-queue",
+        "prompt": "Conference vs QUEUE separate files, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "File the conference separately from the queue.",
+        "image": null
+      },
+      {
+        "slug": "0300-league-complaint",
+        "prompt": "League complaint wearing stamp century coat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your page is a League complaint wearing a century of stamps.",
+        "image": null
+      },
+      {
+        "slug": "0305-letter-leaves-court",
+        "prompt": "Letter walking away from court, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the letter leave the court.",
+        "image": null
+      },
+      {
+        "slug": "0310-trains-slip",
+        "prompt": "Train world slip no king every crossing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A world of trains needed a slip without a king at every crossing.",
+        "image": null
+      },
+      {
+        "slug": "0315-explain-seal-hope",
+        "prompt": "Three panel EXPLAIN SEAL HOPE REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Explain your business. Wait for a seal. Hope the guard remembers. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0320-small-insult",
+        "prompt": "Passport insulting anonymity cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A standardized booklet is a small insult to anonymity.",
+        "image": null
+      },
+      {
+        "slug": "0325-photo-repeats",
+        "prompt": "Photo repeating number flexing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The photo repeats. The number flexes.",
+        "image": null
+      },
+      {
+        "slug": "0330-stamp-proceed",
+        "prompt": "PROCEED HERE stamp no biography, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The stamp says proceed here without retelling a biography.",
+        "image": null
+      },
+      {
+        "slug": "0335-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0340-face-trust",
+        "prompt": "Face speech bubble TRUST ME, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We took a face that said trust me.",
+        "image": null
+      },
+      {
+        "slug": "0345-page-read",
+        "prompt": "Page READ THIS INK arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We replaced it with a page that said read this ink.",
+        "image": null
+      },
+      {
+        "slug": "0350-read-manual",
+        "prompt": "Manual teaching READ checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Read is easier to teach in a manual.",
+        "image": null
+      },
+      {
+        "slug": "0355-read-booth",
+        "prompt": "Booth scanner READ checkmark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Read is easier to scan in a booth.",
+        "image": null
+      },
+      {
+        "slug": "0400-line-inventor",
+        "prompt": "Border line labeled REAL INVENTOR, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0405-unmarked-road",
+        "prompt": "Unmarked road nostalgia red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The line does not care about nostalgia for an unmarked road.",
+        "image": null
+      },
+      {
+        "slug": "0410-rehook-fact",
+        "prompt": "Passport vs door both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You think the passport is a fact, the way a door is a fact.",
+        "image": null
+      },
+      {
+        "slug": "0415-passport-policy",
+        "prompt": "POLICY stamp on passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The passport is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0420-guard-memory",
+        "prompt": "Guard memory red X booklet wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The alternative is trusting every crossing to a guard's memory.",
+        "image": null
+      },
+      {
+        "slug": "0425-memory-honest",
+        "prompt": "MEMORY honest BOOKLETS scalable scales, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Memory is honest. Booklets are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0430-un-naturing",
+        "prompt": "Page NATURAL stamp peeling off, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "I am un-naturing the page.",
+        "image": null
+      },
+      {
+        "slug": "0435-conduct-laminate",
+        "prompt": "Safe conduct wearing LAMINATE costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The page is a safe conduct wearing a laminate.",
+        "image": null
+      },
+      {
+        "slug": "0440-ink-law",
+        "prompt": "Laminate INK IS LAW stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The laminate said ink can be law.",
+        "image": null
+      },
+      {
+        "slug": "0445-no-paper-packed",
+        "prompt": "Crossing wanted paper not packed scene, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "If you crossed somewhere that wanted a paper you did not pack.",
+        "image": null
+      },
+      {
+        "slug": "0450-not-physics",
+        "prompt": "PHYSICS stamp red X on passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You know the passport is not physics.",
+        "image": null
+      },
+      {
+        "slug": "0455-bureaucratic-vote",
+        "prompt": "Bureaucracy voting for passport wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A compromise that won a bureaucratic vote.",
+        "image": null
+      },
+      {
+        "slug": "0500-spreadsheet-cardboard",
+        "prompt": "Spreadsheet cardboard stamp catalog, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A vote is a spreadsheet with cardboard and a stamp catalog.",
+        "image": null
+      },
+      {
+        "slug": "0505-stamp-travel",
+        "prompt": "Stamp traveling across booklet pages, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the stamp travel.",
+        "image": null
+      },
+      {
+        "slug": "0510-inventoried-answer",
+        "prompt": "Office inventory passport stacks shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass bureaucracy inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0515-print-bind-inspect",
+        "prompt": "PRINT BIND INSPECT REPLACE conveyor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Print, bind, inspect, replace without a vouching ritual.",
+        "image": null
+      },
+      {
+        "slug": "0520-chip-chapter",
+        "prompt": "Chip visa egate LATER CHAPTER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Biometric chips, visa pages, e-gates: a later chapter.",
+        "image": null
+      },
+      {
+        "slug": "0525-no-deserve-speech",
+        "prompt": "WHO DESERVES speech red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Do not make tonight a speech about who deserves to move.",
+        "image": null
+      },
+      {
+        "slug": "0530-object-cardboard",
+        "prompt": "CARDBOARD PHOTO STAMP REPEAT icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: cardboard, photo, stamp, repeat.",
+        "image": null
+      },
+      {
+        "slug": "0535-catalog-referendum",
+        "prompt": "Quiet catalog REFERENDUM whisper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0540-carryon-vs-letter",
+        "prompt": "Passport vs local letter gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your carry-on has a passport and your history book has a local letter.",
+        "image": null
+      },
+      {
+        "slug": "0545-inventory-fight",
+        "prompt": "Past losing fight INVENTORY filing cabinet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Inventory is how the past loses a fight without filing a complaint.",
+        "image": null
+      },
+      {
+        "slug": "0550-this-is-you",
+        "prompt": "Stickman labeled THIS IS YOU departure hall, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you, already, in the middle of the story.",
+        "image": null
+      },
+      {
+        "slug": "0555-tuesday-present",
+        "prompt": "Tuesday hall booklet no thank you, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Tuesday, a departure hall, a booklet without thanking a League conference.",
+        "image": null
+      },
+      {
+        "slug": "0600-present-page",
+        "prompt": "Present page IMPOSSIBLE without stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You present a page because boarding would feel impossible without a stamp.",
+        "image": null
+      },
+      {
+        "slug": "0605-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY stamp on gate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0610-after-1920",
+        "prompt": "Timeline after 1920 passport format, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after the nineteen twenty format.",
+        "image": null
+      },
+      {
+        "slug": "0615-lamination-chip",
+        "prompt": "Photo lamination chip beeping, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "After photos learned lamination and a chip learned to beep.",
+        "image": null
+      },
+      {
+        "slug": "0620-relief-insult",
+        "prompt": "Relief checkmark insult royal letter wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not retell your life, insult a royal letter won.",
+        "image": null
+      },
+      {
+        "slug": "0625-road-imagination",
+        "prompt": "Ghost unmarked road failing imagination, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The unmarked road failing in your imagination.",
+        "image": null
+      },
+      {
+        "slug": "0630-never-voted",
+        "prompt": "Faster queue NEVER VOTED stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a faster queue with a document you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0635-cheerful-booklet",
+        "prompt": "Smiling booklet letter costume hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a booklet stays without looking like a letter.",
+        "image": null
+      },
+      {
+        "slug": "0640-compromises-border",
+        "prompt": "Border pile COMPROMISES booklet bolted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A border is a pile of compromises with a booklet attached.",
+        "image": null
+      },
+      {
+        "slug": "0645-take-passport-away",
+        "prompt": "Terminal puzzle nobody wins no passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the passport away and the terminal becomes a workshop puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0650-photo-stamp-rules",
+        "prompt": "PHOTO RULES STAMP GEOMETRY FEES labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Photo rules, stamp geometry, binding time, replacement fees.",
+        "image": null
+      },
+      {
+        "slug": "0655-diagram-cross",
+        "prompt": "Page diagram CROSS without memory story, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The page is a diagram of how to cross without the memory story.",
+        "image": null
+      },
+      {
+        "slug": "0700-present-vote",
+        "prompt": "Presentation voting SLIP OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The presentation is a vote for a slip sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0705-personality-swap",
+        "prompt": "SWAP arrow local letter to booklet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was always the swap.",
+        "image": null
+      },
+      {
+        "slug": "0710-local-letter",
+        "prompt": "Local letter and safe conduct icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A local letter, a royal safe conduct.",
+        "image": null
+      },
+      {
+        "slug": "0715-french-count",
+        "prompt": "French count League format icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A French identity count, a League format.",
+        "image": null
+      },
+      {
+        "slug": "0720-laminate-cousin",
+        "prompt": "Laminate forgetting cousin ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A laminate that forgot your cousin.",
+        "image": null
+      },
+      {
+        "slug": "0725-treaty-crowd",
+        "prompt": "Departure board paper TREATY handshake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a departure board treating paper as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0730-what-we-traded",
+        "prompt": "Face truth RECOGNITION traded away, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded a face that told the truth about recognition.",
+        "image": null
+      },
+      {
+        "slug": "0735-printed-stamped",
+        "prompt": "Printed stamped forgotten page on line, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "For a page that could be printed, stamped, and forgotten.",
+        "image": null
+      },
+      {
+        "slug": "0740-real-help",
+        "prompt": "Fewer stories line moving POCKET crossing, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Real help: fewer stories, a line moving, a crossing from a pocket.",
+        "image": null
+      },
+      {
+        "slug": "0745-miracle-part-number",
+        "prompt": "MIRACLE and PART NUMBER both true, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be a miracle and still be a part number.",
+        "image": null
+      },
+      {
+        "slug": "0750-myth-nature",
+        "prompt": "MYTH NATURE ADULT CROSSING stamps, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A myth that the passport is nature and the booklet is the only adult crossing.",
+        "image": null
+      },
+      {
+        "slug": "0755-letter-passport",
+        "prompt": "Letter wearing PASSPORT name tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the letter and called it a passport.",
+        "image": null
+      },
+      {
+        "slug": "0800-road-history",
+        "prompt": "Road labeled HISTORY museum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept the road and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0805-policy-manners",
+        "prompt": "Policy passport in polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The booklet is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0810-seal-era",
+        "prompt": "Royal seal preaching WHOLE SERMON label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "There was an era when the royal seal was the whole sermon.",
+        "image": null
+      },
+      {
+        "slug": "0815-border-separate",
+        "prompt": "Border line SEPARATE HOMEWORK label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A border line arrived as a separate homework assignment.",
+        "image": null
+      },
+      {
+        "slug": "0820-flip-sound",
+        "prompt": "Page flip sound CONTRACT ears trust, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The page flip is a contract your ears learned to trust.",
+        "image": null
+      },
+      {
+        "slug": "0825-cardboard-wear",
+        "prompt": "Worn cardboard faded stamp PROCEDURE stays, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cardboard wears, stamps fade, the procedure stays.",
+        "image": null
+      },
+      {
+        "slug": "0830-regulators-shelf",
+        "prompt": "Regulator placing passport on SHELF not invent, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Regulators did not invent the booklet. They shelved it.",
+        "image": null
+      },
+      {
+        "slug": "0835-fleet-treaty",
+        "prompt": "Identical passports TREATY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A departure hall is a treaty written in identical booklets.",
+        "image": null
+      },
+      {
+        "slug": "0840-hand-memory",
+        "prompt": "Hand with booklet MEMORY ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hand remembers a booklet you never chose.",
+        "image": null
+      },
+      {
+        "slug": "0845-letter-ghost",
+        "prompt": "Local letter ghost in pocket, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The local letter is still a ghost in every pocket.",
+        "image": null
+      },
+      {
+        "slug": "0850-cardboard-cheerful",
+        "prompt": "Cheerful cardboard page POLICY costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cardboard is cheerful. Cheerful is how policy wears a page.",
+        "image": null
+      },
+      {
+        "slug": "0855-present-before-gate",
+        "prompt": "Present then GATE PERMISSION stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You present before you gate as if gating required permission.",
+        "image": null
+      },
+      {
+        "slug": "0900-layout-cardboard",
+        "prompt": "People nodding at cardboard no argue, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A pile of people who agreed not to argue with cardboard.",
+        "image": null
+      },
+      {
+        "slug": "0905-walk-gate",
+        "prompt": "Callback walking gate booklet in hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will walk to the gate. The booklet will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0910-feel-nothing",
+        "prompt": "Blank calm face victory at stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0915-look-stamp",
+        "prompt": "Stamp between red X sky and red X hero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at the stamp. Not the sky and not a single hero clerk.",
+        "image": null
+      },
+      {
+        "slug": "0920-named-stack",
+        "prompt": "Stack icons letter conduct France league laminate, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Local letter, safe conduct, French papers, League nineteen twenty, laminate.",
+        "image": null
+      },
+      {
+        "slug": "0925-page-law",
+        "prompt": "Departure hall page stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A page that owns your departure hall so cardboard stays law.",
+        "image": null
+      },
+      {
+        "slug": "0930-allowed-present",
+        "prompt": "Present ok hate queue still flying, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to present. Allowed to hate the queue and still fly.",
+        "image": null
+      },
+      {
+        "slug": "0935-not-natural",
+        "prompt": "NATURAL stamp red X on passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the passport natural.",
+        "image": null
+      },
+      {
+        "slug": "0940-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "0945-leftover-letter",
+        "prompt": "Salute to letter leaving court, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a letter that left the court.",
+        "image": null
+      },
+      {
+        "slug": "0950-cardboard-point",
+        "prompt": "Cheerful salute on cardboard passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The cardboard is the point.",
+        "image": null
+      },
+      {
+        "slug": "0955-know-booklet",
+        "prompt": "Stickman at gate passport labeled which booklet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the stamp lets you. Know which booklet you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1000-glance-cheerful",
+        "prompt": "Smiling booklet letter ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a booklet stays without looking like a letter.",
+        "image": null
+      },
+      {
+        "slug": "1005-train-redrawn",
+        "prompt": "Train loud borders maps redrawn, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Trains made borders loud when maps kept getting redrawn.",
+        "image": null
+      },
+      {
+        "slug": "1010-merchant-seal",
+        "prompt": "Merchant seal POCKET HANDSHAKE label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A merchant seal was a handshake you could carry in a pocket.",
+        "image": null
+      },
+      {
+        "slug": "1015-checkpoint-invented",
+        "prompt": "Checkpoint invented after LINE NEEDS COUNT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The checkpoint was invented after the line needed counting.",
+        "image": null
+      },
+      {
+        "slug": "1020-photo-booth",
+        "prompt": "Photo booth FACE TO PAPERWORK machine, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The photo booth is a machine that turns a face into paperwork.",
+        "image": null
+      },
+      {
+        "slug": "1025-booth-speed",
+        "prompt": "Booth machine INK TO SPEED, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A booth is a machine for turning ink into speed.",
+        "image": null
+      },
+      {
+        "slug": "1030-binding-thread",
+        "prompt": "Thread glue QUIET PARLIAMENT passport, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Thread and glue are the quiet parliament of a passport.",
+        "image": null
+      },
+      {
+        "slug": "1035-cousin-memory",
+        "prompt": "Cousin MEMORY replaced by stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The guard remembered your cousin until the stamp replaced memory.",
+        "image": null
+      },
+      {
+        "slug": "1040-gate-beep",
+        "prompt": "Gate beeping booklet learned electronics, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The gate beeps because the booklet learned electronics.",
+        "image": null
+      },
+      {
+        "slug": "1045-visa-extra",
+        "prompt": "Visa page HOMEWORK NOT DONE AT HOME, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A visa page is homework the booklet forgot to do at home.",
+        "image": null
+      },
+      {
+        "slug": "1050-queue-physics",
+        "prompt": "QUEUE stamp red X paperwork with chairs, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The queue is not physics. It is paperwork with chairs.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback letter CONFERENCE YOUR BOOKLET, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A letter. A conference. Your booklet.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why a Booklet Lets You Cross a Line",
+    "description": "Your passport feels obvious. Early travelers used local letters and safe conducts. The League of Nations standardized the booklet in nineteen twenty. The stamp is logistics.",
+    "tags": [
+      "passport",
+      "border",
+      "travel",
+      "league of nations",
+      "history",
+      "why",
+      "document",
+      "identity",
+      "safe conduct"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "PAPER LINE?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will open a small booklet and treat a border as obvious. Your thumb will find a photo page as if the airport grew a permission slip because airports do permission slips. Here is the part that should bother you. The first travelers did not agree. Many of them crossed a river with a local letter, a merchant seal, or nothing but a face the guard had seen before. So why does your pocket wear a passport as if the booklet were physics? Because medieval kings already issued safe conducts when roads needed paperwork, because Louis the Fourteenth asked subjects to carry identity papers when cities needed to count who belonged, because the League of Nations standardized the booklet format in nineteen twenty when trains made borders loud, and because states learned that a stamped page is easier to inspect than a memory. That is the whole plot. Your crossing is not freedom by nature. It is a leftover letter that learned to look official. You still present. The presentation is flattered. That is its job. The river did not vote. A clerk did, and then a booklet that taught your hand the stamp until the stamp started calling itself sense. Sense is a word a border invented so a line would still feel like law when the letter was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the letter, because the passport stole a safe conduct and then sold it back as cardboard. Before photography, before machine-readable zones, before a booklet could host a chip that beeps, crossing a line was a negotiation with a guard you could not schedule. Early travelers carried. Early hosts vouched. Some routes offered nothing but reputation and the social contract that your name matched your face. When booklets arrived, they were honest and suspicious. A page that says bearer may pass is a letter wearing a cover. It does not say the line is real until everyone agrees to treat ink as a gate. If your passport still feels like the only adult option, notice that the adult option started as royal paperwork dragged onto a route that was not a checkpoint. The route did not offer a photo booth. The face still wanted recognition until recognition got tired of being the only system. The face was not a miracle. It was logistics.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a booklet gets a halo it did not earn. The passport is not a single eureka moment you can pin on one hero with a plaque. It is a layer cake of safe conducts, identity counts, and a stamped page that behaved nicely when you needed to move a crowd through a booth. In fourteen fourteen, King Henry the Fifth of England issued safe conducts for subjects traveling abroad. In seventeenth century France, Louis the Fourteenth's regime pushed subjects to carry papers that proved who they were. After the First World War, the League of Nations convened in nineteen twenty to agree on a standard passport format so trains would not stall at every redrawn border. If you still treat the booklet as sacred cardboard, file the conference separately from the queue. Your page is a League complaint wearing a century of stamps.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the letter leave the court, because a horizontal world of trains needed a slip that did not require a king at every crossing. Early border tricks were honest and exhausting. Explain your business. Wait for a seal. Hope the guard remembers your cousin. Repeat. A standardized booklet is a small insult to anonymity with a large gift to the queue. The photo repeats. The number flexes. The stamp says proceed here without asking the traveler to retell a biography at every line. I am not giving you a list of firsts. I am pointing at the swap. We took a face that said trust me and we replaced it with a page that said read this ink. Read is easier to teach in a manual. Read is easier to scan in a booth. Read is easier to repeat when the line speeds up. The line is the real inventor. The line does not care about your nostalgia for an unmarked road. The line cares about booklets that fit and travelers who stay inside the procedure.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think the passport is a fact, the way a door is a fact. The passport is a policy. In a modern terminal the policy is already on, because the alternative is trusting every crossing to a guard's memory and every queue to a story that must be retold before the plane boards. Memory is honest. Booklets are scalable. Scalable is how an identity escapes the local letter and becomes something a state can own in numbers. I am not calling you clumsy for liking a stamp. I am un-naturing the page. The page is a safe conduct wearing a laminate. The laminate said ink can be law. Law is a feeling when your hand finds a booklet without remembering when it learned it. If you have ever crossed somewhere that wanted a paper you did not pack, you know the passport is not physics. It is a compromise that won a bureaucratic vote. A vote is not a river. A vote is a spreadsheet with cardboard and a stamp catalog.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the stamp travel. Mass bureaucracy did not invent borders. It inventoried the answer. When the same crossing had to repeat across a continent, the booklet became the unit you could print, bind, inspect, and replace without translating a vouching ritual for every guard. Biometric chips, visa pages, e-gates: decades later the booklet could scan and glow, a useful chapter about fibers and databases, not the origin story of the letter itself. Do not make tonight a speech about who deserves to move. Make it about the object: cardboard, photo, stamp, repeat. A catalog is a quiet referendum. If your carry-on has a passport and your history book has a local letter, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a departure hall, a booklet you have opened a thousand times without thanking a League conference. You present a page because boarding would feel impossible without a stamp, which is the most modern impossibility there is. None of this makes you bureaucratic by nature. It makes you a person born after the nineteen twenty format and after photos learned lamination and after a chip learned to beep at a gate. You can feel both in the same motion: relief that you do not have to retell your life at every booth, and a tiny insult that a royal letter won a pocket slot. The relief is real. The insult is the unmarked road failing for a second in your imagination. You paid for a faster queue with a document you never voted on. The document is cheerful. Cheerful is how a booklet stays in the century without looking like a letter.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A border is a pile of compromises with a booklet attached. That sentence is rude and almost fair. Take the passport away and the terminal becomes a workshop puzzle nobody wins, or a biography retold at every line until the flight leaves. Photo rules, stamp geometry, binding time, replacement fees: the page is a diagram of how to cross without sending the whole human into the memory story, written by clerks you will not meet. You still present. The presentation is a vote for a slip that was sold as obvious. I am not telling you to hunt for an unmarked road as a personality. I am telling you the personality was always the swap: a local letter, a royal safe conduct, a French identity count, a League format, a laminate that forgot your cousin. The crowd is still in the hall. The crowd is you and a departure board treating paper as a treaty. So what did we trade? We traded a face that told the truth about recognition for a page that could be printed, stamped, and forgotten. That tooling is real help: fewer stories, a guard who keeps a line moving, a crossing you can make with a pocket. Help can be a miracle and still be a part number. We also gained a myth that the passport is nature and the booklet is the only adult crossing. We kept the letter and called it a passport. We kept the road and called it history. Both can be true and still not be a reason to forget the booklet is a policy that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will walk to the gate. The booklet will still be there. You will feel nothing, which is the victory. Look at the stamp. That is not the sky and it is not a single hero clerk. That is a local letter, a medieval safe conduct, a French identity paper habit, the League of Nations in nineteen twenty, a laminate that replaced a cousin's memory, a brief later chapter about chips if you must, and a page that still owns your departure hall so you will keep treating cardboard as law. You are allowed to present. You are allowed to hate the queue and still fly. Just stop calling the passport natural, or inevitable, or proof that you are modern. Tonight, when the officer flips a page, look at it like a leftover salute to a letter that left the court. The salute is cheerful. The cardboard is the point. Go when the stamp lets you. Know which booklet you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -257,12 +257,14 @@ class FakeEditor(IVideoEditor):
         photo_paths: list[Path],
         audio_paths: list[Path],
         audio_durations: list[float],
-        subtitle_cues: object,
+        subtitle_cues: list[SubtitleCue],
         scenario: Scenario,
         font_path: Path | None,
         out_path: Path,
+        *,
+        word_cues: list[WordCue] | None = None,
     ) -> Path:
-        del audio_paths, audio_durations, subtitle_cues, scenario, font_path
+        del audio_paths, audio_durations, subtitle_cues, scenario, font_path, word_cues
         self.assembled = list(photo_paths)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_bytes(b"story video")

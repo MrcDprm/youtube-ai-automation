@@ -1,0 +1,1007 @@
+{
+  "project_id": "why-an-hour-has-sixty-minutes-11dk-20260828",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-glance-sixty",
+        "prompt": "Stickman glancing at wall clock, SIXTY stamped FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you glance at a clock and treat sixty as a fact.",
+        "image": null
+      },
+      {
+        "slug": "0005-twelve-ticks",
+        "prompt": "Wristwatch with twelve tick marks highlighted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your wrist expects twelve little ticks.",
+        "image": null
+      },
+      {
+        "slug": "0010-body-no-sixty",
+        "prompt": "Human body with red X over 60 MIN HOUR, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your body did not grow sixty-minute hours.",
+        "image": null
+      },
+      {
+        "slug": "0015-solar-argument",
+        "prompt": "Sun arguing with fraction mess, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The day is a solar argument that refuses to factor cleanly.",
+        "image": null
+      },
+      {
+        "slug": "0020-phone-slices",
+        "prompt": "Phone cutting day into 60 chunks, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your phone slices the day into chunks of sixty.",
+        "image": null
+      },
+      {
+        "slug": "0025-why-sixty",
+        "prompt": "Hour wearing 60 MIN NATURE costume, question mark, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does an hour wear sixty minutes as if sixty were nature?",
+        "image": null
+      },
+      {
+        "slug": "0030-mesopotamian-scribes",
+        "prompt": "Scribe with calm number 60, no tantrum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mesopotamian scribes liked a number that divides without tantrums.",
+        "image": null
+      },
+      {
+        "slug": "0035-babylonian-tables",
+        "prompt": "Star table in sexagesimal columns, BABYLON tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Babylonian astronomers built star tables in sexagesimal columns.",
+        "image": null
+      },
+      {
+        "slug": "0040-hipparchus-ptolemy",
+        "prompt": "Two Greek labels Hipparchus and Ptolemy holding grid, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Greek observers Hipparchus and Claudius Ptolemy inherited that grid.",
+        "image": null
+      },
+      {
+        "slug": "0045-medieval-gears",
+        "prompt": "Medieval gears matching sky chart, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Medieval clockmakers needed gears that agreed with the sky.",
+        "image": null
+      },
+      {
+        "slug": "0050-wrist-museum",
+        "prompt": "Wristwatch with tiny clay tablet inside, MUSEUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A wristwatch is a tiny museum of a clay habit.",
+        "image": null
+      },
+      {
+        "slug": "0055-not-heartbeat",
+        "prompt": "HEARTBEAT red X, clock wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hour is not a heartbeat.",
+        "image": null
+      },
+      {
+        "slug": "0100-base-sixty-souvenir",
+        "prompt": "Souvenir tag BASE 60 wearing LAW mask, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A base-sixty souvenir that learned to look like a law.",
+        "image": null
+      },
+      {
+        "slug": "0105-law-flattered",
+        "prompt": "Smiling clock, FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The law is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0110-circle-no-vote",
+        "prompt": "Circle with NO VOTE, scribe raising hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The circle did not vote. A scribe did.",
+        "image": null
+      },
+      {
+        "slug": "0115-gear-train",
+        "prompt": "Gear train wrapping wrist, grid arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Then a gear train taught your wrist the grid.",
+        "image": null
+      },
+      {
+        "slug": "0120-start-clay",
+        "prompt": "Clay tablet labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the clay.",
+        "image": null
+      },
+      {
+        "slug": "0125-clock-stole-counter",
+        "prompt": "Counter stolen by chrome clock, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The clock stole a counter and sold it back as chrome.",
+        "image": null
+      },
+      {
+        "slug": "0130-before-gears",
+        "prompt": "Timeline before gears minute hands, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Long before gears, before minute hands.",
+        "image": null
+      },
+      {
+        "slug": "0135-mesopotamia-sixties",
+        "prompt": "Map MESOPOTAMIA with 60 counters, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "People in Mesopotamia were counting in sixties.",
+        "image": null
+      },
+      {
+        "slug": "0140-sumerian-tablets",
+        "prompt": "Sumerian tablet with numbers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Sumerian scribes left early number tablets.",
+        "image": null
+      },
+      {
+        "slug": "0145-babylonian-math",
+        "prompt": "Number 60 on VIP pass FIRST CLASS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Babylonian mathematics treated sixty as a first-class citizen.",
+        "image": null
+      },
+      {
+        "slug": "0150-place-value-sixty",
+        "prompt": "Two columns 1 and 60 place value arrows, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A place-value system: left column means sixty times the right.",
+        "image": null
+      },
+      {
+        "slug": "0155-decimal-trick",
+        "prompt": "Decimal 10 hat swap to Mesopotamian 60 hat, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The same trick decimal uses with tens, wearing a Mesopotamian hat.",
+        "image": null
+      },
+      {
+        "slug": "0200-sky-vs-hour",
+        "prompt": "Day cycle vs 60 red X neat fit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The sky's cycle does not factor cleanly into sixty.",
+        "image": null
+      },
+      {
+        "slug": "0205-hour-bookkeeping",
+        "prompt": "Ledger labeled HOUR BOOKKEEPING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "An hour is a bookkeeping story.",
+        "image": null
+      },
+      {
+        "slug": "0210-gate-closes",
+        "prompt": "Town gate clock vs cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Agree on when the gate closes without waiting for a cloud.",
+        "image": null
+      },
+      {
+        "slug": "0215-sun-drum",
+        "prompt": "Sun as slow drum, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The Sun keeps time like a slow drum.",
+        "image": null
+      },
+      {
+        "slug": "0220-grid-metronome",
+        "prompt": "Metronome with question WHICH SONG, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The grid keeps time like a metronome that forgot the song.",
+        "image": null
+      },
+      {
+        "slug": "0225-phone-skin",
+        "prompt": "Phone wearing sexagesimal skin, sun bare, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Only one of them is wearing your phone's default skin.",
+        "image": null
+      },
+      {
+        "slug": "0230-named-corners",
+        "prompt": "Halo on 60, MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo sixty did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0235-not-one-eureka",
+        "prompt": "Plaque ONE HERO red X, layer cake instead, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a single eureka moment on one hero with a plaque.",
+        "image": null
+      },
+      {
+        "slug": "0240-layer-cake",
+        "prompt": "Layer cake ADMIN SKY PATIENCE labels, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A layer cake of administrative need and astronomical patience.",
+        "image": null
+      },
+      {
+        "slug": "0245-sixty-divides",
+        "prompt": "60 split into 2 3 4 5 6 clean pieces, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Sixty divides evenly by two, three, four, five, six.",
+        "image": null
+      },
+      {
+        "slug": "0250-ten-twelve-fifteen",
+        "prompt": "Factors 10 12 15 20 30 checkmarks, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Ten, twelve, fifteen, twenty, and thirty.",
+        "image": null
+      },
+      {
+        "slug": "0255-fifty-nine-stylus",
+        "prompt": "Scribe throwing stylus at 59 fraction mess, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Try fifty nine and watch a scribe throw a stylus.",
+        "image": null
+      },
+      {
+        "slug": "0300-fractions-grain",
+        "prompt": "Grain land wages stars sharing pie chart, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fractions matter when sharing grain, land, wages, star positions.",
+        "image": null
+      },
+      {
+        "slug": "0305-babylon-astronomers",
+        "prompt": "Lunar cycle eclipse table Babylon, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Babylonian astronomers tracked lunar cycles and eclipses.",
+        "image": null
+      },
+      {
+        "slug": "0310-tables-reward",
+        "prompt": "Star table smiling at factor list, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tables that reward a base with many factors.",
+        "image": null
+      },
+      {
+        "slug": "0315-clay-export",
+        "prompt": "Clay tablet exporting 60 on trade route, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Exported the habit until the habit felt like weather.",
+        "image": null
+      },
+      {
+        "slug": "0320-souvenir-english",
+        "prompt": "Souvenir 60 speaking English ticking, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A Mesopotamian souvenir that learned English and learned to tick.",
+        "image": null
+      },
+      {
+        "slug": "0325-sky-part-wrong",
+        "prompt": "SKY PART WRONG sign, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The sky part people remember wrong.",
+        "image": null
+      },
+      {
+        "slug": "0330-greek-inherited",
+        "prompt": "Greek figure receiving grid from Babylon, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Greek astronomy inherited a grid already busy in Babylon.",
+        "image": null
+      },
+      {
+        "slug": "0335-hipparchus-stars",
+        "prompt": "Hipparchus with star catalogue 2nd c BCE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Hipparchus compiled star catalogues in the second century BCE.",
+        "image": null
+      },
+      {
+        "slug": "0340-angular-divisions",
+        "prompt": "Circle divided in 60 angular marks, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Angular divisions compatible with sixties.",
+        "image": null
+      },
+      {
+        "slug": "0345-ptolemy-almagest",
+        "prompt": "Ptolemy holding ALMAGEST book 2nd c CE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Claudius Ptolemy wrote the Almagest in the second century CE.",
+        "image": null
+      },
+      {
+        "slug": "0350-not-tuesday-stars",
+        "prompt": "Calendar Tuesday stars red X causation, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not proof the hour was invented counting stars on Tuesday.",
+        "image": null
+      },
+      {
+        "slug": "0355-sky-chorus",
+        "prompt": "Sky planets as chorus in 60 costumes, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The sky handed them a chorus that fit the costume.",
+        "image": null
+      },
+      {
+        "slug": "0400-planets-no-vote",
+        "prompt": "Planets at ballot box NO VOTE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The planets did not vote on your wristwatch.",
+        "image": null
+      },
+      {
+        "slug": "0405-sixty-seats",
+        "prompt": "Draft board with 60 empty seats, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The draft board had already chosen sixty seats.",
+        "image": null
+      },
+      {
+        "slug": "0410-useful-leftover",
+        "prompt": "Leftover 60 in disguise USEFUL, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Useful is how a leftover stays without looking like one.",
+        "image": null
+      },
+      {
+        "slug": "0415-clay-to-circle",
+        "prompt": "Arrow clay tablet morphing to clock circle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the number travel from clay to circle.",
+        "image": null
+      },
+      {
+        "slug": "0420-medieval-not-cute",
+        "prompt": "Medieval town CUTE red X on 60, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Medieval Europe did not decide sixty was cute one morning.",
+        "image": null
+      },
+      {
+        "slug": "0425-roman-hours",
+        "prompt": "Stretchy sun hours Roman style, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Roman daylight hours could stretch and shrink with the season.",
+        "image": null
+      },
+      {
+        "slug": "0430-church-bells",
+        "prompt": "Church bell PRAYER time, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Church bells marked prayer.",
+        "image": null
+      },
+      {
+        "slug": "0435-water-sand-clocks",
+        "prompt": "Water clock and hourglass leaking, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Water clocks and sand glasses leaked at their own pace.",
+        "image": null
+      },
+      {
+        "slug": "0440-escapement-teeth",
+        "prompt": "Escapement gear teeth repeating cleanly, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mechanical escapements wanted gear teeth that could repeat.",
+        "image": null
+      },
+      {
+        "slug": "0445-public-clocks",
+        "prompt": "Town square clock tower crowd, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Public clocks spread across town squares.",
+        "image": null
+      },
+      {
+        "slug": "0450-civic-furniture",
+        "prompt": "Clock as furniture plus CONTRACT paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Civic furniture and a contract.",
+        "image": null
+      },
+      {
+        "slug": "0455-sixty-parts",
+        "prompt": "Circle cut into 60 minute slices, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Dividing a circle into sixty parts for minutes.",
+        "image": null
+      },
+      {
+        "slug": "0500-scribe-comfort",
+        "prompt": "Scribe and clockmaker same comfort smile, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The same comfort Babylonian scribes enjoyed.",
+        "image": null
+      },
+      {
+        "slug": "0505-not-monk-commute",
+        "prompt": "Monk COMMUTE red X, town contract instead, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not that a monk invented your commute.",
+        "image": null
+      },
+      {
+        "slug": "0510-synchronized-pulses",
+        "prompt": "Town pulse wave syncing bells, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A town needed synchronized pulses.",
+        "image": null
+      },
+      {
+        "slug": "0515-eternal-tick",
+        "prompt": "Dial saying ETERNAL hiding WHO PICKED, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Eternal is a word dials use about tick marks.",
+        "image": null
+      },
+      {
+        "slug": "0520-rehook-fact",
+        "prompt": "Hour vs gravity both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rehook: you think the hour is a fact like gravity.",
+        "image": null
+      },
+      {
+        "slug": "0525-hour-policy",
+        "prompt": "Hour stamped POLICY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The hour is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0530-sundial-season",
+        "prompt": "Sundial stretching with seasons, TRUST red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Trusting a sundial that moves with the season.",
+        "image": null
+      },
+      {
+        "slug": "0535-boss-patience",
+        "prompt": "Boss clipboard PATIENCE TEST, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A boss who thinks patience is a personality test.",
+        "image": null
+      },
+      {
+        "slug": "0540-sundials-honest",
+        "prompt": "Sundial HONEST stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Sundials are honest.",
+        "image": null
+      },
+      {
+        "slug": "0545-grid-scalable",
+        "prompt": "Grid multiplying SCALABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Sexagesimal grids are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0550-city-in-numbers",
+        "prompt": "Bench to city clocks many, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Scalable is how a schedule escapes the bench and a city owns it.",
+        "image": null
+      },
+      {
+        "slug": "0555-un-nature-tick",
+        "prompt": "NATURE sticker peeling off clock tick, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not calling you clumsy. Un-naturing the tick.",
+        "image": null
+      },
+      {
+        "slug": "0600-clay-wearing-gear",
+        "prompt": "Clay column inside gear costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The tick is a clay column wearing a gear.",
+        "image": null
+      },
+      {
+        "slug": "0605-rotation-law",
+        "prompt": "Gear stamped ROTATION LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The gear said rotation can be law.",
+        "image": null
+      },
+      {
+        "slug": "0610-twelve-sixty-learned",
+        "prompt": "Eyes on dial blank memory bubble, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Eyes find twelve and sixty without remembering when they learned.",
+        "image": null
+      },
+      {
+        "slug": "0615-thirds-relief",
+        "prompt": "Hour split in thirds 20 min each clean, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Split an hour into thirds: twenty minutes without decimal mess.",
+        "image": null
+      },
+      {
+        "slug": "0620-babylon-factor",
+        "prompt": "Stickman inside factor list 2 3 4 5 6, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Living inside Babylon's factor list.",
+        "image": null
+      },
+      {
+        "slug": "0625-truce-unsigned",
+        "prompt": "TRUCE paper unsigned, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A truce you never signed.",
+        "image": null
+      },
+      {
+        "slug": "0630-spreadsheet-teeth",
+        "prompt": "Spreadsheet with gear teeth, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A truce is a spreadsheet with teeth.",
+        "image": null
+      },
+      {
+        "slug": "0635-mass-inventoried",
+        "prompt": "INVENT red X, INVENTORIED check on dial shelf, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production did not invent the minute. It inventoried it.",
+        "image": null
+      },
+      {
+        "slug": "0640-same-watch-face",
+        "prompt": "Identical watch faces row, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The same watch face had to repeat across models.",
+        "image": null
+      },
+      {
+        "slug": "0645-source-stamp-ship",
+        "prompt": "Watch parts SOURCE STAMP SHIP boxes, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Source, stamp, ship, and replace without translating a different base.",
+        "image": null
+      },
+      {
+        "slug": "0650-railroad-minute",
+        "prompt": "Two trains sharing one minute hand, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Railroads wanted a shared minute so engines would miss each other.",
+        "image": null
+      },
+      {
+        "slug": "0655-older-grid-under",
+        "prompt": "Smartwatch ghost of 60 grid under face, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The face still carries the older grid underneath.",
+        "image": null
+      },
+      {
+        "slug": "0700-trench-wrist",
+        "prompt": "Soldier wristwatch in trench shared minute, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Armies needed a shared minute within a trench.",
+        "image": null
+      },
+      {
+        "slug": "0705-packets-sixty",
+        "prompt": "60 packets labeled culturally loud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The minute arrived in packets of sixty because the packets were loud.",
+        "image": null
+      },
+      {
+        "slug": "0710-quiet-referendum",
+        "prompt": "Catalog voting booth QUIET REFERENDUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0715-clay-vs-smartwatch",
+        "prompt": "Smartwatch vs book clay gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Smartwatch circle, history book clay tablets.",
+        "image": null
+      },
+      {
+        "slug": "0720-inventory-fight",
+        "prompt": "Inventory shelf beating sundial, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "That gap is inventory. Inventory is how the past wins.",
+        "image": null
+      },
+      {
+        "slug": "0725-this-is-you",
+        "prompt": "Stickman Tuesday microwave timer, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you. A Tuesday. A microwave. A timer in minutes you did not invent.",
+        "image": null
+      },
+      {
+        "slug": "0730-stare-digits",
+        "prompt": "Stickman staring at timer digits pasta, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You stare at the digits because pasta needs a grid.",
+        "image": null
+      },
+      {
+        "slug": "0735-not-math-nature",
+        "prompt": "MATH NATURE stamp red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "None of this makes you mathematical by nature.",
+        "image": null
+      },
+      {
+        "slug": "0740-born-after-clocks",
+        "prompt": "Timeline town clock then wristwatch, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after town clocks and wristwatches as real estate.",
+        "image": null
+      },
+      {
+        "slug": "0745-circle-hosts",
+        "prompt": "Clock with alarm calendar buzz icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A circle learned to host alarms, calendars, notifications.",
+        "image": null
+      },
+      {
+        "slug": "0750-relief-thirds",
+        "prompt": "Hour halves thirds happy stickman, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you split an hour into halves and thirds easily.",
+        "image": null
+      },
+      {
+        "slug": "0755-insult-clay-gone",
+        "prompt": "Clay ghost outlasting broken tablet, insult cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiny insult that a clay habit outlasted the clay.",
+        "image": null
+      },
+      {
+        "slug": "0800-never-voted",
+        "prompt": "Receipt BASE 60 never voted, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a synchronized life with a base you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0805-cheerful-dial",
+        "prompt": "Smiling clock face hiding column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a dial stays without looking like a column.",
+        "image": null
+      },
+      {
+        "slug": "0810-fact-was-factors",
+        "prompt": "FACT equals factor list on tablet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A fact used to be a factor list on a tablet.",
+        "image": null
+      },
+      {
+        "slug": "0815-ring-forgot-clay",
+        "prompt": "Wristwatch ring, clay forgotten ghost, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your ring forgot the clay.",
+        "image": null
+      },
+      {
+        "slug": "0820-compromises-minutes",
+        "prompt": "Compromise stack with minutes on top, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A day is compromises with minutes attached.",
+        "image": null
+      },
+      {
+        "slug": "0825-take-hour-away",
+        "prompt": "Schedule puzzle pieces no 60, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take the sexagesimal hour away and the schedule becomes a puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0830-decimal-thirds-break",
+        "prompt": "Decimal dial thirds breaking, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Or a decimal dial until the thirds break.",
+        "image": null
+      },
+      {
+        "slug": "0835-diagram-split",
+        "prompt": "Diagram split day no prime fight, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Star tables, gear ratios, school bells: split a day without prime fights.",
+        "image": null
+      },
+      {
+        "slug": "0840-glance-vote",
+        "prompt": "Glance voting OBVIOUS grid, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The glance is a vote for a grid sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0845-not-tablet-personality",
+        "prompt": "Tablet personality hat red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not telling you to hunt clay tablets as a personality.",
+        "image": null
+      },
+      {
+        "slug": "0850-swap-personality",
+        "prompt": "Six icons Sumer Babylon Hipparchus Ptolemy clock wrist, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The personality was the swap: Sumer, Babylon, Hipparchus, Ptolemy, town clock, wrist.",
+        "image": null
+      },
+      {
+        "slug": "0855-crowd-dial",
+        "prompt": "Many stickmen on one clock face, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crowd is still on the dial.",
+        "image": null
+      },
+      {
+        "slug": "0900-circle-treaty",
+        "prompt": "Microwave and stickman circle treaty paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and a microwave treating a circle as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0905-treaty-blind",
+        "prompt": "Treaty blindfold workshop behind, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The treaty cannot see a workshop.",
+        "image": null
+      },
+      {
+        "slug": "0910-cabinet-face",
+        "prompt": "Locked cabinet LOG real clock face, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A log in a cabinet you will never open. The real clock face.",
+        "image": null
+      },
+      {
+        "slug": "0915-clay-under-ring",
+        "prompt": "Clay ghost under watch ring, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The clay is still under the ring.",
+        "image": null
+      },
+      {
+        "slug": "0920-what-trade",
+        "prompt": "Trade scale clay grid vs modern clock, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "So what did we trade?",
+        "image": null
+      },
+      {
+        "slug": "0925-sky-tied-day",
+        "prompt": "Sun tied day vs portable 60 counter, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A sky-tied day for a portable counter surviving awkward fractions.",
+        "image": null
+      },
+      {
+        "slug": "0930-minute-pulse",
+        "prompt": "Payroll software hugging minute pulse, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Local bells for a minute pulse payroll software can love.",
+        "image": null
+      },
+      {
+        "slug": "0935-shared-hour",
+        "prompt": "Train school chat agreeing on hour, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A shared hour for trains, schools, and group chats.",
+        "image": null
+      },
+      {
+        "slug": "0940-nurse-twenty",
+        "prompt": "Nurse break 20 MIN not personality of 60, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A nurse who knows her break is twenty minutes.",
+        "image": null
+      },
+      {
+        "slug": "0945-not-nature-row",
+        "prompt": "NATURE stamp red X on 60 row, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop pretending the sexagesimal row is nature.",
+        "image": null
+      },
+      {
+        "slug": "0950-deals-rewritten",
+        "prompt": "Settings toggle history with switch, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Deals can be rewritten quietly in settings menus.",
+        "image": null
+      },
+      {
+        "slug": "0955-look-again",
+        "prompt": "Callback stickman looking at clock 60, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will look at the clock again. Sixty will still be there.",
+        "image": null
+      },
+      {
+        "slug": "1000-feel-nothing",
+        "prompt": "Blank calm face victory at clock, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1005-not-sun-heartbeat",
+        "prompt": "Sun and HEARTBEAT red X, dial center, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "That is not the Sun and it is not a heartbeat.",
+        "image": null
+      },
+      {
+        "slug": "1010-named-stack",
+        "prompt": "Stack of named icons ending in wrist, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Sexagesimal column, Babylon table, Hipparchus, Ptolemy, town bell, gear, wrist.",
+        "image": null
+      },
+      {
+        "slug": "1015-microwave-law",
+        "prompt": "Microwave obeying clock LAW stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A circle that owns your microwave so ticks stay law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-glance",
+        "prompt": "Glance ok hate waiting still pasta, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You are allowed to glance. Allowed to hate waiting and still boil pasta.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "NATURAL stamp red X on hour, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling the hour natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-inevitable",
+        "prompt": "INEVITABLE MODERN stamps red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-clay",
+        "prompt": "Salute to factor list leaving clay, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A leftover salute to a factor list that left the clay.",
+        "image": null
+      },
+      {
+        "slug": "1040-beep-point",
+        "prompt": "Cheerful salute on microwave BEEP, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The salute is cheerful. The beep is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-grid",
+        "prompt": "Stickman leaving, grid labeled which, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when the ring lets you. Know which grid you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-glance-cheerful",
+        "prompt": "Smiling glance at clock, scribe ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The glance is cheerful. Cheerful is how a clock stays without looking like a scribe.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback clay stars label wrist on clock, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Clay. Stars. Your wrist.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why an Hour Has Sixty Minutes",
+    "description": "Sixty minutes feels obvious. Mesopotamian scribes counted in sexagesimal. Hipparchus and Ptolemy inherited the grid. Medieval gears and modern wristwatches still run on Babylon's factor list.",
+    "tags": [
+      "time",
+      "hour",
+      "minute",
+      "sexagesimal",
+      "babylon",
+      "history",
+      "why",
+      "clock",
+      "astronomy",
+      "hipparchus"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "SIXTY?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will glance at a clock face and treat sixty as a fact, the way you treat a door as something that opens. Your wrist will expect twelve little ticks and a hand that visits each one as if the circle were physics. Here is the part that should bother you. Your body did not grow sixty-minute hours. Your lungs do not breathe in base sixty. The day you live in is a solar argument that refuses to factor cleanly, and yet your phone still slices it into chunks of sixty as if the Sun had voted on a spreadsheet. So why does an hour wear sixty minutes as if sixty were nature? Because Mesopotamian scribes liked a number that divides without tantrums, because Babylonian astronomers built star tables in sexagesimal columns, because Greek observers including Hipparchus and Claudius Ptolemy inherited that grid for angles and time, because medieval clockmakers needed gears that could agree with the sky on a town wall, and because a wristwatch in the twenty-first century is still a tiny museum of a clay habit you never signed. That is the whole plot. Your hour is not a heartbeat. It is a base-sixty souvenir that learned to look like a law, and you obey it every morning as if the law had opinions about your coffee. The law does. The law is flattered. That is its job. The circle did not vote. A scribe did, and then a gear train that taught your wrist the grid until the grid started calling itself sense. Sense is a word a sexagesimal column invented so a leftover would still feel like truth when the clay was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the clay, because the clock stole a counter and then sold it back as chrome. Long before gears, before minute hands, before a factory could stamp a dial, people in Mesopotamia were already counting in sixties. Sumerian scribes left early number tablets. Babylonian mathematics, as later scholars read it on cuneiform, treated sixty as a first-class citizen the way your calculator treats ten. Sexagesimal is not a cute nickname. It is a place-value system where the column to the left means sixty times the column to the right, the same trick decimal uses with tens, only wearing a Mesopotamian hat. If your hour still feels like it belongs to the sky, notice that the sky's loudest cycle, the day, does not politely factor into sixty without remainder. A day is a rotation story. An hour is a bookkeeping story. Bookkeeping is useful when you need a temple, a market, and a watchman to agree on when the gate closes without waiting for a cloud. The Sun keeps time like a slow drum. The sexagesimal grid keeps time like a metronome that forgot which song it was hired for. You can love both and still admit only one of them is wearing your phone's default skin.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a number gets a halo it did not earn. The sexagesimal habit is not a single eureka moment you can pin on one hero with a plaque. It is a layer cake of administrative need, astronomical patience, and a number that behaves nicely when you split it. Sixty divides evenly by two, three, four, five, six, ten, twelve, fifteen, twenty, and thirty. Try that with a prime like fifty nine and watch a scribe throw a stylus. Fractions matter when you are sharing grain, land, wages, and star positions across months that refuse to be tidy. Babylonian astronomers tracked lunar cycles, planetary wanderings, and eclipse possibilities in tables that reward a base with many factors. If you still treat sixty as sacred math, file the paperwork separately from the physics. Sixty did not fall out of a heartbeat. It fell out of a culture that needed a counter flexible enough for commerce and sky work on the same clay, and then exported the habit along trade routes and copied tables until the habit felt like weather. Your dial is a Mesopotamian souvenir that learned English and learned to tick.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "This is the sky part people remember wrong. Greek astronomy did not invent sexagesimal from a blank slate. It inherited a grid already busy in Babylonian practice and then used it where precision wanted a fine mesh. Hipparchus, working in the second century before the common era, compiled star catalogues and geometric tools that lean on angular divisions compatible with sixties. Claudius Ptolemy, in the second century of the common era, wrote the Almagest, a star manual that treats celestial motion with the kind of fractional patience sexagesimal rewards. That is not proof the hour was invented because someone counted stars on a Tuesday. It is proof that when humans already liked sixty for angles, the sky handed them a chorus that fit the costume. Inevitable is a feeling schedules train. The planets did not vote on your wristwatch. They got drafted into a grid after the draft board had already chosen sixty seats. The seats were useful. Useful is how a leftover stays in the century without looking like a leftover.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Watch the number travel from clay to circle. Medieval Europe did not wake up one morning and decide sixty was cute. Clockmakers inherited a bundle: Roman daylight hours that could stretch and shrink with the season, church bells that marked prayer, water clocks and sand glasses that leaked honesty at their own pace, and then mechanical escapements that wanted a gear train with teeth that could repeat without shame. When public clocks spread across town squares in the late Middle Ages, they were civic furniture and a contract. Show up when the bell says, not when your shadow feels like noon. Dividing a circle into sixty parts for minutes, and grouping minutes into hours, rides the same sexagesimal comfort Babylonian scribes enjoyed: lots of clean fractions, lots of shared agreement. The punchline is not that a monk invented your commute. The punchline is that a town needed synchronized pulses and borrowed a grid old enough to feel eternal. Eternal is a word dials use when they want you to stop asking who picked the tick marks.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "This is the rehook. You think the hour is a fact, the way gravity is a fact. The hour is a policy. In a modern day the policy is already on, because the alternative is trusting every meeting to negotiate with a sundial that moves with the season and a boss who thinks patience is a personality test. Sundials are honest. Sexagesimal grids are scalable. Scalable is how a schedule escapes the temple bench and becomes something a city can own in numbers. I am not calling you clumsy for liking a circle. I am un-naturing the tick. The tick is a clay column wearing a gear. The gear said rotation can be law. Law is a feeling when your eyes find twelve and sixty without remembering when they learned it. If you have ever tried to split an hour into thirds and felt relief that twenty minutes exists without a decimal mess, congratulations. You have been living inside Babylon's factor list. The relief is real. The relief is also a truce you never signed. A truce is not a Sun that voted. A truce is a spreadsheet with teeth.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Mass production did not invent the minute. It inventoried it. When the same watch face had to repeat across models, the sexagesimal dial became the part you could source, stamp, ship, and replace without translating a different base for every wrist. Railroads and telegraphs later wanted a shared minute so engines would miss each other and wires would agree, which is a different chapter about zones and shame, but the face on your wrist still carries the older grid underneath. Pocket watches became wristwatches after armies needed a shared minute within a trench, and the minute still arrived in packets of sixty because the packets were already culturally loud. A catalog is a quiet referendum. If your smartwatch has a circle and your history book has clay tablets, that gap is not evolution. It is inventory. Inventory is how the past wins a fight without filing a complaint. The past is cheerful. Cheerful is how a sexagesimal habit stays on a dial without looking like Mesopotamia holding a clipboard.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a microwave, a timer that beeps in minutes you did not invent. You stare at the digits because boiling pasta would feel impossible without a grid, which is the most modern impossibility there is. None of this makes you mathematical by nature. It makes you a person born after town clocks and after wristwatches became real estate and after a circle learned to host alarms, calendars, and notifications that buzz. You can feel both in the same glance: relief that you can split an hour into halves and thirds without a calculator tantrum, and a tiny insult that a clay habit outlasted the clay. The relief is real. The insult is the sexagesimal column failing for a second in your imagination. You paid for a synchronized life with a base you never voted on. The base is cheerful. Cheerful is how a dial stays in the century without looking like a column. The dial still has a circle. The circle still feels like a fact. A fact used to be a factor list on a tablet. Your tablet is the rotation of a ring that forgot the clay. The rotation is cheerful. Cheerful is how a Babylon habit stays on a wrist without looking dusty.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "A day is a pile of compromises with minutes attached. That sentence is rude and almost fair. Take the sexagesimal hour away and the schedule becomes a workshop puzzle nobody wins, or a decimal dial on every model until the thirds break. Star tables, gear ratios, assembly time, school bells: the hour is a diagram of how to split a day without fighting prime numbers, written by scribes you will not meet. You still glance. The glance is a vote for a grid that was sold as obvious. I am not telling you to hunt for clay tablets as a personality. I am telling you the personality was always the swap: a Sumerian counter, a Babylonian table, Hipparchus with a catalogue, Ptolemy with a manual, a town clock with teeth, a wristwatch with a crown, a phone that stopped listing sundials. The crowd is still on the dial. The crowd is you and a microwave treating a circle as a treaty. The treaty cannot see a workshop. The template can, if a human overrode it, which is a sentence assembly logs are not supposed to hide. A log is a promise in a cabinet you will never open. The cabinet is the real clock face. The face is a costume. Costume is how a sexagesimal grid stays on a Tuesday without looking like clay. The clay is still under the ring. The ring is still a permission slip you never signed. So what did we trade? We traded a sky-tied day for a portable counter that survives awkward fractions. We traded local bells for a minute pulse payroll software can love. We gained a shared hour that lets a train, a school district, and a group chat agree on when the meeting starts without negotiating with prime numbers. That is not nothing. A nurse who knows her break is twenty minutes is living inside an administrative outcome, not a personality trait of sixty. The trick is pretending the sexagesimal row is nature. It is not. It is Mesopotamian factors, a Greek star manual, a medieval gear train, a wristwatch crown, and a phone default you never changed. Deals can be rewritten. Some already were, quietly, when digital clocks let you show decimal seconds in a settings menu and called it a feature as if features were not history with a toggle switch. This is you. You will look at the clock again. Sixty will still be there. You will feel nothing, which is the victory. Look at the dial. That is not the Sun and it is not a heartbeat. That is a sexagesimal column, a Babylonian table habit, Hipparchus and Ptolemy wearing angles, a town square bell, a gear train that replaced leaking water, a wristwatch that replaced a pocket, and a circle that still owns your microwave so you will keep treating ticks as law. You are allowed to glance. You are allowed to hate waiting and still boil pasta. Just stop calling the hour natural, or inevitable, or proof that you are modern. Tonight, when the timer beeps, look at it like a leftover salute to a factor list that left the clay. The salute is cheerful. The beep is the point. Go when the ring lets you. Know which grid you are still obeying. The glance is cheerful. Cheerful is how a clock stays on the wall without looking like a scribe you never met.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

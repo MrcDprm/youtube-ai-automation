@@ -1,0 +1,538 @@
+{
+  "project_id": "the-newspaper-that-sold-a-fake-moon-9dk-20260827",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-penny-moon",
+        "prompt": "Cartoon title beat: a giant penny newspaper THE SUN over a candy Moon, cream paper, hook energy. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A penny paper sold the Moon like a fire on the next block.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-trivia",
+        "prompt": "Ink shaking his head at a TRIVIA BATS stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a bat-men trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-aug-25-1835",
+        "prompt": "A calendar 25 AUG 1835, a masthead THE SUN, no flag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Tuesday 25 August 1835, The Sun, New York.",
+        "image": null
+      },
+      {
+        "slug": "0030-headline-stack",
+        "prompt": "A stacked headline GREAT ASTRONOMICAL DISCOVERIES HERSCHEL CAPE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Headline: Great Astronomical Discoveries by Sir John Herschel, Cape of Good Hope.",
+        "image": null
+      },
+      {
+        "slug": "0040-dead-journal",
+        "prompt": "A journal cover EDINBURGH JOURNAL OF SCIENCE with a small DEAD tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Letterhead: a supplement to the Edinburgh Journal of Science.",
+        "image": null
+      },
+      {
+        "slug": "0050-vespertilio",
+        "prompt": "A cute candy bat-person labeled VESPERTILIO-HOMO, four feet tag, not scary, not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Vespertilio-homo: cartoon man-bats as a ticket prop, not horror.",
+        "image": null
+      },
+      {
+        "slug": "0100-x-on-gullible",
+        "prompt": "A GULLIBLE 1835 stamp with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Put a red X on the gullible-1835 joke.",
+        "image": null
+      },
+      {
+        "slug": "0110-press-run",
+        "prompt": "Three cards HERSCHEL REAL, JOURNAL DEAD, PRESS RUN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Leftover: a real astronomer, a dead journal, a press run.",
+        "image": null
+      },
+      {
+        "slug": "0120-benjamin-day",
+        "prompt": "A nameplate BENJAMIN DAY, tags 1833 and ONE CENT. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Benjamin Day founded The Sun in 1833 as a penny paper.",
+        "image": null
+      },
+      {
+        "slug": "0130-newsboys",
+        "prompt": "A newsboy stack of pennies, a tiny FIRE and MURDER extra, not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A cent on the street, newsboys, fires and murders.",
+        "image": null
+      },
+      {
+        "slug": "0140-herschel-cape",
+        "prompt": "A ship and a Cape map pin JAN 1834, TELESCOPE TRUE. No flags as joke. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "John Herschel sailed for the Cape in January 1834. That expedition was true.",
+        "image": null
+      },
+      {
+        "slug": "0150-thomas-dick",
+        "prompt": "A book THOMAS DICK, a tally 4.2 BILLION on a candy Moon. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Thomas Dick: the Moon alone on the order of 4.2 billion inhabitants.",
+        "image": null
+      },
+      {
+        "slug": "0200-1826-piece",
+        "prompt": "An 1826 journal clip THE MOON AND ITS INHABITANTS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1826: The Moon and its Inhabitants in the Edinburgh New Philosophical Journal.",
+        "image": null
+      },
+      {
+        "slug": "0210-official-plan",
+        "prompt": "A clipboard PLAN: SATIRE as HERSCHEL NOTEBOOK. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official plan: satire, reprint the temperature of the age as Herschel.",
+        "image": null
+      },
+      {
+        "slug": "0220-aug-21-ad",
+        "prompt": "A teaser ad 21 AUG EDINBURGH COURANT COMING. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Advertised 21 August as a reprint from The Edinburgh Courant.",
+        "image": null
+      },
+      {
+        "slug": "0230-andrew-grant",
+        "prompt": "A nameplate ANDREW GRANT with a red X FICTION. No portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Byline: Dr. Andrew Grant, Herschel's companion. Grant did not exist.",
+        "image": null
+      },
+      {
+        "slug": "0240-new-principle",
+        "prompt": "A giant candy telescope NEW PRINCIPLE with a small DOES NOT EXIST tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "An immense telescope of an entirely new principle. It did not exist as written.",
+        "image": null
+      },
+      {
+        "slug": "0250-bipedal-beaver",
+        "prompt": "A cute cartoon beaver standing, a tiny hut, not a racist cartoon of people. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A bipedal beaver with huts. File the sentence. Do not spend it as a sneer.",
+        "image": null
+      },
+      {
+        "slug": "0300-sapphire-temples",
+        "prompt": "A candy sapphire temple on a Moon hill, not a real religion joke. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Temples of sapphire. Ticket-sale architecture.",
+        "image": null
+      },
+      {
+        "slug": "0310-other-papers",
+        "prompt": "A copy stack OTHER PAPERS and a lithograph of a cute bat-person. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Other papers copied. Lithographs followed.",
+        "image": null
+      },
+      {
+        "slug": "0320-poe-pfaall",
+        "prompt": "A balloon book HANS PFAALL, a tag POE 1835, STOLEN? Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Poe, June 1835: Hans Pfaall. Later said Locke stole the idea.",
+        "image": null
+      },
+      {
+        "slug": "0330-household-name",
+        "prompt": "A famous-name plate HERSCHEL, a long dotted line to CAPE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Herschel was a household name. The Cape was far.",
+        "image": null
+      },
+      {
+        "slug": "0340-no-photograph",
+        "prompt": "A ship of journals, a camera with a red X NO PHOTO. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Science arrived as reprinted journals. No photograph from the eyepiece.",
+        "image": null
+      },
+      {
+        "slug": "0350-yale-wait",
+        "prompt": "A campus sign YALE, a queue for NEXT INSTALLMENT, no photoreal faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Yale: faculty and students waited on the next number.",
+        "image": null
+      },
+      {
+        "slug": "0400-yale-legend",
+        "prompt": "A New York office tour LOOKING FOR EDINBURGH, LEGEND tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Legend: men came to New York looking for Edinburgh originals.",
+        "image": null
+      },
+      {
+        "slug": "0410-herald-fake",
+        "prompt": "A rival masthead MORNING HERALD, stamp FAKE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bennett's Morning Herald called the series a fake.",
+        "image": null
+      },
+      {
+        "slug": "0420-bibles-collar",
+        "prompt": "A tiny Bible stack and a CIRCULATION stamp, not a mockery of faith. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Missionaries and Bibles for man-bats: a circulation story wearing a collar.",
+        "image": null
+      },
+      {
+        "slug": "0430-no-retraction",
+        "prompt": "A RETRACTION stamp with a giant red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Sun never printed a formal retraction.",
+        "image": null
+      },
+      {
+        "slug": "0440-sept-16",
+        "prompt": "A calendar 16 SEP 1835, FABRICATED, still no apology plaque. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "16 September: admitted the articles were fabricated.",
+        "image": null
+      },
+      {
+        "slug": "0450-locke-1840",
+        "prompt": "A letter NEW WORLD 1840, nameplate RICHARD ADAMS LOCKE, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Locke named himself in 1840, a letter to the New World.",
+        "image": null
+      },
+      {
+        "slug": "0500-nineteen-three-sixty",
+        "prompt": "A circulation badge 19360, WORLD'S HIGHEST with a small FILE tag. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Day: about 19,360 copies. Billed as the world's highest.",
+        "image": null
+      },
+      {
+        "slug": "0510-exaggerated",
+        "prompt": "Two columns BOOST vs EXAGGERATED, a FILE BOTH stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Historians: the jump has been exaggerated. File both.",
+        "image": null
+      },
+      {
+        "slug": "0520-forty-thousand",
+        "prompt": "A pamphlet stack 40000 COPIES. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A pamphlet reprint, in one count, about 40,000 copies.",
+        "image": null
+      },
+      {
+        "slug": "0530-europe-type",
+        "prompt": "A map of reprints EUROPE, a tiny Italian lithograph bat, no flags as joke. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "European papers ran the copy. Italian lithographs of the fauna.",
+        "image": null
+      },
+      {
+        "slug": "0540-six-mornings",
+        "prompt": "Six newspaper days 1-6, a candy Moon over a press. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A Moon with temples is a fire that lasts six mornings.",
+        "image": null
+      },
+      {
+        "slug": "0550-rehook-feed",
+        "prompt": "Ink peeling a STUPID PAST sticker off a newspaper, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rehook: the internet likes a stupid past and a fake-news sermon.",
+        "image": null
+      },
+      {
+        "slug": "0600-dick-satire",
+        "prompt": "A pulpit and a telescope as two labels on one crate, SATIRE MISSED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Locke later: mock Dick's inhabited worlds, religion asked to underwrite the sky.",
+        "image": null
+      },
+      {
+        "slug": "0610-mismatched-label",
+        "prompt": "A crate labeled SATIRE with a shipping tag HERSCHEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Readers filed it as Herschel. A mismatched label on a crate.",
+        "image": null
+      },
+      {
+        "slug": "0620-day-needed-sales",
+        "prompt": "Two clocks STREET SALES vs BEAT THE HERALD. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Day needed street sales. Locke needed a serial that beat the Herald.",
+        "image": null
+      },
+      {
+        "slug": "0630-herschel-not-asked",
+        "prompt": "A star catalogue SOUTHERN SKY, a rented-name tag on HERSCHEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Herschel was not consulted. He was counting southern stars.",
+        "image": null
+      },
+      {
+        "slug": "0640-nicollet-herring",
+        "prompt": "A map pin MISSISSIPPI, nameplate NICOLLET, RED HERRING. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nicollet was in Mississippi, not the composing room. Red herring.",
+        "image": null
+      },
+      {
+        "slug": "0650-clark-magazine",
+        "prompt": "A magazine KNICKERBOCKER, stamp NO GOOD EVIDENCE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Lewis Gaylord Clark of The Knickerbocker: no good evidence he wrote it.",
+        "image": null
+      },
+      {
+        "slug": "0700-matthias-trial",
+        "prompt": "Two folders MATTHIAS then MOON, TRIAL RUN. No cult gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Locke had written Matthias the Prophet for Day. A cult story as a trial run.",
+        "image": null
+      },
+      {
+        "slug": "0710-copied-alibi",
+        "prompt": "A copied masthead EDINBURGH with a stamp TERRIBLE ALIBI. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rivals who copied the Edinburgh letterhead had a terrible alibi.",
+        "image": null
+      },
+      {
+        "slug": "0720-not-fools",
+        "prompt": "Ink peeling a FOOLS sticker off a READERS sign, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a cartoon of labourers as fools for a cent of astronomy.",
+        "image": null
+      },
+      {
+        "slug": "0730-dick-hardback",
+        "prompt": "A hardback 4.2 BILLION beside a penny paper, SAME COSTUME. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "4.2 billion was a costume Dick had already sold in hardback.",
+        "image": null
+      },
+      {
+        "slug": "0740-telescope-costume",
+        "prompt": "A costume telescope on a hanger NEW PRINCIPLE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A telescope of an entirely new principle is a costume.",
+        "image": null
+      },
+      {
+        "slug": "0750-who-won-press",
+        "prompt": "A press beating a tiny Moon, badges DAY and LOCKE 1840. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the Moon. Day won a boast. Locke won an 1840 letter.",
+        "image": null
+      },
+      {
+        "slug": "0800-poe-grievance",
+        "prompt": "Two cards POE GRIEVANCE and HERALD EXPOSE, a shrug. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Poe won a grievance. Bennett won an exposé buyers did not treat as last word.",
+        "image": null
+      },
+      {
+        "slug": "0810-herschel-catalogue",
+        "prompt": "A star book NO TEMPLES listed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Herschel won a catalogue of southern stars that did not include temples.",
+        "image": null
+      },
+      {
+        "slug": "0820-dead-witness",
+        "prompt": "A tombstone-shaped journal DEAD WITNESS, cream paper, not grim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A dead journal is a terrible witness.",
+        "image": null
+      },
+      {
+        "slug": "0830-rental-name",
+        "prompt": "A FOR RENT sign on a nameplate HERSCHEL. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A living astronomer's name is a terrible rental property.",
+        "image": null
+      },
+      {
+        "slug": "0840-penny-or-herald",
+        "prompt": "Split: a penny THE SUN vs a Herald FAKE stamp, a question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have paid a penny for Herschel, or waited for the Herald.",
+        "image": null
+      },
+      {
+        "slug": "0850-receipt",
+        "prompt": "A receipt card PRESS RUN vs MOON, Ink holding the marker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no corpses, no cruelty, not mud-green archive night, not After Hours File dark. Hoax shown as a candy penny newspaper, a fake telescope, cute cartoon bat-people as ticket-sale props not horror, a press, a pamphlet stack, not violence. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A press run sold the Moon. Drawn anyway.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-AU-WilliamNeural",
+    "rate": "+4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Newspaper That Sold a Fake Moon",
+    "description": "New York Sun, August eighteen thirty five. A penny paper, a dead journal, and bat-men as a press run.",
+    "tags": [
+      "history",
+      "great moon hoax",
+      "1835",
+      "new york sun",
+      "cartoon",
+      "true story",
+      "herschel",
+      "newspaper",
+      "funny",
+      "logistics"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "THEY SOLD THE MOON",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A penny paper once sold the Moon as if it were a fire on the next block. That is not a metaphor, and it is not a cartoon you invented after a trivia night about bat-men in a telescope. On Tuesday the twenty fifth of August eighteen thirty five, The Sun of New York, a one-cent daily at the corner of the penny press, began a six-part series under a stacked headline: Great Astronomical Discoveries Lately Made by Sir John Herschel, LL.D., F.R.S., at the Cape of Good Hope, from a supposed supplement to the Edinburgh Journal of Science. The Moon, the paper said, had bison, unicorns, bipedal beavers, sapphire temples, and winged people it named Vespertilio-homo. Keep that picture. Then put a red X on the gullible-1835 joke. The leftover is not that New York could not tell a goat from a galaxy. The leftover is that a real astronomer was really at the Cape, a dead journal was used as a letterhead, and the press run did the rest.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a Moon supplement was supposed to be ordinary. Benjamin Day had founded The Sun in eighteen thirty three as a penny paper: a cent on the street, newsboys, fires, murders, a working-class and immigrant read, not a six-cent mercantile sheet sold by subscription to merchants. The brash tabloid logic was already there: street pennies, steam type, a story that could be shouted. Sir John Herschel, son of William Herschel, had sailed for the Cape of Good Hope in January eighteen thirty four to catalogue the southern sky with a real telescope. That expedition was true. He was not looking for temples. Reverend Thomas Dick, a popular science writer, had already told a huge public that worlds were plural and that the Moon alone held on the order of four point two billion inhabitants. In eighteen twenty six the Edinburgh New Philosophical Journal had run a short piece, The Moon and its Inhabitants, on ideas from Olbers, Franz von Paula Gruithuisen, and Carl Friedrich Gauss about signaling lunarians. The official plan, if Locke later told it straight, was satire: reprint the temperature of the age as if it were Herschel's notebook. The Edinburgh Journal of Science, the letterhead on the series, had already stopped publishing. A dead journal is a costume for a live astronomer. A penny is a costume for a press. Science in eighteen thirty five arrived as a reprint you could hold, not as a photograph from the eyepiece.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The series was advertised on the twenty first of August as an upcoming reprint from The Edinburgh Courant. Four days later the first installment ran. The byline inside the fiction was Dr. Andrew Grant, described as Herschel's companion. Grant did not exist. The instrument did not exist either, not as written: an immense telescope of an entirely new principle, large enough, the copy implied, to turn the Moon into a parish. Then the menagerie. Lunar forests and beaches. A bipedal beaver that carried its young in its arms like a human being, with huts, Locke wrote, constructed better and higher than those of many tribes of human savages. File that sentence as eighteen thirty five talking, not as a joke you get to spend. Then the headline animal: Vespertilio-homo, man-bat, about four feet, copper-colored hair, membranous wings, seen conversing, temples of sapphire. Other papers copied. Lithographs followed. Edgar Allan Poe had published The Unparalleled Adventure of One Hans Pfaall in the Southern Literary Messenger in June of that year, a balloon to the Moon. Poe later said Locke had stolen the idea. File the accusation. Do not pick a courtroom because it sounds neater.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Here is the leftover that photographs as a nation of fools and is not one. Herschel was a household name. The Cape was far. A supplement from Edinburgh sounded like the way science arrived in eighteen thirty five: slow ships, reprinted journals, no photograph from the eyepiece. At Yale, contemporary accounts say faculty and students waited on the next number; a later telling has men coming to New York looking for the Edinburgh originals and being walked around the Sun's offices until they went home to New Haven still unsure. File the legend as a legend with a building attached. Do not turn a campus into a punchline about professors. James Gordon Bennett's Morning Herald, a rival, called the series a fake within days of the first number. Most buyers, in the usual retelling, treated the exposé as another paper picking a fight. Missionaries, in that same retelling, asked how to get Bibles to the man-bats. That is a circulation story wearing a collar. It is not a census of American religion. The Sun did not print a formal retraction. On the sixteenth of September it admitted the articles were fabricated. Locke did not put his name on the Moon in eighteen thirty five. In eighteen forty, in a letter to the weekly New World, he said the series was his.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "File the numbers without turning them into a stampede of suckers. Benjamin Day announced that the hoax had lifted The Sun to about nineteen thousand three hundred sixty copies, billed as the highest circulation of any newspaper in the world. Historians later said the jump has been exaggerated in the retellings. File both. A pamphlet reprint of the Moon, in one count, sold about forty thousand copies. Other American papers and then European papers ran the copy as if it were still Edinburgh. An Italian edition picked up lithographs of the fauna. That is a supply chain: one compositor in New York, then a continent of second-hand type. The penny press was already a machine for fires and murders. A Moon with temples is a fire that lasts six mornings. Newsboys hawking a cent a copy is logistics. A steam press that can print more of a fiction than of a shipping list is logistics. Satire that forgets to wink is still a product. The series had bison and blueish goats and pelicans in the copy as well as the bats. The menagerie was a catalogue, which is how a serial sells the next morning: you have not finished the zoo.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet likes a stupid past and a moral about fake news as if eighteen thirty five invented the feed. Locke said, later, that he had meant to mock the way religion was being asked to underwrite inhabited worlds, Thomas Dick's billions in particular. Readers did not file it as a sermon. They filed it as Herschel. That is not cruelty. That is a mismatched label on a crate. The crate was a penny paper fighting other penny papers. Day needed street sales. Locke needed a serial that beat the Herald to the curb. Herschel, who had not been consulted, was in South Africa counting stars. When news of the hoax reached him, later accounts say he was not flattered and then, in the usual retelling, not destroyed either. Do not invent his dinner conversation. Invent nothing. The receipt is: a living astronomer's name was rented, a dead journal was rented, and the Moon was a six-day display window.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "The leftover that is not a bat is a shop. Jean-Nicolas Nicollet, a French astronomer then in America, got rumoured into the byline; he was in Mississippi, not in the Sun's composing room. Lewis Gaylord Clark of The Knickerbocker got rumoured in too. There is no good evidence anyone but Locke wrote it. Jean-Nicolas is a red herring with a passport. Clark is a magazine. Locke had already done a sensational write-up of Matthias the Prophet for Day, which is how the owner noticed him: a cult story as a trial run for a sky story. The Sun kept the extra readers, or claimed to, after the joke cooled. Rival editors who had copied the Edinburgh letterhead had to explain why their science page had been a New York fiction. That embarrassment is the closest thing the episode has to a victim with a masthead. A copied Moon is a terrible alibi. A penny is an honest price for a paper that told you, six times, that the telescope was new in principle.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a hymn to a credulous city, and none of it is a cartoon of labourers as fools who should have known better than to buy a cent of astronomy. They had Herschel's real voyage. They had Dick's real bestsellers. They had no photograph. They had a journal title that sounded like a library. You are allowed to laugh at a beaver that builds to a moral, and at a man-bat in a sapphire gift shop. You are not required to laugh at a newsboy sleeping on the street for the pennies, or at Yale looking for a supplement, or at Herschel's name being borrowed while he was actually looking at the southern sky. A telescope of an entirely new principle is a costume. Four point two billion lunar inhabitants is a costume Thomas Dick had already sold in hardback. Nineteen thousand copies is a press count. Forty thousand pamphlets is a second press count. The official idea was: this will read as a joke about science wearing a pulpit. The street idea was: Herschel found a zoo.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the Moon. Not Vespertilio-homo. Not the Edinburgh Journal of Science, which was already closed. Day won a circulation boast. Locke won a letter in eighteen forty and a rumour that never fully died. Herschel won a catalogue of southern stars that did not include temples. Poe won a grievance. Bennett's Herald won an exposé that most buyers did not treat as the last word. The lithographers won bats with copper hair. If you need a moral, skip never trust a newspaper. Take this: a dead journal is a terrible witness, and a living astronomer's name is a terrible rental property. The next time someone tells you eighteen thirty five believed in bat-men, ask whether they mean the series or the reprints, and whether The Sun ever ran a retraction. Would you have paid a penny for Herschel, or would you have waited for the Herald. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

@@ -1,0 +1,1007 @@
+{
+  "project_id": "why-nothing-became-a-number-11dk-20260829",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-write-zero",
+        "prompt": "Stickman writing zero, NOTHING AS NUMBER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Tonight you write a zero and treat nothing as a number.",
+        "image": null
+      },
+      {
+        "slug": "0005-empty-inbox",
+        "prompt": "Empty inbox FINISHED vs zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The way you treat an empty inbox as finished.",
+        "image": null
+      },
+      {
+        "slug": "0010-circle-hole",
+        "prompt": "Hand circling hole ALLOWED TO COUNT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your hand circles a hole as if the hole were always allowed to count.",
+        "image": null
+      },
+      {
+        "slug": "0015-no-blank",
+        "prompt": "Accountant red X blank borrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The first accountants did not get to borrow a blank.",
+        "image": null
+      },
+      {
+        "slug": "0020-no-absence",
+        "prompt": "Ancient numbers no absence symbol, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Ancient systems wrote quantities without a symbol for absence.",
+        "image": null
+      },
+      {
+        "slug": "0025-subtraction-gymnastics",
+        "prompt": "Subtraction gymnastics empty column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Subtraction had to perform gymnastics when a column emptied.",
+        "image": null
+      },
+      {
+        "slug": "0030-why-zero-key",
+        "prompt": "Keyboard zero PHYSICS costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Why does your keyboard wear a zero as if zero were physics?",
+        "image": null
+      },
+      {
+        "slug": "0035-babylon-wedge",
+        "prompt": "Babylon wedge placeholder column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Babylonian scribes used a placeholder wedge in sexagesimal columns.",
+        "image": null
+      },
+      {
+        "slug": "0040-brahmagupta-628",
+        "prompt": "Brahmagupta 628 ZERO RULES book, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Brahmagupta in the seventh century wrote rules for zero as a number.",
+        "image": null
+      },
+      {
+        "slug": "0045-islamic-books",
+        "prompt": "Trade route books carrying zero idea, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Islamic scholars carried the idea along trade routes and books.",
+        "image": null
+      },
+      {
+        "slug": "0050-fibonacci-1202",
+        "prompt": "Fibonacci 1202 LIBER ABACI hole, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fibonacci Liber Abaci twelve oh two showed Europe a table with a hole.",
+        "image": null
+      },
+      {
+        "slug": "0055-printing-commerce",
+        "prompt": "Printing commerce multiply zero digit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Printing and commerce learned a blank digit is easier to multiply.",
+        "image": null
+      },
+      {
+        "slug": "0100-not-emptiness",
+        "prompt": "EMPTINESS red X zero wins, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your zero is not emptiness by nature.",
+        "image": null
+      },
+      {
+        "slug": "0105-placeholder-vote",
+        "prompt": "Placeholder wearing VOTE badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A placeholder that learned to vote.",
+        "image": null
+      },
+      {
+        "slug": "0110-write-flattered",
+        "prompt": "Smiling zero FLATTERED badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The write is flattered. That is its job.",
+        "image": null
+      },
+      {
+        "slug": "0115-page-no-vote",
+        "prompt": "Page NO VOTE scribe hand up, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The page did not vote. A scribe did.",
+        "image": null
+      },
+      {
+        "slug": "0120-hole-sense",
+        "prompt": "Column word SENSE after hole, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The hole taught your column until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0125-start-hole",
+        "prompt": "Zero hole labeled START, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Start with the hole.",
+        "image": null
+      },
+      {
+        "slug": "0130-zero-stole-blank",
+        "prompt": "Blank stolen by zero digit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero stole a blank space and sold it back as a digit.",
+        "image": null
+      },
+      {
+        "slug": "0135-before-calculators",
+        "prompt": "Timeline before calculator spreadsheet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Long before calculators, spreadsheets, divide-by-zero errors.",
+        "image": null
+      },
+      {
+        "slug": "0140-counted-present",
+        "prompt": "Present things counted checkmarks, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "People counted things that were present.",
+        "image": null
+      },
+      {
+        "slug": "0145-absence-in-words",
+        "prompt": "Absence words not typed symbol, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Absence was a story in words not a symbol you typed.",
+        "image": null
+      },
+      {
+        "slug": "0150-roman-silence",
+        "prompt": "Roman numerals silence empty column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Roman numerals worked around empty columns as silence.",
+        "image": null
+      },
+      {
+        "slug": "0155-workaround-tablet",
+        "prompt": "Workaround dragged onto tablet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The adult option started as a workaround on a tablet.",
+        "image": null
+      },
+      {
+        "slug": "0200-columns-repeat",
+        "prompt": "Repeating columns on tablet, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The tablet asked for columns that could repeat.",
+        "image": null
+      },
+      {
+        "slug": "0205-grain-left",
+        "prompt": "Market temple tax grain left agree, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Market temple tax collector agree how much grain is left.",
+        "image": null
+      },
+      {
+        "slug": "0210-abacus-beads",
+        "prompt": "Abacus beads on wire, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The abacus keeps quantity like beads on a wire.",
+        "image": null
+      },
+      {
+        "slug": "0215-hole-trick",
+        "prompt": "Hole forgot TRICK reminder, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero keeps quantity like a hole that forgot it was a trick.",
+        "image": null
+      },
+      {
+        "slug": "0220-named-corners",
+        "prompt": "Halo on zero MYTH sticker, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Named corners. One inventor is a halo the hole did not earn.",
+        "image": null
+      },
+      {
+        "slug": "0225-not-one-hero",
+        "prompt": "Hero plaque red X layer cake, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero is not one eureka moment on a plaque.",
+        "image": null
+      },
+      {
+        "slug": "0230-layer-cake",
+        "prompt": "Layer cake wedge Indian circle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Placeholder wedges, Indian numerals, circle that multiplied.",
+        "image": null
+      },
+      {
+        "slug": "0235-babylon-placeholder",
+        "prompt": "Cuneiform wedge placeholder column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Babylonian wedge held a column open, placeholder not full number.",
+        "image": null
+      },
+      {
+        "slug": "0240-brahmagupta-rules",
+        "prompt": "Brahmasphutasiddhanta 628 zero rules, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Brahmasphutasiddhanta six twenty eight rules for zero.",
+        "image": null
+      },
+      {
+        "slug": "0245-al-khwarizmi",
+        "prompt": "Al-Khwarizmi texts transmitting zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Islamic mathematicians including al-Khwarizmi transmitted the idea.",
+        "image": null
+      },
+      {
+        "slug": "0250-fibonacci-merchants",
+        "prompt": "Fibonacci merchants zero column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Fibonacci showed European merchants zero in a column.",
+        "image": null
+      },
+      {
+        "slug": "0255-not-sacred",
+        "prompt": "SACRED EMPTINESS red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero is not sacred emptiness.",
+        "image": null
+      },
+      {
+        "slug": "0300-mark-for-nothing",
+        "prompt": "Column needs MARK FOR NOTHING, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Columns needed a mark for nothing.",
+        "image": null
+      },
+      {
+        "slug": "0305-placeholder-circle",
+        "prompt": "Keyboard placeholder circle costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Your keyboard is a placeholder wearing a circle.",
+        "image": null
+      },
+      {
+        "slug": "0310-hole-leaves-wedge",
+        "prompt": "Hole walking away from wedge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Watch the hole leave the wedge.",
+        "image": null
+      },
+      {
+        "slug": "0315-market-speed",
+        "prompt": "Market speed needs digit not void speech, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A market of speed needed a digit not a speech about void.",
+        "image": null
+      },
+      {
+        "slug": "0320-rewrite-skip",
+        "prompt": "Four panel REWRITE SKIP ARGUE REPEAT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rewrite the sum. Skip the blank. Argue with philosopher. Repeat.",
+        "image": null
+      },
+      {
+        "slug": "0325-insult-silence",
+        "prompt": "Zero insulting silence cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero is a small insult to silence.",
+        "image": null
+      },
+      {
+        "slug": "0330-gift-multiply",
+        "prompt": "Multiplication happy gift from zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A large gift to multiplication.",
+        "image": null
+      },
+      {
+        "slug": "0335-circle-flexes",
+        "prompt": "Zero circle flexing fonts centuries, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The circle flexes across fonts and centuries.",
+        "image": null
+      },
+      {
+        "slug": "0340-placeholder-grudge",
+        "prompt": "Placeholder GRUDGE SOFT on digits, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Placeholder presses digits with soft grudge.",
+        "image": null
+      },
+      {
+        "slug": "0345-nothing-here",
+        "prompt": "ZERO says NOTHING HERE no poem, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The symbol says nothing here without poetry.",
+        "image": null
+      },
+      {
+        "slug": "0350-not-firsts",
+        "prompt": "FIRSTS red X SWAP arrow, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0355-blank-to-character",
+        "prompt": "SKIP COLUMN vs COUNT ABSENCE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Skip this column replaced by count the absence.",
+        "image": null
+      },
+      {
+        "slug": "0400-print-page",
+        "prompt": "Zero easy PRINT on page, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Easier to print on a page.",
+        "image": null
+      },
+      {
+        "slug": "0405-ledger-inventor",
+        "prompt": "Ledger wearing INVENTOR badge, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The ledger is the real inventor.",
+        "image": null
+      },
+      {
+        "slug": "0410-digits-fit",
+        "prompt": "Digits fitting ledger slot, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The ledger cares about digits that fit.",
+        "image": null
+      },
+      {
+        "slug": "0415-rehook-fact",
+        "prompt": "Zero vs one both labeled FACT, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Rehook: you think zero is a fact like one.",
+        "image": null
+      },
+      {
+        "slug": "0420-zero-policy",
+        "prompt": "Zero stamped POLICY, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0425-leave-gap",
+        "prompt": "Gap hope red X smudge risk, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Trust every column to leave a gap and hope.",
+        "image": null
+      },
+      {
+        "slug": "0430-gaps-honest",
+        "prompt": "Gap labeled HONEST, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Gaps are honest.",
+        "image": null
+      },
+      {
+        "slug": "0435-zeros-scalable",
+        "prompt": "Zeros multiplying SCALABLE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zeros are scalable.",
+        "image": null
+      },
+      {
+        "slug": "0440-school-teaches",
+        "prompt": "Philosopher bench to school numbers, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Scalable is how placeholder escapes philosopher's bench.",
+        "image": null
+      },
+      {
+        "slug": "0445-un-nature-hole",
+        "prompt": "NATURE sticker peeling off zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not calling you clumsy. Un-naturing the hole.",
+        "image": null
+      },
+      {
+        "slug": "0450-wedge-font",
+        "prompt": "Wedge inside font costume, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The hole is a wedge mark wearing a font.",
+        "image": null
+      },
+      {
+        "slug": "0455-absence-law",
+        "prompt": "Font stamp ABSENCE LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The font said absence can be law.",
+        "image": null
+      },
+      {
+        "slug": "0500-divide-bill",
+        "prompt": "Bill split empty seats zero relief, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Divide a bill, empty seats become zero.",
+        "image": null
+      },
+      {
+        "slug": "0505-factor-list",
+        "prompt": "Column factor list around stickman, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Living inside a column's factor list.",
+        "image": null
+      },
+      {
+        "slug": "0510-spreadsheet-circles",
+        "prompt": "Spreadsheet circles truce, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A truce is a spreadsheet with circles.",
+        "image": null
+      },
+      {
+        "slug": "0515-mass-inventoried",
+        "prompt": "INVENT COUNT red X INVENTORIED, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Mass production inventoried the answer.",
+        "image": null
+      },
+      {
+        "slug": "0520-ledger-repeat",
+        "prompt": "Identical ledgers row of shops, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Same ledger repeated across shops.",
+        "image": null
+      },
+      {
+        "slug": "0525-typeset-teach",
+        "prompt": "Zero TYPESET PRINT SHIP TEACH, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero you could typeset print ship teach.",
+        "image": null
+      },
+      {
+        "slug": "0530-double-entry",
+        "prompt": "Double entry science computer brief icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Double-entry bookkeeping scientific notation computers.",
+        "image": null
+      },
+      {
+        "slug": "0535-not-biopic",
+        "prompt": "MONK BIOPIC red X object focus, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not tonight a biopic about one monk.",
+        "image": null
+      },
+      {
+        "slug": "0540-object-circle",
+        "prompt": "Circle column repeat multiply cycle, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Make it about the object: circle column repeat multiply.",
+        "image": null
+      },
+      {
+        "slug": "0545-quiet-referendum",
+        "prompt": "Catalog voting QUIET REFERENDUM, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A catalog is a quiet referendum.",
+        "image": null
+      },
+      {
+        "slug": "0550-phone-vs-roman",
+        "prompt": "Phone zero vs Roman book gap, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Phone has zero key, history book has Roman numerals.",
+        "image": null
+      },
+      {
+        "slug": "0555-inventory-fight",
+        "prompt": "Inventory beating Roman numerals, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "That gap is inventory.",
+        "image": null
+      },
+      {
+        "slug": "0600-this-is-you",
+        "prompt": "Stickman Tuesday receipt zero line, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "This is you. A Tuesday. A receipt.",
+        "image": null
+      },
+      {
+        "slug": "0605-line-zero",
+        "prompt": "Receipt line ZERO still prints, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A line item reads zero and still prints.",
+        "image": null
+      },
+      {
+        "slug": "0610-checkout-none",
+        "prompt": "Checkout broken without zero digit, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Checkout feels broken without a digit for none.",
+        "image": null
+      },
+      {
+        "slug": "0615-modern-impossibility",
+        "prompt": "MODERN IMPOSSIBILITY cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The most modern impossibility there is.",
+        "image": null
+      },
+      {
+        "slug": "0620-not-mathematical",
+        "prompt": "MATHEMATICAL NATURE red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "None of this makes you mathematical by nature.",
+        "image": null
+      },
+      {
+        "slug": "0625-born-after-fibonacci",
+        "prompt": "Timeline Fibonacci school homework, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Born after Liber Abaci and school homework.",
+        "image": null
+      },
+      {
+        "slug": "0630-error-codes",
+        "prompt": "Zero in balance temp error code icons, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Circle hosts balances temperatures error codes.",
+        "image": null
+      },
+      {
+        "slug": "0635-relief-no-blank",
+        "prompt": "Happy no blank column hope, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Relief you do not leave a column blank and hope.",
+        "image": null
+      },
+      {
+        "slug": "0640-insult-wedge",
+        "prompt": "Wedge beating clay insult cloud, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "A tiny insult that a wedge outlasted clay.",
+        "image": null
+      },
+      {
+        "slug": "0645-never-voted",
+        "prompt": "Receipt never voted zero symbol, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You paid for a cleaner sum you never voted on.",
+        "image": null
+      },
+      {
+        "slug": "0650-cheerful-hole",
+        "prompt": "Smiling zero hole disguise, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how a hole stays without looking like a hole.",
+        "image": null
+      },
+      {
+        "slug": "0655-compromises-circle",
+        "prompt": "Compromise stack circle on top, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Numeral system is compromises with a circle attached.",
+        "image": null
+      },
+      {
+        "slug": "0700-take-zero-away",
+        "prompt": "Arithmetic puzzle no zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Take zero away and arithmetic becomes a puzzle.",
+        "image": null
+      },
+      {
+        "slug": "0705-diagram-absence",
+        "prompt": "Diagram absence row continues, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero marks absence without stopping the row.",
+        "image": null
+      },
+      {
+        "slug": "0710-watch-vote",
+        "prompt": "Writing zero voting OBVIOUS, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The write is a vote for placeholder sold as obvious.",
+        "image": null
+      },
+      {
+        "slug": "0715-swap-personality",
+        "prompt": "Six icons blank wedge Brahmagupta Fibonacci register, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Swap: blank column wedge Brahmagupta al-Khwarizmi Fibonacci textbook register.",
+        "image": null
+      },
+      {
+        "slug": "0720-crowd-page",
+        "prompt": "Many stickmen on one page with zeros, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The crowd is still on the page.",
+        "image": null
+      },
+      {
+        "slug": "0725-circle-treaty",
+        "prompt": "Spreadsheet zero treaty paper, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You and spreadsheet treating circle as treaty.",
+        "image": null
+      },
+      {
+        "slug": "0730-what-trade",
+        "prompt": "Trade scale silence vs visible absence, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "So what did we trade?",
+        "image": null
+      },
+      {
+        "slug": "0735-silence-absence",
+        "prompt": "Silence vs VISIBLE ABSENCE scale, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We traded silence for visible absence.",
+        "image": null
+      },
+      {
+        "slug": "0740-pause-digit",
+        "prompt": "Philosophy pause vs DIGIT payroll, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Philosophical pauses for digit software loves.",
+        "image": null
+      },
+      {
+        "slug": "0745-shared-hole",
+        "prompt": "Cashier scientist CPU agree NONE, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Shared hole cashier scientist CPU agree on none.",
+        "image": null
+      },
+      {
+        "slug": "0750-miracle-part",
+        "prompt": "Halo zero PART NUMBER tag, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Help can be miracle and still part number.",
+        "image": null
+      },
+      {
+        "slug": "0755-zero-nothing-myth",
+        "prompt": "ZERO=NOTHING PURE myth, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Myth that zero is nothing pure.",
+        "image": null
+      },
+      {
+        "slug": "0800-blank-joke",
+        "prompt": "BLANK JOKE red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Myth blank column is joke you outgrow.",
+        "image": null
+      },
+      {
+        "slug": "0805-kept-placeholder",
+        "prompt": "Placeholder renamed NUMBER, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept placeholder and called it number.",
+        "image": null
+      },
+      {
+        "slug": "0810-kept-blank-history",
+        "prompt": "Blank in museum HISTORY label, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "We kept blank and called it history.",
+        "image": null
+      },
+      {
+        "slug": "0815-policy-manners",
+        "prompt": "Zero policy polite bow tie, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero is policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0820-write-again",
+        "prompt": "Callback writing zero again, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will write zero again. Circle still there.",
+        "image": null
+      },
+      {
+        "slug": "0825-feel-nothing",
+        "prompt": "Blank calm face victory at zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "0830-look-digit",
+        "prompt": "Zero between red X sky red X monk, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Look at digit. Not sky not single hero monk.",
+        "image": null
+      },
+      {
+        "slug": "0835-named-stack",
+        "prompt": "Stack wedge Brahmagupta Fibonacci register, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Babylon wedge Brahmagupta Islamic texts Fibonacci textbook register.",
+        "image": null
+      },
+      {
+        "slug": "0840-zero-law",
+        "prompt": "Register receipt zero stamped LAW, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Register owns receipt so nothing stays law.",
+        "image": null
+      },
+      {
+        "slug": "0845-allowed-write",
+        "prompt": "Write ok hate empty columns multiply, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Allowed to write and hate empty columns and multiply.",
+        "image": null
+      },
+      {
+        "slug": "0850-not-natural",
+        "prompt": "NATURAL stamp red X on zero, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Stop calling zero natural.",
+        "image": null
+      },
+      {
+        "slug": "0855-not-inevitable",
+        "prompt": "INEVITABLE MODERN red X, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Not inevitable. Not proof you are modern.",
+        "image": null
+      },
+      {
+        "slug": "0900-leftover-blank",
+        "prompt": "Salute blank leaving clay, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Leftover salute to blank that left clay.",
+        "image": null
+      },
+      {
+        "slug": "0905-hole-point",
+        "prompt": "Cheerful salute on zero hole, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Salute cheerful. Hole is the point.",
+        "image": null
+      },
+      {
+        "slug": "0910-know-placeholder",
+        "prompt": "Stickman which placeholder obeying, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Go when row lets you. Know which placeholder you obey.",
+        "image": null
+      },
+      {
+        "slug": "0915-glance-cheerful",
+        "prompt": "Smiling zero scribe ghost hidden, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Cheerful is how zero stays without looking like scribe.",
+        "image": null
+      },
+      {
+        "slug": "0920-divide-by-zero",
+        "prompt": "Divide by zero ERROR not origin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Divide by zero is error message not origin story.",
+        "image": null
+      },
+      {
+        "slug": "0925-column-open",
+        "prompt": "COLUMN OPEN design brief stamp, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Column open is design brief of zero.",
+        "image": null
+      },
+      {
+        "slug": "0930-multiplication-table",
+        "prompt": "Times table zero seat empty, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Multiplication table needs zero like a seat.",
+        "image": null
+      },
+      {
+        "slug": "0935-temperature-zero",
+        "prompt": "Thermometer zero cold anchor, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Temperature scale uses zero as agreed cold anchor.",
+        "image": null
+      },
+      {
+        "slug": "0940-binary-bit",
+        "prompt": "Binary bit stores nothing pattern, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Computer bit can store nothing as pattern.",
+        "image": null
+      },
+      {
+        "slug": "0945-placeholder-clay",
+        "prompt": "Clay tablet placeholder origin, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Placeholder started on clay not in calculator.",
+        "image": null
+      },
+      {
+        "slug": "0950-indian-numerals",
+        "prompt": "Indian numerals circle columns, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Indian numerals carried circle across columns.",
+        "image": null
+      },
+      {
+        "slug": "0955-merchant-ledger",
+        "prompt": "Merchant ledger rows never stop, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Merchant ledger wanted rows that never stop.",
+        "image": null
+      },
+      {
+        "slug": "1000-school-circle",
+        "prompt": "School circle before philosophy done, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "School taught circle before philosophy finished.",
+        "image": null
+      },
+      {
+        "slug": "1005-void-speech",
+        "prompt": "Void speech slow zero stroke fast, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Void speech is slow. Zero stroke is fast.",
+        "image": null
+      },
+      {
+        "slug": "1010-placeholder-commute",
+        "prompt": "Placeholder commuting on keyboard, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Placeholder learned to commute on your keyboard.",
+        "image": null
+      },
+      {
+        "slug": "1015-abacus-empty",
+        "prompt": "Empty abacus wire wants name, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "An empty wire on the abacus wanted a name.",
+        "image": null
+      },
+      {
+        "slug": "1020-roman-subtract",
+        "prompt": "Roman subtract workout zero avoids, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Roman subtraction was a workout zero avoids.",
+        "image": null
+      },
+      {
+        "slug": "1025-column-zero-seat",
+        "prompt": "Zero seat keeps row honest, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Zero is the seat that keeps the row honest.",
+        "image": null
+      },
+      {
+        "slug": "1030-register-none",
+        "prompt": "Register stores NONE can add, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Register stores none so none can add.",
+        "image": null
+      },
+      {
+        "slug": "1035-textbook-circle",
+        "prompt": "Textbook circle beats philosophy, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Textbook circle beat philosophy to the lesson.",
+        "image": null
+      },
+      {
+        "slug": "1040-merchant-row",
+        "prompt": "Merchant row never stops needs hole, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Merchant row that never stops needs a hole.",
+        "image": null
+      },
+      {
+        "slug": "1045-wedge-to-circle",
+        "prompt": "Wedge morphing into circle columns speed, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "The wedge became a circle when columns sped up.",
+        "image": null
+      },
+      {
+        "slug": "1050-curb-read",
+        "prompt": "READABLE ABSENCE design brief, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Readable absence is whole design brief.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback wedge circle your column, MS Paint, white background, wobbly black outlines, round-head stickman, flat colors, 16:9. Keep all text and titles in the middle 75% of frame, not flush to top edge.",
+        "covers": "Wedge. Circle. Your column.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-8%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false,
+    "numeral_display": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why Nothing Became a Number",
+    "description": "Zero feels obvious. Ancient systems had no symbol for absence. Babylonian placeholders, Brahmagupta's rules, Islamic texts, and Fibonacci's Liber Abaci turned a blank column into a digit.",
+    "tags": [
+      "zero",
+      "number",
+      "mathematics",
+      "brahmagupta",
+      "fibonacci",
+      "history",
+      "why",
+      "placeholder",
+      "numerals",
+      "math"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "ZERO HOLE?",
+    "brand_id": ""
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will write a zero and treat nothing as a number, the way you treat an empty inbox as finished. Your hand will circle a hole on the page as if the hole were always allowed to count. Here is the part that should bother you. The first accountants did not get to borrow a blank. Many ancient systems wrote quantities without a symbol for absence, which is a polite way of saying subtraction had to perform gymnastics every time a column emptied out. So why does your keyboard wear a zero as if zero were physics? Because Babylonian scribes used a placeholder wedge in sexagesimal columns, because Indian mathematicians including Brahmagupta in the seventh century wrote rules for zero as a number, because Islamic scholars carried the idea along trade routes and books, because Fibonacci's Liber Abaci in twelve oh two showed Europe a table that could hold a hole, and because printing and commerce learned that a blank digit is easier to multiply than a philosophical argument. That is the whole plot. Your zero is not emptiness by nature. It is a placeholder that learned to vote. You still write it. The write is flattered. That is its job. The page did not vote. A scribe did, and then a circle that taught your column the hole until the hole started calling itself sense. Sense is a word a placeholder invented so nothing would still feel like law when the clay was gone.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the hole, because the zero stole a blank space and then sold it back as a digit. Long before calculators, before spreadsheets, before a phone could divide by nothing and call it an error message, people counted things that were present. Absence was a story you told in words, not a symbol you typed. Roman numerals could express many quantities, yet an empty column in their world was a silence you worked around, not a character you pressed. If your zero still feels like the only adult option, notice that the adult option started as a workaround dragged onto a tablet. The tablet did not ask for poetry. The tablet asked for columns that could repeat. Columns are useful when you need a market, a temple, and a tax collector to agree on how much grain is left without waiting for a philosopher to finish a sentence about void. The abacus keeps quantity like beads on a wire. The zero keeps quantity like a hole that forgot it was a trick. You can love both and still admit only one of them is wearing your calculator's default skin.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a hole gets a halo it did not earn. Zero is not a single eureka moment you can pin on one hero with a plaque. It is a layer cake of placeholder wedges, Indian numerals, and a circle that behaved nicely when you needed to multiply without crying. Babylonian cuneiform used a wedge mark to hold a column open in sexagesimal notation, a placeholder rather than a full number in the modern sense. In India, Brahmagupta's Brahmasphutasiddhanta in six twenty eight included rules for zero in addition and subtraction. Later Indian and Islamic mathematicians including al-Khwarizmi helped transmit the idea through texts and trade. Leonardo of Pisa, known as Fibonacci, published Liber Abaci in twelve oh two and showed European merchants a numeral system with a zero that could sit in a column like a polite absence. If you still treat zero as sacred emptiness, file the paperwork separately from the history. Zero did not fall out of a meditation. It fell out of columns that needed a mark for nothing, then exported the habit along books until the habit felt like math. Your keyboard is a placeholder wearing a circle.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the hole leave the wedge, because a horizontal market of speed needed a digit that did not require a speech about void every time a column emptied. Early accounting tricks were honest and exhausting. Rewrite the whole sum. Skip the blank. Argue with a philosopher. Repeat. A zero in a column is a small insult to silence with a large gift to multiplication. The circle flexes across fonts and centuries. The column repeats. The placeholder presses against other digits with a grudge soft enough not to break addition. The symbol says nothing here without asking the clerk to become a poet. I am not giving you a list of firsts. I am pointing at the swap. We took a blank that said skip this column and we replaced it with a character that said count the absence. Count is easier to teach in a textbook. Count is easier to print on a page. Count is easier to repeat when the ledger speeds up. The ledger is the real inventor. The ledger does not care about your nostalgia for Roman gymnastics. The ledger cares about digits that fit.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think zero is a fact, the way one is a fact. Zero is a policy. In a modern spreadsheet the policy is already on, because the alternative is trusting every column to leave a gap and hope nobody misreads the gap as a smudge. Gaps are honest. Zeros are scalable. Scalable is how a placeholder escapes the philosopher's bench and becomes something a school can teach in numbers. I am not calling you clumsy for liking a circle. I am un-naturing the hole. The hole is a wedge mark wearing a font. The font said absence can be law. Law is a feeling when your hand writes zero without remembering when it learned it. If you have ever divided a bill and felt relief that empty seats become zero, congratulations. You have been living inside a column's factor list. The relief is real. The relief is also a truce you never signed. A truce is not a page that voted. A truce is a spreadsheet with circles.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Mass production did not invent counting. It inventoried the answer. When the same ledger had to repeat across shops, zero became the digit you could typeset, print, ship, and teach without translating a placeholder ritual for every merchant. Double-entry bookkeeping, scientific notation, computers: decades later the zero could sit in a register as a bit pattern, a useful chapter about engineering, not the origin story of the hole itself. Do not make tonight a biopic about one monk in a scriptorium. Make it about the object: circle, column, repeat, multiply. A catalog is a quiet referendum. If your phone has a zero key and your history book has Roman numerals, that gap is not evolution. It is inventory. Inventory is how the past loses a fight without filing a complaint.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a receipt, a line item that reads zero and still prints. You stare at the circle because checkout would feel broken without a digit for none, which is the most modern impossibility there is. None of this makes you mathematical by nature. It makes you a person born after Liber Abaci and after schools turned placeholders into homework and after a circle learned to host balances, temperatures, and error codes that beep. You can feel both in the same glance: relief that you do not have to leave a column blank and hope, and a tiny insult that a wedge mark outlasted the clay. The relief is real. The insult is the blank column failing for a second in your imagination. You paid for a cleaner sum with a symbol you never voted on. The symbol is cheerful. Cheerful is how a hole stays in the century without looking like a hole.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A numeral system is a pile of compromises with a circle attached. That sentence is rude and almost fair. Take zero away and arithmetic becomes a workshop puzzle nobody wins, or a rewrite on every sum until the merchant breaks. Columns, multiplication tables, assembly of digits: the zero is a diagram of how to mark absence without stopping the row, written by scribes you will not meet. You still write. The write is a vote for a placeholder that was sold as obvious. I am not telling you to hunt for a Babylonian wedge as a personality. I am telling you the personality was always the swap: a blank column, a wedge mark, Brahmagupta's rules, al-Khwarizmi's texts, Fibonacci's table, a printed textbook, a register that stores nothing as a number. The crowd is still on the page. The crowd is you and a spreadsheet treating a circle as a treaty. So what did we trade? We traded silence for a visible absence. We traded philosophical pauses for a digit payroll software can love. We gained a shared hole that lets a cashier, a scientist, and a CPU agree on none without rewriting the row. Help can be a miracle and still be a part number. We also gained a myth that zero is nothing pure, that the circle is the only adult way to mark empty, that a blank column is a joke you outgrow. We kept the placeholder and called it a number. We kept the blank and called it history. Both can be true and still not be a reason to forget zero is a policy that learned manners.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "This is you. You will write the zero again. The circle will still be there. You will feel nothing, which is the victory. Look at the digit. That is not the sky and it is not a single hero monk. That is a Babylonian wedge, Brahmagupta in six twenty eight, texts crossing through Islamic scholars, Fibonacci in twelve oh two, a printed textbook, and a register that still owns your receipt so you will keep treating nothing as law. You are allowed to write. You are allowed to hate empty columns and still multiply. Just stop calling zero natural, or inevitable, or proof that you are modern. Tonight, when the circle holds a column open, look at it like a leftover salute to a blank that left the clay. The salute is cheerful. The hole is the point. Go when the row lets you. Know which placeholder you are still obeying.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

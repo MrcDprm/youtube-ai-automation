@@ -1,0 +1,538 @@
+{
+  "project_id": "the-school-that-could-not-stop-laughing-9dk-20260826",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-lessons-could-not",
+        "prompt": "Cartoon title beat: an empty classroom, a huge CLOSED stamp, comic LAUGH and CRY letters on the door, no children's faces. Cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A school closed because the lessons could not run.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-a-joke",
+        "prompt": "Ink shaking his head at a TRIVIA LAUGH stamp with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a joke about children. Not a trivia gag.",
+        "image": null
+      },
+      {
+        "slug": "0020-jan-30-1962",
+        "prompt": "Calendar January 30 1962, a map pin KASHASHA near a simple lake, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "January 30, 1962, Kashasha, 25 miles from Bukoba.",
+        "image": null
+      },
+      {
+        "slug": "0030-lake-victoria",
+        "prompt": "A simple lake labeled VICTORIA, shore village, TANGANYIKA 1962. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Western shore of Lake Victoria, Tanganyika, now Tanzania.",
+        "image": null
+      },
+      {
+        "slug": "0040-three-desks",
+        "prompt": "Three empty wooden desks in a row, numbered 1 2 3, no faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Three pupils first. Not named faces. Three desks.",
+        "image": null
+      },
+      {
+        "slug": "0050-laugh-and-cry",
+        "prompt": "Two signs LAUGH and CRY on a classroom door, a restless chair. No faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Laughing and also crying. Restlessness.",
+        "image": null
+      },
+      {
+        "slug": "0100-hours-to-sixteen",
+        "prompt": "A timeline ruler HOURS to 16 DAYS, mark at 7. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A few hours, up to 16 days, about 7 on average.",
+        "image": null
+      },
+      {
+        "slug": "0110-pause-then-again",
+        "prompt": "A pause button then a REPEAT stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A pause, then often another round.",
+        "image": null
+      },
+      {
+        "slug": "0120-one-fifty-nine",
+        "prompt": "A register 159, a TEACHERS WELL stamp. No child closeups. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A boarding school of 159. Teachers not taken by it.",
+        "image": null
+      },
+      {
+        "slug": "0130-march-eighteen",
+        "prompt": "A calendar Mar 18 1962, 95 of 159, CLOSED stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "March 18: 95 affected. School forced to close.",
+        "image": null
+      },
+      {
+        "slug": "0140-plan-reopen",
+        "prompt": "A three-step recipe HOME WAIT REOPEN. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Official plan: send them home, wait, reopen.",
+        "image": null
+      },
+      {
+        "slug": "0150-rankin-philip",
+        "prompt": "A journal cover 1963, names RANKIN PHILIP, Bukoba. No portraits. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Rankin and Philip, Bukoba, CAJM, May 1963.",
+        "image": null
+      },
+      {
+        "slug": "0200-named-file",
+        "prompt": "A FILE folder labeled NAMED, a JOKE stamp unused. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They are the named file, not a punchline.",
+        "image": null
+      },
+      {
+        "slug": "0210-staff-well",
+        "prompt": "Two staff hats labeled WELL, empty student desks. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "European and African teaching staff unaffected.",
+        "image": null
+      },
+      {
+        "slug": "0220-cannot-concentrate",
+        "prompt": "An unreadable chalkboard, books closed, no faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Students could not concentrate. Lessons would not hold.",
+        "image": null
+      },
+      {
+        "slug": "0230-skips-crying",
+        "prompt": "A clickbait card LAUGH EPIDEMIC with CRYING X'd out. Ink frowning, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The internet caption skips the crying.",
+        "image": null
+      },
+      {
+        "slug": "0240-independence-calendar",
+        "prompt": "Two calendar pages DEC 9 1961 and JAN 30 1962, 7 WEEKS. No flags as identity. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Independence December 9, 1961. About 7 weeks earlier.",
+        "image": null
+      },
+      {
+        "slug": "0250-not-a-nation-gag",
+        "prompt": "Ink peeling a NATION GAG sticker off a calendar, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A calendar, not a cartoon of a nation.",
+        "image": null
+      },
+      {
+        "slug": "0300-boarding-logistics",
+        "prompt": "A dormitory of empty bunks, a HOME arrow pointing far away. No faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Boarding: shared dorms, away from home, ages 12-18.",
+        "image": null
+      },
+      {
+        "slug": "0310-timetable",
+        "prompt": "A class timetable torn, ROOM still printed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A timetable that assumed the room would stay a room.",
+        "image": null
+      },
+      {
+        "slug": "0320-forty-eight-days",
+        "prompt": "A 48-day bar, fraction 95/159. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "First phase about 48 days. 95 of 159.",
+        "image": null
+      },
+      {
+        "slug": "0330-closing-is-a-bus",
+        "prompt": "A school bus leaving a CLOSED gate, empty dorm behind. No child faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Closing a boarding school is a bus, not a quarantine.",
+        "image": null
+      },
+      {
+        "slug": "0340-nshamba-road",
+        "prompt": "A road sign 55 MI to NSHAMBA, a small village. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Some homes were in Nshamba, 55 miles west of Bukoba.",
+        "image": null
+      },
+      {
+        "slug": "0350-muleba",
+        "prompt": "A simple district map MULEBA, pin NSHAMBA. No flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Now Muleba District. West of Bukoba.",
+        "image": null
+      },
+      {
+        "slug": "0400-nshamba-217",
+        "prompt": "A village tally 217 / 10000, clock 34 DAYS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nshamba: about 217 of 10,000, about 34 days.",
+        "image": null
+      },
+      {
+        "slug": "0410-both-sexes",
+        "prompt": "Two simple silhouettes far away, not closeups, BOTH SEXES tag. Respectful, tiny. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Schoolchildren and young adults, both sexes.",
+        "image": null
+      },
+      {
+        "slug": "0420-not-a-fence-giggle",
+        "prompt": "A fence with a red X on a hopping giggle cartoon. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a giggle that hopped a fence for fun.",
+        "image": null
+      },
+      {
+        "slug": "0430-who-you-send",
+        "prompt": "An arrow from DORM to VILLAGE, question mark. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Logistics: who you send the dormitory to.",
+        "image": null
+      },
+      {
+        "slug": "0440-may-twenty-one",
+        "prompt": "A calendar May 21, the same school, OPEN stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Reopened May 21. Same building.",
+        "image": null
+      },
+      {
+        "slug": "0450-fifty-seven",
+        "prompt": "A count 57, a second CLOSED stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "57 pupils involved until end of June. Second close.",
+        "image": null
+      },
+      {
+        "slug": "0500-two-stamps",
+        "prompt": "One brick school, two red CLOSED stamps overlapping. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Same walls. Two closed stamps.",
+        "image": null
+      },
+      {
+        "slug": "0510-ramashenye",
+        "prompt": "A smaller school labeled RAMASHENYE, outskirts of BUKOBA. No faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ramashenye girls' middle school, outskirts of Bukoba.",
+        "image": null
+      },
+      {
+        "slug": "0520-june-eight-days",
+        "prompt": "A calendar Jun 10-18, 48/154, 8 DAYS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "June 10 to 18: 48 of 154. Eight days.",
+        "image": null
+      },
+      {
+        "slug": "0530-kanyangereka",
+        "prompt": "A small house 20 MI SOUTH, three respectful nameplates not faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kanyangereka, 20 miles south. Three people. A family sent home.",
+        "image": null
+      },
+      {
+        "slug": "0540-boys-schools",
+        "prompt": "Two schoolhouses with CLOSED, BOYS tag, no faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "At writing: two further boys' schools closed.",
+        "image": null
+      },
+      {
+        "slug": "0550-mbarara",
+        "prompt": "A map pin MBARARA 100 MI NORTH, smaller school. No flags as identity. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Milder note: Mbarara primary, Uganda, about 100 miles north.",
+        "image": null
+      },
+      {
+        "slug": "0600-later-tally",
+        "prompt": "A later poster 14 SCHOOLS 1000 PEOPLE, labeled LATER TALLY. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Later tally: about 14 schools, about 1,000 people.",
+        "image": null
+      },
+      {
+        "slug": "0610-hundred-miles",
+        "prompt": "A 100-mile circle around Bukoba, 18 MONTHS stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Inside about 100 miles of Bukoba. About 18 months in later summaries.",
+        "image": null
+      },
+      {
+        "slug": "0620-keep-the-rooms",
+        "prompt": "Four room labels KASHASHA NSHAMBA RAMASHENYE KANYANGEREKA. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Keep Rankin's named rooms as the rooms.",
+        "image": null
+      },
+      {
+        "slug": "0630-tests-negative",
+        "prompt": "Test tubes and a NEGATIVE stamp, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Food-poisoning and toxin tests: negative.",
+        "image": null
+      },
+      {
+        "slug": "0640-no-known-virus",
+        "prompt": "A virus doodle with a question mark, NOT EXCLUDED. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "No known virus assumed to fit. Could not exclude on clinic alone.",
+        "image": null
+      },
+      {
+        "slug": "0650-mass-hysteria-label",
+        "prompt": "A 1963 stamp MASS HYSTERIA, a later sticker MPI beside it. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "1963 label: mass hysteria, culturally determined.",
+        "image": null
+      },
+      {
+        "slug": "0700-hempelmann",
+        "prompt": "A NOT DELIGHTFUL stamp over a fake happy village postcard. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hempelmann 2007: not a delightful village infection.",
+        "image": null
+      },
+      {
+        "slug": "0710-no-maize-poison",
+        "prompt": "A maize sack with a red X, TESTS DID NOT FIND THIS. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Do not pretend the tests found a maize poison.",
+        "image": null
+      },
+      {
+        "slug": "0720-no-fatalities",
+        "prompt": "A respectful card 0 DEATHS, no aftereffects icon. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Usual summary: no fatalities, no permanent aftereffects.",
+        "image": null
+      },
+      {
+        "slug": "0730-weeks-after",
+        "prompt": "A week calendar after an episode, empty lesson boxes. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Teachers: for weeks after, lessons still would not hold.",
+        "image": null
+      },
+      {
+        "slug": "0740-not-girls-gag",
+        "prompt": "Ink peeling a GIRLS GAG sticker off a desk, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a cartoon of girls as a punchline.",
+        "image": null
+      },
+      {
+        "slug": "0750-home-is-how",
+        "prompt": "A house icon feeding into a village counter 217. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Home is how a village of 10,000 met 217 cases.",
+        "image": null
+      },
+      {
+        "slug": "0800-trivia-card",
+        "prompt": "A trivia card COUNTRY LAUGHED in a waste bin. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The trivia card says a country laughed. You need not use it.",
+        "image": null
+      },
+      {
+        "slug": "0810-who-won",
+        "prompt": "A four-page paper from BUKOBA, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not the joke. Rankin won a four-page paper.",
+        "image": null
+      },
+      {
+        "slug": "0820-two-closures",
+        "prompt": "Two CLOSED stamps and a NSHAMBA calendar month. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Kashasha won two closures. Nshamba won a month.",
+        "image": null
+      },
+      {
+        "slug": "0830-terrible-instrument",
+        "prompt": "A bus labeled CONTAINMENT with a cracked stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Sending a boarding school home is a terrible instrument.",
+        "image": null
+      },
+      {
+        "slug": "0840-whose-school",
+        "prompt": "A first CLOSED arrow to a bus aimed at NSHAMBA. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ask whose school closed first, which village the bus was aimed at.",
+        "image": null
+      },
+      {
+        "slug": "0850-comment-hook",
+        "prompt": "Ink pointing at the viewer, mouth closed, empty school grounds, no child faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags as identity, no photoreal faces, no child-victim closeups, no laughing-child faces as a gag, no mockery of the sick. Distress shown as empty desks, CLOSED stamps, maps, and comic LAUGH/CRY letters on a door, not children's faces. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have kept them on the grounds. Tell me in the comments.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-GB-ThomasNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The School That Could Not Stop Laughing",
+    "description": "Kashasha, nineteen sixty two. Laughing and crying, two closed stamps, and a bus that was not a quarantine.",
+    "tags": [
+      "history",
+      "tanganyika",
+      "laughter epidemic",
+      "cartoon",
+      "true story",
+      "1962",
+      "kashasha",
+      "tanzania",
+      "funny",
+      "school"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "CLOSED THE SCHOOL",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "A school once closed because the lessons could not run. That is not a joke about children, and it is not a cartoon you invented after a trivia night. On Tuesday the thirtieth of January nineteen sixty two, at a mission-run boarding school for girls in Kashasha, about twenty five miles from Bukoba, on the western shore of Lake Victoria in Tanganyika, now Tanzania, three pupils began to act in a way the staff could not timetable. Laughing, and also crying. Restlessness. Attacks that lasted a few hours in some cases, up to sixteen days in a few, about seven on average, then a pause, then often another round. Keep that picture. A boarding school of one hundred fifty nine. Teachers who were not taken by it. A first phase that ran about forty eight days until the eighteenth of March, when ninety five pupils had been affected and the school was forced to close. Official plan: send them home, wait, reopen, and the building would be a school again. Everything after this is just that picture hiring a second closed stamp, and a village that had not asked to be a clinic.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why a classroom became a clinic. The first careful write-up is A. M. Rankin and P. J. Philip, working from Bukoba, in the Central African Journal of Medicine, May nineteen sixty three: an epidemic of laughing in the Bukoba district. They are the named file, not a punchline and not a stand-up act. Teaching staff, European and African, were unaffected. Students could not concentrate. The internet likes a country that laughed itself shut. File that as a caption that skips the crying. Rankin and Philip recorded laughing and crying in the same attacks, plus restlessness, and they did not find a tidy physical sign that fitted a germ you could point to on a slide. Tanganyika had become independent on the ninth of December nineteen sixty one, about seven weeks before the first three desks. That is a calendar, not a cartoon of a nation, and not a cheap explanation you get to shout. A mission boarding school is also logistics: shared dormitories, away from home, ages twelve to eighteen, a timetable that assumed the room would stay a room and the night would stay a night.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "The first phase is a count, and the count is the plot. From the thirtieth of January to the eighteenth of March, ninety five of one hundred fifty nine. About forty eight days. Then the school closed. Closing a boarding school is not a quarantine in the building. It is a bus, a path, a set of homes that were never designed as isolation wards. Girls went home. Some of those homes were in Nshamba, in what is now Muleba District, about fifty five miles west of Bukoba. Rankin and Philip's table, as later summarised by Christian Hempelmann, puts Nshamba from about the twenty eighth of March into April, about thirty four days, two hundred seventeen people out of a village of about ten thousand, schoolchildren and young adults of both sexes. That is not a giggle that hopped a fence for fun. That is what happens when the official remedy is: this building cannot teach, so empty it. The chemistry is attacks that will not sit still in one dormitory. The logistics is who you send the dormitory to when you still need the dormitory to be empty.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "They reopened on the twenty first of May. Fifty seven pupils were involved until the school shut again at the end of June. Same brick. Same lake light. Second closed stamp. In June the file moved to Ramashenye girls' middle school on the outskirts of Bukoba: the tenth to the eighteenth, forty eight of one hundred fifty four, eight days. Concurrent with that, Kanyangereka, about twenty miles south of Bukoba, three people, the family of a case sent home from Ramashenye. At the time Rankin and Philip were writing, two further schools, boys' schools, had closed. A milder occurrence is noted at a Mbarara primary school in Uganda, about a hundred miles north of Bukoba. Later summaries, not the nineteen sixty three table, say about fourteen schools shut and about a thousand people affected, inside about a hundred miles of Bukoba, and that the wider episode faded after about eighteen months. Some popular retellings stretch it toward June nineteen sixty four. Keep the later tally as a later tally. Keep Rankin's named rooms as the rooms you can actually point to.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Here is the leftover fact, and it is not that laughter is contagious in the way a joke is contagious. Selected people were tested for food poisoning and for signs of toxic substances. Negative. No known virus was assumed to fit the picture. Rankin and Philip still said a virus could not be excluded on clinical grounds alone, which is a doctor refusing to overclaim. They suggested mass hysteria in a susceptible population, probably a culturally determined disease. That is nineteen sixty three language on the last page. Later writers prefer mass psychogenic illness, MPI, because hysteria had already done too much work as an insult. Hempelmann, revisiting the story in two thousand seven, argued the popular version is too fond of the word laughter, and that the attacks were distress, not a delightful village infection you would book a ticket to see. File both the tests and the label. Do not pretend the tests found a maize poison in the school flour. Do not pretend the label is a joke at Kashasha.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rehook, because the internet still likes a plague of giggles that shut a country. Usual summaries say no fatalities and no permanent aftereffects. That is not a punchline. That is the floor. Teachers said that for weeks after an episode, lessons still would not hold. That is the school problem in one sentence: the closed sign can come down and the room still is not a room. Benjamin Kagwa later placed Bukoba beside running manias in Kigezi in July nineteen sixty three and Mbale in November, neighbouring files about agitation and running, not this video's joke and not a sequel you owe the comments. Later papers stack independence, boarding, adolescence, a mission timetable, as stress. Rankin did not name three index personalities with social maps. He named three pupils, then a spread through dormitories and through homes. You are allowed to notice that a closed sign is an instrument. You are not required to laugh at the people who could not use a desk.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "There were rumours, because an unexplained attack in a school always hires rumours. Some talk later remembered a poisoned atmosphere, even atomic tests, which Rankin and Philip did not put on the page as their cause. Some talk remembered maize flour. The tests they did run for food and toxins came back negative. A rumour is not a lab. A lab is not a moral. Rankin also wrote that no literate and relatively sophisticated members of society had been attacked, which is their observation about who presented, not a compliment you should turn into a class cartoon. The people in the file were mostly young, mostly in schools and in the homes those schools emptied into. The adults who ran the timetable stayed on the well side of the register. That mismatch is the logistics, not a verdict on anyone's character.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "None of this is a cartoon of girls as a punchline, and none of it is a hymn to a virus that was never found. They had a boarding school that could not keep a lesson. They had staff who stayed well and a register that would not. They closed on the eighteenth of March, which moved the problem onto the road to Nshamba. They reopened on the twenty first of May, which moved it back into the same walls, and the walls did not hold. Ramashenye got eight days. A family in Kanyangereka got three names on a small list because someone was sent home. The official idea was: this will pass in the building, or it will pass at home. Home is how a village of about ten thousand met two hundred seventeen cases. You are allowed to laugh at the trivia card that says a country laughed. You are not required to use that card, and you are not required to use the children as the joke that sells it.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So who won. Not the joke. Not the word hysteria, though that is the stamp on the nineteen sixty three last page. Rankin and Philip won a short paper from Bukoba. Kashasha won two closures. Nshamba won a month it did not timetable. Ramashenye won eight days. Kanyangereka won a family list of three. The later tally won fourteen schools and a thousand people, which is a poster, not a roll call. If you need a moral, skip never laugh in class. Take this: sending a boarding school home is a terrible instrument for containing an attack that already lives in a group, and a group is a terrible neighbour for a timetable that needs silence. The next time someone tells you the laughter epidemic, ask whose school closed first, and which village the bus was aimed at. Would you have kept them on the grounds, or would you have emptied the dorms. Three desks, two closed stamps, a road to Nshamba. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

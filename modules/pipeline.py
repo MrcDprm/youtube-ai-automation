@@ -668,11 +668,15 @@ class VideoPipeline:
         """Render the two-act stills track under concatenated narration."""
         log_step(5, TOTAL_STAGES, "Story render")
         scenes = self._selected_scenes()
+        gap = self._scenario.video.scene_gap_seconds
         audio_paths = [self._tts_results[scene.id].audio_path for scene in scenes]
         audio_durations = [self._tts_results[scene.id].duration for scene in scenes]
         out_path = self._final_video_path()
 
         with _StageTimer(self._manifest, "assemble"):
+            word_cues = None
+            if self._scenario.subtitles.karaoke:
+                word_cues = collect_word_cues(scenes, self._tts_results, gap)
             final = self._editor.build_photo_story(
                 self._story_photos,
                 audio_paths,
@@ -681,6 +685,7 @@ class VideoPipeline:
                 self._scenario,
                 self._font_path,
                 out_path,
+                word_cues=word_cues,
             )
 
         size = final.stat().st_size if final.is_file() else 0
@@ -875,7 +880,13 @@ class VideoPipeline:
                                 "falling back to a video frame."
                             )
                 elif self._scenario.video.is_paint:
-                    source = find_paint_thumbnail(self._paint_search_roots())
+                    source = find_paint_thumbnail(
+                        self._paint_search_roots(),
+                        project_id=self._scenario.project_id,
+                        assets_dir=Path(
+                            r"C:\Users\mirac\.cursor\projects\c-Users-mirac-Desktop-youtube-automation\assets"
+                        ),
+                    )
                     if source is not None:
                         try:
                             thumbnail = prepare_youtube_thumbnail(source, out_path)

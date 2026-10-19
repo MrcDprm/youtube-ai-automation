@@ -1,0 +1,537 @@
+{
+  "project_id": "the-day-a-town-flooded-with-beer-9dk-20260825",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 54,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-beer-flood",
+        "prompt": "Cartoon title beat: a huge wooden vat tipping dark porter into tiny London streets, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "London once flooded a neighborhood with beer.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-a-joke",
+        "prompt": "Ink the mascot shaking his head at a pint glass wearing a joke sticker, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a pub joke. Not a phone cartoon.",
+        "image": null
+      },
+      {
+        "slug": "0020-october-date",
+        "prompt": "Cartoon calendar October seventeen 1814, brewery chimney behind. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Seventeenth of October, eighteen fourteen.",
+        "image": null
+      },
+      {
+        "slug": "0030-horse-shoe",
+        "prompt": "Simple cartoon brewery labeled HORSE SHOE at a busy street junction, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Meux Horse Shoe Brewery, Tottenham Court Road.",
+        "image": null
+      },
+      {
+        "slug": "0040-crick-clerk",
+        "prompt": "Cartoon clerk on a high platform staring at a giant vat, tiny note in hand. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Clerk George Crick watched a hoop slip.",
+        "image": null
+      },
+      {
+        "slug": "0050-seven-hundred",
+        "prompt": "A huge cartoon iron ring falling off a wooden vat, motion lines, no people crushed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A seven hundred pound iron hoop.",
+        "image": null
+      },
+      {
+        "slug": "0100-twenty-two-feet",
+        "prompt": "Tiny clerk beside a towering wooden cylinder bound in iron, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A twenty two foot wooden vat.",
+        "image": null
+      },
+      {
+        "slug": "0110-three-five-five-five",
+        "prompt": "Giant cartoon number 3555 on a barrel stamp, porter brown. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Three thousand five hundred fifty five barrels inside.",
+        "image": null
+      },
+      {
+        "slug": "0120-four-inches",
+        "prompt": "Cutaway vat almost full of dark porter, tiny air gap at the rim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Filled to within four inches of the top.",
+        "image": null
+      },
+      {
+        "slug": "0130-not-alarmed",
+        "prompt": "Ink shrugging next to a hoop on the floor labeled USUAL, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hoops slipped every year. Crick was not alarmed.",
+        "image": null
+      },
+      {
+        "slug": "0140-no-harm",
+        "prompt": "Cartoon stamp NO HARM on a clipboard, vat looming behind. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "His supervisor said no harm whatever would ensue.",
+        "image": null
+      },
+      {
+        "slug": "0150-note-young",
+        "prompt": "Cartoon letter addressed to Mr Young, quill, vat in the background. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Write a note to Mister Young. Fix it later.",
+        "image": null
+      },
+      {
+        "slug": "0200-quart-pot",
+        "prompt": "Wooden vat emptying like a mug knocked over, dark porter arc, no people. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The vat burst like a quart pot turned on a table.",
+        "image": null
+      },
+      {
+        "slug": "0210-henry-buys",
+        "prompt": "Cartoon deed and oversized key labeled HORSE SHOE, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Eighteen nine: Henry Meux bought the Horse Shoe.",
+        "image": null
+      },
+      {
+        "slug": "0220-griffin-brag",
+        "prompt": "Even bigger cartoon vat labeled GRIFFIN, tiny people pointing, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Father Richard's Griffin vat held twenty thousand barrels.",
+        "image": null
+      },
+      {
+        "slug": "0230-eighty-tons",
+        "prompt": "Stack of cartoon iron rings, a scale groaning, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Eighty tons of iron hoops on Henry's vat.",
+        "image": null
+      },
+      {
+        "slug": "0240-only-porter",
+        "prompt": "Row of simple dark mugs, PORTER banner, no drunk faces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Meux brewed only porter, London's dark working beer.",
+        "image": null
+      },
+      {
+        "slug": "0250-one-oh-two-k",
+        "prompt": "Cartoon ledger totaling 102493, proud rubber stamp. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Over one hundred two thousand barrels in a year.",
+        "image": null
+      },
+      {
+        "slug": "0300-new-street",
+        "prompt": "Simple map: brewery block, dead-end New Street, rookery roofs. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "New Street, a cul-de-sac onto Dyott Street.",
+        "image": null
+      },
+      {
+        "slug": "0310-st-giles",
+        "prompt": "Crowded cartoon rooftops tight against a brewery wall, no misery porn. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The St Giles rookery sat against the back wall.",
+        "image": null
+      },
+      {
+        "slug": "0320-scale-idea",
+        "prompt": "Split image: giant vat trophy versus a hoop being hammered on. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The official idea was scale. The hoop would be put back.",
+        "image": null
+      },
+      {
+        "slug": "0330-blend-stock",
+        "prompt": "Two cartoon taps, OLD and FRESH, mixing into a mug. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ten month entire waited to be blended to taste.",
+        "image": null
+      },
+      {
+        "slug": "0340-low-ground",
+        "prompt": "Cartoon brewery in a shallow dish, rain arrows with nowhere to go. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Horse Shoe sat on low, poorly drained ground.",
+        "image": null
+      },
+      {
+        "slug": "0350-cellars-lived",
+        "prompt": "Cutaway of stacked rooms and cellar icons, beer as brown arrows, no bodies. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Escaped beer would fill cellars people lived in.",
+        "image": null
+      },
+      {
+        "slug": "0400-four-thirty",
+        "prompt": "Cartoon clock at four thirty, hoop mid-fall, clerk pointing. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Half past four: Crick saw the band go.",
+        "image": null
+      },
+      {
+        "slug": "0410-smallest-hoop",
+        "prompt": "Vat diagram with the lowest small hoop highlighted, simple arrows. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Smallest of twenty two hoops, three feet from the bottom.",
+        "image": null
+      },
+      {
+        "slug": "0420-hour-later",
+        "prompt": "Hourglass and the same letter, vat looking the same, false calm. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "An hour later he still held the note.",
+        "image": null
+      },
+      {
+        "slug": "0430-stopcock",
+        "prompt": "Second vat's tap flying off, two streams of porter meeting. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The rush knocked a neighbouring stopcock off.",
+        "image": null
+      },
+      {
+        "slug": "0440-gallon-gap",
+        "prompt": "Two cartoon clipboards arguing with different gallon numbers. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "One hundred twenty eight thousand, or three hundred twenty three.",
+        "image": null
+      },
+      {
+        "slug": "0450-back-wall",
+        "prompt": "Cartoon brick wall bursting outward, bricks as simple rectangles, no people. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The rear wall, twenty five feet, two and a half bricks, went.",
+        "image": null
+      },
+      {
+        "slug": "0500-russell-roofs",
+        "prompt": "Cartoon bricks on rooftops, chimney pots, no injuries shown. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bricks landed on Great Russell Street roofs.",
+        "image": null
+      },
+      {
+        "slug": "0510-fifteen-foot",
+        "prompt": "Stylized dark-brown wave between tiny houses, not photoreal, no drowning. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A fifteen foot wave of porter entered New Street.",
+        "image": null
+      },
+      {
+        "slug": "0520-two-houses",
+        "prompt": "Four cartoon houses: two collapsed as simple shapes, two cracked. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Two houses wrecked, two more badly damaged.",
+        "image": null
+      },
+      {
+        "slug": "0530-eight-on-paper",
+        "prompt": "A form with the number 8, and a brewery door marked ALL ALIVE, no corpses. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Eight people died. The brewery counted survivors.",
+        "image": null
+      },
+      {
+        "slug": "0540-hospital-cart",
+        "prompt": "Cartoon hospital cart, bandaged workers sitting up, not grim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Injured brewery men went to Middlesex Hospital.",
+        "image": null
+      },
+      {
+        "slug": "0550-myth-party",
+        "prompt": "A carnival poster stamped MYTH with a big red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Later stories sold a city-wide beer party.",
+        "image": null
+      },
+      {
+        "slug": "0600-cornell-papers",
+        "prompt": "Ink reading stacked 1814 newspapers, mouth closed, X on a party hat. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Cornell checked the papers. No carnival.",
+        "image": null
+      },
+      {
+        "slug": "0610-well-behaved",
+        "prompt": "Cartoon crowd behind a rope, headline WELL BEHAVED, no riot. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The papers said the crowd behaved.",
+        "image": null
+      },
+      {
+        "slug": "0620-watchmen-fee",
+        "prompt": "Ticket booth at the brewery ruins, TICKET TO SEE THE VAT. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Watchmen charged to view the wrecked vats.",
+        "image": null
+      },
+      {
+        "slug": "0630-hundreds-paid",
+        "prompt": "Line of cartoon coins into a hat beside a broken vat. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Several hundred spectators paid.",
+        "image": null
+      },
+      {
+        "slug": "0640-ship-wake",
+        "prompt": "Simple pub sign THE SHIP, respectful interior, no child closeup. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Another wake was held at The Ship, Bainbridge Street.",
+        "image": null
+      },
+      {
+        "slug": "0650-funeral-hat",
+        "prompt": "Cartoon collection hat labeled FUNERALS, coins, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The public put money in a hat for funerals.",
+        "image": null
+      },
+      {
+        "slug": "0700-workhouse",
+        "prompt": "Cartoon workhouse room, coroner desk, calendar October 19. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nineteenth of October: inquest at St Giles workhouse.",
+        "image": null
+      },
+      {
+        "slug": "0710-hodgson",
+        "prompt": "Cartoon jury in a line touring a broken vat, no bodies shown. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Coroner George Hodgson walked the jurors to the site.",
+        "image": null
+      },
+      {
+        "slug": "0720-crick-witness",
+        "prompt": "Crick at a witness chair, tiny hospital window in the corner. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Crick testified. His brother was in hospital.",
+        "image": null
+      },
+      {
+        "slug": "0730-three-four-year",
+        "prompt": "Cartoon year-wheel with four hoop icons popping off. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Hoops failed three or four times a year, he said.",
+        "image": null
+      },
+      {
+        "slug": "0740-hawse-pub",
+        "prompt": "Cartoon pub Tavistock Arms, one wall as dashed outline, yard tubs. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Landlord Hawse: the Tavistock Arms wall came down.",
+        "image": null
+      },
+      {
+        "slug": "0750-misfortune",
+        "prompt": "Giant rubber stamp MISFORTUNE on an inquest paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Verdict: casually, accidentally, and by misfortune.",
+        "image": null
+      },
+      {
+        "slug": "0800-act-of-god",
+        "prompt": "Legal scroll labeled ACT OF GOD beside a tiny hoop. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "In that room, misfortune meant an act of God.",
+        "image": null
+      },
+      {
+        "slug": "0810-no-payout",
+        "prompt": "Empty envelope COMPENSATION with a red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Meux did not have to pay the families.",
+        "image": null
+      },
+      {
+        "slug": "0820-twenty-three-k",
+        "prompt": "Cartoon invoice totaling 23000, vat, wall, beer icons. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The disaster cost about twenty three thousand pounds.",
+        "image": null
+      },
+      {
+        "slug": "0830-excise-back",
+        "prompt": "Tax rebate stamp 7250 on a beer barrel that no longer exists. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Parliament and Excise returned about seven thousand two hundred fifty.",
+        "image": null
+      },
+      {
+        "slug": "0840-wood-retired",
+        "prompt": "Wooden vat with a RETIRED tag, newer lined tank beside it. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Giant wooden vats started to look like a bad bet.",
+        "image": null
+      },
+      {
+        "slug": "0850-dominion",
+        "prompt": "Ink the mascot pointing at a cartoon theatre on the old brewery footprint, mouth closed, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no drowning people, no corpses. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The Dominion Theatre now stands where the vats stood. Would you have written the note. Tell me in the comments.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 630.0
+  },
+  "tts": {
+    "voice": "en-GB-ThomasNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 50,
+    "color": "#F5D76E",
+    "accent_color": "#C45C26",
+    "stroke_color": "#3D1F0A",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "The Day a Town Flooded With Beer",
+    "description": "Horse Shoe Brewery, eighteen fourteen. A hoop slipped, a clerk wrote a note, and porter took the back wall. The inquest called it misfortune. The tax office called it a rebate.",
+    "tags": [
+      "history",
+      "london",
+      "beer",
+      "cartoon",
+      "true story",
+      "1814",
+      "brewery",
+      "porter",
+      "meux",
+      "funny"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "VAT BURST",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "London once flooded a neighborhood with beer. That is not a pub joke and it is not a cartoon you saw on a phone. On the seventeenth of October eighteen fourteen, at Meux and Company's Horse Shoe Brewery, where Tottenham Court Road met Oxford Street, a storehouse clerk named George Crick watched a seven hundred pound iron hoop slip off a twenty two foot wooden vat. The vat held three thousand five hundred fifty five barrels of porter, ten months old, filled to within four inches of the top. Hoops slipped two or three times a year. Crick was not alarmed. His supervisor said no harm whatever would ensue. Crick was told to write a note to Mister Young, a partner, so someone could fix it later. He was still holding that note, standing on a platform thirty feet from the vat, when the vessel burst as completely as if a quart pot had been turned up on a table. Keep that picture. A hoop. A shrug. A note. A wall two and a half bricks thick. Everything after this is just that picture getting wetter, louder, and more expensive than anyone in the storehouse had budgeted for.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why anyone built a wooden tank the size of a small house and then trusted it with iron belts. In eighteen nine, Sir Henry Meux bought the Horse Shoe Brewery at that busy junction. His father, Sir Richard Meux, had already shown off at the Griffin Brewery on Liquor Pond Street, later Clerkenwell Road, with a vat that could hold twenty thousand barrels. Henry copied the brag. He raised a vessel twenty two feet tall, rated for about eighteen thousand barrels, bound with some eighty tons of iron hoops. Meux brewed only porter, the dark working beer of London, left for months to mature, sometimes a year for the best. In the twelve months to July eighteen twelve the firm turned out over one hundred two thousand barrels. At the rear of the Horse Shoe ran New Street, a cul-de-sac onto Dyott Street, inside the St Giles rookery: eight acres of cheap rooms stacked against the brewery's back wall. The official idea was scale. The unofficial idea was that a hoop which had always been put back would always be put back. The rookery did not get a vote on either idea.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Porter was not a novelty drink. It was the capital's daily dark pint, mixed to taste from older stock and fresh, which is why a ten month vat of entire sat in the storehouse waiting to be blended. Huge wood was how you stored that kind of money without a thousand little barrels eating the floor. The Horse Shoe sat on low, poorly drained ground. Beer that escaped would not politely run to the Thames. It would sit. It would fill cellars that people lived in. Richard Kirkland later called St Giles a slum always on the verge of collapse. Thomas Beames, writing decades after, called it a rendezvous the respectable liked to insult. You do not need the insult. You need the map: a giant tank, a two-and-a-half-brick wall, and a street of rooms that had nowhere to put a fifteen foot wave. If this already sounds like a bad idea written in iron, you are paying attention. The porter was real. The hoops were real. The plan assumed the vat would keep being a vat. Plans that assume a wooden cylinder will remain a cylinder should be stored with the other fiction.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "About half past four in the afternoon, Crick saw the band go. Seven hundred pounds of iron, the smallest of twenty two hoops, about three feet from the bottom. He told his boss. He wrote the note. An hour later he was still on that platform, note in hand, when the vat let go with no warning. The rush knocked the stopcock off a neighbouring vessel. That one dumped too. Several hogsheads smashed and joined the flood. How much porter? One paper said one hundred twenty eight thousand imperial gallons. Another said three hundred twenty three thousand. That gap is the joke and the paperwork. The force took out the rear wall, twenty five feet high. Some bricks went up and landed on roofs in Great Russell Street. A wave of porter about fifteen feet high went into New Street, wrecked two houses, and badly damaged two others. The land was flat. Drainage was a rumour. Beer ran into inhabited cellars. Inside the brewery, everyone lived. Three workmen were pulled from rubble. The superintendent and others went to Middlesex Hospital. The people who did not brew the porter took the deaths. Eight. Named later on an inquest list. Not a montage. A number that would not fit on a hoop.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Here is the part the internet likes to get drunk on, and here is the part the newspapers actually printed. Later stories claimed hundreds scooped beer from the gutter, a city-wide party, even a death from drinking the flood. Martyn Cornell, who reads the beer files for a living, checked the papers of eighteen fourteen. They did not report a carnival. They reported a crowd that behaved. The popular press of that week was not shy about insulting the Irish poor of St Giles. If a riot of drinkers had been there to smear, it would have been on the page. What the papers did describe was desolation equal to fire or earthquake, and then a smaller, uglier industry: watchmen at the brewery charging spectators to view the wreck of the vats. Several hundred paid. Mourners who had died in a cellar were given another wake at The Ship on Bainbridge Street. Other families laid out their dead in a yard. The public came, stared, and put money in a hat for funerals. That is not a party. That is a city turning a burst tank into a ticket and a collection plate. Keep both. The myth is louder. The receipts are meaner.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Two days later, on the nineteenth of October, the coroner for Middlesex, George Hodgson, sat at the St Giles workhouse. He read eight names. He walked the jurors to the brewery and the bodies, then took evidence. George Crick went first. He had seen the hoop, the note, the burst. His own brother was among the injured at Middlesex Hospital. Crick said hoops failed three or four times a year without previous disaster. Richard Hawse, landlord of the Tavistock Arms in Great Russell Street, spoke: a servant washing pots in the pub yard had been killed when the brewery wall came down. Other witnesses filled the hour. The jury did not linger. They returned, without hesitation, that the eight had lost their lives casually, accidentally, and by misfortune. In the language of the room that meant an act of God. An act of God is a legal shrug wearing a hymn. It meant Meux and Company did not have to pay compensation to the families. The hoop had been a known habit. The note had been the procedure. Procedure plus God is how a brewery walks out of a workhouse still a brewery.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Money is where the vat becomes a spreadsheet. The lost porter, the smashed buildings, the replacement vessel: about twenty three thousand pounds, a sum that could have sunk the firm. Meux petitioned Parliament in private and recovered about seven thousand two hundred fifty pounds from His Majesty's Excise, tax already paid on beer that no longer existed. The rebate is the punchline wearing a wig. The street got misfortune. The company got a refund on the inventory. The Horse Shoe went back to work. Across the industry, the giant wooden maturation tank started to look like a bad bet; lined vessels took the job later. In nineteen twenty one Meux left the site for Nine Elms in Wandsworth, a brewery they had bought in nineteen fourteen. The Horse Shoe came down. The Dominion Theatre was built where the vats had stood. Meux and Company went into liquidation in nineteen sixty one. If you want a moral about alcohol, skip it. Take this: a storage decision can outlive the people it floods, and a tax office can be kinder than a coroner.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "So who learned. Not the hoop. Hoops had been slipping for years, which is why Crick wrote a note instead of shouting. Not the wall. Two and a half bricks are a number, not a promise. The rookery learned first and paid in a list of eight. The trade learned slowly, the way trades do, by replacing wood with something that fails differently. London learned a story it still tells as a novelty: the day beer became a wave. Cornell's warning still applies. Do not add a drunken chorus the papers did not print. Do not turn the inquest into a joke about God being a shareholder. Do laugh, if you laugh, at the note. A clerk did the correct small thing while standing thirty feet from a cylinder that was about to become a street. That is logistics. Logistics is funnier than a myth and crueller than a cartoon, which is why the cartoon has to stay on the hoop, the wall, the ticket to see the wreck, and the excise stamp that said: the beer still counts, even when it is in New Street.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "The leftover fact is a theatre. You can walk past the Dominion and never know a twenty two foot vat used to ferment behind that block, or that New Street is gone from the map the way cul-de-sacs get eaten. The Horse Shoe is a name on old prints. George Crick is a witness in a workhouse transcript. Mister Young is the man who was supposed to get a note. Eight people are a verdict that rhymes with misfortune. If you need a question, here it is, and it is not about whether beer is funny. Would you have written the note and gone back to the platform. A hoop that always slipped. A supervisor who promised no harm. A partner's name on a scrap of paper. A wall that was two and a half bricks thick facing a street that had nowhere for a wave to go. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

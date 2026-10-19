@@ -1,0 +1,1018 @@
+{
+  "project_id": "why-you-stop-for-a-color-11dk-20260824",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 132,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.08,
+      "zoom_body_end": 1.08
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-empty-red",
+        "prompt": "Stickman in a car at a red light, empty street, MS Paint, white background.",
+        "covers": "You sit at a red light with nobody coming.",
+        "image": null
+      },
+      {
+        "slug": "0005-two-am",
+        "prompt": "Night clock 2:00, empty crossroads, red lamp, MS Paint.",
+        "covers": "Two in the morning. An empty intersection.",
+        "image": null
+      },
+      {
+        "slug": "0010-lamp-stop",
+        "prompt": "Hanging red lamp over a simple street, MS Paint.",
+        "covers": "A lamp the color of stop hanging over the street.",
+        "image": null
+      },
+      {
+        "slug": "0015-you-wait",
+        "prompt": "Waiting stickman, silent empty road, MS Paint.",
+        "covers": "You will wait. The street is not arguing.",
+        "image": null
+      },
+      {
+        "slug": "0020-not-political",
+        "prompt": "Red light labeled NOT POLITICS, shrugging stickman, MS Paint.",
+        "covers": "You will not think of it as a political act.",
+        "image": null
+      },
+      {
+        "slug": "0025-traffic-job",
+        "prompt": "Smiling traffic lamp, stickman waiting, MS Paint.",
+        "covers": "It feels like traffic doing its job.",
+        "image": null
+      },
+      {
+        "slug": "0030-no-physics",
+        "prompt": "Red lamp, PHYSICS with red X, MS Paint.",
+        "covers": "There is no physics in that red.",
+        "image": null
+      },
+      {
+        "slug": "0035-no-bumper",
+        "prompt": "Red light not grabbing a bumper, MS Paint.",
+        "covers": "Red does not grab your bumper.",
+        "image": null
+      },
+      {
+        "slug": "0040-schedule-color",
+        "prompt": "Schedule paper wearing a red circle, MS Paint.",
+        "covers": "Red is a schedule wearing a color.",
+        "image": null
+      },
+      {
+        "slug": "0045-cop-never-tired",
+        "prompt": "Red lamp in a cop hat, never-tired badge, MS Paint.",
+        "covers": "You treat the color as a cop who never gets tired.",
+        "image": null
+      },
+      {
+        "slug": "0050-person-mud",
+        "prompt": "Stick cop in mud directing carts, MS Paint.",
+        "covers": "A person stood in the mud and decided who moved.",
+        "image": null
+      },
+      {
+        "slug": "0055-why-empty",
+        "prompt": "Empty street, questioning stickman, red lamp, MS Paint.",
+        "covers": "Why obey a lamp when the street is empty?",
+        "image": null
+      },
+      {
+        "slug": "0100-london-burst",
+        "prompt": "Old gas semaphore lamp bursting, 1868, MS Paint.",
+        "covers": "London tried a gas semaphore that burst.",
+        "image": null
+      },
+      {
+        "slug": "0105-wire-box",
+        "prompt": "Wooden box red/green, stick cop, MS Paint.",
+        "covers": "A policeman in Salt Lake built a wooden box of red and green.",
+        "image": null
+      },
+      {
+        "slug": "0110-cleveland-arm",
+        "prompt": "Color lamp replacing a cop's arm, 1914, MS Paint.",
+        "covers": "Cleveland wired a corner. A color replaced an arm.",
+        "image": null
+      },
+      {
+        "slug": "0115-not-caution",
+        "prompt": "Wait as a salute to a missing cop, MS Paint.",
+        "covers": "Your wait is not caution. It is a leftover salute.",
+        "image": null
+      },
+      {
+        "slug": "0120-empty-no-vote",
+        "prompt": "Lamp ballot beating an empty street, MS Paint.",
+        "covers": "The empty street did not vote. A lamp did.",
+        "image": null
+      },
+      {
+        "slug": "0125-brake-sense",
+        "prompt": "Foot on brake labeled SENSE, MS Paint.",
+        "covers": "A grid taught your foot the brake until it called itself sense.",
+        "image": null
+      },
+      {
+        "slug": "0130-older-corner",
+        "prompt": "Old muddy crossroads, no lamp, MS Paint.",
+        "covers": "Start with the older corner.",
+        "image": null
+      },
+      {
+        "slug": "0135-stole-whistle",
+        "prompt": "Lamp stealing a whistle, GLASS tag, MS Paint.",
+        "covers": "The lamp stole a whistle and sold it back as glass.",
+        "image": null
+      },
+      {
+        "slug": "0140-horses-carts",
+        "prompt": "Horses carts pedestrians shouting, MS Paint.",
+        "covers": "A crossing was horses, carts, people, a shout.",
+        "image": null
+      },
+      {
+        "slug": "0145-car-rumor",
+        "prompt": "Early car with a huge horn, MS Paint.",
+        "covers": "The automobile arrived like a rumor with a horn.",
+        "image": null
+      },
+      {
+        "slug": "0150-no-turns",
+        "prompt": "Cars overlapping, no turns, MS Paint.",
+        "covers": "The rumor did not know how to take turns.",
+        "image": null
+      },
+      {
+        "slug": "0155-hired-hinge",
+        "prompt": "Stick cop as a hinge between streets, MS Paint.",
+        "covers": "Cities hired men to stand in the intersection and become a hinge.",
+        "image": null
+      },
+      {
+        "slug": "0200-whistle-lungs",
+        "prompt": "Whistle and lungs on a cop stickman, MS Paint.",
+        "covers": "A hinge with a whistle and a pair of lungs.",
+        "image": null
+      },
+      {
+        "slug": "0205-job-weather",
+        "prompt": "Wet cop, soot, stubborn horse, MS Paint.",
+        "covers": "The job was weather. Rain, soot, a horse that did not agree.",
+        "image": null
+      },
+      {
+        "slug": "0210-money-signal",
+        "prompt": "Money waved as a turn signal, MS Paint.",
+        "covers": "A driver who thought money was a turn signal.",
+        "image": null
+      },
+      {
+        "slug": "0215-manners-pulse",
+        "prompt": "Manners with a heartbeat, MS Paint.",
+        "covers": "Manners used to have a pulse.",
+        "image": null
+      },
+      {
+        "slug": "0220-pulse-tired",
+        "prompt": "Tired cop, favorite car waved through, MS Paint.",
+        "covers": "A pulse can get tired. A pulse can play favorites.",
+        "image": null
+      },
+      {
+        "slug": "0225-pulse-bribed",
+        "prompt": "Nod as a bribe, cop winking, MS Paint.",
+        "covers": "A pulse can be bribed with a nod.",
+        "image": null
+      },
+      {
+        "slug": "0230-lamp-cannot",
+        "prompt": "Lamp with NO BRIBE sign, MS Paint.",
+        "covers": "The lamp cannot. That is the sales pitch and the theft.",
+        "image": null
+      },
+      {
+        "slug": "0235-discretion-lens",
+        "prompt": "DISCRETION going into a lamp lens, MS Paint.",
+        "covers": "We put discretion in a lens.",
+        "image": null
+      },
+      {
+        "slug": "0240-lens-no-face",
+        "prompt": "Lens ignoring a face, watching a clock, MS Paint.",
+        "covers": "A lens does not know your face. It knows the clock's turn.",
+        "image": null
+      },
+      {
+        "slug": "0245-named-corners",
+        "prompt": "Halo on a lamp, myth sticker, MS Paint.",
+        "covers": "Named corners. A myth of one inventor is a halo.",
+        "image": null
+      },
+      {
+        "slug": "0250-knight-1868",
+        "prompt": "Gas semaphore, BRIDGE ST 1868, MS Paint.",
+        "covers": "Eighteen sixty eight, Bridge Street, Westminster, J. P. Knight.",
+        "image": null
+      },
+      {
+        "slug": "0255-railroad-idea",
+        "prompt": "Railroad signal standing on a city corner, MS Paint.",
+        "covers": "A railroad idea forced onto a city street.",
+        "image": null
+      },
+      {
+        "slug": "0300-burst-hurt",
+        "prompt": "Burst lamp, bandaged stick cop, 1869, MS Paint.",
+        "covers": "Eighteen sixty nine: the lamps burst. The officer was hurt.",
+        "image": null
+      },
+      {
+        "slug": "0305-back-to-men",
+        "prompt": "London street, cop back in the road, MS Paint.",
+        "covers": "London went back to men in the road.",
+        "image": null
+      },
+      {
+        "slug": "0310-lester-wire",
+        "prompt": "Wooden traffic box 1912, SALT LAKE, MS Paint.",
+        "covers": "Nineteen twelve, Salt Lake City, Lester Wire, wooden box.",
+        "image": null
+      },
+      {
+        "slug": "0315-cleveland-1914",
+        "prompt": "Cleveland corner lamp turning on, 1914, MS Paint.",
+        "covers": "Fifth of August, nineteen fourteen, Cleveland switches on.",
+        "image": null
+      },
+      {
+        "slug": "0320-euclid",
+        "prompt": "Street signs EUCLID and E 105, lamp, MS Paint.",
+        "covers": "Euclid Avenue and East One Hundred Fifth.",
+        "image": null
+      },
+      {
+        "slug": "0325-james-hoge",
+        "prompt": "Simple company box, designer stickman HOGE, MS Paint.",
+        "covers": "James Hoge, American Traffic Signal Company.",
+        "image": null
+      },
+      {
+        "slug": "0330-potts-yellow",
+        "prompt": "Four-way lamp, yellow added, 1920, MS Paint.",
+        "covers": "Nineteen twenty Detroit: William Potts adds yellow.",
+        "image": null
+      },
+      {
+        "slug": "0335-morgan-1923",
+        "prompt": "T-shaped signal, patent paper 1923, MS Paint.",
+        "covers": "Nineteen twenty three: Garrett Morgan patents a T-signal.",
+        "image": null
+      },
+      {
+        "slug": "0340-sold-rights",
+        "prompt": "Patent sold, WAIT already existing, MS Paint.",
+        "covers": "He sold the rights to a giant. He did not invent waiting.",
+        "image": null
+      },
+      {
+        "slug": "0345-cleaner-wait",
+        "prompt": "WAIT GO STOP as clean labels, MS Paint.",
+        "covers": "A cleaner way to say wait, go, and stop being a rumor.",
+        "image": null
+      },
+      {
+        "slug": "0350-rumor-pole",
+        "prompt": "Rumor cloud inside a traffic pole, MS Paint.",
+        "covers": "The rumor is still in the pole.",
+        "image": null
+      },
+      {
+        "slug": "0355-cop-leaves",
+        "prompt": "Cop walking out of a traffic box, MS Paint.",
+        "covers": "Watch the cop leave the box.",
+        "image": null
+      },
+      {
+        "slug": "0400-plus-rash",
+        "prompt": "Many plus-sign corners, MS Paint.",
+        "covers": "Intersections multiplied like a rash of plus signs.",
+        "image": null
+      },
+      {
+        "slug": "0405-arm-legend",
+        "prompt": "Cop arm as a legend then a costume, MS Paint.",
+        "covers": "The officer's arm became a legend, then a costume.",
+        "image": null
+      },
+      {
+        "slug": "0410-not-firsts",
+        "prompt": "FIRSTS list with red X, SWAP arrow, MS Paint.",
+        "covers": "Not a list of firsts. Pointing at the swap.",
+        "image": null
+      },
+      {
+        "slug": "0415-hearse-wave",
+        "prompt": "Cop waving a simple hearse, MS Paint.",
+        "covers": "A person who could see a hearse and wave it through.",
+        "image": null
+      },
+      {
+        "slug": "0420-replaced-cycle",
+        "prompt": "Seeing eye replaced by a cycle arrow, MS Paint.",
+        "covers": "We replaced that seeing with a cycle.",
+        "image": null
+      },
+      {
+        "slug": "0425-vending-fair",
+        "prompt": "Lamp as a vending slot, FAIR, MS Paint.",
+        "covers": "A cycle is fair like a vending machine is fair.",
+        "image": null
+      },
+      {
+        "slug": "0430-no-funeral",
+        "prompt": "Funeral and late kid ignored by lamp, MS Paint.",
+        "covers": "It does not know a funeral. It does not know a late kid.",
+        "image": null
+      },
+      {
+        "slug": "0435-green-slip",
+        "prompt": "Green light as a permission slip, MS Paint.",
+        "covers": "It knows green. Green is a permission slip in light.",
+        "image": null
+      },
+      {
+        "slug": "0440-parade-fossil",
+        "prompt": "Parade cop with FOSSIL tag, MS Paint.",
+        "covers": "An officer at a parade is a fossil of judgment.",
+        "image": null
+      },
+      {
+        "slug": "0445-judgment-expensive",
+        "prompt": "Price tags: cop vs pole, MS Paint.",
+        "covers": "Judgment is expensive. A pole is cheap.",
+        "image": null
+      },
+      {
+        "slug": "0450-no-choir-lungs",
+        "prompt": "Empty cop hats, city grid, MS Paint.",
+        "covers": "A grid without a choir of lungs.",
+        "image": null
+      },
+      {
+        "slug": "0455-rehook-fact",
+        "prompt": "Red lamp vs gravity apple, stickman, MS Paint.",
+        "covers": "Rehook: you think red is a fact like gravity.",
+        "image": null
+      },
+      {
+        "slug": "0500-red-policy",
+        "prompt": "Red lamp stamped POLICY, MS Paint.",
+        "covers": "Red is a policy.",
+        "image": null
+      },
+      {
+        "slug": "0505-policy-on",
+        "prompt": "2am empty corner, policy switch ON, MS Paint.",
+        "covers": "At two in the morning the policy is still on.",
+        "image": null
+      },
+      {
+        "slug": "0510-not-trust-you",
+        "prompt": "TRUST YOU with red X, city, MS Paint.",
+        "covers": "The alternative is trusting you. The city learned not to.",
+        "image": null
+      },
+      {
+        "slug": "0515-green-wave",
+        "prompt": "Green wave arrows for cars, MS Paint.",
+        "covers": "Timed corridors, green waves that love a car.",
+        "image": null
+      },
+      {
+        "slug": "0520-shrug-walker",
+        "prompt": "Walker shrugged at by a lamp, MS Paint.",
+        "covers": "A shrug to anyone on foot.",
+        "image": null
+      },
+      {
+        "slug": "0525-not-neutral",
+        "prompt": "Lamp holding a seconds budget, MS Paint.",
+        "covers": "The lamp is not neutral. It is a budget of seconds.",
+        "image": null
+      },
+      {
+        "slug": "0530-un-nature-sit",
+        "prompt": "NATURE sticker peeling off a sitting car, MS Paint.",
+        "covers": "Not calling you a coward. Un-naturing the sit.",
+        "image": null
+      },
+      {
+        "slug": "0535-burst-wearing-lens",
+        "prompt": "Old burst lamp inside a modern lens, MS Paint.",
+        "covers": "The sit is the burst lamp wearing a modern lens.",
+        "image": null
+      },
+      {
+        "slug": "0540-color-law",
+        "prompt": "Color circle stamped LAW, MS Paint.",
+        "covers": "The lens said color can be law.",
+        "image": null
+      },
+      {
+        "slug": "0545-roll-anyway",
+        "prompt": "Car rolling, PHYSICS with red X, MS Paint.",
+        "covers": "If you roll through, that is not inventing physics.",
+        "image": null
+      },
+      {
+        "slug": "0550-camera-fine",
+        "prompt": "Camera vs rolling car, FINE, MS Paint.",
+        "covers": "The hurry that counts is the one the camera will not fine.",
+        "image": null
+      },
+      {
+        "slug": "0555-camera-cop",
+        "prompt": "Camera in a cop hat, unblinking, MS Paint.",
+        "covers": "A camera is a cop who learned to sit in a box and never blink.",
+        "image": null
+      },
+      {
+        "slug": "0600-lock-travel",
+        "prompt": "Traffic lock walking onto a highway, MS Paint.",
+        "covers": "Watch the lock travel.",
+        "image": null
+      },
+      {
+        "slug": "0605-ramp-faucet",
+        "prompt": "Ramp as a faucet dripping cars, MS Paint.",
+        "covers": "On-ramps that meter you like a faucet.",
+        "image": null
+      },
+      {
+        "slug": "0610-school-flash",
+        "prompt": "School zone lamp flashing, MS Paint.",
+        "covers": "School zones learned to flash.",
+        "image": null
+      },
+      {
+        "slug": "0615-countdown-sport",
+        "prompt": "Countdown numbers as a scoreboard, MS Paint.",
+        "covers": "Pedestrian countdowns turned waiting into a sport.",
+        "image": null
+      },
+      {
+        "slug": "0620-yellow-dare",
+        "prompt": "Yellow light, bumper measuring tape, MS Paint.",
+        "covers": "Yellow became a dare measured in bumper lengths.",
+        "image": null
+      },
+      {
+        "slug": "0625-sync-gift",
+        "prompt": "Gift box of green lights for cars, MS Paint.",
+        "covers": "Synchronized greens as a gift to commuters.",
+        "image": null
+      },
+      {
+        "slug": "0630-stop-line",
+        "prompt": "Stop line, stickman looking both ways, MS Paint.",
+        "covers": "Stop line. Look both ways even when green.",
+        "image": null
+      },
+      {
+        "slug": "0635-creep-wave",
+        "prompt": "Creeping car, little wave, MS Paint.",
+        "covers": "Apologize with a wave when you creep.",
+        "image": null
+      },
+      {
+        "slug": "0640-polite-wait",
+        "prompt": "Obedience in a polite hat, MS Paint.",
+        "covers": "Rituals are how obedience stays polite.",
+        "image": null
+      },
+      {
+        "slug": "0645-left-arrow",
+        "prompt": "Left arrow as a pointing queue, MS Paint.",
+        "covers": "A left-turn arrow is a queue that learned to point.",
+        "image": null
+      },
+      {
+        "slug": "0650-color-says",
+        "prompt": "Ground switch locked by a color lamp, MS Paint.",
+        "covers": "The ground is optional only if the color says so.",
+        "image": null
+      },
+      {
+        "slug": "0655-unread-timing",
+        "prompt": "Unread TIMING clipboard, MS Paint.",
+        "covers": "A timing plan you will never read.",
+        "image": null
+      },
+      {
+        "slug": "0700-this-is-you",
+        "prompt": "Stickman Tuesday car, empty drawn street, red, MS Paint.",
+        "covers": "This is you. A Tuesday. A red. A street like a drawing.",
+        "image": null
+      },
+      {
+        "slug": "0705-radio-stare",
+        "prompt": "Stickman, radio, staring at red lamp, MS Paint.",
+        "covers": "You sit with the radio and stare at the lamp.",
+        "image": null
+      },
+      {
+        "slug": "0710-not-nature-obey",
+        "prompt": "OBEDIENT NATURE sticker with red X, MS Paint.",
+        "covers": "None of this makes you obedient by nature.",
+        "image": null
+      },
+      {
+        "slug": "0715-born-after",
+        "prompt": "Timeline: burst, Cleveland, yellow, pole, MS Paint.",
+        "covers": "Born after a burst lamp, Cleveland, yellow maybe, cop into a pole.",
+        "image": null
+      },
+      {
+        "slug": "0720-relief-horn",
+        "prompt": "Horn with a truce flag, MS Paint.",
+        "covers": "Relief that you do not have to argue with a horn.",
+        "image": null
+      },
+      {
+        "slug": "0725-insult-minute",
+        "prompt": "Empty world holding a minute, insulted stickman, MS Paint.",
+        "covers": "A tiny insult that an empty world still owns your minute.",
+        "image": null
+      },
+      {
+        "slug": "0730-salute-fail",
+        "prompt": "Broken salute, MS Paint.",
+        "covers": "The insult is the salute failing for a second.",
+        "image": null
+      },
+      {
+        "slug": "0735-quieter-corner",
+        "prompt": "Quiet corner for sale, unopened trust, MS Paint.",
+        "covers": "You paid for a quieter corner with a trust you cannot negotiate.",
+        "image": null
+      },
+      {
+        "slug": "0740-cheerful-schedule",
+        "prompt": "Schedule in a cheerful costume, MS Paint.",
+        "covers": "Cheerful is how a schedule stays without looking like a schedule.",
+        "image": null
+      },
+      {
+        "slug": "0745-color-person",
+        "prompt": "Red circle with a stick face, MS Paint.",
+        "covers": "The color still feels like a person.",
+        "image": null
+      },
+      {
+        "slug": "0750-pile-permissions",
+        "prompt": "Permission slips stacked into buildings, MS Paint.",
+        "covers": "A city is a pile of permissions with buildings attached.",
+        "image": null
+      },
+      {
+        "slug": "0755-shouting-match",
+        "prompt": "Corner of shouting cars, no lamps, MS Paint.",
+        "covers": "Take the lamps away and the corner is a shouting match.",
+        "image": null
+      },
+      {
+        "slug": "0800-payroll-breaks",
+        "prompt": "Too many cops, broken payroll, MS Paint.",
+        "covers": "Or a cop on every plus sign until the payroll breaks.",
+        "image": null
+      },
+      {
+        "slug": "0805-who-next",
+        "prompt": "Diagram: truck bus cane, MS Paint.",
+        "covers": "Fire truck, bus, cane: a diagram of who goes next.",
+        "image": null
+      },
+      {
+        "slug": "0810-wait-vote",
+        "prompt": "Wait voting HINGE, safety poster, MS Paint.",
+        "covers": "The wait is a vote for a hinge sold as safety.",
+        "image": null
+      },
+      {
+        "slug": "0815-not-blow",
+        "prompt": "Personality hat on a red light with red X, MS Paint.",
+        "covers": "Not telling you to blow the light as a personality.",
+        "image": null
+      },
+      {
+        "slug": "0820-swap-personality",
+        "prompt": "Five icons of the swap, MS Paint.",
+        "covers": "The personality was the swap: mud, burst, box, wire, yellow.",
+        "image": null
+      },
+      {
+        "slug": "0825-three-cars",
+        "prompt": "Four cars, color treaty paper, MS Paint.",
+        "covers": "You and three other cars treating a color as a treaty.",
+        "image": null
+      },
+      {
+        "slug": "0830-treaty-blind",
+        "prompt": "Treaty paper with closed eyes, MS Paint.",
+        "covers": "The treaty cannot see a funeral.",
+        "image": null
+      },
+      {
+        "slug": "0835-human-override",
+        "prompt": "Human hand overriding a timer, MS Paint.",
+        "covers": "The timer can, if a human overrode it.",
+        "image": null
+      },
+      {
+        "slug": "0840-cabinet-corner",
+        "prompt": "Locked cabinet labeled LOG, MS Paint.",
+        "covers": "A log in a cabinet you will never open. The real corner.",
+        "image": null
+      },
+      {
+        "slug": "0845-costume-plus",
+        "prompt": "Plus-sign corner in a costume, MS Paint.",
+        "covers": "Costume is how a plus sign stays in a Tuesday.",
+        "image": null
+      },
+      {
+        "slug": "0850-trade-argued",
+        "prompt": "Argued corner vs timed fined corner, MS Paint.",
+        "covers": "We traded a corner argued in real time for a timed fined forgotten one.",
+        "image": null
+      },
+      {
+        "slug": "0855-timing-helps",
+        "prompt": "Walk signal, ambulance getting green, MS Paint.",
+        "covers": "Fewer horns, a walk signal, an ambulance that can pre-empt.",
+        "image": null
+      },
+      {
+        "slug": "0900-miracle-lamp",
+        "prompt": "Halo on a traffic lamp, MS Paint.",
+        "covers": "Help can be a miracle and still be a lamp.",
+        "image": null
+      },
+      {
+        "slug": "0905-red-nature-myth",
+        "prompt": "RED=NATURE myth, GREEN=RIGHT, MS Paint.",
+        "covers": "A myth that red is nature, that green is a right.",
+        "image": null
+      },
+      {
+        "slug": "0910-empty-wait-good",
+        "prompt": "GOOD star for waiting at empty red, MS Paint.",
+        "covers": "A myth that an empty wait proves you are good.",
+        "image": null
+      },
+      {
+        "slug": "0915-grid-word",
+        "prompt": "Grid holding the word GOOD, MS Paint.",
+        "covers": "Good is a word the grid uses.",
+        "image": null
+      },
+      {
+        "slug": "0920-cop-called-color",
+        "prompt": "Cop renamed COLOR, MS Paint.",
+        "covers": "We kept the cop and called it a color.",
+        "image": null
+      },
+      {
+        "slug": "0925-whistle-countdown",
+        "prompt": "Whistle renamed 9 8 7, MS Paint.",
+        "covers": "We kept the whistle and called it a countdown.",
+        "image": null
+      },
+      {
+        "slug": "0930-policy-manners",
+        "prompt": "Policy lamp in a tuxedo, MS Paint.",
+        "covers": "The lamp is a policy that learned manners.",
+        "image": null
+      },
+      {
+        "slug": "0935-walk-longer",
+        "prompt": "Longer WALK, flashing yellow THINK, MS Paint.",
+        "covers": "Walk signals got longer. Flashing yellow meant think.",
+        "image": null
+      },
+      {
+        "slug": "0940-think-slower",
+        "prompt": "THINK turtle vs brake, MS Paint.",
+        "covers": "Think is slower than a brake. A brake is a truce you sit in.",
+        "image": null
+      },
+      {
+        "slug": "0945-empty-kind",
+        "prompt": "Empty kind street vs truce, MS Paint.",
+        "covers": "A truce is not a street that learned to be empty and still kind.",
+        "image": null
+      },
+      {
+        "slug": "0950-foot-pedal",
+        "prompt": "Callback: foot on pedal, red lamp, MS Paint.",
+        "covers": "You put your foot on the pedal. The red will still be there.",
+        "image": null
+      },
+      {
+        "slug": "0955-feel-nothing",
+        "prompt": "Blank calm face at a red light, MS Paint.",
+        "covers": "You will feel nothing, which is the victory.",
+        "image": null
+      },
+      {
+        "slug": "1000-look-lamp",
+        "prompt": "Lamp between red-X sky and red-X cop, MS Paint.",
+        "covers": "Look at the lamp. Not the sky and not a cop.",
+        "image": null
+      },
+      {
+        "slug": "1005-burst-box-cleveland",
+        "prompt": "Three icons: gas, wood box, 1914 lamp, MS Paint.",
+        "covers": "Gas semaphore. Wooden box. Cleveland nineteen fourteen.",
+        "image": null
+      },
+      {
+        "slug": "1010-yellow-patent-pole",
+        "prompt": "Yellow, patent, pole vs lungs, MS Paint.",
+        "covers": "Detroit yellow. A patent. A pole that replaced lungs.",
+        "image": null
+      },
+      {
+        "slug": "1015-glass-as-law",
+        "prompt": "Glass lamp stamped LAW over empty street, MS Paint.",
+        "covers": "A color that owns an empty street so glass stays law.",
+        "image": null
+      },
+      {
+        "slug": "1020-allowed-wait",
+        "prompt": "Waiting stickman, hate-the-minute cloud, MS Paint.",
+        "covers": "You are allowed to wait. Allowed to hate the minute and still sit.",
+        "image": null
+      },
+      {
+        "slug": "1025-not-natural",
+        "prompt": "RED NATURAL sticker with red X, MS Paint.",
+        "covers": "Stop calling the red natural.",
+        "image": null
+      },
+      {
+        "slug": "1030-not-cautious-proof",
+        "prompt": "CAUTIOUS stamp with red X, MS Paint.",
+        "covers": "Not proof that you are cautious.",
+        "image": null
+      },
+      {
+        "slug": "1035-leftover-arm",
+        "prompt": "Salute to an empty cop box, MS Paint.",
+        "covers": "A leftover salute to an arm that left the box.",
+        "image": null
+      },
+      {
+        "slug": "1040-empty-is-point",
+        "prompt": "Cheerful salute, empty street, MS Paint.",
+        "covers": "The salute is cheerful. The empty street is the point.",
+        "image": null
+      },
+      {
+        "slug": "1045-know-color",
+        "prompt": "Stickman going on green, color labeled which, MS Paint.",
+        "covers": "Go when it lets you. Know which color you are still obeying.",
+        "image": null
+      },
+      {
+        "slug": "1050-wait-cheerful",
+        "prompt": "Smiling wait, lamp, TIP jar with red X, MS Paint.",
+        "covers": "The wait is cheerful. Cheerful is how a lamp stays without looking like a person to tip.",
+        "image": null
+      },
+      {
+        "slug": "1055-final-callback",
+        "prompt": "Final callback: empty red, two place labels, stickman foot, MS Paint.",
+        "covers": "Empty red. London. Cleveland. Your foot.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 660.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "-4%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 48,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.82,
+    "uppercase": false
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Why You Stop for a Color",
+    "description": "An empty red light feels like caution. It is a leftover salute. A gas semaphore burst in London, Cleveland wired a corner in nineteen fourteen, a cop's arm moved into a pole. You still wait.",
+    "tags": [
+      "traffic",
+      "signal",
+      "history",
+      "city",
+      "why",
+      "red",
+      "green",
+      "intersection",
+      "wait",
+      "cop"
+    ],
+    "category_id": "27",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "EMPTY RED?"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Tonight you will sit at a red light with nobody coming. Two in the morning, an empty intersection, a lamp the color of stop hanging over a street that is not arguing with you. You will wait. You will not think of it as a political act. It will feel like traffic doing its job. Here is the part that should bother you. There is no physics in that red. Red does not grab your bumper. Red is a schedule wearing a color, and you treat the color as a cop who never gets tired. For most of the history of corners, a person stood in the mud and decided who got to move. So why do you obey a lamp when the street is empty? Because London tried a gas semaphore that burst, because a policeman in Salt Lake City built a wooden box of red and green, because Cleveland wired a corner in nineteen fourteen and taught a city that a color could replace an arm. That is the whole plot. Your wait is not caution. It is a leftover salute. You still sit. The sit is flattered. That is its job. The empty street did not vote. A lamp did, and then a grid that taught your foot the brake until the brake started calling itself sense. Sense is a word a corner invented so an empty road would still feel like law.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with the older corner, because the lamp stole a whistle and then sold it back as glass. Before cars, a crossing was a negotiation: horses, carts, people on foot, a shout if you were lucky. Then the automobile arrived like a rumor with a horn, and the rumor did not know how to take turns. Cities hired men to stand in the intersection and become a hinge. A hinge with a whistle and a pair of lungs. The job was weather. Rain, soot, a horse that did not agree, a driver who thought money was a turn signal. If your empty red still feels like manners, notice that manners used to have a pulse. A pulse can get tired. A pulse can play favorites. A pulse can be bribed with a nod. The lamp cannot. That is the sales pitch and also the theft. We took discretion, which is a human word, and we put it in a lens. A lens does not know your face. A lens only knows whose turn the clock thinks it is. If you still wave thanks at a green, that wave is a letter to a person who is not there.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Named corners, because a myth of one inventor is how a lamp gets a halo it did not earn. In eighteen sixty eight, at Bridge Street in Westminster, a railway engineer named J. P. Knight put up a gas-lit semaphore, a railroad idea forced onto a city street. At night it burned gas. In eighteen sixty nine the lamps burst and the officer running it was badly hurt. London went back to men in the road. In nineteen twelve, in Salt Lake City, a policeman named Lester Wire built a wooden box with red and green, a homemade argument against chaos. On the fifth of August, nineteen fourteen, Cleveland switched on an electric traffic signal at Euclid Avenue and East One Hundred Fifth, a design by James Hoge for the American Traffic Signal Company. In nineteen twenty, in Detroit, William Potts added yellow and made a four-way that could talk to four directions at once. In nineteen twenty three Garrett Morgan patented a T-shaped three-position signal and sold the rights to a giant. He did not invent waiting. He patented a cleaner way to say wait, go, and stop being a rumor. The rumor is still in the pole. A pole is a biography that forgot most of its names and kept the color.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Watch the cop leave the box, because a vertical city of cars needed a hinge that did not sleep. Once the color held, intersections multiplied like a rash of plus signs. The officer's arm became a legend parents told, then a costume, then a photograph in a museum of jobs. I am not giving you a list of firsts. I am pointing at the swap. We took a person who could see a hearse coming and wave it through, and we replaced that seeing with a cycle. A cycle is fair in the way a vending machine is fair. It does not know a funeral. It does not know a kid in the crosswalk who started late. It knows green. Green is a permission slip printed in light. If your city still posts an officer at a parade, that officer is a fossil of judgment. Judgment is expensive. A pole is cheap. Cheap is how a grid stays in the century without hiring a choir of lungs. A choir would at least see a hearse. A pole just waits for the next green and calls the waiting fairness.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "This is the rehook. You think red is a fact, the way gravity is a fact. Red is a policy. In an empty intersection at two in the morning the policy is still on, because the alternative is trusting you, and the city learned not to. Timed corridors, green waves, a sequence that loves a car more than a walker: the lamp is not neutral. It is a budget of seconds. I am not calling you a coward for waiting. I am un-naturing the sit. The sit is Knight's burst lamp wearing a modern lens. The burst said fire is a bad night shift. The lens said color can be law. Law is a feeling when nobody is coming. If you roll through anyway, that is not you inventing physics. That is you admitting the only hurry that counts is the one the camera will not fine. A camera is a cop who learned to sit in a box and never blink. Never blinking is how a policy stays employed after midnight.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Watch the lock travel. Highways got on-ramps that meter you like a faucet. School zones learned to flash. Pedestrian countdowns turned waiting into a sport with a score. A yellow that used to mean caution became a dare you measure in bumper lengths. Cities sold synchronized greens as a gift to commuters and a shrug to anyone on foot. You still perform the little rituals: stop line, look both ways even when the lamp is green, apologize with a wave when you creep. The rituals are how obedience stays polite. A polite wait is still a wait. If your left-turn arrow still feels like a blessing, notice it is a queue that learned to point. The ground is optional only if the color says so. Optional ground is a city that bet your morning on a timing plan you will never read. Never reading is the modern contract. The contract is hanging over the asphalt as if hanging were free. Hanging is the fee. The fee is a red you treat like weather.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "This is you, already, in the middle of the story. A Tuesday, a red, a street so empty it looks like a drawing. You sit with the radio and stare at the lamp because rolling would feel like a crime with no victim, which is the most modern crime there is. None of this makes you obedient by nature. It makes you a person born after a burst gas lamp and after Cleveland's corner and after yellow learned to be a maybe and after a cop's arm moved into a pole. You can feel both in the same red: relief that you do not have to argue with a horn, and a tiny insult that an empty world still owns your minute. The relief is real. The insult is the salute failing for a second. You paid for a quieter corner with a trust you cannot negotiate. The trust is cheerful. Cheerful is how a schedule stays in the century without looking like a schedule. The lamp still has a color. The color still feels like a person. A person used to have a whistle. Your whistle is the click of the box changing its mind. The click is cheerful. Cheerful is how a missing cop stays in the century without looking missing.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "A city is a pile of permissions with buildings attached. That sentence is rude and almost fair. Take the lamps away and the corner becomes a shouting match nobody wins, or a cop on every plus sign until the payroll breaks. Fire trucks, buses, a person with a cane: the cycle is a diagram of who is allowed to go next, written by someone you will not meet. You still wait. The wait is a vote for a hinge that was sold as safety. I am not telling you to blow the light as a personality. I am telling you the personality was always the swap: a man in the mud, a burst lamp, a wooden box, a wired corner, a yellow maybe. The crowd is still in the intersection. The crowd is you and three other cars treating a color as a treaty. The treaty cannot see a funeral. The timer can, if a human overrode it, which is a sentence maintenance logs are not supposed to hide. A log is a promise in a cabinet you will never open. The cabinet is the real corner. The corner is a costume. Costume is how a plus sign stays in a Tuesday without looking like a dare. The dare is still under the red. The red is still a permission slip you never signed.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "So what did we trade? We traded a corner that had to be argued in real time for a corner that could be timed, fined, and forgotten. That timing is real help: fewer horns, a child who gets a walk signal, an ambulance that can pre-empt the cycle. Help can be a miracle and still be a lamp. We also gained a myth that red is nature, that green is a right, that an empty wait is proof you are good. Good is a word the grid uses. We kept the cop and called it a color. We kept the whistle and called it a countdown. Both can be true and still not be a reason to forget the lamp is a policy that learned manners. Deals can be rewritten. Some already were, quietly, when walk signals got longer and when a flashing yellow meant think. Think is slower than a brake. A brake is a truce you sit in. A truce is not a street that learned to be empty and still kind. Kind would be a different grid. The grid we kept is a pile of people who agreed not to argue with glass.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "This is you. You will put your foot on the pedal. The red will still be there. You will feel nothing, which is the victory. Look at the lamp. That is not the sky and it is not a cop. That is a gas semaphore that burst, a wooden box in Salt Lake, a Cleveland corner in nineteen fourteen, a Detroit yellow, a patent that cleaned up a rumor, a pole that replaced a pair of lungs, and a color that still owns an empty street so you will keep treating glass as law. You are allowed to wait. You are allowed to hate the minute and still sit. Just stop calling the red natural, or inevitable, or proof that you are cautious. Tonight, when nobody is coming, look at it like a leftover salute to an arm that left the box. The salute is cheerful. The empty street is the point. Go when it lets you. Know which color you are still obeying. The wait is cheerful. Cheerful is how a lamp stays in the intersection without looking like a person you used to have to tip.",
+      "search_terms": [
+        "stickman drawing",
+        "ms paint illustration"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

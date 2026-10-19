@@ -1,0 +1,488 @@
+{
+  "project_id": "they-blew-up-a-whale-on-the-beach-8dk-20260825",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.3,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 48,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.16,
+      "zoom_body_end": 1.16
+    },
+    "visual_beats": [
+      {
+        "slug": "0000-whale-job",
+        "prompt": "Cartoon title beat: tiny highway crew facing a huge simple whale shape on a cream beach. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Oregon once tried to delete a whale with dynamite.",
+        "image": null
+      },
+      {
+        "slug": "0010-not-a-metaphor",
+        "prompt": "Ink the mascot shaking his head at a dynamite plunger labeled METAPHOR with a red X, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Not a metaphor. Not a cartoon you invented.",
+        "image": null
+      },
+      {
+        "slug": "0020-november-ninth",
+        "prompt": "Cartoon calendar November 9 1970, Oregon coast dunes, no flags. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Ninth of November, nineteen seventy, Florence.",
+        "image": null
+      },
+      {
+        "slug": "0030-forty-five-foot",
+        "prompt": "Simple cartoon whale silhouette with 45 FT and 8 TONS labels, not gory. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A forty five foot sperm whale, about eight tons.",
+        "image": null
+      },
+      {
+        "slug": "0040-stink-dunes",
+        "prompt": "Cartoon wavy stink lines over dunes and a tiny town, funny not cruel. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "By the twelfth it was a public-works problem.",
+        "image": null
+      },
+      {
+        "slug": "0050-beach-highway",
+        "prompt": "Cartoon beach with a HIGHWAY stamp and a tiny road sign in sand. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The beach was legally a highway right of way.",
+        "image": null
+      },
+      {
+        "slug": "0100-gull-crew",
+        "prompt": "Cartoon seagulls wearing tiny hard hats, clipboard, not eating anything gory. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Blast it small. Let gulls clock in as cleanup.",
+        "image": null
+      },
+      {
+        "slug": "0110-thornton-confident",
+        "prompt": "Cartoon engineer in a hard hat giving a thumbs up beside a work order, no portrait. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "George Thornton said he was quite confident.",
+        "image": null
+      },
+      {
+        "slug": "0120-keep-picture",
+        "prompt": "Three icons in a row: whale shape, highway hat, dynamite crate, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A whale, a highway department, a half-ton charge.",
+        "image": null
+      },
+      {
+        "slug": "0130-road-job",
+        "prompt": "Ink pointing at an org chart that says BEACHES = ROADS, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Why this was a road job.",
+        "image": null
+      },
+      {
+        "slug": "0140-hunting-trip",
+        "prompt": "Cartoon office with a GONE HUNTING sign and one remaining chair labeled THORNTON. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Dale Allen had a hunting trip. Thornton stayed.",
+        "image": null
+      },
+      {
+        "slug": "0150-designated",
+        "prompt": "A work order arrow landing on a hard hat, simple and funny. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He got designated when the whale broke.",
+        "image": null
+      },
+      {
+        "slug": "0200-not-a-villain",
+        "prompt": "Cartoon medal of COMPETENCE next to a whale-shaped problem, no mockery face. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "He was a respected engineer, not a cartoon villain.",
+        "image": null
+      },
+      {
+        "slug": "0210-no-form",
+        "prompt": "Empty form tray, whale-shaped hole in the paperwork. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "No form existed for a forty five foot problem.",
+        "image": null
+      },
+      {
+        "slug": "0220-whale-is-boulder",
+        "prompt": "Split image: boulder icon versus whale icon, equals sign cracking. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The plan assumed a carcass would act like a boulder.",
+        "image": null
+      },
+      {
+        "slug": "0230-bury-uncovers",
+        "prompt": "Cartoon shovel and a tide arrow undoing a sand pile. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Bury it: the Pacific uncovers things.",
+        "image": null
+      },
+      {
+        "slug": "0240-tow-washes",
+        "prompt": "Cartoon whale shape on a tide loop arrow, coming back to the same beach. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Tow it out: it can wash back.",
+        "image": null
+      },
+      {
+        "slug": "0250-no-brochure-fire",
+        "prompt": "A beach BROCHURE with a red X over a fire icon, no flames on an animal. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Burn it: not a brochure.",
+        "image": null
+      },
+      {
+        "slug": "0300-navy-call",
+        "prompt": "Cartoon telephone to a navy hat, dynamite crate in the corner, toy-like. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They called the Navy and munitions people.",
+        "image": null
+      },
+      {
+        "slug": "0310-landward-charge",
+        "prompt": "Simple diagram: beach, whale outline, arrows toward the ocean, no gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Charges on the landward side, shove it to water.",
+        "image": null
+      },
+      {
+        "slug": "0320-twenty-sticks",
+        "prompt": "Two cartoon crates: 20 STICKS versus 20 CASES, the small one circled. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A veteran said twenty sticks, not twenty cases.",
+        "image": null
+      },
+      {
+        "slug": "0330-half-ton",
+        "prompt": "A scale labeled 1/2 TON next to a tiny ignored sticky note. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The crew went with about a half-ton anyway.",
+        "image": null
+      },
+      {
+        "slug": "0340-quarter-mile",
+        "prompt": "Cartoon dune with tiny spectators and a measuring tape 1/4 MILE. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Twelfth of November: a quarter mile back on a dune.",
+        "image": null
+      },
+      {
+        "slug": "0350-seventy-five",
+        "prompt": "A small cartoon crowd behind a rope, 75, no panic yet. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Maybe seventy five spectators and reporters.",
+        "image": null
+      },
+      {
+        "slug": "0400-linnman-brazil",
+        "prompt": "Cartoon news camera and mic on a dune, KATU-style, no logos stolen. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Paul Linnman on mic. Doug Brazil on camera.",
+        "image": null
+      },
+      {
+        "slug": "0410-hardhat-theory",
+        "prompt": "Hard-hat engineer pointing at a seagull icon on a chalkboard. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Thornton on camera: gulls and crabs will finish it.",
+        "image": null
+      },
+      {
+        "slug": "0420-three-forty-five",
+        "prompt": "Cartoon clock 3:45, plunger handle, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Signal around three forty five in the afternoon.",
+        "image": null
+      },
+      {
+        "slug": "0430-sand-column",
+        "prompt": "Cartoon sand-and-smoke column, BOOM letters, no animal pieces. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A hundred-foot column of sand, stylized boom cloud.",
+        "image": null
+      },
+      {
+        "slug": "0440-people-run",
+        "prompt": "Tiny cartoon figures running from dashed overhead arcs, not gory. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "People ran when bits arced overhead.",
+        "image": null
+      },
+      {
+        "slug": "0450-crushed-car",
+        "prompt": "Cartoon car pancaked under a generic weight labeled DEBRIS, no flesh. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "A parked sedan was crushed.",
+        "image": null
+      },
+      {
+        "slug": "0500-umenhofer",
+        "prompt": "Cartoon car with a tiny FAMOUS FOR WRONG REASON ribbon. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Walter Umenhofer's Oldsmobile became famous for the wrong reason.",
+        "image": null
+      },
+      {
+        "slug": "0510-nobody-died",
+        "prompt": "A clipboard: CASUALTIES 0, PLAN grade F, funny not grim. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Nobody died. The math was still bad.",
+        "image": null
+      },
+      {
+        "slug": "0520-linnman-line",
+        "prompt": "A news script with that line underlined, Ink raising an eyebrow, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Linnman: blasted blubber beyond all believable bounds.",
+        "image": null
+      },
+      {
+        "slug": "0530-not-a-gore-reel",
+        "prompt": "Ink ripping a GRIM REEL ticket, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The cartoon is the plan, not the mess.",
+        "image": null
+      },
+      {
+        "slug": "0540-gulls-no",
+        "prompt": "Empty time clock, seagulls flying away, CLOSED sign. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The seagulls did not clock in.",
+        "image": null
+      },
+      {
+        "slug": "0550-still-there",
+        "prompt": "Same whale outline after the boom cloud, mostly intact, not gory. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Most of the whale was still on the sand.",
+        "image": null
+      },
+      {
+        "slug": "0600-bury-anyway",
+        "prompt": "Cartoon shovel returning, tide chart, we told you so energy. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "They buried it anyway, the rejected option.",
+        "image": null
+      },
+      {
+        "slug": "0610-shovels",
+        "prompt": "A row of shovels beating a dynamite crate in a tiny trophy pose. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The leftover fact was shovels.",
+        "image": null
+      },
+      {
+        "slug": "0620-not-rock",
+        "prompt": "Rock icon with a check, whale icon with a red X. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Dynamite likes rock. A whale is not rock.",
+        "image": null
+      },
+      {
+        "slug": "0630-videotape",
+        "prompt": "Cartoon TV set looping a boom cloud, not gore. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The afternoon lived on local-news tape.",
+        "image": null
+      },
+      {
+        "slug": "0640-thornton-quiet",
+        "prompt": "An engineer putting a mute stamp on a whale-shaped microphone. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Thornton avoided the encore for years.",
+        "image": null
+      },
+      {
+        "slug": "0650-blew-up-face",
+        "prompt": "Speech bubble turning into a small cartoon boom, no harm. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Every time he talked, it blew up in his face.",
+        "image": null
+      },
+      {
+        "slug": "0700-now-they-bury",
+        "prompt": "Cartoon truck and shovel, DYNAMITE crate in a museum case. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Later whales get buried or hauled. Boring on purpose.",
+        "image": null
+      },
+      {
+        "slug": "0710-anniversary",
+        "prompt": "A small town banner WHALE DAY, cream paper, no flags as jokes. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Florence still marks the anniversary because the tape is funny.",
+        "image": null
+      },
+      {
+        "slug": "0720-work-order-plot",
+        "prompt": "Work order paper larger than the TV set. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "The tape is funny. The work order is the plot.",
+        "image": null
+      },
+      {
+        "slug": "0730-not-gravel",
+        "prompt": "Whale shape sitting on a GRAVEL label that does not fit. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "An eight-ton problem that refuses to be gravel.",
+        "image": null
+      },
+      {
+        "slug": "0740-twenty-vs-twenty",
+        "prompt": "Ink holding two signs, 20 STICKS and 20 CASES, mouth closed. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Twenty sticks versus twenty cases.",
+        "image": null
+      },
+      {
+        "slug": "0750-comment-hook",
+        "prompt": "Ink the mascot pointing at the viewer, mouth closed, cream paper. Bold cartoon storytime, thick ink outlines, flat candy fills of mustard, ink-blue, cream paper and tomato red, slight paper grain, non-photorealistic, illustrated, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no flags, no photoreal faces, no animal remains, no blood, no guts. Recurring mascot Ink may cameo: mustard jacket, ink-blue hair, oversized black marker, mouth closed, readable silhouette.",
+        "covers": "Would you have signed the work order. Tell me in the comments.",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 600.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Inter-Bold.ttf",
+    "font_size": 46,
+    "color": "#FFFFFF",
+    "accent_color": null,
+    "stroke_color": "#000000",
+    "stroke_width": 5,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "They Blew Up a Whale on the Beach",
+    "description": "Florence, Oregon, nineteen seventy. A highway department, a half-ton of dynamite, and seagulls who did not clock in. The leftover tool was a shovel.",
+    "tags": [
+      "history",
+      "oregon",
+      "whale",
+      "cartoon",
+      "true story",
+      "1970",
+      "florence",
+      "highway",
+      "funny",
+      "news"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "BLAST FLOP",
+    "brand_id": "drawn-anyway"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Oregon once tried to delete a whale with dynamite. That is not a metaphor, and it is not a cartoon you invented after lunch. On the ninth of November nineteen seventy, a forty five foot sperm whale, about eight tons, washed ashore south of Florence on the Oregon coast. At first it was a curiosity. Beachcombers came. Kids wanted to climb it. Then the smell moved through the dunes like a second weather system, and the curiosity became a complaint to whoever owned the sand. By the twelfth it was a public-works problem: a stink, a crowd risk, and a beach the law treated as a highway. The Oregon State Highway Division got the job because the sand was their right of way, which is a sentence that should have stopped the meeting and did not. The official idea was neat. Blast the carcass into bite-size pieces. Let gulls and crabs clock in as the cleanup crew. George Thornton, an assistant district engineer, told a camera he was quite confident it would work. Keep that picture. A dead whale. A highway department. A half-ton of dynamite. Seagulls as the subcontractors. Everything after this is just that picture failing in public, on camera, with a punchline that still has a parking space.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Start with why this was a road job. In nineteen seventy, Oregon beaches sat under the Highway Division, not a parks pamphlet with a cute logo. If the sand was a right of way, the whale was a lane closure with a pulse it no longer had. That is a legal fact that sounds like a joke, which is how you know it is going to go well. District engineer Dale Allen had a hunting trip. Thornton later said he got designated because the others took off hunting when the whale broke, conveniently, he thought. To be fair, they had already planned to go. The whale made them anxious to leave. Thornton was a respected engineer with decades at the agency. He was not a cartoon villain and he was not a man who woke up hoping to be a meme. He was the person still in the office when a forty five foot problem arrived without a form for it. If this already sounds like a bad idea written on a work order, you are paying attention. The whale was real. The smell was real. The org chart was real. The plan assumed a carcass would behave like a boulder you could quarry off a shoulder. Plans that assume a whale is a boulder should be stored with the other fiction, next to the seagull timesheet.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "They ran the options that sound grown-up until you put them on a tide chart. Bury it on the beach: the Pacific uncovers things, and a buried whale is a sequel with worse lighting. Tow it out to sea: it can wash back and become next week's meeting with the same smell and a new memo. Cut it up by hand: nobody volunteered to be that meeting, and the Highway Division was not a flensing station. Burn it: a forty five foot oil fire on a public beach is not a brochure they print in Salem. So they called the United States Navy and munitions people and treated the whale like overburden on a road cut. Dynamite on the landward side, hoping the blast would shove the mess toward the water. A military veteran who happened to be in the area said twenty cases was far too much, and that twenty sticks would have done. The crew went with about a half-ton anyway. That gap is the joke and the paperwork. The plan had consultants. The plan had a number. The number was not the veteran's number, which is how a work order becomes a legend.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "On the twelfth of November, about a quarter mile back, maybe seventy five spectators and reporters waited on a dune as if a highway project needed an audience. KATU's Paul Linnman was there with a microphone and a tone that already knew this might be a sentence. Cameraman Doug Brazil rolled. Thornton, in a hard hat, explained the gull-and-crab theory on camera the way you explain a detour. He gave the signal around three forty five in the afternoon. The beach threw up a column of sand and whale maybe a hundred feet high. Chunks flew in directions the plan had not budgeted. People screamed and ran when they glimpsed pieces coming overhead. A parked sedan near the onlookers was crushed. Walter Umenhofer's car became the most famous Oldsmobile on the Oregon coast for the worst reason. Nobody died. That matters, and it does not make the math good. Linnman later said the blast blasted blubber beyond all believable bounds. Believe him as a reporter with a line that scans. Do not turn it into a gore reel. The cartoon is the plan, not the mess. The mess was already a failure of units.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Here is the part the seagulls did not file in triplicate. The scavengers who were supposed to eat the leftovers did not clock in. The noise possibly scared them off, which is the kind of detail a plan forgets when it casts wildlife as a sanitation department with a union. Most of the whale was still on the sand. Highway workers had to gather what the sky had redistributed and bury it anyway, the option they had rejected as too tidal, now with extra steps and a news crew. The official idea was a disappearing trick. The leftover fact was shovels. If you came for a clean boom and a clean beach, you already lost the plot. Dynamite is happy when the target is rock. A whale is not rock. A whale is oil and mass and a smell that does not respect a blasting cap. That mismatch is the whole afternoon in one sentence, and it is about to live on videotape until the heat death of local news, which is a long time to be wrong in a hard hat.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Thornton did not enjoy the encore. For years he avoided the story the way you avoid a plunger you already pressed. He once said that every time he talked about it, it blew up in his face, which is the correct joke and also a man who had done a job with the tools he was handed by an org chart that went hunting. The Highway Division is now ODOT. Beaches are not treated as a place you quarry with explosives. Later stranded whales get buried or hauled, the boring methods, the ones that do not need a quarter-mile viewing dune and a cameraman named Doug. Florence still marks the anniversary because America will commemorate a logistics error if the tape is funny enough. The tape is funny. The work order is the plot. You are allowed to laugh at the gull subcontract. You are not required to pretend the whale was a boulder, or that a half-ton was a precise number, or that confidence on camera is the same thing as a tide chart.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Aftermath is where the shovel beats the newsreel, again. Chunks had to be collected from parking lots and from roofs a surprising distance away. The odor lingered like a guest who would not take a hint. The highway men finished with burial, which is what they would have done if the dynamite had never been invited to the beach in the first place. The veteran with twenty sticks does not get a statue. The half-ton gets a holiday. That is not a conspiracy. That is how a camera chooses a climax. If you are keeping score at home, the score is: zero human deaths, one crushed sedan, one intact problem, one sentence that still scans, and a pile of work that looked like the original meeting with worse weather. A file can hold a confident quote and a shovel at the same time. You are allowed to laugh at the quote. You are not required to forget the shovel.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "So who won. Not the dynamite. Not the seagulls, who declined the contract. Not the sedan. Thornton won a nickname he did not order and a story he tried not to tell. Linnman won a sentence that still scans. Oregon won a training film in reverse: this is how you do not remove a whale. If you need a moral, skip nature is magic. Take this: a half-ton charge is a terrible instrument for a problem that needed a shovel, a truck, and a tide chart. The next time someone sells you a simple blast for a scattered, stinking, eight-ton problem that refuses to be gravel, remember the veteran with twenty sticks, and the crew that brought twenty cases. Remember the hunting trip. Remember the beach that was a highway. Would you have signed the work order. A beach that was a highway, a hunting trip, a confident engineer, a camera rolling, and gulls that did not show. Tell me in the comments. That is the receipt. Drawn anyway.",
+      "search_terms": [
+        "cartoon illustration",
+        "storytime cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}

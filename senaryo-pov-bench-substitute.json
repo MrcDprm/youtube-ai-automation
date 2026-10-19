@@ -1,0 +1,791 @@
+{
+  "project_id": "your-life-as-a-substitute-on-the-bench-14dk-20260905",
+  "video": {
+    "orientation": "landscape",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "max_duration_seconds": 1500.0,
+    "scene_gap_seconds": 0.25,
+    "crossfade_seconds": 0.0,
+    "video_bitrate_crf": 20,
+    "preset": "medium",
+    "background_music": {
+      "enabled": false,
+      "file": null,
+      "volume": 0.08,
+      "fade_in_seconds": 1.5,
+      "fade_out_seconds": 2.5,
+      "duck_to": 0.5
+    },
+    "format": "paint",
+    "story_visual": {
+      "photo_count": 84,
+      "opening_seconds": 210.0,
+      "opening_photo_count": 1,
+      "opening_hold_seconds": 2.5,
+      "zoom_opening_end": 1.17,
+      "zoom_body_end": 1.17,
+      "zenn_enabled": false
+    },
+    "visual_beats": [
+      {
+        "slug": "r01-bench-ladder-title",
+        "prompt": "Title BENCH TO STARTER Kit climbing a stadium bench like a ladder. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r01-not-picked",
+        "prompt": "Team sheet on wall, Kit's name missing, Kit looking down list. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r01-plastic-seat-ache",
+        "prompt": "Kit alone on empty plastic bench seat, stadium lights above. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-warmup-bib",
+        "prompt": "Kit holding an unused orange warm-up bib, staring at pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-impact-sub-cage",
+        "prompt": "Word IMPACT SUB half compliment half cage bars around Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r01-rank-one-not-picked",
+        "prompt": "Title RANK 1 NOT PICKED Kit outside locked dressing room door. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r02-rank-two-eighteen",
+        "prompt": "Title RANK 2 THE EIGHTEEN team sheet with Kit's name under SUBSTITUTES heading. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-same-warmup-sprints",
+        "prompt": "Kit doing warmup sprints alone on sideline before kickoff. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-bench-colder-tv",
+        "prompt": "Kit shivering on real bench vs warm TV bench graphic. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-clap-goals-envy",
+        "prompt": "Kit clapping politely while teammates celebrate a goal. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-clean-shirt-90",
+        "prompt": "Clock showing 90 minutes, Kit's shirt still spotless. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r02-professional-tuesday",
+        "prompt": "Kit shrugging PROFESSIONAL vs TUESDAY caption bubble. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-rank-three-85",
+        "prompt": "Title RANK 3 THE 85TH MINUTE Kit sprinting onto pitch late. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-go-see-it-out",
+        "prompt": "Manager pointing GO SEE IT OUT instruction to Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-waste-corner",
+        "prompt": "Kit jogging ball to corner flag wasting time. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-ball-twice",
+        "prompt": "Stat card BALL TOUCHES 2 next to Kit on pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-looked-lively",
+        "prompt": "Phone comment LOOKED LIVELY Kit reading with flat expression. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r03-leftovers-career",
+        "prompt": "Kit holding a tray of leftover minutes like food scraps, football motif. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r04-rank-four-cameo-counts",
+        "prompt": "Title RANK 4 THE CAMEO THAT COUNTS Kit entering pitch 78th minute board. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r04-touch-shoulder-drop",
+        "prompt": "Kit dropping shoulder past defender, ball at feet. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r04-net-moves",
+        "prompt": "Ball hitting back of net, crowd rising, Kit mid-celebration. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r04-nickname-chant",
+        "prompt": "Crowd banner with nickname Kit never chose. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r04-super-sub-headline",
+        "prompt": "Newspaper headline SUPER SUB Kit photo. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r04-lucky-dressing-room",
+        "prompt": "Teammates saying LUCKY speech bubble Kit half-smiling. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r05-rank-five-chant-starts",
+        "prompt": "Title RANK 5 THE CHANT STARTS Kit hearing crowd turn toward bench. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-crowd-sings-name",
+        "prompt": "Crowd banner singing Kit's name before substitution board raised. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r05-stand-to-warmup",
+        "prompt": "Kit standing up to warm up, noise doubling behind him. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r05-power-sitting-down",
+        "prompt": "Kit seated on bench glowing like a spotlight, POWER text. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r05-not-consolation-prize",
+        "prompt": "Trophy shaped like a bench labeled NOT A CONSOLATION PRIZE. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r05-rare-job-title",
+        "prompt": "Business card style card RARE JOB: IMPACT SUB Kit holding it. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r06-rank-six-trust-minutes",
+        "prompt": "Title RANK 6 TRUST IN MINUTES clock showing 65 replacing 78. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-earlier-sub-board",
+        "prompt": "Substitution board showing earlier minute number, Kit ready. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-teammates-look-differently",
+        "prompt": "Teammates pointing at Kit in warmup area like loading a weapon. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-weapon-not-emergency",
+        "prompt": "Kit glowing like a loaded weapon icon vs dusty emergency exit sign. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-decision-on-purpose",
+        "prompt": "Manager notebook circling Kit's name on purpose, early plan. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r06-before-desperate",
+        "prompt": "Clock BEFORE DESPERATE label, Kit calm on bench. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r07-rank-seven-new-name",
+        "prompt": "Title RANK 7 THE NEW NAME squad list with unfamiliar name added. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r07-locker-two-down",
+        "prompt": "New player's locker two down from Kit's, same position kit hanging. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-scouting-report-mirror",
+        "prompt": "Two scouting reports side by side identical to Kit's. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r07-healthy-competition-word",
+        "prompt": "Coach saying HEALTHY COMPETITION speech bubble, Kit uneasy. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r07-ceiling-built-without-you",
+        "prompt": "Kit reaching up hitting invisible ceiling labeled SUPER SUB. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r07-prove-more-than-15",
+        "prompt": "Kit holding sign PROVE I AM MORE THAN 15 MINUTES. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r08-rank-eight-cup-start",
+        "prompt": "Title RANK 8 THE CUP START team sheet with Kit in starting eleven. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-rotation-policy-words",
+        "prompt": "Manager careful ROTATION POLICY speech bubble to press. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-full-90-legs",
+        "prompt": "Kit legs tired at 60th minute instead of first, sensation lines. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-tired-relief",
+        "prompt": "Kit smiling exhausted, TIRED = RELIEF caption. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-wednesday-night-oxygen",
+        "prompt": "Floodlit midweek stadium, OXYGEN word glowing over pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r08-simply-a-footballer",
+        "prompt": "Kit standing tall plain jersey no label, SIMPLY A FOOTBALLER. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r09-rank-nine-cup-performance",
+        "prompt": "Title RANK 9 THE PERFORMANCE post-match graphic with Kit's face. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-pundit-finally-word",
+        "prompt": "TV pundit desk saying word FINALLY, Kit on screen. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-unopened-letter",
+        "prompt": "Kit holding an envelope labeled CAREER, finally opened. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-phone-fills-messages",
+        "prompt": "Kit's phone overflowing with new congratulation messages. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r09-strange-timing-praise",
+        "prompt": "Calendar page ROTATION POLICY next to trophy PRAISE, confused Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r09-praise-no-schedule",
+        "prompt": "Kit shrugging PRAISE DOES NOT CHECK TIMING caption. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-rank-ten-emergency-start",
+        "prompt": "Title RANK 10 THE EMERGENCY START teammate holding hamstring on pitch. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r10-physio-jogs-over",
+        "prompt": "Physio running onto pitch, Kit warming up urgently on sideline. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-tunnel-three-sentences",
+        "prompt": "Manager gripping Kit's arm in tunnel, speech bubble three short lines. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r10-heart-near-collarbone",
+        "prompt": "Kit walking out for kickoff, heart icon glowing near collarbone. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r10-best-team-belonged",
+        "prompt": "Kit in strongest ever lineup graphic, proud nervous face. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r10-opportunity-no-apology",
+        "prompt": "Broken hourglass shaped like a leg, OPPORTUNITY text. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r11-rank-eleven-prove-it-month",
+        "prompt": "Title RANK 11 PROVE IT MONTH calendar with repeated Saturday starts marked. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-journalists-heavier-question",
+        "prompt": "Reporter microphone asking EVERY WEEK question, Kit thinking. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-recovery-routine-icons",
+        "prompt": "Ice bath, sleep, prehab icons around Kit, new starter routine. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-sprint-and-wait-old",
+        "prompt": "Faded old routine icon SPRINT AND WAIT crossed out. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-not-fully-believed-yet",
+        "prompt": "Kit walking past skeptical fan faces, doubt speech bubbles. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r11-stop-being-surprise",
+        "prompt": "Newspaper headline NO LONGER A SURPRISE Kit calm confident pose. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r12-rank-twelve-derby-90",
+        "prompt": "Title RANK 12 THE DERBY fixture board showing rival club generic crest. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r12-name-read-first",
+        "prompt": "Stadium announcer board reading Kit's name first in starting lineup. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r12-stadium-max-volume",
+        "prompt": "Packed stadium roaring, sound wave lines, Kit walking out. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r12-full-match-ache-earned",
+        "prompt": "Kit's legs aching differently, EARNED label glowing. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r12-first-half-mistake",
+        "prompt": "Kit making a mistake, ball slipping past, worried face. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r12-survive-eighty-more",
+        "prompt": "Clock ticking 80 minutes remaining, Kit determined resolve pose. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r13-rank-thirteen-nailed-on",
+        "prompt": "Title RANK 13 NAILED ON team sheet with Kit permanently in strongest XI. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-emergency-vs-strongest",
+        "prompt": "Two lineup cards EMERGENCY ELEVEN crossed out, STRONGEST ELEVEN circled. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-chant-in-tunnel-now",
+        "prompt": "Kit walking out of tunnel at kickoff to same old chant, now earned. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r13-younger-sub-watching",
+        "prompt": "Young substitute warming up watching Kit's movement closely. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "!",
+        "image": null
+      },
+      {
+        "slug": "r13-watched-starters-mirror",
+        "prompt": "Kit remembering himself once watching starters, mirror flashback. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "snap",
+        "image": null
+      },
+      {
+        "slug": "r13-nobody-calls-that-anymore",
+        "prompt": "Speech bubble label IMPACT SUB fading away from Kit. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-rank-fourteen-full-circle",
+        "prompt": "Title RANK 14 FULL CIRCLE clock showing 82nd minute, score 3-1. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "slow lingering hold on this emotional story beat x",
+        "image": null
+      },
+      {
+        "slug": "r14-subbed-off-favor",
+        "prompt": "Manager waving Kit off pitch kindly, not urgently, calm smile. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      },
+      {
+        "slug": "r14-sit-as-favor",
+        "prompt": "Kit sitting on old bench now smiling, FAVOR not SENTENCE caption. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-tell-the-kid",
+        "prompt": "Kit leaning over talking to young sub warming up, advice speech bubble. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-kid-nods-unsure",
+        "prompt": "Young substitute nodding, not fully believing, mirrored Kit memory. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "hold beat mid",
+        "image": null
+      },
+      {
+        "slug": "r14-comment-hook-ladder",
+        "prompt": "Kit pointing at viewer LADDER graphic with comment bubble EVERY LEVEL POV end card. Bold cartoon POV, thick ink outlines, flat fills of pitch green, stadium amber, cream paper, tomato red accents, slight paper grain, non-photorealistic, illustrated, first-person football substitute story, not a photo, no live-action, no realism, no stickman, no MS Paint, no gore, no photoreal faces, no real club crests, no national flags as identity, no child closeups. Recurring protagonist Kit: young adult, green hoodie or generic kit, short dark hair, mouth closed.",
+        "covers": "linger on this frame for tension and breath",
+        "image": null
+      }
+    ],
+    "target_duration_seconds": 840.0
+  },
+  "tts": {
+    "voice": "en-US-GuyNeural",
+    "rate": "+2%",
+    "volume": "+0%",
+    "pitch": "+0Hz",
+    "normalize_text": true,
+    "language": "en"
+  },
+  "subtitles": {
+    "enabled": true,
+    "burn_in": true,
+    "max_chars_per_line": 32,
+    "max_lines": 2,
+    "font": "assets/fonts/Anton-Regular.ttf",
+    "font_size": 54,
+    "color": "#FFFFFF",
+    "accent_color": "#FF4D4D",
+    "stroke_color": "#1A1A1A",
+    "stroke_width": 4,
+    "position_ratio": 0.84,
+    "uppercase": false,
+    "numeral_display": true,
+    "karaoke": true
+  },
+  "youtube": {
+    "upload_enabled": false,
+    "title": "Your Life as a Substitute on the Bench",
+    "description": "The eighteen, the 85th-minute cameo, the super-sub chant, and the long climb to becoming a starter — your life as a football substitute, cartoon POV.",
+    "tags": [
+      "substitute",
+      "impact substitute",
+      "super sub",
+      "football sub",
+      "bench player",
+      "football",
+      "soccer",
+      "pov",
+      "cartoon",
+      "every level",
+      "rank run"
+    ],
+    "category_id": "24",
+    "privacy_status": "unlisted",
+    "made_for_kids": false,
+    "synthetic_content_disclosure": true,
+    "publish_at": null,
+    "playlist_id": null,
+    "default_language": "en",
+    "thumbnail_enabled": true,
+    "thumbnail_hook": "BENCH TO STARTER",
+    "brand_id": "every-level-pov"
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "narration": "Some players climb a ladder. You climb a bench — and this is your life as a substitute, from a name missing off the team sheet to the player a whole stadium screams for when the game is dying. Not the starting eleven story. Not the highlight-reel hat-trick story. The other one — the one about warm-up bibs, unused numbers, and the specific ache of watching a match you trained all week for from a plastic seat. By the end you will know why impact sub can feel like a compliment and a cage in the same sentence, and why some players spend a career learning to be brilliant in fifteen minutes. Rank one is not even that. Rank one is not being picked at all. Some players never even get a plastic seat. You get the seat and want more. This is the ladder nobody draws on a wall chart. Every rank on it still has a shirt number and a heartbeat. You know the exact seat number on that bench. You have counted the studs on it more than the goals in the match.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 2,
+      "narration": "Rank two. The eighteen. Matchday. Your name is finally on the team sheet, but three lines down from where you wanted it, under a heading nobody puts on a poster: substitutes. You go through the same warm-up as everyone else — sprints, passes, a shot that clips the bar — and then you sit. The bench is colder than the dugout looks on television. You clap goals you wish you scored. You chew gum like it is a job. Ninety minutes pass and your shirt stays as clean as it was in the tunnel. Someone calls that professional. You call it Tuesday. Clean shirt, ninety minutes, professional patience with a name. The dugout looks warm on television. It rarely is. You learn to retie your boots twice, just to have something to do with your hands.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 3,
+      "narration": "Rank three. The eighty-fifth minute. The manager finally says your name, and it does not feel like an opportunity — it feels like an errand. Go and see the game out. Waste a corner in the corner flag. You sprint on with five minutes to make an impression that a whole week of training could not buy you. The ball barely reaches you twice. The final whistle goes and a stranger online writes that you looked lively, which is the kindest insult in football. You learn fast that garbage time is still time, and some careers are built entirely out of other people's leftovers. Garbage time is still time. Leftovers still feed a career. Leftover minutes still show up on a highlight reel somewhere. Careers are built out of stranger things. You keep the matchball tag from that cameo anyway. Nobody has to know why.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 4,
+      "narration": "Rank four. The cameo that counts. Seventy-eighth minute, one-nil down, and the manager finally trusts you with more than an errand. You take a touch, drop a shoulder, and the net moves before the crowd finishes reacting to you even entering the pitch. Suddenly the same fans who forgot your name are chanting a nickname you never gave yourself. The headline calls you a super sub. The dressing room calls you lucky. You call it the first proof that fifteen minutes can be worth more than someone else's ninety, if you use every single one of them. Fifteen minutes, one touch, a nickname you never asked for. A super sub label is earned in seconds and remembered in headlines for years. You save the video for the day you doubt yourself again. You already know that day is coming.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 5,
+      "narration": "Rank five. The chant starts before you even move. One-nil down at home, seventy minutes gone, and the crowd turns toward the bench and starts singing your name before the manager has made a decision. It is the strangest kind of power — being wanted more sitting down than most players are wanted playing. You stand up to warm up and the noise doubles. You are not even on the pitch yet and you have already changed the mood of a stadium. That is the day you understand impact substitute is not a consolation prize. It is a specific, rare job, and you are starting to be good at it. Standing up is already a headline before you touch the ball. Momentum can start in a crowd's throat before it starts at your feet. You mouth the words back at the crowd once, just once, before you catch yourself.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 6,
+      "narration": "Rank six. Trust arrives in minutes, not words. The manager stops waiting until the seventy-eighth minute and starts bringing you on in the sixty-fifth, then the sixtieth, like he is quietly admitting the plan changed because of you. Teammates start looking for you differently in the warm-up area, like you are a weapon being loaded rather than a substitute being prepared. You still are not starting. But you are no longer an emergency option — you are a decision the manager makes on purpose, early, because the game might need you before it is desperate. Trust now arrives ten minutes earlier than it used to. Minutes are the only currency a manager cannot fake giving you. You stop packing your bag like you might not be needed. Small habits change first.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 7,
+      "narration": "Rank seven. A new name arrives in the squad list, expensive and specific, and everyone in the building suddenly discusses your role using the word cover. You watch a player unpack a locker two down from yours who plays your exact position and reads your exact scouting report. Coaches say healthy competition. You hear something closer to a countdown. The label that made you famous — super sub — starts to feel like a ceiling someone built without asking you. You are excellent at fifteen minutes. Now you have to prove you were only ever fifteen minutes because nobody had given you ninety. A new name in the squad list rewrites your job description. Competition does not knock. It just unpacks a locker near yours. You start double-checking your own numbers against his. Old habits from the bench die slow.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 8,
+      "narration": "Rank eight. The cup team sheet spells your name in the starting eleven for the first time all season, in a competition some fans call second string and you call oxygen. Rotation policy, the manager says, protecting his words like they might disappoint you. You do not care what the reason is called. You get ninety minutes to remember what a full match feels like in your legs by the sixtieth instead of the first. You are tired in a way that feels like relief. For one Wednesday night, you are not an impact substitute. You are simply a footballer who started. Second string to some. Oxygen to you. A rotation policy is often just a manager's polite word for chance. You iron your own boots the night before, a ritual you never needed as a substitute.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 9,
+      "narration": "Rank nine. The cup start becomes a cup performance nobody expected, and by full time the post-match graphics have your face on them instead of a supporting role in someone else's highlight package. A pundit says the word finally on live television, like your career has been an unopened letter. Your phone fills with messages from people who did not text you after the super-sub goals. It is strange to be praised for ninety minutes the same week you were only trusted with a cup tie because a rotation policy needed a name. You take it anyway. Praise rarely checks its own timing. Finally, said live, like an unopened letter. Praise rarely checks whether you were ready for it. You screenshot the clip before it disappears into someone else's algorithm.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 10,
+      "narration": "Rank ten. Saturday morning, a teammate pulls up in the warm-up clutching a hamstring, and your entire week turns inside out in the time it takes a physio to jog over. Emergency starter. The manager grabs your arm in the tunnel and says three sentences that used to take him a whole season to say to you. You walk out for kickoff with your heart somewhere near your collarbone, in a league match, in the actual best team you have belonged to, because someone else's body failed at the worst possible moment for them and the best possible moment for you. Football rarely apologizes for how opportunities arrive. Someone else's hamstring becomes your best Saturday. Opportunity in football is rarely fair. It is simply available. You warm up twice as fast as usual and still feel late.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 11,
+      "narration": "Rank eleven. Prove-it week becomes prove-it fortnight becomes, quietly, prove-it month. You start Saturday, then the following Saturday, then a midweek game nobody expected you to still be involved in. Journalists stop asking if you can start and start asking if you can start every week, which is a different, heavier question. Your body learns a new rhythm — recovery, prehab, ice, sleep — the maintenance schedule of a starter instead of the sprint-and-wait schedule of a substitute. You are not fully believed yet. But you are no longer a surprise, and in football, stopping being a surprise is its own kind of promotion. Stop being a surprise. That is the real promotion. A prove-it week becomes a prove-it identity if you survive it twice. You stop flinching when a journalist says your name into a microphone.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 12,
+      "narration": "Rank twelve. The fixture list gives you the derby, ninety minutes, a stadium at a volume you have only ever heard from a bench. No sixty-fifth-minute rescue mission this time — kickoff to final whistle, your name read out first instead of read out as a substitution. You feel every ache of a full match differently when it is earned from minute one, not inherited from someone else's tired legs. You make a mistake in the first half and have to survive it for eighty more minutes instead of ten. That, more than any goal, is what convinces you: you can carry a game, not just finish one. No rescue mission. Kickoff to final whistle, all yours. A full ninety changes how a mistake feels in your legs. You replay the mistake in your head longer than you replay anything you did well.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 13,
+      "narration": "Rank thirteen. The team sheet stops surprising anyone, including you. Your name sits inside the strongest eleven the manager can pick, not the emergency eleven he picks when he runs out of choices. The same chant that used to greet you jogging on from the bench now greets you walking out of the tunnel at kickoff, and it sounds different from this side of it — earned instead of urgent. Somewhere a younger player is warming up in your old spot, watching how you move, the way you once watched the starters ahead of you. You do not remember the exact day you stopped being the impact sub. You just noticed, one Saturday, that nobody called you that anymore. The chant moved from the bench to the tunnel. Nobody announces the day you stop being a substitute. You just notice the silence around the word. You catch yourself teaching a younger sub the same trick a senior player once taught you.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    },
+    {
+      "id": 14,
+      "narration": "Rank fourteen. Eighty-second minute, three-one up, and the manager finally takes you off — not because you failed, but because the game is won and a young substitute deserves the same door you were once given. You walk to the bench you used to live on and, for the first time, sit on it as a favor instead of a sentence. You lean over and tell the kid warming up exactly what nobody told you: it is not garbage time, it is your time, use every second of it. He nods like you nodded once, not really believing you yet. So tell me honestly — have you ever been the eighteen, the eighty-fifth minute, or the chant from the bench before anyone let you play? That is the whole ladder. Rank Run POV. The favor, not the sentence. Full circle on a plastic seat. The bench remembers everyone who ever sat on it, including the version of you that is gone now. You remember every kind word said to you on that bench, and you say a few back before you leave it.",
+      "search_terms": [
+        "cartoon pov illustration",
+        "football substitute cartoon"
+      ],
+      "orientation": null,
+      "clips_per_scene": 1,
+      "min_clip_duration": 3.0,
+      "local_media": null,
+      "pexels_video_id": null,
+      "zoom_effect": true
+    }
+  ]
+}
