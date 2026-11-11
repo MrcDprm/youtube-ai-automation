@@ -20,3 +20,5 @@ dist/
 scenarios/processing/
 scenarios/done/
 scenarios/failed/
+# Working scenario; copy it from senaryo.example.json.
+senaryo.json
