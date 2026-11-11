@@ -41,6 +41,9 @@ TICKS_PER_SECOND = 10_000_000
 MIN_VALID_MP3_BYTES = 512
 """Anything smaller is a failed synthesis, not a short sentence."""
 
+HANDSHAKE_REJECTED_STATUS = 403
+"""What Microsoft answers when it no longer accepts the handshake edge-tts sends."""
+
 _EMOJI_PATTERN = re.compile(
     "["
     "\U0001f300-\U0001f5ff"
@@ -236,6 +239,42 @@ def attach_punctuation(spoken: str, cues: list[WordCue]) -> list[WordCue]:
     return attached
 
 
+def _is_rejected_handshake(exc: BaseException) -> bool:
+    """Report whether Microsoft refused the websocket handshake outright.
+
+    edge-tts imitates the Edge browser's handshake. When Microsoft changes what it expects,
+    every request from an outdated edge-tts gets HTTP 403, and no amount of retrying helps.
+    edge-tts already retries a 403 once itself after correcting for clock skew.
+
+    Args:
+        exc: The exception raised during synthesis.
+
+    Returns:
+        ``True`` for an aiohttp response error carrying status 403.
+    """
+    return (
+        type(exc).__module__.startswith("aiohttp")
+        and getattr(exc, "status", None) == HANDSHAKE_REJECTED_STATUS
+    )
+
+
+def _rejected_handshake_error() -> TTSError:
+    """Build the error shown when Microsoft rejects the handshake.
+
+    The original exception text is left out on purpose: it carries the full websocket URL
+    with its client token, which helps nobody reading the message.
+    """
+    installed = getattr(edge_tts, "__version__", "unknown")
+    return TTSError(
+        "Microsoft's Edge TTS service refused the connection (HTTP 403).",
+        hint=(
+            f"edge-tts {installed} is probably out of date: Microsoft changes the handshake "
+            "this library imitates, and older releases stop working. Update it with "
+            "'pip install -U edge-tts'. If it still fails, check that the system clock is right."
+        ),
+    )
+
+
 def _is_retryable_tts_error(exc: BaseException) -> bool:
     """Classify an edge-tts failure as transient.
 
@@ -244,8 +283,11 @@ def _is_retryable_tts_error(exc: BaseException) -> bool:
 
     Returns:
         ``True`` for websocket, network and empty-response failures, which usually succeed on
-        a second attempt against Microsoft's free endpoint.
+        a second attempt against Microsoft's free endpoint. ``False`` for a rejected
+        handshake, which fails the same way on every attempt.
     """
+    if _is_rejected_handshake(exc):
+        return False
     if isinstance(exc, EdgeTTSException | TimeoutError | ConnectionError | OSError):
         return True
     # aiohttp errors surface as their own hierarchy; match by module to avoid a hard import.
@@ -426,6 +468,8 @@ class EdgeTTSEngine(ITTSEngine):
                 ),
             ) from exc
         except Exception as exc:
+            if _is_rejected_handshake(exc):
+                raise _rejected_handshake_error() from exc
             raise TTSError(
                 f"Speech synthesis failed after {self._max_attempts} attempts: {exc}",
                 hint="Check your internet connection and any proxy or firewall rules.",
