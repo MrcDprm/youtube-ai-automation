@@ -270,6 +270,23 @@ class FakeEditor(IVideoEditor):
         out_path.write_bytes(b"story video")
         return out_path
 
+    def build_zenn_story(
+        self,
+        beats: list[Any],
+        frame_paths: list[Path],
+        audio_paths: list[Path],
+        audio_durations: list[float],
+        word_cues: list[WordCue],
+        scenario: Scenario,
+        font_path: Path | None,
+        out_path: Path,
+    ) -> Path:
+        del beats, audio_paths, audio_durations, word_cues, scenario, font_path
+        self.assembled = list(frame_paths)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_bytes(b"zenn video")
+        return out_path
+
 
 class FakeThumbnail(IThumbnailBuilder):
     """Writes a placeholder thumbnail."""
