@@ -277,9 +277,7 @@ def write_studio_pack(
         scenes = scenes[: len(durations)]
     markers = chapter_markers(scenes, durations, gap=scenario.video.scene_gap_seconds)
     brand = brand_for_scenario(scenario)
-    playlist = suggest_playlist(
-        scenario.youtube.title, list(scenario.youtube.tags), brand=brand
-    )
+    playlist = suggest_playlist(scenario.youtube.title, list(scenario.youtube.tags), brand=brand)
     hook = scenario.youtube.thumbnail_hook.strip()
     description = _build_description(scenario, markers, brand=brand)
 

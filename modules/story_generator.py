@@ -259,8 +259,7 @@ class OllamaStoryGenerator:
                     raise ValueError('"title" was empty')
                 if attempt < SCRIPT_MAX_ATTEMPTS and len(narration) < min_chars // 2:
                     raise ValueError(
-                        f"narration was only {len(narration)} characters; "
-                        f"need about {min_chars}"
+                        f"narration was only {len(narration)} characters; need about {min_chars}"
                     )
                 return payload
             except ValueError as exc:

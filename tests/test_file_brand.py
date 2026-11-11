@@ -95,14 +95,16 @@ def test_write_studio_pack_after_hours_file(tmp_path: Path) -> None:
     assert "WENT QUIET" in text
     assert "stick-figure" not in text
     assert (
-        suggest_playlist(scenario.youtube.title, list(scenario.youtube.tags), brand=AFTER_HOURS_FILE)
+        suggest_playlist(
+            scenario.youtube.title, list(scenario.youtube.tags), brand=AFTER_HOURS_FILE
+        )
         == FILE_PLAYLIST
     )
 
 
 def test_active_brand_id_is_after_hours_file() -> None:
     """After Hours File remains a known brand id even when another channel is active."""
-    from modules.brand import AFTER_HOURS_FILE, _BRANDS
+    from modules.brand import _BRANDS, AFTER_HOURS_FILE
 
     assert FILE_BRAND_ID in _BRANDS
     assert _BRANDS[FILE_BRAND_ID] is AFTER_HOURS_FILE

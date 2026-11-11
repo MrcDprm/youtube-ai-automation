@@ -7,7 +7,12 @@ from pathlib import Path
 
 import pytest
 
-from config.constants import CUE_GAP_SECONDS, MAX_CUE_DURATION, MIN_CUE_DURATION, STORY_SUBTITLE_MAX_CHARS
+from config.constants import (
+    CUE_GAP_SECONDS,
+    MAX_CUE_DURATION,
+    MIN_CUE_DURATION,
+    STORY_SUBTITLE_MAX_CHARS,
+)
 from models.scenario import SubtitleSettings
 from modules.interfaces import WordCue
 from modules.subtitle import (

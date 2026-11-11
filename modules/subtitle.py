@@ -529,4 +529,3 @@ def write_ass(cues: list[SubtitleCue], out_path: Path, body: str) -> Path:
         ) from exc
     logger.debug("Wrote %d ASS cue(s) to %s", len(cues), out_path.name)
     return out_path
-

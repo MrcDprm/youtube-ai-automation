@@ -95,9 +95,6 @@ def _close_beat_gaps(beats: list[Beat], scene_end_ms: int) -> list[Beat]:
         return beats
     closed: list[Beat] = []
     for index, beat in enumerate(beats):
-        if index + 1 < len(beats):
-            end_ms = beats[index + 1].start_ms
-        else:
-            end_ms = scene_end_ms
+        end_ms = beats[index + 1].start_ms if index + 1 < len(beats) else scene_end_ms
         closed.append(replace(beat, end_ms=max(beat.end_ms, end_ms)))
     return closed

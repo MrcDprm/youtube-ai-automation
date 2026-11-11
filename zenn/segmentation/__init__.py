@@ -7,6 +7,7 @@ from zenn.segmentation.rules import assign_tags, load_pose_rules, visual_prompt_
 
 __all__ = [
     "Beat",
+    "apply_scene_visuals",
     "assign_tags",
     "cues_to_beats",
     "load_pose_rules",

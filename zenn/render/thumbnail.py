@@ -55,7 +55,10 @@ def build_zenn_thumbnail(
     for row in range(scrim_h):
         alpha = int(210 * (row / max(1, scrim_h)))
         overlay_draw.line(
-            [(0, THUMBNAIL_SIZE[1] - scrim_h + row), (THUMBNAIL_SIZE[0], THUMBNAIL_SIZE[1] - scrim_h + row)],
+            [
+                (0, THUMBNAIL_SIZE[1] - scrim_h + row),
+                (THUMBNAIL_SIZE[0], THUMBNAIL_SIZE[1] - scrim_h + row),
+            ],
             fill=(0, 0, 0, alpha),
         )
     canvas = Image.alpha_composite(canvas.convert("RGBA"), overlay).convert("RGB")

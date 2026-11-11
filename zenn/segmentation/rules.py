@@ -84,8 +84,7 @@ def visual_prompt_for(text: str, pose_tag: str, bg_tag: str) -> str:
     if len(snippet) > 80:
         snippet = snippet[:77].rstrip() + "..."
     return (
-        f"Stick figure, pose {pose_tag}, background {bg_tag}, "
-        f"black white yellow palette. {snippet}"
+        f"Stick figure, pose {pose_tag}, background {bg_tag}, black white yellow palette. {snippet}"
     )
 
 

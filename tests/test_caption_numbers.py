@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
+from models.scenario import SubtitleSettings
 from modules.caption_numbers import display_caption_numbers
 from modules.interfaces import SubtitleCue
 from modules.subtitle import SrtSubtitleBuilder
-from models.scenario import SubtitleSettings
 
 
 def test_years_become_digits() -> None:

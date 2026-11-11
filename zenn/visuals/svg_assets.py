@@ -35,7 +35,8 @@ _POSE_BODIES: dict[str, str] = {
     ),
     "scared": (
         '  <circle cx="160" cy="70" r="28" stroke="#FFFFFF" stroke-width="6"/>\n'
-        '  <circle cx="145" cy="65" r="6" fill="#FFD600"/><circle cx="175" cy="65" r="6" fill="#FFD600"/>\n'
+        '  <circle cx="145" cy="65" r="6" fill="#FFD600"/>'
+        '<circle cx="175" cy="65" r="6" fill="#FFD600"/>\n'
         '  <path d="M145 88 Q160 98 175 88" stroke="#FFD600" stroke-width="4"/>\n'
         '  <line x1="160" y1="98" x2="160" y2="280" stroke="#FFFFFF" stroke-width="6"/>\n'
         '  <line x1="160" y1="140" x2="125" y2="85" stroke="#FFFFFF" stroke-width="6"/>\n'
@@ -131,7 +132,8 @@ _POSE_BODIES: dict[str, str] = {
 
 _BG_BODIES: dict[str, str] = {
     "garage": (
-        '  <rect y="460" width="320" height="100" fill="#111111" stroke="#FFFFFF" stroke-width="3"/>\n'
+        '  <rect y="460" width="320" height="100" fill="#111111" '
+        'stroke="#FFFFFF" stroke-width="3"/>\n'
         '  <rect x="95" y="200" width="130" height="260" stroke="#FFFFFF" stroke-width="4"/>\n'
         '  <rect x="40" y="400" width="70" height="35" rx="8" stroke="#FFD600" stroke-width="4"/>\n'
     ),
@@ -166,8 +168,10 @@ _BG_BODIES: dict[str, str] = {
         '  <line x1="0" y1="100" x2="320" y2="100" stroke="#FFFFFF" stroke-width="2"/>\n'
     ),
     "cave": (
-        '  <path d="M0 460 L0 280 Q160 180 320 280 L320 460 Z" stroke="#FFFFFF" stroke-width="4"/>\n'
-        '  <ellipse cx="240" cy="410" rx="28" ry="22" fill="#FFD600" stroke="#FFFFFF" stroke-width="2"/>\n'
+        '  <path d="M0 460 L0 280 Q160 180 320 280 L320 460 Z" '
+        'stroke="#FFFFFF" stroke-width="4"/>\n'
+        '  <ellipse cx="240" cy="410" rx="28" ry="22" fill="#FFD600" '
+        'stroke="#FFFFFF" stroke-width="2"/>\n'
         '  <polygon points="240,360 228,400 252,400" fill="#FFD600"/>\n'
     ),
 }
