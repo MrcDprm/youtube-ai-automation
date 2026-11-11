@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 from config.constants import (
+    BRAND_BADLY_DRAWN_WHY,
     EVERY_LEVEL_POV_BRAND_ID,
     POV_CATEGORY_ID,
     POV_CHANNEL_NAME,
@@ -122,9 +123,19 @@ def test_studio_pack_uses_pov_channel(tmp_path: Path) -> None:
     ) == POV_PLAYLIST
 
 
-def test_active_brand_id_is_every_level_pov() -> None:
+def test_active_brand_id_reads_brands_active_json(tmp_path: Path) -> None:
+    """``brands/active.json`` selects the brand it names."""
     from modules.brand import _BRANDS
 
-    brand_id = load_active_brand_id()
+    brands = tmp_path / "brands"
+    brands.mkdir()
+    (brands / "active.json").write_text('{"id": "every-level-pov"}', encoding="utf-8")
+
+    brand_id = load_active_brand_id(tmp_path)
     assert brand_id == EVERY_LEVEL_POV_BRAND_ID
     assert brand_id in _BRANDS
+
+
+def test_active_brand_id_defaults_when_file_missing(tmp_path: Path) -> None:
+    """Without ``brands/active.json`` the default brand is used instead of crashing."""
+    assert load_active_brand_id(tmp_path) == BRAND_BADLY_DRAWN_WHY

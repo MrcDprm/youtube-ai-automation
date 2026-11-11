@@ -2,9 +2,11 @@
 
 from __future__ import annotations
 
+import json
 from datetime import UTC, datetime
 from pathlib import Path
 
+import pytest
 import requests_mock as rm
 
 from config.constants import PAINT_MAX_BEATS, PAINT_STILL_SECONDS, paint_beat_count
@@ -333,11 +335,19 @@ def test_paint_generator_asks_chapters_then_beats(requests_mock: rm.Mocker) -> N
     assert "COLD OPEN" in requests_mock.request_history[0].json()["messages"][0]["content"]
 
 
-def test_topics_paint_lists_the_bank() -> None:
+def test_topics_paint_lists_the_bank(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     """``topics --paint`` prints the Badly Drawn Why idea list."""
     from typer.testing import CliRunner
 
+    from config.settings import get_settings
     from main import app
+
+    scenarios = tmp_path / "scenarios"
+    scenarios.mkdir()
+    topics = {"topics": [{"topic": "Why Your Ancestors Slept Twice Every Night", "language": "en"}]}
+    (scenarios / "topics-paint.json").write_text(json.dumps(topics), encoding="utf-8")
+    monkeypatch.setenv("SCENARIOS_DIR", str(scenarios))
+    get_settings.cache_clear()
 
     result = CliRunner().invoke(app, ["topics", "--paint"])
     assert result.exit_code == 0, result.output
