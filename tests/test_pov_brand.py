@@ -118,9 +118,10 @@ def test_studio_pack_uses_pov_channel(tmp_path: Path) -> None:
     text = path.read_text(encoding="utf-8")
     assert POV_CHANNEL_NAME in text
     assert "cartoon POV illustrations + TTS" in text
-    assert suggest_playlist(
-        scenario.youtube.title, list(scenario.youtube.tags), brand=EVERY_LEVEL_POV
-    ) == POV_PLAYLIST
+    assert (
+        suggest_playlist(scenario.youtube.title, list(scenario.youtube.tags), brand=EVERY_LEVEL_POV)
+        == POV_PLAYLIST
+    )
 
 
 def test_active_brand_id_reads_brands_active_json(tmp_path: Path) -> None:

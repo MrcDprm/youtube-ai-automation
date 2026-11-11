@@ -101,8 +101,12 @@ def test_build_paint_scenario_defaults_to_legacy_paint_for_bdw() -> None:
             DraftScene(narration="The moon disagrees.", search_terms=("moon",)),
         ),
         visual_beats=(
-            DraftVisualBeat(slug="0000-seven", prompt="Seven boxes, MS Paint.", covers="Seven days."),
-            DraftVisualBeat(slug="0005-moon", prompt="Moon phases, MS Paint.", covers="Moon phases."),
+            DraftVisualBeat(
+                slug="0000-seven", prompt="Seven boxes, MS Paint.", covers="Seven days."
+            ),
+            DraftVisualBeat(
+                slug="0005-moon", prompt="Moon phases, MS Paint.", covers="Moon phases."
+            ),
         ),
         thumbnail_hook="SEVEN DAYS?",
     )

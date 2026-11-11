@@ -368,9 +368,7 @@ class PixabayPhotoProvider(IMediaProvider):
 
     def _get_once(self, params: dict[str, Any]) -> requests.Response:
         """Perform one GET and surface retryable statuses as exceptions."""
-        response = self._session.get(
-            PIXABAY_PHOTO_SEARCH_URL, params=params, timeout=self._timeout
-        )
+        response = self._session.get(PIXABAY_PHOTO_SEARCH_URL, params=params, timeout=self._timeout)
         response.raise_for_status()
         return response
 

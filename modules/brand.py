@@ -1,4 +1,7 @@
-"""Active YouTube brand profile (Badly Drawn Why, After Hours File, Drawn Anyway, Every Level POV)."""
+"""Active YouTube brand profiles.
+
+Badly Drawn Why, After Hours File, Drawn Anyway and Every Level POV.
+"""
 
 from __future__ import annotations
 
@@ -62,9 +65,7 @@ class BrandProfile:
     @property
     def category_label(self) -> str:
         """Human Studio checklist label such as ``Education (27)``."""
-        return YOUTUBE_CATEGORY_LABELS.get(
-            self.category_id, f"Category ({self.category_id})"
-        )
+        return YOUTUBE_CATEGORY_LABELS.get(self.category_id, f"Category ({self.category_id})")
 
 
 BADLY_DRAWN_WHY: BrandProfile = BrandProfile(

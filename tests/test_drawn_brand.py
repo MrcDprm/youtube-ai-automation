@@ -8,11 +8,11 @@ from config.constants import (
     DRAWN_BRAND_ID,
     DRAWN_CATEGORY_ID,
     DRAWN_CHANNEL_NAME,
+    DRAWN_MAX_BEATS,
     DRAWN_PLAYLIST,
     DRAWN_TTS_RATE,
     DRAWN_TTS_VOICE,
     DRAWN_ZOOM_END,
-    DRAWN_MAX_BEATS,
     drawn_beat_count,
 )
 from modules.brand import DRAWN_ANYWAY, brand_for_scenario, load_active_brand_id
@@ -24,16 +24,24 @@ from modules.studio_pack import suggest_playlist, write_studio_pack
 def _drawn_draft() -> DraftScript:
     return DraftScript(
         title="The Army That Lost to Emus",
-        description="Australia sent three soldiers and two machine guns after birds. The birds ran.",
+        description=(
+            "Australia sent three soldiers and two machine guns after birds. The birds ran."
+        ),
         tags=("history", "emu", "cartoon", "australia", "true story"),
         scenes=(
-            DraftScene(narration="The army brought a machine gun to a bird problem.", search_terms=("cartoon illustration",)),
+            DraftScene(
+                narration="The army brought a machine gun to a bird problem.",
+                search_terms=("cartoon illustration",),
+            ),
             DraftScene(narration="The birds did not line up.", search_terms=("storytime cartoon",)),
         ),
         visual_beats=(
             DraftVisualBeat(
                 slug="army-gun",
-                prompt="Cartoon soldiers staring at a giant emu, cream paper, mustard jacket mascot in corner.",
+                prompt=(
+                    "Cartoon soldiers staring at a giant emu, cream paper, "
+                    "mustard jacket mascot in corner."
+                ),
                 covers="The army brought a machine gun to a bird problem.",
             ),
             DraftVisualBeat(

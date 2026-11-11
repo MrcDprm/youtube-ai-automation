@@ -281,8 +281,7 @@ def ken_burns_zoompan_filter(
     count = max(1, int(frames))
     denom = max(count - 1, 1)
     zoom_expr = (
-        f"min({start_scale:.6f}+({end_scale:.6f}-{start_scale:.6f})*on/{denom},"
-        f"{end_scale:.6f})"
+        f"min({start_scale:.6f}+({end_scale:.6f}-{start_scale:.6f})*on/{denom},{end_scale:.6f})"
     )
     factor = max(2, int(upscale))
     wide = width * factor

@@ -56,7 +56,8 @@ def assign_tags(
         Pose tag and background tag.
     """
     table = dict(rules) if rules is not None else load_pose_rules()
-    defaults = table.get("defaults") if isinstance(table.get("defaults"), Mapping) else {}
+    raw_defaults = table.get("defaults")
+    defaults: Mapping[str, Any] = raw_defaults if isinstance(raw_defaults, Mapping) else {}
     pose_default = str(defaults.get("pose", _DEFAULT_POSE))
     bg_default = str(defaults.get("bg", _DEFAULT_BG))
 
@@ -83,8 +84,7 @@ def visual_prompt_for(text: str, pose_tag: str, bg_tag: str) -> str:
     if len(snippet) > 80:
         snippet = snippet[:77].rstrip() + "..."
     return (
-        f"Stick figure, pose {pose_tag}, background {bg_tag}, "
-        f"black white yellow palette. {snippet}"
+        f"Stick figure, pose {pose_tag}, background {bg_tag}, black white yellow palette. {snippet}"
     )
 
 
