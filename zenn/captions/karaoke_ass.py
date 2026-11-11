@@ -7,6 +7,7 @@ from pathlib import Path
 from modules.interfaces import WordCue
 from modules.subtitle import SubtitleError, ass_colour, format_ass_timestamp
 from utils.fs import atomic_write_text
+from utils.text import upper_text
 
 __all__ = ["word_cues_to_karaoke_ass", "write_karaoke_ass"]
 
@@ -26,6 +27,8 @@ def word_cues_to_karaoke_ass(
     outline: int = 4,
     max_chars_per_line: int = 32,
     max_lines: int = 2,
+    uppercase: bool = False,
+    language: str | None = None,
 ) -> str:
     """Build ASS with ``\\k`` tags so the active word highlights in yellow.
 
@@ -41,6 +44,8 @@ def word_cues_to_karaoke_ass(
         outline: Outline width.
         max_chars_per_line: Soft wrap budget per displayed line.
         max_lines: Maximum lines per dialogue event.
+        uppercase: Show every word in capitals, as the subtitle settings ask.
+        language: The narration's language code, so capitals follow its casing rules.
 
     Returns:
         Full ASS file contents.
@@ -71,7 +76,7 @@ def word_cues_to_karaoke_ass(
             continue
         start = group[0].start
         end = group[-1].end
-        text = _karaoke_text(group)
+        text = _karaoke_text(group, uppercase=uppercase, language=language)
         lines.append(
             "Dialogue: 0,"
             f"{format_ass_timestamp(start)},{format_ass_timestamp(end)},"
@@ -92,11 +97,17 @@ def write_karaoke_ass(word_cues: list[WordCue], out_path: Path, body: str) -> Pa
     return out_path
 
 
-def _karaoke_text(words: list[WordCue]) -> str:
+def _karaoke_text(
+    words: list[WordCue],
+    *,
+    uppercase: bool = False,
+    language: str | None = None,
+) -> str:
     parts: list[str] = []
     for index, word in enumerate(words):
         duration_cs = max(1, int(round(word.duration * 100.0)))
-        token = word.text.replace("{", r"\{").replace("}", r"\}")
+        shown = upper_text(word.text, language) if uppercase else word.text
+        token = shown.replace("{", r"\{").replace("}", r"\}")
         prefix = "" if index == 0 else " "
         parts.append(f"{prefix}{{\\k{duration_cs}}}{token}")
     return "".join(parts)

@@ -237,6 +237,19 @@ def test_uppercase_setting_is_applied() -> None:
     assert cues[0].text == "MERHABA"
 
 
+def test_uppercase_follows_turkish_casing() -> None:
+    """Turkish narration keeps the dot on the capital İ and the dotless ı stays dotless."""
+    words = _words(("iyi", 0.0, 0.4), ("bir", 0.4, 0.8), ("ışık.", 0.8, 1.2))
+    cues = SrtSubtitleBuilder().build(words, _settings(uppercase=True), language="tr")
+    assert cues[0].text == "İYİ BİR IŞIK."
+
+
+def test_uppercase_without_language_keeps_the_unicode_default() -> None:
+    """Callers that pass no language keep the old behaviour."""
+    cues = SrtSubtitleBuilder().build(_words(("iyi", 0.0, 0.5)), _settings(uppercase=True))
+    assert cues[0].text == "IYI"
+
+
 # --------------------------------------------------------------------------------------
 # Duration fallback
 # --------------------------------------------------------------------------------------
@@ -257,6 +270,14 @@ def test_build_from_duration_handles_degenerate_input() -> None:
     """Empty text or zero duration produces no cues rather than raising."""
     assert SrtSubtitleBuilder().build_from_duration("", 5.0, _settings()) == []
     assert SrtSubtitleBuilder().build_from_duration("bir", 0.0, _settings()) == []
+
+
+def test_build_from_duration_passes_the_language_through() -> None:
+    """The duration fallback uppercases with the same casing rules as the main path."""
+    cues = SrtSubtitleBuilder().build_from_duration(
+        "gizli detay", 1.0, _settings(uppercase=True), language="tr"
+    )
+    assert cues[0].text == "GİZLİ DETAY"
 
 
 # --------------------------------------------------------------------------------------

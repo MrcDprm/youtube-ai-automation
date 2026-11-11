@@ -9,6 +9,7 @@ import pytest
 from models.scenario import Scene
 from modules.interfaces import TTSResult, WordCue
 from zenn.captions.karaoke_ass import word_cues_to_karaoke_ass
+from zenn.render.thumbnail import _hook_text
 from zenn.render.timeline import collect_word_cues, story_beats
 from zenn.visuals import BACKGROUND_TAGS, POSE_TAGS, compose_frame
 from zenn.visuals.svg_assets import write_svg_assets
@@ -59,6 +60,41 @@ def test_karaoke_ass_uses_k_tags() -> None:
     assert "{\\k50}Hello" in body
     assert "{\\k50}world." in body
     assert "SecondaryColour" in body
+
+
+def test_karaoke_uppercase_follows_turkish_casing() -> None:
+    """Karaoke honours the uppercase setting with the narration's casing rules."""
+    cues = [
+        WordCue(text="gizli", start=0.0, end=0.5),
+        WordCue(text="ışık.", start=0.5, end=1.0),
+    ]
+    body = word_cues_to_karaoke_ass(
+        cues,
+        play_res_x=1080,
+        play_res_y=1920,
+        font_name="Arial",
+        font_size=60,
+        uppercase=True,
+        language="tr",
+    )
+    assert "{\\k50}GİZLİ" in body
+    assert "{\\k50}IŞIK." in body
+
+
+def test_karaoke_keeps_the_spoken_case_by_default() -> None:
+    """Without the uppercase setting the words appear as they were spoken."""
+    cues = [WordCue(text="gizli", start=0.0, end=0.5)]
+    body = word_cues_to_karaoke_ass(
+        cues, play_res_x=1080, play_res_y=1920, font_name="Arial", font_size=60
+    )
+    assert "{\\k50}gizli" in body
+
+
+def test_zenn_hook_uses_the_language_casing() -> None:
+    """Thumbnail hooks collapse spaces and capitalise with the hook's language."""
+    assert _hook_text("  gizli   ışık? ", "tr") == "GİZLİ IŞIK?"
+    assert _hook_text("why light?", "en") == "WHY LIGHT?"
+    assert _hook_text("   ", "tr") == ""
 
 
 def test_story_beats_insert_gap_hold() -> None:

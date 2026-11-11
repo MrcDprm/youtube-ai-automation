@@ -578,6 +578,8 @@ class MoviePyEditor(IVideoEditor):
                     outline=scenario.subtitles.stroke_width,
                     max_chars_per_line=scenario.subtitles.max_chars_per_line,
                     max_lines=scenario.subtitles.max_lines,
+                    uppercase=scenario.subtitles.uppercase,
+                    language=scenario.youtube.default_language,
                 )
                 write_karaoke_ass(word_cues, ass_path, body)
             else:
@@ -688,6 +690,8 @@ class MoviePyEditor(IVideoEditor):
                 outline=scenario.subtitles.stroke_width,
                 max_chars_per_line=scenario.subtitles.max_chars_per_line,
                 max_lines=scenario.subtitles.max_lines,
+                uppercase=scenario.subtitles.uppercase,
+                language=scenario.youtube.default_language,
             )
             write_karaoke_ass(word_cues, ass_path, body)
             vf = [self._ass_filter(ass_path, font_path.parent)]
