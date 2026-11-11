@@ -656,6 +656,63 @@ def test_scene_plan_carries_resolved_inputs(settings: Settings) -> None:
     assert plan.total_duration == pytest.approx(plan.audio_duration + plan.scene_gap_seconds)
 
 
+def test_scene_files_differ_when_the_content_differs(settings: Settings) -> None:
+    """Two different videos never share a rendered scene file.
+
+    The editor reuses a scene file that already exists, so a path built from the scene id
+    alone would splice the previous video's scenes, narration included, into the next one.
+    """
+    first, first_fakes = _pipeline(settings)
+    first.run()
+    other = _scenario(
+        project_id="wiring-other",
+        scenes=[
+            {"id": 1, "narration": "Tamamen farklı bir cümle.", "search_terms": ["ocean"]},
+            {"id": 2, "narration": "Bu da başka bir sahne.", "search_terms": ["forest"]},
+        ],
+    )
+    second, second_fakes = _pipeline(settings, other)
+    second.run()
+
+    first_paths = {plan.output_path for plan in first_fakes["editor"].plans}
+    second_paths = {plan.output_path for plan in second_fakes["editor"].plans}
+    assert first_paths.isdisjoint(second_paths)
+
+
+def test_scene_files_are_stable_for_unchanged_content(settings: Settings) -> None:
+    """Re-running the same scenario points at the same scene files, so a render resumes."""
+    first, first_fakes = _pipeline(settings)
+    first.run()
+    again, again_fakes = _pipeline(settings)
+    again.run()
+
+    first_paths = [plan.output_path for plan in first_fakes["editor"].plans]
+    again_paths = [plan.output_path for plan in again_fakes["editor"].plans]
+    assert first_paths == again_paths
+
+
+def test_scene_files_change_when_only_the_footage_changes(
+    settings: Settings, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Clip file names repeat between videos, so footage is fingerprinted by content."""
+    first, first_fakes = _pipeline(settings)
+    first.run()
+
+    def other_footage(self: FakeProvider, candidate: MediaCandidate, dest: Path) -> Path:
+        del self, candidate
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes(b"different footage")
+        return dest
+
+    monkeypatch.setattr(FakeProvider, "download", other_footage)
+    again, again_fakes = _pipeline(settings)
+    again.run()
+
+    first_paths = {plan.output_path for plan in first_fakes["editor"].plans}
+    again_paths = {plan.output_path for plan in again_fakes["editor"].plans}
+    assert first_paths.isdisjoint(again_paths)
+
+
 def test_manifest_records_no_secrets(settings: Settings) -> None:
     """The manifest holds paths and credits, never credentials."""
     pipeline, _ = _pipeline(settings)

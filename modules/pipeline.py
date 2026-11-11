@@ -51,7 +51,9 @@ from modules.studio_pack import (
 )
 from utils.exceptions import MediaNotFoundError, PipelineError, RenderError
 from utils.fs import (
+    file_sha256,
     format_bytes,
+    hash_payload,
     human_duration,
     resolve_font,
     write_json,
@@ -808,20 +810,57 @@ class VideoPipeline:
             A fully resolved :class:`ScenePlan`.
         """
         result = self._tts_results[scene.id]
+        media_paths = self._scene_media[scene.id]
+        cues = self._scene_cues.get(scene.id, [])
+        key = self._scene_render_key(scene, result, media_paths, cues)
         return ScenePlan(
             scene=scene,
             audio_path=result.audio_path,
             audio_duration=result.duration,
-            media_paths=self._scene_media[scene.id],
-            subtitle_cues=self._scene_cues.get(scene.id, []),
+            media_paths=media_paths,
+            subtitle_cues=cues,
             target_resolution=self._scenario.video.resolution,
             fps=self._scenario.video.fps,
             scene_gap_seconds=self._scenario.video.scene_gap_seconds,
             subtitles=self._scenario.subtitles,
             font_path=self._font_path,
-            output_path=self._settings.scenes_dir() / f"scene_{scene.id:03d}.mp4",
+            output_path=self._settings.scenes_dir() / f"scene_{scene.id:03d}_{key}.mp4",
             credits=list(self._credits),
         )
+
+    def _scene_render_key(
+        self,
+        scene: Scene,
+        result: TTSResult,
+        media_paths: list[Path],
+        cues: list[SubtitleCue],
+    ) -> str:
+        """Fingerprint every input that changes a rendered scene.
+
+        The editor reuses a scene file that already exists, so the file name has to change
+        whenever the narration, footage, captions or video settings do. Audio and footage
+        are hashed by content, because their file names repeat from one video to the next.
+
+        Args:
+            scene: The scene being planned.
+            result: The scene's synthesis result.
+            media_paths: The scene's source clips.
+            cues: The scene's subtitle cues.
+
+        Returns:
+            A short hex digest for the scene file name.
+        """
+        return hash_payload(
+            "scene-v1",
+            scene.model_dump(mode="json"),
+            self._scenario.tts.model_dump(mode="json"),
+            self._scenario.video.model_dump(mode="json"),
+            self._scenario.subtitles.model_dump(mode="json"),
+            file_sha256(result.audio_path),
+            [file_sha256(path) for path in media_paths],
+            [(cue.start, cue.end, cue.text, cue.color) for cue in cues],
+            str(self._font_path) if self._font_path is not None else None,
+        )[:16]
 
     def _stage_assemble(self) -> Path:
         """Concatenate the scenes into the finished video.
