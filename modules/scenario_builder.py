@@ -655,7 +655,7 @@ def build_paint_scenario(
             "default_language": pack.youtube_language,
             "thumbnail_enabled": True,
             "thumbnail_hook": hook,
-            **({"brand_id": brand_id or resolved_brand} if (brand_id or zenn) else {}),
+            "brand_id": resolved_brand,
         },
         "scenes": scenes,
     }
