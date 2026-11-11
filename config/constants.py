@@ -532,6 +532,10 @@ SYSTEM_FONT_PREFERENCES: Final[tuple[str, ...]] = (
 MIN_PYTHON_VERSION: Final[tuple[int, int]] = (3, 10)
 MIN_FREE_DISK_BYTES: Final[int] = 2 * 1024 * 1024 * 1024
 
+EDGE_TTS_MIN_VERSION: Final[tuple[int, int, int]] = (7, 3, 1)
+"""edge-tts imitates the Edge browser's handshake, and Microsoft changes what it accepts.
+In November 2026 edge-tts 7.2.8 got HTTP 403 on every request while 7.3.1 worked."""
+
 OUTPUT_SUBDIRECTORIES: Final[tuple[str, ...]] = (
     "audio",
     "clips",

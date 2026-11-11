@@ -11,7 +11,9 @@ import cycle.
 
 from __future__ import annotations
 
+import importlib.metadata
 import os
+import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -20,6 +22,7 @@ from typing import TYPE_CHECKING
 import requests
 
 from config.constants import (
+    EDGE_TTS_MIN_VERSION,
     MIN_FREE_DISK_BYTES,
     MIN_PYTHON_VERSION,
     OLLAMA_TAGS_PATH,
@@ -99,6 +102,44 @@ def _check_ffmpeg() -> CheckResult:
             None
             if exists
             else "Reinstall imageio-ffmpeg: pip install --force-reinstall imageio-ffmpeg"
+        ),
+    )
+
+
+def _installed_edge_tts() -> str | None:
+    """Return the installed edge-tts version string, or ``None`` when it is missing."""
+    try:
+        return importlib.metadata.version("edge-tts")
+    except importlib.metadata.PackageNotFoundError:
+        return None
+
+
+def _version_tuple(text: str) -> tuple[int, ...]:
+    """Turn ``"7.3.1"`` or ``"7.3.1rc1"`` into ``(7, 3, 1)`` so versions compare as numbers."""
+    return tuple(int(part) for part in re.findall(r"\d+", text)[:3])
+
+
+def _check_edge_tts() -> CheckResult:
+    """Verify edge-tts is new enough for the handshake Microsoft currently accepts."""
+    name = "edge-tts"
+    installed = _installed_edge_tts()
+    if installed is None:
+        return CheckResult(
+            name=name,
+            passed=False,
+            detail="not installed",
+            hint="Install the dependencies: pip install -r requirements.txt",
+        )
+    minimum = ".".join(str(part) for part in EDGE_TTS_MIN_VERSION)
+    current = _version_tuple(installed) >= EDGE_TTS_MIN_VERSION
+    return CheckResult(
+        name=name,
+        passed=current,
+        detail=installed if current else f"{installed}, need {minimum} or newer",
+        hint=(
+            None
+            if current
+            else "Older releases get HTTP 403 from Microsoft. Run: pip install -U edge-tts"
         ),
     )
 
@@ -366,6 +407,7 @@ def run_all_checks(settings: Settings) -> list[CheckResult]:
     return [
         _check_python_version(),
         _check_ffmpeg(),
+        _check_edge_tts(),
         _check_writable_project_root(),
         _check_env_file(),
         _check_pexels_key(settings),
