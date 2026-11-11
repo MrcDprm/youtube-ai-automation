@@ -30,6 +30,7 @@ from modules.scenario_builder import slugify
 from modules.script_generator import OllamaScriptGenerator, extract_json_object
 from utils.exceptions import ScriptGenerationError
 from utils.logger import get_logger, log_info, log_warn
+from utils.text import upper_text
 
 __all__ = ["OllamaPaintGenerator"]
 
@@ -208,7 +209,7 @@ class OllamaPaintGenerator:
                     :YOUTUBE_DESCRIPTION_MAX_CHARS
                 ]
                 tags = self._inner._clean_tags(payload.get("tags"))
-                thumbnail_hook = _clean_hook(str(payload.get("thumbnail_hook", "")))
+                thumbnail_hook = _clean_hook(str(payload.get("thumbnail_hook", "")), language)
             if estimated >= target_seconds:
                 break
 
@@ -404,13 +405,17 @@ def _strip_banned(text: str) -> str:
     return " ".join(kept).strip() or text
 
 
-def _clean_hook(raw: str) -> str:
-    """Keep a short ALL CAPS cover line."""
-    cleaned = re.sub(r"[^A-Za-z0-9 ?!'/-]+", " ", raw).strip()
+def _clean_hook(raw: str, language: str | None = None) -> str:
+    """Keep a short ALL CAPS cover line.
+
+    Letters of any alphabet survive, so a Turkish hook keeps its ç, ğ, ı, ö, ş and ü, and
+    the capitals follow the hook's language.
+    """
+    cleaned = re.sub(r"[^\w ?!'/-]+|_+", " ", raw).strip()
     words = cleaned.split()
     if len(words) < 2:
         return ""
-    return " ".join(words[:4]).upper()[:40]
+    return upper_text(" ".join(words[:4]), language)[:40]
 
 
 def _beats_from_narration(text: str, target: int | None = None) -> tuple[DraftVisualBeat, ...]:

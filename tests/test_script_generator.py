@@ -308,6 +308,17 @@ def test_tags_are_lowercased_and_deduplicated(requests_mock: rm.Mocker) -> None:
     assert _generator().generate("konu", scene_count=1).tags == ("ai", "bilim")
 
 
+def test_tags_lowercase_the_turkish_dotted_capital_cleanly(requests_mock: rm.Mocker) -> None:
+    """İ becomes a plain i with no combining dot, and English acronyms stay as before."""
+    tags_in = ["İstanbul", "GTA İpuçları", "AI"]
+    requests_mock.post(CHAT_URL, json=_reply(_script(1, tags=tags_in)))
+
+    tags = _generator().generate("konu", scene_count=1).tags
+
+    assert tags == ("istanbul", "gta ipuçları", "ai")
+    assert all(chr(0x0307) not in tag for tag in tags)
+
+
 def test_tag_budget_is_respected(requests_mock: rm.Mocker) -> None:
     """The combined tag length must stay inside YouTube's limit."""
     bloated = [f"etiket{n}" * 8 for n in range(40)]

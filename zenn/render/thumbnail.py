@@ -9,6 +9,7 @@ from PIL import Image, ImageDraw, ImageFont
 from config.constants import THUMBNAIL_JPEG_QUALITY, THUMBNAIL_SIZE, YOUTUBE_THUMBNAIL_MAX_BYTES
 from utils.exceptions import RenderError
 from utils.fs import ensure_parent, format_bytes
+from utils.text import upper_text
 from zenn.visuals.compose import compose_frame
 from zenn.visuals.palette import load_palette
 
@@ -23,6 +24,7 @@ def build_zenn_thumbnail(
     *,
     font_path: Path | None = None,
     font_size: int = 96,
+    language: str | None = None,
 ) -> Path:
     """Create a 1280x720 JPEG: stick figure preview + yellow hook on black.
 
@@ -31,6 +33,7 @@ def build_zenn_thumbnail(
         out_path: Destination ``.jpg`` path.
         font_path: Optional bold font; Pillow default when omitted.
         font_size: Starting hook size; shrunk to fit.
+        language: The hook's language code, so capitals follow its casing rules.
 
     Returns:
         The written JPEG path.
@@ -38,11 +41,9 @@ def build_zenn_thumbnail(
     Raises:
         RenderError: If the hook is empty or encoding fails.
     """
-    text = " ".join(hook.strip().upper().split())
+    text = _hook_text(hook, language)
     if not text:
         raise RenderError("Zenn thumbnail needs a non-empty hook.")
-    if len(text) > HOOK_MAX_CHARS:
-        text = text[: HOOK_MAX_CHARS - 1].rstrip() + "…"
 
     palette = load_palette()
     preview = compose_frame("standing", "blank", width=1920, height=1080, palette=palette)
@@ -103,6 +104,22 @@ def build_zenn_thumbnail(
             f"Zenn thumbnail still exceeds YouTube limit ({format_bytes(out_path.stat().st_size)})."
         )
     return out_path
+
+
+def _hook_text(hook: str, language: str | None) -> str:
+    """Capitalise a hook, collapse its spaces and cut it to ``HOOK_MAX_CHARS``.
+
+    Args:
+        hook: The raw hook text.
+        language: The hook's language code, so capitals follow its casing rules.
+
+    Returns:
+        One display line, empty when the hook has no visible text.
+    """
+    text = " ".join(upper_text(hook.strip(), language).split())
+    if len(text) > HOOK_MAX_CHARS:
+        text = text[: HOOK_MAX_CHARS - 1].rstrip() + "…"
+    return text
 
 
 def _load_font(font_path: Path | None, size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:

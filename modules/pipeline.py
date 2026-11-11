@@ -466,7 +466,12 @@ class VideoPipeline:
         Returns:
             Cues relative to the scene's own timeline.
         """
-        return self._subtitles.build(result.word_cues, self._scenario.subtitles, 0.0)
+        return self._subtitles.build(
+            result.word_cues,
+            self._scenario.subtitles,
+            0.0,
+            language=self._scenario.youtube.default_language,
+        )
 
     @staticmethod
     def _merge_cues(groups: list[list[SubtitleCue]]) -> list[SubtitleCue]:
@@ -873,6 +878,7 @@ class VideoPipeline:
                                 hook,
                                 out_path,
                                 font_path=self._font_path,
+                                language=self._scenario.youtube.default_language,
                             )
                         except RenderError as exc:
                             log_warn(

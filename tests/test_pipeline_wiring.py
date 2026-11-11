@@ -621,6 +621,19 @@ def test_subtitle_sidecar_covers_the_whole_video(settings: Settings) -> None:
     assert text.strip().split("\n")[0] == "1"
 
 
+def test_uppercase_subtitles_follow_the_scenario_language(settings: Settings) -> None:
+    """The pipeline hands the scenario's language to the subtitle builder."""
+    scenario = _scenario(
+        subtitles={"enabled": True, "burn_in": False, "uppercase": True},
+        youtube={"title": "Wiring Test", "upload_enabled": False, "default_language": "tr"},
+    )
+    pipeline, _ = _pipeline(settings, scenario)
+    pipeline.run()
+
+    assert pipeline.subtitle_path is not None
+    assert "BİRİNCİ SAHNE METNİ." in pipeline.subtitle_path.read_text(encoding="utf-8")
+
+
 def test_stage_timings_are_recorded(settings: Settings) -> None:
     """Each completed stage records its wall time."""
     pipeline, _ = _pipeline(settings)

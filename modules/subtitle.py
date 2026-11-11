@@ -26,6 +26,7 @@ from modules.interfaces import ISubtitleBuilder, SubtitleCue, WordCue
 from utils.exceptions import SubtitleError
 from utils.fs import atomic_write_text
 from utils.logger import get_logger
+from utils.text import upper_text
 
 __all__ = [
     "SrtSubtitleBuilder",
@@ -161,6 +162,8 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
         cues: list[WordCue],
         settings: SubtitleSettings,
         offset: float = 0.0,
+        *,
+        language: str | None = None,
     ) -> list[SubtitleCue]:
         """Group word cues into displayable subtitle cues.
 
@@ -172,6 +175,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
             settings: Line-length, casing and layout constraints.
             offset: Seconds added to every timestamp, used to place a scene's cues onto the
                 whole-video timeline.
+            language: The narration's language code, used when ``settings.uppercase`` is on.
 
         Returns:
             Cues with monotonic, non-overlapping timestamps, numbered from 1.
@@ -181,7 +185,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
 
         ordered = sorted(cues, key=lambda cue: cue.start)
         groups = self._group_words(ordered, settings)
-        built = self._materialize(groups, settings, offset)
+        built = self._materialize(groups, settings, offset, language)
         return self._enforce_timing(built)
 
     def build_from_duration(
@@ -190,6 +194,8 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
         duration: float,
         settings: SubtitleSettings,
         offset: float = 0.0,
+        *,
+        language: str | None = None,
     ) -> list[SubtitleCue]:
         """Build cues by distributing text evenly across a known duration.
 
@@ -202,6 +208,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
             duration: Measured audio duration in seconds.
             settings: Line-length and layout constraints.
             offset: Seconds added to every timestamp.
+            language: The narration's language code, used when ``settings.uppercase`` is on.
 
         Returns:
             Evenly distributed cues, or an empty list when there is nothing to show.
@@ -218,7 +225,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
             synthetic.append(WordCue(text=word, start=cursor, end=cursor + share))
             cursor += share
 
-        return self.build(synthetic, settings, offset)
+        return self.build(synthetic, settings, offset, language=language)
 
     def write_srt(self, cues: list[SubtitleCue], out_path: Path) -> Path:
         """Write cues to a UTF-8 SRT file with no byte-order mark.
@@ -345,6 +352,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
         groups: list[list[WordCue]],
         settings: SubtitleSettings,
         offset: float,
+        language: str | None = None,
     ) -> list[SubtitleCue]:
         """Turn word groups into wrapped, offset subtitle cues.
 
@@ -352,6 +360,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
             groups: Word groups from :meth:`_group_words`.
             settings: Layout and casing settings.
             offset: Seconds added to every timestamp.
+            language: The narration's language code, so uppercase follows its casing rules.
 
         Returns:
             Cues numbered from 1, before timing normalization.
@@ -363,7 +372,7 @@ class SrtSubtitleBuilder(ISubtitleBuilder):
             words = [word.text for word in group]
             text = wrap_words(words, settings.max_chars_per_line, settings.max_lines)
             if settings.uppercase:
-                text = text.upper()
+                text = upper_text(text, language)
             cues.append(
                 SubtitleCue(
                     index=index,

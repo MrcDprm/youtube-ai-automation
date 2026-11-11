@@ -588,7 +588,10 @@ class OllamaScriptGenerator(IScriptGenerator):
         tags: list[str] = []
         budget = 0
         for item in raw:
-            tag = cls._collapse(_MARKDOWN_CHARS.sub("", str(item))).lower()
+            # "İ".lower() is "i" plus a combining dot, which renders oddly and costs two
+            # characters of the tag budget. Full Turkish lowercasing is not used because tags
+            # are often English brands and acronyms (AI, Instagram) that would gain a dotless ı.
+            tag = cls._collapse(_MARKDOWN_CHARS.sub("", str(item))).replace("İ", "i").lower()
             if not tag or tag in seen:
                 continue
             # Mirrors the scenario validator's accounting so a generated file never trips it.

@@ -528,6 +528,8 @@ class ISubtitleBuilder(ABC):
         cues: list[WordCue],
         settings: SubtitleSettings,
         offset: float = 0.0,
+        *,
+        language: str | None = None,
     ) -> list[SubtitleCue]:
         """Group word cues into subtitle cues.
 
@@ -536,6 +538,8 @@ class ISubtitleBuilder(ABC):
             settings: Line-length and layout constraints.
             offset: Seconds to add to every timestamp, used to place a scene's cues on the
                 whole-video timeline.
+            language: The narration's language code, so ``uppercase`` follows its casing
+                rules. Turkish needs ``i`` to become ``İ``, not ``I``.
 
         Returns:
             Non-overlapping cues with monotonically increasing timestamps.

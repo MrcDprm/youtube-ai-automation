@@ -13,7 +13,12 @@ from config.constants import PAINT_MAX_BEATS, PAINT_STILL_SECONDS, paint_beat_co
 from models.scenario import StoryVisualSettings, VisualBeat
 from modules.interfaces import DraftScene, DraftScript, DraftVisualBeat
 from modules.language import get_language_pack
-from modules.paint_generator import OllamaPaintGenerator, _beats_from_narration, _strip_banned
+from modules.paint_generator import (
+    OllamaPaintGenerator,
+    _beats_from_narration,
+    _clean_hook,
+    _strip_banned,
+)
 from modules.paint_stills import expected_beat_name, resolve_paint_stills
 from modules.scenario_builder import build_paint_scenario
 from modules.script_generator import OllamaScriptGenerator
@@ -294,6 +299,13 @@ def test_strip_banned_drops_subscribe_asks() -> None:
     assert "welcome back" not in lowered
     assert "subscribe" not in lowered
     assert "flip a switch" in lowered
+
+
+def test_clean_hook_keeps_turkish_letters_and_casing() -> None:
+    """A Turkish hook keeps its letters and gets Turkish capitals."""
+    assert _clean_hook("ışık hızı neden sabit?", "tr") == "IŞIK HIZI NEDEN SABİT?"
+    assert _clean_hook("why light?", "en") == "WHY LIGHT?"
+    assert _clean_hook("tek", "tr") == ""
 
 
 def test_paint_generator_asks_chapters_then_beats(requests_mock: rm.Mocker) -> None:
