@@ -168,9 +168,15 @@ class MoviePyEditor(IVideoEditor):
             composed = composed.with_duration(plan.total_duration).with_fps(plan.fps)
 
             narration = AudioFileClip(str(plan.audio_path))
-            composed = composed.without_audio().with_audio(
-                self._pad_audio(narration, plan.total_duration)
-            )
+            soundtrack = self._pad_audio(narration, plan.total_duration)
+            if plan.background_audio_volume > 0 and composed.audio is not None:
+                # Background footage may keep its own sound, such as engines and streets,
+                # quietly under the voice. Every other source stays silent as before.
+                game = composed.audio.with_duration(plan.total_duration).with_volume_scaled(
+                    plan.background_audio_volume
+                )
+                soundtrack = CompositeAudioClip([soundtrack, game])
+            composed = composed.without_audio().with_audio(soundtrack)
 
             if plan.burn_subtitles:
                 composed = self._burn_subtitles(composed, plan, opened)
