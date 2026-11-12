@@ -245,9 +245,13 @@ OLLAMA_DEFAULT_MODEL: Final[str] = "qwen2.5:7b-instruct"
 
 SCRIPT_PROVIDERS: Final[frozenset[str]] = frozenset({"gemini", "ollama"})
 GEMINI_API_BASE: Final[str] = "https://generativelanguage.googleapis.com/v1beta"
-GEMINI_DEFAULT_MODEL: Final[str] = "gemini-2.5-flash-lite"
-"""In November 2026 the only free-tier model that may check facts with Google Search, up to
-500 requests a day. The 3.x Flash models write for free but search only on the paid tier."""
+GEMINI_DEFAULT_MODEL: Final[str] = "gemini-3.5-flash-lite"
+"""A free-tier model that answered within seconds in November 2026, when the larger Flash
+models were often overloaded. Google Search grounding is paid-only for new keys: the last
+model that searched for free, gemini-2.5-flash-lite, is closed to new users."""
+GEMINI_DEFAULT_FALLBACKS: Final[tuple[str, ...]] = ("gemini-3.1-flash-lite", "gemini-3.6-flash")
+"""Free models tried in order when the first one is busy; each answered in a few seconds
+while another was returning 503."""
 SCRIPT_MAX_SOURCES: Final[int] = 20
 SOURCE_TITLE_MAX_CHARS: Final[int] = 200
 SOURCE_URL_MAX_CHARS: Final[int] = 2048

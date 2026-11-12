@@ -18,6 +18,7 @@ from config.constants import (
     CACHE_SUBDIRECTORIES,
     DEFAULT_SCENARIOS_DIR,
     DEFAULT_TOPICS_FILE,
+    GEMINI_DEFAULT_FALLBACKS,
     GEMINI_DEFAULT_MODEL,
     OLLAMA_DEFAULT_HOST,
     OLLAMA_DEFAULT_MODEL,
@@ -35,7 +36,19 @@ from config.constants import (
 from utils.exceptions import ConfigurationError
 from utils.fs import hash_payload, safe_filename
 
-__all__ = ["PROJECT_ROOT", "Settings", "get_settings"]
+__all__ = ["PROJECT_ROOT", "Settings", "get_settings", "split_model_list"]
+
+
+def split_model_list(value: str) -> list[str]:
+    """Split a comma-separated model list, dropping blanks and repeats.
+
+    Args:
+        value: For example ``"gemini-3.5-flash-lite, gemini-3.1-flash-lite"``.
+
+    Returns:
+        The model names in their given order.
+    """
+    return list(dict.fromkeys(name.strip() for name in value.split(",") if name.strip()))
 
 
 class Settings(BaseSettings):
@@ -64,9 +77,9 @@ class Settings(BaseSettings):
     # --- Script generation ------------------------------------------------------------
     SCRIPT_PROVIDER: str = Field(default="gemini")
     GEMINI_API_KEY: str = Field(default="")
-    GEMINI_MODEL: str = Field(default=GEMINI_DEFAULT_MODEL)
-    GEMINI_GROUNDING: bool = Field(default=True)
-    GEMINI_TIMEOUT: float = Field(default=120.0, gt=0, le=600)
+    GEMINI_MODEL: str = Field(default=",".join((GEMINI_DEFAULT_MODEL, *GEMINI_DEFAULT_FALLBACKS)))
+    GEMINI_GROUNDING: bool = Field(default=False)
+    GEMINI_TIMEOUT: float = Field(default=60.0, gt=0, le=600)
     OLLAMA_HOST: str = Field(default=OLLAMA_DEFAULT_HOST)
     OLLAMA_MODEL: str = Field(default=OLLAMA_DEFAULT_MODEL)
     OLLAMA_TIMEOUT: float = Field(default=180.0, gt=0, le=3600)
@@ -111,6 +124,15 @@ class Settings(BaseSettings):
                 f"SCRIPT_PROVIDER must be one of {sorted(SCRIPT_PROVIDERS)}, got {value!r}"
             )
         return cleaned
+
+    @field_validator("GEMINI_MODEL")
+    @classmethod
+    def _validate_gemini_models(cls, value: str) -> str:
+        """Accept one model or a comma-separated fallback list, stored without spaces."""
+        models = split_model_list(value)
+        if not models:
+            raise ValueError("GEMINI_MODEL must name at least one model")
+        return ",".join(models)
 
     @field_validator("OLLAMA_HOST")
     @classmethod
