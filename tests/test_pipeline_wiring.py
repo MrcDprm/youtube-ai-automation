@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import ast
 import asyncio
+import dataclasses
 import inspect
 from pathlib import Path
 from typing import Any
@@ -679,6 +680,45 @@ def test_scene_plan_carries_resolved_inputs(settings: Settings) -> None:
     assert plan.audio_path.is_file()
     assert plan.media_paths
     assert plan.total_duration == pytest.approx(plan.audio_duration + plan.scene_gap_seconds)
+
+
+def test_scene_plan_carries_word_timings_and_language(settings: Settings) -> None:
+    """Highlighted captions are drawn from each scene's own word timings."""
+    scenario = _scenario(
+        youtube={"title": "Wiring Test", "upload_enabled": False, "default_language": "en"},
+    )
+    pipeline, fakes = _pipeline(settings, scenario)
+    pipeline.run()
+
+    plans = {plan.scene.id: plan for plan in fakes["editor"].plans}
+    assert [cue.text for cue in plans[1].word_cues] == ["Birinci", "sahne", "metni."]
+    assert [cue.text for cue in plans[2].word_cues] == ["Ikinci", "sahne", "metni."]
+    assert plans[2].word_cues[0].start == pytest.approx(0.0)
+    assert plans[1].language == "en"
+
+
+def test_scene_files_change_with_word_timings_and_language(settings: Settings) -> None:
+    """A scene file is reused when its name matches, so captions drawn from word timings and
+    the language's capitals must rename it when either changes."""
+    pipeline, fakes = _pipeline(settings)
+    pipeline.run()
+    plan = fakes["editor"].plans[0]
+    result = pipeline._tts_results[plan.scene.id]
+
+    def key(**changes: Any) -> str:
+        changed = dataclasses.replace(result, **changes)
+        return pipeline._scene_render_key(plan.scene, changed, plan.media_paths, plan.subtitle_cues)
+
+    later = [cue.shifted(0.1) for cue in result.word_cues]
+    assert plan.output_path.stem.endswith(key())
+    assert key(word_cues=later) != key()
+
+    english = _scenario(
+        youtube={"title": "Wiring Test", "upload_enabled": False, "default_language": "en"},
+    )
+    other, other_fakes = _pipeline(settings, english)
+    other.run()
+    assert other_fakes["editor"].plans[0].output_path != plan.output_path
 
 
 def test_scene_files_differ_when_the_content_differs(settings: Settings) -> None:

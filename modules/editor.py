@@ -53,7 +53,8 @@ from config.constants import (
 from models.scenario import Scenario
 from modules.interfaces import IVideoEditor, ScenePlan, SubtitleCue, WordCue
 from modules.story_timeline import PhotoSlot, plan_story_visual
-from utils.exceptions import RenderError
+from modules.subtitle import ass_font_size, subtitle_margin_v
+from utils.exceptions import RenderError, SubtitleError
 from utils.fs import ensure_parent, format_bytes, human_duration
 from utils.logger import get_logger, log_info, log_warn
 from utils.media import (
@@ -64,7 +65,11 @@ from utils.media import (
     probe_duration,
     subtitle_top_y,
 )
-from zenn.captions.karaoke_ass import word_cues_to_karaoke_ass, write_karaoke_ass
+from zenn.captions.karaoke_ass import (
+    word_cues_to_highlight_ass,
+    word_cues_to_karaoke_ass,
+    write_karaoke_ass,
+)
 from zenn.segmentation.beats import Beat
 
 __all__ = ["MoviePyEditor"]
@@ -157,6 +162,7 @@ class MoviePyEditor(IVideoEditor):
         opened: list[Any] = []
         composed: Any = None
         narration: Any = None
+        captions_path: Path | None = None
 
         try:
             segments = self._build_segments(plan, opened)
@@ -178,10 +184,19 @@ class MoviePyEditor(IVideoEditor):
                 soundtrack = CompositeAudioClip([soundtrack, game])
             composed = composed.without_audio().with_audio(soundtrack)
 
-            if plan.burn_subtitles:
+            video_filter: str | None = None
+            if plan.burn_highlight:
+                captions_path, video_filter = self._write_highlight_captions(plan)
+            elif plan.burn_subtitles:
                 composed = self._burn_subtitles(composed, plan, opened)
 
-            self._encode(composed, plan.output_path, fps=plan.fps, with_audio=True)
+            self._encode(
+                composed,
+                plan.output_path,
+                fps=plan.fps,
+                with_audio=True,
+                video_filter=video_filter,
+            )
         except RenderError:
             raise
         except Exception as exc:
@@ -194,6 +209,9 @@ class MoviePyEditor(IVideoEditor):
             ) from exc
         finally:
             _close_quietly(composed, narration, *opened)
+            if captions_path is not None:
+                with contextlib.suppress(OSError):
+                    captions_path.unlink(missing_ok=True)
 
         size = plan.output_path.stat().st_size if plan.output_path.is_file() else 0
         logger.info(
@@ -473,6 +491,49 @@ class MoviePyEditor(IVideoEditor):
 
         composite = CompositeVideoClip(layers, size=(plan.width, plan.height))
         return composite.with_duration(plan.total_duration)
+
+    def _write_highlight_captions(self, plan: ScenePlan) -> tuple[Path, str]:
+        """Write a scene's word-highlight captions and the ffmpeg filter that draws them.
+
+        MoviePy pipes raw frames into ffmpeg, so an ``ass`` filter on that same encode burns
+        the captions in one pass. Drawing them as text clips would take one clip per word.
+        The font size is converted so that letters come out as large as plain captions with
+        the same settings.
+
+        Args:
+            plan: The scene plan, holding word timings and appearance settings.
+
+        Returns:
+            The written ASS file, so the caller can delete it, and the ``-vf`` filter.
+
+        Raises:
+            RenderError: If no font was resolved or the file cannot be written.
+        """
+        font_path = plan.font_path
+        if font_path is None:
+            raise RenderError(f"Scene {plan.scene.id} has highlighted captions but no font.")
+        settings = plan.subtitles
+        body = word_cues_to_highlight_ass(
+            plan.word_cues,
+            play_res_x=plan.width,
+            play_res_y=plan.height,
+            font_name=_ass_font_name(font_path),
+            font_size=ass_font_size(font_path, settings.font_size),
+            primary=settings.color,
+            accent=settings.accent_color or "#FFD600",
+            margin_v=subtitle_margin_v(plan.height, settings.position_ratio),
+            outline=settings.stroke_width,
+            max_chars_per_line=settings.max_chars_per_line,
+            max_lines=settings.max_lines,
+            uppercase=settings.uppercase,
+            language=plan.language,
+        )
+        ass_path = self._temp_dir / f"{plan.output_path.stem}_highlight.ass"
+        try:
+            write_karaoke_ass(plan.word_cues, ass_path, body)
+        except SubtitleError as exc:
+            raise RenderError(exc.message, hint=exc.hint) from exc
+        return ass_path, self._ass_filter(ass_path, font_path.parent)
 
     @staticmethod
     def _clamp_cue(cue: SubtitleCue, limit: float) -> tuple[float, float] | None:
@@ -1348,6 +1409,7 @@ class MoviePyEditor(IVideoEditor):
         with_audio: bool,
         crf: int | None = None,
         preset: str | None = None,
+        video_filter: str | None = None,
     ) -> None:
         """Write a clip to disk as H.264 / AAC.
 
@@ -1358,12 +1420,14 @@ class MoviePyEditor(IVideoEditor):
             with_audio: Whether to include an audio track.
             crf: Constant rate factor override.
             preset: libx264 preset override.
+            video_filter: An ffmpeg ``-vf`` filter applied to the frames on the way in.
 
         Raises:
             RenderError: If ffmpeg fails or writes nothing.
         """
         ensure_parent(out_path)
         temp_audio = self._temp_dir / f"{out_path.stem}_audio.m4a"
+        extra = ["-vf", video_filter] if video_filter else []
 
         try:
             clip.write_videofile(
@@ -1379,6 +1443,7 @@ class MoviePyEditor(IVideoEditor):
                 remove_temp=True,
                 logger=None,
                 ffmpeg_params=[
+                    *extra,
                     "-pix_fmt",
                     PIXEL_FORMAT,
                     "-crf",
