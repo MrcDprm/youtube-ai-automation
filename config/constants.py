@@ -132,6 +132,17 @@ MAX_FPS: Final[int] = 60
 FIRST_FRAMES_SKIP_SECONDS: Final[float] = 0.5
 """Stock clips frequently open on a fade; skip this much before sampling a segment."""
 
+BACKGROUND_VIDEO_EXTENSIONS: Final[frozenset[str]] = frozenset(
+    {".mp4", ".mov", ".mkv", ".webm", ".m4v"}
+)
+BACKGROUND_EDGE_SKIP_SECONDS: Final[float] = 5.0
+"""Long gameplay videos often open and close on titles; never reserve their first or last
+seconds."""
+BACKGROUND_CLIP_MARGIN_SECONDS: Final[float] = 0.1
+"""Each scene clip is cut this much longer than the scene. The editor takes the middle
+window, so every scene starts the same 0.05 s in and the cuts still line up as one take. It
+must stay below ``FIRST_FRAMES_SKIP_SECONDS`` or the editor would skip further in."""
+
 ZOOM_START_SCALE: Final[float] = 1.00
 ZOOM_END_SCALE: Final[float] = 1.06
 """Ken Burns endpoints. Kept subtle so the crop never reveals an edge."""
@@ -549,7 +560,13 @@ OUTPUT_SUBDIRECTORIES: Final[tuple[str, ...]] = (
     "storyboard",
 )
 
-CACHE_SUBDIRECTORIES: Final[tuple[str, ...]] = ("media", "tts", "scenes", "scheduler")
+CACHE_SUBDIRECTORIES: Final[tuple[str, ...]] = (
+    "media",
+    "tts",
+    "scenes",
+    "scheduler",
+    "background",
+)
 
 # --------------------------------------------------------------------------------------
 # Daily queue and Windows/POSIX scheduler

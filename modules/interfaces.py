@@ -15,9 +15,11 @@ from typing import Any
 from models.scenario import Scenario, Scene, SubtitleSettings, TTSSettings, YouTubeSettings
 
 __all__ = [
+    "BackgroundCut",
     "DraftScene",
     "DraftScript",
     "DraftVisualBeat",
+    "IBackgroundSource",
     "IMediaProvider",
     "IScriptGenerator",
     "ISubtitleBuilder",
@@ -274,6 +276,8 @@ class ScenePlan:
         font_path: The resolved font file for burn-in.
         output_path: Where the rendered scene is written.
         credits: Attribution for every source clip used.
+        background_audio_volume: How loud the footage's own sound plays under the narration,
+            from ``0`` (silent, the default) to ``1``. Only background video sets it.
     """
 
     scene: Scene
@@ -288,6 +292,7 @@ class ScenePlan:
     font_path: Path | None
     output_path: Path
     credits: list[MediaCredit] = field(default_factory=list)
+    background_audio_volume: float = 0.0
 
     @property
     def total_duration(self) -> float:
@@ -313,6 +318,23 @@ class ScenePlan:
             and self.subtitle_cues
             and self.font_path is not None
         )
+
+
+@dataclass(frozen=True, slots=True)
+class BackgroundCut:
+    """One continuous stretch of a background video, already cut into per-scene clips.
+
+    Attributes:
+        clips: One clip per requested duration, in playback order.
+        source: The long video the stretch was taken from.
+        start: Where the stretch starts in the source, in seconds.
+        end: Where the stretch ends in the source, in seconds.
+    """
+
+    clips: list[Path]
+    source: Path
+    start: float
+    end: float
 
 
 @dataclass(frozen=True, slots=True)
@@ -516,6 +538,32 @@ class IMediaProvider(ABC):
 
         Raises:
             MediaDownloadError: If the download fails or arrives truncated.
+        """
+
+
+class IBackgroundSource(ABC):
+    """Supplies one continuous stretch of a long background video per project."""
+
+    @abstractmethod
+    def cut(self, project_id: str, durations: list[float], dest_dir: Path) -> BackgroundCut:
+        """Reserve footage for a project and cut it into one clip per scene.
+
+        The clips follow each other in the source, so played back to back they look like a
+        single take. Asking again for the same project returns the same stretch whenever it
+        is still long enough, which keeps re-runs reproducible.
+
+        Args:
+            project_id: The project the stretch belongs to.
+            durations: Every scene's length in seconds, in playback order.
+            dest_dir: Directory for the cut clips.
+
+        Returns:
+            The clips and where they came from.
+
+        Raises:
+            ConfigurationError: If the video folder is missing.
+            MediaNotFoundError: If no unused stretch is long enough.
+            RenderError: If a clip cannot be cut.
         """
 
 
