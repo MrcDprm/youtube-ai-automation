@@ -39,8 +39,9 @@ from config.constants import (
 )
 from config.settings import Settings, get_settings
 from models.scenario import Orientation, Scenario
+from modules.background_library import BackgroundLibrary
 from modules.editor import MoviePyEditor
-from modules.interfaces import IMediaProvider, IUploader, MediaCandidate
+from modules.interfaces import IBackgroundSource, IMediaProvider, IUploader, MediaCandidate
 from modules.media_cache import MediaCache
 from modules.paint_generator import OllamaPaintGenerator
 from modules.photo_fetcher import PexelsPhotoProvider, PixabayPhotoProvider
@@ -183,11 +184,15 @@ class _DryRunMediaProvider(IMediaProvider):
 
 
 class _UnusedMediaProvider(IMediaProvider):
-    """Stand-in when a paint project never searches stock libraries."""
+    """Stand-in for projects that never search stock libraries.
+
+    Paint projects draw their own stills, and background-video projects cut their footage
+    from local files, so neither needs a stock API key.
+    """
 
     @property
     def name(self) -> str:
-        return "local-paint"
+        return "unused"
 
     def search(
         self, query: str, orientation: str, min_duration: float, limit: int
@@ -197,7 +202,7 @@ class _UnusedMediaProvider(IMediaProvider):
 
     def download(self, candidate: MediaCandidate, dest: Path) -> Path:
         del candidate, dest
-        raise MediaProviderError("Paint format does not download stock media.")
+        raise MediaProviderError("This project does not download stock media.")
 
 
 def _build_media_provider(settings: Settings, scenario: Scenario, force: bool) -> IMediaProvider:
@@ -217,7 +222,7 @@ def _build_media_provider(settings: Settings, scenario: Scenario, force: bool) -
     Raises:
         ConfigurationError: If footage is needed but no provider key is configured.
     """
-    if scenario.video.is_paint:
+    if scenario.video.is_paint or scenario.video.background_video.enabled:
         return _UnusedMediaProvider()
 
     cache = MediaCache(
@@ -340,6 +345,11 @@ def _build_pipeline(
         else _build_media_provider(settings, scenario, options.force)
     )
 
+    background_source: IBackgroundSource | None = None
+    folder = scenario.video.background_video.resolved_folder
+    if scenario.video.background_video.enabled and folder is not None and not options.dry_run:
+        background_source = BackgroundLibrary(folder, settings.background_ledger_path(folder))
+
     return VideoPipeline(
         scenario=scenario,
         settings=settings,
@@ -360,6 +370,7 @@ def _build_pipeline(
         thumbnail_builder=PillowThumbnailBuilder(font_path),
         uploader=uploader,
         options=options,
+        background_source=background_source,
     )
 
 

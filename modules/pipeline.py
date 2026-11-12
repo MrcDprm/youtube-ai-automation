@@ -29,6 +29,7 @@ from config.constants import (
 from config.settings import Settings
 from models.scenario import Scenario, Scene, resolve_project_path
 from modules.interfaces import (
+    IBackgroundSource,
     IMediaProvider,
     ISubtitleBuilder,
     IThumbnailBuilder,
@@ -49,7 +50,7 @@ from modules.studio_pack import (
     prepare_youtube_thumbnail,
     write_studio_pack,
 )
-from utils.exceptions import MediaNotFoundError, PipelineError, RenderError
+from utils.exceptions import ConfigurationError, MediaNotFoundError, PipelineError, RenderError
 from utils.fs import (
     file_sha256,
     format_bytes,
@@ -215,6 +216,7 @@ class VideoPipeline:
         thumbnail_builder: IThumbnailBuilder,
         uploader: IUploader | None = None,
         options: PipelineOptions | None = None,
+        background_source: IBackgroundSource | None = None,
     ) -> None:
         """Wire the pipeline from injected collaborators.
 
@@ -228,6 +230,8 @@ class VideoPipeline:
             thumbnail_builder: Thumbnail generation implementation.
             uploader: Publishing implementation. ``None`` disables uploading entirely.
             options: Per-run switches.
+            background_source: Long-video footage, required when the scenario turns on
+                ``video.background_video``.
         """
         self._scenario = scenario
         self._settings = settings
@@ -238,6 +242,7 @@ class VideoPipeline:
         self._thumbnails = thumbnail_builder
         self._uploader = uploader
         self._options = options or PipelineOptions()
+        self._background = background_source
 
         self._manifest = RunManifest(
             project_id=scenario.project_id,
@@ -251,6 +256,7 @@ class VideoPipeline:
         self._scene_cues: dict[int, list[SubtitleCue]] = {}
         self._timeline_cues: list[SubtitleCue] = []
         self._scene_media: dict[int, list[Path]] = {}
+        self._background_scenes: set[int] = set()
         self._story_photos: list[Path] = []
         self._scene_paths: list[Path] = []
         self._font_path: Path | None = None
@@ -348,6 +354,7 @@ class VideoPipeline:
             ("Voice", f"{self._scenario.tts.voice} (rate {self._scenario.tts.rate})"),
             ("Subtitles", self._describe_subtitles()),
             ("Font", str(self._font_path) if self._font_path else "not needed"),
+            ("Footage", self._describe_footage()),
             ("Background music", self._describe_music()),
             ("Upload", self._describe_upload()),
             ("Output", str(self._final_video_path())),
@@ -356,12 +363,14 @@ class VideoPipeline:
         log_renderable(summary_table("Resolved plan (dry run)", rows))
         log_blank()
 
+        background = self._scenario.video.background_video.enabled
         for scene in scenes:
-            source = (
-                f"local: {scene.local_media}"
-                if scene.local_media
-                else f"search: {', '.join(scene.search_terms)}"
-            )
+            if scene.local_media:
+                source = f"local: {scene.local_media}"
+            elif background:
+                source = "background video"
+            else:
+                source = f"search: {', '.join(scene.search_terms)}"
             log_info(
                 f"Scene {scene.id}: {scene.clips_per_scene} clip(s), "
                 f"{len(scene.narration)} chars, {source}"
@@ -491,17 +500,62 @@ class VideoPipeline:
 
     def _stage_footage(self) -> None:
         """Find and download source clips for every scene."""
-        log_step(3, TOTAL_STAGES, "Stock footage")
+        background = self._scenario.video.background_video.enabled
+        log_step(3, TOTAL_STAGES, "Background footage" if background else "Stock footage")
         scenes = self._selected_scenes()
 
         with _StageTimer(self._manifest, "footage"), make_step_progress() as progress:
             task = progress.add_task("Fetching footage", total=len(scenes))
-            for scene in scenes:
-                self._scene_media[scene.id] = self._gather_scene_media(scene)
-                progress.advance(task)
+            if background:
+                self._gather_background_media(scenes)
+                progress.advance(task, len(scenes))
+            else:
+                for scene in scenes:
+                    self._scene_media[scene.id] = self._gather_scene_media(scene)
+                    progress.advance(task)
 
         downloaded = sum(len(paths) for paths in self._scene_media.values())
         log_success(f"{downloaded} clip(s) ready across {len(scenes)} scene(s)")
+
+    def _gather_background_media(self, scenes: list[Scene]) -> None:
+        """Give every scene without local media its piece of one continuous stretch.
+
+        All such scenes share a single reservation, cut at the scene boundaries, so the
+        background plays as one uninterrupted take across the whole video.
+
+        Args:
+            scenes: The scenes being rendered, in playback order.
+
+        Raises:
+            ConfigurationError: If no background source was wired in.
+        """
+        if self._background is None:
+            raise ConfigurationError(
+                "The scenario turns on background_video, but no background source was wired in.",
+                hint="Pass background_source to VideoPipeline in the composition root.",
+            )
+
+        streamed: list[Scene] = []
+        for scene in scenes:
+            if scene.resolved_local_media is not None:
+                self._scene_media[scene.id] = self._gather_scene_media(scene)
+            else:
+                streamed.append(scene)
+        if not streamed:
+            return
+
+        gap = self._scenario.video.scene_gap_seconds
+        durations = [self._tts_results[scene.id].duration + gap for scene in streamed]
+        cut = self._background.cut(self._scenario.project_id, durations, self._settings.clips_dir())
+        for scene, clip in zip(streamed, cut.clips, strict=True):
+            self._scene_media[scene.id] = [clip]
+            self._background_scenes.add(scene.id)
+
+        self._manifest.artifacts["background"] = f"{cut.source.name} {cut.start:.2f}-{cut.end:.2f}s"
+        log_info(
+            f"Background: {cut.source.name}, {human_duration(cut.end - cut.start)} "
+            f"from {human_duration(cut.start)}"
+        )
 
     def _gather_scene_media(self, scene: Scene) -> list[Path]:
         """Resolve one scene's source clips, preferring a local override.
@@ -826,6 +880,11 @@ class VideoPipeline:
             font_path=self._font_path,
             output_path=self._settings.scenes_dir() / f"scene_{scene.id:03d}_{key}.mp4",
             credits=list(self._credits),
+            background_audio_volume=(
+                self._scenario.video.background_video.game_audio_volume
+                if scene.id in self._background_scenes
+                else 0.0
+            ),
         )
 
     def _scene_render_key(
@@ -1165,6 +1224,18 @@ class VideoPipeline:
             return "disabled"
         mode = "burned in" if settings.burn_in else "sidecar only"
         return f"{mode}, {settings.max_chars_per_line} chars x {settings.max_lines} lines"
+
+    def _describe_footage(self) -> str:
+        """Describe where the footage comes from, for the plan table."""
+        background = self._scenario.video.background_video
+        if not background.enabled:
+            return "stock search"
+        audio = (
+            f"game audio at {background.game_audio_volume:.2f}"
+            if background.game_audio_volume > 0
+            else "game audio off"
+        )
+        return f"background videos in {background.folder}, {audio}"
 
     def _describe_music(self) -> str:
         """Describe the background music configuration for the plan table."""
