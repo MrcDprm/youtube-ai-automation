@@ -28,6 +28,9 @@ from config.constants import (
     ORIENTATION_RESOLUTIONS,
     ORIENTATION_TOLERANCE,
     PAINT_MAX_BEATS,
+    SCRIPT_MAX_SOURCES,
+    SOURCE_TITLE_MAX_CHARS,
+    SOURCE_URL_MAX_CHARS,
     STORY_DEFAULT_OPENING_HOLD_SECONDS,
     STORY_DEFAULT_OPENING_PHOTO_COUNT,
     STORY_DEFAULT_OPENING_SECONDS,
@@ -47,6 +50,7 @@ __all__ = [
     "Orientation",
     "Scenario",
     "Scene",
+    "Source",
     "StoryVisualSettings",
     "SubtitleSettings",
     "TTSSettings",
@@ -557,6 +561,21 @@ class Scene(StrictModel):
         return self.search_terms[0]
 
 
+class Source(StrictModel):
+    """A page the script generator relied on. Kept for review; never spoken or published."""
+
+    title: str = Field(min_length=1, max_length=SOURCE_TITLE_MAX_CHARS)
+    url: str = Field(min_length=1, max_length=SOURCE_URL_MAX_CHARS)
+
+    @field_validator("url")
+    @classmethod
+    def _check_web_url(cls, value: str) -> str:
+        """Accept only web addresses, so a source can never point at a local file."""
+        if not value.startswith(("https://", "http://")):
+            raise ValueError(f"source url must start with http:// or https://, got {value!r}")
+        return value
+
+
 class Scenario(StrictModel):
     """A complete, validated video project."""
 
@@ -566,6 +585,7 @@ class Scenario(StrictModel):
     subtitles: SubtitleSettings = Field(default_factory=SubtitleSettings)
     youtube: YouTubeSettings
     scenes: list[Scene] = Field(min_length=1)
+    sources: list[Source] = Field(default_factory=list, max_length=SCRIPT_MAX_SOURCES)
 
     @field_validator("scenes")
     @classmethod

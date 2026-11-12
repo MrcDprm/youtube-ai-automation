@@ -282,6 +282,7 @@ def build_scenario(
             "thumbnail_enabled": True,
         },
         "scenes": scenes,
+        "sources": [{"title": source.title, "url": source.url} for source in draft.sources],
     }
 
     try:

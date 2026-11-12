@@ -21,7 +21,7 @@ from config.constants import (
 )
 from modules.interfaces import DraftScene, DraftScript
 from modules.language import chars_per_second_for, language_display_name
-from modules.script_generator import OllamaScriptGenerator, extract_json_object
+from modules.script_generator import ChatScriptGenerator, extract_json_object
 from utils.exceptions import ScriptGenerationError
 from utils.logger import get_logger, log_info, log_warn
 
@@ -83,11 +83,11 @@ numbers, no speaker labels, no markdown, no emoji.
 class OllamaStoryGenerator:
     """Produces a :class:`DraftScript` as sequential chapters."""
 
-    def __init__(self, generator: OllamaScriptGenerator) -> None:
+    def __init__(self, generator: ChatScriptGenerator) -> None:
         """Wrap the Shorts generator so HTTP and sanitizers stay in one place.
 
         Args:
-            generator: A configured :class:`OllamaScriptGenerator`.
+            generator: A configured backend, Ollama or Gemini.
         """
         self._inner = generator
 

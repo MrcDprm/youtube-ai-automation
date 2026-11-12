@@ -41,6 +41,7 @@ from config.settings import Settings, get_settings
 from models.scenario import Orientation, Scenario
 from modules.background_library import BackgroundLibrary
 from modules.editor import MoviePyEditor
+from modules.gemini_generator import GeminiScriptGenerator
 from modules.interfaces import IBackgroundSource, IMediaProvider, IUploader, MediaCandidate
 from modules.media_cache import MediaCache
 from modules.paint_generator import OllamaPaintGenerator
@@ -65,7 +66,7 @@ from modules.scenario_builder import (
 )
 from modules.scenario_loader import describe_scenario, load_scenario
 from modules.scheduler import query_task, register_daily_task, unregister_daily_task
-from modules.script_generator import OllamaScriptGenerator
+from modules.script_generator import ChatScriptGenerator, OllamaScriptGenerator
 from modules.story_generator import OllamaStoryGenerator
 from modules.subtitle import SrtSubtitleBuilder
 from modules.thumbnail import PillowThumbnailBuilder
@@ -203,6 +204,40 @@ class _UnusedMediaProvider(IMediaProvider):
     def download(self, candidate: MediaCandidate, dest: Path) -> Path:
         del candidate, dest
         raise MediaProviderError("This project does not download stock media.")
+
+
+def _build_script_generator(settings: Settings, model: str | None = None) -> ChatScriptGenerator:
+    """Construct the script backend that ``SCRIPT_PROVIDER`` names.
+
+    Args:
+        settings: Runtime settings holding the provider choice and its credentials.
+        model: Optional model override for this run.
+
+    Returns:
+        A Gemini or Ollama generator.
+
+    Raises:
+        ConfigurationError: If Gemini is chosen but no key is configured.
+        ScriptGenerationError: If the chosen backend's settings are empty.
+    """
+    if settings.SCRIPT_PROVIDER == "gemini":
+        if not settings.GEMINI_API_KEY.strip():
+            raise ConfigurationError(
+                "SCRIPT_PROVIDER is gemini, but GEMINI_API_KEY is empty.",
+                hint=(
+                    "Create a free key at https://aistudio.google.com/apikey and add it to "
+                    ".env, or set SCRIPT_PROVIDER=ollama to use a local model."
+                ),
+            )
+        return GeminiScriptGenerator(
+            settings.GEMINI_API_KEY,
+            model or settings.GEMINI_MODEL,
+            grounding=settings.GEMINI_GROUNDING,
+            timeout=settings.GEMINI_TIMEOUT,
+        )
+    return OllamaScriptGenerator(
+        settings.OLLAMA_HOST, model or settings.OLLAMA_MODEL, timeout=settings.OLLAMA_TIMEOUT
+    )
 
 
 def _build_media_provider(settings: Settings, scenario: Scenario, force: bool) -> IMediaProvider:
@@ -687,7 +722,8 @@ def generate(
         str | None, typer.Option("--voice", help="Override the edge-tts voice.")
     ] = None,
     model: Annotated[
-        str | None, typer.Option("--model", help="Override OLLAMA_MODEL for this run.")
+        str | None,
+        typer.Option("--model", help="Override GEMINI_MODEL or OLLAMA_MODEL for this run."),
     ] = None,
     guidance: Annotated[
         str | None, typer.Option("--guidance", help="Extra direction, e.g. a tone or angle.")
@@ -702,7 +738,7 @@ def generate(
         bool, typer.Option("--verbose", "-v", help="Log at DEBUG level on the console.")
     ] = False,
 ) -> None:
-    """Draft a scenario from a topic using a local Ollama model.
+    """Draft a scenario from a topic with Gemini or a local Ollama model.
 
     Renders nothing and uploads nothing: it only writes a scenario file for you to review and
     then feed to ``run``. Uploading stays disabled in the generated file on purpose.
@@ -765,11 +801,11 @@ def generate(
         verbose=verbose,
     )
 
-    generator = OllamaScriptGenerator(
-        settings.OLLAMA_HOST,
-        model or settings.OLLAMA_MODEL,
-        timeout=settings.OLLAMA_TIMEOUT,
-    )
+    try:
+        generator = _build_script_generator(settings, model)
+    except PipelineError as exc:
+        _fail(exc)
+        return
 
     kind = "chapter(s)" if fmt in {VIDEO_FORMAT_STORY, VIDEO_FORMAT_PAINT} else "scene(s)"
     if fmt == VIDEO_FORMAT_PAINT:
@@ -807,6 +843,12 @@ def generate(
     except PipelineError as exc:
         _fail(exc)
         return
+
+    if draft.sources:
+        log_info(
+            f"{len(draft.sources)} source(s) backed the facts; they are listed under "
+            "'sources' in the scenario file for you to check."
+        )
 
     log_step(2, 2, "Assembling the scenario")
     try:
@@ -1090,9 +1132,7 @@ def _daily_from_topic(
         scene_count = default_scene_count(topic, settings.DAILY_SCENES)
         log_step(1, 3, f"Drafting {scene_count} scene(s) on '{topic.topic}'")
 
-    generator = OllamaScriptGenerator(
-        settings.OLLAMA_HOST, settings.OLLAMA_MODEL, timeout=settings.OLLAMA_TIMEOUT
-    )
+    generator = _build_script_generator(settings)
     if fmt == VIDEO_FORMAT_PAINT:
         draft = OllamaPaintGenerator(generator).generate(
             topic.topic,

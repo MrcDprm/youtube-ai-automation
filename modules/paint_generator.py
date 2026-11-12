@@ -27,7 +27,7 @@ from config.constants import (
 from modules.interfaces import DraftScene, DraftScript, DraftVisualBeat
 from modules.language import chars_per_second_for, language_display_name
 from modules.scenario_builder import slugify
-from modules.script_generator import OllamaScriptGenerator, extract_json_object
+from modules.script_generator import ChatScriptGenerator, extract_json_object
 from utils.exceptions import ScriptGenerationError
 from utils.logger import get_logger, log_info, log_warn
 from utils.text import upper_text
@@ -143,8 +143,11 @@ _ROLE_CLOSE: Final[str] = (
 class OllamaPaintGenerator:
     """Produces a :class:`DraftScript` plus drawing beats for format=paint."""
 
-    def __init__(self, generator: OllamaScriptGenerator) -> None:
-        """Wrap the Shorts generator so HTTP and sanitizers stay in one place."""
+    def __init__(self, generator: ChatScriptGenerator) -> None:
+        """Wrap the Shorts generator so HTTP and sanitizers stay in one place.
+
+        Any backend works, Ollama or Gemini, because only the shared chat interface is used.
+        """
         self._inner = generator
 
     def generate(

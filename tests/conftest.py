@@ -40,7 +40,14 @@ SECRET_ENV_KEYS = (
     "VIDEO_FORMAT",
     "DAILY_TIME",
     "SCENARIOS_DIR",
+    "SCRIPT_PROVIDER",
+    "GEMINI_API_KEY",
+    "GEMINI_MODEL",
+    "GEMINI_GROUNDING",
+    "GEMINI_TIMEOUT",
 )
+
+API_KEY_ENV_KEYS = ("PEXELS_API_KEY", "PIXABAY_API_KEY", "GEMINI_API_KEY")
 
 
 @pytest.fixture(autouse=True)
@@ -56,6 +63,10 @@ def isolated_environment(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Ite
     """
     for key in SECRET_ENV_KEYS:
         monkeypatch.delenv(key, raising=False)
+    # Deleting is not enough for keys: Settings also reads the developer's real .env, and only
+    # an environment variable outranks it. An empty one keeps every real key out of the tests.
+    for key in API_KEY_ENV_KEYS:
+        monkeypatch.setenv(key, "")
 
     monkeypatch.setenv("OUTPUT_DIR", str(tmp_path / "output"))
     monkeypatch.setenv("CACHE_DIR", str(tmp_path / "cache"))
