@@ -37,7 +37,7 @@ from config.constants import (
     VIDEO_FORMAT_STORY,
     ExitCode,
 )
-from config.settings import Settings, get_settings
+from config.settings import Settings, get_settings, split_model_list
 from models.scenario import Orientation, Scenario
 from modules.background_library import BackgroundLibrary
 from modules.editor import MoviePyEditor
@@ -229,9 +229,13 @@ def _build_script_generator(settings: Settings, model: str | None = None) -> Cha
                     ".env, or set SCRIPT_PROVIDER=ollama to use a local model."
                 ),
             )
+        models = split_model_list(model or settings.GEMINI_MODEL)
+        if not models:
+            raise ConfigurationError("--model names no model.")
         return GeminiScriptGenerator(
             settings.GEMINI_API_KEY,
-            model or settings.GEMINI_MODEL,
+            models[0],
+            fallback_models=models[1:],
             grounding=settings.GEMINI_GROUNDING,
             timeout=settings.GEMINI_TIMEOUT,
         )

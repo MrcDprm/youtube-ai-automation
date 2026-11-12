@@ -1,17 +1,20 @@
-"""Draft scripts with Google's Gemini API, checking facts with Google Search.
+"""Draft scripts with Google's Gemini API.
 
 Gemini is reached over plain REST with ``requests``, the way the rest of the project talks to
 web services, so no extra SDK is needed and tests stub HTTP with ``requests-mock``. The API key
 travels in the ``x-goog-api-key`` header and never in the URL, because URLs end up in logs and
 exception messages.
 
-With grounding on, Gemini runs Google searches while it writes and reports the pages it relied
-on. Those pages are kept on the draft as sources for the author to check: the scenario file
-lists them, but they are never spoken and never published.
+By default the model writes from what it knows and is told to leave out anything it is not
+sure of. Grounding with Google Search is an opt-in: since November 2026 it needs Gemini's paid
+tier for new keys. With it on, Gemini searches while it writes and reports the pages it relied
+on; those pages are kept on the draft as sources for the author to check, listed in the
+scenario file but never spoken and never published.
 """
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import replace
 from typing import Any, Final
 from urllib.parse import quote, urlparse
@@ -30,7 +33,7 @@ from config.constants import (
 from modules.interfaces import DraftScript, DraftSource
 from modules.script_generator import ChatScriptGenerator
 from utils.exceptions import ScriptGenerationError
-from utils.logger import get_logger
+from utils.logger import get_logger, log_info, log_warn
 from utils.retry import retry_http_call
 
 __all__ = ["GeminiScriptGenerator"]
@@ -41,12 +44,30 @@ KEY_PAGE: Final[str] = "https://aistudio.google.com/apikey"
 ERROR_DETAIL_MAX_CHARS: Final[int] = 300
 MODEL_LIST_MAX_PAGES: Final[int] = 10
 
+_FALLBACK_STATUSES: Final[frozenset[int]] = frozenset({404, 408, 429, 500, 502, 503, 504})
+"""Failures that belong to one model, so the next model in the list is worth a try."""
+
+
+class _ModelUnavailableError(Exception):
+    """One model could not answer; carries the error to raise if no other model can."""
+
+    def __init__(self, error: ScriptGenerationError) -> None:
+        super().__init__(error.message)
+        self.error = error
+
+
 _GROUNDING_RULES: Final[str] = """\
 Fact checking:
 - Use Google Search to confirm every factual claim before you write it.
 - Leave out anything you cannot confirm from a reliable source. Never present a rumour, a mod
 or a guess as fact.
 - Still reply with the single JSON object described above and nothing else."""
+
+_MEMORY_RULES: Final[str] = """\
+Facts:
+- You cannot search the web, so use only facts you are certain of.
+- If you are unsure of a detail, leave it out instead of guessing. Never present a rumour, a mod
+or a guess as fact, and never invent numbers, dates or names."""
 
 
 class GeminiScriptGenerator(ChatScriptGenerator):
@@ -57,8 +78,9 @@ class GeminiScriptGenerator(ChatScriptGenerator):
         api_key: str,
         model: str = GEMINI_DEFAULT_MODEL,
         *,
-        grounding: bool = True,
-        timeout: float = 120.0,
+        fallback_models: Sequence[str] = (),
+        grounding: bool = False,
+        timeout: float = 60.0,
         max_attempts: int = SCRIPT_MAX_ATTEMPTS,
         temperature: float = 0.7,
         session: requests.Session | None = None,
@@ -67,9 +89,12 @@ class GeminiScriptGenerator(ChatScriptGenerator):
 
         Args:
             api_key: A Gemini API key from Google AI Studio.
-            model: The model to run, for example ``"gemini-2.5-flash-lite"``.
+            model: The model to run, for example ``"gemini-3.5-flash-lite"``.
+            fallback_models: Models to try, in order, when the current one is busy, out of
+                quota, retired or too slow. Free-tier capacity changes by the hour.
             grounding: Let the model check facts with Google Search and report its sources.
-            timeout: Per-request timeout. Searching while writing takes a while.
+                Needs Gemini's paid tier for new keys.
+            timeout: Per-request timeout, kept short so a stuck model hands over quickly.
             max_attempts: How many times to ask before giving up, counting the first try.
             temperature: Sampling temperature. Newer models ignore it.
             session: Optional shared HTTP session.
@@ -88,6 +113,8 @@ class GeminiScriptGenerator(ChatScriptGenerator):
                 hint=f"Set GEMINI_MODEL in .env, for example {GEMINI_DEFAULT_MODEL}.",
             )
         super().__init__(model, max_attempts=max_attempts)
+        fallbacks = (name.strip() for name in fallback_models if name.strip())
+        self._models = list(dict.fromkeys([self._model, *fallbacks]))
         # The key goes on each Gemini request, not on the session, so a shared session can
         # never carry it to another host.
         self._headers = {"x-goog-api-key": api_key.strip()}
@@ -181,7 +208,12 @@ class GeminiScriptGenerator(ChatScriptGenerator):
     # -- Transport ----------------------------------------------------------------------
 
     def _chat(self, messages: list[dict[str, str]], scene_count: int) -> str:
-        """Send the conversation to Gemini and return its text.
+        """Send the conversation to Gemini and return its text, falling back across models.
+
+        The model that answered last is tried first, then the others in their configured
+        order. A model is skipped when it is busy, out of quota, retired or too slow; any
+        other failure, such as a rejected key or a blocked prompt, stops at once, because the
+        next model would fail the same way.
 
         Args:
             messages: The conversation so far.
@@ -191,27 +223,65 @@ class GeminiScriptGenerator(ChatScriptGenerator):
             The reply text, with the reply's grounding sources stored for :meth:`generate`.
 
         Raises:
-            ScriptGenerationError: If the request fails, is blocked, or comes back empty.
+            ScriptGenerationError: If no model answers, or the answer is blocked or empty.
         """
         del scene_count
-        url = f"{GEMINI_API_BASE}/models/{quote(self._model, safe='')}:generateContent"
+        body = self._request_body(messages)
+        order = [self._model, *(model for model in self._models if model != self._model)]
+        failure: ScriptGenerationError | None = None
+        for index, model in enumerate(order):
+            try:
+                envelope = self._post_model(model, body)
+            except _ModelUnavailableError as exc:
+                failure = exc.error
+                if index + 1 < len(order):
+                    log_warn(
+                        f"{model} is unavailable ({exc.error.message}). Trying {order[index + 1]}."
+                    )
+                continue
+            if model != self._model:
+                log_info(f"{model} answered; it goes first from now on.")
+                self._model = model
+            return self._read_reply(envelope)
+
+        assert failure is not None
+        raise failure
+
+    def _post_model(self, model: str, body: dict[str, Any]) -> Any:
+        """Send one request to one model and decode the reply.
+
+        Args:
+            model: The model to call.
+            body: The JSON request body.
+
+        Returns:
+            The decoded response envelope.
+
+        Raises:
+            _ModelUnavailableError: If this model is busy, out of quota, retired or too slow.
+            ScriptGenerationError: For failures another model would hit too.
+        """
+        url = f"{GEMINI_API_BASE}/models/{quote(model, safe='')}:generateContent"
         try:
-            response = retry_http_call(
-                self._post_once, url, self._request_body(messages), max_attempts=3
-            )
+            response = retry_http_call(self._post_once, url, body, max_attempts=2)
         except requests.HTTPError as exc:
-            raise self._http_error(exc) from exc
+            error = self._http_error(exc, model)
+            status = exc.response.status_code if exc.response is not None else 0
+            if status in _FALLBACK_STATUSES:
+                raise _ModelUnavailableError(error) from exc
+            raise error from exc
         except requests.RequestException as exc:
-            raise ScriptGenerationError(
-                f"Could not reach the Gemini API: {exc}",
-                hint="Check your internet connection and any proxy or firewall rules.",
+            raise _ModelUnavailableError(
+                ScriptGenerationError(
+                    f"Could not get an answer from {model}: {exc}",
+                    hint="Check your internet connection and any proxy or firewall rules.",
+                )
             ) from exc
 
         try:
-            envelope = response.json()
+            return response.json()
         except ValueError as exc:
             raise ScriptGenerationError("The Gemini API returned a non-JSON response.") from exc
-        return self._read_reply(envelope)
 
     def _request_body(self, messages: list[dict[str, str]]) -> dict[str, Any]:
         """Translate the shared chat messages into Gemini's request shape.
@@ -226,8 +296,7 @@ class GeminiScriptGenerator(ChatScriptGenerator):
             The JSON body for ``generateContent``.
         """
         system = [message["content"] for message in messages if message["role"] == "system"]
-        if self._grounding:
-            system.append(_GROUNDING_RULES)
+        system.append(_GROUNDING_RULES if self._grounding else _MEMORY_RULES)
         body: dict[str, Any] = {
             "contents": [
                 {
@@ -313,11 +382,14 @@ class GeminiScriptGenerator(ChatScriptGenerator):
             logger.warning("Gemini answered without citing any web page.")
         return text
 
-    def _http_error(self, exc: requests.HTTPError) -> ScriptGenerationError:
+    def _http_error(
+        self, exc: requests.HTTPError, model: str | None = None
+    ) -> ScriptGenerationError:
         """Translate an HTTP failure into a diagnosis the user can act on.
 
         Args:
             exc: The raised HTTP error.
+            model: The model that was called, when the request named one.
 
         Returns:
             The error to raise. It never contains the API key, which only travels in a header.
@@ -330,18 +402,28 @@ class GeminiScriptGenerator(ChatScriptGenerator):
                 hint=f"Check GEMINI_API_KEY in .env, or create a new free key at {KEY_PAGE}.",
             )
         if status == 404:
+            # Google answers 404 both for unknown models and for retired ones, and only the
+            # message says which, often naming the replacement, so it is passed on as is.
             return ScriptGenerationError(
-                f"Gemini has no model called '{self._model}'.",
+                f"Gemini cannot run the model '{model or self._model}': {detail}",
                 hint=f"Set GEMINI_MODEL in .env, for example {GEMINI_DEFAULT_MODEL}.",
             )
         if status == 429:
             hint = "Wait a minute for the per-minute limit, or until tomorrow for the daily one."
             if self._grounding:
-                hint += (
-                    f" On the free tier only {GEMINI_DEFAULT_MODEL} may search; with another "
-                    "model set GEMINI_GROUNDING=false or move to the paid tier."
+                hint = (
+                    "Google Search grounding needs Gemini's paid tier for new keys. Set "
+                    "GEMINI_GROUNDING=false to write without it."
                 )
             return ScriptGenerationError(f"Gemini's quota is used up: {detail}", hint=hint)
+        if status == 503:
+            return ScriptGenerationError(
+                f"Gemini is overloaded right now: {detail}",
+                hint=(
+                    "Try again in a few minutes, or list more models in GEMINI_MODEL, separated "
+                    "by commas, so a busy one is skipped."
+                ),
+            )
         if status == 403:
             return ScriptGenerationError(
                 f"Gemini refused access: {detail}",

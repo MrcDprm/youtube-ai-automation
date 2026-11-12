@@ -86,7 +86,7 @@ def test_the_key_travels_in_a_header_and_never_in_the_url(requests_mock: rm.Mock
 def test_grounding_adds_google_search_and_the_fact_rules(requests_mock: rm.Mocker) -> None:
     requests_mock.post(URL, json=_reply(json.dumps(_script()), chunks=[]))
 
-    _generator().generate("GTA 5 gizli detaylar", scene_count=2)
+    _generator(grounding=True).generate("GTA 5 gizli detaylar", scene_count=2)
 
     body = _last_body(requests_mock)
     assert body["tools"] == [{"googleSearch": {}}]
@@ -97,15 +97,18 @@ def test_grounding_adds_google_search_and_the_fact_rules(requests_mock: rm.Mocke
     assert [content["role"] for content in body["contents"]] == ["user"]
 
 
-def test_without_grounding_the_reply_is_forced_to_json(requests_mock: rm.Mocker) -> None:
+def test_by_default_the_model_writes_only_what_it_is_sure_of(requests_mock: rm.Mocker) -> None:
+    """Search is paid for new keys, so the free default forces JSON and asks for caution."""
     requests_mock.post(URL, json=_reply(json.dumps(_script())))
 
-    _generator(grounding=False).generate("GTA 5 gizli detaylar", scene_count=2)
+    _generator().generate("GTA 5 gizli detaylar", scene_count=2)
 
     body = _last_body(requests_mock)
+    system = body["systemInstruction"]["parts"][0]["text"]
     assert "tools" not in body
     assert body["generationConfig"]["responseMimeType"] == "application/json"
-    assert "Google Search" not in body["systemInstruction"]["parts"][0]["text"]
+    assert "Google Search" not in system
+    assert "only facts you are certain of" in system
 
 
 # --------------------------------------------------------------------------------------
@@ -124,7 +127,7 @@ def test_a_grounded_reply_becomes_a_draft_with_its_sources(requests_mock: rm.Moc
     ]
     requests_mock.post(URL, json=_reply(f"```json\n{json.dumps(_script())}\n```", chunks))
 
-    draft = _generator().generate("GTA 5 gizli detaylar", scene_count=2)
+    draft = _generator(grounding=True).generate("GTA 5 gizli detaylar", scene_count=2)
 
     assert len(draft.scenes) == 2
     assert draft.tags == ("gta 5", "gizli detay", "ai")
@@ -137,7 +140,7 @@ def test_a_grounded_reply_becomes_a_draft_with_its_sources(requests_mock: rm.Moc
 def test_sources_reach_the_scenario_file_but_not_the_narration(requests_mock: rm.Mocker) -> None:
     chunks = [_web("https://www.gtabase.com/gta-5/guides/garage", "GTABase")]
     requests_mock.post(URL, json=_reply(json.dumps(_script()), chunks))
-    draft = _generator().generate("GTA 5 gizli detaylar", scene_count=2)
+    draft = _generator(grounding=True).generate("GTA 5 gizli detaylar", scene_count=2)
 
     scenario = build_scenario(draft, topic="GTA 5 gizli detaylar")
 
@@ -201,18 +204,122 @@ def test_an_unknown_model_names_the_model(requests_mock: rm.Mocker) -> None:
         _generator(model="gemini-0-yok").generate("GTA 5", scene_count=2)
 
 
+def test_a_retired_model_passes_on_googles_suggestion(requests_mock: rm.Mocker) -> None:
+    """Google uses 404 for retired models too, and only its message names the replacement."""
+    url = f"{GEMINI_API_BASE}/models/gemini-2.5-flash-lite:generateContent"
+    message = (
+        "This model models/gemini-2.5-flash-lite is no longer available to new users. "
+        "Please update your code to use models/gemini-3.5-flash-lite."
+    )
+    requests_mock.post(url, **_error(404, message))
+
+    with pytest.raises(ScriptGenerationError, match="no longer available") as caught:
+        _generator(model="gemini-2.5-flash-lite").generate("GTA 5", scene_count=2)
+
+    assert "gemini-3.5-flash-lite" in str(caught.value)
+
+
+@pytest.mark.parametrize(
+    ("grounding", "expected_hint"),
+    [(False, "Wait a minute"), (True, "GEMINI_GROUNDING=false")],
+)
 def test_a_used_up_quota_is_retried_then_explained(
-    requests_mock: rm.Mocker, monkeypatch: pytest.MonkeyPatch
+    requests_mock: rm.Mocker,
+    monkeypatch: pytest.MonkeyPatch,
+    grounding: bool,
+    expected_hint: str,
 ) -> None:
-    """429 is worth a retry; after that the hint names the free search model."""
+    """429 is worth a retry; after that, a grounded run learns that search is paid."""
     monkeypatch.setattr("time.sleep", lambda _seconds: None)
     requests_mock.post(URL, **_error(429, "Resource has been exhausted"))
 
     with pytest.raises(ScriptGenerationError, match="quota") as caught:
+        _generator(grounding=grounding).generate("GTA 5", scene_count=2)
+
+    assert requests_mock.call_count == 2
+    assert expected_hint in (caught.value.hint or "")
+
+
+def test_an_overloaded_model_says_so_after_retrying(
+    requests_mock: rm.Mocker, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr("time.sleep", lambda _seconds: None)
+    requests_mock.post(URL, **_error(503, "This model is currently experiencing high demand."))
+
+    with pytest.raises(ScriptGenerationError, match="overloaded") as caught:
         _generator().generate("GTA 5", scene_count=2)
 
-    assert requests_mock.call_count == 3
-    assert GEMINI_DEFAULT_MODEL in (caught.value.hint or "")
+    assert requests_mock.call_count == 2
+    assert "GEMINI_MODEL" in (caught.value.hint or "")
+
+
+# --------------------------------------------------------------------------------------
+# Fallback models
+# --------------------------------------------------------------------------------------
+
+FIRST = f"{GEMINI_API_BASE}/models/model-a:generateContent"
+SECOND = f"{GEMINI_API_BASE}/models/model-b:generateContent"
+
+
+def _models_called(mock: rm.Mocker) -> list[str]:
+    return [request.path.rsplit("/", 1)[-1].split(":")[0] for request in mock.request_history]
+
+
+def test_a_busy_model_hands_over_and_the_answering_one_goes_first(
+    requests_mock: rm.Mocker, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr("time.sleep", lambda _seconds: None)
+    requests_mock.post(FIRST, **_error(503, "This model is currently experiencing high demand."))
+    requests_mock.post(SECOND, json=_reply(json.dumps(_script())))
+    generator = _generator(model="model-a", fallback_models=["model-b"])
+
+    first = generator.generate("GTA 5", scene_count=2)
+    second = generator.generate("GTA 5", scene_count=2)
+
+    assert len(first.scenes) == len(second.scenes) == 2
+    assert _models_called(requests_mock) == ["model-a", "model-a", "model-b", "model-b"]
+
+
+def test_a_retired_model_hands_over_without_retrying(requests_mock: rm.Mocker) -> None:
+    requests_mock.post(FIRST, **_error(404, "This model is no longer available to new users."))
+    requests_mock.post(SECOND, json=_reply(json.dumps(_script())))
+
+    _generator(model="model-a", fallback_models=["model-b"]).generate("GTA 5", scene_count=2)
+
+    assert _models_called(requests_mock) == ["model-a", "model-b"]
+
+
+def test_a_rejected_key_does_not_try_the_other_models(requests_mock: rm.Mocker) -> None:
+    """Every model would refuse the same key, so the next one is not worth a request."""
+    requests_mock.post(FIRST, **_error(400, "API key not valid. Please pass a valid API key."))
+    requests_mock.post(SECOND, json=_reply(json.dumps(_script())))
+
+    with pytest.raises(ScriptGenerationError, match="API key"):
+        _generator(model="model-a", fallback_models=["model-b"]).generate("GTA 5", scene_count=2)
+
+    assert _models_called(requests_mock) == ["model-a"]
+
+
+def test_when_every_model_fails_the_last_failure_is_reported(
+    requests_mock: rm.Mocker, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr("time.sleep", lambda _seconds: None)
+    requests_mock.post(FIRST, **_error(503, "busy"))
+    requests_mock.post(SECOND, **_error(429, "Resource has been exhausted"))
+
+    with pytest.raises(ScriptGenerationError, match="quota"):
+        _generator(model="model-a", fallback_models=["model-b"]).generate("GTA 5", scene_count=2)
+
+
+def test_the_model_setting_is_a_clean_fallback_list(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("GEMINI_MODEL", " model-a , model-b,,model-a ")
+    get_settings.cache_clear()
+    assert get_settings().GEMINI_MODEL == "model-a,model-b"
+
+    monkeypatch.setenv("GEMINI_MODEL", " , ")
+    get_settings.cache_clear()
+    with pytest.raises(ConfigurationError, match="at least one model"):
+        get_settings()
 
 
 def test_a_blocked_prompt_says_why(requests_mock: rm.Mocker) -> None:
@@ -324,3 +431,4 @@ def test_doctor_checks_the_gemini_key_offline(monkeypatch: pytest.MonkeyPatch) -
     present = preflight._check_script_provider(get_settings())
     assert present.passed
     assert GEMINI_DEFAULT_MODEL in present.detail
+    assert "without search" in present.detail
