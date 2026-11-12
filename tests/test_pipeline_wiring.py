@@ -19,6 +19,8 @@ from config.constants import PROJECT_ROOT
 from config.settings import Settings
 from models.scenario import Scenario, SubtitleSettings, TTSSettings, YouTubeSettings
 from modules.interfaces import (
+    BackgroundCut,
+    IBackgroundSource,
     IMediaProvider,
     ISubtitleBuilder,
     IThumbnailBuilder,
@@ -36,11 +38,12 @@ from modules.interfaces import (
 from modules.pipeline import PipelineOptions, RunManifest, VideoPipeline
 from modules.tts import EdgeTTSEngine, attach_punctuation, normalize_narration, year_to_turkish
 from modules.uploader import build_description
-from utils.exceptions import TTSError
+from utils.exceptions import ConfigurationError, TTSError
 
 PIPELINE_SOURCE = PROJECT_ROOT / "modules" / "pipeline.py"
 
 FORBIDDEN_CONCRETE_NAMES = {
+    "BackgroundLibrary",
     "EdgeTTSEngine",
     "PexelsVideoProvider",
     "PexelsPhotoProvider",
@@ -55,6 +58,7 @@ FORBIDDEN_CONCRETE_NAMES = {
 }
 
 FORBIDDEN_CONCRETE_MODULES = {
+    "modules.background_library",
     "modules.tts",
     "modules.video_fetcher",
     "modules.photo_fetcher",
@@ -233,6 +237,25 @@ class FakeProvider(IMediaProvider):
         return dest
 
 
+class FakeBackground(IBackgroundSource):
+    """Writes one distinct placeholder clip per scene and records what it was asked for."""
+
+    def __init__(self) -> None:
+        self.calls: list[tuple[str, list[float]]] = []
+
+    def cut(self, project_id: str, durations: list[float], dest_dir: Path) -> BackgroundCut:
+        self.calls.append((project_id, list(durations)))
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        clips: list[Path] = []
+        for index in range(1, len(durations) + 1):
+            clip = dest_dir / f"background_{index:03d}.mp4"
+            clip.write_bytes(f"background {index}".encode())
+            clips.append(clip)
+        return BackgroundCut(
+            clips=clips, source=dest_dir / "drive.mp4", start=12.0, end=12.0 + sum(durations)
+        )
+
+
 class FakeEditor(IVideoEditor):
     """Records the plans it receives and writes placeholder scene files."""
 
@@ -339,6 +362,7 @@ def _pipeline(
     scenario: Scenario | None = None,
     options: PipelineOptions | None = None,
     uploader: IUploader | None = None,
+    background: IBackgroundSource | None = None,
 ) -> tuple[VideoPipeline, dict[str, Any]]:
     """Build a pipeline wired entirely from fakes.
 
@@ -365,6 +389,7 @@ def _pipeline(
         thumbnail_builder=fakes["thumbnail"],
         uploader=uploader,
         options=options or PipelineOptions(),
+        background_source=background,
     )
     return pipeline, fakes
 
@@ -711,6 +736,86 @@ def test_scene_files_change_when_only_the_footage_changes(
     first_paths = {plan.output_path for plan in first_fakes["editor"].plans}
     again_paths = {plan.output_path for plan in again_fakes["editor"].plans}
     assert first_paths.isdisjoint(again_paths)
+
+
+def _background_scenario(folder: Path, **background: Any) -> Scenario:
+    """A wiring scenario whose scenes take their footage from a background video folder."""
+    folder.mkdir(parents=True, exist_ok=True)
+    return _scenario(
+        video={
+            "orientation": "portrait",
+            "fps": 30,
+            "crossfade_seconds": 0.0,
+            "background_video": {"enabled": True, "folder": str(folder), **background},
+        }
+    )
+
+
+def test_background_video_replaces_the_stock_search(settings: Settings, tmp_path: Path) -> None:
+    """Every scene gets its piece of one stretch, sized to the scene, and no stock search."""
+    background = FakeBackground()
+    scenario = _background_scenario(tmp_path / "videos", game_audio_volume=0.2)
+    pipeline, fakes = _pipeline(settings, scenario, background=background)
+
+    manifest = pipeline.run()
+
+    plans = fakes["editor"].plans
+    assert fakes["media"].searches == []
+    assert len(background.calls) == 1
+    project_id, durations = background.calls[0]
+    assert project_id == "wiring-test"
+    assert durations == pytest.approx([plan.total_duration for plan in plans])
+    assert [plan.media_paths[0].name for plan in plans] == [
+        "background_001.mp4",
+        "background_002.mp4",
+    ]
+    assert [plan.background_audio_volume for plan in plans] == pytest.approx([0.2, 0.2])
+    assert "background" in manifest.artifacts
+
+
+def test_local_media_scenes_keep_their_file_in_background_mode(
+    settings: Settings, tmp_path: Path
+) -> None:
+    """A scene with its own clip keeps it, silent, and the rest share the stretch."""
+    clip = tmp_path / "intro.mp4"
+    clip.write_bytes(b"intro")
+    folder = tmp_path / "videos"
+    folder.mkdir()
+    scenario = _scenario(
+        video={
+            "orientation": "portrait",
+            "fps": 30,
+            "crossfade_seconds": 0.0,
+            "background_video": {"enabled": True, "folder": str(folder), "game_audio_volume": 0.3},
+        },
+        scenes=[
+            {
+                "id": 1,
+                "narration": "Birinci sahne metni.",
+                "search_terms": ["ocean"],
+                "local_media": str(clip),
+            },
+            {"id": 2, "narration": "Ikinci sahne metni.", "search_terms": ["forest"]},
+        ],
+    )
+    background = FakeBackground()
+    pipeline, fakes = _pipeline(settings, scenario, background=background)
+
+    pipeline.run()
+
+    plans = {plan.scene.id: plan for plan in fakes["editor"].plans}
+    assert len(background.calls[0][1]) == 1
+    assert plans[1].media_paths == [clip]
+    assert plans[1].background_audio_volume == 0.0
+    assert plans[2].media_paths[0].name == "background_001.mp4"
+    assert plans[2].background_audio_volume == pytest.approx(0.3)
+
+
+def test_background_mode_without_a_source_fails_clearly(settings: Settings, tmp_path: Path) -> None:
+    pipeline, _ = _pipeline(settings, _background_scenario(tmp_path / "videos"))
+
+    with pytest.raises(ConfigurationError, match="background source"):
+        pipeline.run()
 
 
 def test_manifest_records_no_secrets(settings: Settings) -> None:

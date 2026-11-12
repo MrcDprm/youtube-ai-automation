@@ -31,6 +31,7 @@ from config.constants import (
     VIDEO_FORMAT_SHORTS,
 )
 from utils.exceptions import ConfigurationError
+from utils.fs import hash_payload, safe_filename
 
 __all__ = ["PROJECT_ROOT", "Settings", "get_settings"]
 
@@ -241,6 +242,21 @@ class Settings(BaseSettings):
     def scene_cache_dir(self) -> Path:
         """Cache index for rendered scenes, keyed by their full input fingerprint."""
         return self.cache_dir / "scenes"
+
+    def background_ledger_path(self, folder: Path) -> Path:
+        """Ledger of the stretches each project has reserved from one background folder.
+
+        Every folder gets its own ledger, so two folders holding files with the same name
+        never block each other's footage.
+
+        Args:
+            folder: The background video folder.
+
+        Returns:
+            The folder's ledger path inside the cache directory.
+        """
+        digest = hash_payload(str(folder.resolve()))[:8]
+        return self.cache_dir / "background" / f"{safe_filename(folder.name)}-{digest}.json"
 
     def scenarios_dir(self) -> Path:
         """Directory holding the inbox/done/failed queue and ``topics.json``."""

@@ -43,6 +43,7 @@ from utils.fs import font_is_resolvable
 
 __all__ = [
     "BackgroundMusic",
+    "BackgroundVideo",
     "Orientation",
     "Scenario",
     "Scene",
@@ -126,6 +127,45 @@ class BackgroundMusic(StrictModel):
         return resolve_project_path(self.file) if self.file is not None else None
 
 
+class BackgroundVideo(StrictModel):
+    """Long videos, such as gameplay, cut into one continuous stretch under the narration.
+
+    When enabled, scenes without ``local_media`` take their footage from this folder instead
+    of a stock search. Game audio is off by default: ready-made gameplay often carries music
+    that triggers copyright claims.
+    """
+
+    enabled: bool = False
+    folder: Path | None = None
+    game_audio_volume: float = Field(default=0.0, ge=0.0, le=1.0)
+
+    @model_validator(mode="after")
+    def _check_folder_present_when_enabled(self) -> BackgroundVideo:
+        """Require an existing folder whenever background video is switched on.
+
+        Raises:
+            ValueError: If ``enabled`` is true but ``folder`` is unset or missing on disk.
+        """
+        if not self.enabled:
+            return self
+        if self.folder is None:
+            raise ValueError(
+                "background_video.folder is required when background_video.enabled is true"
+            )
+        resolved = resolve_project_path(self.folder)
+        if not resolved.is_dir():
+            raise ValueError(
+                f"background_video.folder does not exist: {resolved}. "
+                "Create it and add long videos, or set enabled to false."
+            )
+        return self
+
+    @property
+    def resolved_folder(self) -> Path | None:
+        """Absolute path to the video folder, or ``None`` when unset."""
+        return resolve_project_path(self.folder) if self.folder is not None else None
+
+
 class StoryVisualSettings(StrictModel):
     """Equal-time stills track used when ``video.format`` is ``story``.
 
@@ -204,6 +244,7 @@ class VideoSettings(StrictModel):
     video_bitrate_crf: int = Field(default=20, ge=MIN_CRF, le=MAX_CRF)
     preset: FfmpegPreset = "medium"
     background_music: BackgroundMusic = Field(default_factory=BackgroundMusic)
+    background_video: BackgroundVideo = Field(default_factory=BackgroundVideo)
     format: VideoFormat = "shorts"
     story_visual: StoryVisualSettings = Field(default_factory=StoryVisualSettings)
     visual_beats: list[VisualBeat] = Field(default_factory=list)
@@ -259,6 +300,19 @@ class VideoSettings(StrictModel):
                 f"resolution {width}x{height} (aspect {actual:.3f}) does not match "
                 f"orientation '{self.orientation}' (expected aspect ~{expected:.3f}). "
                 f"Use {expected_w}x{expected_h} or change the orientation."
+            )
+        return self
+
+    @model_validator(mode="after")
+    def _check_background_video_fits_format(self) -> VideoSettings:
+        """Reject background video on the longform formats, which never read it.
+
+        Raises:
+            ValueError: If background video is enabled on a story or paint project.
+        """
+        if self.background_video.enabled and self.is_longform:
+            raise ValueError(
+                f"background_video works with the shorts format only, not '{self.format}'."
             )
         return self
 
