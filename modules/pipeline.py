@@ -885,6 +885,8 @@ class VideoPipeline:
                 if scene.id in self._background_scenes
                 else 0.0
             ),
+            word_cues=list(result.word_cues),
+            language=self._scenario.youtube.default_language,
         )
 
     def _scene_render_key(
@@ -899,6 +901,8 @@ class VideoPipeline:
         The editor reuses a scene file that already exists, so the file name has to change
         whenever the narration, footage, captions or video settings do. Audio and footage
         are hashed by content, because their file names repeat from one video to the next.
+        Word timings and the language are part of it too: highlighted captions are drawn
+        from them, and the language decides how words look in capitals.
 
         Args:
             scene: The scene being planned.
@@ -910,7 +914,7 @@ class VideoPipeline:
             A short hex digest for the scene file name.
         """
         return hash_payload(
-            "scene-v1",
+            "scene-v2",
             scene.model_dump(mode="json"),
             self._scenario.tts.model_dump(mode="json"),
             self._scenario.video.model_dump(mode="json"),
@@ -918,6 +922,8 @@ class VideoPipeline:
             file_sha256(result.audio_path),
             [file_sha256(path) for path in media_paths],
             [(cue.start, cue.end, cue.text, cue.color) for cue in cues],
+            [(word.start, word.end, word.text) for word in result.word_cues],
+            self._scenario.youtube.default_language,
             str(self._font_path) if self._font_path is not None else None,
         )[:16]
 

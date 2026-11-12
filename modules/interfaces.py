@@ -279,6 +279,8 @@ class ScenePlan:
         credits: Attribution for every source clip used.
         background_audio_volume: How loud the footage's own sound plays under the narration,
             from ``0`` (silent, the default) to ``1``. Only background video sets it.
+        word_cues: The scene's word timings, for captions that highlight the spoken word.
+        language: The narration's language code, so captions in capitals follow its rules.
     """
 
     scene: Scene
@@ -294,6 +296,8 @@ class ScenePlan:
     output_path: Path
     credits: list[MediaCredit] = field(default_factory=list)
     background_audio_volume: float = 0.0
+    word_cues: list[WordCue] = field(default_factory=list)
+    language: str | None = None
 
     @property
     def total_duration(self) -> float:
@@ -319,6 +323,11 @@ class ScenePlan:
             and self.subtitle_cues
             and self.font_path is not None
         )
+
+    @property
+    def burn_highlight(self) -> bool:
+        """Whether burned captions highlight each spoken word instead of showing plain cues."""
+        return bool(self.burn_subtitles and self.subtitles.karaoke and self.word_cues)
 
 
 @dataclass(frozen=True, slots=True)

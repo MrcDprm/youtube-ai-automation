@@ -8,6 +8,7 @@ timestamps with sane minimum and maximum display durations.
 
 from __future__ import annotations
 
+import struct
 from pathlib import Path
 
 from config.constants import (
@@ -31,6 +32,7 @@ from utils.text import upper_text
 __all__ = [
     "SrtSubtitleBuilder",
     "ass_colour",
+    "ass_font_size",
     "colorize_cues",
     "cues_to_ass",
     "format_ass_timestamp",
@@ -46,6 +48,46 @@ logger = get_logger(__name__)
 def subtitle_margin_v(play_res_y: int, position_ratio: float) -> int:
     """Convert ``position_ratio`` (0 top → 1 bottom) to ASS bottom margin."""
     return max(40, int(round(play_res_y * (1.0 - position_ratio))))
+
+
+def ass_font_size(font_path: Path, pixel_size: int) -> int:
+    """Convert a text-clip font size into the ASS size that draws letters as large.
+
+    Pillow, which draws MoviePy's text clips, takes a size as the font's em square. libass
+    copies the Windows renderer instead and takes it as the whole cell, from the top of the
+    OS/2 table's ``usWinAscent`` to the bottom of its ``usWinDescent``. For a face with a tall
+    cell, such as Anton, the same number draws letters at little more than half the size,
+    so the size is scaled by cell height over em.
+
+    Args:
+        font_path: The TrueType or OpenType font the captions use.
+        pixel_size: The size as the subtitle settings give it.
+
+    Returns:
+        The ASS ``Fontsize``, or ``pixel_size`` unchanged when the file's tables cannot be
+        read, such as for a font collection.
+    """
+    try:
+        data = font_path.read_bytes()
+        (count,) = struct.unpack_from(">H", data, 4)
+        tables: dict[bytes, int] = {}
+        for index in range(count):
+            tag, _checksum, offset, _length = struct.unpack_from(">4sIII", data, 12 + 16 * index)
+            tables[tag] = offset
+        (units_per_em,) = struct.unpack_from(">H", data, tables[b"head"] + 18)
+        cell = 0
+        if b"OS/2" in tables:
+            ascent, descent = struct.unpack_from(">hh", data, tables[b"OS/2"] + 74)
+            cell = ascent + descent
+        if cell == 0:
+            # Like libass, fall back to the hhea table, whose descent is negative.
+            ascent, descent = struct.unpack_from(">hh", data, tables[b"hhea"] + 4)
+            cell = ascent - descent
+    except (OSError, KeyError, struct.error):
+        return pixel_size
+    if units_per_em <= 0 or cell <= 0:
+        return pixel_size
+    return max(1, round(pixel_size * cell / units_per_em))
 
 
 def format_timestamp(seconds: float) -> str:
