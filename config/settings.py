@@ -18,6 +18,7 @@ from config.constants import (
     CACHE_SUBDIRECTORIES,
     DEFAULT_SCENARIOS_DIR,
     DEFAULT_TOPICS_FILE,
+    GEMINI_DEFAULT_MODEL,
     OLLAMA_DEFAULT_HOST,
     OLLAMA_DEFAULT_MODEL,
     OUTPUT_SUBDIRECTORIES,
@@ -26,6 +27,7 @@ from config.constants import (
     SCRIPT_DEFAULT_SCENES,
     SCRIPT_MAX_SCENES,
     SCRIPT_MIN_SCENES,
+    SCRIPT_PROVIDERS,
     VALID_ORIENTATIONS,
     VALID_VIDEO_FORMATS,
     VIDEO_FORMAT_SHORTS,
@@ -59,7 +61,12 @@ class Settings(BaseSettings):
     YOUTUBE_CLIENT_SECRETS_FILE: Path = Field(default=Path("secrets/client_secrets.json"))
     YOUTUBE_TOKEN_FILE: Path = Field(default=Path("secrets/token.json"))
 
-    # --- Local script generation ----------------------------------------------------
+    # --- Script generation ------------------------------------------------------------
+    SCRIPT_PROVIDER: str = Field(default="gemini")
+    GEMINI_API_KEY: str = Field(default="")
+    GEMINI_MODEL: str = Field(default=GEMINI_DEFAULT_MODEL)
+    GEMINI_GROUNDING: bool = Field(default=True)
+    GEMINI_TIMEOUT: float = Field(default=120.0, gt=0, le=600)
     OLLAMA_HOST: str = Field(default=OLLAMA_DEFAULT_HOST)
     OLLAMA_MODEL: str = Field(default=OLLAMA_DEFAULT_MODEL)
     OLLAMA_TIMEOUT: float = Field(default=180.0, gt=0, le=3600)
@@ -93,6 +100,17 @@ class Settings(BaseSettings):
         if normalized not in allowed:
             raise ValueError(f"LOG_LEVEL must be one of {sorted(allowed)}, got {value!r}")
         return normalized
+
+    @field_validator("SCRIPT_PROVIDER")
+    @classmethod
+    def _validate_script_provider(cls, value: str) -> str:
+        """Accept only the script backends the generate command knows how to build."""
+        cleaned = value.strip().lower()
+        if cleaned not in SCRIPT_PROVIDERS:
+            raise ValueError(
+                f"SCRIPT_PROVIDER must be one of {sorted(SCRIPT_PROVIDERS)}, got {value!r}"
+            )
+        return cleaned
 
     @field_validator("OLLAMA_HOST")
     @classmethod
@@ -295,7 +313,11 @@ class Settings(BaseSettings):
         Returns:
             The literal secret strings currently loaded. Never log this list.
         """
-        return [value for value in (self.PEXELS_API_KEY, self.PIXABAY_API_KEY) if value]
+        return [
+            value
+            for value in (self.PEXELS_API_KEY, self.PIXABAY_API_KEY, self.GEMINI_API_KEY)
+            if value
+        ]
 
     def require(self, *names: str) -> None:
         """Assert that the named settings are non-empty.

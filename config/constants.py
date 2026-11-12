@@ -239,6 +239,19 @@ OLLAMA_TAGS_PATH: Final[str] = "/api/tags"
 OLLAMA_DEFAULT_MODEL: Final[str] = "qwen2.5:7b-instruct"
 """Qwen2.5 handles Turkish noticeably better than similarly sized alternatives."""
 
+# --------------------------------------------------------------------------------------
+# Hosted script generation (Gemini)
+# --------------------------------------------------------------------------------------
+
+SCRIPT_PROVIDERS: Final[frozenset[str]] = frozenset({"gemini", "ollama"})
+GEMINI_API_BASE: Final[str] = "https://generativelanguage.googleapis.com/v1beta"
+GEMINI_DEFAULT_MODEL: Final[str] = "gemini-2.5-flash-lite"
+"""In November 2026 the only free-tier model that may check facts with Google Search, up to
+500 requests a day. The 3.x Flash models write for free but search only on the paid tier."""
+SCRIPT_MAX_SOURCES: Final[int] = 20
+SOURCE_TITLE_MAX_CHARS: Final[int] = 200
+SOURCE_URL_MAX_CHARS: Final[int] = 2048
+
 SCRIPT_MIN_SCENES: Final[int] = 1
 SCRIPT_MAX_SCENES: Final[int] = 60
 SCRIPT_DEFAULT_SCENES: Final[int] = 8

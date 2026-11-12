@@ -18,6 +18,7 @@ __all__ = [
     "BackgroundCut",
     "DraftScene",
     "DraftScript",
+    "DraftSource",
     "DraftVisualBeat",
     "IBackgroundSource",
     "IMediaProvider",
@@ -388,6 +389,19 @@ class DraftVisualBeat:
 
 
 @dataclass(frozen=True, slots=True)
+class DraftSource:
+    """A web page the model relied on while writing, kept for the author to check.
+
+    Attributes:
+        title: The page's title, or its domain when the model gave none.
+        url: The page's address.
+    """
+
+    title: str
+    url: str
+
+
+@dataclass(frozen=True, slots=True)
 class DraftScript:
     """A generated script: only the parts a language model is actually good at.
 
@@ -401,6 +415,7 @@ class DraftScript:
         scenes: The scenes in playback order.
         visual_beats: Paint-format drawing list; empty for Shorts and photo stories.
         thumbnail_hook: Two-to-four-word yellow cover line; empty when unused.
+        sources: Pages a search-grounded model cited; empty for backends that do not search.
     """
 
     title: str
@@ -409,6 +424,7 @@ class DraftScript:
     scenes: tuple[DraftScene, ...]
     visual_beats: tuple[DraftVisualBeat, ...] = ()
     thumbnail_hook: str = ""
+    sources: tuple[DraftSource, ...] = ()
 
 
 # --------------------------------------------------------------------------------------

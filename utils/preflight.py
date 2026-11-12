@@ -327,6 +327,32 @@ def _check_ffmpeg_threads(settings: Settings) -> CheckResult:
     )
 
 
+def _check_script_provider(settings: Settings) -> CheckResult:
+    """Report whether the configured script backend can be used.
+
+    Never fatal: script generation is optional, and a hand-written scenario needs no model.
+    Gemini is checked offline, by the presence of its key, so doctor never spends quota.
+    """
+    if settings.SCRIPT_PROVIDER == "ollama":
+        return _check_ollama(settings)
+    present = bool(settings.GEMINI_API_KEY.strip())
+    search = "with Google Search" if settings.GEMINI_GROUNDING else "without search"
+    return CheckResult(
+        name="Script model (Gemini)",
+        passed=present,
+        detail=f"{settings.GEMINI_MODEL}, {search}" if present else "GEMINI_API_KEY is empty",
+        hint=(
+            None
+            if present
+            else (
+                "Only needed for 'generate'. Create a free key at "
+                "https://aistudio.google.com/apikey and add it to .env."
+            )
+        ),
+        fatal=False,
+    )
+
+
 def _check_ollama(settings: Settings) -> CheckResult:
     """Report whether the local model server is reachable and has the configured model.
 
@@ -416,7 +442,7 @@ def run_all_checks(settings: Settings) -> list[CheckResult]:
         _check_cache_dir(settings),
         _check_disk_space(settings),
         _check_ffmpeg_threads(settings),
-        _check_ollama(settings),
+        _check_script_provider(settings),
         _check_topics(settings),
         _check_youtube_credentials(settings),
     ]
