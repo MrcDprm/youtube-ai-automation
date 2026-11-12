@@ -1,10 +1,14 @@
-"""Draft scripts from a topic using a locally hosted language model via Ollama.
+"""Draft scripts from a topic with a language model.
 
-This module is the one place in the project that talks to a language model, and it is
-deliberately kept out of the render path. ``main.py generate`` calls it to author a scenario
-file; ``main.py run`` then consumes that file and never contacts a model. Two consequences
-follow from that split: the render pipeline keeps its guarantee of making no model calls, and a
-bad generation can be inspected and edited as plain JSON before a single frame is encoded.
+Script generation is deliberately kept out of the render path. ``main.py generate`` calls it to
+author a scenario file; ``main.py run`` then consumes that file and never contacts a model. Two
+consequences follow from that split: the render pipeline keeps its guarantee of making no model
+calls, and a bad generation can be inspected and edited as plain JSON before a single frame is
+encoded.
+
+:class:`ChatScriptGenerator` holds everything that does not depend on the backend: prompting,
+JSON recovery, the repair loop and the cleanup rules. :class:`OllamaScriptGenerator` adds the
+transport for a local Ollama server; ``modules.gemini_generator`` adds Google's Gemini API.
 
 The model is asked for only the creative parts — narration, search terms, title, tags. Every
 structural field is filled in deterministically by :mod:`modules.scenario_builder`, so a small
@@ -15,6 +19,7 @@ from __future__ import annotations
 
 import json
 import re
+from abc import abstractmethod
 from typing import Any, Final
 
 import requests
@@ -36,7 +41,7 @@ from utils.exceptions import ScriptGenerationError
 from utils.logger import get_logger, log_info, log_warn
 from utils.retry import retry_http_call
 
-__all__ = ["OllamaScriptGenerator", "extract_json_object"]
+__all__ = ["ChatScriptGenerator", "OllamaScriptGenerator", "extract_json_object"]
 
 logger = get_logger(__name__)
 
@@ -142,85 +147,26 @@ def extract_json_object(text: str) -> dict[str, Any]:
     raise ValueError("the JSON object was truncated before it closed")
 
 
-class OllamaScriptGenerator(IScriptGenerator):
-    """Drafts scripts with a model served by a local Ollama instance."""
+class ChatScriptGenerator(IScriptGenerator):
+    """Shared drafting loop for chat-style language models.
 
-    def __init__(
-        self,
-        host: str,
-        model: str,
-        *,
-        timeout: float = 180.0,
-        max_attempts: int = SCRIPT_MAX_ATTEMPTS,
-        temperature: float = 0.8,
-        session: requests.Session | None = None,
-    ) -> None:
-        """Initialise the generator.
+    Subclasses supply only the transport: :meth:`_chat` sends the conversation and returns
+    the model's text, and :meth:`available_models` lists what the backend offers. Prompting,
+    JSON recovery, the repair loop and every cleanup rule live here, so every backend
+    produces exactly the same shape of draft.
+    """
+
+    def __init__(self, model: str, *, max_attempts: int = SCRIPT_MAX_ATTEMPTS) -> None:
+        """Initialise the shared state.
 
         Args:
-            host: Base URL of the Ollama server, without a trailing slash.
-            model: Model tag to run, for example ``"qwen2.5:7b-instruct"``.
-            timeout: Per-request timeout. Local generation on CPU is slow, so this is generous.
+            model: The model the backend runs.
             max_attempts: How many times to ask before giving up, counting the first try.
-            temperature: Sampling temperature; higher values vary the wording more.
-            session: Optional shared HTTP session.
-
-        Raises:
-            ScriptGenerationError: If ``host`` or ``model`` is empty.
         """
-        if not host.strip():
-            raise ScriptGenerationError("OLLAMA_HOST is empty.")
-        if not model.strip():
-            raise ScriptGenerationError(
-                "OLLAMA_MODEL is empty.",
-                hint="Set OLLAMA_MODEL in .env, for example qwen2.5:7b-instruct.",
-            )
-
-        self._host = host.rstrip("/")
         self._model = model.strip()
-        self._timeout = timeout
         self._max_attempts = max(1, max_attempts)
-        self._temperature = temperature
-        self._session = session or requests.Session()
-        self._session.headers.update({"User-Agent": USER_AGENT})
 
     # -- Public API ----------------------------------------------------------------------
-
-    def available_models(self) -> list[str]:
-        """List models installed on the Ollama server.
-
-        Returns:
-            Model tags, empty when the server is running but has nothing pulled.
-
-        Raises:
-            ScriptGenerationError: If the server cannot be reached.
-        """
-        url = f"{self._host}{OLLAMA_TAGS_PATH}"
-        try:
-            response = self._session.get(url, timeout=min(self._timeout, 10.0))
-            response.raise_for_status()
-            payload = response.json()
-        except requests.RequestException as exc:
-            raise ScriptGenerationError(
-                f"Could not reach Ollama at {self._host}: {exc}",
-                hint=(
-                    "Install it from https://ollama.com and make sure the service is running. "
-                    "Check with 'ollama list'."
-                ),
-            ) from exc
-        except ValueError as exc:
-            raise ScriptGenerationError(
-                f"Ollama returned a non-JSON model list from {url}."
-            ) from exc
-
-        if not isinstance(payload, dict):
-            return []
-        models = payload.get("models")
-        if not isinstance(models, list):
-            return []
-        return [
-            str(entry["name"]) for entry in models if isinstance(entry, dict) and entry.get("name")
-        ]
 
     def generate(
         self,
@@ -331,107 +277,21 @@ class OllamaScriptGenerator(IScriptGenerator):
             {"role": "user", "content": request},
         ]
 
+    @abstractmethod
     def _chat(self, messages: list[dict[str, str]], scene_count: int) -> str:
-        """Send one chat completion request and return the assistant's text.
+        """Send one chat request and return the model's text.
 
         Args:
-            messages: The conversation so far.
-            scene_count: Used to size the output token budget.
+            messages: The conversation so far, as ``role`` and ``content`` pairs with the
+                roles ``system``, ``user`` and ``assistant``.
+            scene_count: Used to size the output budget.
 
         Returns:
-            The raw assistant message content.
+            The raw reply text.
 
         Raises:
-            ScriptGenerationError: If the server is unreachable, the model is missing, or the
-                response envelope is malformed.
+            ScriptGenerationError: If the backend fails or returns no text.
         """
-        payload: dict[str, Any] = {
-            "model": self._model,
-            "messages": messages,
-            "stream": False,
-            # Constrains sampling to syntactically valid JSON on Ollama builds that support it;
-            # older builds ignore it, which is why extract_json_object still repairs the text.
-            "format": "json",
-            "options": {
-                "temperature": self._temperature,
-                "num_predict": min(8192, 400 + scene_count * 200),
-            },
-        }
-
-        try:
-            response = retry_http_call(
-                self._post_once,
-                f"{self._host}{OLLAMA_CHAT_PATH}",
-                payload,
-                max_attempts=2,
-            )
-        except requests.HTTPError as exc:
-            raise self._http_error(exc) from exc
-        except requests.RequestException as exc:
-            raise ScriptGenerationError(
-                f"Could not reach Ollama at {self._host}: {exc}",
-                hint=(
-                    "Start the Ollama service and confirm the model is pulled with "
-                    f"'ollama pull {self._model}'."
-                ),
-            ) from exc
-
-        try:
-            envelope = response.json()
-        except ValueError as exc:
-            raise ScriptGenerationError("Ollama returned a non-JSON response envelope.") from exc
-
-        if not isinstance(envelope, dict):
-            raise ScriptGenerationError("Ollama returned a non-object response envelope.")
-
-        message = envelope.get("message")
-        content = message.get("content") if isinstance(message, dict) else None
-        if not isinstance(content, str) or not content.strip():
-            raise ScriptGenerationError(
-                "Ollama returned an empty message.",
-                hint=(
-                    "This usually means the model was still loading or ran out of memory. "
-                    "Try a smaller model."
-                ),
-            )
-        return content
-
-    def _post_once(self, url: str, payload: dict[str, Any]) -> requests.Response:
-        """Perform one POST, surfacing non-success statuses as exceptions.
-
-        Args:
-            url: The chat endpoint.
-            payload: The JSON request body.
-
-        Returns:
-            The successful response.
-
-        Raises:
-            requests.HTTPError: On any non-success status.
-        """
-        response = self._session.post(url, json=payload, timeout=self._timeout)
-        response.raise_for_status()
-        return response
-
-    def _http_error(self, exc: requests.HTTPError) -> ScriptGenerationError:
-        """Translate an HTTP failure into a diagnosis the user can act on.
-
-        Args:
-            exc: The raised HTTP error.
-
-        Returns:
-            The error to raise.
-        """
-        status = exc.response.status_code if exc.response is not None else 0
-        if status == 404:
-            return ScriptGenerationError(
-                f"Ollama does not have the model '{self._model}'.",
-                hint=f"Pull it first: ollama pull {self._model}",
-            )
-        return ScriptGenerationError(
-            f"Ollama rejected the request with HTTP {status}.",
-            hint="Run 'ollama list' to confirm the server is healthy and the model is present.",
-        )
 
     # -- Validation and cleanup ----------------------------------------------------------
 
@@ -604,3 +464,185 @@ class OllamaScriptGenerator(IScriptGenerator):
             if len(tags) >= SCRIPT_MAX_TAGS:
                 break
         return tuple(tags)
+
+
+class OllamaScriptGenerator(ChatScriptGenerator):
+    """Drafts scripts with a model served by a local Ollama instance."""
+
+    def __init__(
+        self,
+        host: str,
+        model: str,
+        *,
+        timeout: float = 180.0,
+        max_attempts: int = SCRIPT_MAX_ATTEMPTS,
+        temperature: float = 0.8,
+        session: requests.Session | None = None,
+    ) -> None:
+        """Initialise the generator.
+
+        Args:
+            host: Base URL of the Ollama server, without a trailing slash.
+            model: Model tag to run, for example ``"qwen2.5:7b-instruct"``.
+            timeout: Per-request timeout. Local generation on CPU is slow, so this is generous.
+            max_attempts: How many times to ask before giving up, counting the first try.
+            temperature: Sampling temperature; higher values vary the wording more.
+            session: Optional shared HTTP session.
+
+        Raises:
+            ScriptGenerationError: If ``host`` or ``model`` is empty.
+        """
+        if not host.strip():
+            raise ScriptGenerationError("OLLAMA_HOST is empty.")
+        if not model.strip():
+            raise ScriptGenerationError(
+                "OLLAMA_MODEL is empty.",
+                hint="Set OLLAMA_MODEL in .env, for example qwen2.5:7b-instruct.",
+            )
+
+        super().__init__(model, max_attempts=max_attempts)
+        self._host = host.rstrip("/")
+        self._timeout = timeout
+        self._temperature = temperature
+        self._session = session or requests.Session()
+        self._session.headers.update({"User-Agent": USER_AGENT})
+
+    # -- Transport -------------------------------------------------------------------------
+
+    def available_models(self) -> list[str]:
+        """List models installed on the Ollama server.
+
+        Returns:
+            Model tags, empty when the server is running but has nothing pulled.
+
+        Raises:
+            ScriptGenerationError: If the server cannot be reached.
+        """
+        url = f"{self._host}{OLLAMA_TAGS_PATH}"
+        try:
+            response = self._session.get(url, timeout=min(self._timeout, 10.0))
+            response.raise_for_status()
+            payload = response.json()
+        except requests.RequestException as exc:
+            raise ScriptGenerationError(
+                f"Could not reach Ollama at {self._host}: {exc}",
+                hint=(
+                    "Install it from https://ollama.com and make sure the service is running. "
+                    "Check with 'ollama list'."
+                ),
+            ) from exc
+        except ValueError as exc:
+            raise ScriptGenerationError(
+                f"Ollama returned a non-JSON model list from {url}."
+            ) from exc
+
+        if not isinstance(payload, dict):
+            return []
+        models = payload.get("models")
+        if not isinstance(models, list):
+            return []
+        return [
+            str(entry["name"]) for entry in models if isinstance(entry, dict) and entry.get("name")
+        ]
+
+    def _chat(self, messages: list[dict[str, str]], scene_count: int) -> str:
+        """Send one chat completion request and return the assistant's text.
+
+        Args:
+            messages: The conversation so far.
+            scene_count: Used to size the output token budget.
+
+        Returns:
+            The raw assistant message content.
+
+        Raises:
+            ScriptGenerationError: If the server is unreachable, the model is missing, or the
+                response envelope is malformed.
+        """
+        payload: dict[str, Any] = {
+            "model": self._model,
+            "messages": messages,
+            "stream": False,
+            # Constrains sampling to syntactically valid JSON on Ollama builds that support it;
+            # older builds ignore it, which is why extract_json_object still repairs the text.
+            "format": "json",
+            "options": {
+                "temperature": self._temperature,
+                "num_predict": min(8192, 400 + scene_count * 200),
+            },
+        }
+
+        try:
+            response = retry_http_call(
+                self._post_once,
+                f"{self._host}{OLLAMA_CHAT_PATH}",
+                payload,
+                max_attempts=2,
+            )
+        except requests.HTTPError as exc:
+            raise self._http_error(exc) from exc
+        except requests.RequestException as exc:
+            raise ScriptGenerationError(
+                f"Could not reach Ollama at {self._host}: {exc}",
+                hint=(
+                    "Start the Ollama service and confirm the model is pulled with "
+                    f"'ollama pull {self._model}'."
+                ),
+            ) from exc
+
+        try:
+            envelope = response.json()
+        except ValueError as exc:
+            raise ScriptGenerationError("Ollama returned a non-JSON response envelope.") from exc
+
+        if not isinstance(envelope, dict):
+            raise ScriptGenerationError("Ollama returned a non-object response envelope.")
+
+        message = envelope.get("message")
+        content = message.get("content") if isinstance(message, dict) else None
+        if not isinstance(content, str) or not content.strip():
+            raise ScriptGenerationError(
+                "Ollama returned an empty message.",
+                hint=(
+                    "This usually means the model was still loading or ran out of memory. "
+                    "Try a smaller model."
+                ),
+            )
+        return content
+
+    def _post_once(self, url: str, payload: dict[str, Any]) -> requests.Response:
+        """Perform one POST, surfacing non-success statuses as exceptions.
+
+        Args:
+            url: The chat endpoint.
+            payload: The JSON request body.
+
+        Returns:
+            The successful response.
+
+        Raises:
+            requests.HTTPError: On any non-success status.
+        """
+        response = self._session.post(url, json=payload, timeout=self._timeout)
+        response.raise_for_status()
+        return response
+
+    def _http_error(self, exc: requests.HTTPError) -> ScriptGenerationError:
+        """Translate an HTTP failure into a diagnosis the user can act on.
+
+        Args:
+            exc: The raised HTTP error.
+
+        Returns:
+            The error to raise.
+        """
+        status = exc.response.status_code if exc.response is not None else 0
+        if status == 404:
+            return ScriptGenerationError(
+                f"Ollama does not have the model '{self._model}'.",
+                hint=f"Pull it first: ollama pull {self._model}",
+            )
+        return ScriptGenerationError(
+            f"Ollama rejected the request with HTTP {status}.",
+            hint="Run 'ollama list' to confirm the server is healthy and the model is present.",
+        )
