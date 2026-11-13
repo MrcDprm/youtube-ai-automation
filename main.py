@@ -1510,6 +1510,7 @@ def clean(
         bool, typer.Option("--output", help="Delete generated output files.")
     ] = False,
     all_: Annotated[bool, typer.Option("--all", help="Delete both caches and output.")] = False,
+    yes: Annotated[bool, typer.Option("--yes", "-y", help="Delete without asking first.")] = False,
 ) -> None:
     """Delete generated files and caches."""
     try:
@@ -1522,6 +1523,34 @@ def clean(
 
     if not (cache or output or all_):
         log_warn("Nothing selected. Pass --cache, --output or --all.")
+        raise typer.Exit(code=int(ExitCode.OK))
+
+    targets = [
+        directory
+        for selected, directory in (
+            (cache or all_, settings.cache_dir),
+            (output or all_, settings.output_dir),
+        )
+        if selected
+    ]
+    for directory in targets:
+        reason = _unsafe_to_clear(directory)
+        if reason is not None:
+            _fail(
+                ConfigurationError(
+                    f"Refusing to empty {directory}: {reason}.",
+                    hint=(
+                        "Point OUTPUT_DIR and CACHE_DIR in .env at folders that hold only "
+                        "generated files, such as output and .cache."
+                    ),
+                )
+            )
+            return
+    if not yes and not typer.confirm(
+        f"Delete everything inside {' and '.join(str(directory) for directory in targets)}?",
+        default=False,
+    ):
+        log_info("Nothing was deleted.")
         raise typer.Exit(code=int(ExitCode.OK))
 
     removed = 0
@@ -1537,6 +1566,34 @@ def clean(
         log_success(f"Cleared the output directory ({format_bytes(freed)} freed)")
 
     log_info(f"Removed {removed} entr{'y' if removed == 1 else 'ies'}.")
+
+
+def _unsafe_to_clear(directory: Path) -> str | None:
+    """Explain why emptying ``directory`` would destroy more than generated files.
+
+    ``clean`` deletes everything inside ``OUTPUT_DIR`` and ``CACHE_DIR``. A typo in ``.env``,
+    such as ``OUTPUT_DIR=.``, would otherwise wipe the source code and its ``.git`` folder.
+
+    Args:
+        directory: The folder ``clean`` is about to empty.
+
+    Returns:
+        The reason to refuse, or ``None`` when the folder looks like generated files only.
+    """
+    target = directory.resolve()
+    if target == Path(target.anchor):
+        return "it is the root of a drive"
+    project = PROJECT_ROOT.resolve()
+    if target == project or project.is_relative_to(target):
+        return "it holds the project itself"
+    home = Path.home().resolve()
+    if target == home or home.is_relative_to(target):
+        return "it holds your home folder"
+    if target.is_dir() and any(
+        entry.name in {".git", ".env"} or entry.suffix == ".py" for entry in target.iterdir()
+    ):
+        return "it holds source files"
+    return None
 
 
 def _directory_size(directory: Path) -> int:
