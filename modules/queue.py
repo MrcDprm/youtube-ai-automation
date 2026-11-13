@@ -22,13 +22,18 @@ from dataclasses import dataclass, field
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Literal
+from urllib.parse import urlparse
 
 from config.constants import (
     DAILY_LOCK_FILENAME,
     DAILY_LOCK_STALE_SECONDS,
     SCENARIO_QUEUE_SUBDIRECTORIES,
     SCRIPT_DEFAULT_SCENES,
+    SCRIPT_MAX_SOURCES,
+    SOURCE_TITLE_MAX_CHARS,
+    SOURCE_URL_MAX_CHARS,
 )
+from modules.interfaces import DraftSource
 from utils.exceptions import ConfigurationError
 from utils.fs import ensure_parent, read_json, write_json
 
@@ -58,12 +63,17 @@ class Topic:
         scenes: Scene count override; ``None`` means use the daily default.
         guidance: Optional extra steering for the model.
         language: Optional narration-language override.
+        fact: A checked statement the script is built on. GTA topics need one, because the
+            model may only reword it.
+        sources: Pages the fact was checked against, copied into the scenario for review.
     """
 
     topic: str
     scenes: int | None = None
     guidance: str | None = None
     language: str | None = None
+    fact: str | None = None
+    sources: tuple[DraftSource, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
@@ -288,8 +298,8 @@ def load_topics(path: Path) -> list[Topic]:
     """Load ``topics.json``.
 
     The file accepts either a top-level array or an object with a ``topics`` array. Each entry
-    may be a string or an object with ``topic`` plus optional ``scenes``, ``guidance`` and
-    ``language``.
+    may be a string or an object with ``topic`` plus optional ``scenes``, ``guidance``,
+    ``language``, ``fact`` and ``sources``.
 
     Args:
         path: Path to ``topics.json``.
@@ -366,7 +376,55 @@ def _parse_topic(item: Any, *, index: int, source: str) -> Topic | None:
     language = (
         language_raw.strip() if isinstance(language_raw, str) and language_raw.strip() else None
     )
-    return Topic(topic=raw.strip(), scenes=scenes, guidance=guidance, language=language)
+    fact_raw = item.get("fact")
+    fact = fact_raw.strip() if isinstance(fact_raw, str) and fact_raw.strip() else None
+    return Topic(
+        topic=raw.strip(),
+        scenes=scenes,
+        guidance=guidance,
+        language=language,
+        fact=fact,
+        sources=_parse_sources(item.get("sources"), index=index, source=source),
+    )
+
+
+def _parse_sources(raw: Any, *, index: int, source: str) -> tuple[DraftSource, ...]:
+    """Parse a topic's ``sources``: web addresses, or objects with ``title`` and ``url``.
+
+    Args:
+        raw: The entry's ``sources`` value, if any.
+        index: 1-based topic position, used in error messages.
+        source: Filename for error messages.
+
+    Returns:
+        The sources, titled with their domain when no title is given.
+
+    Raises:
+        ConfigurationError: If an entry is not a web address. Catching a typo here is better
+            than writing a scenario that then fails its own validation.
+    """
+    if raw is None:
+        return ()
+    if not isinstance(raw, list):
+        raise ConfigurationError(f"{source}: the sources of topic {index} must be an array.")
+    parsed: list[DraftSource] = []
+    for item in raw:
+        if isinstance(item, str):
+            url, title = item.strip(), ""
+        elif isinstance(item, dict):
+            url = str(item.get("url", "")).strip()
+            title = str(item.get("title", "")).strip()
+        else:
+            raise ConfigurationError(
+                f"{source}: topic {index} has a source that is neither a URL nor an object."
+            )
+        if not url.startswith(("https://", "http://")) or len(url) > SOURCE_URL_MAX_CHARS:
+            raise ConfigurationError(
+                f"{source}: topic {index} has a source that is not a web address: {url[:80]}"
+            )
+        title = (title or urlparse(url).netloc or url)[:SOURCE_TITLE_MAX_CHARS]
+        parsed.append(DraftSource(title=title, url=url))
+    return tuple(parsed[:SCRIPT_MAX_SOURCES])
 
 
 def load_state(path: Path) -> SchedulerState:

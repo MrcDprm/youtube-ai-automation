@@ -1,7 +1,7 @@
 # Scenario queue
 
 This folder is the daily production inbox. `python main.py daily` looks here before it
-asks Ollama for a new script.
+asks the script model for a new script.
 
 ```
 scenarios/
@@ -49,3 +49,26 @@ or an object, when a topic needs extra steering:
 
 Used topics are recorded in `.cache/scheduler/state.json`, not in this file, so you can edit
 the list without losing history.
+
+## GTA 5 Shorts
+
+`topics-gta.json` holds checked GTA 5 facts for `generate --format gta` and for `daily` with
+`VIDEO_FORMAT=gta`. Each entry carries a `fact`, which the script may only reword, and the
+`sources` it was checked against:
+
+```json
+{
+  "topic": "Fort Zancudo'ya izinsiz girmek",
+  "fact": "Hikaye modunda üsse karadan izinsiz girer ve askerlere görünürsen hemen 4 yıldız aranma seviyesi alırsın.",
+  "sources": [
+    {"title": "Grand Theft Wiki: Fort Zancudo", "url": "https://www.grandtheftwiki.com/Fort_Zancudo"}
+  ]
+}
+```
+
+Add a fact only after two independent pages agree on it, and write its numbers as digits: a
+script that uses a number the fact does not give is sent back for a rewrite. The sources are
+copied into the scenario file for review and are never spoken or published.
+
+`python main.py topics --gta` lists the facts with their numbers, and
+`python main.py generate --format gta 3` writes the third one.

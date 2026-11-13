@@ -91,6 +91,9 @@ VIDEO_FORMAT_PAINT: Final[str] = "paint"
 VALID_VIDEO_FORMATS: Final[frozenset[str]] = frozenset(
     {VIDEO_FORMAT_SHORTS, VIDEO_FORMAT_STORY, VIDEO_FORMAT_PAINT}
 )
+VIDEO_FORMAT_GTA: Final[str] = "gta"
+"""A command-line choice, not a render path: it builds a Shorts scenario over gameplay."""
+CLI_VIDEO_FORMATS: Final[frozenset[str]] = VALID_VIDEO_FORMATS | {VIDEO_FORMAT_GTA}
 
 VALID_ORIENTATIONS: Final[frozenset[str]] = frozenset({"portrait", "landscape", "square"})
 
@@ -274,6 +277,9 @@ The real duration is always measured from the synthesized audio; this estimate e
 generated scenario does not set a ceiling its own narration would exceed.
 """
 
+TTS_TRAILING_SILENCE_SECONDS: Final[float] = 0.25
+"""Kept after the last word when trailing silence is trimmed, so its final sound never clips."""
+
 DURATION_ESTIMATE_HEADROOM: Final[float] = 1.6
 """Multiplier applied to the estimated runtime when writing ``max_duration_seconds``."""
 
@@ -394,6 +400,38 @@ POV_PLACEHOLDER_SEARCH_TERMS: Final[tuple[str, ...]] = (
     "cartoon pov illustration",
     "football rank cartoon",
 )
+
+DEFAULT_GTA_TOPICS_FILE: Final[str] = "topics-gta.json"
+DEFAULT_GTA_BACKGROUND_DIR: Final[str] = "assets/background/gta5"
+GTA_LANGUAGE: Final[str] = "tr"
+GTA_TTS_VOICE: Final[str] = "tr-TR-AhmetNeural"
+GTA_TTS_RATE: Final[str] = "+10%"
+GTA_DEFAULT_SCENES: Final[int] = 5
+GTA_MIN_SCENES: Final[int] = 3
+GTA_MAX_SCENES: Final[int] = 8
+GTA_MIN_WORDS: Final[int] = 45
+GTA_MAX_WORDS: Final[int] = 75
+"""About 15 to 25 seconds of narration. A checked fact runs 35 to 60 words, and asking for
+more made the model pad it with details of its own."""
+GTA_WORD_TOLERANCE: Final[int] = 5
+"""The model is asked for the range above; a reply this many words outside it still passes."""
+GTA_SCENE_GAP_SECONDS: Final[float] = 0.1
+"""With trailing silence trimmed, the next clip's own lead-in already makes the pause."""
+GTA_CATEGORY_ID: Final[str] = "20"
+"""YouTube's Gaming category."""
+GTA_BASE_TAGS: Final[tuple[str, ...]] = ("gta 5", "gta v", "gta 5 türkçe", "gta bilgileri")
+GTA_PLACEHOLDER_SEARCH_TERMS: Final[tuple[str, ...]] = ("gta 5 gameplay",)
+"""Stored because every scene needs search terms; gameplay footage never searches."""
+GTA_GAME_AUDIO_VOLUME: Final[float] = 0.0
+"""Gameplay often carries in-game radio songs, which draw copyright claims, so it stays muted."""
+GTA_SUBTITLE_FONT: Final[str] = "assets/fonts/Anton-Regular.ttf"
+GTA_SUBTITLE_FONT_SIZE: Final[int] = 92
+GTA_SUBTITLE_MAX_CHARS: Final[int] = 18
+"""Two or three words per line, the usual Shorts caption."""
+GTA_SUBTITLE_POSITION_RATIO: Final[float] = 0.62
+"""Above the title, buttons and description that Shorts lays over the bottom of the frame."""
+GTA_SUBTITLE_STROKE_WIDTH: Final[int] = 6
+GTA_SUBTITLE_ACCENT: Final[str] = "#FFD600"
 
 YOUTUBE_CATEGORY_LABELS: Final[dict[str, str]] = {
     "24": "Entertainment (24)",

@@ -352,7 +352,12 @@ class VideoSettings(StrictModel):
 
 
 class TTSSettings(StrictModel):
-    """Voice selection and prosody for edge-tts."""
+    """Voice selection and prosody for edge-tts.
+
+    ``trim_trailing_silence`` ends each scene shortly after its last spoken word. Edge TTS
+    closes every clip with about a second of silence, which between short scenes adds up to
+    dead air a Short cannot afford.
+    """
 
     voice: str = Field(default="tr-TR-AhmetNeural", min_length=3)
     rate: PercentString = "+0%"
@@ -360,6 +365,7 @@ class TTSSettings(StrictModel):
     pitch: HertzString = "+0Hz"
     normalize_text: bool = True
     language: str = Field(default="tr", min_length=2, max_length=16)
+    trim_trailing_silence: bool = False
 
 
 def _default_font() -> Path:

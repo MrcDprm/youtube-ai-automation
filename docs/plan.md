@@ -12,7 +12,9 @@ Başlangıç: 2026-11-12. Bu belge reponun portfolyoya eklenmesi ve Türkçe GTA
 - Ayrı bir repo açılmaz, bu repo geliştirilir.
 - Dil Türkçe. Görüntü kaynağı kullanıcının eklediği hazır oynanış videolarıdır; video indirme özelliği yapılmaz.
 - Kökteki 69 senaryo dosyası, `brands`, `.cursor` ve `scripts` klasörleri ve eski kanallara ait 4 konu listesi yedeklenip repodan silindi. `senaryo.example.json` şablon olarak kaldı; çalışma kopyası `senaryo.json` git dışında tutulur.
-- Eski kanalların koddaki marka profilleri ve biçimleri, yani paint, file, drawn ve pov, özellik olarak kalır. GTA paketi aynı marka sistemine eklenir.
+- Eski kanalların koddaki marka profilleri ve biçimleri, yani paint, file, drawn ve pov, özellik olarak kalır. GTA paketi marka profili olarak değil, komut satırında ayrı bir biçim olarak eklendi: `--format gta` ve `VIDEO_FORMAT=gta`. Marka profilleri yalnız paint biçiminin Studio dosyasında kullanılıyor.
+- Senaryoyu Gemini ücretsiz katmanda yazar. Google Search doğrulaması yeni anahtarlarda ücretli olduğu için kapalı. GTA bilgilerini Claude en az iki bağımsız kaynakla doğrulayıp `scenarios/topics-gta.json` dosyasına kaynaklarıyla yazar; Gemini yalnız verilen bilgiyi Shorts metnine çevirir, kurallara uymayan metni kod geri gönderir.
+- Ses `tr-TR-AhmetNeural`, Shorts'ta kelime vurgulu altyazı. Kullanıcı kararı, 2026-11-12.
 - Cursor ortak yazar satırı olan 3 commit olduğu gibi kalır, geçmiş yeniden yazılmaz.
 - Araç komut satırında kalır; arayüz ve kurulum dosyası yapılmaz.
 - YouTube'a yükleme özelliği kalır. API ile yüklenen videolar Google denetiminden geçmemiş projelerde gizli olarak kilitlendiği için günlük yayın YouTube Studio'dan zamanlanır.
@@ -36,8 +38,8 @@ Her iş kendi branch'inde, küçük commit'lerle yapılır; her commit'te testle
 3. **fix/turkish-uppercase:** altyazı ve kapak metninde Türkçe büyük harf, testleriyle.
 4. **fix/edge-tts-403:** en düşük edge-tts sürümü 7.3.1; 403 gelince paketi güncellemeyi öneren anlaşılır hata.
 5. **feat/gameplay-background:** uzun oynanış videolarından her videoya daha önce kullanılmamış bir kesit seçen görüntü kaynağı; 9:16 kırpma, oyun sesi kısık, kullanılan aralıklar önbellekte.
-6. **feat/gemini-scripts:** `IScriptGenerator` için Gemini. Bilgiler Google Search ile doğrulanır, kaynaklar senaryo dosyasına yazılır ama seslendirilmez. Anahtar `.env` içinde, Ollama seçenek olarak kalır.
-7. **feat/gta-shorts-tr:** Türkçe GTA 5 Shorts paketi: kuralların Türkçeye ve hazır arka plana uyarlanmış hali, konu listesi, ses, altyazı ve kapak ayarları.
-8. **Son tarama:** güvenlik kuralları ve kenar durumlar. Bilinen bulgular: sabit Cursor yolu, karaoke altyazıda ters bölü kaçışı, README'de API yüklemesinin gizli kilitlendiği bilgisinin eksik olması, bağımlılık taraması.
+6. **feat/gemini-scripts ve fix/gemini-free-tier:** `IScriptGenerator` için Gemini. Ücretsiz modeller sırayla denenir, biri meşgulse sıradaki yazar. Google Search doğrulaması seçenek olarak kaldı; açıkken kaynaklar senaryo dosyasına yazılır ama seslendirilmez. Anahtar `.env` içinde, Ollama seçenek olarak kalır.
+7. **feat/shorts-karaoke ve feat/gta-shorts-tr:** Shorts'ta konuşulan kelimeyi vurgulayan altyazı. Türkçe GTA 5 Shorts paketi: kaynaklı 11 bilgilik liste; yalnız verilen bilgiyi yazan istem; uzunluk, abartılı söz, bilgide olmayan sayı ve Türkçe yazım denetimi; Ahmet sesi; oynanış videosu; sahne sonundaki sessizliğin kırpılması; `generate`, `daily` ve `topics` için `--format gta`.
+8. **Son tarama:** güvenlik kuralları ve kenar durumlar. Bilinen bulgular: sabit Cursor yolu; README'de API yüklemesinin gizli kilitlendiği bilginin eksik olması; bağımlılık taraması; `utils` paketi `config` paketinden önce içe aktarılınca döngüsel import hatası; testlerin geliştiricinin `.env` dosyasındaki gizli olmayan ayarları okuması.
 9. **docs/readme:** iki dilli README ve Öğrendiklerim bölümü.
 10. **Yayın:** repo açıklaması, topic'ler ve Website alanı; `docs/seo.md` ve portfolyo sayfası; v1.0.0 etiketi ve Release; proje notları; portfolyo kartı metinleri ve `docs/showcase.png`.

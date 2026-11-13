@@ -11,6 +11,7 @@ import ast
 import asyncio
 import dataclasses
 import inspect
+import re
 from pathlib import Path
 from typing import Any
 
@@ -364,6 +365,7 @@ def _pipeline(
     options: PipelineOptions | None = None,
     uploader: IUploader | None = None,
     background: IBackgroundSource | None = None,
+    tts: FakeTTS | None = None,
 ) -> tuple[VideoPipeline, dict[str, Any]]:
     """Build a pipeline wired entirely from fakes.
 
@@ -373,7 +375,7 @@ def _pipeline(
     from modules.subtitle import SrtSubtitleBuilder
 
     fakes: dict[str, Any] = {
-        "tts": FakeTTS(),
+        "tts": tts or FakeTTS(),
         "media": FakeProvider(),
         "editor": FakeEditor(),
         "thumbnail": FakeThumbnail(),
@@ -695,6 +697,40 @@ def test_scene_plan_carries_word_timings_and_language(settings: Settings) -> Non
     assert [cue.text for cue in plans[2].word_cues] == ["Ikinci", "sahne", "metni."]
     assert plans[2].word_cues[0].start == pytest.approx(0.0)
     assert plans[1].language == "en"
+
+
+class TrailingSilenceTTS(FakeTTS):
+    """Like Edge TTS, closes every clip with a second of silence after the last word."""
+
+    async def synthesize(self, text: str, out_path: Path, tts: TTSSettings) -> TTSResult:
+        result = await super().synthesize(text, out_path, tts)
+        return dataclasses.replace(result, duration=result.word_cues[-1].end + 1.0)
+
+
+@pytest.mark.parametrize("trim", [True, False])
+def test_trailing_silence_is_trimmed_only_when_the_scenario_asks(
+    settings: Settings, trim: bool
+) -> None:
+    """Scenes, captions and the final cut all time themselves from the trimmed duration."""
+    scenario = _scenario(tts={"trim_trailing_silence": trim})
+    pipeline, fakes = _pipeline(settings, scenario, tts=TrailingSilenceTTS())
+    pipeline.run()
+
+    plans = {plan.scene.id: plan for plan in fakes["editor"].plans}
+    last_word_end = plans[1].word_cues[-1].end
+    expected = last_word_end + 0.25 if trim else last_word_end + 1.0
+    assert plans[1].audio_duration == pytest.approx(expected)
+    assert plans[1].total_duration == pytest.approx(expected + scenario.video.scene_gap_seconds)
+
+    assert pipeline.subtitle_path is not None
+    second_scene_start = expected + scenario.video.scene_gap_seconds
+    starts = re.findall(
+        r"(\d\d):(\d\d):(\d\d),(\d{3}) -->", pipeline.subtitle_path.read_text("utf-8")
+    )
+    seconds = [int(h) * 3600 + int(m) * 60 + int(s) + int(ms) / 1000 for h, m, s, ms in starts]
+    assert min(value for value in seconds if value > 0.5) == pytest.approx(
+        second_scene_start, abs=0.01
+    )
 
 
 def test_scene_files_change_with_word_timings_and_language(settings: Settings) -> None:

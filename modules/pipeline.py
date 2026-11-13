@@ -15,7 +15,7 @@ from __future__ import annotations
 import asyncio
 import time
 import traceback
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
@@ -25,6 +25,7 @@ from config.constants import (
     PROJECT_ROOT,
     PROVIDER_LOCAL,
     STORY_DURATION_TOLERANCE_SECONDS,
+    TTS_TRAILING_SILENCE_SECONDS,
 )
 from config.settings import Settings
 from models.scenario import Scenario, Scene, resolve_project_path
@@ -386,6 +387,7 @@ class VideoPipeline:
         with _StageTimer(self._manifest, "narration"):
             results = asyncio.run(self._synthesize_all(scenes))
 
+        results = [self._trim_trailing_silence(result) for result in results]
         for scene, result in zip(scenes, results, strict=True):
             self._tts_results[scene.id] = result
 
@@ -395,6 +397,26 @@ class VideoPipeline:
             f"Narration ready: {len(results)} scene(s), {human_duration(total)} total"
             + (f", {cached} from cache" if cached else "")
         )
+
+    def _trim_trailing_silence(self, result: TTSResult) -> TTSResult:
+        """End a scene shortly after its last word when the scenario asks for it.
+
+        Only the measured duration changes. Every later stage times the scene from it, and
+        the editor cuts the longer audio file to the scene's length.
+
+        Args:
+            result: One scene's synthesis result.
+
+        Returns:
+            The result with a shorter duration, or unchanged when trimming is off, there are
+            no word timings, or the audio already ends near its last word.
+        """
+        if not self._scenario.tts.trim_trailing_silence or not result.word_cues:
+            return result
+        spoken = result.word_cues[-1].end + TTS_TRAILING_SILENCE_SECONDS
+        if spoken >= result.duration:
+            return result
+        return replace(result, duration=spoken)
 
     def _fit_story_duration(self) -> None:
         """Drop trailing story chapters when measured speech overshoots ``--minutes``."""

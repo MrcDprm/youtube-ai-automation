@@ -22,7 +22,11 @@ from rich.markup import escape
 from rich.table import Table
 
 from config.constants import (
+    BACKGROUND_VIDEO_EXTENSIONS,
+    CLI_VIDEO_FORMATS,
     DEFAULT_PAINT_TOPICS_FILE,
+    GTA_DEFAULT_SCENES,
+    GTA_LANGUAGE,
     ORIENTATION_RESOLUTIONS,
     PAINT_DEFAULT_MINUTES,
     PROJECT_ROOT,
@@ -32,7 +36,7 @@ from config.constants import (
     STORY_DEFAULT_MINUTES,
     STORY_MAX_MINUTES,
     STORY_MIN_MINUTES,
-    VALID_VIDEO_FORMATS,
+    VIDEO_FORMAT_GTA,
     VIDEO_FORMAT_PAINT,
     VIDEO_FORMAT_STORY,
     ExitCode,
@@ -42,6 +46,7 @@ from models.scenario import Orientation, Scenario
 from modules.background_library import BackgroundLibrary
 from modules.editor import MoviePyEditor
 from modules.gemini_generator import GeminiScriptGenerator
+from modules.gta_writer import GtaShortsWriter
 from modules.interfaces import IBackgroundSource, IMediaProvider, IUploader, MediaCandidate
 from modules.media_cache import MediaCache
 from modules.paint_generator import OllamaPaintGenerator
@@ -59,6 +64,7 @@ from modules.queue import (
     save_state,
 )
 from modules.scenario_builder import (
+    build_gta_scenario,
     build_paint_scenario,
     build_scenario,
     build_story_scenario,
@@ -474,6 +480,81 @@ def _with_upload(scenario: Scenario, enabled: bool) -> Scenario:
     return scenario.model_copy(update={"youtube": youtube})
 
 
+def _gta_background_folder(settings: Settings) -> Path:
+    """Check for gameplay before any model call, since a GTA Short cannot render without it.
+
+    Args:
+        settings: Runtime settings holding ``GTA_BACKGROUND_DIR``.
+
+    Returns:
+        The folder as configured, so a relative path stays relative in the scenario file.
+
+    Raises:
+        ConfigurationError: If the folder is missing or holds no video file.
+    """
+    folder = settings.gta_background_dir()
+    videos = (
+        [
+            path
+            for path in folder.iterdir()
+            if path.is_file() and path.suffix.lower() in BACKGROUND_VIDEO_EXTENSIONS
+        ]
+        if folder.is_dir()
+        else []
+    )
+    if not videos:
+        raise ConfigurationError(
+            f"No GTA 5 gameplay videos in {folder}.",
+            hint=(
+                "Put long gameplay recordings of your own in that folder as "
+                f"{', '.join(sorted(ext.lstrip('.') for ext in BACKGROUND_VIDEO_EXTENSIONS))} "
+                "files, or point GTA_BACKGROUND_DIR in .env at another folder."
+            ),
+        )
+    return settings.GTA_BACKGROUND_DIR
+
+
+def _pick_gta_topic(settings: Settings, choice: str, fact: str | None) -> Topic:
+    """Find the GTA topic to write about: from the checked list, or the user's own fact.
+
+    Args:
+        settings: Runtime settings, for the topic list's path.
+        choice: A topic from ``topics-gta.json``, by its title or its number in
+            ``topics --gta``, or a new topic when ``fact`` is given.
+        fact: The checked fact for a topic that is not on the list.
+
+    Returns:
+        The topic with its fact and sources.
+
+    Raises:
+        ConfigurationError: If the list cannot be read, or the topic is not on it and no
+            fact was given.
+    """
+    if fact and fact.strip():
+        return Topic(topic=choice.strip(), fact=fact.strip())
+
+    path = settings.gta_topics_path()
+    topics = load_topics(path) if path.is_file() else []
+    wanted = choice.strip()
+    if wanted.isdigit() and 1 <= int(wanted) <= len(topics):
+        return topics[int(wanted) - 1]
+
+    def key(text: str) -> str:
+        # Typed in capitals, Turkish i comes as İ or as a plain I, so the dots are ignored.
+        return text.replace("İ", "i").replace("I", "i").replace("ı", "i").casefold()
+
+    for topic in topics:
+        if key(topic.topic) == key(wanted):
+            return topic
+    raise ConfigurationError(
+        f"The topic {wanted} is not in {path.name}, and no fact was given.",
+        hint=(
+            "Pick a topic by its title or number from python main.py topics --gta, or pass a "
+            "fact you checked with --fact."
+        ),
+    )
+
+
 # --------------------------------------------------------------------------------------
 # Commands
 # --------------------------------------------------------------------------------------
@@ -686,7 +767,15 @@ def validate(
 
 @app.command()
 def generate(
-    topic: Annotated[str, typer.Argument(help="What the video should be about.")],
+    topic: Annotated[
+        str,
+        typer.Argument(
+            help=(
+                "What the video should be about. With --format gta, a title or number from "
+                "python main.py topics --gta."
+            )
+        ),
+    ],
     scenes: Annotated[
         int | None,
         typer.Option("--scenes", "-n", min=SCRIPT_MIN_SCENES, max=SCRIPT_MAX_SCENES),
@@ -699,7 +788,10 @@ def generate(
         str,
         typer.Option(
             "--format",
-            help="shorts (default), story (photo narrative), or paint (Badly Drawn Why).",
+            help=(
+                "shorts by default, story for a photo narrative, paint for Badly Drawn Why, "
+                "or gta for a Turkish GTA 5 Short over your gameplay."
+            ),
         ),
     ] = "shorts",
     minutes: Annotated[
@@ -732,6 +824,10 @@ def generate(
     guidance: Annotated[
         str | None, typer.Option("--guidance", help="Extra direction, e.g. a tone or angle.")
     ] = None,
+    fact: Annotated[
+        str | None,
+        typer.Option("--fact", help="GTA only: a fact you checked, for a topic not on the list."),
+    ] = None,
     no_burn_in: Annotated[
         bool, typer.Option("--no-burn-in", help="Write an SRT sidecar instead of burning in.")
     ] = False,
@@ -754,14 +850,23 @@ def generate(
         return
 
     fmt = video_format.strip().lower()
-    if fmt not in VALID_VIDEO_FORMATS:
+    if fmt not in CLI_VIDEO_FORMATS:
         _fail(
             ConfigurationError(
                 f"Unknown format {video_format!r}.",
-                hint=f"Choose one of: {', '.join(sorted(VALID_VIDEO_FORMATS))}.",
+                hint=f"Choose one of: {', '.join(sorted(CLI_VIDEO_FORMATS))}.",
             )
         )
         return
+
+    is_gta = fmt == VIDEO_FORMAT_GTA
+    if is_gta and orientation not in {None, "portrait"}:
+        log_warn("GTA 5 Shorts are always portrait; --orientation is ignored.")
+        orientation = None
+    if is_gta and language not in {None, GTA_LANGUAGE}:
+        log_warn("GTA 5 Shorts are narrated in Turkish; --language is ignored.")
+    if fact and not is_gta:
+        log_warn("--fact is only used with --format gta.")
 
     resolved_orientation = orientation or (
         "landscape" if fmt in {VIDEO_FORMAT_STORY, VIDEO_FORMAT_PAINT} else "portrait"
@@ -775,7 +880,9 @@ def generate(
         )
         return
 
-    resolved_language = language or ("en" if fmt == VIDEO_FORMAT_PAINT else "tr")
+    resolved_language = (
+        GTA_LANGUAGE if is_gta else language or ("en" if fmt == VIDEO_FORMAT_PAINT else "tr")
+    )
     chapter_count = scenes
     if chapter_count is None:
         chapter_count = SCRIPT_DEFAULT_SCENES
@@ -805,21 +912,36 @@ def generate(
         verbose=verbose,
     )
 
+    gta_topic: Topic | None = None
+    gta_folder: Path | None = None
     try:
+        if is_gta:
+            gta_topic = _pick_gta_topic(settings, topic, fact)
+            gta_folder = _gta_background_folder(settings)
         generator = _build_script_generator(settings, model)
     except PipelineError as exc:
         _fail(exc)
         return
 
     kind = "chapter(s)" if fmt in {VIDEO_FORMAT_STORY, VIDEO_FORMAT_PAINT} else "scene(s)"
-    if fmt == VIDEO_FORMAT_PAINT:
+    if gta_topic is not None:
+        log_step(1, 2, f"Writing a GTA 5 Short on {gta_topic.topic}")
+    elif fmt == VIDEO_FORMAT_PAINT:
         log_step(1, 2, f"Drafting a {story_minutes}-minute Badly Drawn Why essay on '{topic}'")
     elif fmt == VIDEO_FORMAT_STORY:
         log_step(1, 2, f"Drafting a {story_minutes}-minute story on '{topic}'")
     else:
         log_step(1, 2, f"Drafting {chapter_count} {kind} on '{topic}'")
     try:
-        if fmt == VIDEO_FORMAT_PAINT:
+        if gta_topic is not None:
+            draft = GtaShortsWriter(generator).generate(
+                gta_topic.topic,
+                gta_topic.fact or "",
+                scene_count=scenes or gta_topic.scenes or GTA_DEFAULT_SCENES,
+                sources=gta_topic.sources,
+                extra_guidance=guidance or gta_topic.guidance,
+            )
+        elif fmt == VIDEO_FORMAT_PAINT:
             if scenes is not None:
                 log_warn("Paint generate ignores --scenes/-n; use --minutes for length.")
             draft = OllamaPaintGenerator(generator).generate(
@@ -856,7 +978,15 @@ def generate(
 
     log_step(2, 2, "Assembling the scenario")
     try:
-        if fmt == VIDEO_FORMAT_PAINT:
+        if gta_topic is not None and gta_folder is not None:
+            scenario = build_gta_scenario(
+                draft,
+                topic=gta_topic.topic,
+                background_folder=gta_folder,
+                voice=voice,
+                burn_in=not no_burn_in,
+            )
+        elif fmt == VIDEO_FORMAT_PAINT:
             scenario = build_paint_scenario(
                 draft,
                 topic=topic,
@@ -927,22 +1057,34 @@ def topics(
         bool,
         typer.Option("--paint", help="List the Badly Drawn Why English topic bank."),
     ] = False,
+    gta: Annotated[
+        bool,
+        typer.Option("--gta", help="List the checked GTA 5 facts that --format gta writes from."),
+    ] = False,
 ) -> None:
-    """Print the topic bank used by daily production or the paint channel."""
+    """Print the topic bank used by daily production, the paint channel or the GTA pack."""
     try:
         settings = _load_settings()
     except ConfigurationError as exc:
         _fail(exc)
         return
+    if paint and gta:
+        _fail(ConfigurationError("Choose --paint or --gta, not both."))
+        return
 
     from utils.fs import read_json
 
-    path = settings.scenarios_dir() / DEFAULT_PAINT_TOPICS_FILE if paint else settings.topics_path()
+    if gta:
+        path = settings.gta_topics_path()
+    elif paint:
+        path = settings.scenarios_dir() / DEFAULT_PAINT_TOPICS_FILE
+    else:
+        path = settings.topics_path()
     if not path.is_file():
         _fail(
             ConfigurationError(
                 f"Topic file not found: {path}",
-                hint="Add scenarios/topics.json or scenarios/topics-paint.json.",
+                hint="Add scenarios/topics.json, topics-paint.json or topics-gta.json.",
             )
         )
         return
@@ -1006,8 +1148,13 @@ def daily(
     state_path = settings.scheduler_state_path()
     today = date.today()
 
+    topics_path = (
+        settings.gta_topics_path()
+        if settings.VIDEO_FORMAT == VIDEO_FORMAT_GTA
+        else settings.topics_path()
+    )
     try:
-        topics = load_topics(settings.topics_path()) if settings.topics_path().is_file() else []
+        topics = load_topics(topics_path) if topics_path.is_file() else []
     except PipelineError as exc:
         _fail(exc)
         return
@@ -1122,7 +1269,11 @@ def _daily_from_topic(
         raise ConfigurationError(f"DAILY_ORIENTATION {orientation!r} is not valid.")
 
     language = topic.language or settings.DAILY_LANGUAGE
-    if fmt == VIDEO_FORMAT_PAINT:
+    gta_folder: Path | None = None
+    if fmt == VIDEO_FORMAT_GTA:
+        gta_folder = _gta_background_folder(settings)
+        log_step(1, 3, f"Writing a GTA 5 Short on {topic.topic}")
+    elif fmt == VIDEO_FORMAT_PAINT:
         if not topic.language and language == "tr":
             language = "en"
         story_minutes = PAINT_DEFAULT_MINUTES
@@ -1137,7 +1288,21 @@ def _daily_from_topic(
         log_step(1, 3, f"Drafting {scene_count} scene(s) on '{topic.topic}'")
 
     generator = _build_script_generator(settings)
-    if fmt == VIDEO_FORMAT_PAINT:
+    if gta_folder is not None:
+        draft = GtaShortsWriter(generator).generate(
+            topic.topic,
+            topic.fact or "",
+            scene_count=topic.scenes or GTA_DEFAULT_SCENES,
+            sources=topic.sources,
+            extra_guidance=topic.guidance,
+        )
+        parsed = build_gta_scenario(
+            draft,
+            topic=topic.topic,
+            background_folder=gta_folder,
+            upload_enabled=do_upload,
+        )
+    elif fmt == VIDEO_FORMAT_PAINT:
         draft = OllamaPaintGenerator(generator).generate(
             topic.topic,
             target_seconds=target_seconds,
