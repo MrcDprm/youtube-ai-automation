@@ -1,13 +1,19 @@
-"""Windows Task Scheduler XML and crontab line — no real schtasks calls."""
+"""Windows Task Scheduler XML and crontab line.
+
+schtasks itself runs once, on Windows only, to query a task name that does not exist; nothing
+is ever registered or deleted.
+"""
 
 from __future__ import annotations
 
 import subprocess
+import sys
 from pathlib import Path
 
 import pytest
 
 from modules.scheduler import (
+    _run,
     build_crontab_line,
     build_windows_task_xml,
     daily_command_args,
@@ -117,17 +123,63 @@ def test_register_surfaces_schtasks_stderr(monkeypatch: pytest.MonkeyPatch, tmp_
         register_daily_task(time_of_day="09:00")
 
 
-def test_unregister_treats_missing_task_as_success(monkeypatch: pytest.MonkeyPatch) -> None:
-    """Removing a task that was never registered is not an error."""
+@pytest.mark.parametrize(
+    "missing",
+    [
+        "ERROR: The system cannot find the file specified.",
+        "HATA: Sistem belirtilen dosyayı bulamıyor.",
+    ],
+)
+def test_unregister_treats_missing_task_as_success(
+    monkeypatch: pytest.MonkeyPatch, missing: str
+) -> None:
+    """Removing a task that was never registered is not an error, in any Windows language."""
+    calls: list[list[str]] = []
+
+    def fake_run(args: list[str]) -> subprocess.CompletedProcess[str]:
+        calls.append(args)
+        return subprocess.CompletedProcess(args, 1, "", missing)
+
     monkeypatch.setattr("modules.scheduler.is_windows", lambda: True)
-    monkeypatch.setattr(
-        "modules.scheduler._run",
-        lambda args: subprocess.CompletedProcess(
-            args, 1, "", "ERROR: The system cannot find the file specified."
-        ),
-    )
+    monkeypatch.setattr("modules.scheduler._run", fake_run)
+
+    assert "nothing was removed" in unregister_daily_task()
+    assert [call[1] for call in calls] == ["/Query"]
+
+
+def test_unregister_deletes_a_registered_task(monkeypatch: pytest.MonkeyPatch) -> None:
+    calls: list[list[str]] = []
+
+    def fake_run(args: list[str]) -> subprocess.CompletedProcess[str]:
+        calls.append(args)
+        return subprocess.CompletedProcess(args, 0, "SUCCESS", "")
+
+    monkeypatch.setattr("modules.scheduler.is_windows", lambda: True)
+    monkeypatch.setattr("modules.scheduler._run", fake_run)
 
     assert "Removed" in unregister_daily_task()
+    assert [call[1] for call in calls] == ["/Query", "/Delete"]
+
+
+def test_unregister_reports_a_failed_delete(monkeypatch: pytest.MonkeyPatch) -> None:
+    def fake_run(args: list[str]) -> subprocess.CompletedProcess[str]:
+        failed = args[1] == "/Delete"
+        return subprocess.CompletedProcess(args, int(failed), "", "Erişim engellendi.")
+
+    monkeypatch.setattr("modules.scheduler.is_windows", lambda: True)
+    monkeypatch.setattr("modules.scheduler._run", fake_run)
+
+    with pytest.raises(SchedulerError, match="Erişim engellendi"):
+        unregister_daily_task()
+
+
+@pytest.mark.skipif(sys.platform != "win32", reason="schtasks exists only on Windows")
+def test_schtasks_messages_are_read_without_garbled_letters() -> None:
+    """schtasks writes in the OEM code page; read as UTF-8, Turkish letters became U+FFFD."""
+    result = _run(["schtasks", "/Query", "/TN", "youtube-automation-test-yok-9f8e7d"])
+
+    assert result.returncode != 0
+    assert "�" not in f"{result.stdout}{result.stderr}"
 
 
 def test_query_unregistered_task(monkeypatch: pytest.MonkeyPatch) -> None:
