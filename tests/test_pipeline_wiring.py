@@ -605,6 +605,32 @@ def test_upload_runs_when_enabled(settings: Settings) -> None:
     assert manifest.youtube_privacy_status == "private"
 
 
+def test_paint_covers_are_found_inside_the_project(settings: Settings) -> None:
+    """A cover named after the episode in output/storyboard is the one used."""
+    pipeline, _ = _pipeline(settings)
+    cover = settings.storyboard_dir() / "thumbnail-wiring-test.png"
+    cover.parent.mkdir(parents=True, exist_ok=True)
+    cover.write_bytes(b"png")
+
+    assert pipeline._paint_cover() == cover
+
+
+def test_no_source_file_points_into_a_users_home_folder() -> None:
+    """A path such as C:/Users/name/.cursor works on one machine and leaks a user name."""
+    pattern = re.compile(r"[A-Za-z]:[\\/]+Users[\\/]|/home/[a-z]|\.cursor[\\/]")
+    offenders = [
+        f"{path.relative_to(PROJECT_ROOT)}:{number}"
+        for folder in ("config", "models", "modules", "utils", "zenn")
+        for path in sorted((PROJECT_ROOT / folder).rglob("*.py"))
+        for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1)
+        if pattern.search(line)
+    ]
+    main_lines = (PROJECT_ROOT / "main.py").read_text(encoding="utf-8").splitlines()
+    offenders += [f"main.py:{n}" for n, line in enumerate(main_lines, 1) if pattern.search(line)]
+
+    assert offenders == []
+
+
 class LeakyTTS(FakeTTS):
     """Fails with an error message that repeats a secret, as a request URL would."""
 

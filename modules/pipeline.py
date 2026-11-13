@@ -697,6 +697,21 @@ class VideoPipeline:
             self._story_photos = copy_paint_stills(sources, self._settings.clips_dir())
         log_success(f"{len(self._story_photos)} paint still(s) ready (no stock search)")
 
+    def _paint_cover(self) -> Path | None:
+        """Find the cover drawn for this paint episode.
+
+        Covers sit with the stills under ``output/storyboard``: in the episode's own folder,
+        or in the storyboard folder itself as ``thumbnail-<project>.png``.
+
+        Returns:
+            The cover image, or ``None`` when none was drawn.
+        """
+        return find_paint_thumbnail(
+            self._paint_search_roots(),
+            project_id=self._scenario.project_id,
+            assets_dir=self._settings.storyboard_dir(),
+        )
+
     def _paint_search_roots(self) -> list[Path]:
         """Folders the image agent may drop stills into."""
         storyboard = self._settings.storyboard_dir()
@@ -1013,13 +1028,7 @@ class VideoPipeline:
                                 "falling back to a video frame."
                             )
                 elif self._scenario.video.is_paint:
-                    source = find_paint_thumbnail(
-                        self._paint_search_roots(),
-                        project_id=self._scenario.project_id,
-                        assets_dir=Path(
-                            r"C:\Users\mirac\.cursor\projects\c-Users-mirac-Desktop-youtube-automation\assets"
-                        ),
-                    )
+                    source = self._paint_cover()
                     if source is not None:
                         try:
                             thumbnail = prepare_youtube_thumbnail(source, out_path)
