@@ -12,6 +12,7 @@ import asyncio
 import dataclasses
 import inspect
 import re
+from collections.abc import Sequence
 from pathlib import Path
 from typing import Any
 
@@ -328,14 +329,21 @@ class FakeUploader(IUploader):
     def __init__(self) -> None:
         self.authenticated = False
         self.uploads: list[Path] = []
+        self.credits: list[list[MediaCredit]] = []
 
     def authenticate(self) -> None:
         self.authenticated = True
 
     def upload(
-        self, video_path: Path, meta: YouTubeSettings, thumbnail: Path | None
+        self,
+        video_path: Path,
+        meta: YouTubeSettings,
+        thumbnail: Path | None,
+        *,
+        credits: Sequence[MediaCredit] = (),
     ) -> UploadResult:
         self.uploads.append(video_path)
+        self.credits.append(list(credits))
         return UploadResult(
             video_id="abc123",
             url="https://www.youtube.com/watch?v=abc123",
@@ -593,6 +601,21 @@ def test_upload_runs_when_enabled(settings: Settings) -> None:
     assert len(uploader.uploads) == 1
     assert manifest.youtube_video_id == "abc123"
     assert manifest.youtube_privacy_status == "private"
+
+
+def test_upload_names_every_footage_contributor_once(settings: Settings) -> None:
+    """The credits are known only after the footage stage, so they travel with the upload."""
+    uploader = FakeUploader()
+    scenario = _scenario(
+        youtube={"title": "Wiring Test", "upload_enabled": True, "privacy_status": "private"}
+    )
+    pipeline, _ = _pipeline(settings, scenario=scenario, uploader=uploader)
+
+    pipeline.run()
+
+    assert uploader.credits == [pipeline.credits]
+    assert pipeline.credits
+    assert len({credit.key() for credit in pipeline.credits}) == len(pipeline.credits)
 
 
 def test_public_upload_requires_confirmation(settings: Settings) -> None:

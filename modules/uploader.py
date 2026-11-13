@@ -19,6 +19,7 @@ import random
 import stat
 import sys
 import time
+from collections.abc import Sequence
 from pathlib import Path
 from typing import Any
 
@@ -57,15 +58,14 @@ def build_description(
     synthetic_disclosure: bool,
     max_chars: int = YOUTUBE_DESCRIPTION_MAX_CHARS,
 ) -> str:
-    """Append the legally required attribution block to a description.
+    """Append the contributor credits and the synthetic content disclosure to a description.
 
-    The Pexels and Pixabay licences require crediting contributors, and YouTube requires
-    disclosing synthetic or altered content. Both are appended here rather than left to the
-    scenario author, so they cannot be forgotten.
+    Pexels and Pixabay do not require credit but ask for it, and YouTube requires disclosing
+    synthetic or altered content. Both are appended here rather than left to the scenario
+    author, so they cannot be forgotten.
 
     If the combined text would exceed ``max_chars``, the author's own description is trimmed
-    and the attribution block is preserved intact, because the attribution is the part with a
-    legal obligation attached.
+    and the block is preserved intact, because the disclosure in it is required.
 
     Args:
         base: The description from the scenario.
@@ -120,7 +120,6 @@ class YouTubeUploader(IUploader):
         client_secrets_file: Path,
         token_file: Path,
         *,
-        credits: list[MediaCredit] | None = None,
         caption_file: Path | None = None,
         chunk_size: int = YOUTUBE_UPLOAD_CHUNK_SIZE,
     ) -> None:
@@ -129,13 +128,11 @@ class YouTubeUploader(IUploader):
         Args:
             client_secrets_file: Path to the OAuth client secrets JSON.
             token_file: Path where the access and refresh tokens are cached.
-            credits: Attribution records appended to the description.
             caption_file: Optional SRT to attach as a caption track.
             chunk_size: Resumable upload chunk size in bytes.
         """
         self._client_secrets_file = client_secrets_file
         self._token_file = token_file
-        self._credits = credits or []
         self._caption_file = caption_file
         self._chunk_size = chunk_size
         self._service: Any = None
@@ -310,6 +307,8 @@ class YouTubeUploader(IUploader):
         video_path: Path,
         meta: YouTubeSettings,
         thumbnail: Path | None,
+        *,
+        credits: Sequence[MediaCredit] = (),
     ) -> UploadResult:
         """Upload a video, then apply its thumbnail, playlist and captions.
 
@@ -317,6 +316,7 @@ class YouTubeUploader(IUploader):
             video_path: The MP4 to publish.
             meta: Title, description, tags and privacy settings.
             thumbnail: Optional custom thumbnail.
+            credits: Stock footage contributors to name in the description.
 
         Returns:
             The new video's id, URL and applied privacy status.
@@ -329,7 +329,7 @@ class YouTubeUploader(IUploader):
             raise UploadError(f"Cannot upload, video not found: {video_path}")
 
         service = self._require_service()
-        body = self._build_body(meta)
+        body = self._build_body(meta, credits)
         response = self._insert_video(service, video_path, body)
 
         video_id = str(response.get("id", "")).strip()
@@ -365,18 +365,21 @@ class YouTubeUploader(IUploader):
             caption_uploaded=caption_uploaded,
         )
 
-    def _build_body(self, meta: YouTubeSettings) -> dict[str, Any]:
+    def _build_body(
+        self, meta: YouTubeSettings, credits: Sequence[MediaCredit] = ()
+    ) -> dict[str, Any]:
         """Build the ``videos.insert`` request body.
 
         Args:
             meta: The scenario's YouTube settings.
+            credits: Stock footage contributors to name in the description.
 
         Returns:
             The request body, with attribution already merged into the description.
         """
         description = build_description(
             meta.description,
-            self._credits,
+            list(credits),
             synthetic_disclosure=meta.synthetic_content_disclosure,
         )
 

@@ -8,6 +8,7 @@ is a change to the composition root in ``main.py`` and to nothing else.
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
+from collections.abc import Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -792,6 +793,8 @@ class IUploader(ABC):
         video_path: Path,
         meta: YouTubeSettings,
         thumbnail: Path | None,
+        *,
+        credits: Sequence[MediaCredit] = (),
     ) -> UploadResult:
         """Upload a video and apply its metadata.
 
@@ -799,6 +802,8 @@ class IUploader(ABC):
             video_path: The MP4 to publish.
             meta: Title, description, tags and privacy settings.
             thumbnail: Optional custom thumbnail.
+            credits: The stock footage contributors to name in the description. They are
+                known only once the footage is downloaded, so they arrive with the upload.
 
         Returns:
             The new video's id, URL and applied privacy status.

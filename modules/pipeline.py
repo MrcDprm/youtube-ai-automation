@@ -1074,7 +1074,9 @@ class VideoPipeline:
 
         with _StageTimer(self._manifest, "upload"):
             uploader.authenticate()
-            result = uploader.upload(video_path, self._scenario.youtube, thumbnail)
+            result = uploader.upload(
+                video_path, self._scenario.youtube, thumbnail, credits=self._unique_credits()
+            )
 
         self._record_upload(result)
         log_success(f"Published: {result.url}")
