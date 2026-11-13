@@ -22,3 +22,6 @@ scenarios/done/
 scenarios/failed/
 # Working scenario; copy it from senaryo.example.json.
 senaryo.json
+# Gameplay recordings are large and belong to whoever recorded them.
+assets/background/*
+!assets/background/README.md
