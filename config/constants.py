@@ -561,6 +561,8 @@ SYNTHETIC_DISCLOSURE_TEXT: Final[str] = (
 FONT_EXTENSIONS: Final[tuple[str, ...]] = (".ttf", ".otf", ".ttc")
 
 INTER_ZIP_URL: Final[str] = "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip"
+INTER_ZIP_SHA256: Final[str] = "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e"
+"""SHA-256 of the v4.1 archive. Its extras/ttf/Inter-Bold.ttf is the file in assets/fonts."""
 INTER_ZIP_MEMBER_CANDIDATES: Final[tuple[str, ...]] = (
     "Inter-Bold.ttf",
     "Inter_18pt-Bold.ttf",
@@ -570,8 +572,12 @@ INTER_ZIP_MEMBER_CANDIDATES: Final[tuple[str, ...]] = (
 """Static bold faces to look for inside the Inter release archive, best first."""
 
 ANTON_TTF_URL: Final[str] = (
-    "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf"
+    "https://raw.githubusercontent.com/google/fonts/"
+    "e0a8124cf36bb7c32ca68e5d46d6acdbc3df866a/ofl/anton/Anton-Regular.ttf"
 )
+"""Pinned to the last commit that changed the file, so the checksum below keeps matching."""
+ANTON_TTF_SHA256: Final[str] = "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+"""SHA-256 of the same file as assets/fonts/Anton-Regular.ttf."""
 ANTON_FILENAME: Final[str] = "Anton-Regular.ttf"
 
 SYSTEM_FONT_DIRECTORIES: Final[dict[str, tuple[str, ...]]] = {

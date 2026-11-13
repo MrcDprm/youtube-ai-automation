@@ -23,9 +23,11 @@ from typing import Any
 
 from config.constants import (
     ANTON_FILENAME,
+    ANTON_TTF_SHA256,
     ANTON_TTF_URL,
     FONT_EXTENSIONS,
     INTER_ZIP_MEMBER_CANDIDATES,
+    INTER_ZIP_SHA256,
     INTER_ZIP_URL,
     MIN_FREE_DISK_BYTES,
     PROJECT_ROOT,
@@ -533,6 +535,8 @@ def download_default_font(
 
     Tries the official Inter release archive first, extracting a static bold face, and falls
     back to Anton, a single-file display font that is always available as a direct download.
+    Each download is kept only if its SHA-256 matches the pinned value, so a file changed on
+    the way or at the source is never written into the project.
 
     Args:
         fonts_dir: Destination directory. Defaults to :func:`default_fonts_dir`.
@@ -554,10 +558,13 @@ def download_default_font(
     try:
         response = requests.get(INTER_ZIP_URL, timeout=timeout)
         response.raise_for_status()
-        extracted = _extract_font_from_zip(response.content, inter_target)
-        if extracted is not None:
-            return extracted, "Inter (SIL OFL 1.1), from the official rsms/inter release"
-        failures.append("Inter archive contained no static bold face")
+        if hashlib.sha256(response.content).hexdigest() != INTER_ZIP_SHA256:
+            failures.append("the Inter archive did not match its pinned SHA-256")
+        else:
+            extracted = _extract_font_from_zip(response.content, inter_target)
+            if extracted is not None:
+                return extracted, "Inter (SIL OFL 1.1), from the official rsms/inter release"
+            failures.append("Inter archive contained no static bold face")
     except requests.RequestException as exc:
         failures.append(f"Inter download failed: {exc}")
 
@@ -567,6 +574,8 @@ def download_default_font(
         response.raise_for_status()
         if not response.content:
             failures.append("Anton download returned an empty body")
+        elif hashlib.sha256(response.content).hexdigest() != ANTON_TTF_SHA256:
+            failures.append("the Anton font did not match its pinned SHA-256")
         else:
             atomic_write_bytes(anton_target, response.content)
             return anton_target, "Anton (SIL OFL 1.1), from the Google Fonts repository"
