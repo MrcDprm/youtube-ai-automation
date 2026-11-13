@@ -102,7 +102,7 @@ from utils.preflight import CheckResult, run_all_checks
 
 app = typer.Typer(
     name="youtube-automation",
-    help="Zero-cost, fully local automated video production pipeline.",
+    help="Turn a topic into a narrated, captioned video and upload it to YouTube.",
     add_completion=False,
     no_args_is_help=True,
 )
