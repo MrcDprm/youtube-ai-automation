@@ -26,7 +26,7 @@ from config.constants import (
     USER_AGENT,
 )
 from modules.interfaces import IMediaProvider, MediaCandidate
-from modules.media_cache import MediaCache
+from modules.media_cache import MAX_PHOTO_DOWNLOAD_BYTES, MediaCache
 from modules.video_fetcher import score_candidate
 from utils.exceptions import MediaDownloadError, MediaNotFoundError, MediaProviderError
 from utils.logger import get_logger, log_warn
@@ -67,7 +67,7 @@ def _download_checked_photo(cache: MediaCache, url: str, dest: Path) -> Path:
         MediaDownloadError: If the file is in any other format. Both copies are deleted, so a
             later run downloads it again instead of trusting the cached file.
     """
-    path = cache.fetch(url, dest=dest)
+    path = cache.fetch(url, dest=dest, maximum_bytes=MAX_PHOTO_DOWNLOAD_BYTES)
     try:
         image_format(path)
     except OSError as exc:
