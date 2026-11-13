@@ -1,620 +1,168 @@
-# youtube-automation
+**English** | [Türkçe](README.tr.md)
 
-A fully local, zero-recurring-cost video production pipeline. You write a `senaryo.json`
-describing your narration scene by scene; the pipeline synthesizes the voiceover, times the
-subtitles to the spoken word, pulls matching stock footage, cuts everything to the length of the
-audio, renders an H.264/AAC MP4 with burned-in captions, builds a thumbnail, and — only if you
-ask it to — uploads the result to YouTube.
+# YouTube AI Automation
 
-Nothing in the render path costs money and nothing calls an LLM at runtime. Narration comes from
-Microsoft Edge's free `edge-tts` endpoint, footage from the free tiers of Pexels and Pixabay, and
-encoding from the `ffmpeg` binary bundled with `imageio-ffmpeg`. The only paid-adjacent resource
-is the YouTube Data API, which is free but quota-limited, and it is opt-in.
+A Python command-line tool that turns a topic into a finished YouTube Short: Gemini writes the script, Edge TTS reads it, the captions highlight each spoken word, and the video is rendered and uploaded to YouTube. It includes a Turkish GTA 5 Shorts pack that writes only from checked facts and plays over your own gameplay recordings.
 
-## Contents
+## Features
 
-- [How it works](#how-it-works)
-- [Requirements](#requirements)
-- [Quick start](#quick-start)
-- [Generating scripts locally](#generating-scripts-locally)
-- [Daily automation](#daily-automation)
-- [Getting a Pexels API key](#getting-a-pexels-api-key)
-- [Setting up YouTube uploads](#setting-up-youtube-uploads)
-- [Scenario reference](#scenario-reference)
-- [CLI reference](#cli-reference)
-- [Output layout](#output-layout)
-- [Caching and resumability](#caching-and-resumability)
-- [Architecture notes](#architecture-notes)
-- [Development](#development)
-- [Troubleshooting](#troubleshooting)
-- [Legal and policy](#legal-and-policy)
+- **Script from a topic:** `generate` asks Gemini's free tier for the narration, title and tags, and moves on to the next model in the list when one is busy or out of quota. A local Ollama model works too. Resolution, voice, caption style and every other structural field are filled in by code, and the file is checked against the scenario schema before it is written.
+- **Turkish GTA 5 Shorts:** 11 facts, each checked against at least two sources. Gemini may only reword the fact it is given. Code checks the scene and word counts, rejects hype words and any number the fact does not contain, and sends a failing reply back with the problem written out.
+- **Narration sets the timing:** Edge TTS returns the audio and the time of every word in one request. Scene length, caption timing and the word highlight all come from that measurement, and the silence left after the last word is trimmed.
+- **Word-highlight captions:** Shorts show a few words at a time in capital letters and color the word being spoken. Uppercasing follows Turkish rules, so i becomes İ.
+- **Footage:** stock clips from Pexels with Pixabay as a fallback, photos for long stories, or long gameplay recordings of your own. From a recording, every video gets a stretch that no earlier video used, cropped to 9:16 with the game sound muted.
+- **Four formats:** vertical Shorts, 15-minute photo stories, 11-minute English stick-figure explainers drawn by the bundled Zenn renderer, and GTA Shorts.
+- **Daily production:** `daily` makes at most one video a day, from a scenario you dropped into the inbox or from the next unused topic. `schedule` registers a Windows task that also runs after a day the computer was off, and still makes one video, not one per missed day.
+- **YouTube upload:** resumable upload with thumbnail, playlist and SRT captions. Stock footage authors and a notice that the narration is synthetic are added to the description. Videos are uploaded as private by default, and a public upload asks for confirmation.
+- **Caching:** narration, downloads and rendered scenes are stored by content, so editing one sentence re-renders one scene.
+- **Safety checks:** keys are masked in logs and manifests, downloads are checked for type and size, images are decoded only as JPEG, PNG or WebP, fonts are checked against pinned SHA-256 hashes, and `clean` asks before deleting and refuses folders such as the project root or your home folder.
 
-## How it works
+## Screenshots
 
-The narration is the clock. Every other decision — how long a scene lasts, how many stock clips
-it needs, when a subtitle appears — is derived from the synthesized audio rather than from
-numbers you have to guess and keep in sync by hand.
+| Word-highlight captions | GTA fact list |
+| --- | --- |
+| <img src="docs/media/captions.gif" alt="Captions highlighting each spoken word in yellow" width="270"> | <img src="docs/media/topics-gta.svg" alt="Output of python main.py topics --gta listing 11 GTA 5 facts" width="420"> |
 
-```mermaid
-flowchart TD
-    T([topic]) -.->|generate: optional, local Ollama| A
-    A[senaryo.json] --> B[ScenarioLoader<br/>pydantic v2, extra=forbid]
-    B --> C[EdgeTTSEngine<br/>MP3 + WordBoundary events]
-    C --> D[SrtSubtitleBuilder<br/>word cues to timed cues]
-    C --> E[CompositeMediaProvider<br/>Pexels, then Pixabay]
-    E --> F[MediaCache<br/>content-hash, atomic writes]
-    C --> G[MoviePyEditor.build_scene<br/>cut to audio, scale + center-crop, zoom]
-    D --> G
-    F --> G
-    G --> H[MoviePyEditor.assemble<br/>concat, crossfade, ducked music]
-    H --> I[PillowThumbnailBuilder<br/>1280x720 JPEG]
-    H --> J[YouTubeUploader<br/>optional, resumable, private by default]
-    H --> K[output/final/*.mp4 + manifest.json]
-    I --> K
-    J --> K
-```
+The clip is cut from a real render of the Fort Zancudo script. The background is a generated gradient standing in for gameplay footage, which this repository does not include.
 
-The dashed edge is the only optional stage and the only one that touches a language model. It
-runs as a separate command, writes a file, and stops; `run` never calls a model itself.
+## Tech Stack
 
-Two details are worth calling out because they drive most of the design:
+- **Language and command line:** Python, Typer, Rich
+- **Data and settings:** Pydantic, pydantic-settings
+- **Script writing:** Gemini API, Ollama
+- **Voice:** Edge TTS
+- **Video:** MoviePy, FFmpeg, libass, Pillow
+- **Footage:** Pexels API, Pixabay API
+- **Publishing:** YouTube Data API, Google OAuth
+- **Scheduling:** Windows Task Scheduler
+- **Quality:** pytest, requests-mock, ruff, mypy
 
-**A single TTS pass yields both the audio and the subtitle timings.** `edge-tts` emits
-`WordBoundary` events interleaved with the audio stream, so the pipeline reads the stream once
-and gets word-level timestamps for free. Subtitles are therefore synchronized to the actual
-speech rather than estimated from character counts.
+## Installation
 
-**Scene duration comes from the measured audio length.** After synthesizing a scene's narration
-the pipeline probes the MP3's real duration and cuts the stock footage to match, distributing the
-time across however many clips the scene asked for. A scene is never too short for its own
-voiceover.
+### Requirements
 
-## Requirements
-
-- Python 3.10 or newer (developed and verified on 3.12.10)
+- Python 3.10 or newer
 - About 2 GB of free disk space for the virtual environment, caches and renders
-- Internet access at runtime for TTS and stock footage — the render itself is local
+- Internet access for script writing, narration and stock footage. Rendering runs on your own machine.
 
-`ffmpeg` does **not** need to be installed system-wide. `imageio-ffmpeg` ships a binary and the
-pipeline uses it directly.
+FFmpeg comes with the `imageio-ffmpeg` package, so nothing has to be installed system-wide. The Inter and Anton fonts are already in `assets/fonts`.
 
-## Quick start
+### Setup
 
 ```bash
-git clone <your-repo-url> youtube-automation
-cd youtube-automation
-
+git clone https://github.com/MrcDprm/youtube-ai-automation.git
+cd youtube-ai-automation
 python -m venv .venv
 # Windows PowerShell
 .venv\Scripts\Activate.ps1
-# macOS / Linux
+# macOS and Linux
 source .venv/bin/activate
-
 pip install -r requirements.txt
-cp .env.example .env          # then edit .env and add your Pexels key
-cp senaryo.example.json senaryo.json
-python main.py doctor --fix   # checks the environment, downloads the default font
-python main.py validate       # checks senaryo.json
+cp .env.example .env
+python main.py doctor
+```
+
+`doctor` checks Python, FFmpeg, Edge TTS, the keys, fonts, folders and free disk space, and prints a hint next to anything that is missing.
+
+### Keys
+
+Keys go in `.env`. Git ignores that file, and the keys are masked in every log.
+
+- `GEMINI_API_KEY`: a free key from [Google AI Studio](https://aistudio.google.com/apikey). On the free tier Google may use prompts and answers to improve its products, and people may read them during review, so keep private information out of topics and guidance. Checking facts with Google Search needs the paid tier for new keys, which is why `GEMINI_GROUNDING` is `false`. To write scripts on your own machine instead, install [Ollama](https://ollama.com), run `ollama pull qwen2.5:7b-instruct` and set `SCRIPT_PROVIDER=ollama`.
+- `PEXELS_API_KEY`: a free key from [pexels.com/api](https://www.pexels.com/api/), with 200 requests an hour and 20,000 a month. `PIXABAY_API_KEY` is an optional fallback. GTA Shorts need neither.
+
+### First video
+
+```bash
+python main.py generate "Kahvenin dünyaya yayılışı" --scenes 8
+python main.py validate
+python main.py run --dry-run
 python main.py run
 ```
 
-`make install`, `make doctor`, `make run` and friends do the same thing if you have `make`.
+`generate` only writes `senaryo.json`. Read it and fix anything you disagree with, then render. `run --dry-run` prints the plan without touching the network. The video and a manifest with timings and media credits are written to `output/final`, and the thumbnail to `output/thumbnails`.
 
-Before your first real render, try `python main.py run --dry-run`. It resolves the whole plan and
-prints what would happen without making a single network call, which is the fastest way to catch
-a scenario mistake.
+`--format story` writes a 15-minute landscape photo story, `--format paint` an 11-minute English stick-figure explainer, and `--language en` narrates in English. `senaryo.example.json` is a starting point for writing a scenario by hand, and `models/scenario.py` describes every field. Unknown fields are rejected, so a typo fails instead of being ignored.
 
-## Generating scripts locally
+### GTA 5 Shorts
 
-Writing `senaryo.json` by hand is the one genuinely manual step. If you would rather have a
-first draft written for you, `generate` does that with a language model running on your own
-machine through [Ollama](https://ollama.com) — free, offline after the initial download, and no
-account or API key.
+1. Put long gameplay recordings of your own into `assets/background/gta5`, or point `GTA_BACKGROUND_DIR` in `.env` at another folder. Ten minutes or more per file is enough for many Shorts. Leave out menus, loading screens and cutscenes.
+2. List the facts, write a script from one and render it:
 
-```powershell
-# One-time setup
-winget install Ollama.Ollama      # or download the installer from ollama.com
-ollama pull qwen2.5:7b-instruct
+   ```bash
+   python main.py topics --gta
+   python main.py generate --format gta 3
+   python main.py run
+   ```
 
-python main.py generate "Yapay zekanın kısa tarihi" --scenes 12
-```
+3. For a fact you checked yourself, give it with the topic: `python main.py generate --format gta "Topic" --fact "The fact"`.
 
-That writes `senaryo.json`, which you then review and render with `run` as usual. Pass `--out` to
-write somewhere else and `--overwrite` to replace an existing file.
+A script has 3 to 8 scenes and 45 to 75 words, the title contains GTA, and every number in it must appear in the fact. The narrator is `tr-TR-AhmetNeural` at 10 percent faster speed. The game sound is muted because the in-game radio plays licensed songs. Set `VIDEO_FORMAT=gta` in `.env` to make `daily` use the GTA facts. [scenarios/README.md](scenarios/README.md) explains how to add a fact.
 
-### Why generation is a separate command
+### Daily production
 
-`generate` and `run` are deliberately not fused. The render path makes no language-model calls at
-all, which means a bad or hallucinated draft can never reach the encoder: it lands in a JSON file
-you can read, edit and validate first. It also means the guarantee that `run` is reproducible and
-model-free still holds.
-
-The division of labour matters too. The model is asked only for prose — narration, search terms,
-title, tags. Every structural field is filled in by `modules/scenario_builder.py`: the project
-slug, resolution, frame rate, codec settings, voice and subtitle styling are computed, not
-generated. A small quantised model cannot corrupt them, and the assembled scenario is validated
-against the real schema before it is written, so `generate` can never produce a file that `run`
-would reject.
-
-### What the generator cleans up
-
-Local models are messy in predictable ways, so the output is sanitised rather than trusted.
-Markdown, emoji, `Sahne 3:` prefixes and list bullets are stripped from narration; code fences
-and chatty preambles are peeled off the JSON; search terms and tags are deduplicated and capped
-to YouTube's limits; and an over-long title is truncated. If a reply is still unusable, the
-generator re-prompts with the specific validation error, up to three attempts.
-
-It also sets `max_duration_seconds` from the estimated narration length, so a generated scenario
-never caps itself below its own runtime — a mistake that is easy to make by hand and only shows
-up minutes into a render.
-
-### Useful options
-
-```powershell
-python main.py generate "konu" -n 20                       # longer video
-python main.py generate "konu" --orientation landscape     # 1920x1080 instead of Shorts
-python main.py generate "konu" --language en               # narrate in English
-python main.py generate "konu" --voice tr-TR-EmelNeural    # different voice
-python main.py generate "konu" --model llama3.1:8b         # override OLLAMA_MODEL once
-python main.py generate "konu" --guidance "skeptical tone, no hype"
-python main.py generate "konu" --format story --language tr   # 15–20 min photo narrative
-```
-
-`--format story` writes a landscape scenario: twelve spoken chapters, twenty still photographs,
-yellow/white captions. It does **not** render. Review the JSON, then `python main.py run`.
-English and Spanish use the same flag: `--language en` or `--language es`. Shorts (`--format shorts`,
-the default) is unchanged.
-
-Story generation talks to Ollama once per chapter, so a first draft takes several minutes. The
-render is longer than a Short: twenty Ken Burns stills under 15–20 minutes of narration. Daily
-automation stays on Shorts until you set `VIDEO_FORMAT=story` in `.env`.
-
-### Model choice
-
-`qwen2.5:7b-instruct` is the default because it handles Turkish noticeably better than similarly
-sized alternatives and reliably holds a JSON shape. A 7B model needs roughly 6 GB of RAM and runs
-on CPU, just slowly — expect a minute or two for a dozen scenes. If generation is unreliable, a
-larger instruct-tuned model helps far more than prompt tweaking; very small quantised models tend
-to lose the JSON structure. `python main.py doctor` reports whether the server is up and the
-configured model is actually pulled.
-
-Uploading stays disabled in every generated file, and privacy stays `private`. Nothing publishes
-until you read the narration and turn it on yourself.
-
-## Daily automation
-
-`generate` writes a file and stops. `daily` is the unattended loop: at most one video per
-calendar day, inbox first, otherwise the next unused topic in `scenarios/topics.json`.
-
-```powershell
-# See what today would produce, without calling Ollama or rendering.
+```bash
 python main.py daily --dry-run
-
-# Produce today's video. Upload stays off unless you opt in.
 python main.py daily --yes
-
-# Register a Windows task for 09:00. Missed days run when the PC is next on.
 python main.py schedule --at 09:00
 python main.py schedule --status
 python main.py schedule --remove
 ```
 
-`schedule` writes a Task Scheduler XML with **StartWhenAvailable**. If the machine was off at
-09:00, Windows fires the task once when it comes back — and `daily` still produces only one
-video, not one per missed day. That is deliberate: YouTube's default quota is about six uploads
-per day, and rushing five scripts overnight is how you publish nonsense.
+`daily` makes at most one video a day. A scenario dropped into `scenarios/inbox` goes first. Otherwise the next unused topic in `scenarios/topics.json` is written and rendered, and a failed run leaves the topic for the next day. A lock file stops two runs from overlapping. Uploading stays off until you pass `--upload` or set `DAILY_UPLOAD=true`. `schedule` uses Windows Task Scheduler. On macOS or Linux, run `python main.py daily --yes` from cron.
 
-Priority on each invocation:
+### YouTube uploads
 
-1. Already succeeded today → exit. `--force` overrides.
-2. Oldest `scenarios/inbox/*.json` → render that, skip the model.
-3. Next unused topic in `topics.json` → generate, then render.
-4. Nothing left → idle, with a hint to add topics.
+Uploading is optional. Skip this part if you only want MP4 files.
 
-Failed generations do **not** consume the topic, so tomorrow retries the same subject. Used
-topics are stored in `.cache/scheduler/state.json`, not in `topics.json`, so you can edit the
-list without losing history.
+1. Create a project in the [Google Cloud Console](https://console.cloud.google.com/) and enable **YouTube Data API v3**.
+2. On the **OAuth consent screen**, choose **External**, enter an app name and your email, and add your Google account as a test user.
+3. Under **Credentials**, create an **OAuth client ID** of type **Desktop app**, download the JSON and save it as `secrets/client_secrets.json`.
+4. Run `python main.py auth` and approve the request in the browser. The token is saved to `secrets/token.json` and refreshed on later runs.
+5. Set `upload_enabled` to `true` in the scenario, or pass `--upload` to `daily`.
 
-Uploading is a separate opt-in. Generated files stay `private`. Either:
+Before relying on uploads:
 
-```powershell
-python main.py daily --upload --yes
-python main.py schedule --upload --at 09:00
-```
+- **Private lock:** videos uploaded through the API from a project created after 28 July 2020 stay private until the project passes Google's compliance audit, whatever privacy you ask for. The uploader warns when this happens. Publish or schedule those videos in YouTube Studio, or apply for the audit.
+- **Quota:** a project may upload 100 videos a day. Thumbnails, playlist entries and caption tracks share 10,000 units a day. Both reset at midnight Pacific time.
+- **Token expiry:** while the consent screen is in Testing status, Google expires the token after seven days and `auth` has to be run again. Publishing the consent screen stops this.
+- **Description:** stock footage authors and the synthetic narration notice are added automatically. Set `made_for_kids` truthfully, because it is a legal declaration.
 
-or set `DAILY_UPLOAD=true` in `.env`. Before you turn that on, publish the Google Cloud OAuth
-consent screen (Testing-mode refresh tokens die after seven days, which would silently stop
-unattended uploads).
+### Commands
 
-The PC must be on — or asleep with wake timers — at the scheduled time. Two overlapping runs
-are refused by a lock file; a leftover lock older than six hours is treated as a crash and
-stolen.
-
-Edit `scenarios/topics.json` (copy from `topics.example.json`) before the first real `daily`.
-Drop a hand-written `senaryo.json` into `scenarios/inbox/` whenever you want to skip the model
-for a day.
-
-## Getting a Pexels API key
-
-Pexels is the primary footage source. The free tier allows 200 requests per hour and 20,000 per
-month, which is far more than this pipeline needs — a typical three-minute video makes fewer than
-ten search requests.
-
-1. Create a free account at [pexels.com/join](https://www.pexels.com/join/).
-2. Go to [pexels.com/api/new](https://www.pexels.com/api/new/) and request an API key. You will
-   be asked what you are building; a one-line description is enough and approval is immediate.
-3. Copy the key from your [API dashboard](https://www.pexels.com/api/key/).
-4. Paste it into `.env`:
-
-```dotenv
-PEXELS_API_KEY=your_actual_key_here
-```
-
-Run `python main.py doctor` to confirm the key is picked up. The key is never logged: every
-handler runs through a redaction filter that replaces registered secrets with `***REDACTED***`.
-
-### Pixabay fallback (optional)
-
-If a Pexels search comes back empty the pipeline can fall back to Pixabay. Get a key from
-[pixabay.com/api/docs](https://pixabay.com/api/docs/) and set `PIXABAY_API_KEY` in `.env`. Leave
-it blank to run Pexels-only; the fallback is simply skipped.
-
-## Setting up YouTube uploads
-
-Uploading is entirely optional. Skip this whole section if you only want rendered MP4s.
-
-The YouTube Data API needs OAuth 2.0 — an API key is not sufficient for uploads, because you are
-acting on behalf of a channel rather than reading public data.
-
-1. Open the [Google Cloud Console](https://console.cloud.google.com/) and create a project.
-2. Under **APIs & Services → Library**, find **YouTube Data API v3** and enable it.
-3. Go to **APIs & Services → OAuth consent screen**. Choose **External**, fill in the app name
-   and your email, and save. On the **Audience** step, add your own Google account under **Test
-   users** — without this the consent flow will refuse to complete.
-4. Under **Scopes**, you do not need to pre-declare anything; the pipeline requests
-   `youtube.upload`, `youtube` and `youtube.force-ssl` at consent time.
-5. Go to **APIs & Services → Credentials → Create Credentials → OAuth client ID**. Pick
-   **Desktop app** as the application type. This matters: the pipeline uses the loopback flow,
-   which only works for desktop clients.
-6. Download the JSON and save it as `secrets/client_secrets.json`.
-7. Run the consent flow once:
-
-```bash
-python main.py auth
-```
-
-A browser window opens; approve the scopes with the same account you added as a test user. The
-resulting token is written to `secrets/token.json` with `0o600` permissions and refreshed
-automatically on later runs.
-
-8. Enable uploading in your scenario:
-
-```json
-"youtube": {
-  "upload_enabled": true,
-  "privacy_status": "private"
-}
-```
-
-Uploads default to `private` and the pipeline will interactively confirm before it ever publishes
-something `public`. Pass `--yes` to skip the prompt in automation, or `--no-upload` to render
-without touching YouTube regardless of what the scenario says.
-
-## Scenario reference
-
-`senaryo.json` is validated strictly: unknown fields are rejected rather than ignored, so a typo
-fails loudly instead of silently doing nothing. Start from `senaryo.example.json`.
-
-### Top level
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `project_id` | slug | required | Lowercase letters, digits and hyphens. Used in filenames. |
-| `video` | object | see below | Resolution, framerate, encoding, music. |
-| `tts` | object | see below | Voice and prosody. |
-| `subtitles` | object | see below | Styling and burn-in. |
-| `youtube` | object | required | Metadata; required even when uploading is off. |
-| `scenes` | array | required | At least one scene. |
-
-### `video`
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `orientation` | `portrait` \| `landscape` \| `square` | `portrait` | Drives footage search and the default resolution. |
-| `resolution` | `[width, height]` | `[1080, 1920]` | Both values must be even and must agree with `orientation`. |
-| `fps` | int | `30` | Between 15 and 120. |
-| `max_duration_seconds` | float | `175` | The render aborts rather than silently exceeding this. |
-| `scene_gap_seconds` | float | `0.30` | Breathing room appended to each scene's audio. |
-| `crossfade_seconds` | float | `0.0` | Must be shorter than the shortest scene. `0` concatenates without a fade, which is much faster. |
-| `video_bitrate_crf` | int | `20` | x264 CRF. Lower is better quality and a bigger file. |
-| `preset` | string | `medium` | Any x264 preset from `ultrafast` to `veryslow`. |
-| `background_music` | object | disabled | See below. |
-
-### `video.background_music`
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `enabled` | bool | `false` | |
-| `file` | path | `null` | Must exist when enabled. Relative paths resolve from the project root. |
-| `volume` | float | `0.08` | Base level, 0 to 1. Deliberately quiet. |
-| `fade_in_seconds` | float | `1.5` | |
-| `fade_out_seconds` | float | `2.5` | |
-| `duck_to` | float | `0.5` | Multiplier applied to `volume` while narration is playing. |
-
-### `tts`
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `voice` | string | `tr-TR-AhmetNeural` | Run `python main.py voices --locale tr-TR` to list options. |
-| `rate` | percent | `+0%` | Signed percentage, e.g. `+8%`. |
-| `volume` | percent | `+0%` | Signed percentage. |
-| `pitch` | hertz | `+0Hz` | Signed hertz, e.g. `-2Hz`. |
-| `normalize_text` | bool | `true` | Expands symbols, protects abbreviations, strips markdown and emoji. |
-
-### `subtitles`
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `enabled` | bool | `true` | Off means no SRT and no burn-in. |
-| `burn_in` | bool | `true` | When false you still get an `.srt` sidecar. |
-| `max_chars_per_line` | int | `32` | 10 to 120. |
-| `max_lines` | int | `2` | 1 to 4. |
-| `font` | path | `assets/fonts/Inter-Bold.ttf` | Only required to resolve when `burn_in` is true. |
-| `font_size` | int | `60` | |
-| `color` | hex | `#FFFFFF` | |
-| `stroke_color` | hex | `#000000` | |
-| `stroke_width` | int | `3` | `0` disables the outline. |
-| `position_ratio` | float | `0.72` | Vertical position, `0.0` top to `1.0` bottom. |
-| `uppercase` | bool | `false` | |
-
-### `youtube`
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `upload_enabled` | bool | `false` | |
-| `title` | string | required | Max 100 characters. |
-| `description` | string | `""` | Max 5000 characters. Attribution is appended automatically. |
-| `tags` | string[] | `[]` | YouTube caps the combined length at 500 characters. |
-| `category_id` | string | `"27"` | `27` is Education, `28` Science & Technology, `22` People & Blogs. |
-| `privacy_status` | `private` \| `unlisted` \| `public` | `private` | |
-| `made_for_kids` | bool | `false` | Required by COPPA; set it honestly. |
-| `synthetic_content_disclosure` | bool | `true` | Appends an AI-narration disclosure to the description. |
-| `publish_at` | ISO 8601 \| `null` | `null` | Must be in the future and requires `privacy_status: "private"`. |
-| `playlist_id` | string \| `null` | `null` | The video is added after upload. |
-| `default_language` | BCP-47 | `"tr"` | |
-| `thumbnail_enabled` | bool | `true` | |
-
-### `scenes[]`
-
-| Field | Type | Default | Notes |
-| --- | --- | --- | --- |
-| `id` | int | required | Positive and unique across the scenario. |
-| `narration` | string | required | The spoken text. Cannot be blank. |
-| `search_terms` | string[] | required | English terms work best; stock libraries are indexed in English. |
-| `orientation` | string \| `null` | `null` | Overrides `video.orientation` for this scene only. |
-| `clips_per_scene` | int | `1` | 1 to 4. The scene's duration is split evenly between them. |
-| `min_clip_duration` | float | `3.0` | Candidates shorter than this are rejected. |
-| `local_media` | path \| `null` | `null` | Use your own file instead of searching. |
-| `pexels_video_id` | int \| `null` | `null` | Pin an exact Pexels clip instead of searching. |
-| `zoom_effect` | bool | `true` | Slow Ken Burns push-in. |
-
-## CLI reference
-
-```bash
-python main.py doctor [--fix]     # environment preflight; --fix downloads the default font
-python main.py voices [--locale tr-TR] [--gender Male]
-python main.py auth               # one-time YouTube OAuth consent
-python main.py generate "topic"   # draft a scenario with a local Ollama model
-python main.py daily [--dry-run] [--upload] [--force]
-python main.py schedule [--at 09:00] [--upload] [--status] [--remove]
-python main.py validate [-s path] # parse and validate a scenario, print the resolved plan
-python main.py run [options]
-python main.py clean [--cache] [--output] [--all]
-```
-
-Useful `run` combinations:
-
-```bash
-# Resolve the entire plan offline. No network, no API keys needed.
-python main.py run --dry-run
-
-# Render the first two scenes only, at DEBUG verbosity. Great for tuning subtitle styling.
-python main.py run --scene-limit 2 --verbose
-
-# Ignore every cache and redo the whole thing from scratch.
-python main.py run --force
-
-# Render but never upload, whatever the scenario says.
-python main.py run --no-upload
-
-# Unattended: accept a public upload without the confirmation prompt.
-python main.py run --yes
-
-# Keep the per-scene intermediates for inspection.
-python main.py run --keep-temp
-```
-
-### Exit codes
-
-Failures are typed, so CI wrappers can branch on the cause rather than parsing logs.
-
-| Code | Meaning |
+| Command | What it does |
 | --- | --- |
-| `0` | Success |
-| `1` | Configuration problem — missing key, unwritable directory, absent `ffmpeg` |
-| `2` | Scenario validation failed |
-| `3` | Text-to-speech failed |
-| `4` | No usable stock footage found |
-| `5` | Rendering or encoding failed |
-| `6` | Upload failed |
-| `130` | Interrupted with Ctrl-C |
+| `doctor` | Checks the environment and prints a hint for anything missing |
+| `generate TOPIC` | Writes a scenario with Gemini or Ollama and renders nothing |
+| `topics` | Lists the daily topic bank, or the GTA facts with `--gta` |
+| `validate` | Checks a scenario and prints the plan |
+| `run` | Renders a scenario. `--dry-run`, `--scene-limit 2`, `--no-upload`, `--force` and `--keep-temp` change how |
+| `voices --locale tr-TR` | Lists Edge TTS voices |
+| `auth` | Connects a YouTube channel once |
+| `daily` | Makes at most one video today |
+| `schedule` | Registers, shows or removes the daily Windows task |
+| `clean` | Deletes caches or output after asking, `--yes` skips the question |
 
-## Output layout
+Exit codes name the failure: 1 configuration, 2 scenario, 3 narration, 4 stock footage, 5 rendering, 6 upload.
 
-```
-output/
-├── audio/         # per-scene narration MP3s
-├── clips/         # stock footage materialized for this run
-├── subtitles/     # per-scene and whole-video SRT
-├── scenes/        # per-scene rendered MP4s
-├── final/         # the finished video and manifest.json
-├── thumbnails/    # 1280x720 JPEG
-├── logs/          # one plain-text log per run, secrets redacted
-└── temp/          # intermediates, removed unless --keep-temp
-```
-
-`final/manifest.json` records the resolved plan, per-stage timings, every media credit, cache hit
-counts and the upload result. It is written even when a run fails, with the failing stage named —
-which makes it the first thing to look at when something goes wrong.
-
-## Caching and resumability
-
-Every expensive step is content-addressed under `.cache/`. Re-running an unchanged scenario
-re-uses the cached artifacts and finishes in seconds.
-
-| Cache | Key |
-| --- | --- |
-| `.cache/tts/` | Normalized narration text plus voice, rate, volume and pitch |
-| `.cache/media/` | Source URL and provider clip identity |
-| `.cache/scenes/` | The full scene render plan — clips, subtitles, geometry, effects |
-
-Because the keys are derived from content, editing one scene's narration invalidates only that
-scene. Everything else is re-used. `--force` bypasses all three; `python main.py clean --cache`
-deletes them.
-
-## Architecture notes
-
-The orchestrator in `modules/pipeline.py` depends only on the six abstract interfaces declared in
-`modules/interfaces.py` — `ITTSEngine`, `IMediaProvider`, `ISubtitleBuilder`, `IVideoEditor`,
-`IThumbnailBuilder` and `IUploader`. It receives concrete implementations through its
-constructor and never imports or instantiates one itself. `main.py` is the composition root: it
-is the only module that decides which implementations get wired together.
-
-This is enforced, not merely documented. `tests/test_pipeline_wiring.py` parses `pipeline.py`'s
-AST and fails the build if it imports a concrete class or calls a known implementation's
-constructor. The practical payoff is that the entire pipeline is testable offline with fakes, and
-swapping Pexels for another footage source touches exactly one line of `main.py`.
-
-## Development
+### Tests
 
 ```bash
 pip install -r requirements-dev.txt
-
-pytest -q            # 277 tests, fully offline
-ruff check .         # lint
-ruff format .        # format
-mypy .               # type check
-make check           # all of the above
+pytest -q
+ruff check .
+mypy .
 ```
 
-The test suite makes no network calls and needs no API keys, and no model needs to be installed:
-HTTP is stubbed with `requests-mock`, and TTS, rendering, uploading and script generation are
-exercised through fakes and canned responses.
+`make check` runs all three. The tests need no network and no keys. HTTP is stubbed with requests-mock, and narration, rendering, uploading and script writing run against fakes. One test reads `modules/pipeline.py` and fails if the pipeline imports a concrete class instead of an interface from `modules/interfaces.py`.
 
-## Troubleshooting
+## What I Learned
 
-**`doctor` reports ffmpeg is missing.** Reinstall `imageio-ffmpeg`; the wheel carries the binary.
-If you are behind a proxy that mangles binary downloads, install a system `ffmpeg` and put it on
-your `PATH`.
-
-**`TTSError: edge-tts returned zero bytes of audio`.** Almost always a wrong voice name. Confirm
-it with `python main.py voices --locale tr-TR`. If the voice is right, the Microsoft endpoint is
-rate-limiting you — wait a minute and retry, since the pipeline already retries with backoff.
-
-**`MediaNotFoundError` after the query ladder is exhausted.** Your search terms are too specific
-or too idiomatic. Stock libraries are indexed in English, so `"vintage computer machine"` finds
-far more than a Turkish phrase would. Lowering `min_clip_duration` also widens the pool.
-
-**Subtitles do not appear even though `burn_in` is true.** The font could not be resolved. Run
-`python main.py doctor --fix` to download Inter-Bold, or point `subtitles.font` at any TTF on
-your system.
-
-**`generate` says Ollama is not reachable.** The service is not running. Start it (on Windows it
-runs as a background service after install; otherwise `ollama serve`) and confirm with
-`ollama list`. If Ollama listens somewhere unusual, set `OLLAMA_HOST` in `.env`.
-
-**`generate` says the model is not installed.** Pull it once: `ollama pull qwen2.5:7b-instruct`.
-The name in `.env` must match a tag `ollama list` prints.
-
-**`generate` fails after three attempts.** The model could not hold the JSON shape. Try a larger
-instruct-tuned model, or lower `--scenes`; asking for twenty scenes at once is much harder than
-asking for eight. Very small quantised models often cannot do it at all.
-
-**`daily` says a run is already in progress.** Another invocation holds `.cache/scheduler/daily.lock`.
-Wait for it to finish, or delete the file if you are sure nothing is running. Locks older than
-six hours are stolen automatically.
-
-**`daily` idles with every topic used.** Add more entries to `scenarios/topics.json`. Used topics
-live in `.cache/scheduler/state.json`; deleting that file makes the list start over.
-
-**Scheduled task never fires.** `python main.py schedule --status`. The task uses
-`InteractiveToken`, so the same Windows user should be logged in (or the PC asleep with wake
-timers). Network is required. Check `output/logs/` for a `daily_*.log`.
-
-**Generated narration is in the wrong language or drifts into English.** Smaller models leak
-their dominant training language. `--guidance "write only in Turkish"` sometimes helps, but a
-larger model is the reliable fix.
-
-**`AttributeError` from Pillow inside MoviePy's `TextClip`.** MoviePy 2.1 reaches into Pillow's
-text-measurement internals, which change between Pillow majors. This project is verified against
-Pillow 11.3.0. If you have been upgraded to Pillow 12 or newer and text rendering breaks, pin it:
-
-```bash
-pip install "pillow<12"
-```
-
-**`numpy.core.multiarray failed to import` or `_ARRAY_API not found`.** Something in your
-environment was compiled against NumPy 1.x while NumPy 2.x is installed. This project is verified
-against NumPy 2.5.2 with MoviePy 2.x, which supports NumPy 2. If a transitive dependency of yours
-has not caught up, pin the old ABI:
-
-```bash
-pip install "numpy<2"
-```
-
-**Turkish characters render as `?` in the console.** Cosmetic only. The logger detects a console
-that cannot encode its symbols and falls back to ASCII glyphs; the log file is always UTF-8. On
-Windows, `chcp 65001` before running gives you the full output.
-
-**`redirect_uri_mismatch` during `auth`.** Your OAuth client is not a Desktop app. Create a new
-client ID with **Desktop app** as the type and re-download `client_secrets.json`.
-
-**Upload fails with `quotaExceeded`.** See below — you get roughly six uploads per day.
-
-**A run died partway and re-running seems to skip work.** That is the cache doing its job. If you
-suspect a corrupt artifact, `python main.py run --force`.
-
-## Legal and policy
-
-**Stock footage attribution.** Pexels and Pixabay licenses allow commercial use without
-attribution, but both explicitly ask for credit. The pipeline collects every clip's author and
-source URL and appends a credit block to the YouTube description automatically. If you publish
-outside YouTube, `final/manifest.json` has the same list — please carry it over.
-
-**AI narration disclosure.** The narration is synthetic. YouTube requires creators to disclose
-realistic synthetic media, and `synthetic_content_disclosure` (on by default) appends a plain
-statement to the description. Leaving it on is the right call.
-
-**YouTube API quota.** The default allocation is 10,000 units per day and a single
-`videos.insert` costs 1,600, so you get about six uploads per day. Thumbnails cost another 50,
-playlist inserts 50, and caption uploads 400. Quota resets at midnight Pacific Time. You can
-request more through the Cloud Console, but approval involves a review and is not quick — plan
-around the limit rather than expecting to raise it.
-
-**OAuth tokens expire after 7 days in test mode.** While your OAuth consent screen sits in
-**Testing** status, Google expires refresh tokens after seven days. When uploads start failing
-with `invalid_grant`, just run `python main.py auth` again. To stop re-authorizing every week,
-publish the consent screen — an app that only accesses your own channel does not need
-verification for that.
-
-**`made_for_kids` is a legal declaration.** It carries COPPA obligations in the United States.
-Set it truthfully.
-
-**Generated scripts are drafts, not facts.** A 7B model running on your laptop will state wrong
-dates, invent names and blur details with complete confidence. If you use `generate`, read the
-narration and check anything factual before you publish. This is the single most important habit
-when running the pipeline unattended, and it is why `generate` never enables uploading.
-
-**You are responsible for what you publish.** This tool automates assembly, not judgment. Check
-that your narration is accurate and that your footage suits your subject before making anything
-public. That is also why uploads default to `private`.
+- **Narration is the clock.** Edge TTS sends a word boundary event for every word along with the audio, so one request gives me the sound and the time of each word. I cut every scene to the measured audio and drive the captions and the highlight from those times instead of guessing from character counts. The same data showed me the silence Edge TTS leaves after the last word, which I now trim.
+- **Rules belong in code, not only in the prompt.** Gemini writes fluent Turkish but adds details that are not true and sometimes drops Turkish letters. I give it only facts I checked against two sources and check every reply in code: scene and word counts, hype words, numbers missing from the fact, Turkish letters and apostrophes. A reply that breaks a rule goes back with the exact problem, so the rules hold even when the model ignores the prompt.
+- **Turkish needs its own handling.** Python's `str.upper` turns i into I, so the captions were wrong until I mapped i to İ and ı to I. Turkish Windows also prints `schtasks` output in the OEM code page, which broke `schedule --remove` until I decoded it that way.
+- **FFmpeg filters are escaped twice.** A folder name with an apostrophe broke the subtitle filter. The path has to be escaped once as a filter option and once more inside the filter graph.
+- **Interfaces make the pipeline testable.** The pipeline only knows six interfaces, and `main.py` is the only place that picks real classes. I could test the whole flow offline with fakes, and an AST test keeps it that way.
+- **Free tiers come with rules.** Gemini's free tier may use prompts to improve Google's products, and Google Search grounding is paid for new keys. YouTube keeps uploads from unaudited API projects private, counts uploads in their own quota, and expires Testing-mode tokens after seven days. I built each of these into the code, the warnings or this README.
+- **Downloaded files are untrusted input.** MoviePy keeps Pillow below version 12, and the versions it allows have known security issues, so images are decoded only as JPEG, PNG or WebP. Downloads are checked for type and size, fonts against pinned SHA-256 hashes, and keys are masked in logs because a Pixabay key travels inside the request URL.
+- **Caching by content makes reruns cheap.** Narration, downloads and scenes are saved under a hash of what produced them. Changing one sentence re-renders one scene, and a run that died halfway picks up where it stopped.
