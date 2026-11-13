@@ -6,11 +6,13 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from googleapiclient.errors import HttpError
 
 import modules.uploader as uploader_module
 from models.scenario import YouTubeSettings
 from modules.interfaces import MediaCredit
 from modules.uploader import YouTubeUploader
+from utils.exceptions import UploadQuotaError
 
 CREDIT = MediaCredit(
     provider="pexels",
@@ -92,3 +94,23 @@ def test_a_private_lock_points_to_the_audit_and_youtube_studio(
         assert "YouTube Studio" in warnings[0]
     else:
         assert warnings == []
+
+
+class _Forbidden(dict[str, str]):
+    """The parts of an httplib2 response that HttpError reads."""
+
+    status = 403
+    reason = "Forbidden"
+
+
+def test_a_quota_error_names_the_current_upload_limit(tmp_path: Path) -> None:
+    """Uploads now have their own quota of 100 a day; the old 1600-unit cost is gone."""
+    error = HttpError(_Forbidden(), b'{"error": {"errors": [{"reason": "quotaExceeded"}]}}')
+
+    with pytest.raises(UploadQuotaError) as caught:
+        _uploader(tmp_path)._handle_http_error(error, 1)
+
+    assert caught.value.hint is not None
+    assert "100 videos a day" in caught.value.hint
+    assert "10,000 units" in caught.value.hint
+    assert "1600" not in caught.value.hint
