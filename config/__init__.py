@@ -1,6 +1,6 @@
-"""Configuration package: constants and environment-backed settings."""
+"""Configuration package: constants in ``config.constants``, settings in ``config.settings``.
 
-from config.constants import ExitCode
-from config.settings import PROJECT_ROOT, Settings, get_settings
-
-__all__ = ["PROJECT_ROOT", "ExitCode", "Settings", "get_settings"]
+Nothing is imported here on purpose. ``config.settings`` imports ``utils.exceptions``, which
+imports ``config.constants``; loading ``config.settings`` from this file closed that loop and
+crashed any program that imported a ``utils`` module before ``config``.
+"""
