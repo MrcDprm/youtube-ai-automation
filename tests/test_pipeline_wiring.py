@@ -11,6 +11,7 @@ import ast
 import asyncio
 import dataclasses
 import inspect
+import json
 import re
 from collections.abc import Sequence
 from pathlib import Path
@@ -18,7 +19,7 @@ from typing import Any
 
 import pytest
 
-from config.constants import PROJECT_ROOT
+from config.constants import PROJECT_ROOT, REDACTION_PLACEHOLDER
 from config.settings import Settings
 from models.scenario import Scenario, SubtitleSettings, TTSSettings, YouTubeSettings
 from modules.interfaces import (
@@ -42,6 +43,7 @@ from modules.pipeline import PipelineOptions, RunManifest, VideoPipeline
 from modules.tts import EdgeTTSEngine, attach_punctuation, normalize_narration, year_to_turkish
 from modules.uploader import build_description
 from utils.exceptions import ConfigurationError, TTSError
+from utils.logger import register_secret
 
 PIPELINE_SOURCE = PROJECT_ROOT / "modules" / "pipeline.py"
 
@@ -601,6 +603,29 @@ def test_upload_runs_when_enabled(settings: Settings) -> None:
     assert len(uploader.uploads) == 1
     assert manifest.youtube_video_id == "abc123"
     assert manifest.youtube_privacy_status == "private"
+
+
+class LeakyTTS(FakeTTS):
+    """Fails with an error message that repeats a secret, as a request URL would."""
+
+    async def synthesize(self, text: str, out_path: Path, tts: TTSSettings) -> TTSResult:
+        raise TTSError(f"Speech request failed for token {LEAKED_SECRET}")
+
+
+LEAKED_SECRET = "gizli-deger-9f8e7d6c5b4a"
+
+
+def test_a_failure_never_writes_a_secret_into_the_manifest(settings: Settings) -> None:
+    """The console and logs mask secrets; the manifest on disk must mask them as well."""
+    register_secret(LEAKED_SECRET)
+    pipeline, _ = _pipeline(settings, tts=LeakyTTS())
+
+    with pytest.raises(TTSError):
+        pipeline.run()
+
+    manifest = (settings.final_dir() / "wiring-test_manifest.json").read_text(encoding="utf-8")
+    assert LEAKED_SECRET not in manifest
+    assert REDACTION_PLACEHOLDER in json.loads(manifest)["error"]
 
 
 def test_upload_names_every_footage_contributor_once(settings: Settings) -> None:

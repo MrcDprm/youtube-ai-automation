@@ -70,6 +70,7 @@ from utils.logger import (
     log_success,
     log_warn,
     make_step_progress,
+    redact,
     summary_table,
 )
 from zenn.render.frames import render_beat_frames
@@ -1145,16 +1146,20 @@ class VideoPipeline:
             logger.error("Could not write the run manifest: %s", exc)
 
     def _record_failure(self, exc: BaseException) -> None:
-        """Capture a failure into the manifest.
+        """Capture a failure into the manifest, with secrets masked as in the logs.
+
+        Error text can carry a secret: Pixabay takes its key in the query string, and a
+        network error repeats the request URL. The console and log files mask it, and the
+        manifest on disk must too.
 
         Args:
             exc: The exception that stopped the run.
         """
         self._manifest.status = "failed"
         self._manifest.failed_stage = self._current_stage()
-        self._manifest.error = str(exc)
+        self._manifest.error = redact(str(exc))
         frames = traceback.format_exception(type(exc), exc, exc.__traceback__)
-        self._manifest.traceback_digest = "".join(frames[-3:]).strip()
+        self._manifest.traceback_digest = redact("".join(frames[-3:]).strip())
 
     def _current_stage(self) -> str:
         """Identify which stage was running when the failure occurred.
