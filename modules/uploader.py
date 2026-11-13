@@ -1,10 +1,12 @@
 """YouTube Data API v3 upload with OAuth 2.0 and resumable transfer.
 
-Two quota realities shape how this module behaves, and both are documented in the README.
+Three platform rules shape how this module behaves, and all are documented in the README.
 A single ``videos.insert`` costs roughly 1600 units against a default daily allowance of
-10,000, which permits about six uploads per day. And while the Google Cloud OAuth consent
-screen is still in "Testing", refresh tokens expire after seven days and uploaded videos stay
-locked to private no matter what privacy status is requested.
+10,000, which permits about six uploads per day. While the Google Cloud OAuth consent screen
+is still in "Testing", refresh tokens expire after seven days. And YouTube keeps every video
+uploaded through the API private, whatever privacy status is requested, when the Google Cloud
+project was created after 28 July 2020 and has not passed YouTube's API compliance audit.
+Such videos are made public or scheduled by hand in YouTube Studio.
 
 Retries are therefore deliberately narrow. A ``500`` is worth retrying; a ``quotaExceeded``
 is not, and burning attempts on it only delays the error the user needs to see.
@@ -342,8 +344,9 @@ class YouTubeUploader(IUploader):
         if applied_privacy != meta.privacy_status:
             log_warn(
                 f"YouTube applied privacyStatus '{applied_privacy}' instead of the requested "
-                f"'{meta.privacy_status}'. Unverified OAuth apps have their uploads locked to "
-                "private until the app is verified."
+                f"'{meta.privacy_status}'. Uploads from a Google Cloud project that has not "
+                "passed YouTube's API compliance audit stay private; publish or schedule the "
+                "video in YouTube Studio."
             )
 
         result = UploadResult(
