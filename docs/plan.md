@@ -40,6 +40,20 @@ Her iş kendi branch'inde, küçük commit'lerle yapılır; her commit'te testle
 5. **feat/gameplay-background:** uzun oynanış videolarından her videoya daha önce kullanılmamış bir kesit seçen görüntü kaynağı; 9:16 kırpma, oyun sesi kısık, kullanılan aralıklar önbellekte.
 6. **feat/gemini-scripts ve fix/gemini-free-tier:** `IScriptGenerator` için Gemini. Ücretsiz modeller sırayla denenir, biri meşgulse sıradaki yazar. Google Search doğrulaması seçenek olarak kaldı; açıkken kaynaklar senaryo dosyasına yazılır ama seslendirilmez. Anahtar `.env` içinde, Ollama seçenek olarak kalır.
 7. **feat/shorts-karaoke ve feat/gta-shorts-tr:** Shorts'ta konuşulan kelimeyi vurgulayan altyazı. Türkçe GTA 5 Shorts paketi: kaynaklı 11 bilgilik liste; yalnız verilen bilgiyi yazan istem; uzunluk, abartılı söz, bilgide olmayan sayı ve Türkçe yazım denetimi; Ahmet sesi; oynanış videosu; sahne sonundaki sessizliğin kırpılması; `generate`, `daily` ve `topics` için `--format gta`.
-8. **Son tarama:** güvenlik kuralları ve kenar durumlar. Bilinen bulgular: sabit Cursor yolu; README'de API yüklemesinin gizli kilitlendiği bilginin eksik olması; bağımlılık taraması; `utils` paketi `config` paketinden önce içe aktarılınca döngüsel import hatası; testlerin geliştiricinin `.env` dosyasındaki gizli olmayan ayarları okuması.
+8. **fix/final-scan, son tarama:** güvenlik kuralları ve kenar durumlar. Git geçmişinde anahtar yok, kod kabuk komutu ve `eval` kullanmıyor. 13 bulgu düzeltildi:
+   - Pillow 11.3'te bilinen açıklar var ve MoviePy 2.2.1 Pillow'u 12'nin altında tutuyor. Dışarıdan gelen görseller yalnız JPEG, PNG ve WebP olarak açılıyor.
+   - Stok görüntü katkıcıları YouTube açıklamasına hiç gitmiyordu, artık yüklemeyle gidiyor.
+   - Hata metni manifest'e maskesiz yazılıyordu; Pixabay anahtarı URL içinde olduğu için sızabilirdi.
+   - Paint kapakları sabit bir Cursor yolunda aranıyordu, artık `output/storyboard` klasöründe.
+   - Gizli yükleme kilidi yanlış sebebe bağlanıyordu. Doğrusu, denetimden geçmemiş API projesi.
+   - `clean` onay sormadan siliyordu ve proje kökünü de silebiliyordu.
+   - İndirmelerde sayfa türü ve üst boyut denetimi yoktu.
+   - `schedule --remove` Türkçe Windows'ta hata veriyordu.
+   - `doctor` GTA biçimini bilmiyordu.
+   - `utils` ve `config` arasında döngüsel import vardı.
+   - Testler geliştiricinin `.env` dosyasını okuyordu.
+   - ffmpeg altyazı filtresi kesme işaretli yolda bozuluyordu.
+   - Yazı tipi indirmeleri sabit SHA-256 özetleriyle doğrulanmıyordu.
+   Sanal ortamdaki pip'i kullanıcı yükseltir. README bulguları iş 9'da.
 9. **docs/readme:** iki dilli README ve Öğrendiklerim bölümü.
 10. **Yayın:** repo açıklaması, topic'ler ve Website alanı; `docs/seo.md` ve portfolyo sayfası; v1.0.0 etiketi ve Release; proje notları; portfolyo kartı metinleri ve `docs/showcase.png`.
