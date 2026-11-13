@@ -19,7 +19,7 @@ scenarios/
 2. Otherwise the oldest `inbox/*.json` wins. Dropping a file is how you override the model.
 3. Otherwise the next unused topic in `topics.json` is generated, then rendered.
 4. A missed day (the PC was off) produces **one** video the next time the command runs, never
-   a burst of five. YouTube's default quota is about six uploads per day.
+   a burst of five, because scripts rushed out together are worse.
 
 Uploading stays off unless you pass `--upload` or set `DAILY_UPLOAD=true` in `.env`. Generated
 files are still `privacy_status: private`.

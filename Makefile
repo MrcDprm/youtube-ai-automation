@@ -1,4 +1,4 @@
-# Zero-cost local video production pipeline.
+# Turn a topic into a narrated, captioned video and upload it to YouTube.
 # Works on POSIX and on Windows (Git Bash / MSYS / nmake-free GNU make).
 
 ifeq ($(OS),Windows_NT)
@@ -34,7 +34,7 @@ font: ## Download the default subtitle/thumbnail font into assets/fonts/.
 doctor: ## Run all preflight checks.
 	$(PY) main.py doctor
 
-generate: ## Draft a scenario with a local Ollama model. Usage: make generate TOPIC="konu"
+generate: ## Draft a scenario with Gemini or a local Ollama model. Usage: make generate TOPIC="konu"
 	$(PY) main.py generate "$(TOPIC)" --out $(SCENARIO) --overwrite
 
 validate: ## Validate the scenario file.

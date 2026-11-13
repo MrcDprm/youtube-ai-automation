@@ -10,8 +10,8 @@ Priority, by design:
    overrides the model for a day.
 2. Otherwise the next unused topic in ``topics.json`` is generated.
 3. At most one video per calendar day, unless ``--force``. A missed day (the PC was off) is
-   recovered by producing *one* video the next time the command runs — never a burst, because
-   YouTube's daily quota is about six uploads and quality drops when five scripts are rushed.
+   recovered by producing *one* video the next time the command runs, never a burst, because
+   quality drops when several scripts are rushed out at once.
 """
 
 from __future__ import annotations
@@ -553,8 +553,8 @@ def decide_daily_action(
     extra = ""
     if missed > 1:
         extra = (
-            f" Last success was {missed} day(s) ago; producing one video now "
-            "(never a burst — YouTube quota is ~6 uploads/day)."
+            f" Last success was {missed} day(s) ago; producing one video now, "
+            "not one for every missed day."
         )
     return DailyAction(
         kind="generate",

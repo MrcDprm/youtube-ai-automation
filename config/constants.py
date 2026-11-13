@@ -228,8 +228,10 @@ YOUTUBE_FATAL_REASONS: Final[frozenset[str]] = frozenset(
     {"quotaExceeded", "forbidden", "authError", "uploadLimitExceeded"}
 )
 
-YOUTUBE_UPLOAD_QUOTA_COST: Final[int] = 1600
+YOUTUBE_DAILY_UPLOADS: Final[int] = 100
+"""``videos.insert`` has its own quota bucket: 100 calls per project per day, 1 unit each."""
 YOUTUBE_DAILY_QUOTA_DEFAULT: Final[int] = 10_000
+"""Units per day for every other call; a thumbnail or playlist entry costs 50, a caption 400."""
 
 THUMBNAIL_SIZE: Final[tuple[int, int]] = (1280, 720)
 THUMBNAIL_FRAME_RATIO: Final[float] = 0.15

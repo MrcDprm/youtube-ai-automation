@@ -1,7 +1,7 @@
 [project]
 name = "youtube-automation"
 version = "1.0.0"
-description = "Zero-cost, fully local automated video production pipeline."
+description = "Turn a topic into a narrated, captioned video and upload it to YouTube."
 requires-python = ">=3.10"
 
 [tool.ruff]

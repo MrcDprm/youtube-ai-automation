@@ -1,12 +1,12 @@
 """YouTube Data API v3 upload with OAuth 2.0 and resumable transfer.
 
 Three platform rules shape how this module behaves, and all are documented in the README.
-A single ``videos.insert`` costs roughly 1600 units against a default daily allowance of
-10,000, which permits about six uploads per day. While the Google Cloud OAuth consent screen
-is still in "Testing", refresh tokens expire after seven days. And YouTube keeps every video
-uploaded through the API private, whatever privacy status is requested, when the Google Cloud
-project was created after 28 July 2020 and has not passed YouTube's API compliance audit.
-Such videos are made public or scheduled by hand in YouTube Studio.
+``videos.insert`` has its own quota of 100 calls per project per day, while thumbnails,
+playlist entries and caption tracks share 10,000 units a day. While the Google Cloud OAuth
+consent screen is still in "Testing", refresh tokens expire after seven days. And YouTube
+keeps every video uploaded through the API private, whatever privacy status is requested,
+when the Google Cloud project was created after 28 July 2020 and has not passed YouTube's API
+compliance audit. Such videos are made public or scheduled by hand in YouTube Studio.
 
 Retries are therefore deliberately narrow. A ``500`` is worth retrying; a ``quotaExceeded``
 is not, and burning attempts on it only delays the error the user needs to see.
@@ -31,6 +31,8 @@ from config.constants import (
     SYNTHETIC_DISCLOSURE_TEXT,
     YOUTUBE_API_SERVICE_NAME,
     YOUTUBE_API_VERSION,
+    YOUTUBE_DAILY_QUOTA_DEFAULT,
+    YOUTUBE_DAILY_UPLOADS,
     YOUTUBE_DESCRIPTION_MAX_CHARS,
     YOUTUBE_FATAL_REASONS,
     YOUTUBE_RETRIABLE_REASONS,
@@ -482,9 +484,10 @@ class YouTubeUploader(IUploader):
                 raise UploadQuotaError(
                     "The YouTube API daily quota is exhausted.",
                     hint=(
-                        "An upload costs about 1600 of the default 10,000 daily units, so "
-                        "roughly six uploads per day. The quota resets at midnight Pacific "
-                        "time, or you can request an increase in the Google Cloud Console."
+                        f"A Google Cloud project may upload {YOUTUBE_DAILY_UPLOADS} videos a "
+                        "day, and thumbnails, playlist entries and caption tracks share "
+                        f"{YOUTUBE_DAILY_QUOTA_DEFAULT:,} units. Both reset at midnight Pacific "
+                        "time, and an increase can be requested in the Google Cloud Console."
                     ),
                 )
             raise UploadError(

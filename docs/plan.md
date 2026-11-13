@@ -56,4 +56,6 @@ Her iş kendi branch'inde, küçük commit'lerle yapılır; her commit'te testle
    - Yazı tipi indirmeleri sabit SHA-256 özetleriyle doğrulanmıyordu.
    Sanal ortamdaki pip'i kullanıcı yükseltir. README bulguları iş 9'da.
 9. **docs/readme:** iki dilli README ve Öğrendiklerim bölümü.
+   - README.md İngilizce, README.tr.md Türkçe olarak şablona göre yeniden yazıldı. Ekran görüntüsü olarak kelime vurgulu altyazının GIF'i ve `topics --gta` çıktısının SVG'si `docs/media` klasöründe. GIF'teki arka plan, repoda oyun görüntüsü olmadığı için üretilmiş bir renk geçişi.
+   - Eski bilgiler düzeltildi: YouTube'da günde yaklaşık altı yükleme sınırı yok, `videos.insert` için ayrı bir günlük 100 yükleme kotası var. Gemini eklendiği için araç artık tamamen yerel değil; komut satırı, Makefile ve pyproject açıklamaları buna göre değişti.
 10. **Yayın:** repo açıklaması, topic'ler ve Website alanı; `docs/seo.md` ve portfolyo sayfası; v1.0.0 etiketi ve Release; proje notları; portfolyo kartı metinleri ve `docs/showcase.png`.
