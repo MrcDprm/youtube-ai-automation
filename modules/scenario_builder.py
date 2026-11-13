@@ -36,6 +36,18 @@ from config.constants import (
     FILE_SUBTITLE_POSITION_RATIO,
     FILE_TTS_RATE,
     FILE_TTS_VOICE,
+    GTA_CATEGORY_ID,
+    GTA_GAME_AUDIO_VOLUME,
+    GTA_LANGUAGE,
+    GTA_SCENE_GAP_SECONDS,
+    GTA_SUBTITLE_ACCENT,
+    GTA_SUBTITLE_FONT,
+    GTA_SUBTITLE_FONT_SIZE,
+    GTA_SUBTITLE_MAX_CHARS,
+    GTA_SUBTITLE_POSITION_RATIO,
+    GTA_SUBTITLE_STROKE_WIDTH,
+    GTA_TTS_RATE,
+    GTA_TTS_VOICE,
     NARRATION_CHARS_PER_SECOND,
     PAINT_PLACEHOLDER_SEARCH_TERMS,
     POV_CATEGORY_ID,
@@ -70,6 +82,7 @@ from utils.fs import write_json
 __all__ = [
     "build_drawn_scenario",
     "build_file_scenario",
+    "build_gta_scenario",
     "build_paint_scenario",
     "build_pov_scenario",
     "build_scenario",
@@ -291,6 +304,130 @@ def build_scenario(
         raise ScriptGenerationError(
             f"The assembled scenario failed its own schema validation: {exc}",
             hint="This is a bug in modules/scenario_builder.py, not in your topic.",
+        ) from exc
+
+
+def build_gta_scenario(
+    draft: DraftScript,
+    *,
+    topic: str,
+    background_folder: Path,
+    project_id: str | None = None,
+    voice: str | None = None,
+    upload_enabled: bool = False,
+    burn_in: bool = True,
+    now: datetime | None = None,
+) -> Scenario:
+    """Assemble a Turkish GTA 5 Short: gameplay underneath, word-highlight captions on top.
+
+    Everything but the prose is fixed here: a portrait Short cut from one continuous stretch
+    of the gameplay folder, the game's own sound muted, the Ahmet voice with the silence after
+    each sentence trimmed, capital Anton captions that highlight the spoken word above the
+    Shorts buttons, no zoom, and YouTube's Gaming category. The fact's sources go into the
+    scenario file for review.
+
+    Args:
+        draft: The generated narration and metadata.
+        topic: The topic, used for the project id when none is given.
+        background_folder: The folder of GTA 5 gameplay recordings, stored as given so a
+            relative path stays relative to the project.
+        project_id: Explicit project id; derived from ``topic`` when omitted.
+        voice: edge-tts voice; ``GTA_TTS_VOICE`` when omitted.
+        upload_enabled: Whether ``run`` should upload.
+        burn_in: Whether to burn the captions into the frame.
+        now: Timestamp used for the project id suffix.
+
+    Returns:
+        A validated Shorts scenario.
+
+    Raises:
+        ScriptGenerationError: If the draft has no scenes, or the payload fails the schema,
+            for example because the gameplay folder does not exist.
+    """
+    if not draft.scenes:
+        raise ScriptGenerationError("The draft contains no scenes.")
+
+    gap = GTA_SCENE_GAP_SECONDS
+    scenes: list[dict[str, Any]] = [
+        {
+            "id": index,
+            "narration": scene.narration,
+            "search_terms": list(scene.search_terms),
+            "clips_per_scene": 1,
+            "min_clip_duration": 3.0,
+            # Zooming into gameplay reads as a camera glitch, not as motion.
+            "zoom_effect": False,
+        }
+        for index, scene in enumerate(draft.scenes, start=1)
+    ]
+    estimated = estimate_total_seconds(draft, gap)
+    ceiling = min(
+        _MAX_MAX_DURATION, max(_MIN_MAX_DURATION, round(estimated * DURATION_ESTIMATE_HEADROOM))
+    )
+
+    payload: dict[str, Any] = {
+        "project_id": project_id or make_project_id(topic, now=now),
+        "video": {
+            "orientation": "portrait",
+            "fps": 30,
+            "max_duration_seconds": ceiling,
+            "scene_gap_seconds": gap,
+            "crossfade_seconds": 0.0,
+            "video_bitrate_crf": 20,
+            "preset": "medium",
+            "background_video": {
+                "enabled": True,
+                "folder": str(background_folder),
+                "game_audio_volume": GTA_GAME_AUDIO_VOLUME,
+            },
+        },
+        "tts": {
+            "voice": voice or GTA_TTS_VOICE,
+            "rate": GTA_TTS_RATE,
+            "normalize_text": True,
+            "language": GTA_LANGUAGE,
+            "trim_trailing_silence": True,
+        },
+        "subtitles": {
+            "enabled": True,
+            "burn_in": burn_in,
+            "karaoke": True,
+            "uppercase": True,
+            "font": GTA_SUBTITLE_FONT,
+            "font_size": GTA_SUBTITLE_FONT_SIZE,
+            "max_chars_per_line": GTA_SUBTITLE_MAX_CHARS,
+            "max_lines": 2,
+            "color": "#FFFFFF",
+            "accent_color": GTA_SUBTITLE_ACCENT,
+            "stroke_color": "#000000",
+            "stroke_width": GTA_SUBTITLE_STROKE_WIDTH,
+            "position_ratio": GTA_SUBTITLE_POSITION_RATIO,
+        },
+        "youtube": {
+            "upload_enabled": upload_enabled,
+            "title": draft.title,
+            "description": draft.description,
+            "tags": list(draft.tags),
+            "category_id": GTA_CATEGORY_ID,
+            "privacy_status": "private",
+            "made_for_kids": False,
+            "synthetic_content_disclosure": True,
+            "default_language": GTA_LANGUAGE,
+            "thumbnail_enabled": True,
+        },
+        "scenes": scenes,
+        "sources": [{"title": source.title, "url": source.url} for source in draft.sources],
+    }
+
+    try:
+        return Scenario.model_validate(payload)
+    except Exception as exc:
+        raise ScriptGenerationError(
+            f"The GTA 5 scenario failed validation: {exc}",
+            hint=(
+                "Check that the gameplay folder exists. Everything else is set in "
+                "modules/scenario_builder.py."
+            ),
         ) from exc
 
 
