@@ -2,7 +2,7 @@
 
 # YouTube AI Automation
 
-A Python command-line tool that turns a topic into a finished YouTube Short: Gemini writes the script, Edge TTS reads it, the captions highlight each spoken word, and the video is rendered and uploaded to YouTube. It includes a Turkish GTA 5 Shorts pack that writes only from checked facts and plays over your own gameplay recordings.
+A YouTube Shorts automation tool for the command line, written in Python: it uses AI to turn a topic into a finished video. Gemini writes the script, Edge TTS reads it, the captions highlight each spoken word, and the video is rendered and uploaded to YouTube. It includes a Turkish GTA 5 Shorts pack that writes only from checked facts and plays over your own gameplay recordings.
 
 ## Features
 

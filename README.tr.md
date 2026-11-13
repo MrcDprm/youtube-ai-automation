@@ -2,7 +2,7 @@
 
 # YouTube AI Automation
 
-Bir konuyu bitmiş bir YouTube Shorts videosuna çeviren Python komut satırı aracı: senaryoyu Gemini yazar, Edge TTS seslendirir, altyazı konuşulan her kelimeyi vurgular, video render edilip YouTube'a yüklenir. İçindeki Türkçe GTA 5 Shorts paketi yalnızca doğrulanmış bilgilerden yazar ve senin kendi oynanış kayıtlarının üzerinde oynar.
+Python ile yazılmış, komut satırında çalışan bir YouTube Shorts otomasyonu: yapay zeka ile bir konudan bitmiş bir video oluşturur. Senaryoyu Gemini yazar, Edge TTS seslendirir, altyazı konuşulan her kelimeyi vurgular, video render edilip YouTube'a yüklenir. İçindeki Türkçe GTA 5 Shorts paketi yalnızca doğrulanmış bilgilerden yazar ve senin kendi oynanış kayıtlarının üzerinde oynar.
 
 ## Özellikler
 
