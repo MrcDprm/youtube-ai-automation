@@ -16,6 +16,9 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from config.constants import (
     CACHE_SUBDIRECTORIES,
+    CLI_VIDEO_FORMATS,
+    DEFAULT_GTA_BACKGROUND_DIR,
+    DEFAULT_GTA_TOPICS_FILE,
     DEFAULT_SCENARIOS_DIR,
     DEFAULT_TOPICS_FILE,
     GEMINI_DEFAULT_FALLBACKS,
@@ -30,7 +33,6 @@ from config.constants import (
     SCRIPT_MIN_SCENES,
     SCRIPT_PROVIDERS,
     VALID_ORIENTATIONS,
-    VALID_VIDEO_FORMATS,
     VIDEO_FORMAT_SHORTS,
 )
 from utils.exceptions import ConfigurationError
@@ -94,6 +96,7 @@ class Settings(BaseSettings):
     VIDEO_FORMAT: str = Field(default=VIDEO_FORMAT_SHORTS)
     DAILY_TIME: str = Field(default="09:00")
     SCENARIOS_DIR: Path = Field(default=DEFAULT_SCENARIOS_DIR)
+    GTA_BACKGROUND_DIR: Path = Field(default=Path(DEFAULT_GTA_BACKGROUND_DIR))
 
     # --- Runtime -------------------------------------------------------------------
     LOG_LEVEL: str = Field(default="INFO")
@@ -159,11 +162,11 @@ class Settings(BaseSettings):
     @field_validator("VIDEO_FORMAT")
     @classmethod
     def _validate_video_format(cls, value: str) -> str:
-        """Accept only the formats the pipeline knows how to render."""
+        """Accept only the formats the pipeline knows how to produce."""
         cleaned = value.strip().lower()
-        if cleaned not in VALID_VIDEO_FORMATS:
+        if cleaned not in CLI_VIDEO_FORMATS:
             raise ValueError(
-                f"VIDEO_FORMAT must be one of {sorted(VALID_VIDEO_FORMATS)}, got {value!r}"
+                f"VIDEO_FORMAT must be one of {sorted(CLI_VIDEO_FORMATS)}, got {value!r}"
             )
         return cleaned
 
@@ -305,6 +308,14 @@ class Settings(BaseSettings):
     def topics_path(self) -> Path:
         """Path to the topic list the daily command consumes."""
         return self.scenarios_dir() / DEFAULT_TOPICS_FILE
+
+    def gta_topics_path(self) -> Path:
+        """Path to the checked GTA 5 facts that ``--format gta`` writes from."""
+        return self.scenarios_dir() / DEFAULT_GTA_TOPICS_FILE
+
+    def gta_background_dir(self) -> Path:
+        """Absolute path to the folder of GTA 5 gameplay recordings."""
+        return self._absolute(self.GTA_BACKGROUND_DIR)
 
     def scheduler_state_path(self) -> Path:
         """Path to the daily-run state file (last success date and used topics)."""
