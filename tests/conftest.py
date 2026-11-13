@@ -64,8 +64,11 @@ def isolated_environment(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Ite
     """
     for key in SECRET_ENV_KEYS:
         monkeypatch.delenv(key, raising=False)
-    # Deleting is not enough for keys: Settings also reads the developer's real .env, and only
-    # an environment variable outranks it. An empty one keeps every real key out of the tests.
+    # Settings would also read the developer's real .env, where a line such as
+    # VIDEO_FORMAT=gta changes what the tests exercise. Here only the environment counts.
+    monkeypatch.setitem(Settings.model_config, "env_file", None)
+    # Kept as a second guard: an empty variable keeps every real key out even if a test
+    # turns the .env file back on.
     for key in API_KEY_ENV_KEYS:
         monkeypatch.setenv(key, "")
 

@@ -278,21 +278,19 @@ def unregister_daily_task(task_name: str = SCHEDULER_TASK_NAME) -> str:
         A short confirmation.
 
     Raises:
-        SchedulerError: If the host is not Windows, or deletion fails for a reason other than
-            'task not found'.
+        SchedulerError: If the host is not Windows, or a registered task cannot be deleted.
     """
     if not is_windows():
         raise SchedulerError(
             "Automatic uninstallation is only implemented for Windows Task Scheduler.",
             hint="Remove the crontab line that calls 'python main.py daily'.",
         )
+    # Asking first beats reading the error: Windows translates schtasks' messages, so a
+    # missing task reads cannot find on one machine and bulamıyor on another.
+    if _run(["schtasks", "/Query", "/TN", task_name]).returncode != 0:
+        return f"No scheduled task named {task_name} was registered, so nothing was removed."
     result = _run(["schtasks", "/Delete", "/TN", task_name, "/F"])
-    combined = f"{result.stdout} {result.stderr}".lower()
-    if (
-        result.returncode != 0
-        and "cannot find" not in combined
-        and "cannot find the file" not in combined
-    ):
+    if result.returncode != 0:
         raise SchedulerError(
             f"schtasks could not remove '{task_name}': "
             f"{(result.stderr or result.stdout or '').strip()}",
@@ -344,6 +342,9 @@ def query_task(
 def _run(args: list[str]) -> subprocess.CompletedProcess[str]:
     """Run a command without a shell, capturing text output.
 
+    Windows console tools such as schtasks write in the OEM code page, cp857 on a Turkish
+    system, so reading their output as UTF-8 garbles every non-ASCII letter.
+
     Args:
         args: Argument vector.
 
@@ -355,6 +356,6 @@ def _run(args: list[str]) -> subprocess.CompletedProcess[str]:
         check=False,
         capture_output=True,
         text=True,
-        encoding="utf-8",
+        encoding="oem" if is_windows() else "utf-8",
         errors="replace",
     )

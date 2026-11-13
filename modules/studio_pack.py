@@ -9,6 +9,7 @@ from PIL import Image
 
 from config.constants import (
     PAINT_PLAYLISTS,
+    SAFE_IMAGE_FORMATS,
     SYNTHETIC_DISCLOSURE_TEXT,
     THUMBNAIL_MIN_JPEG_QUALITY,
     THUMBNAIL_SIZE,
@@ -147,7 +148,7 @@ def prepare_youtube_thumbnail(source: Path, out_path: Path) -> Path:
         RenderError: If the image cannot be read or squeezed under 2 MB.
     """
     try:
-        frame = Image.open(source).convert("RGB")
+        frame = Image.open(source, formats=SAFE_IMAGE_FORMATS).convert("RGB")
     except OSError as exc:
         raise RenderError(f"Could not read paint thumbnail {source}: {exc}") from exc
 

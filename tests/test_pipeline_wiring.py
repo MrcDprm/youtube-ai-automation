@@ -11,13 +11,15 @@ import ast
 import asyncio
 import dataclasses
 import inspect
+import json
 import re
+from collections.abc import Sequence
 from pathlib import Path
 from typing import Any
 
 import pytest
 
-from config.constants import PROJECT_ROOT
+from config.constants import PROJECT_ROOT, REDACTION_PLACEHOLDER
 from config.settings import Settings
 from models.scenario import Scenario, SubtitleSettings, TTSSettings, YouTubeSettings
 from modules.interfaces import (
@@ -41,6 +43,7 @@ from modules.pipeline import PipelineOptions, RunManifest, VideoPipeline
 from modules.tts import EdgeTTSEngine, attach_punctuation, normalize_narration, year_to_turkish
 from modules.uploader import build_description
 from utils.exceptions import ConfigurationError, TTSError
+from utils.logger import register_secret
 
 PIPELINE_SOURCE = PROJECT_ROOT / "modules" / "pipeline.py"
 
@@ -328,14 +331,21 @@ class FakeUploader(IUploader):
     def __init__(self) -> None:
         self.authenticated = False
         self.uploads: list[Path] = []
+        self.credits: list[list[MediaCredit]] = []
 
     def authenticate(self) -> None:
         self.authenticated = True
 
     def upload(
-        self, video_path: Path, meta: YouTubeSettings, thumbnail: Path | None
+        self,
+        video_path: Path,
+        meta: YouTubeSettings,
+        thumbnail: Path | None,
+        *,
+        credits: Sequence[MediaCredit] = (),
     ) -> UploadResult:
         self.uploads.append(video_path)
+        self.credits.append(list(credits))
         return UploadResult(
             video_id="abc123",
             url="https://www.youtube.com/watch?v=abc123",
@@ -593,6 +603,70 @@ def test_upload_runs_when_enabled(settings: Settings) -> None:
     assert len(uploader.uploads) == 1
     assert manifest.youtube_video_id == "abc123"
     assert manifest.youtube_privacy_status == "private"
+
+
+def test_paint_covers_are_found_inside_the_project(settings: Settings) -> None:
+    """A cover named after the episode in output/storyboard is the one used."""
+    pipeline, _ = _pipeline(settings)
+    cover = settings.storyboard_dir() / "thumbnail-wiring-test.png"
+    cover.parent.mkdir(parents=True, exist_ok=True)
+    cover.write_bytes(b"png")
+
+    assert pipeline._paint_cover() == cover
+
+
+def test_no_source_file_points_into_a_users_home_folder() -> None:
+    """A path such as C:/Users/name/.cursor works on one machine and leaks a user name."""
+    pattern = re.compile(r"[A-Za-z]:[\\/]+Users[\\/]|/home/[a-z]|\.cursor[\\/]")
+    offenders = [
+        f"{path.relative_to(PROJECT_ROOT)}:{number}"
+        for folder in ("config", "models", "modules", "utils", "zenn")
+        for path in sorted((PROJECT_ROOT / folder).rglob("*.py"))
+        for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1)
+        if pattern.search(line)
+    ]
+    main_lines = (PROJECT_ROOT / "main.py").read_text(encoding="utf-8").splitlines()
+    offenders += [f"main.py:{n}" for n, line in enumerate(main_lines, 1) if pattern.search(line)]
+
+    assert offenders == []
+
+
+class LeakyTTS(FakeTTS):
+    """Fails with an error message that repeats a secret, as a request URL would."""
+
+    async def synthesize(self, text: str, out_path: Path, tts: TTSSettings) -> TTSResult:
+        raise TTSError(f"Speech request failed for token {LEAKED_SECRET}")
+
+
+LEAKED_SECRET = "gizli-deger-9f8e7d6c5b4a"
+
+
+def test_a_failure_never_writes_a_secret_into_the_manifest(settings: Settings) -> None:
+    """The console and logs mask secrets; the manifest on disk must mask them as well."""
+    register_secret(LEAKED_SECRET)
+    pipeline, _ = _pipeline(settings, tts=LeakyTTS())
+
+    with pytest.raises(TTSError):
+        pipeline.run()
+
+    manifest = (settings.final_dir() / "wiring-test_manifest.json").read_text(encoding="utf-8")
+    assert LEAKED_SECRET not in manifest
+    assert REDACTION_PLACEHOLDER in json.loads(manifest)["error"]
+
+
+def test_upload_names_every_footage_contributor_once(settings: Settings) -> None:
+    """The credits are known only after the footage stage, so they travel with the upload."""
+    uploader = FakeUploader()
+    scenario = _scenario(
+        youtube={"title": "Wiring Test", "upload_enabled": True, "privacy_status": "private"}
+    )
+    pipeline, _ = _pipeline(settings, scenario=scenario, uploader=uploader)
+
+    pipeline.run()
+
+    assert uploader.credits == [pipeline.credits]
+    assert pipeline.credits
+    assert len({credit.key() for credit in pipeline.credits}) == len(pipeline.credits)
 
 
 def test_public_upload_requires_confirmation(settings: Settings) -> None:

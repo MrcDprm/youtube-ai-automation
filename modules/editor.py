@@ -1125,10 +1125,19 @@ class MoviePyEditor(IVideoEditor):
 
     @staticmethod
     def _ass_filter(ass_path: Path, fonts_dir: Path) -> str:
-        """Build an ffmpeg ``ass=`` filter with a Windows-safe path."""
-        script = ass_path.resolve().as_posix().replace("\\", "/").replace(":", r"\:")
-        fonts = fonts_dir.resolve().as_posix().replace("\\", "/").replace(":", r"\:")
-        return f"ass='{script}':fontsdir='{fonts}'"
+        """Build an ffmpeg ``ass=`` filter that survives any Windows path.
+
+        ffmpeg reads the value twice. The filter graph keeps everything between single quotes
+        as it is, and the option parser then turns ``\\:`` into a colon and ``\\'`` into an
+        apostrophe. A quote cannot appear inside quotes, so an apostrophe, as in a user folder
+        named ``O'Neil``, closes the quote, adds an escaped one, and opens it again.
+        """
+
+        def quoted(path: Path) -> str:
+            text = path.resolve().as_posix().replace("\\", "/").replace(":", r"\:")
+            return "'" + text.replace("'", r"\'\''") + "'"
+
+        return f"ass={quoted(ass_path)}:fontsdir={quoted(fonts_dir)}"
 
     @staticmethod
     def _run_ffmpeg(cmd: list[str], what: str) -> None:

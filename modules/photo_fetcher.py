@@ -26,10 +26,11 @@ from config.constants import (
     USER_AGENT,
 )
 from modules.interfaces import IMediaProvider, MediaCandidate
-from modules.media_cache import MediaCache
+from modules.media_cache import MAX_PHOTO_DOWNLOAD_BYTES, MediaCache
 from modules.video_fetcher import score_candidate
-from utils.exceptions import MediaNotFoundError, MediaProviderError
+from utils.exceptions import MediaDownloadError, MediaNotFoundError, MediaProviderError
 from utils.logger import get_logger, log_warn
+from utils.media import image_format
 from utils.retry import make_retrying
 
 __all__ = [
@@ -49,6 +50,37 @@ _PIXABAY_ORIENTATION = {
 # Pexels `src.landscape` / `src.portrait` are social-card crops (~1200x627). Always prefer
 # the full photograph so Ken Burns has enough pixels for 1920x1080.
 _STILL_URL_KEYS = ("original", "large2x", "large")
+
+
+def _download_checked_photo(cache: MediaCache, url: str, dest: Path) -> Path:
+    """Download a photo and keep it only if Pillow recognises it as JPEG, PNG or WebP.
+
+    Args:
+        cache: The media cache that fetches and stores the file.
+        url: The photo's address.
+        dest: Where the run wants its copy.
+
+    Returns:
+        The downloaded photo at ``dest``.
+
+    Raises:
+        MediaDownloadError: If the file is in any other format. Both copies are deleted, so a
+            later run downloads it again instead of trusting the cached file.
+    """
+    path = cache.fetch(url, dest=dest, maximum_bytes=MAX_PHOTO_DOWNLOAD_BYTES)
+    try:
+        image_format(path)
+    except OSError as exc:
+        for stale in {path, cache.path_for(url)}:
+            stale.unlink(missing_ok=True)
+        raise MediaDownloadError(
+            f"A downloaded photo was not a JPEG, PNG or WebP image: {path.name}",
+            hint=(
+                "The provider sent an error page or another file type, and the file was "
+                "deleted. Try again later, or change the scene's search terms."
+            ),
+        ) from exc
+    return path
 
 
 def _best_still_url(src: dict[str, Any], orientation: str) -> tuple[str, str]:
@@ -162,7 +194,7 @@ class PexelsPhotoProvider(IMediaProvider):
         Returns:
             The path to the downloaded file.
         """
-        return self._cache.fetch(candidate.download_url, dest=dest)
+        return _download_checked_photo(self._cache, candidate.download_url, dest)
 
     def _request(self, url: str, params: dict[str, Any]) -> dict[str, Any]:
         """Perform an authenticated GET under the shared retry policy."""
@@ -344,7 +376,7 @@ class PixabayPhotoProvider(IMediaProvider):
 
     def download(self, candidate: MediaCandidate, dest: Path) -> Path:
         """Download a Pixabay photograph."""
-        return self._cache.fetch(candidate.download_url, dest=dest)
+        return _download_checked_photo(self._cache, candidate.download_url, dest)
 
     def _request(self, params: dict[str, Any]) -> dict[str, Any]:
         """Perform a GET under the shared retry policy."""

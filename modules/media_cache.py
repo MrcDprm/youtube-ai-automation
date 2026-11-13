@@ -32,6 +32,15 @@ ProgressCallback = Callable[[int, int | None], None]
 MIN_PLAUSIBLE_VIDEO_BYTES = 10_240
 """A stock clip smaller than this is an error page, not a video."""
 
+MAX_VIDEO_DOWNLOAD_BYTES = 1 << 30
+"""1 GiB. The fetcher picks files near 1080p, so a larger download is not a usable clip."""
+
+MAX_PHOTO_DOWNLOAD_BYTES = 50 << 20
+"""50 MiB, above the largest original photographs Pexels and Pixabay serve."""
+
+_PAGE_TYPES = frozenset({"application/json", "application/xml", "application/xhtml+xml"})
+"""Content types of an error or login page rather than a media file."""
+
 _CONTENT_TYPE_SUFFIXES = {
     "video/mp4": ".mp4",
     "video/quicktime": ".mov",
@@ -134,6 +143,7 @@ class MediaCache:
         headers: dict[str, str] | None = None,
         on_progress: ProgressCallback | None = None,
         minimum_bytes: int = MIN_PLAUSIBLE_VIDEO_BYTES,
+        maximum_bytes: int = MAX_VIDEO_DOWNLOAD_BYTES,
     ) -> Path:
         """Download a URL, or return the cached copy.
 
@@ -144,17 +154,25 @@ class MediaCache:
             headers: Extra request headers.
             on_progress: Called with ``(downloaded, total)`` as bytes arrive.
             minimum_bytes: Smallest acceptable file size.
+            maximum_bytes: Largest acceptable file size; a longer transfer is stopped.
 
         Returns:
             The path to the cached file, or to ``dest`` when one was requested.
 
         Raises:
-            MediaDownloadError: If the download fails, is truncated, or is too small.
+            MediaDownloadError: If the download fails, is truncated, is a web page rather
+                than media, or falls outside the size limits.
         """
         cache_path = self.path_for(url)
 
         if self._force or not self.is_cached(url):
-            self._download(url, cache_path, headers=headers, on_progress=on_progress)
+            self._download(
+                url,
+                cache_path,
+                headers=headers,
+                on_progress=on_progress,
+                maximum_bytes=maximum_bytes,
+            )
             self._verify(cache_path, minimum_bytes)
         else:
             logger.debug(
@@ -177,6 +195,7 @@ class MediaCache:
         *,
         headers: dict[str, str] | None,
         on_progress: ProgressCallback | None,
+        maximum_bytes: int,
     ) -> None:
         """Fetch a URL into the cache under the shared retry policy.
 
@@ -185,13 +204,14 @@ class MediaCache:
             cache_path: Destination inside the cache.
             headers: Extra request headers.
             on_progress: Progress callback.
+            maximum_bytes: Largest acceptable file size.
 
         Raises:
             MediaDownloadError: If every attempt fails.
         """
         controller = make_retrying(max_attempts=self._max_attempts)
         try:
-            controller(self._download_once, url, cache_path, headers, on_progress)
+            controller(self._download_once, url, cache_path, headers, on_progress, maximum_bytes)
         except requests.RequestException as exc:
             raise MediaDownloadError(
                 f"Could not download media after {self._max_attempts} attempts: {exc}",
@@ -204,6 +224,7 @@ class MediaCache:
         cache_path: Path,
         headers: dict[str, str] | None,
         on_progress: ProgressCallback | None,
+        maximum_bytes: int,
     ) -> None:
         """Perform a single streaming download attempt.
 
@@ -212,10 +233,12 @@ class MediaCache:
             cache_path: Destination inside the cache.
             headers: Extra request headers.
             on_progress: Progress callback.
+            maximum_bytes: Largest acceptable file size.
 
         Raises:
             requests.HTTPError: On a non-success status, so the retry policy can classify it.
-            MediaDownloadError: If the transfer ends short of the advertised length.
+            MediaDownloadError: If the server sends a web page, the file is larger than
+                ``maximum_bytes``, or the transfer ends short of the advertised length.
         """
         ensure_parent(cache_path)
         part_path = cache_path.with_suffix(cache_path.suffix + ".part")
@@ -231,16 +254,27 @@ class MediaCache:
         try:
             response.raise_for_status()
 
+            content_type = response.headers.get("Content-Type", "").split(";")[0].strip().lower()
+            if content_type.startswith("text/") or content_type in _PAGE_TYPES:
+                raise MediaDownloadError(
+                    f"The server sent {content_type} instead of a media file.",
+                    hint="The link may have expired, or the provider returned an error page.",
+                )
+
             declared = response.headers.get("Content-Length")
             total = int(declared) if declared and declared.isdigit() else None
+            if total is not None and total > maximum_bytes:
+                raise MediaDownloadError(self._too_large(total, maximum_bytes))
             written = 0
 
             with part_path.open("wb") as handle:
                 for chunk in response.iter_content(chunk_size=DOWNLOAD_CHUNK_SIZE):
                     if not chunk:
                         continue
-                    handle.write(chunk)
                     written += len(chunk)
+                    if written > maximum_bytes:
+                        raise MediaDownloadError(self._too_large(written, maximum_bytes))
+                    handle.write(chunk)
                     if on_progress is not None:
                         on_progress(written, total)
 
@@ -258,6 +292,14 @@ class MediaCache:
             response.close()
             with contextlib.suppress(OSError):
                 part_path.unlink(missing_ok=True)
+
+    @staticmethod
+    def _too_large(size: int, maximum_bytes: int) -> str:
+        """Describe a download that went past the size limit."""
+        return (
+            f"The download reached {format_bytes(size)}, above the "
+            f"{format_bytes(maximum_bytes)} limit for one file, and was stopped."
+        )
 
     @staticmethod
     def _verify(path: Path, minimum_bytes: int) -> None:

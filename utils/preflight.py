@@ -22,14 +22,16 @@ from typing import TYPE_CHECKING
 import requests
 
 from config.constants import (
+    BACKGROUND_VIDEO_EXTENSIONS,
     EDGE_TTS_MIN_VERSION,
     MIN_FREE_DISK_BYTES,
     MIN_PYTHON_VERSION,
     OLLAMA_TAGS_PATH,
     OUTPUT_SUBDIRECTORIES,
     PROJECT_ROOT,
+    VIDEO_FORMAT_GTA,
 )
-from utils.exceptions import FontNotFoundError, PreflightError, RenderError
+from utils.exceptions import FontNotFoundError, PipelineError, PreflightError, RenderError
 from utils.fs import available_fonts, format_bytes, free_disk_bytes, resolve_font
 from utils.media import ffmpeg_executable
 
@@ -409,6 +411,8 @@ def _check_ollama(settings: Settings) -> CheckResult:
 
 def _check_topics(settings: Settings) -> CheckResult:
     """Report whether a daily topic list exists. Never fatal: daily is optional."""
+    if settings.VIDEO_FORMAT == VIDEO_FORMAT_GTA:
+        return _check_gta_topics(settings)
     path = settings.topics_path()
     if path.is_file():
         return CheckResult(name="Daily topics", passed=True, detail=str(path))
@@ -421,6 +425,70 @@ def _check_topics(settings: Settings) -> CheckResult:
     )
 
 
+def _check_gta_topics(settings: Settings) -> CheckResult:
+    """Report whether the GTA list loads and every entry carries its checked fact.
+
+    Never fatal, like the daily topic list: only ``daily`` and ``generate --format gta`` read it.
+    """
+    # Imported here: modules.queue reaches config.settings, which imports this package.
+    from modules.queue import load_topics
+
+    name = "GTA topics"
+    path = settings.gta_topics_path()
+    try:
+        topics = load_topics(path)
+    except PipelineError as exc:
+        return CheckResult(
+            name=name,
+            passed=False,
+            detail=exc.message,
+            hint="Restore scenarios/topics-gta.json with git, or fix the entry the message names.",
+            fatal=False,
+        )
+    missing = sum(1 for topic in topics if not topic.fact)
+    if not topics or missing:
+        return CheckResult(
+            name=name,
+            passed=False,
+            detail=(
+                f"{missing} of {len(topics)} topic(s) have no fact"
+                if topics
+                else f"{path.name} lists no topics"
+            ),
+            hint="Give every entry in scenarios/topics-gta.json a fact checked in two sources.",
+            fatal=False,
+        )
+    return CheckResult(name=name, passed=True, detail=f"{len(topics)} checked facts in {path.name}")
+
+
+def _check_gta_gameplay(settings: Settings) -> CheckResult:
+    """Report whether the gameplay folder holds a recording a GTA Short can be cut from."""
+    folder = settings.gta_background_dir()
+    videos = (
+        [
+            path
+            for path in folder.iterdir()
+            if path.is_file() and path.suffix.lower() in BACKGROUND_VIDEO_EXTENSIONS
+        ]
+        if folder.is_dir()
+        else []
+    )
+    if videos:
+        return CheckResult(
+            name="GTA gameplay", passed=True, detail=f"{len(videos)} recording(s) in {folder}"
+        )
+    return CheckResult(
+        name="GTA gameplay",
+        passed=False,
+        detail=f"no video files in {folder}",
+        hint=(
+            "Put long gameplay recordings of your own in that folder, or point "
+            "GTA_BACKGROUND_DIR in .env at another one."
+        ),
+        fatal=False,
+    )
+
+
 def run_all_checks(settings: Settings) -> list[CheckResult]:
     """Run every preflight check.
 
@@ -428,8 +496,10 @@ def run_all_checks(settings: Settings) -> list[CheckResult]:
         settings: Loaded runtime settings.
 
     Returns:
-        One :class:`CheckResult` per check, in display order.
+        One :class:`CheckResult` per check, in display order. The GTA gameplay check runs
+        only when ``VIDEO_FORMAT`` is ``gta``.
     """
+    gta = [_check_gta_gameplay(settings)] if settings.VIDEO_FORMAT == VIDEO_FORMAT_GTA else []
     return [
         _check_python_version(),
         _check_ffmpeg(),
@@ -444,6 +514,7 @@ def run_all_checks(settings: Settings) -> list[CheckResult]:
         _check_ffmpeg_threads(settings),
         _check_script_provider(settings),
         _check_topics(settings),
+        *gta,
         _check_youtube_credentials(settings),
     ]
 
