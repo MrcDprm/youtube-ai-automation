@@ -135,6 +135,12 @@ MAX_FPS: Final[int] = 60
 FIRST_FRAMES_SKIP_SECONDS: Final[float] = 0.5
 """Stock clips frequently open on a fade; skip this much before sampling a segment."""
 
+SAFE_IMAGE_FORMATS: Final[tuple[str, ...]] = ("JPEG", "PNG", "WEBP")
+"""The only formats Pillow may recognise in an image from outside the project.
+
+Pillow 11.3 has published flaws in the decoders of rarer formats such as TIFF, SPIDER and WMF,
+and MoviePy 2.2.1, the newest release, holds Pillow below 12, where those flaws are fixed."""
+
 BACKGROUND_VIDEO_EXTENSIONS: Final[frozenset[str]] = frozenset(
     {".mp4", ".mov", ".mkv", ".webm", ".m4v"}
 )

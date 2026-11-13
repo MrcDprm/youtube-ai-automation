@@ -10,10 +10,13 @@ import shutil
 from dataclasses import dataclass
 from pathlib import Path
 
+from PIL import Image
+
 from config.constants import (
     KEN_BURNS_UPSCALE,
     ORIENTATION_RESOLUTIONS,
     ORIENTATION_TOLERANCE,
+    SAFE_IMAGE_FORMATS,
     SUBTITLE_BOTTOM_MARGIN_RATIO,
     VALID_ORIENTATIONS,
 )
@@ -25,6 +28,7 @@ __all__ = [
     "classify_orientation",
     "distribute_duration",
     "ffmpeg_executable",
+    "image_format",
     "ken_burns_zoompan_filter",
     "make_even",
     "matches_orientation",
@@ -34,6 +38,26 @@ __all__ = [
     "subtitle_top_y",
     "zoom_scale_at",
 ]
+
+
+def image_format(path: Path) -> str:
+    """Identify an image from outside the project, accepting only JPEG, PNG and WebP.
+
+    Pillow is told to try just these three formats, so a downloaded TIFF, SPIDER or WMF file
+    is refused before any of their decoders runs. MoviePy reads stills through Pillow too, so a
+    file that passes here reaches it as one of the three.
+
+    Args:
+        path: The image file.
+
+    Returns:
+        The format name Pillow reports, such as ``"JPEG"``.
+
+    Raises:
+        OSError: If the file is missing, unreadable, or in any other format.
+    """
+    with Image.open(path, formats=SAFE_IMAGE_FORMATS) as image:
+        return str(image.format)
 
 
 def make_even(value: int) -> int:
